@@ -1,0 +1,26 @@
+AllComplex
+((Lalb, Dnov), (Hlab, (Ccal, (((Aflo, Amel)$1, ((Bter, Bimp), Mqua$1)), Emex))), Mrot);
+
+AllOrigin
+((Lalb $1, Dnov), (Hlab, (Ccal $1, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex)$1)), Mrot);
+
+AllOriginEpi
+((Lalb #1, Dnov), (Hlab, (Ccal #1, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex)#1)), Mrot);
+
+Apis
+((Lalb, Dnov), (Hlab, (Ccal, (((Aflo, Amel)$1, ((Bter, Bimp), Mqua)), Emex))), Mrot);
+
+CorbSoc
+((Lalb, Dnov), (Hlab, (Ccal, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex)$1)), Mrot);
+
+CorbSocEpi
+((Lalb, Dnov), (Hlab, (Ccal, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex)#1)), Mrot);
+
+Halictid
+((Lalb $1, Dnov), (Hlab, (Ccal, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex))), Mrot);
+
+Meli
+((Lalb, Dnov), (Hlab, (Ccal, (((Aflo, Amel), ((Bter, Bimp), Mqua$1)), Emex))), Mrot);
+
+Xylo
+((Lalb, Dnov), (Hlab, (Ccal $1, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex))), Mrot);
