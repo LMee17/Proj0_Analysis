@@ -1,8 +1,8 @@
 ---
-title: "R Notebook"
+title: "Project Zero"
 output: html_notebook
 ---
-# Project Zero 
+## Project Notes 
 
 This project is concerned with looking at evolutionary signatures of selection on immune-associated genes, both canonical and candidate. All immune genes (canon/noncanon) are based on orthologs from Apis mellifera (Amel_HAv3.1, NCBI genome).
 
@@ -12,6 +12,13 @@ Evolutionary rate of each gene product was estimated using a codeml run that con
 
 The main analysis consisted of branch-site specific analyses of selection wherein the phylogenetic tree was designated a target, splitting the tree into foreground and background. Codeml then estimates omega value for foreground branches relative to background. For the purposes of this project, each of the designations correspond with the origin or elaboration of social living, to assess if and how these changes in lifestyle affected selection on immune and candidate immune genes in the bees, relative to other genes (the "random" set, which encompass all orthologs that could be made from all proteins in Apis mellifera using the ortholog bash script, OrthoScript [imaginitively named]).
 
+A list of all of the designations and the input newick formats is available in Genome_Misc/tree_designations.txt. I.e.
+
+```{r}
+cat(readLines('Genome_Misc/tree_designations.txt', n=2), sep="\n")
+```
+
+
 In the null version of this test, omega ratios on the foreground branches are fixed at 1, with the alternative version starting with omega estimates above 1 (a direct test of positive selection). Each model results in a global maximum log likelihoood score which can then be compared using a LRT.
 
 LRT = (lnLAlt - lnLNull)*2
@@ -20,14 +27,16 @@ LRT scores can then be compared to a chi-square distribution with 1 degree of fr
 
 P-values will be adjusted using during this analysis to correct for multiple testing using the Benjamini-Hochburg procedure.
 
-#Setting the Verse
+##Setting the Verse
 
 In order to annotate the data with class of gene, description of gene (as it is described in Apis mellifera), etc. we first need a "dataverse" of Amel_HAv3.1.
 
+verseSet.R reads in the relevant information from the Genome_Misc and ImmResources folders.
 
-```{r, include=FALSE}
+```{r}
 source("verseSet.R", local = knitr::knit_global())
 ```
+
 
 GeneVerse: created by reading in a file with all genes from Amel HAv3.1 complete with gene product description and transcript ID.
 
@@ -41,4 +50,13 @@ ImmVerse: created by reading in a file with all immune - associated genes used a
 head(imm.verse)
 ```
 
+## Immunity Dataset
+
+For each of the 9 origins/elaborations (and episodic versus longterm shift in selection), a results file is produced (using my own batch-PAML running script, BranchSite_Codeml_V2.sh, and the various associated .ctl and tree files). 
+
+Each lnLResults.txt file 
+
+```{r}
+cat(readLines('input/immunity/AllComplex.3.lnLResults.txt', n=5), sep = '\n')
+```
 
