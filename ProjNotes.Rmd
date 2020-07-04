@@ -50,13 +50,128 @@ ImmVerse: created by reading in a file with all immune - associated genes used a
 head(imm.verse)
 ```
 
-## Immunity Dataset
+##Immunity Dataset
 
 For each of the 9 origins/elaborations (and episodic versus longterm shift in selection), a results file is produced (using my own batch-PAML running script, BranchSite_Codeml_V2.sh, and the various associated .ctl and tree files). 
 
-Each lnLResults.txt file 
+Each lnLResults.txt file consists of the name of the gene, the log likelihood score of the null and alternative branch-site models (lnL_Null / lnL_Alt) and the results of the likelihood ratio test ran between them (LRT).
+
+These raw data files look like this.
 
 ```{r}
 cat(readLines('input/immunity/AllComplex.3.lnLResults.txt', n=5), sep = '\n')
 ```
+
+###Adding annotations
+
+dataRead_immunity.R will read in the results file, collate them into one source and annotate each gene with descriptions, class of immunity (canon / non-canon) and social origin/elaboration.
+
+```{r}
+source("dataRead_immunity.R", local = knitr::knit_global())
+```
+
+```{r}
+head(data[[2]])
+```
+
+###Tests of significance
+
+ChiSig.R uses the LRT scores and a Chi square distribution (one-tailed, one degree of freedom) to produce pvalues. Pvalues below 0.05 are considered significant (before correction for multiple testing).
+
+To correct for multiple testing, I'll be using the Benjamini-Hochburg procedure.
+
+
+```{r}
+source("SigTests.R", local = knitr::knit_global())
+```
+
+```{r}
+head(data[[3]])
+```
+
+How many are still considered significant ? 
+
+```{r}
+data.imm <- bind_rows(data)
+data.imm$SocOrigin <- as.factor(data.imm$SocOrigin)
+data.sig.imm <- filter(data.imm, adj_pvalue < 0.05)
+summary(data.sig.imm$SocOrigin)
+```
+
+###Write Up
+
+```{r}
+write.table(data.imm, "output/CodeML_Results_AllImmune.tsv", quote = F, row.names = F, sep = "\t")
+write.table(data.imm, "output/CodeML_SigResults_AllImmune.tsv", quote = F, row.names = F, sep = "\t")
+```
+
+##Random Dataset
+
+I'm going to repeat the above, but all at once (using a script, dataReadandTest_random.R).
+
+"Data"" will become a list of the random codeML runs, with it also being saved separated in data.ran.
+
+```{r}
+source("dataReadandTest_random.R", local = knitr::knit_global())
+```
+
+```{r}
+head(data[[4]])
+```
+
+## Compare Immunity and Random
+
+First off I'm going to combine the random and immune data and put them back into a list of dataframe environment.
+
+```{r}
+data <- rbind(data.imm, data.ran)
+write.table(data, "output/CodeML_BranchSiteAnalysis_CompleteResults.tsv", sep="\t", row.names=F, quote=F)
+
+data <- split(data, f = data$SocOrigin)
+summary(data[[5]])
+```
+
+I will be running a series of Fisher's exact tests (2x2 contingency tables) per social origin: 1 imm versus random, 2 can versus random, 3 noncan versus random, 4 can versus noncan.
+
+Each origin will have its own contingency table per test consisting of a [1,1][1,2],[2,1][2,2] matrix. Colnames are outcomes Selection and No Selection (i.e, significant or not), and the groups are as defined above, in the order defined above. 
+
+For example, CorbSoc test of Can versus Random test will have data input of:
+
+[1,1] = no of can under selection
+
+[2,1] = no of can with no selection (total can - above)
+
+[2,1] = no of random under selection
+
+[2,2] = no of random with no selection (total random - above)
+
+I'll be running a script to achieve the above looking at unadjusted pvalues that are considered significant and spit it out in an object called p.results.
+
+```{r}
+source("pFisher.R", local = knitr::knit_global())
+```
+
+```{r}
+p.results
+```
+
+A couple of some near significant differences, but no hits otherwise. 
+
+And for the adjusted pvalues ...
+
+```{r}
+source("adjFisher.R", local = knitr::knit_global())
+```
+
+```{r}
+adj.results
+```
+
+Ha! Lots less significant.
+
+I will have to double check if the Fisher's test is still appropriate now that the size of the random dataset is so much bigger than it was originally.
+
+
+
+
 

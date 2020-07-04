@@ -42,7 +42,3 @@ gene.verse.slim <- gene.verse[,c(1,3)]
 gene.verse.slim <- gene.verse.slim[!duplicated(gene.verse.slim$GeneID),]
 data <- lapply(data, function(x) merge(x, gene.verse.slim, by.x="Gene", by.y="GeneID"))
 
-#####Tests for significance#####
-#pvalues
-#Determine which genes are significant using ChiSq, one degree of freedom on the likelihood 
-#ratio scores already present.
