@@ -131,6 +131,8 @@ data <- split(data, f = data$SocOrigin)
 summary(data[[5]])
 ```
 
+###Fisher's Exact Test
+
 I will be running a series of Fisher's exact tests (2x2 contingency tables) per social origin: 1 imm versus random, 2 can versus random, 3 noncan versus random, 4 can versus noncan.
 
 Each origin will have its own contingency table per test consisting of a [1,1][1,2],[2,1][2,2] matrix. Colnames are outcomes Selection and No Selection (i.e, significant or not), and the groups are as defined above, in the order defined above. 
@@ -171,6 +173,21 @@ Ha! Lots less significant.
 
 I will have to double check if the Fisher's test is still appropriate now that the size of the random dataset is so much bigger than it was originally.
 
+-- It's not. Sample size is too large. Pearson's Chisq is probably  more apt.
+
+###Pearson's ChiSq with Simulated Pvalues
+
+Using the same contigency tables used above, I will be running ChiSq tests of significance. As in some of these cases the sample frequencies are heavily imbalanced (i.e 5 canonical immune genes under selection versus ~6000 random genes not under selection), I will be simulating the pvalue by Monte Carlo simulation (x10000). 
+
+```{r}
+source("adjChi.R", local = knitr::knit_global())
+```
+
+```{r}
+chi.adj.results
+```
+
+In terms of significant relationships, I think this is a no.
 
 
 
