@@ -34,7 +34,7 @@ In order to annotate the data with class of gene, description of gene (as it is 
 verseSet.R reads in the relevant information from the Genome_Misc and ImmResources folders.
 
 ```{r}
-source("verseSet.R", local = knitr::knit_global())
+source("Scripts/verseSet.R", local = knitr::knit_global())
 ```
 
 
@@ -67,7 +67,7 @@ cat(readLines('input/immunity/AllComplex.3.lnLResults.txt', n=5), sep = '\n')
 dataRead_immunity.R will read in the results file, collate them into one source and annotate each gene with descriptions, class of immunity (canon / non-canon) and social origin/elaboration.
 
 ```{r}
-source("dataRead_immunity.R", local = knitr::knit_global())
+source("Scripts/dataRead_immunity.R", local = knitr::knit_global())
 ```
 
 ```{r}
@@ -82,7 +82,7 @@ To correct for multiple testing, I'll be using the Benjamini-Hochburg procedure.
 
 
 ```{r}
-source("SigTests.R", local = knitr::knit_global())
+source("Scripts/SigTests.R", local = knitr::knit_global())
 ```
 
 ```{r}
@@ -112,7 +112,7 @@ I'm going to repeat the above, but all at once (using a script, dataReadandTest_
 "Data"" will become a list of the random codeML runs, with it also being saved separated in data.ran.
 
 ```{r}
-source("dataReadandTest_random.R", local = knitr::knit_global())
+source("Scripts/dataReadandTest_random.R", local = knitr::knit_global())
 ```
 
 ```{r}
@@ -150,7 +150,7 @@ For example, CorbSoc test of Can versus Random test will have data input of:
 I'll be running a script to achieve the above looking at unadjusted pvalues that are considered significant and spit it out in an object called p.results.
 
 ```{r}
-source("pFisher.R", local = knitr::knit_global())
+source("Scripts/pFisher.R", local = knitr::knit_global())
 ```
 
 ```{r}
@@ -162,7 +162,7 @@ A couple of some near significant differences, but no hits otherwise.
 And for the adjusted pvalues ...
 
 ```{r}
-source("adjFisher.R", local = knitr::knit_global())
+source("Scripts/adjFisher.R", local = knitr::knit_global())
 ```
 
 ```{r}
@@ -180,7 +180,7 @@ I will have to double check if the Fisher's test is still appropriate now that t
 Using the same contigency tables used above, I will be running ChiSq tests of significance. As in some of these cases the sample frequencies are heavily imbalanced (i.e 5 canonical immune genes under selection versus ~6000 random genes not under selection), I will be simulating the pvalue by Monte Carlo simulation (x10000). 
 
 ```{r}
-source("adjChi.R", local = knitr::knit_global())
+source("Scripts/adjChi.R", local = knitr::knit_global())
 ```
 
 ```{r}
