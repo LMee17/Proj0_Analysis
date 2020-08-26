@@ -208,5 +208,21 @@ This means I would be making a "population" of all the genes that were tested (t
 
 From this I should get a distribution with other descriptive statistics including confidence intervals, against which I can then say whether the number of genes of each class under selection differ from what can be expected by chance (by random sampling).
 
+The script has been written so that 100,000 iterations x social origin x class of gene (canon / noncanon) iterations will take place, with results being stored in bootstrap.results. Off to make a cup of tea.
 
+```{r}
+source("Scripts/bootstrap.R", local = knitr::knit_global())
+```
+
+```{r}
+boot.results
+```
+
+So, as in the case of the Fisher's test and the Chisq simulated tests, there appears to be no significant relationship between the fact that genes either are or are suspected to be functionally immune and the number of said genes being under selection. The number of genes found to be under selection is no more or less than what you'd expect by chance, evena fter 100000 random sampling iterations.
+
+That took a full 2 hrs to run (tbf it was 18 million iterations in total) and so I need to have this saved asap.
+
+```{r}
+write.table(boot.results, "output/BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
+```
 
