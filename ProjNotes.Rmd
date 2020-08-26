@@ -189,6 +189,24 @@ chi.adj.results
 
 In terms of significant relationships, I think this is a no.
 
+###Bootstrapping Approach
+
+Bootstrapping is a resampling technique to estimate statistics on a population by sampling a dataset with replacement.
+
+A useful feature of the bootstrap method is that the resulting sample of estimations often forms a Gaussian distribution. In additional to summarizing this distribution with a central tendency, measures of variance can be given, such as standard deviation and standard error. Further, a confidence interval can be calculated and used to bound the presented estimate. This is useful when presenting the estimated skill of a machine learning model. (https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/)
+
+Sample Size - use a sample size that is the same size as the original dataset. For my purposes, this will be the number of genes under selection (all classes) per origin of sociality tested. The statistic I'm looking for is the number of genes from each class that are then found in each randomly selected dataset. 
+
+i.e. using the CorbSoc origin of sociality ...
+
+```{r}
+test <- data[["CorbSoc"]]
+nrow(test[test$adj_pvalue < 0.05,])
+```
+
+This means I would be making a "population" of all the genes that were tested (this will be very slightly different for each origin of sociality as some genes failed in some origins that worked in others, etc) and then sampling 12 genes at random. The number of canon or noncanon genes will be returned, before the genes are replaced and sampling occurs again, x100,000.
+
+From this I should get a distribution with other descriptive statistics including confidence intervals, against which I can then say whether the number of genes of each class under selection differ from what can be expected by chance (by random sampling).
 
 
 
