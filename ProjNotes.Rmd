@@ -228,3 +228,137 @@ That took a full 2 hrs to run (tbf it was 18 million iterations in total) and so
 write.table(boot.results, "output/BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
 ```
 
+##Evolutionary Rate
+
+For the purposes of this part of the analysis I will be using dN/dS ratio (omega) scores as a measure of evolutionary rate. The larger the score, the faster the protein product is considered to be evolving.
+
+For this, codeML considered the alignments and tree topology without any prior designation and so there is no breakdown by origin / elaboration of sociality.
+
+Notes: 
+
+For the omega analysis I have 6091 genes that have had dNdS ratios successfully estimated. Across the branch site analyses I have considered 6109 genes, meaning there are some that will not have a dNdS ratio using this method. 
+
+The following script will read in the raw omega data, remove any duplicates or failed runs and annotate the genes with gene class. Missing genes will be stored in the variable, "omega.miss", erroneous genes will be stored in "omega.erro", results in "omega".
+
+```{r}
+source("Scripts/omegaData.R", local = knitr::knit_global())
+```
+
+I'm going to combine the genes from the missing and erroneous lists and put it in a text file to re-run through the omega script on the server and see if anything can be saved.
+
+```{r}
+omega.rerun <- rbind(omega.miss, omega.error)
+omega.rerun
+```
+
+```{r}
+omega.list <- as.data.frame(omega.rerun$Gene)
+write.table(omega.list, "output/missingOmega.txt", row.names = F, col.names = F, quote = F)
+```
+
+The missing genes ran and were all recovered. The anomalous gene, LOC724319, continues to give a dNdS ratio of 999 which suggests there may be something wrong with the alignment.
+
+I've renamed the new file with the missing genes added as the input file so will run the script again.
+
+```{r}
+source("Scripts/omegaData.R", local = knitr::knit_global())
+```
+
+
+###Visualise.
+
+```{r}
+plot(1:nrow(omega), omega$dN.dS, ylab="Omega", pch=21, bg="red")
+abline(h=mean(omega$dN.dS), col="blue")
+for (i in 1:nrow(omega)) lines(c(i,i), c(mean(omega$dN.dS), omega$dN.dS[i]), col="green")
+```
+
+Not very informative when there's this many ...
+
+Try splitting it by class
+
+```{r}
+plot(1:nrow(omega), omega$dN.dS, ylab="Omega", xlab="Order", pch=21, bg=as.numeric(omega$Class))
+abline(h=mean(omega$dN.dS[omega$Class=="Canon"]))
+abline(h=mean(omega$dN.dS[omega$Class=="NonCanon"]), col = "red")
+abline(h=mean(omega$dN.dS[omega$Class=="Random"]), col = "blue")
+```
+
+Yeah. No.
+
+```{r}
+boxplot(dN.dS~Class, data = omega)
+```
+
+And just to look at the statistics.
+
+```{r}
+mean(omega$dN.dS[omega$Class == "Canon"])
+```
+
+```{r}
+mean(omega$dN.dS[omega$Class == "NonCanon"])
+```
+
+```{r}
+mean(omega$dN.dS[omega$Class == "Random"])
+```
+
+```{r}
+mean(omega$dN.dS)
+```
+
+I don't think I need statistical tests to look and see if there's any significant differences, but all the same....
+
+##Tests of Significance
+
+Using Kruskal–Wallis one-way analysis of variance as data is non-parametric. For example ...
+
+```{r}
+hist(omega$dN.dS[omega$Class == "NonCanon"], main = "", xlab = "dN.dS")
+```
+
+Anyway.
+
+```{r}
+require("dplyr")
+```
+
+```{r}
+group_by(omega, Class) %>%
+  summarise(
+    count = n(),
+    mean = mean(dN.dS, na.rm = T),
+    sd = sd(dN.dS, na.rm = T),
+    median = median(dN.dS, na.rm = T),
+    IQR = IQR(dN.dS, na.rm = T)
+  )
+```
+
+
+
+```{r}
+library("ggpubr")
+```
+
+```{r}
+ggboxplot(omega, x = "Class", y = "dN.dS", 
+          color = "Class", palette = c("blue", "green", "orange"),
+          order = c("Canon", "NonCanon", "Random"),
+          ylab = "Omega", xlab = "Gene Class")
+```
+
+```{r}
+ggline(omega, x = "Class", y = "dN.dS", 
+       add = c("mean_se", "jitter"), 
+       order = c("Canon", "NonCanon", "Random"),
+       ylab = "Omega", xlab = "Gene Class")
+```
+
+And the test ...
+
+```{r}
+kruskal.test(dN.dS ~ Class, data = omega)
+```
+
+And there we have it. Non significant. All the shock.
