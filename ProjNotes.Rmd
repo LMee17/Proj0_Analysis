@@ -1,7 +1,10 @@
 ---
 title: "Project Zero"
-output: html_notebook
+
+output: html_document
 ---
+
+
 ## Project Notes 
 
 This project is concerned with looking at evolutionary signatures of selection on immune-associated genes, both canonical and candidate. All immune genes (canon/noncanon) are based on orthologs from *Apis mellifera* (Amel_HAv3.1, NCBI genome).
