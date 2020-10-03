@@ -1,0 +1,113 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0070085	glycosylation	63	6	1.08	1	0.0358	0.00065	Biological Process
+GO:1905879	regulation of oogenesis	33	4	0.56	3	0.0022	0.00223	Biological Process
+GO:0007298	border follicle cell migration	108	7	1.85	6	0.0023	0.00231	Biological Process
+GO:0001510	RNA methylation	36	4	0.62	7	0.0031	0.00309	Biological Process
+GO:0019991	septate junction assembly	38	4	0.65	11	0.0038	0.00377	Biological Process
+GO:0006493	protein O-linked glycosylation	19	3	0.32	12	0.0038	0.00383	Biological Process
+GO:0036297	interstrand cross-link repair	7	2	0.12	18	0.0057	0.00573	Biological Process
+GO:0071897	DNA biosynthetic process	45	4	0.77	20	0.0070	0.00696	Biological Process
+GO:0008049	male courtship behavior	46	4	0.79	22	0.0075	0.00752	Biological Process
+GO:0042157	lipoprotein metabolic process	46	4	0.79	23	0.0075	0.00752	Biological Process
+GO:0009312	oligosaccharide biosynthetic process	9	2	0.15	29	0.0096	0.00961	Biological Process
+GO:0006301	postreplication repair	9	2	0.15	30	0.0096	0.00961	Biological Process
+GO:0006661	phosphatidylinositol biosynthetic proces...	28	3	0.48	34	0.0116	0.01160	Biological Process
+GO:0018193	peptidyl-amino acid modification	262	10	4.48	35	0.0133	0.01326	Biological Process
+GO:0010883	regulation of lipid storage	30	3	0.51	36	0.0140	0.01403	Biological Process
+GO:2000765	regulation of cytoplasmic translation	11	2	0.19	37	0.0144	0.01436	Biological Process
+GO:0060099	regulation of phagocytosis, engulfment	1	1	0.02	42	0.0171	0.01708	Biological Process
+GO:0046952	ketone body catabolic process	1	1	0.02	43	0.0171	0.01708	Biological Process
+GO:0060100	positive regulation of phagocytosis, eng...	1	1	0.02	44	0.0171	0.01708	Biological Process
+GO:1903515	calcium ion transport from cytosol to en...	1	1	0.02	45	0.0171	0.01708	Biological Process
+GO:0010520	regulation of reciprocal meiotic recombi...	1	1	0.02	46	0.0171	0.01708	Biological Process
+GO:0015825	L-serine transport	1	1	0.02	47	0.0171	0.01708	Biological Process
+GO:1901896	positive regulation of ATPase-coupled ca...	1	1	0.02	48	0.0171	0.01708	Biological Process
+GO:0030710	regulation of border follicle cell delam...	1	1	0.02	49	0.0171	0.01708	Biological Process
+GO:0006311	meiotic gene conversion	1	1	0.02	50	0.0171	0.01708	Biological Process
+GO:0110029	negative regulation of meiosis I	1	1	0.02	51	0.0171	0.01708	Biological Process
+GO:0046341	CDP-diacylglycerol metabolic process	1	1	0.02	52	0.0171	0.01708	Biological Process
+GO:0006477	protein sulfation	1	1	0.02	53	0.0171	0.01708	Biological Process
+GO:0006478	peptidyl-tyrosine sulfation	1	1	0.02	54	0.0171	0.01708	Biological Process
+GO:1901569	fatty acid derivative catabolic process	1	1	0.02	55	0.0171	0.01708	Biological Process
+GO:0009405	pathogenesis	1	1	0.02	56	0.0171	0.01708	Biological Process
+GO:0034477	U6 snRNA 3'-end processing	1	1	0.02	57	0.0171	0.01708	Biological Process
+GO:1905153	regulation of membrane invagination	1	1	0.02	58	0.0171	0.01708	Biological Process
+GO:1905155	positive regulation of membrane invagina...	1	1	0.02	59	0.0171	0.01708	Biological Process
+GO:0016024	CDP-diacylglycerol biosynthetic process	1	1	0.02	60	0.0171	0.01708	Biological Process
+GO:0010248	establishment or maintenance of transmem...	1	1	0.02	61	0.0171	0.01708	Biological Process
+GO:0035822	gene conversion	1	1	0.02	62	0.0171	0.01708	Biological Process
+GO:0032351	negative regulation of hormone metabolic...	1	1	0.02	63	0.0171	0.01708	Biological Process
+GO:0032353	negative regulation of hormone biosynthe...	1	1	0.02	64	0.0171	0.01708	Biological Process
+GO:0032329	serine transport	1	1	0.02	65	0.0171	0.01708	Biological Process
+GO:0045128	negative regulation of reciprocal meioti...	1	1	0.02	66	0.0171	0.01708	Biological Process
+GO:0060631	regulation of meiosis I	1	1	0.02	67	0.0171	0.01708	Biological Process
+GO:0033135	regulation of peptidyl-serine phosphoryl...	1	1	0.02	68	0.0171	0.01708	Biological Process
+GO:0033138	positive regulation of peptidyl-serine p...	1	1	0.02	69	0.0171	0.01708	Biological Process
+GO:0097681	double-strand break repair via alternati...	1	1	0.02	70	0.0171	0.01708	Biological Process
+GO:0046474	glycerophospholipid biosynthetic process	34	3	0.58	74	0.0197	0.01969	Biological Process
+GO:0030488	tRNA methylation	13	2	0.22	75	0.0199	0.01992	Biological Process
+GO:0006400	tRNA modification	36	3	0.62	76	0.0229	0.02293	Biological Process
+GO:0032482	Rab protein signal transduction	36	3	0.62	77	0.0229	0.02293	Biological Process
+GO:0044281	small molecule metabolic process	508	15	8.68	80	0.0240	0.02403	Biological Process
+GO:1905952	regulation of lipid localization	37	3	0.63	82	0.0247	0.02465	Biological Process
+GO:0006399	tRNA metabolic process	98	5	1.67	83	0.0255	0.02548	Biological Process
+GO:0008344	adult locomotory behavior	66	4	1.13	84	0.0257	0.02569	Biological Process
+GO:0051924	regulation of calcium ion transport	15	2	0.26	85	0.0262	0.02623	Biological Process
+GO:0030155	regulation of cell adhesion	39	3	0.67	86	0.0283	0.02830	Biological Process
+GO:0043967	histone H4 acetylation	16	2	0.27	87	0.0297	0.02965	Biological Process
+GO:0018212	peptidyl-tyrosine modification	41	3	0.7	89	0.0322	0.03222	Biological Process
+GO:0007626	locomotory behavior	141	6	2.41	90	0.0328	0.03278	Biological Process
+GO:0009416	response to light stimulus	105	5	1.79	91	0.0330	0.03304	Biological Process
+GO:0031167	rRNA methylation	17	2	0.29	92	0.0332	0.03324	Biological Process
+GO:0046967	cytosol to endoplasmic reticulum transpo...	2	1	0.03	93	0.0339	0.03388	Biological Process
+GO:0046950	cellular ketone body metabolic process	2	1	0.03	94	0.0339	0.03388	Biological Process
+GO:0075294	positive regulation by symbiont of entry...	2	1	0.03	95	0.0339	0.03388	Biological Process
+GO:0051923	sulfation	2	1	0.03	96	0.0339	0.03388	Biological Process
+GO:0052372	modulation by symbiont of entry into hos...	2	1	0.03	97	0.0339	0.03388	Biological Process
+GO:0010511	regulation of phosphatidylinositol biosy...	2	1	0.03	98	0.0339	0.03388	Biological Process
+GO:0010513	positive regulation of phosphatidylinosi...	2	1	0.03	99	0.0339	0.03388	Biological Process
+GO:0002949	tRNA threonylcarbamoyladenosine modifica...	2	1	0.03	100	0.0339	0.03388	Biological Process
+GO:1901894	regulation of ATPase-coupled calcium tra...	2	1	0.03	101	0.0339	0.03388	Biological Process
+GO:0071073	positive regulation of phospholipid bios...	2	1	0.03	102	0.0339	0.03388	Biological Process
+GO:0030714	anterior/posterior axis specification, f...	2	1	0.03	103	0.0339	0.03388	Biological Process
+GO:0046596	regulation of viral entry into host cell	2	1	0.03	104	0.0339	0.03388	Biological Process
+GO:0046598	positive regulation of viral entry into ...	2	1	0.03	105	0.0339	0.03388	Biological Process
+GO:0006422	aspartyl-tRNA aminoacylation	2	1	0.03	106	0.0339	0.03388	Biological Process
+GO:0009650	UV protection	2	1	0.03	107	0.0339	0.03388	Biological Process
+GO:0070476	rRNA (guanine-N7)-methylation	2	1	0.03	108	0.0339	0.03388	Biological Process
+GO:0061031	endodermal digestive tract morphogenesis	2	1	0.03	109	0.0339	0.03388	Biological Process
+GO:0010224	response to UV-B	2	1	0.03	110	0.0339	0.03388	Biological Process
+GO:1990845	adaptive thermogenesis	2	1	0.03	111	0.0339	0.03388	Biological Process
+GO:1903727	positive regulation of phospholipid meta...	2	1	0.03	112	0.0339	0.03388	Biological Process
+GO:0006011	UDP-glucose metabolic process	2	1	0.03	113	0.0339	0.03388	Biological Process
+GO:1902224	ketone body metabolic process	2	1	0.03	114	0.0339	0.03388	Biological Process
+GO:0051055	negative regulation of lipid biosyntheti...	2	1	0.03	115	0.0339	0.03388	Biological Process
+GO:1901021	positive regulation of calcium ion trans...	2	1	0.03	116	0.0339	0.03388	Biological Process
+GO:0010868	negative regulation of triglyceride bios...	2	1	0.03	117	0.0339	0.03388	Biological Process
+GO:2000766	negative regulation of cytoplasmic trans...	2	1	0.03	118	0.0339	0.03388	Biological Process
+GO:0032486	Rap protein signal transduction	2	1	0.03	119	0.0339	0.03388	Biological Process
+GO:1904427	positive regulation of calcium ion trans...	2	1	0.03	120	0.0339	0.03388	Biological Process
+GO:0006497	protein lipidation	42	3	0.72	121	0.0343	0.03428	Biological Process
+GO:0042158	lipoprotein biosynthetic process	42	3	0.72	122	0.0343	0.03428	Biological Process
+GO:0019915	lipid storage	42	3	0.72	123	0.0343	0.03428	Biological Process
+GO:0045017	glycerolipid biosynthetic process	43	3	0.73	124	0.0364	0.03641	Biological Process
+GO:0043523	regulation of neuron apoptotic process	18	2	0.31	126	0.0370	0.03698	Biological Process
+GO:0000413	protein peptidyl-prolyl isomerization	18	2	0.31	127	0.0370	0.03698	Biological Process
+GO:0007349	cellularization	74	4	1.26	128	0.0370	0.03704	Biological Process
+GO:1901184	regulation of ERBB signaling pathway	45	3	0.77	130	0.0409	0.04086	Biological Process
+GO:0042058	regulation of epidermal growth factor re...	45	3	0.77	131	0.0409	0.04086	Biological Process
+GO:0097502	mannosylation	19	2	0.32	132	0.0409	0.04088	Biological Process
+GO:0060249	anatomical structure homeostasis	112	5	1.91	133	0.0419	0.04188	Biological Process
+GO:0008654	phospholipid biosynthetic process	46	3	0.79	136	0.0432	0.04319	Biological Process
+GO:0030100	regulation of endocytosis	46	3	0.79	137	0.0432	0.04319	Biological Process
+GO:0007317	regulation of pole plasm oskar mRNA loca...	20	2	0.34	140	0.0449	0.04493	Biological Process
+GO:0060281	regulation of oocyte development	20	2	0.34	141	0.0449	0.04493	Biological Process
+GO:0018208	peptidyl-proline modification	20	2	0.34	142	0.0449	0.04493	Biological Process
+GO:0006506	GPI anchor biosynthetic process	20	2	0.34	143	0.0449	0.04493	Biological Process
+GO:0051402	neuron apoptotic process	20	2	0.34	144	0.0449	0.04493	Biological Process
+GO:0097352	autophagosome maturation	20	2	0.34	145	0.0449	0.04493	Biological Process
+GO:1904580	regulation of intracellular mRNA localiz...	20	2	0.34	146	0.0449	0.04493	Biological Process
+GO:0046488	phosphatidylinositol metabolic process	47	3	0.8	147	0.0456	0.04558	Biological Process
+GO:0007265	Ras protein signal transduction	115	5	1.96	148	0.0461	0.04607	Biological Process
+GO:0016476	regulation of embryonic cell shape	21	2	0.36	152	0.0491	0.04912	Biological Process
+GO:2000331	regulation of terminal button organizati...	21	2	0.36	153	0.0491	0.04912	Biological Process

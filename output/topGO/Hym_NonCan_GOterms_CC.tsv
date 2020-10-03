@@ -1,0 +1,5 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0005955	calcineurin complex	5	1	0.01	1	0.0085	0.0085	Biological Process
+GO:0005576	extracellular region	279	3	0.48	2	0.0094	0.0094	Biological Process
+GO:0005759	mitochondrial matrix	135	2	0.23	3	0.0206	0.0206	Biological Process
+GO:0005615	extracellular space	139	2	0.24	4	0.0218	0.0218	Biological Process

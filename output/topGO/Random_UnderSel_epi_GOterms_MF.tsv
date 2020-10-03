@@ -1,0 +1,7 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0000146	microfilament motor activity	2	1	0	1	0.0019	0.0019	Molecular Function
+GO:0000981	DNA-binding transcription factor activit...	152	2	0.14	2	0.0074	0.0074	Molecular Function
+GO:0098531	ligand-activated transcription factor ac...	14	1	0.01	3	0.0132	0.0132	Molecular Function
+GO:0004879	nuclear receptor activity	14	1	0.01	4	0.0132	0.0132	Molecular Function
+GO:0000978	RNA polymerase II cis-regulatory region ...	33	1	0.03	7	0.0310	0.0310	Molecular Function
+GO:0000987	cis-regulatory region sequence-specific ...	37	1	0.04	8	0.0347	0.0347	Molecular Function

@@ -1,0 +1,34 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0030424	axon	123	21	10.16	1	0.0116	0.00097	Biological Process
+GO:0043005	neuron projection	183	27	15.12	2	0.0149	0.00195	Biological Process
+GO:0061176	type Ib terminal bouton	8	4	0.66	3	0.0025	0.00246	Biological Process
+GO:0120025	plasma membrane bounded cell projection	304	39	25.12	5	0.0155	0.00317	Biological Process
+GO:0042995	cell projection	305	39	25.2	6	0.0163	0.00337	Biological Process
+GO:0090443	FAR/SIN/STRIPAK complex	5	3	0.41	7	0.0049	0.00493	Biological Process
+GO:0031616	spindle pole centrosome	5	3	0.41	8	0.0049	0.00493	Biological Process
+GO:0016600	flotillin complex	2	2	0.17	10	0.0068	0.00681	Biological Process
+GO:0061177	type Is terminal bouton	6	3	0.5	12	0.0093	0.00926	Biological Process
+GO:0030055	cell-substrate junction	30	7	2.48	13	0.0095	0.00954	Biological Process
+GO:0005886	plasma membrane	706	75	58.33	14	0.0167	0.00969	Biological Process
+GO:0033202	DNA helicase complex	7	3	0.58	16	0.0152	0.01523	Biological Process
+GO:0031011	Ino80 complex	7	3	0.58	17	0.0152	0.01523	Biological Process
+GO:0097346	INO80-type complex	7	3	0.58	18	0.0152	0.01523	Biological Process
+GO:0071944	cell periphery	790	81	65.27	19	0.0277	0.01718	Biological Process
+GO:0016533	protein kinase 5 complex	3	2	0.25	20	0.0193	0.01931	Biological Process
+GO:0071819	DUBm complex	3	2	0.25	21	0.0193	0.01931	Biological Process
+GO:0098533	ATPase dependent transmembrane transport...	3	2	0.25	22	0.0193	0.01931	Biological Process
+GO:0038037	G protein-coupled receptor dimeric compl...	3	2	0.25	23	0.0193	0.01931	Biological Process
+GO:0097648	G protein-coupled receptor complex	3	2	0.25	24	0.0193	0.01931	Biological Process
+GO:0000778	condensed nuclear chromosome kinetochore	3	2	0.25	25	0.0193	0.01931	Biological Process
+GO:0042383	sarcolemma	3	2	0.25	26	0.0193	0.01931	Biological Process
+GO:1904949	ATPase complex	43	8	3.55	28	0.0225	0.02246	Biological Process
+GO:0030992	intraciliary transport particle B	8	3	0.66	30	0.0229	0.02289	Biological Process
+GO:0016607	nuclear speck	14	4	1.16	32	0.0236	0.02358	Biological Process
+GO:0030426	growth cone	22	5	1.82	33	0.0305	0.03050	Biological Process
+GO:0031226	intrinsic component of plasma membrane	288	33	23.8	34	0.0313	0.03131	Biological Process
+GO:0000780	condensed nuclear chromosome, centromeri...	9	3	0.74	35	0.0323	0.03227	Biological Process
+GO:0031224	intrinsic component of membrane	625	64	51.64	36	0.0346	0.03462	Biological Process
+GO:0030427	site of polarized growth	23	5	1.9	37	0.0364	0.03642	Biological Process
+GO:0005919	pleated septate junction	4	2	0.33	38	0.0365	0.03652	Biological Process
+GO:0016011	dystroglycan complex	4	2	0.33	39	0.0365	0.03652	Biological Process
+GO:0016021	integral component of membrane	610	62	50.4	40	0.0427	0.04266	Biological Process

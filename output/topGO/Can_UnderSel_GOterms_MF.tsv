@@ -1,0 +1,31 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0004674	protein serine/threonine kinase activity	135	8	0.99	2	0.00023	3.9e-06	Molecular Function
+GO:0016307	phosphatidylinositol phosphate kinase ac...	5	2	0.04	6	0.02822	0.00052	Molecular Function
+GO:0019901	protein kinase binding	45	3	0.33	8	0.00417	0.00417	Molecular Function
+GO:0004676	3-phosphoinositide-dependent protein kin...	1	1	0.01	12	0.00737	0.00737	Molecular Function
+GO:0000285	1-phosphatidylinositol-3-phosphate 5-kin...	1	1	0.01	13	0.00737	0.00737	Molecular Function
+GO:0004705	JUN kinase activity	1	1	0.01	14	0.00737	0.00737	Molecular Function
+GO:0032051	clathrin light chain binding	1	1	0.01	15	0.00737	0.00737	Molecular Function
+GO:0046934	phosphatidylinositol-4,5-bisphosphate 3-...	1	1	0.01	16	0.00737	0.00737	Molecular Function
+GO:0019904	protein domain specific binding	60	3	0.44	17	0.00932	0.00932	Molecular Function
+GO:0070883	pre-miRNA binding	2	1	0.01	19	0.01468	0.01468	Molecular Function
+GO:0016443	bidentate ribonuclease III activity	2	1	0.01	20	0.01468	0.01468	Molecular Function
+GO:0004530	deoxyribonuclease I activity	2	1	0.01	21	0.01468	0.01468	Molecular Function
+GO:0031434	mitogen-activated protein kinase kinase ...	2	1	0.01	22	0.01468	0.01468	Molecular Function
+GO:0035005	1-phosphatidylinositol-4-phosphate 3-kin...	2	1	0.01	23	0.01468	0.01468	Molecular Function
+GO:0019776	Atg8 ligase activity	2	1	0.01	24	0.01468	0.01468	Molecular Function
+GO:0016303	1-phosphatidylinositol-3-kinase activity	3	1	0.02	26	0.02194	0.02194	Molecular Function
+GO:0016308	1-phosphatidylinositol-4-phosphate 5-kin...	3	1	0.02	27	0.02194	0.02194	Molecular Function
+GO:0003924	GTPase activity	89	3	0.66	29	0.02681	0.02681	Molecular Function
+GO:0061650	ubiquitin-like protein conjugating enzym...	4	1	0.03	30	0.02915	0.02915	Molecular Function
+GO:0061631	ubiquitin conjugating enzyme activity	4	1	0.03	31	0.02915	0.02915	Molecular Function
+GO:0032296	double-stranded RNA-specific ribonucleas...	4	1	0.03	32	0.02915	0.02915	Molecular Function
+GO:0004708	MAP kinase kinase activity	4	1	0.03	33	0.02915	0.02915	Molecular Function
+GO:0004709	MAP kinase kinase kinase activity	4	1	0.03	34	0.02915	0.02915	Molecular Function
+GO:0004525	ribonuclease III activity	4	1	0.03	35	0.02915	0.02915	Molecular Function
+GO:0008047	enzyme activator activity	106	3	0.78	37	0.04188	0.04188	Molecular Function
+GO:0016888	endodeoxyribonuclease activity, producin...	6	1	0.04	38	0.04341	0.04341	Molecular Function
+GO:0004438	phosphatidylinositol-3-phosphatase activ...	6	1	0.04	39	0.04341	0.04341	Molecular Function
+GO:0052742	phosphatidylinositol kinase activity	6	1	0.04	40	0.04341	0.04341	Molecular Function
+GO:0052744	phosphatidylinositol monophosphate phosp...	6	1	0.04	41	0.04341	0.04341	Molecular Function
+GO:0032794	GTPase activating protein binding	6	1	0.04	42	0.04341	0.04341	Molecular Function

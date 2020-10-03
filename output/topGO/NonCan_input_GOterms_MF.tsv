@@ -1,0 +1,93 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0003824	catalytic activity	1846	350	216.66	2	0.00413	< 1e-30	Molecular Function
+GO:0016741	transferase activity, transferring one-c...	72	46	8.45	3	0.00065	3.5e-26	Molecular Function
+GO:0008168	methyltransferase activity	69	44	8.1	4	0.01095	5.1e-25	Molecular Function
+GO:0016757	transferase activity, transferring glyco...	74	44	8.69	5	0.03249	3.3e-23	Molecular Function
+GO:0016758	transferase activity, transferring hexos...	64	38	7.51	7	0.00014	3.9e-20	Molecular Function
+GO:0016779	nucleotidyltransferase activity	41	29	4.81	8	0.00711	1.0e-18	Molecular Function
+GO:0016747	transferase activity, transferring acyl ...	80	37	9.39	9	0.03037	7.3e-15	Molecular Function
+GO:0016746	transferase activity, transferring acyl ...	85	38	9.98	10	0.02534	1.2e-14	Molecular Function
+GO:0008276	protein methyltransferase activity	25	19	2.93	11	0.00541	1.4e-13	Molecular Function
+GO:0008170	N-methyltransferase activity	26	18	3.05	12	0.00081	8.5e-12	Molecular Function
+GO:0008194	UDP-glycosyltransferase activity	36	21	4.23	13	0.00010	2.0e-11	Molecular Function
+GO:0042054	histone methyltransferase activity	21	15	2.46	14	0.03644	2.5e-10	Molecular Function
+GO:0016407	acetyltransferase activity	29	17	3.4	15	0.00117	1.6e-09	Molecular Function
+GO:0016853	isomerase activity	63	26	7.39	16	0.01698	1.9e-09	Molecular Function
+GO:0016410	N-acyltransferase activity	25	15	2.93	21	0.00793	9.6e-09	Molecular Function
+GO:0016409	palmitoyltransferase activity	15	10	1.76	31	0.01296	7.9e-07	Molecular Function
+GO:0008649	rRNA methyltransferase activity	13	9	1.53	33	0.00087	1.8e-06	Molecular Function
+GO:0008146	sulfotransferase activity	8	7	0.94	35	0.00575	2.1e-06	Molecular Function
+GO:0016860	intramolecular oxidoreductase activity	20	11	2.35	38	0.01694	3.3e-06	Molecular Function
+GO:0018024	histone-lysine N-methyltransferase activ...	13	8	1.53	49	0.00179	2.6e-05	Molecular Function
+GO:0008171	O-methyltransferase activity	9	6	1.06	53	0.02412	0.00016	Molecular Function
+GO:0016763	transferase activity, transferring pento...	9	6	1.06	54	0.02412	0.00016	Molecular Function
+GO:0035242	protein-arginine omega-N asymmetric meth...	4	4	0.47	55	0.00019	0.00019	Molecular Function
+GO:0034483	heparan sulfate sulfotransferase activit...	4	4	0.47	56	0.00019	0.00019	Molecular Function
+GO:0016765	transferase activity, transferring alkyl...	21	9	2.46	58	0.03086	0.00031	Molecular Function
+GO:0004812	aminoacyl-tRNA ligase activity	35	12	4.11	60	0.00039	0.00039	Molecular Function
+GO:0003755	peptidyl-prolyl cis-trans isomerase acti...	18	8	2.11	62	0.00051	0.00051	Molecular Function
+GO:0016433	rRNA (adenine) methyltransferase activit...	5	4	0.59	65	0.00085	0.00085	Molecular Function
+GO:0004659	prenyltransferase activity	5	4	0.59	66	0.00085	0.00085	Molecular Function
+GO:0035241	protein-arginine omega-N monomethyltrans...	3	3	0.35	67	0.00161	0.00161	Molecular Function
+GO:0003916	DNA topoisomerase activity	3	3	0.35	68	0.00161	0.00161	Molecular Function
+GO:0051998	protein carboxyl O-methyltransferase act...	3	3	0.35	69	0.00161	0.00161	Molecular Function
+GO:0003839	gamma-glutamylcyclotransferase activity	3	3	0.35	70	0.00161	0.00161	Molecular Function
+GO:0070567	cytidylyltransferase activity	3	3	0.35	71	0.00161	0.00161	Molecular Function
+GO:0042285	xylosyltransferase activity	3	3	0.35	72	0.00161	0.00161	Molecular Function
+GO:0051377	mannose-ethanolamine phosphotransferase ...	3	3	0.35	74	0.00161	0.00161	Molecular Function
+GO:0008417	fucosyltransferase activity	6	4	0.7	76	0.00232	0.00232	Molecular Function
+GO:0010485	H4 histone acetyltransferase activity	6	4	0.7	77	0.00232	0.00232	Molecular Function
+GO:0003924	GTPase activity	89	20	10.45	78	0.00275	0.00275	Molecular Function
+GO:0008375	acetylglucosaminyltransferase activity	10	5	1.17	79	0.00332	0.00332	Molecular Function
+GO:0046527	glucosyltransferase activity	7	4	0.82	82	0.00491	0.00491	Molecular Function
+GO:0016783	sulfurtransferase activity	7	4	0.82	83	0.00491	0.00491	Molecular Function
+GO:0008175	tRNA methyltransferase activity	11	5	1.29	84	0.00551	0.00551	Molecular Function
+GO:0008420	RNA polymerase II CTD heptapeptide repea...	4	3	0.47	85	0.00587	0.00587	Molecular Function
+GO:0004652	polynucleotide adenylyltransferase activ...	4	3	0.47	86	0.00587	0.00587	Molecular Function
+GO:0046975	histone methyltransferase activity (H3-K...	4	3	0.47	87	0.00587	0.00587	Molecular Function
+GO:0008374	O-acyltransferase activity	12	5	1.41	88	0.00854	0.00854	Molecular Function
+GO:0017069	snRNA binding	12	5	1.41	89	0.00854	0.00854	Molecular Function
+GO:0008081	phosphoric diester hydrolase activity	12	5	1.41	90	0.00854	0.00854	Molecular Function
+GO:0042800	histone methyltransferase activity (H3-K...	5	3	0.59	91	0.01340	0.01340	Molecular Function
+GO:0035251	UDP-glucosyltransferase activity	5	3	0.59	92	0.01340	0.01340	Molecular Function
+GO:0003950	NAD+ ADP-ribosyltransferase activity	2	2	0.23	93	0.01375	0.01375	Molecular Function
+GO:0016434	rRNA (cytosine) methyltransferase activi...	2	2	0.23	94	0.01375	0.01375	Molecular Function
+GO:0003707	steroid hormone receptor activity	2	2	0.23	95	0.01375	0.01375	Molecular Function
+GO:0035243	protein-arginine omega-N symmetric methy...	2	2	0.23	96	0.01375	0.01375	Molecular Function
+GO:0016742	hydroxymethyl-, formyl- and related tran...	2	2	0.23	97	0.01375	0.01375	Molecular Function
+GO:0004069	L-aspartate:2-oxoglutarate aminotransfer...	2	2	0.23	98	0.01375	0.01375	Molecular Function
+GO:0030983	mismatched DNA binding	2	2	0.23	99	0.01375	0.01375	Molecular Function
+GO:0003867	4-aminobutyrate transaminase activity	2	2	0.23	100	0.01375	0.01375	Molecular Function
+GO:0050567	glutaminyl-tRNA synthase (glutamine-hydr...	2	2	0.23	101	0.01375	0.01375	Molecular Function
+GO:0000026	alpha-1,2-mannosyltransferase activity	2	2	0.23	102	0.01375	0.01375	Molecular Function
+GO:0008494	translation activator activity	2	2	0.23	103	0.01375	0.01375	Molecular Function
+GO:0008467	[heparan sulfate]-glucosamine 3-sulfotra...	2	2	0.23	104	0.01375	0.01375	Molecular Function
+GO:0070569	uridylyltransferase activity	2	2	0.23	105	0.01375	0.01375	Molecular Function
+GO:0032135	DNA insertion or deletion binding	2	2	0.23	106	0.01375	0.01375	Molecular Function
+GO:0032137	guanine/thymine mispair binding	2	2	0.23	107	0.01375	0.01375	Molecular Function
+GO:0032138	single base insertion or deletion bindin...	2	2	0.23	108	0.01375	0.01375	Molecular Function
+GO:0009008	DNA-methyltransferase activity	2	2	0.23	109	0.01375	0.01375	Molecular Function
+GO:0042799	histone methyltransferase activity (H4-K...	2	2	0.23	110	0.01375	0.01375	Molecular Function
+GO:0015018	galactosylgalactosylxylosylprotein 3-bet...	2	2	0.23	111	0.01375	0.01375	Molecular Function
+GO:0046922	peptide-O-fucosyltransferase activity	2	2	0.23	112	0.01375	0.01375	Molecular Function
+GO:0004605	phosphatidate cytidylyltransferase activ...	2	2	0.23	113	0.01375	0.01375	Molecular Function
+GO:0000049	tRNA binding	14	5	1.64	115	0.01770	0.01770	Molecular Function
+GO:0022884	macromolecule transmembrane transporter ...	10	4	1.17	116	0.02206	0.02206	Molecular Function
+GO:0015450	P-P-bond-hydrolysis-driven protein trans...	10	4	1.17	117	0.02206	0.02206	Molecular Function
+GO:0008320	protein transmembrane transporter activi...	10	4	1.17	118	0.02206	0.02206	Molecular Function
+GO:0140318	protein transporter activity	10	4	1.17	119	0.02206	0.02206	Molecular Function
+GO:0016864	intramolecular oxidoreductase activity, ...	10	4	1.17	120	0.02206	0.02206	Molecular Function
+GO:1904680	peptide transmembrane transporter activi...	10	4	1.17	121	0.02206	0.02206	Molecular Function
+GO:0003756	protein disulfide isomerase activity	10	4	1.17	122	0.02206	0.02206	Molecular Function
+GO:0071617	lysophospholipid acyltransferase activit...	6	3	0.7	124	0.02448	0.02448	Molecular Function
+GO:0004112	cyclic-nucleotide phosphodiesterase acti...	6	3	0.7	125	0.02448	0.02448	Molecular Function
+GO:0004114	3',5'-cyclic-nucleotide phosphodiesteras...	6	3	0.7	126	0.02448	0.02448	Molecular Function
+GO:0030515	snoRNA binding	21	6	2.46	128	0.02944	0.02944	Molecular Function
+GO:0000179	rRNA (adenine-N6,N6-)-dimethyltransferas...	3	2	0.35	129	0.03804	0.03804	Molecular Function
+GO:0017070	U6 snRNA binding	3	2	0.35	130	0.03804	0.03804	Molecular Function
+GO:0004576	oligosaccharyl transferase activity	3	2	0.35	131	0.03804	0.03804	Molecular Function
+GO:0008453	alanine-glyoxylate transaminase activity	3	2	0.35	132	0.03804	0.03804	Molecular Function
+GO:0004579	dolichyl-diphosphooligosaccharide-protei...	3	2	0.35	133	0.03804	0.03804	Molecular Function
+GO:0008174	mRNA methyltransferase activity	3	2	0.35	134	0.03804	0.03804	Molecular Function
+GO:0016857	racemase and epimerase activity, acting ...	7	3	0.82	135	0.03915	0.03915	Molecular Function
+GO:0042887	amide transmembrane transporter activity	12	4	1.41	136	0.04300	0.04300	Molecular Function
