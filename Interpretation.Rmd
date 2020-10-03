@@ -121,5 +121,10 @@ Results will be generated into output/topGo/
 source("Scripts/runtopGO.R", local = knitr::knit_global())
 ```
 
+To have a look at the results, ie biological process
+
+```{r}
+head(bp.list[[3]])
+```
 
 
