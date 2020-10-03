@@ -226,9 +226,469 @@ summary {
 
 
 <!-- rnb-text-begin -->
+<div id="genes-of-interest" class="section level2">
+<h2>Genes of Interest</h2>
+<p>What genes are worth looking at ? Are there genes that pop up in more than one origin / elaboration of sociality, suggesting the change in function may have been selected for in accordance with transitioning to more social lifestyles ? And if so, what are these genes?</p>
+<p>This script will take the data, keep only those significant and aggregate by SocOrigin in an object called &quot;undersel&quot;. All of those genes that appear more than once will be put in a more interesting dataframe called &quot;goi&quot;</p>
 <!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc291cmNlKFwiU2NyaXB0cy9nZXRnb2kuUlwiLCBsb2NhbCA9IGtuaXRyOjprbml0X2dsb2JhbCgpKVxuYGBgIn0= -->
+<pre class="r"><code>source(&quot;Scripts/getgoi.R&quot;, local = knitr::knit_global())</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5BdHRhY2hpbmcgcGFja2FnZTog4oCYZHBseXLigJlcblxuVGhlIGZvbGxvd2luZyBvYmplY3RzIGFyZSBtYXNrZWQgZnJvbSDigJhwYWNrYWdlOnN0YXRz4oCZOlxuXG4gICAgZmlsdGVyLCBsYWdcblxuVGhlIGZvbGxvd2luZyBvYmplY3RzIGFyZSBtYXNrZWQgZnJvbSDigJhwYWNrYWdlOmJhc2XigJk6XG5cbiAgICBpbnRlcnNlY3QsIHNldGRpZmYsIHNldGVxdWFsLCB1bmlvblxuIn0= -->
+<pre><code>
+Attaching package: ‘dplyr’
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiSW50ZXJwcmV0YXRpb24iCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KCg==</div>
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGVhZChnb2kpXG5gYGAifQ== -->
+<pre class="r"><code>head(goi)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICBHZW5lICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTb2NPcmlnaW4gIENsYXNzXG4zICBBbWVsXzg5MTYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBpcywgTWVsaSBSYW5kb21cbjUgICAgICBhcGQtMyBBbGxDb21wbGV4LCBBbGxPcmlnaW4sIENvcmJTb2MsIEhhbGljdGlkLCBNZWxpIFJhbmRvbVxuOCAgICAgICAgQ2FjICAgICAgICAgICAgICAgICAgICAgICAgIEFsbENvbXBsZXgsIEFwaXMsIE1lbGkgUmFuZG9tXG4xNiAgICAgIERvcDEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBpcywgTWVsaSBSYW5kb21cbjE5ICBFZi0xYS1mMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEhhbGljdGlkLCBNZWxpIFJhbmRvbVxuMjIgICAgICAgRm9yICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFsbENvbXBsZXgsIEFwaXMgUmFuZG9tXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR2VuZV9EZXNjIGNvdW50XG4zICAgIGN5cy1sb29wIGxpZ2FuZC1nYXRlZCBpb24gY2hhbm5lbCBzdWJ1bml0IDg5MTYgICAgICAyXG41ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBpZGVybWluIDMgICAgICA1XG44ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYWNvcGhvbnkgICAgICAzXG4xNiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkb3BhbWluZSByZWNlcHRvciwgRDEgICAgICAyXG4xOSAgdHJhbnNsYXRpb24gZWxvbmdhdGlvbiBmYWN0b3IgZUVGLTEgYWxwaGEgY2hhaW4gICAgICAyXG4yMiAgICAgICAgICAgY0dNUC1kZXBlbmRlbnQgcHJvdGVpbiBraW5hc2UgZm9yYWdpbmcgICAgICAyXG4ifQ== -->
+<pre><code>        Gene                                      SocOrigin  Class
+3  Amel_8916                                     Apis, Meli Random
+5      apd-3 AllComplex, AllOrigin, CorbSoc, Halictid, Meli Random
+8        Cac                         AllComplex, Apis, Meli Random
+16      Dop1                                     Apis, Meli Random
+19  Ef-1a-f1                                 Halictid, Meli Random
+22       For                               AllComplex, Apis Random
+                                           Gene_Desc count
+3    cys-loop ligand-gated ion channel subunit 8916      2
+5                                       apidermin 3      5
+8                                         cacophony      3
+16                            dopamine receptor, D1      2
+19  translation elongation factor eEF-1 alpha chain      2
+22           cGMP-dependent protein kinase foraging      2</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>Should probably remove the random genes.</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ29pLmltbSA8LSBnb2lbIWdvaSRDbGFzcyA9PSBcIlJhbmRvbVwiLF1cbmBgYCJ9 -->
+<pre class="r"><code>goi.imm &lt;- goi[!goi$Class == &quot;Random&quot;,]</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGVhZChnb2kuaW1tKVxuYGBgIn0= -->
+<pre class="r"><code>head(goi.imm)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgICAgR2VuZSAgICAgICAgICAgICAgU29jT3JpZ2luICAgIENsYXNzXG45MCAgTE9DMTAwNTc3MTQwICAgICAgICAgSGFsaWN0aWQsIE1lbGkgTm9uQ2Fub25cbjk0ICBMT0MxMDA1NzcxOTYgQWxsQ29tcGxleCwgQXBpcywgWHlsbyBOb25DYW5vblxuMTM3IExPQzEwMDU3Nzk3MiAgICAgICAgIEhhbGljdGlkLCBYeWxvIE5vbkNhbm9uXG4xNDQgTE9DMTAwNTc4MDcxICAgICAgICAgSGFsaWN0aWQsIFh5bG8gTm9uQ2Fub25cbjMzNCAgICBMT0M0MDg2NjEgICAgICAgICAgICAgQXBpcywgTWVsaSBOb25DYW5vblxuNDQxICAgIExPQzQwOTM3NyAgICAgICBBbGxDb21wbGV4LCBNZWxpIE5vbkNhbm9uXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEdlbmVfRGVzYyBjb3VudFxuOTAgICAgICAgICAgICAgICAgICBVRFAtZ2x1Y3Vyb25vc3lsdHJhbnNmZXJhc2UgMkIxOSAgICAgIDJcbjk0ICAgICAgICAgICAgICAgICAgICAgIHVuY2hhcmFjdGVyaXplZCBMT0MxMDA1NzcxOTYgICAgICAzXG4xMzcgICAgICAgICAgICAgICAgICAgICB1bmNoYXJhY3Rlcml6ZWQgTE9DMTAwNTc3OTcyICAgICAgMlxuMTQ0ICAgICAgICAgICAgRE5BIHBvbHltZXJhc2UgemV0YSBjYXRhbHl0aWMgc3VidW5pdCAgICAgIDJcbjMzNCAgICAgICAgICAgICAgICAgICAgICAgIHVuY2hhcmFjdGVyaXplZCBMT0M0MDg2NjEgICAgICAyXG40NDEgIHRyYW5zaXRpb25hbCBlbmRvcGxhc21pYyByZXRpY3VsdW0gQVRQYXNlIFRFUjk0ICAgICAgMlxuIn0= -->
+<pre><code>            Gene              SocOrigin    Class
+90  LOC100577140         Halictid, Meli NonCanon
+94  LOC100577196 AllComplex, Apis, Xylo NonCanon
+137 LOC100577972         Halictid, Xylo NonCanon
+144 LOC100578071         Halictid, Xylo NonCanon
+334    LOC408661             Apis, Meli NonCanon
+441    LOC409377       AllComplex, Meli NonCanon
+                                            Gene_Desc count
+90                  UDP-glucuronosyltransferase 2B19      2
+94                      uncharacterized LOC100577196      3
+137                     uncharacterized LOC100577972      2
+144            DNA polymerase zeta catalytic subunit      2
+334                        uncharacterized LOC408661      2
+441  transitional endoplasmic reticulum ATPase TER94      2</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ29pLmltbVtnb2kuaW1tJENsYXNzID09IFwiQ2Fub25cIixdXG5gYGAifQ== -->
+<pre class="r"><code>goi.imm[goi.imm$Class == &quot;Canon&quot;,]</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgIEdlbmUgICAgICAgICAgICAgICAgICAgIFNvY09yaWdpbiBDbGFzc1xuNjEzICBMT0M0MTA3MzIgICAgICAgICAgICAgICBIYWxpY3RpZCwgTWVsaSBDYW5vblxuNjMwICBMT0M0MTA4NjAgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaSBDYW5vblxuNjY0ICBMT0M0MTExMTUgICAgICAgICAgICAgICBBcGlzLCBIYWxpY3RpZCBDYW5vblxuOTY0ICBMT0M1NTEwMTIgICAgICAgICAgICAgICAgICAgTWVsaSwgWHlsbyBDYW5vblxuMTEzNyBMT0M1NTIzMTUgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaSBDYW5vblxuMTQyNSBMT0M3MjYxNjcgICAgICAgICAgICAgICBIYWxpY3RpZCwgTWVsaSBDYW5vblxuMTUwNyBMT0M3MjY5NDcgQWxsT3JpZ2luRXBpLCBIYWxpY3RpZCwgTWVsaSBDYW5vblxuMTU2NCAgICBUc3BhbjYgICAgICAgICAgICBDb3JiU29jLCBIYWxpY3RpZCBDYW5vblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEdlbmVfRGVzYyBjb3VudFxuNjEzICAgICAgICAgICAgICAgICAgICAgICAgICAgMy1waG9zcGhvaW5vc2l0aWRlLWRlcGVuZGVudCBwcm90ZWluIGtpbmFzZSAxICAgICAgMlxuNjMwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhdHRlbmluICAgICAgMlxuNjY0ICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWN1bG92aXJhbCBJQVAgcmVwZWF0LWNvbnRhaW5pbmcgcHJvdGVpbiA2ICAgICAgMlxuOTY0ICAgICAgICAgICAgICAgICAgICAgICAgIGNhdGlvbi1pbmRlcGVuZGVudCBtYW5ub3NlLTYtcGhvc3BoYXRlIHJlY2VwdG9yICAgICAgMlxuMTEzNyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHViaXF1aXRpbi1saWtlLWNvbmp1Z2F0aW5nIGVuenltZSBBVEczICAgICAgMlxuMTQyNSAgbGlwb3BvbHlzYWNjaGFyaWRlLWluZHVjZWQgdHVtb3IgbmVjcm9zaXMgZmFjdG9yLWFscGhhIGZhY3RvciBob21vbG9nICAgICAgMlxuMTUwNyAgICAgICAgICAgICAgIFRHRi1iZXRhLWFjdGl2YXRlZCBraW5hc2UgMSBhbmQgTUFQM0s3LWJpbmRpbmcgcHJvdGVpbiAzICAgICAgM1xuMTU2NCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXRyYXNwYW5pbiA2ICAgICAgMlxuIn0= -->
+<pre><code>          Gene                    SocOrigin Class
+613  LOC410732               Halictid, Meli Canon
+630  LOC410860             AllComplex, Meli Canon
+664  LOC411115               Apis, Halictid Canon
+964  LOC551012                   Meli, Xylo Canon
+1137 LOC552315             AllComplex, Meli Canon
+1425 LOC726167               Halictid, Meli Canon
+1507 LOC726947 AllOriginEpi, Halictid, Meli Canon
+1564    Tspan6            CorbSoc, Halictid Canon
+                                                                   Gene_Desc count
+613                           3-phosphoinositide-dependent protein kinase 1      2
+630                                                                battenin      2
+664                             baculoviral IAP repeat-containing protein 6      2
+964                         cation-independent mannose-6-phosphate receptor      2
+1137                                 ubiquitin-like-conjugating enzyme ATG3      2
+1425  lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog      2
+1507               TGF-beta-activated kinase 1 and MAP3K7-binding protein 3      3
+1564                                                          tetraspanin 6      2</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ29pLmltbVtnb2kuaW1tJGNvdW50ID4gMixdXG5gYGAifQ== -->
+<pre class="r"><code>goi.imm[goi.imm$count &gt; 2,]</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgICAgIEdlbmUgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNvY09yaWdpbiAgICBDbGFzc1xuOTQgICBMT0MxMDA1NzcxOTYgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgQXBpcywgWHlsbyBOb25DYW5vblxuNTc4ICAgICBMT0M0MTA0NTYgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgQXBpcywgTWVsaSBOb25DYW5vblxuMTIyMyAgICBMT0M3MjQyOTIgQWxsQ29tcGxleCwgQWxsT3JpZ2luLCBIYWxpY3RpZCwgTWVsaSBOb25DYW5vblxuMTUwNyAgICBMT0M3MjY5NDcgICAgICAgICAgQWxsT3JpZ2luRXBpLCBIYWxpY3RpZCwgTWVsaSAgICBDYW5vblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR2VuZV9EZXNjIGNvdW50XG45NCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdW5jaGFyYWN0ZXJpemVkIExPQzEwMDU3NzE5NiAgICAgIDNcbjU3OCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB1bmNoYXJhY3Rlcml6ZWQgTE9DNDEwNDU2ICAgICAgM1xuMTIyMyAgICAgICAgICAgICAgICAgICAgZGlza3MgbGFyZ2UgMSB0dW1vciBzdXBwcmVzc29yIHByb3RlaW4gICAgICA0XG4xNTA3ICBUR0YtYmV0YS1hY3RpdmF0ZWQga2luYXNlIDEgYW5kIE1BUDNLNy1iaW5kaW5nIHByb3RlaW4gMyAgICAgIDNcbiJ9 -->
+<pre><code>             Gene                             SocOrigin    Class
+94   LOC100577196                AllComplex, Apis, Xylo NonCanon
+578     LOC410456                AllComplex, Apis, Meli NonCanon
+1223    LOC724292 AllComplex, AllOrigin, Halictid, Meli NonCanon
+1507    LOC726947          AllOriginEpi, Halictid, Meli    Canon
+                                                      Gene_Desc count
+94                                uncharacterized LOC100577196      3
+578                                  uncharacterized LOC410456      3
+1223                    disks large 1 tumor suppressor protein      4
+1507  TGF-beta-activated kinase 1 and MAP3K7-binding protein 3      3</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubnJvdyhnb2kuaW1tW2dvaS5pbW0kY291bnQgPiAxLF0pXG5gYGAifQ== -->
+<pre class="r"><code>nrow(goi.imm[goi.imm$count &gt; 1,])</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDQ0XG4ifQ== -->
+<pre><code>[1] 44</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubnJvdyhnb2kuaW1tWyhnb2kuaW1tJGNvdW50ID4gMSkgJiAoZ29pLmltbSRDbGFzcyA9PSBcIkNhbm9uXCIpLF0pXG5gYGAifQ== -->
+<pre class="r"><code>nrow(goi.imm[(goi.imm$count &gt; 1) &amp; (goi.imm$Class == &quot;Canon&quot;),])</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDhcbiJ9 -->
+<pre><code>[1] 8</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubnJvdyhnb2kuaW1tWyhnb2kuaW1tJGNvdW50ID4gMSkgJiAoZ29pLmltbSRDbGFzcyA9PSBcIk5vbkNhbm9uXCIpLF0pXG5gYGAifQ== -->
+<pre class="r"><code>nrow(goi.imm[(goi.imm$count &gt; 1) &amp; (goi.imm$Class == &quot;NonCanon&quot;),])</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDM2XG4ifQ== -->
+<pre><code>[1] 36</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUudGFibGUoZ29pLCBcIm91dHB1dC9HT0kudHN2XCIsIHNlcCA9IFwiXFx0XCIsIHJvdy5uYW1lcyA9IEYsIHF1b3RlID0gRilcbmBgYCJ9 -->
+<pre class="r"><code>write.table(goi, &quot;output/GOI.tsv&quot;, sep = &quot;\t&quot;, row.names = F, quote = F)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>So from here I will have to take a closer look to the genes that appear in more than two lineages tested, and run a GO analysis of the noncanon genes that are under selection and have appeared more than once. It may also be worth to look at AllComplex and AllOrigin too ...</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYWxsLnNlbCA8LSB1bmRlcnNlbFtncmVwKFwiQWxsXCIsIHVuZGVyc2VsJFNvY09yaWdpbiksXVxuYWxsLnNlbC5pbW0gPC0gYWxsLnNlbFshYWxsLnNlbCRDbGFzcyA9PSBcIlJhbmRvbVwiLF1cbmFsbC5zZWwuaW1tXG5gYGAifQ== -->
+<pre class="r"><code>all.sel &lt;- undersel[grep(&quot;All&quot;, undersel$SocOrigin),]
+all.sel.imm &lt;- all.sel[!all.sel$Class == &quot;Random&quot;,]
+all.sel.imm</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgICAgIEdlbmUgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNvY09yaWdpbiAgICBDbGFzc1xuOTQgICBMT0MxMDA1NzcxOTYgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgQXBpcywgWHlsbyBOb25DYW5vblxuMjU2ICBMT0MxMTMyMTg2NzAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFsbE9yaWdpbiBOb25DYW5vblxuNDQxICAgICBMT0M0MDkzNzcgICAgICAgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaSBOb25DYW5vblxuNDg3ICAgICBMT0M0MDk3NDkgICAgICAgICAgICAgICAgICAgIEFsbE9yaWdpbkVwaSwgWHlsbyBOb25DYW5vblxuNTc4ICAgICBMT0M0MTA0NTYgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgQXBpcywgTWVsaSBOb25DYW5vblxuNjMwICAgICBMT0M0MTA4NjAgICAgICAgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaSAgICBDYW5vblxuODY0ICAgICBMT0M0MTMyNDYgICAgICAgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaSBOb25DYW5vblxuODY5ICAgICBMT0M0MTMzMDUgICAgICAgICAgICAgICAgQWxsT3JpZ2luRXBpLCBIYWxpY3RpZCBOb25DYW5vblxuMTA4MSAgICBMT0M1NTE4OTIgICAgICAgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaSBOb25DYW5vblxuMTEzNyAgICBMT0M1NTIzMTUgICAgICAgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaSAgICBDYW5vblxuMTIyMyAgICBMT0M3MjQyOTIgQWxsQ29tcGxleCwgQWxsT3JpZ2luLCBIYWxpY3RpZCwgTWVsaSBOb25DYW5vblxuMTM1OCAgICBMT0M3MjU1MDUgICAgICAgICAgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaSBOb25DYW5vblxuMTM5NCAgICBMT0M3MjU4ODEgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFsbE9yaWdpbiBOb25DYW5vblxuMTUwNyAgICBMT0M3MjY5NDcgICAgICAgICAgQWxsT3JpZ2luRXBpLCBIYWxpY3RpZCwgTWVsaSAgICBDYW5vblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR2VuZV9EZXNjIGNvdW50XG45NCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdW5jaGFyYWN0ZXJpemVkIExPQzEwMDU3NzE5NiAgICAgIDNcbjI1NiAgIGNhcC1zcGVjaWZpYyBtUk5BIChudWNsZW9zaWRlLTInLU8tKS1tZXRoeWx0cmFuc2ZlcmFzZSAyICAgICAgMVxuNDQxICAgICAgICAgICAgdHJhbnNpdGlvbmFsIGVuZG9wbGFzbWljIHJldGljdWx1bSBBVFBhc2UgVEVSOTQgICAgICAyXG40ODcgICAgIG1lZGlhdG9yIG9mIFJOQSBwb2x5bWVyYXNlIElJIHRyYW5zY3JpcHRpb24gc3VidW5pdCAzMSAgICAgIDJcbjU3OCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB1bmNoYXJhY3Rlcml6ZWQgTE9DNDEwNDU2ICAgICAgM1xuNjMwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmF0dGVuaW4gICAgICAyXG44NjQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhcy1yZWxhdGVkIHByb3RlaW4gUmFwMSAgICAgIDJcbjg2OSAgICAgICAgICAgICAgICAgICAgICAgICBseXNvcGhvc3Bob2xpcGlkIGFjeWx0cmFuc2ZlcmFzZSA3ICAgICAgMlxuMTA4MSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjeXRvcGxhc21pYyBwcm90ZWluIE5DSzEgICAgICAyXG4xMTM3ICAgICAgICAgICAgICAgICAgICB1YmlxdWl0aW4tbGlrZS1jb25qdWdhdGluZyBlbnp5bWUgQVRHMyAgICAgIDJcbjEyMjMgICAgICAgICAgICAgICAgICAgIGRpc2tzIGxhcmdlIDEgdHVtb3Igc3VwcHJlc3NvciBwcm90ZWluICAgICAgNFxuMTM1OCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV0cmFzcGFuaW4tMzMgICAgICAyXG4xMzk0ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdW5jaGFyYWN0ZXJpemVkIExPQzcyNTg4MSAgICAgIDFcbjE1MDcgIFRHRi1iZXRhLWFjdGl2YXRlZCBraW5hc2UgMSBhbmQgTUFQM0s3LWJpbmRpbmcgcHJvdGVpbiAzICAgICAgM1xuIn0= -->
+<pre><code>             Gene                             SocOrigin    Class
+94   LOC100577196                AllComplex, Apis, Xylo NonCanon
+256  LOC113218670                             AllOrigin NonCanon
+441     LOC409377                      AllComplex, Meli NonCanon
+487     LOC409749                    AllOriginEpi, Xylo NonCanon
+578     LOC410456                AllComplex, Apis, Meli NonCanon
+630     LOC410860                      AllComplex, Meli    Canon
+864     LOC413246                      AllComplex, Meli NonCanon
+869     LOC413305                AllOriginEpi, Halictid NonCanon
+1081    LOC551892                      AllComplex, Meli NonCanon
+1137    LOC552315                      AllComplex, Meli    Canon
+1223    LOC724292 AllComplex, AllOrigin, Halictid, Meli NonCanon
+1358    LOC725505                      AllComplex, Meli NonCanon
+1394    LOC725881                             AllOrigin NonCanon
+1507    LOC726947          AllOriginEpi, Halictid, Meli    Canon
+                                                      Gene_Desc count
+94                                uncharacterized LOC100577196      3
+256   cap-specific mRNA (nucleoside-2'-O-)-methyltransferase 2      1
+441            transitional endoplasmic reticulum ATPase TER94      2
+487     mediator of RNA polymerase II transcription subunit 31      2
+578                                  uncharacterized LOC410456      3
+630                                                   battenin      2
+864                                   ras-related protein Rap1      2
+869                         lysophospholipid acyltransferase 7      2
+1081                                  cytoplasmic protein NCK1      2
+1137                    ubiquitin-like-conjugating enzyme ATG3      2
+1223                    disks large 1 tumor suppressor protein      4
+1358                                            tetraspanin-33      2
+1394                                 uncharacterized LOC725881      1
+1507  TGF-beta-activated kinase 1 and MAP3K7-binding protein 3      3</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<div id="all-canon" class="section level3">
+<h3>All Canon</h3>
+<p>Look at all the canon genes and consider their immune function...</p>
+<p>Hopefully we should have RNAi / recognition genes in here</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaW1tLmNsYXNzIDwtIHJlYWQudGFibGUoXCJJbW1SZXNvdXJjZXMvQ2Fub25fSW1tdW5lX0dlbmVMaXN0X0phbjIwLnR4dFwiLCBoZWFkZXIgPSBULCBzZXA9XCJcXHRcIiwgcXVvdGUgPSBcIlwiKVxuaGVhZChpbW0uY2xhc3MpXG5gYGAifQ== -->
+<pre class="r"><code>imm.class &lt;- read.table(&quot;ImmResources/Canon_Immune_GeneList_Jan20.txt&quot;, header = T, sep=&quot;\t&quot;, quote = &quot;&quot;)
+head(imm.class)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgIEdlbmUgIEZ1bmN0aW9uICAgICAgUHJvdGVpbklEICAgICAgICAgICAgICAgICAgIERlc2NyaXB0aW9uXG4xICAgIExPQzQwNjE0MiAgICAgICBBTVAgTlBfMDAxMDExNjE1LjEgIGh5bWVub3B0YWVjaW4gcHJlcHJvcHJvdGVpbiBcbjIgICAgICAgIEFwaWQxICAgICAgIEFNUCBOUF8wMDEwMTE2MTMuMSBhcGlkYWVjaW5zIHR5cGUgMTQgcHJlY3Vyc29yIFxuMyAgICAgICAgIERlZjEgICAgICAgQU1QIE5QXzAwMTAxMTYxNi4yICAgICBkZWZlbnNpbi0xIHByZXByb3Byb3RlaW4gXG40ICAgICAgICAgRGVmMiAgICAgICBBTVAgTlBfMDAxMDExNjM4LjEgICAgICAgICBkZWZlbnNpbi0yIHByZWN1cnNvciBcbjUgICAgICAgICBDeXRDIEFwb3B0b3NpcyBOUF8wMDExNzA5NjEuMSAgICAgICAgICAgICAgICAgY3l0b2Nocm9tZSBjIFxuNiBMT0MxMDA1NzY4MTkgQXBvcHRvc2lzIFhQXzAyNjMwMDM5NS4xICBwdXRhdGl2ZSBpbmFjdGl2ZSBjYXNwYXNlIEIgXG4ifQ== -->
+<pre><code>          Gene  Function      ProteinID                   Description
+1    LOC406142       AMP NP_001011615.1  hymenoptaecin preproprotein 
+2        Apid1       AMP NP_001011613.1 apidaecins type 14 precursor 
+3         Def1       AMP NP_001011616.2     defensin-1 preproprotein 
+4         Def2       AMP NP_001011638.1         defensin-2 precursor 
+5         CytC Apoptosis NP_001170961.1                 cytochrome c 
+6 LOC100576819 Apoptosis XP_026300395.1  putative inactive caspase B </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaW1tLmZ1biA8LSBpbW0uY2xhc3NbLGMoMToyKV1cbmhlYWQoaW1tLmZ1bilcbmBgYCJ9 -->
+<pre class="r"><code>imm.fun &lt;- imm.class[,c(1:2)]
+head(imm.fun)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgIEdlbmUgIEZ1bmN0aW9uXG4xICAgIExPQzQwNjE0MiAgICAgICBBTVBcbjIgICAgICAgIEFwaWQxICAgICAgIEFNUFxuMyAgICAgICAgIERlZjEgICAgICAgQU1QXG40ICAgICAgICAgRGVmMiAgICAgICBBTVBcbjUgICAgICAgICBDeXRDIEFwb3B0b3Npc1xuNiBMT0MxMDA1NzY4MTkgQXBvcHRvc2lzXG4ifQ== -->
+<pre><code>          Gene  Function
+1    LOC406142       AMP
+2        Apid1       AMP
+3         Def1       AMP
+4         Def2       AMP
+5         CytC Apoptosis
+6 LOC100576819 Apoptosis</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY2Fub24uc2VsIDwtIHVuZGVyc2VsW3VuZGVyc2VsJENsYXNzID09IFwiQ2Fub25cIixdXG5jYW5vbi5zZWwgPC0gbWVyZ2UoY2Fub24uc2VsLCBpbW0uZnVuLCBieSA9IFwiR2VuZVwiKVxuc3VtbWFyeShhcy5mYWN0b3IoY2Fub24uc2VsJEZ1bmN0aW9uKSlcbmBgYCJ9 -->
+<pre class="r"><code>canon.sel &lt;- undersel[undersel$Class == &quot;Canon&quot;,]
+canon.sel &lt;- merge(canon.sel, imm.fun, by = &quot;Gene&quot;)
+summary(as.factor(canon.sel$Function))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICBSTkFpIEFwb3B0b3NpcyBBdXRvcGhhZ3kgICBIdW1vcmFsICAgICAgIEpOSyAgTHlzb3NvbWUgUGhhZ29zb21lICBUb2xsX0lNRCBcbiAgICAgICAgMSAgICAgICAgIDMgICAgICAgIDE2ICAgICAgICAgNCAgICAgICAgIDMgICAgICAgIDE1ICAgICAgICAgNyAgICAgICAgIDcgXG4ifQ== -->
+<pre><code>     RNAi Apoptosis Autophagy   Humoral       JNK  Lysosome Phagosome  Toll_IMD 
+        1         3        16         4         3        15         7         7 </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGVhZChjYW5vbi5zZWwpXG5gYGAifQ== -->
+<pre class="r"><code>head(canon.sel)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgIEdlbmUgU29jT3JpZ2luIENsYXNzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBHZW5lX0Rlc2MgY291bnRcbjEgICAgICAgICBDeXRDICBIYWxpY3RpZCBDYW5vbiAgICAgICAgICAgICAgICAgICAgICAgbWl0b2Nob25kcmlhbCBjeXRvY2hyb21lIEMgICAgICAxXG4yICAgICAgICBEY3ItMSAgICAgIE1lbGkgQ2Fub24gICAgICAgICAgICAgICAgICAgICAgICAgZW5kb3JpYm9udWNsZWFzZSBEaWNlci0xICAgICAgMVxuMyBMT0MxMDA1NzY3NDIgIEhhbGljdGlkIENhbm9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW50ZWdyaW4gYmV0YS1udSAgICAgIDFcbjQgTE9DMTAwNTc4NTM3ICBIYWxpY3RpZCBDYW5vbiAgVVYgcmFkaWF0aW9uIHJlc2lzdGFuY2UtYXNzb2NpYXRlZCBnZW5lIHByb3RlaW4gICAgICAxXG41ICAgIExPQzQwODcxNyAgSGFsaWN0aWQgQ2Fub24gICAgICAgICAgICAgICAgICAgICAgIHNpYWxvbXVjaW4gY29yZSBwcm90ZWluIDI0ICAgICAgMVxuNiAgICBMT0M0MDg4MDggIEhhbGljdGlkIENhbm9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvc2Fwb3NpbiAgICAgIDFcbiAgIEZ1bmN0aW9uXG4xIEFwb3B0b3Npc1xuMiAgICAgIFJOQWlcbjMgUGhhZ29zb21lXG40IEF1dG9waGFneVxuNSAgTHlzb3NvbWVcbjYgIEx5c29zb21lXG4ifQ== -->
+<pre><code>          Gene SocOrigin Class                                         Gene_Desc count
+1         CytC  Halictid Canon                       mitochondrial cytochrome C      1
+2        Dcr-1      Meli Canon                         endoribonuclease Dicer-1      1
+3 LOC100576742  Halictid Canon                                 integrin beta-nu      1
+4 LOC100578537  Halictid Canon  UV radiation resistance-associated gene protein      1
+5    LOC408717  Halictid Canon                       sialomucin core protein 24      1
+6    LOC408808  Halictid Canon                                       prosaposin      1
+   Function
+1 Apoptosis
+2      RNAi
+3 Phagosome
+4 Autophagy
+5  Lysosome
+6  Lysosome</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>Make the table a little more useful by aggregating functions...</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY2Fub24uc2VsIDwtIGFnZ3JlZ2F0ZShjYW5vbi5zZWxbNl0sIGNhbm9uLnNlbFstNl0sIFxuICAgICAgICAgICAgICAgICAgICAgRlVOID0gZnVuY3Rpb24oWCkgcGFzdGUodW5pcXVlKFgpLCBjb2xsYXBzZT1cIiwgXCIpKVxuY2Fub24uc2VsIDwtIGNhbm9uLnNlbFssYygxOjIsNCw2KV1cbmNhbm9uLnNlbFxuYGBgIn0= -->
+<pre class="r"><code>canon.sel &lt;- aggregate(canon.sel[6], canon.sel[-6], 
+                     FUN = function(X) paste(unique(X), collapse=&quot;, &quot;))
+canon.sel &lt;- canon.sel[,c(1:2,4,6)]
+canon.sel</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgICBHZW5lICAgICAgICAgICAgICAgICAgICBTb2NPcmlnaW5cbjEgICAgIExPQzQxMDE4MyAgICAgICAgICAgICAgICAgICAgICAgICBBcGlzXG4yICAgICBMT0M3Mjc2MzQgICAgICAgICAgICAgICAgICAgICAgICAgWHlsb1xuMyAgICAgTE9DNzI2MTg3ICAgICAgICAgICAgICAgICAgICAgICAgIE1lbGlcbjQgICAgIExPQzcyNTc1NiAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG41ICAgICBMT0M1NTE1MTcgICAgICAgICAgICAgICAgICAgICAgICAgTWVsaVxuNiAgICAgTE9DNDA5NzkxICAgICAgICAgICAgICAgICAgICAgICAgIE1lbGlcbjcgICAgIExPQzQxMzc4MiAgICAgICAgICAgICAgICAgICAgICAgICBYeWxvXG44ICAgICBMT0M1NTEyOTAgICAgICAgICAgICAgICAgICAgICBIYWxpY3RpZFxuOSAgICAgTE9DNTUyNzIxICAgICAgICAgICAgICAgICAgICAgICAgIE1lbGlcbjEwICAgIExPQzU1MDcxNiAgICAgICAgICAgICAgICAgICAgIEhhbGljdGlkXG4xMSAgICBMT0M0MTE2MzkgICAgICAgICAgICAgICAgICAgICAgICAgTWVsaVxuMTIgICAgTE9DNDEwNTc1ICAgICAgICAgICAgICAgICAgICAgSGFsaWN0aWRcbjEzICAgICAgICBEY3ItMSAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG4xNCAgICBMT0M1NTIwOTEgICAgICAgICAgICAgICAgICAgICBIYWxpY3RpZFxuMTUgICAgTE9DNDA5MDM2ICAgICAgICAgICAgICAgICAgICAgSGFsaWN0aWRcbjE2ICAgIExPQzQxMzExOSAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG4xNyBMT0MxMDA1NzY3NDIgICAgICAgICAgICAgICAgICAgICBIYWxpY3RpZFxuMTggICAgTE9DNTUyMjQ5ICAgICAgICAgICAgICAgICAgICAgSGFsaWN0aWRcbjE5ICAgIExPQzU1MjEzOCAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG4yMCAgICAgICAgIEN5dEMgICAgICAgICAgICAgICAgICAgICBIYWxpY3RpZFxuMjEgICAgTE9DNDA5MTI1ICAgICAgICAgICAgICAgICAgICAgSGFsaWN0aWRcbjIyICAgIExPQzQxMzE5NCAgICAgICAgICAgICAgICAgICAgICAgICBBcGlzXG4yMyAgICBMT0M0MTM0MTEgICAgICAgICAgICAgICAgICAgICAgICAgTWVsaVxuMjQgICAgTE9DNTUxNTAwICAgICAgICAgICAgICAgICAgICAgICAgIE1lbGlcbjI1ICAgIExPQzcyNTM2OCAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG4yNiAgICBMT0M0MDg4MDggICAgICAgICAgICAgICAgICAgICBIYWxpY3RpZFxuMjcgICAgTE9DNzI1NTcxICAgICAgICAgICAgICAgICAgICAgICAgIE1lbGlcbjI4ICAgIExPQzQxMDgxMiAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG4yOSAgICBMT0M0MDk1MjkgICAgICAgICAgICAgICAgICAgICAgICAgTWVsaVxuMzAgICAgTE9DNTUxNTU0ICAgICAgICAgICAgICAgICAgICAgICAgIE1lbGlcbjMxICAgIExPQzQxMzY2OCAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG4zMiAgICBMT0M1NTE2MDggICAgICAgICAgICAgICAgICAgICAgICAgTWVsaVxuMzMgICAgTE9DNDA5MzM2ICAgICAgICAgICAgICAgICAgICAgICAgIE1lbGlcbjM0ICAgIExPQzQwODcxNyAgICAgICAgICAgICAgICAgICAgIEhhbGljdGlkXG4zNSAgICBMT0M0MDkyODYgICAgICAgICAgICAgICAgICAgICAgICAgTWVsaVxuMzYgICAgTE9DNDEyMjc4ICAgICAgICAgICAgICAgICAgICAgSGFsaWN0aWRcbjM3ICAgIExPQzQwOTkyMCAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG4zOCAgICBMT0M0MTMxNTMgICAgICAgICAgICAgICAgICAgICBIYWxpY3RpZFxuMzkgTE9DMTAwNTc4NTM3ICAgICAgICAgICAgICAgICAgICAgSGFsaWN0aWRcbjQwICAgIExPQzU1MTAzNiAgICAgICAgICAgICAgICAgICAgICAgICBNZWxpXG40MSAgICBMT0M0MTA3MzIgICAgICAgICAgICAgICBIYWxpY3RpZCwgTWVsaVxuNDIgICAgTE9DNDExMTE1ICAgICAgICAgICAgICAgQXBpcywgSGFsaWN0aWRcbjQzICAgIExPQzQxMDg2MCAgICAgICAgICAgICBBbGxDb21wbGV4LCBNZWxpXG40NCAgICBMT0M1NTEwMTIgICAgICAgICAgICAgICAgICAgTWVsaSwgWHlsb1xuNDUgICAgTE9DNzI2MTY3ICAgICAgICAgICAgICAgSGFsaWN0aWQsIE1lbGlcbjQ2ICAgICAgIFRzcGFuNiAgICAgICAgICAgIENvcmJTb2MsIEhhbGljdGlkXG40NyAgICBMT0M1NTIzMTUgICAgICAgICAgICAgQWxsQ29tcGxleCwgTWVsaVxuNDggICAgTE9DNzI2OTQ3IEFsbE9yaWdpbkVwaSwgSGFsaWN0aWQsIE1lbGlcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR2VuZV9EZXNjXG4xICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxLXBob3NwaGF0aWR5bGlub3NpdG9sIDMtcGhvc3BoYXRlIDUta2luYXNlIFxuMiAgICAgICAgICAgICAgICAgICAgICAgYWN0aXZhdGluZyBtb2xlY3VsZSBpbiBCRUNOMS1yZWd1bGF0ZWQgYXV0b3BoYWd5IHByb3RlaW4gMSBcbjMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBUC0xIGNvbXBsZXggc3VidW5pdCBiZXRhLTEgXG40ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmV0YS1nYWxhY3Rvc2lkYXNlIFxuNSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJldGEtVHJDUCBcbjYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY0FNUC1kZXBlbmRlbnQgcHJvdGVpbiBraW5hc2UgY2F0YWx5dGljIHN1YnVuaXQgXG43ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhcnRpbGFnZSBvbGlnb21lcmljIG1hdHJpeCBwcm90ZWluIFxuOCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXRoZXBzaW4gTyBcbjkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDRDYzIGFudGlnZW4gXG4xMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXRocmluIGhlYXZ5IGNoYWluIFxuMTEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3l0b3BsYXNtaWMgZHluZWluIDIgaGVhdnkgY2hhaW4gMSBcbjEyICAgICAgICAgICAgICAgICAgICAgIGR1YWwgc3BlY2lmaWNpdHkgbWl0b2dlbi1hY3RpdmF0ZWQgcHJvdGVpbiBraW5hc2Uga2luYXNlIDQgXG4xMyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kb3JpYm9udWNsZWFzZSBEaWNlci0xIFxuMTQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JvdXAgWFYgcGhvc3Bob2xpcGFzZSBBMiBcbjE1ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR1RQLWJpbmRpbmcgcHJvdGVpbiBSaGViIGhvbW9sb2cgXG4xNiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlcGFyYW4tYWxwaGEtZ2x1Y29zYW1pbmlkZSBOLWFjZXR5bHRyYW5zZmVyYXNlIFxuMTcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW50ZWdyaW4gYmV0YS1udSBcbjE4ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBseXNvc29tYWwgYWxwaGEtbWFubm9zaWRhc2UgXG4xOSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWlnLTItbGlrZSBHVFBhc2UgTXRsIFxuMjAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaXRvY2hvbmRyaWFsIGN5dG9jaHJvbWUgQyBcbjIxICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaXRvZ2VuLWFjdGl2YXRlZCBwcm90ZWluIGtpbmFzZSBraW5hc2Uga2luYXNlIDQgXG4yMiAgICAgICAgICAgICAgICAgICAgICAgIG15ZWxvaWQgZGlmZmVyZW50aWF0aW9uIHByaW1hcnkgcmVzcG9uc2UgcHJvdGVpbiBNeUQ4OC1BIFxuMjMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbXlvdHVidWxhcmluLXJlbGF0ZWQgcHJvdGVpbiAxNCBcbjI0ICBwaG9zcGhhdGlkeWxpbm9zaXRvbCA0LDUtYmlzcGhvc3BoYXRlIDMta2luYXNlIGNhdGFseXRpYyBzdWJ1bml0IGRlbHRhIGlzb2Zvcm0gXG4yNSAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb2JhYmxlIHNlcmluZS90aHJlb25pbmUtcHJvdGVpbiBraW5hc2UgRERCX0cwMjgzMzM3IFxuMjYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvc2Fwb3NpbiBcbjI3ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm90ZWluIHRyYW5zcG9ydCBwcm90ZWluIFNlYzYxIHN1YnVuaXQgYWxwaGEgXG4yOCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmFzLWxpa2UgcHJvdGVpbiAxIFxuMjkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhcy1saWtlIHByb3RlaW4gMiBcbjMwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXMtcmVsYXRlZCBwcm90ZWluIFJhYzEgXG4zMSAgICAgcnVuIGRvbWFpbiBCZWNsaW4tMS1pbnRlcmFjdGluZyBhbmQgY3lzdGVpbmUtcmljaCBkb21haW4tY29udGFpbmluZyBwcm90ZWluIFxuMzIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VyaW5lL3RocmVvbmluZS1wcm90ZWluIGtpbmFzZSBwZWxsZSBcbjMzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaWFsaW4gXG4zNCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpYWxvbXVjaW4gY29yZSBwcm90ZWluIDI0IFxuMzUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJlc3MtYWN0aXZhdGVkIHByb3RlaW4ga2luYXNlIEpOSyBcbjM2ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR1YmVyaW4gXG4zNyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHViaXF1aXRpbi1jb25qdWdhdGluZyBlbnp5bWUgRTIgdmFyaWFudCAyIFxuMzggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdW5jaGFyYWN0ZXJpemVkIExPQzQxMzE1MyBcbjM5ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVVYgcmFkaWF0aW9uIHJlc2lzdGFuY2UtYXNzb2NpYXRlZCBnZW5lIHByb3RlaW4gXG40MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhY3VvbGUgbWVtYnJhbmUgcHJvdGVpbiAxIFxuNDEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDMtcGhvc3Bob2lub3NpdGlkZS1kZXBlbmRlbnQgcHJvdGVpbiBraW5hc2UgMSBcbjQyICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY3Vsb3ZpcmFsIElBUCByZXBlYXQtY29udGFpbmluZyBwcm90ZWluIDYgXG40MyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhdHRlbmluIFxuNDQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXRpb24taW5kZXBlbmRlbnQgbWFubm9zZS02LXBob3NwaGF0ZSByZWNlcHRvciBcbjQ1ICAgICAgICAgICBsaXBvcG9seXNhY2NoYXJpZGUtaW5kdWNlZCB0dW1vciBuZWNyb3NpcyBmYWN0b3ItYWxwaGEgZmFjdG9yIGhvbW9sb2cgXG40NiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXRyYXNwYW5pbiA2IFxuNDcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB1YmlxdWl0aW4tbGlrZS1jb25qdWdhdGluZyBlbnp5bWUgQVRHMyBcbjQ4ICAgICAgICAgICAgICAgICAgICAgICAgVEdGLWJldGEtYWN0aXZhdGVkIGtpbmFzZSAxIGFuZCBNQVAzSzctYmluZGluZyBwcm90ZWluIDMgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBGdW5jdGlvblxuMSAgICAgICAgICAgICAgICAgICAgICAgICAgICBQaGFnb3NvbWVcbjIgICAgICAgICAgICAgICAgICAgICAgICAgICAgQXV0b3BoYWd5XG4zICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMeXNvc29tZVxuNCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTHlzb3NvbWVcbjUgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRvbGxfSU1EXG42ICAgICAgICAgICAgICAgICAgICAgICAgICAgIEF1dG9waGFneVxuNyAgICAgICAgICAgICAgICAgICAgICAgICAgICBQaGFnb3NvbWVcbjggICAgICAgICAgICAgICAgICAgICAgICAgICAgIEx5c29zb21lXG45ICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMeXNvc29tZVxuMTAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTHlzb3NvbWVcbjExICAgICAgICAgICAgICAgICAgICAgICAgICAgUGhhZ29zb21lXG4xMiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEpOS1xuMTMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJOQWlcbjE0ICAgICAgICAgICAgICAgICAgICAgICAgICAgIEx5c29zb21lXG4xNSAgICAgICAgICAgICAgICAgICAgICAgICAgIEF1dG9waGFneVxuMTYgICAgICAgICAgICAgICAgICAgICAgICAgICAgTHlzb3NvbWVcbjE3ICAgICAgICAgICAgICAgICAgICAgICAgICAgUGhhZ29zb21lXG4xOCAgICAgICAgICAgICAgICAgICAgICAgICAgICBMeXNvc29tZVxuMTkgICAgICAgICAgICAgICAgICAgICAgICAgICBQaGFnb3NvbWVcbjIwICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBvcHRvc2lzXG4yMSAgICAgICAgICAgICAgICAgICAgICAgVG9sbF9JTUQsIEpOS1xuMjIgICAgICAgICAgICAgICAgICAgSHVtb3JhbCwgVG9sbF9JTURcbjIzICAgICAgICAgICAgICAgICAgICAgICAgICAgQXV0b3BoYWd5XG4yNCAgICAgICAgICAgICAgICAgICAgICAgICAgIEF1dG9waGFneVxuMjUgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEh1bW9yYWxcbjI2ICAgICAgICAgICAgICAgICAgICAgICAgICAgIEx5c29zb21lXG4yNyAgICAgICAgICAgICAgICAgICAgICAgICAgIFBoYWdvc29tZVxuMjggICAgICAgICAgICAgICAgICAgICAgICAgICBBdXRvcGhhZ3lcbjI5ICAgICAgICAgICAgICAgICAgICAgICAgICAgQXV0b3BoYWd5XG4zMCAgICAgICAgICAgICAgICAgICAgICAgICAgIFBoYWdvc29tZVxuMzEgICAgICAgICAgICAgICAgICAgICAgICAgICBBdXRvcGhhZ3lcbjMyICAgICAgICAgICAgICAgICAgIFRvbGxfSU1ELCBIdW1vcmFsXG4zMyAgICAgICAgICAgICAgICAgICAgICAgICAgICBMeXNvc29tZVxuMzQgICAgICAgICAgICAgICAgICAgICAgICAgICAgTHlzb3NvbWVcbjM1IEF1dG9waGFneSwgQXBvcHRvc2lzLCBUb2xsX0lNRCwgSk5LXG4zNiAgICAgICAgICAgICAgICAgICAgICAgICAgIEF1dG9waGFneVxuMzcgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9sbF9JTURcbjM4ICAgICAgICAgICAgICAgICAgICAgICAgICAgQXV0b3BoYWd5XG4zOSAgICAgICAgICAgICAgICAgICAgICAgICAgIEF1dG9waGFneVxuNDAgICAgICAgICAgICAgICAgICAgICAgICAgICBBdXRvcGhhZ3lcbjQxICAgICAgICAgICAgICAgICAgICAgICAgICAgQXV0b3BoYWd5XG40MiAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwb3B0b3Npc1xuNDMgICAgICAgICAgICAgICAgICAgICAgICAgICAgTHlzb3NvbWVcbjQ0ICAgICAgICAgICAgICAgICAgICAgICAgICAgIEx5c29zb21lXG40NSAgICAgICAgICAgICAgICAgICAgICAgICAgICBMeXNvc29tZVxuNDYgICAgICAgICAgICAgICAgICAgICAgICAgICAgTHlzb3NvbWVcbjQ3ICAgICAgICAgICAgICAgICAgICAgICAgICAgQXV0b3BoYWd5XG40OCAgICAgICAgICAgICAgICAgICBIdW1vcmFsLCBUb2xsX0lNRFxuIn0= -->
+<pre><code>           Gene                    SocOrigin
+1     LOC410183                         Apis
+2     LOC727634                         Xylo
+3     LOC726187                         Meli
+4     LOC725756                         Meli
+5     LOC551517                         Meli
+6     LOC409791                         Meli
+7     LOC413782                         Xylo
+8     LOC551290                     Halictid
+9     LOC552721                         Meli
+10    LOC550716                     Halictid
+11    LOC411639                         Meli
+12    LOC410575                     Halictid
+13        Dcr-1                         Meli
+14    LOC552091                     Halictid
+15    LOC409036                     Halictid
+16    LOC413119                         Meli
+17 LOC100576742                     Halictid
+18    LOC552249                     Halictid
+19    LOC552138                         Meli
+20         CytC                     Halictid
+21    LOC409125                     Halictid
+22    LOC413194                         Apis
+23    LOC413411                         Meli
+24    LOC551500                         Meli
+25    LOC725368                         Meli
+26    LOC408808                     Halictid
+27    LOC725571                         Meli
+28    LOC410812                         Meli
+29    LOC409529                         Meli
+30    LOC551554                         Meli
+31    LOC413668                         Meli
+32    LOC551608                         Meli
+33    LOC409336                         Meli
+34    LOC408717                     Halictid
+35    LOC409286                         Meli
+36    LOC412278                     Halictid
+37    LOC409920                         Meli
+38    LOC413153                     Halictid
+39 LOC100578537                     Halictid
+40    LOC551036                         Meli
+41    LOC410732               Halictid, Meli
+42    LOC411115               Apis, Halictid
+43    LOC410860             AllComplex, Meli
+44    LOC551012                   Meli, Xylo
+45    LOC726167               Halictid, Meli
+46       Tspan6            CorbSoc, Halictid
+47    LOC552315             AllComplex, Meli
+48    LOC726947 AllOriginEpi, Halictid, Meli
+                                                                          Gene_Desc
+1                                      1-phosphatidylinositol 3-phosphate 5-kinase 
+2                       activating molecule in BECN1-regulated autophagy protein 1 
+3                                                      AP-1 complex subunit beta-1 
+4                                                               beta-galactosidase 
+5                                                                        beta-TrCP 
+6                                  cAMP-dependent protein kinase catalytic subunit 
+7                                              cartilage oligomeric matrix protein 
+8                                                                      cathepsin O 
+9                                                                     CD63 antigen 
+10                                                            clathrin heavy chain 
+11                                              cytoplasmic dynein 2 heavy chain 1 
+12                      dual specificity mitogen-activated protein kinase kinase 4 
+13                                                        endoribonuclease Dicer-1 
+14                                                       group XV phospholipase A2 
+15                                                GTP-binding protein Rheb homolog 
+16                                 heparan-alpha-glucosaminide N-acetyltransferase 
+17                                                                integrin beta-nu 
+18                                                     lysosomal alpha-mannosidase 
+19                                                           Mig-2-like GTPase Mtl 
+20                                                      mitochondrial cytochrome C 
+21                                mitogen-activated protein kinase kinase kinase 4 
+22                        myeloid differentiation primary response protein MyD88-A 
+23                                                 myotubularin-related protein 14 
+24  phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform 
+25                           probable serine/threonine-protein kinase DDB_G0283337 
+26                                                                      prosaposin 
+27                                   protein transport protein Sec61 subunit alpha 
+28                                                              ras-like protein 1 
+29                                                              ras-like protein 2 
+30                                                        ras-related protein Rac1 
+31     run domain Beclin-1-interacting and cysteine-rich domain-containing protein 
+32                                           serine/threonine-protein kinase pelle 
+33                                                                          sialin 
+34                                                      sialomucin core protein 24 
+35                                             stress-activated protein kinase JNK 
+36                                                                         tuberin 
+37                                       ubiquitin-conjugating enzyme E2 variant 2 
+38                                                       uncharacterized LOC413153 
+39                                 UV radiation resistance-associated gene protein 
+40                                                      vacuole membrane protein 1 
+41                                   3-phosphoinositide-dependent protein kinase 1 
+42                                     baculoviral IAP repeat-containing protein 6 
+43                                                                        battenin 
+44                                 cation-independent mannose-6-phosphate receptor 
+45           lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog 
+46                                                                   tetraspanin 6 
+47                                          ubiquitin-like-conjugating enzyme ATG3 
+48                        TGF-beta-activated kinase 1 and MAP3K7-binding protein 3 
+                              Function
+1                            Phagosome
+2                            Autophagy
+3                             Lysosome
+4                             Lysosome
+5                             Toll_IMD
+6                            Autophagy
+7                            Phagosome
+8                             Lysosome
+9                             Lysosome
+10                            Lysosome
+11                           Phagosome
+12                                 JNK
+13                                RNAi
+14                            Lysosome
+15                           Autophagy
+16                            Lysosome
+17                           Phagosome
+18                            Lysosome
+19                           Phagosome
+20                           Apoptosis
+21                       Toll_IMD, JNK
+22                   Humoral, Toll_IMD
+23                           Autophagy
+24                           Autophagy
+25                             Humoral
+26                            Lysosome
+27                           Phagosome
+28                           Autophagy
+29                           Autophagy
+30                           Phagosome
+31                           Autophagy
+32                   Toll_IMD, Humoral
+33                            Lysosome
+34                            Lysosome
+35 Autophagy, Apoptosis, Toll_IMD, JNK
+36                           Autophagy
+37                            Toll_IMD
+38                           Autophagy
+39                           Autophagy
+40                           Autophagy
+41                           Autophagy
+42                           Apoptosis
+43                            Lysosome
+44                            Lysosome
+45                            Lysosome
+46                            Lysosome
+47                           Autophagy
+48                   Humoral, Toll_IMD</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUudGFibGUoY2Fub24uc2VsLCBcIm91dHB1dC9DYW5vblVuZGVyU2VsLnRzdlwiLCByb3cubmFtZXMgPSBGLCBxdW90ZSA9IEYsIHNlcCA9IFwiXFx0XCIpXG5gYGAifQ== -->
+<pre class="r"><code>write.table(canon.sel, &quot;output/CanonUnderSel.tsv&quot;, row.names = F, quote = F, sep = &quot;\t&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+</div>
+</div>
+<div id="go-terms-analyses" class="section level2">
+<h2>GO Terms Analyses</h2>
+<p>Separately I've made a GO annotation file from the raw eggNOG file I made previously using the proteome for Amel build AmelHAv3.1.</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc291cmNlKFwiU2NyaXB0cy9nZW5HT3ZlcnNlLlJcIiwgbG9jYWwgPSBrbml0cjo6a25pdF9nbG9iYWwoKSlcbmBgYCJ9 -->
+<pre class="r"><code>source(&quot;Scripts/genGOverse.R&quot;, local = knitr::knit_global())</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<p>I will also need al ist of genes of interest.</p>
+<p>Just to cover all bases the lists I will be looking at include</p>
+<p>Non-Canonical immune genes (perhaps with those that do not have orthologs across Insecta ? Depends on whether I can find the raw materials in order to make a list)</p>
+<p>All non-canonical immune genes under selection (all, and then divided by origin / elaboration / episodic)</p>
+<p>Canonical immune genes under selection (though I suspect this won't be all that interesting)</p>
+<p>All random genes under selection (sanity check to compare to other papers that assessed selection on this genome set - also split into all, origin of sociality, elaboration of sociality and episodic)</p>
+<p>I'll be running a script that will read in the gene lists, run GO term analysis, and produce dataframes with the most significant terms.</p>
+<p>And to run the tests</p>
+<p>Results will be generated into output/topGo/</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc291cmNlKFwiU2NyaXB0cy9ydW50b3BHTy5SXCIsIGxvY2FsID0ga25pdHI6OmtuaXRfZ2xvYmFsKCkpXG5gYGAifQ== -->
+<pre class="r"><code>source(&quot;Scripts/runtopGO.R&quot;, local = knitr::knit_global())</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+</div>
+
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiSW50ZXJwcmV0YXRpb24iCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KCiMjR2VuZXMgb2YgSW50ZXJlc3QKCldoYXQgZ2VuZXMgYXJlIHdvcnRoIGxvb2tpbmcgYXQgPyBBcmUgdGhlcmUgZ2VuZXMgdGhhdCBwb3AgdXAgaW4gbW9yZSB0aGFuIG9uZSBvcmlnaW4gLyBlbGFib3JhdGlvbiBvZiBzb2NpYWxpdHksIHN1Z2dlc3RpbmcgdGhlIGNoYW5nZSBpbiBmdW5jdGlvbiBtYXkgaGF2ZSBiZWVuIHNlbGVjdGVkIGZvciBpbiBhY2NvcmRhbmNlIHdpdGggdHJhbnNpdGlvbmluZyB0byBtb3JlIHNvY2lhbCBsaWZlc3R5bGVzID8gQW5kIGlmIHNvLCB3aGF0IGFyZSB0aGVzZSBnZW5lcz8KClRoaXMgc2NyaXB0IHdpbGwgdGFrZSB0aGUgZGF0YSwga2VlcCBvbmx5IHRob3NlIHNpZ25pZmljYW50IGFuZCBhZ2dyZWdhdGUgYnkgU29jT3JpZ2luIGluIGFuIG9iamVjdCBjYWxsZWQgInVuZGVyc2VsIi4gQWxsIG9mIHRob3NlIGdlbmVzIHRoYXQgYXBwZWFyIG1vcmUgdGhhbiBvbmNlIHdpbGwgYmUgcHV0IGluIGEgbW9yZSBpbnRlcmVzdGluZyBkYXRhZnJhbWUgY2FsbGVkICJnb2kiCgpgYGB7cn0Kc291cmNlKCJTY3JpcHRzL2dldGdvaS5SIiwgbG9jYWwgPSBrbml0cjo6a25pdF9nbG9iYWwoKSkKYGBgCgpgYGB7cn0KaGVhZChnb2kpCmBgYAoKU2hvdWxkIHByb2JhYmx5IHJlbW92ZSB0aGUgcmFuZG9tIGdlbmVzLgoKYGBge3J9CmdvaS5pbW0gPC0gZ29pWyFnb2kkQ2xhc3MgPT0gIlJhbmRvbSIsXQpgYGAKCmBgYHtyfQpoZWFkKGdvaS5pbW0pCmBgYAoKYGBge3J9CmdvaS5pbW1bZ29pLmltbSRDbGFzcyA9PSAiQ2Fub24iLF0KYGBgCgpgYGB7cn0KZ29pLmltbVtnb2kuaW1tJGNvdW50ID4gMixdCmBgYAoKYGBge3J9Cm5yb3coZ29pLmltbVtnb2kuaW1tJGNvdW50ID4gMSxdKQpucm93KGdvaS5pbW1bKGdvaS5pbW0kY291bnQgPiAxKSAmIChnb2kuaW1tJENsYXNzID09ICJDYW5vbiIpLF0pCm5yb3coZ29pLmltbVsoZ29pLmltbSRjb3VudCA+IDEpICYgKGdvaS5pbW0kQ2xhc3MgPT0gIk5vbkNhbm9uIiksXSkKYGBgCgpgYGB7cn0Kd3JpdGUudGFibGUoZ29pLCAib3V0cHV0L0dPSS50c3YiLCBzZXAgPSAiXHQiLCByb3cubmFtZXMgPSBGLCBxdW90ZSA9IEYpCmBgYAoKU28gZnJvbSBoZXJlIEkgd2lsbCBoYXZlIHRvIHRha2UgYSBjbG9zZXIgbG9vayB0byB0aGUgZ2VuZXMgdGhhdCBhcHBlYXIgaW4gbW9yZSB0aGFuIHR3byBsaW5lYWdlcyB0ZXN0ZWQsIGFuZCBydW4gYSBHTyBhbmFseXNpcyBvZiB0aGUgbm9uY2Fub24gZ2VuZXMgdGhhdCBhcmUgdW5kZXIgc2VsZWN0aW9uIGFuZCBoYXZlIGFwcGVhcmVkIG1vcmUgdGhhbiBvbmNlLiBJdCBtYXkgYWxzbyBiZSB3b3J0aCB0byBsb29rIGF0IEFsbENvbXBsZXggYW5kIEFsbE9yaWdpbiB0b28gLi4uIAoKYGBge3J9CmFsbC5zZWwgPC0gdW5kZXJzZWxbZ3JlcCgiQWxsIiwgdW5kZXJzZWwkU29jT3JpZ2luKSxdCmFsbC5zZWwuaW1tIDwtIGFsbC5zZWxbIWFsbC5zZWwkQ2xhc3MgPT0gIlJhbmRvbSIsXQphbGwuc2VsLmltbQpgYGAKCiMjI0FsbCBDYW5vbiAKCkxvb2sgYXQgYWxsIHRoZSBjYW5vbiBnZW5lcyBhbmQgY29uc2lkZXIgdGhlaXIgaW1tdW5lIGZ1bmN0aW9uLi4uCgpIb3BlZnVsbHkgd2Ugc2hvdWxkIGhhdmUgUk5BaSAvIHJlY29nbml0aW9uIGdlbmVzIGluIGhlcmUKCmBgYHtyfQppbW0uY2xhc3MgPC0gcmVhZC50YWJsZSgiSW1tUmVzb3VyY2VzL0Nhbm9uX0ltbXVuZV9HZW5lTGlzdF9KYW4yMC50eHQiLCBoZWFkZXIgPSBULCBzZXA9Ilx0IiwgcXVvdGUgPSAiIikKaGVhZChpbW0uY2xhc3MpCmBgYAoKYGBge3J9CmltbS5mdW4gPC0gaW1tLmNsYXNzWyxjKDE6MildCmhlYWQoaW1tLmZ1bikKYGBgCgpgYGB7cn0KY2Fub24uc2VsIDwtIHVuZGVyc2VsW3VuZGVyc2VsJENsYXNzID09ICJDYW5vbiIsXQpjYW5vbi5zZWwgPC0gbWVyZ2UoY2Fub24uc2VsLCBpbW0uZnVuLCBieSA9ICJHZW5lIikKc3VtbWFyeShhcy5mYWN0b3IoY2Fub24uc2VsJEZ1bmN0aW9uKSkKaGVhZChjYW5vbi5zZWwpCmBgYAoKTWFrZSB0aGUgdGFibGUgYSBsaXR0bGUgbW9yZSB1c2VmdWwgYnkgYWdncmVnYXRpbmcgZnVuY3Rpb25zLi4uCgpgYGB7cn0KY2Fub24uc2VsIDwtIGFnZ3JlZ2F0ZShjYW5vbi5zZWxbNl0sIGNhbm9uLnNlbFstNl0sIAogICAgICAgICAgICAgICAgICAgICBGVU4gPSBmdW5jdGlvbihYKSBwYXN0ZSh1bmlxdWUoWCksIGNvbGxhcHNlPSIsICIpKQpjYW5vbi5zZWwgPC0gY2Fub24uc2VsWyxjKDE6Miw0LDYpXQpjYW5vbi5zZWwKYGBgCgoKCmBgYHtyfQp3cml0ZS50YWJsZShjYW5vbi5zZWwsICJvdXRwdXQvQ2Fub25VbmRlclNlbC50c3YiLCByb3cubmFtZXMgPSBGLCBxdW90ZSA9IEYsIHNlcCA9ICJcdCIpCmBgYAoKIyNHTyBUZXJtcyBBbmFseXNlcwoKU2VwYXJhdGVseSBJJ3ZlIG1hZGUgYSBHTyBhbm5vdGF0aW9uIGZpbGUgZnJvbSB0aGUgcmF3IGVnZ05PRyBmaWxlIEkgbWFkZSBwcmV2aW91c2x5IHVzaW5nIHRoZSBwcm90ZW9tZSBmb3IgQW1lbCBidWlsZCBBbWVsSEF2My4xLgoKYGBge3J9CnNvdXJjZSgiU2NyaXB0cy9nZW5HT3ZlcnNlLlIiLCBsb2NhbCA9IGtuaXRyOjprbml0X2dsb2JhbCgpKQpgYGAKCkkgd2lsbCBhbHNvIG5lZWQgYWwgaXN0IG9mIGdlbmVzIG9mIGludGVyZXN0LiAKCkp1c3QgdG8gY292ZXIgYWxsIGJhc2VzIHRoZSBsaXN0cyBJIHdpbGwgYmUgbG9va2luZyBhdCBpbmNsdWRlCgpOb24tQ2Fub25pY2FsIGltbXVuZSBnZW5lcyAocGVyaGFwcyB3aXRoIHRob3NlIHRoYXQgZG8gbm90IGhhdmUgb3J0aG9sb2dzIGFjcm9zcyBJbnNlY3RhID8gRGVwZW5kcyBvbiB3aGV0aGVyIEkgY2FuIGZpbmQgdGhlIHJhdyBtYXRlcmlhbHMgaW4gb3JkZXIgdG8gbWFrZSBhIGxpc3QpCgpBbGwgbm9uLWNhbm9uaWNhbCBpbW11bmUgZ2VuZXMgdW5kZXIgc2VsZWN0aW9uIChhbGwsIGFuZCB0aGVuIGRpdmlkZWQgYnkgb3JpZ2luIC8gZWxhYm9yYXRpb24gLyBlcGlzb2RpYykKCkNhbm9uaWNhbCBpbW11bmUgZ2VuZXMgdW5kZXIgc2VsZWN0aW9uICh0aG91Z2ggSSBzdXNwZWN0IHRoaXMgd29uJ3QgYmUgYWxsIHRoYXQgaW50ZXJlc3RpbmcpCgpBbGwgcmFuZG9tIGdlbmVzIHVuZGVyIHNlbGVjdGlvbiAoc2FuaXR5IGNoZWNrIHRvIGNvbXBhcmUgdG8gb3RoZXIgcGFwZXJzIHRoYXQgYXNzZXNzZWQgc2VsZWN0aW9uIG9uIHRoaXMgZ2Vub21lIHNldCAtIGFsc28gc3BsaXQgaW50byBhbGwsIG9yaWdpbiBvZiBzb2NpYWxpdHksIGVsYWJvcmF0aW9uIG9mIHNvY2lhbGl0eSBhbmQgZXBpc29kaWMpCgpJJ2xsIGJlIHJ1bm5pbmcgYSBzY3JpcHQgdGhhdCB3aWxsIHJlYWQgaW4gdGhlIGdlbmUgbGlzdHMsIHJ1biBHTyB0ZXJtIGFuYWx5c2lzLCBhbmQgcHJvZHVjZSBkYXRhZnJhbWVzIHdpdGggdGhlIG1vc3Qgc2lnbmlmaWNhbnQgdGVybXMuCgpBbmQgdG8gcnVuIHRoZSB0ZXN0cwoKUmVzdWx0cyB3aWxsIGJlIGdlbmVyYXRlZCBpbnRvIG91dHB1dC90b3BHby8KCmBgYHtyfQpzb3VyY2UoIlNjcmlwdHMvcnVudG9wR08uUiIsIGxvY2FsID0ga25pdHI6OmtuaXRfZ2xvYmFsKCkpCmBgYAoKCgo=</div>
 
 
 
