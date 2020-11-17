@@ -24,3 +24,15 @@ Meli
 
 Xylo
 ((Lalb, Dnov), (Hlab, (Ccal $1, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex))), Mrot);
+
+Habro
+((Lalb, Dnov), (Hlab $1, (Ccal, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex))), Mrot);
+
+Nova
+((Lalb, Dnov $1), (Hlab, (Ccal, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex))), Mrot);
+
+Mega
+((Lalb, Dnov), (Hlab, (Ccal, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex))), Mrot $1);
+
+AllSol
+((Lalb, Dnov $1), (Hlab $1, (Ccal, (((Aflo, Amel), ((Bter, Bimp), Mqua)), Emex))), Mrot $1);
