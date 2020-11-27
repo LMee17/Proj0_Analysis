@@ -105,7 +105,7 @@ summary(data.sig.imm$SocOrigin)
 
 ```{r}
 write.table(data.imm, "output/CodeML_Results_AllImmune.tsv", quote = F, row.names = F, sep = "\t")
-write.table(data.imm, "output/CodeML_SigResults_AllImmune.tsv", quote = F, row.names = F, sep = "\t")
+write.table(data.sig.imm, "output/CodeML_SigResults_AllImmune.tsv", quote = F, row.names = F, sep = "\t")
 ```
 
 ##Random Dataset
