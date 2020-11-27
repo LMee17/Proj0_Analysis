@@ -1,0 +1,201 @@
+---
+title: "Comparison"
+output: html_notebook
+---
+
+#Comparing Social and Solitary Lineages
+
+Each lineage has been tested for differences between number of genes under selection using ChiSq contingency tables. These comparisons were pairwise comparisons and as such may need to be corrected for multiple testing - but as mostly they were insignificant I'll worry about that later.
+
+In order to test proprtions between lineages I'm going to test them simultaneously using r's 'prop.test' function. I can't find much on what test it actually runs, but it seems that it uses Pearson's Chisq, but without pairwise comparisons. 
+
+To get this to work I'm going to compare AllSol, AllComplex and AllOrigins. These will be rownames, with genes as column headers. If that gene was found to be under selection after adjusted pvalues in that codeml run, it will be coded wih a 1. If it was not under selection after adjusted pvalues then the value entered will be 0.
+
+Ok let's start off with extracting those dataframes.
+
+```{r}
+allsol <- data.sol[[1]]
+allori <- data[[2]]
+allcom <- data[[1]]
+```
+
+AllComplex and AllOrigin have have 28 more genes in their dataframes than AllSol. I hope this is down to duplications.
+
+```{r}
+nrow(allcom[!duplicated(allcom$Gene),])
+```
+
+That looks better
+
+```{r}
+allsol <- allsol[!duplicated(allsol$Gene),]
+allcom <- allcom[!duplicated(allcom$Gene),]
+allori <- allori[!duplicated(allori$Gene),]
+```
+
+Ok now they're all 6109, hopefully all the same.
+
+Put in a list to make it easier to play with
+
+```{r}
+all.list <- list(allsol, allori, allcom)
+head(all.list[[2]])
+```
+
+1 = AllSol
+
+2 = AllOri
+
+3 = AllCom
+
+```{r}
+all.vect <- c("AllSol", "AllOrigin", "AllComplex")
+
+for (i in 1:length(all.list)){
+  all.list[[i]]$Selection <- ifelse(all.list[[i]]$adj_pvalue < 0.051, paste(1), paste(0))
+  all.list[[i]]$Tot <- paste(1)
+}
+
+head(all.list[[3]])
+```
+
+To check they're still in the same order, I'll compare the number of genes under selection between allcom and all.list[[2]]
+
+```{r}
+nrow(allcom[allcom$adj_pvalue < 0.051,]) == nrow(all.list2[[2]][all.list2[[2]]$Selection == 1,])
+```
+
+Make really sure
+
+```{r}
+nrow(allsol[allsol$adj_pvalue < 0.051,]) == nrow(all.list2[[1]][all.list2[[1]]$Selection == 1,])
+```
+
+```{r}
+all.combined <- bind_rows(all.list)
+all.combined$SocOrigin <- droplevels(all.combined$SocOrigin)
+table(all.combined$SocOrigin, all.combined$Selection)
+```
+
+##Canon
+
+
+```{r}
+all.can <- all.combined[all.combined$Class == "Canon",]
+table(all.can$SocOrigin, all.can$Selection)
+```
+
+
+
+```{r}
+can.pos <- tapply(as.integer(all.can$Selection), all.can$SocOrigin, sum)
+can.pos
+```
+
+```{r}
+can.tot <- tapply(as.integer(all.can$Tot), all.can$SocOrigin, sum)
+can.tot
+```
+
+To perform the test ...
+
+```{r}
+prop.test(can.pos, can.tot)
+```
+
+Didn't see that coming. Moving on.
+
+##NonCanon
+
+
+```{r}
+all.non <- all.combined[all.combined$Class == "NonCanon",]
+table(all.non$SocOrigin, all.non$Selection)
+```
+
+
+
+```{r}
+non.pos <- tapply(as.integer(all.non$Selection), all.non$SocOrigin, sum)
+non.pos
+```
+
+```{r}
+non.tot <- tapply(as.integer(all.non$Tot), all.non$SocOrigin, sum)
+non.tot
+```
+
+To perform the test ...
+
+```{r}
+prop.test(non.pos, non.tot)
+```
+
+Didn't see that coming. Moving on.
+
+##Random
+
+
+```{r}
+all.ran <- all.combined[all.combined$Class == "Random",]
+table(all.ran$SocOrigin, all.ran$Selection)
+```
+
+
+
+```{r}
+ran.pos <- tapply(as.integer(all.ran$Selection), all.ran$SocOrigin, sum)
+ran.pos
+```
+
+```{r}
+ran.tot <- tapply(as.integer(all.ran$Tot), all.ran$SocOrigin, sum)
+ran.tot
+```
+
+To perform the test ...
+
+```{r}
+prop.test(ran.pos, ran.tot)
+```
+
+Oh ok, difference here. Is it trended ? 
+
+For this I'm gonna score the social origins 1-3 for sociality.
+
+```{r}
+all.combined$Sociality[all.combined$SocOrigin == "AllSol"] <- 1
+all.combined$Sociality[all.combined$SocOrigin == "AllOrigin"] <- 2
+all.combined$Sociality[all.combined$SocOrigin == "AllComplex"] <- 3
+head(all.combined)
+```
+
+```{r}
+all.ran2 <- all.combined[all.combined$Class == "Random",]
+table(all.ran2$Sociality, all.ran$Selection)
+```
+
+```{r}
+ran2.pos <- tapply(as.integer(all.ran2$Selection), all.ran2$Sociality, sum)
+
+ran2.tot <- tapply(as.integer(all.ran2$Tot), all.ran2$Sociality, sum)
+```
+
+To perform the test ...
+
+
+```{r}
+prop.trend.test(ran2.pos, ran2.tot)
+```
+
+There is a significant linear relationship between the proportions of random genes under selection ...
+
+```{r}
+plot(ran2.pos, xlab = "Sociality", ylab = "Number of Random Genes under Selection", type="l")
+```
+
+
+
+
+
+
