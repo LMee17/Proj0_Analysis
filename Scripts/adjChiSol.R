@@ -47,19 +47,18 @@ chi.craft.adj <- function(x){
   return(out)
 }
 
-chi.adj.results <- lapply(data, chi.craft.adj)
-
+chi.sol.adj.results <- lapply(data.sol, chi.craft.adj)
 
 #Combine into a table
 #Record tests
-Test <- rownames(chi.adj.results[[1]])
+Test <- rownames(chi.sol.adj.results[[1]])
 
 #Unlist and add test names as first column
-chi.adj.results <- as.data.frame(bind_rows(chi.adj.results))
-chi.adj.results <- cbind(Test, chi.adj.results)
+chi.sol.adj.results <- as.data.frame(bind_rows(chi.sol.adj.results))
+chi.sol.adj.results <- cbind(Test, chi.sol.adj.results)
 
 
 #Write up
 
-write.table(chi.adj.results, "output/ChiSqTestbyOrigin_adjustedpvalues.tsv", 
+write.table(chi.sol.adj.results, "output/ChiSqTestbyOrigin_adjustedpvalues.tsv", 
             sep="\t", quote=F, row.names=F)

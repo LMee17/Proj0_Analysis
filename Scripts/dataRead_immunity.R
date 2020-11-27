@@ -30,6 +30,7 @@ getname <- function(x){
 for (i in 1:length(data)){
   data[[i]]$SocOrigin <- getname(filelist[i])
   data[[i]]<-na.omit(data[[i]])
+  data[[i]]<-data[[i]][!duplicated(data[[i]]$Gene),]
 }
 
 ######Add details######
