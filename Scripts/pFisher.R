@@ -2,9 +2,10 @@
 #A script to run Fisher's exact test on unadjusted pvalues
 
 fisher.craft <- function(x){
+  x$Class <- as.factor(x$Class)
   d.sig <- x[x$pvalue < 0.051,]
   #ONE: Imm vs Random
-  a.sig <- as.integer(summary(d.sig$Class)[1] + summary(d.sig$Class)[2])
+  a.sig <- as.integer(summary(d.sig$Class)[1]) + as.integer(summary(d.sig$Class)[2])
   b.sig <- as.integer(summary(d.sig$Class)[3])
   summary(d.sig$Class)
   a.tot <- as.integer(summary(x$Class)[1]+ summary(x$Class)[2])
@@ -51,6 +52,9 @@ fisher.craft <- function(x){
 }
 
 p.results <- lapply(data, fisher.craft)
+
+summary(test$Class)[2]
+summary(test$Class)
 
 #Combine into a table
 #Record tests

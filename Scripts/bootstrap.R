@@ -7,6 +7,12 @@ library("dplyr")
 
 #Canonical first
 
+for (i in 1:length(data)){
+  data[[i]]$Gene <- as.factor(data[[i]]$Gene)
+  data[[i]]$SocOrigin <- as.factor(data[[i]]$SocOrigin)
+  data[[i]]$Class <- as.factor(data[[i]]$Class)
+}
+
 #This is going to be a function within a function job
 #First, a function to sample the population of the origin test (ie all genes that underwent
 #branch site analysis in the run) with the number of genes that were found under selection

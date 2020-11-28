@@ -1,4 +1,5 @@
 chi.craft.adj <- function(x){
+  x$Class <- as.factor(x$Class)
   d.sig <- x[x$adj_pvalue < 0.051,]
   #ONE: Imm vs Random
   a.sig <- as.integer(summary(d.sig$Class)[1] + summary(d.sig$Class)[2])

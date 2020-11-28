@@ -341,6 +341,7 @@ group_by(omega, Class) %>%
 
 
 ```{r}
+install.packages("ggpubr")
 library("ggpubr")
 ```
 

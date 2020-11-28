@@ -5,6 +5,7 @@
 
 library("dplyr")
 
+
 #Canonical first
 
 #This is going to be a function within a function job
@@ -14,13 +15,16 @@ library("dplyr")
 #classified in the data and the number of "hits" - number of times canoncial genes are
 #selected at random - is recorded and returned.
 can.sel <- function(x){
+  x$Gene <- as.factor(x$Gene)
+  x$Class <- as.factor(x$Class)
   pop <- x$Gene
   no <- nrow(x[x$adj_pvalue < 0.05,])
-  can <- droplevels(x$Gene[x$Class == "Canon"])
+  can <- droplevels(as.factor(x$Gene[x$Class == "Canon"]))
   bite <- sample(pop, size=no,replace=T)
   hit.can <- sum(as.integer(can %in% bite))
   return(hit.can)
 }
+
 
 
 #Secondly, I need a logical function that will allow for me to check to see if the
@@ -51,10 +55,11 @@ call.make <- function(x,y){
 #and the number of times the actual data frequency occurred as a division of the number
 #of iterations (ie 1 occurence out of 100 iterations would be 0.01), (echo).
 can.assess <- function(x,y){
+  x$SocOrigin <- as.factor(x$SocOrigin)
   out <- rep(0,y)
   for (i in 1:y){out[i] <- can.sel(x)}
   mu <- mean(out)
-  soc <- droplevels(x$SocOrigin[!duplicated(x$SocOrigin)])
+  soc <- droplevels(as.factor(x$SocOrigin[!duplicated(x$SocOrigin)]))
   can.data <- nrow(subset(x, adj_pvalue < 0.05 & Class == "Canon"))
   class <- "Canon"
   low <- as.integer(quantile(out, probs=0.025))
@@ -71,28 +76,33 @@ can.assess <- function(x,y){
   return(final)
 }
 
-for (i in 1:length(data.sol)){
-  data.sol[[i]]$Gene <- as.factor(data.sol[[i]]$Gene)
-}
+out <- rep(1,5)
+
+
+
 
 can.sol.results <- lapply(X=data.sol, y=100000, FUN = can.assess)
 can.sol.results <- bind_rows(can.sol.results)
 
 #Same again, for Noncan.
 non.sel <- function(x){
+  x$Gene <- as.factor(x$Gene)
+  x$Class <- as.factor(x$Class)
   pop <- x$Gene
   no <- nrow(x[x$adj_pvalue < 0.05,])
-  can <- droplevels(x$Gene[x$Class == "NonCanon"])
+  can <- droplevels(as.factor(x$Gene[x$Class == "NonCanon"]))
   bite <- sample(pop, size=no,replace=T)
   hit.non <- sum(as.integer(can %in% bite))
   return(hit.non)
 }
 
+
 non.assess <- function(x,y){
+  x$SocOrigin <- as.factor(x$SocOrigin)
   out <- rep(0,y)
   for (i in 1:y){out[i] <- non.sel(x)}
   mu <- mean(out)
-  soc <- droplevels(x$SocOrigin[!duplicated(x$SocOrigin)])
+  soc <- droplevels(as.factor(x$SocOrigin[!duplicated(x$SocOrigin)]))
   non.data <- nrow(subset(x, adj_pvalue < 0.05 & Class == "NonCanon"))
   class <- "NonCanon"
   low <- as.integer(quantile(out, probs=0.025))
