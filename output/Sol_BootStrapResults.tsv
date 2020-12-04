@@ -1,9 +1,9 @@
 SocOrigin	GeneClass	RealDataFreqUnderSel	BootStrapMean	LowerCI	UpperCI	PropRealDataResult	NullHypothesis
-AllSol	Canon	2	0.32477	0	2	0.04188	Accept
-Habro	Canon	12	6.30805	2	12	0.0155	Accept
-Mega	Canon	3	1.93631	0	5	0.16792	Accept
-Nova	Canon	7	3.90809	1	8	0.05686	Accept
-AllSol	NonCanon	3	1.44664	0	4	0.12185	Accept
-Habro	NonCanon	30	28.21212	19	38	0.07519	Accept
-Mega	NonCanon	8	8.6483	4	14	0.14677	Accept
-Nova	NonCanon	21	17.49879	10	25	0.06508	Accept
+AllSol	Canon	2	0.32301	0	2	0.04206	Accept
+Habro	Canon	12	6.30861	2	12	0.01522	Accept
+Mega	Canon	3	1.9384	0	5	0.16773	Accept
+Nova	Canon	7	3.90308	1	8	0.05565	Accept
+AllSol	NonCanon	3	1.44639	0	4	0.1224	Accept
+Habro	NonCanon	30	28.21264	19	38	0.07648	Accept
+Mega	NonCanon	8	8.64543	4	14	0.1465	Accept
+Nova	NonCanon	21	17.49735	10	25	0.06408	Accept
