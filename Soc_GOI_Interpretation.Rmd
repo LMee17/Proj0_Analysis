@@ -9,6 +9,8 @@ What genes are worth looking at ? Are there genes that pop up in more than one o
 
 This script will take the data, keep only those significant and aggregate by SocOrigin in an object called "undersel". All of those genes that appear more than once will be put in a more interesting dataframe called "goi"
 
+The rest will be put in a dataframe called "undersel"
+
 ```{r}
 source("Scripts/getgoi.R", local = knitr::knit_global())
 ```
@@ -99,7 +101,7 @@ Separately I've made a GO annotation file from the raw eggNOG file I made previo
 source("Scripts/genGOverse.R", local = knitr::knit_global())
 ```
 
-I will also need al ist of genes of interest. 
+I will also need a list of genes of interest. 
 
 Just to cover all bases the lists I will be looking at include
 
@@ -128,3 +130,97 @@ head(bp.list[[3]])
 ```
 
 
+##Solitary Lineages
+
+Once more, without sociality....
+
+```{r}
+source("Scripts/getgoiSol.R", local = knitr::knit_global())
+```
+
+```{r}
+head(goi.sol)
+```
+
+
+
+
+Should probably remove the random genes.
+
+```{r}
+goi.sol.imm <- goi.sol[!goi.sol$Class == "Random",]
+```
+
+```{r}
+head(goi.sol.imm)
+```
+
+```{r}
+goi.sol.imm[goi.sol.imm$Class == "Canon",]
+```
+
+```{r}
+goi.sol.imm[goi.sol.imm$count > 2,]
+```
+
+```{r}
+nrow(goi.sol.imm[goi.sol.imm$count > 1,])
+nrow(goi.sol.imm[(goi.sol.imm$count > 1) & (goi.sol.imm$Class == "Canon"),])
+nrow(goi.sol.imm[(goi.sol.imm$count > 1) & (goi.sol.imm$Class == "NonCanon"),])
+```
+
+```{r}
+write.table(goi.sol, "output/GOI_Sol.tsv", sep = "\t", row.names = F, quote = F)
+```
+
+So from here I will have to take a closer look to the genes that appear in more than two lineages tested, and run a GO analysis of the noncanon genes that are under selection and have appeared more than once. It may also be worth to look at AllComplex and AllOrigin too ... 
+
+```{r}
+all.sol.sel <- undersel.sol[grep("All", undersel.sol$SocOrigin),]
+all.sol.sel.imm <- all.sol.sel[!all.sol.sel$Class == "Random",]
+all.sol.sel.imm
+```
+
+###All Canon - Solitary
+
+Look at all the canon genes and consider their immune function...
+
+Hopefully we should have RNAi / recognition genes in here
+
+```{r}
+canon.sol.sel <- undersel.sol[undersel.sol$Class == "Canon",]
+canon.sol.sel <- merge(canon.sol.sel, imm.fun, by = "Gene")
+summary(as.factor(canon.sol.sel$Function))
+head(canon.sol.sel)
+```
+
+Make the table a little more useful by aggregating functions...
+
+```{r}
+canon.sol.sel <- aggregate(canon.sol.sel[6], canon.sol.sel[-6], 
+                     FUN = function(X) paste(unique(X), collapse=", "))
+canon.sol.sel <- canon.sol.sel[,c(1:2,4,6)]
+canon.sol.sel
+```
+
+
+
+```{r}
+write.table(canon.sol.sel, "output/CanonUnderSel_Sol.tsv", row.names = F, quote = F, sep = "\t")
+```
+
+##GO Terms Analyses
+
+Run the Tests
+
+Results will be generated into output/topGo/
+
+```{r}
+source("Scripts/runtopGO.R", local = knitr::knit_global())
+```
+
+To have a look at the results, ie biological process
+
+```{r}
+head(bp.list[[3]])
+```
