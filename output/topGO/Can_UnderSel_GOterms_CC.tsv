@@ -1,35 +1,35 @@
 GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
-GO:0005886	plasma membrane	706	14	5.12	4	0.00140	0.00020	Biological Process
-GO:0030136	clathrin-coated vesicle	18	3	0.13	5	0.00026	0.00026	Biological Process
-GO:0000323	lytic vacuole	58	4	0.42	8	0.00670	0.00074	Biological Process
-GO:0005802	trans-Golgi network	27	3	0.2	9	0.00091	0.00091	Biological Process
-GO:0005905	clathrin-coated pit	9	2	0.07	10	0.00178	0.00178	Biological Process
-GO:0030118	clathrin coat	10	2	0.07	11	0.00222	0.00222	Biological Process
-GO:0005737	cytoplasm	2565	27	18.62	14	0.03830	0.00245	Biological Process
-GO:0005768	endosome	152	5	1.1	15	0.00438	0.00438	Biological Process
-GO:0005764	lysosome	57	3	0.41	16	0.00783	0.00783	Biological Process
-GO:0033596	TSC1-TSC2 complex	2	1	0.01	17	0.01447	0.01447	Biological Process
-GO:0005943	phosphatidylinositol 3-kinase complex, c...	2	1	0.01	18	0.01447	0.01447	Biological Process
-GO:0097651	phosphatidylinositol 3-kinase complex, c...	2	1	0.01	19	0.01447	0.01447	Biological Process
-GO:0071439	clathrin complex	2	1	0.01	20	0.01447	0.01447	Biological Process
-GO:0005776	autophagosome	28	2	0.2	24	0.01718	0.01718	Biological Process
-GO:0045169	fusome	28	2	0.2	25	0.01718	0.01718	Biological Process
-GO:0070578	RISC-loading complex	3	1	0.02	26	0.02162	0.02162	Biological Process
-GO:0000153	cytoplasmic ubiquitin ligase complex	3	1	0.02	27	0.02162	0.02162	Biological Process
-GO:0098549	somatic ring canal	3	1	0.02	28	0.02162	0.02162	Biological Process
-GO:0001726	ruffle	3	1	0.02	29	0.02162	0.02162	Biological Process
-GO:0031528	microvillus membrane	4	1	0.03	30	0.02873	0.02873	Biological Process
-GO:0008305	integrin complex	4	1	0.03	31	0.02873	0.02873	Biological Process
-GO:0098636	protein complex involved in cell adhesio...	4	1	0.03	32	0.02873	0.02873	Biological Process
-GO:0030666	endocytic vesicle membrane	5	1	0.04	33	0.03579	0.03579	Biological Process
-GO:0030669	clathrin-coated endocytic vesicle membra...	5	1	0.04	34	0.03579	0.03579	Biological Process
-GO:0045334	clathrin-coated endocytic vesicle	5	1	0.04	35	0.03579	0.03579	Biological Process
-GO:0030122	AP-2 adaptor complex	5	1	0.04	36	0.03579	0.03579	Biological Process
-GO:0030128	clathrin coat of endocytic vesicle	5	1	0.04	37	0.03579	0.03579	Biological Process
-GO:0030132	clathrin coat of coated pit	6	1	0.04	39	0.04279	0.04279	Biological Process
-GO:0031332	RNAi effector complex	6	1	0.04	40	0.04279	0.04279	Biological Process
-GO:0016442	RISC complex	6	1	0.04	41	0.04279	0.04279	Biological Process
-GO:0005770	late endosome	46	2	0.33	42	0.04338	0.04338	Biological Process
-GO:0012506	vesicle membrane	48	2	0.35	43	0.04686	0.04686	Biological Process
-GO:0048471	perinuclear region of cytoplasm	49	2	0.36	44	0.04864	0.04864	Biological Process
-GO:0005942	phosphatidylinositol 3-kinase complex	7	1	0.05	45	0.04975	0.04975	Biological Process
+GO:0005886	plasma membrane	706	14	5.12	4	0.00140	0.00020	Cellular Component
+GO:0030136	clathrin-coated vesicle	18	3	0.13	5	0.00026	0.00026	Cellular Component
+GO:0000323	lytic vacuole	58	4	0.42	8	0.00670	0.00074	Cellular Component
+GO:0005802	trans-Golgi network	27	3	0.2	9	0.00091	0.00091	Cellular Component
+GO:0005905	clathrin-coated pit	9	2	0.07	10	0.00178	0.00178	Cellular Component
+GO:0030118	clathrin coat	10	2	0.07	11	0.00222	0.00222	Cellular Component
+GO:0005737	cytoplasm	2565	27	18.62	14	0.03830	0.00245	Cellular Component
+GO:0005768	endosome	152	5	1.1	15	0.00438	0.00438	Cellular Component
+GO:0005764	lysosome	57	3	0.41	16	0.00783	0.00783	Cellular Component
+GO:0033596	TSC1-TSC2 complex	2	1	0.01	17	0.01447	0.01447	Cellular Component
+GO:0005943	phosphatidylinositol 3-kinase complex, c...	2	1	0.01	18	0.01447	0.01447	Cellular Component
+GO:0097651	phosphatidylinositol 3-kinase complex, c...	2	1	0.01	19	0.01447	0.01447	Cellular Component
+GO:0071439	clathrin complex	2	1	0.01	20	0.01447	0.01447	Cellular Component
+GO:0005776	autophagosome	28	2	0.2	24	0.01718	0.01718	Cellular Component
+GO:0045169	fusome	28	2	0.2	25	0.01718	0.01718	Cellular Component
+GO:0070578	RISC-loading complex	3	1	0.02	26	0.02162	0.02162	Cellular Component
+GO:0000153	cytoplasmic ubiquitin ligase complex	3	1	0.02	27	0.02162	0.02162	Cellular Component
+GO:0098549	somatic ring canal	3	1	0.02	28	0.02162	0.02162	Cellular Component
+GO:0001726	ruffle	3	1	0.02	29	0.02162	0.02162	Cellular Component
+GO:0031528	microvillus membrane	4	1	0.03	30	0.02873	0.02873	Cellular Component
+GO:0008305	integrin complex	4	1	0.03	31	0.02873	0.02873	Cellular Component
+GO:0098636	protein complex involved in cell adhesio...	4	1	0.03	32	0.02873	0.02873	Cellular Component
+GO:0030666	endocytic vesicle membrane	5	1	0.04	33	0.03579	0.03579	Cellular Component
+GO:0030669	clathrin-coated endocytic vesicle membra...	5	1	0.04	34	0.03579	0.03579	Cellular Component
+GO:0045334	clathrin-coated endocytic vesicle	5	1	0.04	35	0.03579	0.03579	Cellular Component
+GO:0030122	AP-2 adaptor complex	5	1	0.04	36	0.03579	0.03579	Cellular Component
+GO:0030128	clathrin coat of endocytic vesicle	5	1	0.04	37	0.03579	0.03579	Cellular Component
+GO:0030132	clathrin coat of coated pit	6	1	0.04	39	0.04279	0.04279	Cellular Component
+GO:0031332	RNAi effector complex	6	1	0.04	40	0.04279	0.04279	Cellular Component
+GO:0016442	RISC complex	6	1	0.04	41	0.04279	0.04279	Cellular Component
+GO:0005770	late endosome	46	2	0.33	42	0.04338	0.04338	Cellular Component
+GO:0012506	vesicle membrane	48	2	0.35	43	0.04686	0.04686	Cellular Component
+GO:0048471	perinuclear region of cytoplasm	49	2	0.36	44	0.04864	0.04864	Cellular Component
+GO:0005942	phosphatidylinositol 3-kinase complex	7	1	0.05	45	0.04975	0.04975	Cellular Component
