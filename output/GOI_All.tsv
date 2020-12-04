@@ -1,0 +1,316 @@
+Gene	Class	Gene_Desc	SocOrigin	count
+LOC409609	Random	 26S proteasome non-ATPase regulatory subunit 4 	Halictid, Meli	2
+LOC410732	Canon	 3-phosphoinositide-dependent protein kinase 1 	Halictid, Meli	2
+LOC412984	Random	 39S ribosomal protein S30, mitochondrial 	Halictid, Meli	2
+LOC410270	NonCanon	 acetylcholinesterase 	Halictid, Meli	2
+LOC413280	Random	 acidic leucine-rich nuclear phosphoprotein 32 family member A 	AllOrigin, CorbSoc	2
+LOC727634	Canon	 activating molecule in BECN1-regulated autophagy protein 1 	AllSol, Mega	2
+LOC411998	Random	 amyloid protein-binding protein 2 	Halictid, Meli	2
+LOC726529	Random	 ankyrin repeat domain-containing protein 29 	Halictid, Meli	2
+apd-3	Random	 apidermin 3 	Habro, Mega	2
+LOC410948	Random	 aromatic-L-amino-acid decarboxylase 	Habro, Nova	2
+LOC410253	Random	 ataxin-2 homolog 	Halictid, Meli	2
+LOC724724	Random	 ATP-dependent 6-phosphofructokinase 	Habro, Nova	2
+LOC410301	Random	 ATP-dependent DNA helicase Q4 	Meli, Xylo	2
+LOC408794	Random	 ATP-dependent RNA helicase Ddx1 	Habro, Nova	2
+LOC551613	Random	 ATP-dependent RNA helicase SUV3 homolog, mitochondrial 	Habro, Nova	2
+LOC411115	Canon	 baculoviral IAP repeat-containing protein 6 	Apis, Halictid	2
+LOC727486	Random	 BAG domain-containing protein Samui 	Mega, Nova	2
+LOC724823	Random	 basement membrane-specific heparan sulfate proteoglycan core protein 	Halictid, Meli	2
+LOC410860	Canon	 battenin 	AllComplex, Meli	2
+LOC100576198	Random	 bromodomain-containing protein DDB_G0270170 	Halictid, Xylo	2
+LOC552257	Random	 bromodomain-containing protein DDB_G0270170 	Apis, Meli	2
+LOC410371	NonCanon	 calcium-transporting ATPase sarcoplasmic/endoplasmic reticulum type 	CorbSocEpi, Meli	2
+LOC724592	Random	 calmodulin-binding transcription activator 2 	Halictid, Meli	2
+LOC413977	Random	 calsyntenin-1 	Halictid, Meli	2
+LOC409390	Random	 cAMP-dependent protein kinase type II regulatory subunit 	Halictid, Meli	2
+LOC413383	NonCanon	 carbonic anhydrase-related protein 10 	Halictid, Meli	2
+LOC551012	Canon	 cation-independent mannose-6-phosphate receptor 	Meli, Xylo	2
+LOC409565	Random	 cationic amino acid transporter 3 	Halictid, Meli	2
+For	Random	 cGMP-dependent protein kinase foraging 	AllComplex, Apis	2
+LOC726524	Random	 chromodomain-helicase-DNA-binding protein 7 	Habro, Nova	2
+LOC726579	NonCanon	 cleft lip and palate transmembrane protein 1-like protein 	Halictid, Meli	2
+LOC408551	Random	 collagen alpha-5(IV) chain 	Habro, Nova	2
+LOC408528	Random	 colorectal mutant cancer protein 	AllComplex, Meli	2
+LOC409357	Random	 COP9 signalosome complex subunit 1 	Halictid, Meli	2
+LOC410565	Random	 cullin-1 	Habro, Nova	2
+LOC100576912	Random	 cyclic AMP response element-binding protein A 	Halictid, Meli	2
+Amel_8916	Random	 cys-loop ligand-gated ion channel subunit 8916 	Apis, Meli	2
+LOC724618	Random	 cysteine-rich motor neuron 1 protein 	Halictid, Meli	2
+LOC551892	NonCanon	 cytoplasmic protein NCK1 	AllComplex, Meli	2
+LOC552377	NonCanon	 diacylglycerol O-acyltransferase 1 	Apis, Meli	2
+LOC102654653	Random	 dihydropyrimidinase 	Habro, Nova	2
+LOC411213	Random	 discoidin domain-containing receptor 2 	Halictid, Meli	2
+LOC408752	Random	 DNA ligase 1 	AllOrigin, CorbSoc	2
+LOC725611	NonCanon	 DNA polymerase alpha catalytic subunit 	Halictid, Xylo	2
+LOC724926	NonCanon	 DNA polymerase alpha subunit B 	Apis, Xylo	2
+LOC100578071	NonCanon	 DNA polymerase zeta catalytic subunit 	Halictid, Xylo	2
+LOC411640	Random	 DNA replication licensing factor Mcm2 	Halictid, Meli	2
+LOC724215	NonCanon	 DNA topoisomerase 2 	Halictid, Meli	2
+LOC410571	NonCanon	 DNA topoisomerase 3-alpha 	Halictid, Xylo	2
+LOC552599	NonCanon	 DNA-directed RNA polymerase II subunit RPB7 	AllSol, Habro	2
+Dop1	Random	 dopamine receptor, D1 	Apis, Meli	2
+LOC410986	Random	 dorsal-ventral patterning tolloid-like protein 1 	Halictid, Meli	2
+LOC412855	Random	 Down syndrome cell adhesion molecule-like protein Dscam2 	Halictid, Meli	2
+LOC411995	Random	 dual specificity protein phosphatase CDC14AB 	Habro, Mega	2
+LOC412775	Random	 dynein heavy chain 2, axonemal 	Halictid, Meli	2
+LOC411982	NonCanon	 E3 ubiquitin-protein ligase CBL 	Apis, Halictid	2
+LOC412897	Random	 E3 ubiquitin-protein ligase MYLIP 	Halictid, Meli	2
+LOC410541	Random	 E3 ubiquitin-protein ligase Topors 	Habro, Nova	2
+LOC550828	Random	 elongation of very long chain fatty acids protein AAEL008004 	Halictid, Meli	2
+LOC551173	Random	 eukaryotic translation initiation factor 4E type 2 	AllComplex, Apis	2
+LOC551576	Random	 exocyst complex component 7 	Halictid, Meli	2
+LOC408293	Random	 exostosin-1 	AllComplex, Apis	2
+LOC413018	Random	 exportin-1 	Apis, Halictid	2
+LOC410233	Random	 extracellular sulfatase SULF-1 homolog 	AllComplex, Apis	2
+LOC412155	Random	 F-box/WD repeat-containing protein 5 	Halictid, Meli	2
+LOC413576	NonCanon	 facilitated trehalose transporter Tret1-2 homolog 	Halictid, Meli	2
+LOC724973	Random	 focal adhesion kinase 1 	Halictid, Meli	2
+LOC406124	Random	 gamma-aminobutyric acid receptor subunit beta 	AllOriginEpi, Halictid	2
+LOC411586	Random	 GAS2-like protein pickled eggs 	Halictid, Meli	2
+LOC724288	Random	 gem-associated protein 5 	Halictid, Meli	2
+LOC727312	Random	 Golgi-specific brefeldin A-resistance guanine nucleotide exchange factor 1 	Habro, Mega	2
+LOC413607	Random	 golgin-84 	Halictid, Meli	2
+LOC411011	Random	 guanine nucleotide-binding protein G(s) subunit alpha 	Halictid, Meli	2
+LOC550964	Random	 guanylate cyclase 32E 	Apis, Halictid	2
+LOC412157	Random	 HEAT repeat-containing protein 5B 	Habro, Nova	2
+LOC412858	Random	 hemicentin-2 	Halictid, Meli	2
+LOC409007	Random	 heterogeneous nuclear ribonucleoprotein K 	AllComplex, Meli	2
+LOC551005	Random	 hexokinase type 2 	AllOrigin, Meli	2
+LOC113218959	Random	 high mobility group nucleosome-binding domain-containing protein 5-like 	Meli, Xylo	2
+LOC410643	Random	 homeobox protein abdominal-A homolog 	Halictid, Meli	2
+LOC411104	Random	 homeobox protein Nkx-2.4 	Meli, Xylo	2
+LOC724917	Random	 inactive serine protease scarface 	Halictid, Meli	2
+LOC727335	Random	 inhibin beta chain 	Halictid, Meli	2
+LOC411047	Random	 intraflagellar transport protein 88 homolog 	Habro, Mega	2
+LOC409351	Random	 islet cell autoantigen 1 	AllSol, Habro	2
+LOC408863	Random	 J domain-containing protein 	Halictid, Meli	2
+LOC411539	Random	 KAT8 regulatory NSL complex subunit 1 	Halictid, Meli	2
+LOC413270	Random	 kelch-like protein 10 	Halictid, Meli	2
+LOC413170	Random	 kinesin 3D 	Halictid, Meli	2
+LOC725885	Random	 Krueppel-like factor 7 	AllComplex, Meli	2
+LOC411693	Random	 Kv channel-interacting protein 1 	AllSol, Habro	2
+LOC409318	Random	 Kv channel-interacting protein 2 	AllOrigin, CorbSoc	2
+LOC724517	Random	 la-related protein 1B 	Halictid, Meli	2
+LOC552811	Random	 laccase-5 	Halictid, Xylo	2
+LOC414035	NonCanon	 lachesin 	Halictid, Meli	2
+LOC726017	Random	 lachesin 	AllComplex, Meli	2
+LOC408889	Random	 large proline-rich protein BAG6 	Halictid, Xylo	2
+LCCH3	Random	 ligand-gated chloride channel homolog 3 	Apis, Meli	2
+LOC726167	Canon	 lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog 	Halictid, Meli, Mega, Nova	4
+LOC408869	Random	 lissencephaly-1 homolog 	Halictid, Meli	2
+LOC411670	Random	 LON peptidase N-terminal domain and RING finger protein 1 	Halictid, Meli	2
+LOC413305	NonCanon	 lysophospholipid acyltransferase 7 	AllOriginEpi, Halictid	2
+LOC552249	Canon	 lysosomal alpha-mannosidase 	Habro, Nova	2
+LOC412422	NonCanon	 mediator of RNA polymerase II transcription subunit 1 	Apis, CorbSoc	2
+LOC409749	NonCanon	 mediator of RNA polymerase II transcription subunit 31 	AllOriginEpi, Xylo	2
+Mir928	Random	 microRNA 928 	Halictid, Meli	2
+LOC726264	Random	 mitochondrial carrier homolog 2 	AllComplex, Meli	2
+LOC408374	Random	 mucin-5AC 	Apis, Halictid	2
+LOC551227	Random	 myb-like protein I 	Halictid, Meli	2
+LOC410058	Random	 myosin light chain alkali 	AllOriginEpi, Meli	2
+LOC410489	Random	 myosin-IIIb 	Mega, Nova	2
+LOC413950	NonCanon	 N-alpha-acetyltransferase 25, NatB auxiliary subunit 	Halictid, Meli	2
+LOC551042	NonCanon	 NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 6 	Halictid, Meli	2
+Nedd9	Random	 neural precursor cell expressed, developmentally down-regulated gene 9 	AllComplex, Meli	2
+LOC408877	Random	 neurogenic protein mastermind 	Halictid, Meli	2
+LOC552020	Random	 neuromodulin 	Halictid, Meli	2
+LOC413314	Random	 neuronal cell adhesion molecule 	AllComplex, Meli	2
+LOC409091	Random	 neurotrimin 	Halictid, Meli	2
+LOC411176	Random	 neurotrimin 	Halictid, Meli	2
+LOC411345	Random	 neurotrimin 	Halictid, Meli	2
+nAChRa7	Random	 nicotinic acetylcholine receptor alpha7 subunit 	Halictid, Meli	2
+LOC725038	Random	 NPC intracellular cholesterol transporter 2 homolog a 	Apis, Meli	2
+LOC409894	Random	 nuclear distribution protein nudE-like 1-A 	Halictid, Meli	2
+LOC408354	Random	 nuclear factor of activated T-cells 5 	Apis, Meli	2
+LOC725327	Random	 nuclear receptor subfamily 2 group E member 1 	Halictid, Meli	2
+LOC408958	Random	 nucleolar protein 4-like 	Halictid, Meli	2
+LOC411474	NonCanon	 nucleoporin NUP188 homolog 	Halictid, Meli	2
+LOC410997	Random	 organic cation transporter 1 	AllComplex, Meli	2
+LOC409525	Random	 oxysterol-binding protein-related protein 2 	Halictid, Meli	2
+LOC551871	Random	 P protein 	Halictid, Meli	2
+LOC726668	Random	 PDZ and LIM domain protein 3 	CorbSoc, Meli	2
+LOC725594	Random	 PDZ and LIM domain protein Zasp 	AllSol, Habro	2
+LOC551754	Random	 phosphorylated CTD-interacting factor 1 	AllComplex, Meli	2
+LOC100576671	Random	 polycomb group protein Psc 	Halictid, Meli	2
+LOC409170	Random	 polycomb protein suz12-B 	Apis, Meli	2
+LOC100820634	Random	 potassium voltage-gated channel protein eag-like 	Halictid, Meli	2
+LOC408343	Random	 potassium voltage-gated channel protein Shaker 	AllComplex, Meli	2
+LOC551551	Random	 pre-mRNA-splicing factor Slu7 	AllComplex, Apis	2
+LOC552664	Random	 probable ATP-dependent RNA helicase DDX28 	Apis, Meli	2
+LOC411088	NonCanon	 probable maleylacetoacetate isomerase 2 	AllSol, Habro	2
+LOC408586	Random	 probable nuclear hormone receptor HR3 	AllSol, Habro	2
+LOC724344	Random	 probable Ras GTPase-activating protein 	Apis, Meli	2
+LOC100577905	Random	 probable serine/threonine-protein kinase DDB_G0282963 	Habro, Mega	2
+LOC551308	Random	 probable serine/threonine-protein kinase ndrD 	Halictid, Xylo	2
+LOC413113	Random	 probable serine/threonine-protein kinase samkC 	Halictid, Meli	2
+LOC408862	Random	 prolyl 4-hydroxylase subunit alpha-2 	AllComplex, Halictid	2
+LOC410664	NonCanon	 protein arginine N-methyltransferase 5 	Halictid, Xylo	2
+LOC408915	Random	 protein couch potato 	AllComplex, Meli	2
+LOC552414	Random	 protein disabled 	Meli, Xylo	2
+LOC107964404	Random	 protein phosphatase 1B 	AllSol, Habro	2
+LOC552677	Random	 protein polybromo-1 	Habro, Nova	2
+LOC724787	Random	 protein RUFY3 	Halictid, Meli	2
+LOC551168	Random	 protein sidekick 	Halictid, Meli	2
+LOC413089	Random	 protein spinster 	Halictid, Meli	2
+LOC408959	Random	 protein unc-13 homolog 4B 	Meli, Xylo	2
+LOC411612	Random	 protein virilizer 	Halictid, Xylo	2
+LOC408298	Random	 pumilio homolog 2 	Halictid, Meli	2
+LOC726077	Random	 putative ATP-dependent RNA helicase DHX30 	Habro, Nova	2
+LOC100578587	Random	 putative uncharacterized protein DDB_G0282133 	Halictid, Xylo	2
+LOC726928	NonCanon	 ras guanine nucleotide exchange factor Y 	Habro, Mega	2
+LOC413246	NonCanon	 ras-related protein Rap1 	AllComplex, Meli	2
+LOC724603	Random	 receptor-type guanylate cyclase Gyc76C-like 	Apis, Halictid	2
+LOC551668	Canon	 regulatory-associated protein of mTOR 	Habro, Mega	2
+LOC724983	Random	 retinal homeobox protein Rx1 	AllComplex, Meli	2
+Reck	Random	 reversion-inducing-cysteine-rich protein with kazal motifs 	Halictid, Meli	2
+LOC551587	Random	 RNA-binding protein 24 	Apis, Halictid	2
+LOC551123	Random	 RNA-binding protein Musashi homolog Rbp6 	AllComplex, Meli	2
+LOC107964839	Random	 rootletin 	Halictid, Meli	2
+LOC100576703	Random	 sarcalumenin 	Habro, Mega	2
+LOC724442	Random	 serine-rich adhesin for platelets 	Halictid, Meli	2
+LOC100576829	Random	 serine/arginine repetitive matrix protein 2 	Halictid, Xylo	2
+LOC551506	Random	 sex combs reduced 	Apis, Halictid	2
+LOC724225	Random	 sex peptide receptor-like 	Apis, Meli	2
+LOC100578939	Random	 single Ig IL-1-related receptor 	Halictid, Meli	2
+LOC100577763	NonCanon	 small subunit processome component 20 homolog 	Habro, Nova	2
+LOC100578247	Random	 sodium channel protein Nach 	Apis, Halictid	2
+LOC411083	NonCanon	 sodium/potassium-transporting ATPase subunit alpha 	Halictid, Meli	2
+LOC726412	Random	 solute carrier family 22 member 8 	Apis, Meli	2
+LOC551291	Random	 spectrin alpha chain 	CorbSocEpi, Meli	2
+LOC411003	Random	 spermatogenesis-associated protein 5 	Halictid, Meli	2
+LOC410217	Random	 structural maintenance of chromosomes protein 3 	Habro, Nova	2
+LOC724244	Random	 structural maintenance of chromosomes protein 5 	Halictid, Meli	2
+LOC725860	Random	 synaptotagmin 13 	Halictid, Meli	2
+Syt20	Random	 synaptotagmin 20 	Halictid, Meli	2
+LOC724220	Random	 synaptotagmin-10 	Halictid, Meli	2
+LOC725044	NonCanon	 TAF5-like RNA polymerase II p300/CBP-associated factor-associated factor 65 kDa subunit 5L 	Halictid, Meli	2
+LOC413032	NonCanon	 tankyrase 	Habro, Nova	2
+LOC725306	NonCanon	 TATA-binding protein-associated factor 172 	Halictid, Xylo	2
+LOC100577739	Random	 telomere-associated protein RIF1-like 	Halictid, Xylo	2
+Tspan6	Canon	 tetraspanin 6 	CorbSoc, Halictid	2
+LOC725505	NonCanon	 tetraspanin-33 	AllComplex, Meli	2
+LOC410694	Random	 transcription factor collier 	AllOrigin, CorbSoc	2
+LOC724502	Random	 transcription initiation factor TFIID subunit 5 	Habro, Nova	2
+Tg	Random	 transglutaminase 	Halictid, Xylo	2
+LOC409377	NonCanon	 transitional endoplasmic reticulum ATPase TER94 	AllComplex, Meli	2
+Ef-1a-f1	Random	 translation elongation factor eEF-1 alpha chain 	Halictid, Meli	2
+LOC412103	Random	 transport and Golgi organization protein 1 	AllOriginEpi, Halictid	2
+LOC408842	Random	 transportin-1 	AllComplex, Meli	2
+LOC408414	Random	 tropomyosin-1 	AllComplex, Apis	2
+LOC725408	Random	 TSC22 domain family protein 1 	Halictid, Meli	2
+LOC411227	Random	 tyrosine-protein phosphatase non-receptor type 9 	Halictid, Meli	2
+LOC725036	Random	 U7 snRNA-associated Sm-like protein LSm11 	Halictid, Meli	2
+LOC411920	Random	 ubiquitin carboxyl-terminal hydrolase 22 	Apis, Halictid	2
+LOC725435	Random	 ubiquitin carboxyl-terminal hydrolase 45 	Halictid, Meli	2
+LOC552315	Canon	 ubiquitin-like-conjugating enzyme ATG3 	AllComplex, Meli	2
+LOC100577140	NonCanon	 UDP-glucuronosyltransferase 2B19 	Halictid, Meli	2
+LOC408624	Random	 UHRF1-binding protein 1 	Habro, Nova	2
+LOC100576321	Random	 uncharacterized LOC100576321 	Halictid, Meli	2
+LOC100577092	Random	 uncharacterized LOC100577092 	Apis, Meli	2
+LOC100577280	Random	 uncharacterized LOC100577280 	Halictid, Meli	2
+LOC100577527	Random	 uncharacterized LOC100577527 	Apis, Meli	2
+LOC100577638	Random	 uncharacterized LOC100577638 	Halictid, Meli	2
+LOC100577656	Random	 uncharacterized LOC100577656 	Apis, Meli	2
+LOC100577697	Random	 uncharacterized LOC100577697 	Meli, Xylo	2
+LOC100577901	Random	 uncharacterized LOC100577901 	Halictid, Meli	2
+LOC100577936	Random	 uncharacterized LOC100577936 	AllComplex, Meli	2
+LOC100577972	NonCanon	 uncharacterized LOC100577972 	Halictid, Xylo	2
+LOC100577980	Random	 uncharacterized LOC100577980 	Halictid, Meli	2
+LOC100578515	Random	 uncharacterized LOC100578515 	Halictid, Meli	2
+LOC100579026	Random	 uncharacterized LOC100579026 	Apis, Meli	2
+LOC102655354	Random	 uncharacterized LOC102655354 	Apis, Meli	2
+LOC107964582	Random	 uncharacterized LOC107964582 	Halictid, Meli	2
+LOC107964884	Random	 uncharacterized LOC107964884 	Halictid, Meli	2
+LOC408661	NonCanon	 uncharacterized LOC408661 	Apis, Meli	2
+LOC408874	Random	 uncharacterized LOC408874 	Halictid, Meli	2
+LOC410057	Random	 uncharacterized LOC410057 	Meli, Xylo	2
+LOC410067	Random	 uncharacterized LOC410067 	Apis, Halictid	2
+LOC410379	NonCanon	 uncharacterized LOC410379 	Apis, Halictid	2
+LOC410600	Random	 uncharacterized LOC410600 	Halictid, Meli	2
+LOC412510	Random	 uncharacterized LOC412510 	Halictid, Xylo	2
+LOC412694	Random	 uncharacterized LOC412694 	AllComplex, Meli	2
+LOC413427	Random	 uncharacterized LOC413427 	Apis, Meli	2
+LOC413907	Random	 uncharacterized LOC413907 	Habro, Nova	2
+LOC413936	Random	 uncharacterized LOC413936 	Halictid, Meli	2
+LOC551426	NonCanon	 uncharacterized LOC551426 	Habro, Nova	2
+LOC551433	Random	 uncharacterized LOC551433 	Halictid, Meli	2
+LOC724290	Random	 uncharacterized LOC724290 	Mega, Nova	2
+LOC724294	Random	 uncharacterized LOC724294 	Mega, Nova	2
+LOC724450	Random	 uncharacterized LOC724450 	Halictid, Meli	2
+LOC724843	Random	 uncharacterized LOC724843 	Halictid, Xylo	2
+LOC724936	Random	 uncharacterized LOC724936 	AllComplex, CorbSoc	2
+LOC725150	Random	 uncharacterized LOC725150 	Meli, Xylo	2
+LOC725732	Random	 uncharacterized LOC725732 	Habro, Mega	2
+LOC725992	Random	 uncharacterized LOC725992 	Halictid, Xylo	2
+LOC726068	Random	 uncharacterized LOC726068 	Halictid, Meli	2
+LOC726153	Random	 uncharacterized LOC726153 	Meli, Xylo	2
+LOC726215	Random	 uncharacterized LOC726215 	Apis, Halictid	2
+LOC726407	Random	 uncharacterized LOC726407 	Meli, Xylo	2
+LOC726965	Random	 uncharacterized LOC726965 	Apis, Meli	2
+LOC408762	Random	 uncharacterized protein MAL13P1.304 	Halictid, Meli	2
+LOC409616	Random	 uncharacterized protein MAL13P1.304 	Halictid, Xylo	2
+LOC100576162	Random	 uncharacterized protein PF11_0213 	Meli, Xylo	2
+LOC100578237	Random	 uncharacterized protein PF11_0213 	Mega, Nova	2
+LOC412069	NonCanon	 UTP--glucose-1-phosphate uridylyltransferase 	Halictid, Meli	2
+LOC552153	Random	 vesicle transport protein SEC20 	Halictid, Meli	2
+Vg	NonCanon	 vitellogenin 	Halictid, Xylo, Mega, Nova	4
+LOC100577376	Random	 voltage-dependent calcium channel subunit alpha-2/delta-3-like 	Halictid, Meli	2
+LOC551677	Random	 wee1-like protein kinase 	Halictid, Meli	2
+LOC412167	NonCanon	 X-linked retinitis pigmentosa GTPase regulator 	Halictid, Meli	2
+LOC552750	Random	 X-ray repair cross-complementing protein 5 	Apis, Meli	2
+LOC411772	Random	 Y+L amino acid transporter 2 	Halictid, Meli	2
+LOC551772	Random	 zeta-sarcoglycan 	Halictid, Meli	2
+LOC100578920	Random	 zinc finger protein 251 	AllComplex, Meli	2
+LOC100578126	Random	 zinc finger protein 26-like 	Halictid, Meli	2
+LOC409921	Random	 zinc finger protein Elbow 	Halictid, Meli	2
+LOC410567	Random	 zinc transporter ZIP11 	AllComplex, Apis	2
+LOC724487	Random	 28 kDa heat- and acid-stable phosphoprotein 	AllComplex, Halictid, Meli	3
+LOC552017	Random	 alpha-catulin 	AllOrigin, Apis, Halictid	3
+LOC724195	Random	 B-cell receptor CD22 	AllComplex, AllOrigin, CorbSoc	3
+Cac	Random	 cacophony 	AllComplex, Apis, Meli	3
+LOC409000	Random	 cell adhesion molecule 2 	AllComplex, Apis, Meli	3
+LOC408552	Random	 collagen alpha-1(IV) chain 	Halictid, Meli, Xylo, Habro, Mega, Nova	6
+LOC411053	Random	 cubilin 	Halictid, Meli, Xylo, Habro, Mega, Nova	6
+LOC411494	Random	 cyclin-dependent kinase 5 activator 1 	AllComplex, Halictid, Meli	3
+LOC551080	Random	 cystinosin homolog 	AllComplex, Apis, Meli	3
+LOC552642	Random	 DNA replication licensing factor Mcm3 	Habro, Mega, Nova	3
+Dl	Canon	 dorsal 	AllSol, Habro, Nova	3
+LOC551666	Random	 double-stranded RNA-binding protein Staufen homolog 2 	AllComplex, AllOrigin, Apis	3
+LOC409933	Random	 glucose transporter type 1 	AllOrigin, Halictid, Meli	3
+LOC412859	Random	 hemicentin-2 	AllComplex, Halictid, Meli	3
+LOC410925	Random	 hormone receptor 4 	AllOriginEpi, Apis, Xylo	3
+LOC410398	Random	 insulin-like growth factor 2 mRNA-binding protein 1 	AllComplex, AllOrigin, CorbSoc	3
+LOC552811	Random	 laccase-5 	Habro, Mega, Nova	3
+LOC552505	Random	 monocarboxylate transporter 9 	AllComplex, Apis, Meli	3
+LOC102654959	Random	 myb-like protein Q 	AllComplex, Apis, Halictid	3
+LOC725960	Random	 neurofilament heavy polypeptide 	Habro, Mega, Nova	3
+LOC552074	Random	 probable phospholipid-transporting ATPase IA 	AllOrigin, CorbSoc, Halictid	3
+LOC552502	Random	 protein KIAA0100 	Apis, Halictid, Meli	3
+LOC100576346	Random	 protein PFC0760c 	Halictid, Meli, Xylo, Habro, Mega, Nova	6
+LOC724356	Random	 RING finger protein 17 	Halictid, Meli, Xylo	3
+LOC726947	Canon	 TGF-beta-activated kinase 1 and MAP3K7-binding protein 3 	AllOriginEpi, Halictid, Meli	3
+LOC100576512	Random	 U8-agatoxin-Ao1a 	AllOriginEpi, Halictid, Meli	3
+LOC408619	Random	 ubiquitin carboxyl-terminal hydrolase 3 	AllComplex, Apis, Meli	3
+LOC100576640	Random	 uncharacterized LOC100576640 	Apis, Meli, Xylo	3
+LOC100577196	NonCanon	 uncharacterized LOC100577196 	AllComplex, Apis, Xylo	3
+LOC100578201	Random	 uncharacterized LOC100578201 	CorbSocEpi, Halictid, Meli	3
+LOC100578600	Random	 uncharacterized LOC100578600 	Apis, Halictid, Meli	3
+LOC102656656	Random	 uncharacterized LOC102656656 	Apis, Halictid, Meli	3
+LOC408660	Random	 uncharacterized LOC408660 	AllComplex, Apis, Meli	3
+LOC409034	Random	 uncharacterized LOC409034 	Apis, Halictid, Meli	3
+LOC409039	Random	 uncharacterized LOC409039 	AllComplex, Apis, Halictid	3
+LOC410456	NonCanon	 uncharacterized LOC410456 	AllComplex, Apis, Meli	3
+LOC410865	Random	 uncharacterized LOC410865 	AllComplex, Apis, Halictid	3
+LOC724290	Random	 uncharacterized LOC724290 	AllOriginEpi, Halictid, Xylo	3
+LOC724569	Random	 uncharacterized LOC724569 	Halictid, Meli, Xylo	3
+LOC725130	Random	 uncharacterized LOC725130 	AllComplex, Halictid, Meli	3
+LOC412000	Random	 uncharacterized protein KIAA1841 	Apis, Halictid, Xylo	3
+LOC409186	Random	 vam6/Vps39-like protein 	Halictid, Meli, Xylo	3
+LOC408551	Random	 collagen alpha-5(IV) chain 	Apis, Halictid, Meli, Xylo	4
+LOC724292	NonCanon	 disks large 1 tumor suppressor protein 	AllComplex, AllOrigin, Halictid, Meli	4
+LOC725960	Random	 neurofilament heavy polypeptide 	AllComplex, Apis, Halictid, Xylo	4
+LOC409486	Random	 RNA-binding protein 4.1 	AllComplex, AllOrigin, Halictid, Meli	4
+LOC409714	Random	 serine-rich adhesin for platelets 	Apis, Halictid, Meli, Xylo	4
+apd-3	Random	 apidermin 3 	AllComplex, AllOrigin, CorbSoc, Halictid, Meli	5
+LOC725336	Random	 longitudinals lacking protein, isoforms A/B/D/L 	AllComplex, AllOrigin, Apis, CorbSoc, Halictid	5
