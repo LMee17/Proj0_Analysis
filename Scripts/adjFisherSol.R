@@ -67,5 +67,5 @@ adj.sol.results <- cbind(Test, adj.sol.results)
 
 #Write up
 
-write.table(adj.results, "output/FishersExactTestbyOrigin_Sol_adjustedpvalues.tsv", 
+write.table(adj.sol.results, "output/FishersExactTestbyOrigin_Sol_adjustedpvalues.tsv", 
             sep="\t", quote=F, row.names=F)
