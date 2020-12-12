@@ -216,12 +216,20 @@ From this I should get a distribution with other descriptive statistics includin
 The script has been written so that 100,000 iterations x social origin x class of gene (canon / noncanon) iterations will take place, with results being stored in boot.results. Off to make a cup of tea.
 
 ```{r}
-source("Scripts/bootstrap.R", local = knitr::knit_global())
+#source("Scripts/bootstrap.R", local = knitr::knit_global())
 ```
 
 ```{r}
+#boot.results
+```
+
+If there are any issues (as there has been as of now, 12th December, where my laptop shut down unexpectedly and I lost all environment objects), it is not feasible to run this again. Instead I will read in boot.results from the results file already produced.
+
+```{r}
+boot.results <- read.table("output/BootStrapResults.tsv", header = T)
 boot.results
 ```
+
 
 So, as in the case of the Fisher's test and the Chisq simulated tests, there appears to be no significant relationship between the fact that genes either are or are suspected to be functionally immune and the number of said genes being under selection. The number of genes found to be under selection is no more or less than what you'd expect by chance, as seen after 100000 random sampling iterations.
 
