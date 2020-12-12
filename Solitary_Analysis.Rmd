@@ -180,17 +180,26 @@ See my original notes for more.
 The script has been written so that 100,000 iterations x social origin x class of gene (canon / noncanon) iterations will take place, with results being stored in boot.results. Off to make a cup of tea.
 
 ```{r}
-source("Scripts/bootstrapSol.R", local = knitr::knit_global())
+#source("Scripts/bootstrapSol.R", local = knitr::knit_global())
 ```
 
 ```{r}
+#boot.sol.results
+```
+
+12th Dec - Mac shut down unexpectedly and I lost the project environment. I do not want to run this again for an hour so I will populate the object with the results from the last run.
+
+```{r}
+boot.sol.results <- read.table("output/Sol_BootStrapResults.tsv", header = T)
 boot.sol.results
 ```
 
 
 
+
+
 ```{r}
-write.table(boot.sol.results, "output/Sol_BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
+#write.table(boot.sol.results, "output/Sol_BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
 ```
 
 PropRealDataResult is sig in AllSol and Habro for the Canon .... I'm tempted to run again with more iterations to see if this makes it significant via the CI. If I do this I have to do it for the social lineages too so will think about at the end of running these.
