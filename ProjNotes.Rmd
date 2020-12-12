@@ -236,7 +236,7 @@ So, as in the case of the Fisher's test and the Chisq simulated tests, there app
 That took a full 2 hrs to run (tbf it was 18 million iterations in total) and so I need to have this saved asap.
 
 ```{r}
-write.table(boot.results, "output/BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
+#write.table(boot.results, "output/BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
 ```
 
 ##Evolutionary Rate
