@@ -53,9 +53,6 @@ fisher.craft <- function(x){
 
 p.results <- lapply(data, fisher.craft)
 
-summary(test$Class)[2]
-summary(test$Class)
-
 #Combine into a table
 #Record tests
 Test <- rownames(p.results[[1]])
