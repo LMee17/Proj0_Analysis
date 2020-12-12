@@ -202,7 +202,8 @@ boot.sol.results
 #write.table(boot.sol.results, "output/Sol_BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
 ```
 
-PropRealDataResult is sig in AllSol and Habro for the Canon .... I'm tempted to run again with more iterations to see if this makes it significant via the CI. If I do this I have to do it for the social lineages too so will think about at the end of running these.
+
+##Significant ? 
 
 So ChiSq found significance in 3 relationships. So lets have a little look.
 
