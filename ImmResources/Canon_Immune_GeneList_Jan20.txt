@@ -287,7 +287,7 @@ LOC552062	RNAi	XP_006571833.1	protein argonaute-2 isoform X1
 LOC725111	RNAi	XP_026300549.1	piwi-like protein Ago3 isoform X1 
 aub	RNAi	NP_001159378.1	aubergine 
 LOC725512	RNAi	XP_006560091.1	RISC-loading complex subunit TARBP2 
-Dcr-1	 RNAi	NP_001116485.2	endoribonuclease Dicer-1 
+Dcr-1	RNAi	NP_001116485.2	endoribonuclease Dicer-1 
 LOC726766	RNAi	XP_026302064.1	endoribonuclease Dicer 
 LOC725388	RNAi	XP_006571749.1	probable RNA helicase armi 
 B-gluc1	Toll_IMD	NP_001157186.1	gram-negative bacteria-binding protein 1-2 precursor 	
