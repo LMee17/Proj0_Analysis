@@ -1,0 +1,13 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0005549	odorant binding	20	2	0.05	3	0.00094	0.00094	Molecular Function
+GO:0004587	ornithine-oxo-acid transaminase activity	1	1	0	4	0.00238	0.00238	Molecular Function
+GO:0033192	calmodulin-dependent protein phosphatase...	2	1	0	5	0.00475	0.00475	Molecular Function
+GO:0034338	short-chain carboxylesterase activity	2	1	0	7	0.00475	0.00475	Molecular Function
+GO:0080019	fatty-acyl-CoA reductase (alcohol-formin...	4	1	0.01	8	0.00947	0.00947	Molecular Function
+GO:0035248	alpha-1,4-N-acetylgalactosaminyltransfer...	4	1	0.01	9	0.00947	0.00947	Molecular Function
+GO:0030170	pyridoxal phosphate binding	7	1	0.02	12	0.01652	0.01652	Molecular Function
+GO:0070279	vitamin B6 binding	7	1	0.02	13	0.01652	0.01652	Molecular Function
+GO:0019842	vitamin binding	8	1	0.02	14	0.01887	0.01887	Molecular Function
+GO:0008378	galactosyltransferase activity	9	1	0.02	15	0.02120	0.02120	Molecular Function
+GO:0042802	identical protein binding	115	2	0.27	20	0.02886	0.02886	Molecular Function
+GO:0050662	coenzyme binding	20	1	0.05	22	0.04656	0.04656	Molecular Function

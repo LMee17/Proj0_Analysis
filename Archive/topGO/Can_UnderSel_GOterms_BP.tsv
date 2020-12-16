@@ -1,0 +1,48 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0035556	intracellular signal transduction	432	16	3.12	1	0.02072	1.3e-08	Biological Process
+GO:0006915	apoptotic process	209	11	1.51	8	0.00135	1.4e-07	Biological Process
+GO:0001934	positive regulation of protein phosphory...	100	8	0.72	12	0.00122	3.9e-07	Biological Process
+GO:0010507	negative regulation of autophagy	23	5	0.17	13	0.00013	4.6e-07	Biological Process
+GO:0007166	cell surface receptor signaling pathway	517	15	3.73	25	0.00041	1.1e-06	Biological Process
+GO:0007254	JNK cascade	57	6	0.41	34	0.00118	2.6e-06	Biological Process
+GO:0044093	positive regulation of molecular functio...	233	10	1.68	39	0.00490	3.7e-06	Biological Process
+GO:0045860	positive regulation of protein kinase ac...	61	6	0.44	40	0.04350	3.9e-06	Biological Process
+GO:0033674	positive regulation of kinase activity	61	6	0.44	41	0.04350	3.9e-06	Biological Process
+GO:0045087	innate immune response	111	7	0.8	62	0.00160	1.1e-05	Biological Process
+GO:0043085	positive regulation of catalytic activit...	207	9	1.49	64	0.01505	1.1e-05	Biological Process
+GO:0008361	regulation of cell size	77	6	0.56	67	0.03685	1.5e-05	Biological Process
+GO:0080134	regulation of response to stress	166	8	1.2	69	0.04935	1.8e-05	Biological Process
+GO:0042981	regulation of apoptotic process	171	8	1.23	73	0.00087	2.2e-05	Biological Process
+GO:0021700	developmental maturation	183	8	1.32	76	0.04532	3.6e-05	Biological Process
+GO:0045666	positive regulation of neuron differenti...	57	5	0.41	82	0.03860	4.7e-05	Biological Process
+GO:0043277	apoptotic cell clearance	11	3	0.08	87	0.04036	5.5e-05	Biological Process
+GO:0051896	regulation of protein kinase B signaling	12	3	0.09	99	0.03376	7.3e-05	Biological Process
+GO:0001558	regulation of cell growth	64	5	0.46	104	0.01009	8.3e-05	Biological Process
+GO:0043491	protein kinase B signaling	13	3	0.09	105	0.04038	9.4e-05	Biological Process
+GO:0043902	positive regulation of multi-organism pr...	35	4	0.25	109	0.00010	0.00010	Biological Process
+GO:0071902	positive regulation of protein serine/th...	38	4	0.27	116	0.00727	0.00014	Biological Process
+GO:0048615	embryonic anterior midgut (ectodermal) m...	3	2	0.02	124	0.00015	0.00015	Biological Process
+GO:0048262	determination of dorsal/ventral asymmetr...	3	2	0.02	126	0.00015	0.00015	Biological Process
+GO:0035099	hemocyte migration	16	3	0.12	134	0.00018	0.00018	Biological Process
+GO:0032147	activation of protein kinase activity	42	4	0.3	137	0.00021	0.00021	Biological Process
+GO:0007390	germ-band shortening	18	3	0.13	142	0.00026	0.00026	Biological Process
+GO:0008286	insulin receptor signaling pathway	45	4	0.32	145	0.01243	0.00028	Biological Process
+GO:0043408	regulation of MAPK cascade	83	5	0.6	147	0.04046	0.00029	Biological Process
+GO:1901699	cellular response to nitrogen compound	84	5	0.61	150	0.00927	0.00030	Biological Process
+GO:0006909	phagocytosis	48	4	0.35	158	0.03447	0.00036	Biological Process
+GO:0007041	lysosomal transport	20	3	0.14	161	0.00036	0.00036	Biological Process
+GO:0032869	cellular response to insulin stimulus	51	4	0.37	167	0.01878	0.00045	Biological Process
+GO:1901653	cellular response to peptide	51	4	0.37	168	0.01878	0.00045	Biological Process
+GO:0071375	cellular response to peptide hormone sti...	51	4	0.37	169	0.01878	0.00045	Biological Process
+GO:0032868	response to insulin	52	4	0.38	175	0.01995	0.00049	Biological Process
+GO:0071276	cellular response to cadmium ion	5	2	0.04	177	0.00050	0.00050	Biological Process
+GO:0071243	cellular response to arsenic-containing ...	5	2	0.04	178	0.00050	0.00050	Biological Process
+GO:0043652	engulfment of apoptotic cell	5	2	0.04	180	0.00050	0.00050	Biological Process
+GO:0043434	response to peptide hormone	53	4	0.38	181	0.02114	0.00052	Biological Process
+GO:1901652	response to peptide	54	4	0.39	183	0.02237	0.00056	Biological Process
+GO:0016192	vesicle-mediated transport	423	10	3.05	187	0.00617	0.00061	Biological Process
+GO:0002252	immune effector process	98	5	0.71	188	0.00062	0.00062	Biological Process
+GO:0033227	dsRNA transport	25	3	0.18	190	0.00071	0.00071	Biological Process
+GO:0071907	determination of digestive tract left/ri...	6	2	0.04	192	0.00075	0.00075	Biological Process
+GO:0010508	positive regulation of autophagy	26	3	0.19	195	0.00080	0.00080	Biological Process
+GO:0009798	axis specification	159	6	1.15	196	0.03741	0.00085	Biological Process

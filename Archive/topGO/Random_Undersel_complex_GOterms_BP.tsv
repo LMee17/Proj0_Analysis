@@ -1,0 +1,106 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0065007	biological regulation	2740	265	219.49	1	0.04464	2.1e-06	Biological Process
+GO:0050794	regulation of cellular process	2255	222	180.64	2	0.00835	1.5e-05	Biological Process
+GO:0048667	cell morphogenesis involved in neuron di...	332	47	26.6	4	0.01767	6.1e-05	Biological Process
+GO:0007165	signal transduction	1028	110	82.35	12	0.02112	0.00037	Biological Process
+GO:0048731	system development	1327	135	106.3	20	0.02803	0.00063	Biological Process
+GO:0007411	axon guidance	205	30	16.42	25	0.00079	0.00079	Biological Process
+GO:0047496	vesicle transport along microtubule	7	4	0.56	31	0.00117	0.00117	Biological Process
+GO:0007030	Golgi organization	71	14	5.69	35	0.00125	0.00125	Biological Process
+GO:0051640	organelle localization	185	27	14.82	37	0.01305	0.00149	Biological Process
+GO:0023057	negative regulation of signaling	272	36	21.79	39	0.00162	0.00162	Biological Process
+GO:0010648	negative regulation of cell communicatio...	272	36	21.79	40	0.00162	0.00162	Biological Process
+GO:0090092	regulation of transmembrane receptor pro...	43	10	3.44	42	0.02456	0.00169	Biological Process
+GO:0007191	adenylate cyclase-activating dopamine re...	4	3	0.32	43	0.00192	0.00192	Biological Process
+GO:0009914	hormone transport	13	5	1.04	47	0.00241	0.00241	Biological Process
+GO:0007178	transmembrane receptor protein serine/th...	53	11	4.25	48	0.03026	0.00267	Biological Process
+GO:0042692	muscle cell differentiation	111	18	8.89	49	0.00284	0.00284	Biological Process
+GO:0048585	negative regulation of response to stimu...	281	36	22.51	50	0.00286	0.00286	Biological Process
+GO:0043052	thermotaxis	14	5	1.12	54	0.00351	0.00351	Biological Process
+GO:0008354	germ cell migration	41	9	3.28	58	0.00432	0.00432	Biological Process
+GO:0030706	germarium-derived oocyte differentiation	27	7	2.16	59	0.00436	0.00436	Biological Process
+GO:0051656	establishment of organelle localization	152	22	12.18	60	0.03740	0.00443	Biological Process
+GO:0035335	peptidyl-tyrosine dephosphorylation	21	6	1.68	63	0.00490	0.00490	Biological Process
+GO:0007400	neuroblast fate determination	15	5	1.2	64	0.00493	0.00493	Biological Process
+GO:0015893	drug transport	28	7	2.24	66	0.00542	0.00542	Biological Process
+GO:0048148	behavioral response to cocaine	10	4	0.8	67	0.00577	0.00577	Biological Process
+GO:1903531	negative regulation of secretion by cell	10	4	0.8	68	0.00577	0.00577	Biological Process
+GO:0031623	receptor internalization	2	2	0.16	71	0.00640	0.00640	Biological Process
+GO:0015871	choline transport	2	2	0.16	72	0.00640	0.00640	Biological Process
+GO:0010971	positive regulation of G2/M transition o...	2	2	0.16	73	0.00640	0.00640	Biological Process
+GO:0007528	neuromuscular junction development	148	21	11.86	76	0.00676	0.00676	Biological Process
+GO:0002009	morphogenesis of an epithelium	466	52	37.33	78	0.00738	0.00738	Biological Process
+GO:0045165	cell fate commitment	258	32	20.67	79	0.04469	0.00785	Biological Process
+GO:0045185	maintenance of protein location	30	7	2.4	80	0.00811	0.00811	Biological Process
+GO:0070646	protein modification by small protein re...	53	10	4.25	81	0.00834	0.00834	Biological Process
+GO:0030723	ovarian fusome organization	6	3	0.48	82	0.00850	0.00850	Biological Process
+GO:2000253	positive regulation of feeding behavior	6	3	0.48	83	0.00850	0.00850	Biological Process
+GO:0030513	positive regulation of BMP signaling pat...	6	3	0.48	84	0.00850	0.00850	Biological Process
+GO:0007193	adenylate cyclase-inhibiting G protein-c...	11	4	0.88	85	0.00850	0.00850	Biological Process
+GO:0060359	response to ammonium ion	17	5	1.36	93	0.00888	0.00888	Biological Process
+GO:0046578	regulation of Ras protein signal transdu...	62	11	4.97	94	0.00927	0.00927	Biological Process
+GO:0045471	response to ethanol	54	10	4.33	96	0.00953	0.00953	Biological Process
+GO:0030838	positive regulation of actin filament po...	31	7	2.48	97	0.00978	0.00978	Biological Process
+GO:0006417	regulation of translation	80	13	6.41	98	0.01031	0.01031	Biological Process
+GO:0032787	monocarboxylic acid metabolic process	89	14	7.13	100	0.01051	0.01051	Biological Process
+GO:0051146	striated muscle cell differentiation	98	15	7.85	101	0.01056	0.01056	Biological Process
+GO:0016579	protein deubiquitination	39	8	3.12	102	0.01069	0.01069	Biological Process
+GO:0048149	behavioral response to ethanol	39	8	3.12	103	0.01069	0.01069	Biological Process
+GO:0030239	myofibril assembly	47	9	3.76	104	0.01097	0.01097	Biological Process
+GO:0009968	negative regulation of signal transducti...	254	31	20.35	105	0.01104	0.01104	Biological Process
+GO:0010608	posttranscriptional regulation of gene e...	127	18	10.17	110	0.01183	0.01183	Biological Process
+GO:0046883	regulation of hormone secretion	12	4	0.96	111	0.01196	0.01196	Biological Process
+GO:0046879	hormone secretion	12	4	0.96	112	0.01196	0.01196	Biological Process
+GO:0035011	melanotic encapsulation of foreign targe...	25	6	2	113	0.01216	0.01216	Biological Process
+GO:0010468	regulation of gene expression	928	92	74.34	115	0.01252	0.01252	Biological Process
+GO:0042051	compound eye photoreceptor development	82	13	6.57	117	0.01261	0.01261	Biological Process
+GO:0010001	glial cell differentiation	33	7	2.64	119	0.01383	0.01383	Biological Process
+GO:0042694	muscle cell fate specification	7	3	0.56	120	0.01400	0.01400	Biological Process
+GO:0072330	monocarboxylic acid biosynthetic process	41	8	3.28	122	0.01442	0.01442	Biological Process
+GO:0050000	chromosome localization	19	5	1.52	125	0.01461	0.01461	Biological Process
+GO:2000112	regulation of cellular macromolecule bio...	762	77	61.04	126	0.01463	0.01463	Biological Process
+GO:0051653	spindle localization	26	6	2.08	127	0.01477	0.01477	Biological Process
+GO:0032507	maintenance of protein location in cell	26	6	2.08	129	0.01477	0.01477	Biological Process
+GO:0051293	establishment of spindle localization	26	6	2.08	130	0.01477	0.01477	Biological Process
+GO:0023061	signal release	102	15	8.17	131	0.01503	0.01503	Biological Process
+GO:0060255	regulation of macromolecule metabolic pr...	1226	117	98.21	133	0.01517	0.01517	Biological Process
+GO:0055002	striated muscle cell development	58	10	4.65	135	0.01560	0.01560	Biological Process
+GO:0031326	regulation of cellular biosynthetic proc...	810	81	64.89	136	0.01576	0.01576	Biological Process
+GO:0042462	eye photoreceptor cell development	85	13	6.81	140	0.01679	0.01679	Biological Process
+GO:0009889	regulation of biosynthetic process	813	81	65.13	142	0.01720	0.01720	Biological Process
+GO:0055001	muscle cell development	59	10	4.73	143	0.01749	0.01749	Biological Process
+GO:0072499	photoreceptor cell axon guidance	27	6	2.16	145	0.01774	0.01774	Biological Process
+GO:0045470	R8 cell-mediated photoreceptor organizat...	3	2	0.24	149	0.01819	0.01819	Biological Process
+GO:0051589	negative regulation of neurotransmitter ...	3	2	0.24	150	0.01819	0.01819	Biological Process
+GO:0046929	negative regulation of neurotransmitter ...	3	2	0.24	151	0.01819	0.01819	Biological Process
+GO:0002188	translation reinitiation	3	2	0.24	152	0.01819	0.01819	Biological Process
+GO:0008302	female germline ring canal formation, ac...	3	2	0.24	153	0.01819	0.01819	Biological Process
+GO:2000273	positive regulation of signaling recepto...	3	2	0.24	154	0.01819	0.01819	Biological Process
+GO:0051182	coenzyme transport	3	2	0.24	155	0.01819	0.01819	Biological Process
+GO:0030037	actin filament reorganization involved i...	3	2	0.24	156	0.01819	0.01819	Biological Process
+GO:0000973	posttranscriptional tethering of RNA pol...	3	2	0.24	157	0.01819	0.01819	Biological Process
+GO:0051646	mitochondrion localization	20	5	1.6	158	0.01823	0.01823	Biological Process
+GO:0007280	pole cell migration	20	5	1.6	159	0.01823	0.01823	Biological Process
+GO:0050890	cognition	133	18	10.65	164	0.01849	0.01849	Biological Process
+GO:0007611	learning or memory	133	18	10.65	165	0.01849	0.01849	Biological Process
+GO:0010556	regulation of macromolecule biosynthetic...	782	78	62.64	166	0.01890	0.01890	Biological Process
+GO:0009887	animal organ morphogenesis	579	60	46.38	169	0.01905	0.01905	Biological Process
+GO:0007616	long-term memory	60	10	4.81	172	0.01954	0.01954	Biological Process
+GO:0048732	gland development	144	19	11.54	175	0.02020	0.02020	Biological Process
+GO:0048311	mitochondrion distribution	8	3	0.64	176	0.02108	0.02108	Biological Process
+GO:0016578	histone deubiquitination	8	3	0.64	177	0.02108	0.02108	Biological Process
+GO:0048738	cardiac muscle tissue development	8	3	0.64	178	0.02108	0.02108	Biological Process
+GO:0009651	response to salt stress	8	3	0.64	179	0.02108	0.02108	Biological Process
+GO:0007413	axonal fasciculation	14	4	1.12	181	0.02128	0.02128	Biological Process
+GO:0042461	photoreceptor cell development	97	14	7.77	183	0.02146	0.02146	Biological Process
+GO:0030010	establishment of cell polarity	44	8	3.52	184	0.02169	0.02169	Biological Process
+GO:0010557	positive regulation of macromolecule bio...	331	37	26.52	188	0.02191	0.02191	Biological Process
+GO:0050777	negative regulation of immune response	21	5	1.68	190	0.02239	0.02239	Biological Process
+GO:0046580	negative regulation of Ras protein signa...	21	5	1.68	191	0.02239	0.02239	Biological Process
+GO:0051294	establishment of spindle orientation	21	5	1.68	192	0.02239	0.02239	Biological Process
+GO:0007267	cell-cell signaling	353	39	28.28	193	0.02243	0.02243	Biological Process
+GO:0007613	memory	98	14	7.85	194	0.02327	0.02327	Biological Process
+GO:0010604	positive regulation of macromolecule met...	542	56	43.42	197	0.02451	0.02451	Biological Process
+GO:0048513	animal organ development	907	88	72.66	198	0.02486	0.02486	Biological Process
+GO:0006633	fatty acid biosynthetic process	29	6	2.32	199	0.02487	0.02487	Biological Process
+GO:0021782	glial cell development	29	6	2.32	200	0.02487	0.02487	Biological Process

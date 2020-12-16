@@ -1,0 +1,23 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0005918	septate junction	35	3	0.25	3	0.0018	0.0018	Cellular Component
+GO:0055029	nuclear DNA-directed RNA polymerase comp...	95	4	0.67	7	0.0041	0.0041	Cellular Component
+GO:0005795	Golgi stack	47	3	0.33	8	0.0042	0.0042	Cellular Component
+GO:0016035	zeta DNA polymerase complex	1	1	0.01	11	0.0070	0.0070	Cellular Component
+GO:0090533	cation-transporting ATPase complex	2	1	0.01	14	0.0140	0.0140	Cellular Component
+GO:0005890	sodium:potassium-exchanging ATPase compl...	2	1	0.01	15	0.0140	0.0140	Cellular Component
+GO:0031985	Golgi cisterna	27	2	0.19	16	0.0151	0.0151	Cellular Component
+GO:0016591	RNA polymerase II, holoenzyme	76	3	0.54	17	0.0158	0.0158	Cellular Component
+GO:0098533	ATPase dependent transmembrane transport...	3	1	0.02	19	0.0210	0.0210	Cellular Component
+GO:0005658	alpha DNA polymerase:primase complex	3	1	0.02	20	0.0210	0.0210	Cellular Component
+GO:0044611	nuclear pore inner ring	4	1	0.03	24	0.0279	0.0279	Cellular Component
+GO:0016323	basolateral plasma membrane	40	2	0.28	25	0.0318	0.0318	Cellular Component
+GO:0061689	tricellular tight junction	5	1	0.04	26	0.0347	0.0347	Cellular Component
+GO:0008623	CHRAC	5	1	0.04	27	0.0347	0.0347	Cellular Component
+GO:0030015	CCR4-NOT core complex	5	1	0.04	28	0.0347	0.0347	Cellular Component
+GO:1904949	ATPase complex	43	2	0.3	29	0.0363	0.0363	Cellular Component
+GO:0043601	nuclear replisome	6	1	0.04	31	0.0416	0.0416	Cellular Component
+GO:0032279	asymmetric synapse	6	1	0.04	32	0.0416	0.0416	Cellular Component
+GO:0014069	postsynaptic density	6	1	0.04	33	0.0416	0.0416	Cellular Component
+GO:0030894	replisome	6	1	0.04	34	0.0416	0.0416	Cellular Component
+GO:0098984	neuron to neuron synapse	6	1	0.04	35	0.0416	0.0416	Cellular Component
+GO:0005920	smooth septate junction	7	1	0.05	36	0.0483	0.0483	Cellular Component

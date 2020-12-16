@@ -1,0 +1,20 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0042575	DNA polymerase complex	10	4	0.31	2	0.0181	0.00017	Cellular Component
+GO:0043231	intracellular membrane-bounded organelle	2574	98	80.78	7	0.0395	0.00222	Cellular Component
+GO:0043227	membrane-bounded organelle	2751	103	86.34	8	0.0373	0.00260	Cellular Component
+GO:0005658	alpha DNA polymerase:primase complex	3	2	0.09	10	0.0029	0.00287	Cellular Component
+GO:0070847	core mediator complex	10	3	0.31	11	0.0031	0.00309	Cellular Component
+GO:0005795	Golgi stack	47	6	1.48	12	0.0032	0.00320	Cellular Component
+GO:0005665	RNA polymerase II, core complex	13	3	0.41	18	0.0069	0.00687	Cellular Component
+GO:0005783	endoplasmic reticulum	253	15	7.94	23	0.0123	0.01232	Cellular Component
+GO:0005703	polytene chromosome puff	30	4	0.94	26	0.0135	0.01352	Cellular Component
+GO:0017101	aminoacyl-tRNA synthetase multienzyme co...	9	2	0.28	30	0.0305	0.03047	Cellular Component
+GO:0044292	dendrite terminus	1	1	0.03	31	0.0314	0.03138	Cellular Component
+GO:0033185	dolichol-phosphate-mannose synthase comp...	1	1	0.03	32	0.0314	0.03138	Cellular Component
+GO:0016035	zeta DNA polymerase complex	1	1	0.03	33	0.0314	0.03138	Cellular Component
+GO:0032302	MutSbeta complex	1	1	0.03	34	0.0314	0.03138	Cellular Component
+GO:1990761	growth cone lamellipodium	1	1	0.03	35	0.0314	0.03138	Cellular Component
+GO:0031314	extrinsic component of mitochondrial inn...	1	1	0.03	36	0.0314	0.03138	Cellular Component
+GO:1990204	oxidoreductase complex	58	5	1.82	37	0.0344	0.03435	Cellular Component
+GO:0005736	RNA polymerase I complex	11	2	0.35	39	0.0447	0.04469	Cellular Component
+GO:0035097	histone methyltransferase complex	26	3	0.82	40	0.0465	0.04646	Cellular Component

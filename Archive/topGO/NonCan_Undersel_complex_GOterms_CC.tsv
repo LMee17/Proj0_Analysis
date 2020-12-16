@@ -1,0 +1,34 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0017101	aminoacyl-tRNA synthetase multienzyme co...	9	2	0.15	1	0.0087	0.0087	Cellular Component
+GO:0043679	axon terminus	55	4	0.89	2	0.0117	0.0117	Cellular Component
+GO:0044306	neuron projection terminus	55	4	0.89	3	0.0117	0.0117	Cellular Component
+GO:0044292	dendrite terminus	1	1	0.02	4	0.0162	0.0162	Cellular Component
+GO:0033185	dolichol-phosphate-mannose synthase comp...	1	1	0.02	5	0.0162	0.0162	Cellular Component
+GO:0032302	MutSbeta complex	1	1	0.02	6	0.0162	0.0162	Cellular Component
+GO:0012505	endomembrane system	668	18	10.84	7	0.0183	0.0183	Cellular Component
+GO:0005918	septate junction	35	3	0.57	8	0.0185	0.0185	Cellular Component
+GO:0031984	organelle subcompartment	215	8	3.49	9	0.0222	0.0222	Cellular Component
+GO:0070160	tight junction	39	3	0.63	10	0.0247	0.0247	Cellular Component
+GO:0016529	sarcoplasmic reticulum	2	1	0.03	11	0.0322	0.0322	Cellular Component
+GO:0000408	EKC/KEOPS complex	2	1	0.03	12	0.0322	0.0322	Cellular Component
+GO:0090533	cation-transporting ATPase complex	2	1	0.03	13	0.0322	0.0322	Cellular Component
+GO:0032301	MutSalpha complex	2	1	0.03	14	0.0322	0.0322	Cellular Component
+GO:0060187	cell pole	2	1	0.03	15	0.0322	0.0322	Cellular Component
+GO:0008232	activator ecdysone receptor complex	2	1	0.03	16	0.0322	0.0322	Cellular Component
+GO:0005890	sodium:potassium-exchanging ATPase compl...	2	1	0.03	17	0.0322	0.0322	Cellular Component
+GO:0031501	mannosyltransferase complex	2	1	0.03	18	0.0322	0.0322	Cellular Component
+GO:0098793	presynapse	110	5	1.78	19	0.0322	0.0322	Cellular Component
+GO:0005635	nuclear envelope	76	4	1.23	20	0.0341	0.0341	Cellular Component
+GO:0150034	distal axon	76	4	1.23	21	0.0341	0.0341	Cellular Component
+GO:0005789	endoplasmic reticulum membrane	115	5	1.87	22	0.0380	0.0380	Cellular Component
+GO:0005795	Golgi stack	47	3	0.76	23	0.0400	0.0400	Cellular Component
+GO:0042175	nuclear outer membrane-endoplasmic retic...	119	5	1.93	24	0.0430	0.0430	Cellular Component
+GO:0098827	endoplasmic reticulum subcompartment	119	5	1.93	25	0.0430	0.0430	Cellular Component
+GO:0048471	perinuclear region of cytoplasm	49	3	0.8	26	0.0444	0.0444	Cellular Component
+GO:0005697	telomerase holoenzyme complex	3	1	0.05	27	0.0479	0.0479	Cellular Component
+GO:0005658	alpha DNA polymerase:primase complex	3	1	0.05	28	0.0479	0.0479	Cellular Component
+GO:0008230	ecdysone receptor holocomplex	3	1	0.05	29	0.0479	0.0479	Cellular Component
+GO:1990124	messenger ribonucleoprotein complex	3	1	0.05	30	0.0479	0.0479	Cellular Component
+GO:0098533	ATPase dependent transmembrane transport...	3	1	0.05	31	0.0479	0.0479	Cellular Component
+GO:0030424	axon	123	5	2	32	0.0484	0.0484	Cellular Component
+GO:0043195	terminal bouton	51	3	0.83	33	0.0491	0.0491	Cellular Component

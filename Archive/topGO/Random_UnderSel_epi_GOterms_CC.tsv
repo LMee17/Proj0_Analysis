@@ -1,0 +1,10 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0008091	spectrin	3	1	0	2	0.0045	0.0045	Cellular Component
+GO:0005859	muscle myosin complex	4	1	0.01	3	0.0060	0.0060	Cellular Component
+GO:0045170	spectrosome	4	1	0.01	4	0.0060	0.0060	Cellular Component
+GO:0070971	endoplasmic reticulum exit site	7	1	0.01	6	0.0104	0.0104	Cellular Component
+GO:0000137	Golgi cis cisterna	8	1	0.01	7	0.0119	0.0119	Cellular Component
+GO:0045202	synapse	188	2	0.28	11	0.0295	0.0295	Cellular Component
+GO:0005794	Golgi apparatus	214	2	0.32	12	0.0375	0.0375	Cellular Component
+GO:0031985	Golgi cisterna	27	1	0.04	13	0.0397	0.0397	Cellular Component
+GO:0045169	fusome	28	1	0.04	14	0.0411	0.0411	Cellular Component

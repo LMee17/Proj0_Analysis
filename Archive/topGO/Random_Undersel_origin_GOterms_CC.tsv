@@ -1,0 +1,37 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0030424	axon	123	13	5.09	1	0.0016	0.0016	Cellular Component
+GO:0030427	site of polarized growth	23	4	0.95	4	0.0136	0.0136	Cellular Component
+GO:0098794	postsynapse	35	5	1.45	5	0.0137	0.0137	Cellular Component
+GO:0005634	nucleus	1596	81	66.1	6	0.0138	0.0138	Cellular Component
+GO:0005700	polytene chromosome	142	12	5.88	8	0.0140	0.0140	Cellular Component
+GO:0031616	spindle pole centrosome	5	2	0.21	9	0.0157	0.0157	Cellular Component
+GO:0044613	nuclear pore central transport channel	5	2	0.21	10	0.0157	0.0157	Cellular Component
+GO:0099572	postsynaptic specialization	15	3	0.62	11	0.0220	0.0220	Cellular Component
+GO:0034399	nuclear periphery	28	4	1.16	12	0.0268	0.0268	Cellular Component
+GO:0072546	ER membrane protein complex	7	2	0.29	13	0.0312	0.0312	Cellular Component
+GO:0030425	dendrite	74	7	3.06	14	0.0324	0.0324	Cellular Component
+GO:0097447	dendritic tree	74	7	3.06	15	0.0324	0.0324	Cellular Component
+GO:0000791	euchromatin	18	3	0.75	16	0.0361	0.0361	Cellular Component
+GO:0005635	nuclear envelope	76	7	3.15	17	0.0368	0.0368	Cellular Component
+GO:0005694	chromosome	359	22	14.87	18	0.0392	0.0392	Cellular Component
+GO:0005701	polytene chromosome chromocenter	8	2	0.33	19	0.0405	0.0405	Cellular Component
+GO:0032809	neuronal cell body membrane	1	1	0.04	20	0.0414	0.0414	Cellular Component
+GO:0071204	histone pre-mRNA 3'end processing comple...	1	1	0.04	21	0.0414	0.0414	Cellular Component
+GO:0071141	SMAD protein complex	1	1	0.04	22	0.0414	0.0414	Cellular Component
+GO:0005722	beta-heterochromatin	1	1	0.04	23	0.0414	0.0414	Cellular Component
+GO:0005683	U7 snRNP	1	1	0.04	24	0.0414	0.0414	Cellular Component
+GO:0097467	type III terminal bouton	1	1	0.04	25	0.0414	0.0414	Cellular Component
+GO:0044298	cell body membrane	1	1	0.04	26	0.0414	0.0414	Cellular Component
+GO:0044322	endoplasmic reticulum quality control co...	1	1	0.04	27	0.0414	0.0414	Cellular Component
+GO:0036513	Derlin-1 retrotranslocation complex	1	1	0.04	28	0.0414	0.0414	Cellular Component
+GO:0042405	nuclear inclusion body	1	1	0.04	29	0.0414	0.0414	Cellular Component
+GO:0010009	cytoplasmic side of endosome membrane	1	1	0.04	30	0.0414	0.0414	Cellular Component
+GO:0035059	RCAF complex	1	1	0.04	31	0.0414	0.0414	Cellular Component
+GO:0031901	early endosome membrane	1	1	0.04	32	0.0414	0.0414	Cellular Component
+GO:0070090	metaphase plate	1	1	0.04	33	0.0414	0.0414	Cellular Component
+GO:0000835	ER ubiquitin ligase complex	1	1	0.04	34	0.0414	0.0414	Cellular Component
+GO:0031045	dense core granule	1	1	0.04	35	0.0414	0.0414	Cellular Component
+GO:0000836	Hrd1p ubiquitin ligase complex	1	1	0.04	36	0.0414	0.0414	Cellular Component
+GO:0045335	phagocytic vesicle	1	1	0.04	37	0.0414	0.0414	Cellular Component
+GO:0045202	synapse	188	13	7.79	38	0.0467	0.0467	Cellular Component
+GO:0031965	nuclear membrane	20	3	0.83	39	0.0475	0.0475	Cellular Component
