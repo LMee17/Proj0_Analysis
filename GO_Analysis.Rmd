@@ -212,6 +212,18 @@ write.table(non.list, "input/GOI/NonCan_input.txt", col.names = F, quote = F, ro
 
 I will craft a script that will go through the undersel object and drag out the genes under selection per lineage per gene class (noncan / random). Each set will be stored in a data.frame object and then written as a .txt file in the "input/GOI" directory. 
 
+First, I'm gonna need an object that has all data - the social and solitary - in one dataframe.
+
+```{r}
+data.sol.all <- bind_rows(data.sol)
+tail(data.sol.all)
+```
+
+```{r}
+data.complete <- rbind(data.all, data.sol.all)
+head(data.complete)
+```
+
 As everything has to be in protein ID format, I'll need a master ID table ready that is isoform reduced.
 
 ```{r}
@@ -232,10 +244,66 @@ imm.nc
 gene<-strsplit(as.character(imm.nc$V1),".",fixed = T)
 imm.nc$Gene<-sapply(gene,"[",1)
 imm.nc$V1 <- NULL
+imm.nc$Gene <- as.factor(imm.nc$Gene)
 nrow(imm.nc)
 ```
 
+So 13 genes were input. They're all non-canon
+
 ```{r}
 nrow(undersel.all[undersel.all$Gene %in% imm.nc$Gene,])
+undersel.all[undersel.all$Gene %in% imm.nc$Gene,]
 ```
+
+8 of them were considered showing signs of a longterm shift in selection
+
+```{r}
+undersel.all[undersel.all$Gene %in% imm.nc$Gene,]
+```
+
+And again for the random genes
+
+```{r}
+ran.nc <- read.table("Genome_Misc/Random_noncoding_list.txt", header = F)
+gene<-strsplit(as.character(ran.nc$V1),".",fixed = T)
+ran.nc$Gene<-sapply(gene,"[",1)
+ran.nc$V1 <- NULL
+ran.nc$Gene <- as.factor(ran.nc$Gene)
+nrow(ran.nc)
+```
+
+107 were analysed
+
+```{r}
+nrow(undersel.all[undersel$Gene %in% ran.nc$Gene,])
+```
+
+71 came back as under selection ? 
+
+I want to remove these but I'll wait for Seth's input.
+
+Anyway, back to making the lists for GO analysis ...
+
+```{r}
+source("Scripts/genGeneList2.R", local = knitr::knit_global())
+```
+
+###Go Analysis
+
+I had previously produced a GOverse file to use with topGO using the script genGOverse.R. This will be read in using the topGO batch script.
+
+
+runtopGO.R produces many results files. For each lineage/class combination (and the canon and noncanon input lists) there will be one table written that has all three GO term classes included.
+
+```{r}
+#source("Scripts/runtopGO.R"), local = knitr::knit_global()
+```
+
+###GO Comparisons
+
+####Canon versus Noncanon (input)
+
+####Apidae Socialities
+
+###Halictidae
 
