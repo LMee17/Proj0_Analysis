@@ -1,0 +1,172 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0006265	DNA topological change	5	2	0.03	2	0.00038	0.00038	Biological Process
+GO:0009058	biosynthetic process	1576	19	9.87	3	0.04322	0.00084	Biological Process
+GO:0009101	glycoprotein biosynthetic process	71	4	0.44	4	0.04538	0.00092	Biological Process
+GO:0019991	septate junction assembly	38	3	0.24	5	0.00163	0.00163	Biological Process
+GO:0006024	glycosaminoglycan biosynthetic process	10	2	0.06	6	0.00166	0.00166	Biological Process
+GO:0009225	nucleotide-sugar metabolic process	11	2	0.07	10	0.00202	0.00202	Biological Process
+GO:0015012	heparan sulfate proteoglycan biosyntheti...	13	2	0.08	12	0.00284	0.00284	Biological Process
+GO:0045475	locomotor rhythm	53	3	0.33	18	0.00424	0.00424	Biological Process
+GO:0006302	double-strand break repair	55	3	0.34	22	0.00471	0.00471	Biological Process
+GO:0006310	DNA recombination	59	3	0.37	24	0.00574	0.00574	Biological Process
+GO:0006367	transcription initiation from RNA polyme...	60	3	0.38	25	0.00601	0.00601	Biological Process
+GO:2000672	negative regulation of motor neuron apop...	1	1	0.01	27	0.00626	0.00626	Biological Process
+GO:0042732	D-xylose metabolic process	1	1	0.01	30	0.00626	0.00626	Biological Process
+GO:0010248	establishment or maintenance of transmem...	1	1	0.01	31	0.00626	0.00626	Biological Process
+GO:0002101	tRNA wobble cytosine modification	1	1	0.01	32	0.00626	0.00626	Biological Process
+GO:0010738	regulation of protein kinase A signaling	1	1	0.01	35	0.00626	0.00626	Biological Process
+GO:1904812	rRNA acetylation involved in maturation ...	1	1	0.01	36	0.00626	0.00626	Biological Process
+GO:0032353	negative regulation of hormone biosynthe...	1	1	0.01	38	0.00626	0.00626	Biological Process
+GO:0051391	tRNA acetylation	1	1	0.01	39	0.00626	0.00626	Biological Process
+GO:0030710	regulation of border follicle cell delam...	1	1	0.01	40	0.00626	0.00626	Biological Process
+GO:0044262	cellular carbohydrate metabolic process	61	3	0.38	41	0.00630	0.00630	Biological Process
+GO:0048589	developmental growth	278	6	1.74	43	0.00678	0.00678	Biological Process
+GO:0016334	establishment or maintenance of polarity...	22	2	0.14	45	0.00813	0.00813	Biological Process
+GO:0016051	carbohydrate biosynthetic process	23	2	0.14	46	0.00887	0.00887	Biological Process
+GO:0006790	sulfur compound metabolic process	70	3	0.44	47	0.00922	0.00922	Biological Process
+GO:0044264	cellular polysaccharide metabolic proces...	27	2	0.17	52	0.01211	0.01211	Biological Process
+GO:0005976	polysaccharide metabolic process	27	2	0.17	53	0.01211	0.01211	Biological Process
+GO:0030714	anterior/posterior axis specification, f...	2	1	0.01	54	0.01249	0.01249	Biological Process
+GO:0006011	UDP-glucose metabolic process	2	1	0.01	55	0.01249	0.01249	Biological Process
+GO:0042276	error-prone translesion synthesis	2	1	0.01	56	0.01249	0.01249	Biological Process
+GO:0001661	conditioned taste aversion	2	1	0.01	57	0.01249	0.01249	Biological Process
+GO:0035285	appendage segmentation	28	2	0.18	59	0.01299	0.01299	Biological Process
+GO:0036011	imaginal disc-derived leg segmentation	28	2	0.18	60	0.01299	0.01299	Biological Process
+GO:0009266	response to temperature stimulus	84	3	0.53	63	0.01512	0.01512	Biological Process
+GO:0097120	receptor localization to synapse	3	1	0.02	66	0.01868	0.01868	Biological Process
+GO:0070940	dephosphorylation of RNA polymerase II C...	3	1	0.02	67	0.01868	0.01868	Biological Process
+GO:0006002	fructose 6-phosphate metabolic process	3	1	0.02	68	0.01868	0.01868	Biological Process
+GO:0007175	negative regulation of epidermal growth ...	3	1	0.02	69	0.01868	0.01868	Biological Process
+GO:0000724	double-strand break repair via homologou...	36	2	0.23	73	0.02099	0.02099	Biological Process
+GO:0000725	recombinational repair	36	2	0.23	74	0.02099	0.02099	Biological Process
+GO:0007424	open tracheal system development	175	4	1.1	76	0.02271	0.02271	Biological Process
+GO:0048149	behavioral response to ethanol	39	2	0.24	77	0.02441	0.02441	Biological Process
+GO:0052128	positive energy taxis	4	1	0.03	79	0.02483	0.02483	Biological Process
+GO:0046956	positive phototaxis	4	1	0.03	80	0.02483	0.02483	Biological Process
+GO:0007176	regulation of epidermal growth factor-ac...	4	1	0.03	81	0.02483	0.02483	Biological Process
+GO:0046710	GDP metabolic process	4	1	0.03	82	0.02483	0.02483	Biological Process
+GO:0007552	metamorphosis	371	6	2.32	83	0.02559	0.02559	Biological Process
+GO:0007474	imaginal disc-derived wing vein specific...	41	2	0.26	85	0.02680	0.02680	Biological Process
+GO:0060541	respiratory system development	186	4	1.17	86	0.02767	0.02767	Biological Process
+GO:0035151	regulation of tube size, open tracheal s...	42	2	0.26	88	0.02803	0.02803	Biological Process
+GO:0048190	wing disc dorsal/ventral pattern formati...	44	2	0.28	89	0.03056	0.03056	Biological Process
+GO:0032496	response to lipopolysaccharide	5	1	0.03	90	0.03094	0.03094	Biological Process
+GO:0090308	regulation of DNA methylation-dependent ...	5	1	0.03	91	0.03094	0.03094	Biological Process
+GO:0090309	positive regulation of DNA methylation-d...	5	1	0.03	92	0.03094	0.03094	Biological Process
+GO:0051036	regulation of endosome size	5	1	0.03	93	0.03094	0.03094	Biological Process
+GO:0016336	establishment or maintenance of polarity...	5	1	0.03	96	0.03094	0.03094	Biological Process
+GO:0006273	lagging strand elongation	5	1	0.03	97	0.03094	0.03094	Biological Process
+GO:0048312	intracellular distribution of mitochondr...	5	1	0.03	98	0.03094	0.03094	Biological Process
+GO:0015014	heparan sulfate proteoglycan biosyntheti...	5	1	0.03	99	0.03094	0.03094	Biological Process
+GO:0007630	jump response	5	1	0.03	100	0.03094	0.03094	Biological Process
+GO:0006303	double-strand break repair via nonhomolo...	5	1	0.03	101	0.03094	0.03094	Biological Process
+GO:0006047	UDP-N-acetylglucosamine metabolic proces...	5	1	0.03	102	0.03094	0.03094	Biological Process
+GO:0097494	regulation of vesicle size	5	1	0.03	103	0.03094	0.03094	Biological Process
+GO:0046037	GMP metabolic process	5	1	0.03	104	0.03094	0.03094	Biological Process
+GO:2000272	negative regulation of signaling recepto...	5	1	0.03	105	0.03094	0.03094	Biological Process
+GO:0042058	regulation of epidermal growth factor re...	45	2	0.28	107	0.03186	0.03186	Biological Process
+GO:0035150	regulation of tube size	45	2	0.28	109	0.03186	0.03186	Biological Process
+GO:1901184	regulation of ERBB signaling pathway	45	2	0.28	110	0.03186	0.03186	Biological Process
+GO:0071897	DNA biosynthetic process	45	2	0.28	111	0.03186	0.03186	Biological Process
+GO:0008587	imaginal disc-derived wing margin morpho...	45	2	0.28	112	0.03186	0.03186	Biological Process
+GO:0035282	segmentation	198	4	1.24	113	0.03379	0.03379	Biological Process
+GO:0001894	tissue homeostasis	47	2	0.29	116	0.03452	0.03452	Biological Process
+GO:0007450	dorsal/ventral pattern formation, imagin...	48	2	0.3	119	0.03588	0.03588	Biological Process
+GO:0019985	translesion synthesis	6	1	0.04	120	0.03702	0.03702	Biological Process
+GO:0035418	protein localization to synapse	6	1	0.04	121	0.03702	0.03702	Biological Process
+GO:0061099	negative regulation of protein tyrosine ...	6	1	0.04	122	0.03702	0.03702	Biological Process
+GO:0016335	morphogenesis of larval imaginal disc ep...	6	1	0.04	123	0.03702	0.03702	Biological Process
+GO:0006272	leading strand elongation	6	1	0.04	124	0.03702	0.03702	Biological Process
+GO:0043113	receptor clustering	6	1	0.04	125	0.03702	0.03702	Biological Process
+GO:0009301	snRNA transcription	6	1	0.04	126	0.03702	0.03702	Biological Process
+GO:0006346	DNA methylation-dependent heterochromati...	6	1	0.04	127	0.03702	0.03702	Biological Process
+GO:0002237	response to molecule of bacterial origin	6	1	0.04	128	0.03702	0.03702	Biological Process
+GO:0042246	tissue regeneration	6	1	0.04	130	0.03702	0.03702	Biological Process
+GO:0009953	dorsal/ventral pattern formation	120	3	0.75	131	0.03829	0.03829	Biological Process
+GO:0030534	adult behavior	120	3	0.75	132	0.03829	0.03829	Biological Process
+GO:0002168	instar larval development	51	2	0.32	134	0.04009	0.04009	Biological Process
+GO:0007560	imaginal disc morphogenesis	312	5	1.95	138	0.04275	0.04275	Biological Process
+GO:0048563	post-embryonic animal organ morphogenesi...	312	5	1.95	139	0.04275	0.04275	Biological Process
+GO:1904059	regulation of locomotor rhythm	7	1	0.04	141	0.04306	0.04306	Biological Process
+GO:0055093	response to hyperoxia	7	1	0.04	142	0.04306	0.04306	Biological Process
+GO:0030206	chondroitin sulfate biosynthetic process	7	1	0.04	143	0.04306	0.04306	Biological Process
+GO:0000002	mitochondrial genome maintenance	7	1	0.04	144	0.04306	0.04306	Biological Process
+GO:0050732	negative regulation of peptidyl-tyrosine...	7	1	0.04	145	0.04306	0.04306	Biological Process
+GO:0045471	response to ethanol	54	2	0.34	146	0.04447	0.04447	Biological Process
+GO:0009628	response to abiotic stimulus	316	5	1.98	147	0.04477	0.04477	Biological Process
+GO:0002164	larval development	129	3	0.81	148	0.04589	0.04589	Biological Process
+GO:0043413	macromolecule glycosylation	55	2	0.34	149	0.04598	0.04598	Biological Process
+GO:0006486	protein glycosylation	55	2	0.34	151	0.04598	0.04598	Biological Process
+GO:0050768	negative regulation of neurogenesis	55	2	0.34	152	0.04598	0.04598	Biological Process
+GO:0048871	multicellular organismal homeostasis	55	2	0.34	153	0.04598	0.04598	Biological Process
+GO:0007619	courtship behavior	56	2	0.35	154	0.04749	0.04749	Biological Process
+GO:0002165	instar larval or pupal development	430	6	2.69	155	0.04786	0.04786	Biological Process
+GO:0016332	establishment or maintenance of polarity...	8	1	0.05	156	0.04906	0.04906	Biological Process
+GO:0060439	trachea morphogenesis	8	1	0.05	157	0.04906	0.04906	Biological Process
+GO:0036296	response to increased oxygen levels	8	1	0.05	158	0.04906	0.04906	Biological Process
+GO:0048311	mitochondrion distribution	8	1	0.05	159	0.04906	0.04906	Biological Process
+GO:0050650	chondroitin sulfate proteoglycan biosynt...	8	1	0.05	160	0.04906	0.04906	Biological Process
+GO:0050654	chondroitin sulfate proteoglycan metabol...	8	1	0.05	161	0.04906	0.04906	Biological Process
+GO:0030204	chondroitin sulfate metabolic process	8	1	0.05	162	0.04906	0.04906	Biological Process
+GO:0000712	resolution of meiotic recombination inte...	8	1	0.05	163	0.04906	0.04906	Biological Process
+GO:0003916	DNA topoisomerase activity	3	2	0.02	2	0.01327	0.00014	Molecular Function
+GO:0034483	heparan sulfate sulfotransferase activit...	4	2	0.03	3	0.01983	0.00027	Molecular Function
+GO:0004114	3',5'-cyclic-nucleotide phosphodiesteras...	6	2	0.04	6	0.00068	0.00068	Molecular Function
+GO:0004653	polypeptide N-acetylgalactosaminyltransf...	7	2	0.05	7	0.00094	0.00094	Molecular Function
+GO:0008146	sulfotransferase activity	8	2	0.06	8	0.04569	0.00125	Molecular Function
+GO:0003887	DNA-directed DNA polymerase activity	11	2	0.08	11	0.00243	0.00243	Molecular Function
+GO:0005391	sodium:potassium-exchanging ATPase activ...	1	1	0.01	17	0.00689	0.00689	Molecular Function
+GO:0015016	[heparan sulfate]-glucosamine N-sulfotra...	1	1	0.01	18	0.00689	0.00689	Molecular Function
+GO:0003918	DNA topoisomerase type II (double strand...	1	1	0.01	19	0.00689	0.00689	Molecular Function
+GO:1990883	rRNA cytidine N-acetyltransferase activi...	1	1	0.01	20	0.00689	0.00689	Molecular Function
+GO:0051392	tRNA N-acetyltransferase activity	1	1	0.01	21	0.00689	0.00689	Molecular Function
+GO:0045127	N-acetylglucosamine kinase activity	1	1	0.01	23	0.00689	0.00689	Molecular Function
+GO:0003983	UTP:glucose-1-phosphate uridylyltransfer...	1	1	0.01	25	0.00689	0.00689	Molecular Function
+GO:0030158	protein xylosyltransferase activity	1	1	0.01	26	0.00689	0.00689	Molecular Function
+GO:0000182	rDNA binding	2	1	0.01	30	0.01373	0.01373	Molecular Function
+GO:0035255	ionotropic glutamate receptor binding	2	1	0.01	31	0.01373	0.01373	Molecular Function
+GO:0004360	glutamine-fructose-6-phosphate transamin...	2	1	0.01	32	0.01373	0.01373	Molecular Function
+GO:0008467	[heparan sulfate]-glucosamine 3-sulfotra...	2	1	0.01	33	0.01373	0.01373	Molecular Function
+GO:0070548	L-glutamine aminotransferase activity	2	1	0.01	34	0.01373	0.01373	Molecular Function
+GO:0003696	satellite DNA binding	2	1	0.01	35	0.01373	0.01373	Molecular Function
+GO:0016427	tRNA (cytosine) methyltransferase activi...	2	1	0.01	36	0.01373	0.01373	Molecular Function
+GO:0001784	phosphotyrosine residue binding	2	1	0.01	37	0.01373	0.01373	Molecular Function
+GO:0051879	Hsp90 protein binding	3	1	0.02	39	0.02053	0.02053	Molecular Function
+GO:0035254	glutamate receptor binding	3	1	0.02	41	0.02053	0.02053	Molecular Function
+GO:0030971	receptor tyrosine kinase binding	3	1	0.02	42	0.02053	0.02053	Molecular Function
+GO:0003712	transcription coregulator activity	90	3	0.62	43	0.02313	0.02313	Molecular Function
+GO:0003713	transcription coactivator activity	36	2	0.25	44	0.02499	0.02499	Molecular Function
+GO:0008420	RNA polymerase II CTD heptapeptide repea...	4	1	0.03	45	0.02729	0.02729	Molecular Function
+GO:1990782	protein tyrosine kinase binding	4	1	0.03	46	0.02729	0.02729	Molecular Function
+GO:0030544	Hsp70 protein binding	4	1	0.03	47	0.02729	0.02729	Molecular Function
+GO:0004385	guanylate kinase activity	4	1	0.03	48	0.02729	0.02729	Molecular Function
+GO:0004115	3',5'-cyclic-AMP phosphodiesterase activ...	4	1	0.03	49	0.02729	0.02729	Molecular Function
+GO:0005154	epidermal growth factor receptor binding	5	1	0.03	50	0.03399	0.03399	Molecular Function
+GO:0004535	poly(A)-specific ribonuclease activity	5	1	0.03	51	0.03399	0.03399	Molecular Function
+GO:0045309	protein phosphorylated amino acid bindin...	5	1	0.03	52	0.03399	0.03399	Molecular Function
+GO:0051219	phosphoprotein binding	7	1	0.05	54	0.04728	0.04728	Molecular Function
+GO:0016592	mediator complex	28	3	0.18	1	0.0007	0.0007	Cellular Component
+GO:0005918	septate junction	35	3	0.22	2	0.0014	0.0014	Cellular Component
+GO:0070847	core mediator complex	10	2	0.06	3	0.0017	0.0017	Cellular Component
+GO:0005795	Golgi stack	47	3	0.3	6	0.0032	0.0032	Cellular Component
+GO:0016035	zeta DNA polymerase complex	1	1	0.01	8	0.0064	0.0064	Cellular Component
+GO:0031985	Golgi cisterna	27	2	0.17	10	0.0126	0.0126	Cellular Component
+GO:0090533	cation-transporting ATPase complex	2	1	0.01	11	0.0128	0.0128	Cellular Component
+GO:0005890	sodium:potassium-exchanging ATPase compl...	2	1	0.01	12	0.0128	0.0128	Cellular Component
+GO:0098533	ATPase dependent transmembrane transport...	3	1	0.02	13	0.0191	0.0191	Cellular Component
+GO:0005658	alpha DNA polymerase:primase complex	3	1	0.02	14	0.0191	0.0191	Cellular Component
+GO:0055029	nuclear DNA-directed RNA polymerase comp...	95	3	0.61	15	0.0221	0.0221	Cellular Component
+GO:0030880	RNA polymerase complex	96	3	0.61	16	0.0227	0.0227	Cellular Component
+GO:0000428	DNA-directed RNA polymerase complex	96	3	0.61	17	0.0227	0.0227	Cellular Component
+GO:0044611	nuclear pore inner ring	4	1	0.03	18	0.0254	0.0254	Cellular Component
+GO:0016323	basolateral plasma membrane	40	2	0.26	19	0.0266	0.0266	Cellular Component
+GO:1904949	ATPase complex	43	2	0.28	20	0.0304	0.0304	Cellular Component
+GO:0061689	tricellular tight junction	5	1	0.03	22	0.0316	0.0316	Cellular Component
+GO:0008623	CHRAC	5	1	0.03	23	0.0316	0.0316	Cellular Component
+GO:0030015	CCR4-NOT core complex	5	1	0.03	24	0.0316	0.0316	Cellular Component
+GO:0043601	nuclear replisome	6	1	0.04	25	0.0378	0.0378	Cellular Component
+GO:0032279	asymmetric synapse	6	1	0.04	26	0.0378	0.0378	Cellular Component
+GO:0014069	postsynaptic density	6	1	0.04	27	0.0378	0.0378	Cellular Component
+GO:0030894	replisome	6	1	0.04	28	0.0378	0.0378	Cellular Component
+GO:0098984	neuron to neuron synapse	6	1	0.04	29	0.0378	0.0378	Cellular Component
+GO:0005920	smooth septate junction	7	1	0.04	32	0.0440	0.0440	Cellular Component

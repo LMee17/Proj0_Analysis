@@ -1,0 +1,172 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0065007	biological regulation	2740	231	194.01	1	0.03502	4e-05	Biological Process
+GO:0048667	cell morphogenesis involved in neuron di...	332	41	23.51	4	0.01276	0.00025	Biological Process
+GO:0009653	anatomical structure morphogenesis	1138	107	80.58	9	0.01852	0.00050	Biological Process
+GO:0007165	signal transduction	1028	98	72.79	11	0.00818	0.00059	Biological Process
+GO:0047496	vesicle transport along microtubule	7	4	0.5	14	0.00073	0.00073	Biological Process
+GO:0048869	cellular developmental process	1293	117	91.55	17	0.04073	0.00116	Biological Process
+GO:0007191	adenylate cyclase-activating dopamine re...	4	3	0.28	19	0.00133	0.00133	Biological Process
+GO:0048731	system development	1327	119	93.96	20	0.01560	0.00147	Biological Process
+GO:0043052	thermotaxis	14	5	0.99	28	0.00203	0.00203	Biological Process
+GO:0030706	germarium-derived oocyte differentiation	27	7	1.91	30	0.00217	0.00217	Biological Process
+GO:0022008	neurogenesis	692	68	49	35	0.04800	0.00231	Biological Process
+GO:0035335	peptidyl-tyrosine dephosphorylation	21	6	1.49	37	0.00263	0.00263	Biological Process
+GO:0048148	behavioral response to cocaine	10	4	0.71	44	0.00369	0.00369	Biological Process
+GO:0007030	Golgi organization	71	12	5.03	45	0.00374	0.00374	Biological Process
+GO:0048585	negative regulation of response to stimu...	281	32	19.9	47	0.00451	0.00451	Biological Process
+GO:0042692	muscle cell differentiation	111	16	7.86	49	0.02946	0.00468	Biological Process
+GO:0007411	axon guidance	205	25	14.51	50	0.00487	0.00487	Biological Process
+GO:0010971	positive regulation of G2/M transition o...	2	2	0.14	51	0.00500	0.00500	Biological Process
+GO:0015871	choline transport	2	2	0.14	53	0.00500	0.00500	Biological Process
+GO:0030838	positive regulation of actin filament po...	31	7	2.19	54	0.00502	0.00502	Biological Process
+GO:0023057	negative regulation of signaling	272	31	19.26	55	0.00509	0.00509	Biological Process
+GO:0010648	negative regulation of cell communicatio...	272	31	19.26	56	0.00509	0.00509	Biological Process
+GO:0060359	response to ammonium ion	17	5	1.2	58	0.00526	0.00526	Biological Process
+GO:0007193	adenylate cyclase-inhibiting G protein-c...	11	4	0.78	65	0.00547	0.00547	Biological Process
+GO:0030723	ovarian fusome organization	6	3	0.42	66	0.00599	0.00599	Biological Process
+GO:0030513	positive regulation of BMP signaling pat...	6	3	0.42	67	0.00599	0.00599	Biological Process
+GO:0035011	melanotic encapsulation of foreign targe...	25	6	1.77	70	0.00675	0.00675	Biological Process
+GO:0007268	chemical synaptic transmission	211	25	14.94	71	0.00705	0.00705	Biological Process
+GO:0008354	germ cell migration	41	8	2.9	74	0.00707	0.00707	Biological Process
+GO:0032507	maintenance of protein location in cell	26	6	1.84	79	0.00827	0.00827	Biological Process
+GO:0051293	establishment of spindle localization	26	6	1.84	80	0.00827	0.00827	Biological Process
+GO:0032787	monocarboxylic acid metabolic process	89	13	6.3	84	0.00925	0.00925	Biological Process
+GO:0009888	tissue development	797	73	56.43	86	0.00950	0.00950	Biological Process
+GO:0042694	muscle cell fate specification	7	3	0.5	89	0.00994	0.00994	Biological Process
+GO:0072499	photoreceptor cell axon guidance	27	6	1.91	90	0.01001	0.01001	Biological Process
+GO:0009914	hormone transport	13	4	0.92	91	0.01059	0.01059	Biological Process
+GO:0048729	tissue morphogenesis	477	47	33.77	94	0.01086	0.01086	Biological Process
+GO:0030010	establishment of cell polarity	44	8	3.12	95	0.01089	0.01089	Biological Process
+GO:0046578	regulation of Ras protein signal transdu...	62	10	4.39	96	0.01092	0.01092	Biological Process
+GO:0007280	pole cell migration	20	5	1.42	97	0.01106	0.01106	Biological Process
+GO:0070646	protein modification by small protein re...	53	9	3.75	100	0.01111	0.01111	Biological Process
+GO:0015893	drug transport	28	6	1.98	103	0.01200	0.01200	Biological Process
+GO:0023061	signal release	102	14	7.22	104	0.01206	0.01206	Biological Process
+GO:0051056	regulation of small GTPase mediated sign...	63	10	4.46	106	0.01219	0.01219	Biological Process
+GO:0050777	negative regulation of immune response	21	5	1.49	109	0.01369	0.01369	Biological Process
+GO:0051294	establishment of spindle orientation	21	5	1.49	110	0.01369	0.01369	Biological Process
+GO:0007413	axonal fasciculation	14	4	0.99	111	0.01401	0.01401	Biological Process
+GO:0051589	negative regulation of neurotransmitter ...	3	2	0.21	115	0.01430	0.01430	Biological Process
+GO:2000273	positive regulation of signaling recepto...	3	2	0.21	116	0.01430	0.01430	Biological Process
+GO:0000973	posttranscriptional tethering of RNA pol...	3	2	0.21	117	0.01430	0.01430	Biological Process
+GO:0008302	female germline ring canal formation, ac...	3	2	0.21	118	0.01430	0.01430	Biological Process
+GO:0030037	actin filament reorganization involved i...	3	2	0.21	119	0.01430	0.01430	Biological Process
+GO:0046929	negative regulation of neurotransmitter ...	3	2	0.21	120	0.01430	0.01430	Biological Process
+GO:0002188	translation reinitiation	3	2	0.21	121	0.01430	0.01430	Biological Process
+GO:0045165	cell fate commitment	258	28	18.27	122	0.04667	0.01438	Biological Process
+GO:0030239	myofibril assembly	47	8	3.33	127	0.01606	0.01606	Biological Process
+GO:0007528	neuromuscular junction development	148	18	10.48	128	0.01612	0.01612	Biological Process
+GO:0040001	establishment of mitotic spindle localiz...	22	5	1.56	129	0.01671	0.01671	Biological Process
+GO:0002009	morphogenesis of an epithelium	466	45	33	131	0.01764	0.01764	Biological Process
+GO:0048149	behavioral response to ethanol	39	7	2.76	132	0.01801	0.01801	Biological Process
+GO:0016579	protein deubiquitination	39	7	2.76	133	0.01801	0.01801	Biological Process
+GO:0051642	centrosome localization	15	4	1.06	134	0.01805	0.01805	Biological Process
+GO:0106030	neuron projection fasciculation	15	4	1.06	135	0.01805	0.01805	Biological Process
+GO:0007400	neuroblast fate determination	15	4	1.06	136	0.01805	0.01805	Biological Process
+GO:0061842	microtubule organizing center localizati...	15	4	1.06	137	0.01805	0.01805	Biological Process
+GO:0051146	striated muscle cell differentiation	98	13	6.94	140	0.01989	0.01989	Biological Process
+GO:0048134	germ-line cyst formation	23	5	1.63	141	0.02015	0.02015	Biological Process
+GO:0006090	pyruvate metabolic process	23	5	1.63	142	0.02015	0.02015	Biological Process
+GO:0048863	stem cell differentiation	68	10	4.81	145	0.02027	0.02027	Biological Process
+GO:0009968	negative regulation of signal transducti...	254	27	17.98	147	0.02061	0.02061	Biological Process
+GO:0048140	male germ-line cyst encapsulation	9	3	0.64	149	0.02145	0.02145	Biological Process
+GO:0006509	membrane protein ectodomain proteolysis	9	3	0.64	151	0.02145	0.02145	Biological Process
+GO:0014016	neuroblast differentiation	32	6	2.27	153	0.02275	0.02275	Biological Process
+GO:0048513	animal organ development	907	79	64.22	155	0.02306	0.02306	Biological Process
+GO:0072330	monocarboxylic acid biosynthetic process	41	7	2.9	157	0.02333	0.02333	Biological Process
+GO:1903530	regulation of secretion by cell	60	9	4.25	159	0.02398	0.02398	Biological Process
+GO:0007294	germarium-derived oocyte fate determinat...	24	5	1.7	162	0.02402	0.02402	Biological Process
+GO:0035071	salivary gland cell autophagic cell deat...	24	5	1.7	163	0.02402	0.02402	Biological Process
+GO:0046903	secretion	177	20	12.53	164	0.02424	0.02424	Biological Process
+GO:0050890	cognition	133	16	9.42	165	0.02473	0.02473	Biological Process
+GO:0007611	learning or memory	133	16	9.42	166	0.02473	0.02473	Biological Process
+GO:0048732	gland development	144	17	10.2	167	0.02481	0.02481	Biological Process
+GO:0045214	sarcomere organization	33	6	2.34	169	0.02620	0.02620	Biological Process
+GO:0010001	glial cell differentiation	33	6	2.34	170	0.02620	0.02620	Biological Process
+GO:0010876	lipid localization	81	11	5.74	172	0.02641	0.02641	Biological Process
+GO:0034501	protein localization to kinetochore	4	2	0.28	174	0.02726	0.02726	Biological Process
+GO:1990834	response to odorant	4	2	0.28	175	0.02726	0.02726	Biological Process
+GO:0046033	AMP metabolic process	4	2	0.28	176	0.02726	0.02726	Biological Process
+GO:0006167	AMP biosynthetic process	4	2	0.28	177	0.02726	0.02726	Biological Process
+GO:0006108	malate metabolic process	4	2	0.28	178	0.02726	0.02726	Biological Process
+GO:0008335	female germline ring canal stabilization	4	2	0.28	179	0.02726	0.02726	Biological Process
+GO:0071459	protein localization to chromosome, cent...	4	2	0.28	180	0.02726	0.02726	Biological Process
+GO:0099509	regulation of presynaptic cytosolic calc...	4	2	0.28	181	0.02726	0.02726	Biological Process
+GO:0015866	ADP transport	4	2	0.28	182	0.02726	0.02726	Biological Process
+GO:0033313	meiotic cell cycle checkpoint	4	2	0.28	183	0.02726	0.02726	Biological Process
+GO:0060305	regulation of cell diameter	4	2	0.28	184	0.02726	0.02726	Biological Process
+GO:0090527	actin filament reorganization	4	2	0.28	185	0.02726	0.02726	Biological Process
+GO:0019184	nonribosomal peptide biosynthetic proces...	4	2	0.28	186	0.02726	0.02726	Biological Process
+GO:0048135	female germ-line cyst formation	17	4	1.2	188	0.02814	0.02814	Biological Process
+GO:0035331	negative regulation of hippo signaling	17	4	1.2	189	0.02814	0.02814	Biological Process
+GO:0006165	nucleoside diphosphate phosphorylation	17	4	1.2	190	0.02814	0.02814	Biological Process
+GO:0050805	negative regulation of synaptic transmis...	17	4	1.2	191	0.02814	0.02814	Biological Process
+GO:0031348	negative regulation of defense response	17	4	1.2	192	0.02814	0.02814	Biological Process
+GO:0000132	establishment of mitotic spindle orienta...	17	4	1.2	193	0.02814	0.02814	Biological Process
+GO:0046939	nucleotide phosphorylation	17	4	1.2	194	0.02814	0.02814	Biological Process
+GO:0048102	autophagic cell death	25	5	1.77	195	0.02833	0.02833	Biological Process
+GO:0034502	protein localization to chromosome	10	3	0.71	197	0.02906	0.02906	Biological Process
+GO:1903531	negative regulation of secretion by cell	10	3	0.71	198	0.02906	0.02906	Biological Process
+GO:0033619	membrane protein proteolysis	10	3	0.71	199	0.02906	0.02906	Biological Process
+GO:0007414	axonal defasciculation	10	3	0.71	200	0.02906	0.02906	Biological Process
+GO:0005001	transmembrane receptor protein tyrosine ...	4	3	0.27	2	0.0012	0.0012	Molecular Function
+GO:0030594	neurotransmitter receptor activity	34	8	2.3	3	0.0015	0.0015	Molecular Function
+GO:0004930	G protein-coupled receptor activity	57	10	3.86	7	0.0043	0.0043	Molecular Function
+GO:0015220	choline transmembrane transporter activi...	2	2	0.14	8	0.0046	0.0046	Molecular Function
+GO:0005544	calcium-dependent phospholipid binding	12	4	0.81	9	0.0066	0.0066	Molecular Function
+GO:0005488	binding	2351	178	159.19	11	0.0174	0.0115	Molecular Function
+GO:0044877	protein-containing complex binding	128	16	8.67	12	0.0118	0.0118	Molecular Function
+GO:0099528	G protein-coupled neurotransmitter recep...	14	4	0.95	13	0.0120	0.0120	Molecular Function
+GO:0001588	dopamine neurotransmitter receptor activ...	3	2	0.2	14	0.0131	0.0131	Molecular Function
+GO:0099095	ligand-gated anion channel activity	8	3	0.54	16	0.0133	0.0133	Molecular Function
+GO:0098772	molecular function regulator	265	27	17.94	17	0.0194	0.0194	Molecular Function
+GO:0005515	protein binding	1472	116	99.67	18	0.0217	0.0217	Molecular Function
+GO:0016877	ligase activity, forming carbon-sulfur b...	17	4	1.15	19	0.0243	0.0243	Molecular Function
+GO:0033134	ubiquitin activating enzyme binding	4	2	0.27	20	0.0250	0.0250	Molecular Function
+GO:0044388	small protein activating enzyme binding	4	2	0.27	21	0.0250	0.0250	Molecular Function
+GO:0000340	RNA 7-methylguanosine cap binding	4	2	0.27	22	0.0250	0.0250	Molecular Function
+GO:0005092	GDP-dissociation inhibitor activity	4	2	0.27	23	0.0250	0.0250	Molecular Function
+GO:0015217	ADP transmembrane transporter activity	4	2	0.27	24	0.0250	0.0250	Molecular Function
+GO:0004952	dopamine neurotransmitter receptor activ...	4	2	0.27	25	0.0250	0.0250	Molecular Function
+GO:0005102	signaling receptor binding	130	15	8.8	26	0.0282	0.0282	Molecular Function
+GO:0022835	transmitter-gated channel activity	18	4	1.22	27	0.0296	0.0296	Molecular Function
+GO:0019899	enzyme binding	303	29	20.52	28	0.0335	0.0335	Molecular Function
+GO:0098960	postsynaptic neurotransmitter receptor a...	11	3	0.74	29	0.0337	0.0337	Molecular Function
+GO:0016878	acid-thiol ligase activity	11	3	0.74	30	0.0337	0.0337	Molecular Function
+GO:0051020	GTPase binding	124	14	8.4	31	0.0391	0.0391	Molecular Function
+GO:0042165	neurotransmitter binding	5	2	0.34	32	0.0399	0.0399	Molecular Function
+GO:0000295	adenine nucleotide transmembrane transpo...	5	2	0.34	33	0.0399	0.0399	Molecular Function
+GO:0070405	ammonium ion binding	5	2	0.34	34	0.0399	0.0399	Molecular Function
+GO:0015216	purine nucleotide transmembrane transpor...	5	2	0.34	35	0.0399	0.0399	Molecular Function
+GO:0005346	purine ribonucleotide transmembrane tran...	5	2	0.34	36	0.0399	0.0399	Molecular Function
+GO:0008092	cytoskeletal protein binding	209	21	14.15	37	0.0421	0.0421	Molecular Function
+GO:0005048	signal sequence binding	20	4	1.35	38	0.0421	0.0421	Molecular Function
+GO:0003729	mRNA binding	137	15	9.28	39	0.0423	0.0423	Molecular Function
+GO:0030234	enzyme regulator activity	173	18	11.71	40	0.0430	0.0430	Molecular Function
+GO:0030424	axon	123	20	8.95	1	0.0077	0.00048	Cellular Component
+GO:0061176	type Ib terminal bouton	8	4	0.58	3	0.0015	0.00153	Cellular Component
+GO:0090443	FAR/SIN/STRIPAK complex	5	3	0.36	4	0.0034	0.00342	Cellular Component
+GO:0031616	spindle pole centrosome	5	3	0.36	5	0.0034	0.00342	Cellular Component
+GO:0030055	cell-substrate junction	30	7	2.18	8	0.0048	0.00480	Cellular Component
+GO:0098797	plasma membrane protein complex	99	15	7.21	9	0.0216	0.00485	Cellular Component
+GO:0016600	flotillin complex	2	2	0.15	11	0.0053	0.00529	Cellular Component
+GO:0061177	type Is terminal bouton	6	3	0.44	14	0.0065	0.00648	Cellular Component
+GO:0016533	protein kinase 5 complex	3	2	0.22	15	0.0151	0.01509	Cellular Component
+GO:0098533	ATPase dependent transmembrane transport...	3	2	0.22	16	0.0151	0.01509	Cellular Component
+GO:0038037	G protein-coupled receptor dimeric compl...	3	2	0.22	17	0.0151	0.01509	Cellular Component
+GO:0097648	G protein-coupled receptor complex	3	2	0.22	18	0.0151	0.01509	Cellular Component
+GO:0000778	condensed nuclear chromosome kinetochore	3	2	0.22	19	0.0151	0.01509	Cellular Component
+GO:0042383	sarcolemma	3	2	0.22	20	0.0151	0.01509	Cellular Component
+GO:0005886	plasma membrane	706	66	51.4	21	0.0264	0.01527	Cellular Component
+GO:0030992	intraciliary transport particle B	8	3	0.58	23	0.0163	0.01626	Cellular Component
+GO:0030426	growth cone	22	5	1.6	25	0.0186	0.01864	Cellular Component
+GO:0030427	site of polarized growth	23	5	1.67	27	0.0224	0.02243	Cellular Component
+GO:0000780	condensed nuclear chromosome, centromeri...	9	3	0.66	28	0.0231	0.02309	Cellular Component
+GO:0071944	cell periphery	790	71	57.51	30	0.0446	0.02774	Cellular Component
+GO:0005919	pleated septate junction	4	2	0.29	31	0.0287	0.02873	Cellular Component
+GO:0016011	dystroglycan complex	4	2	0.29	32	0.0287	0.02873	Cellular Component
+GO:0000776	kinetochore	33	6	2.4	33	0.0295	0.02950	Cellular Component
+GO:0000777	condensed chromosome kinetochore	11	3	0.8	35	0.0407	0.04069	Cellular Component
+GO:0031226	intrinsic component of plasma membrane	288	29	20.97	36	0.0435	0.04345	Cellular Component
+GO:0005925	focal adhesion	19	4	1.38	37	0.0447	0.04470	Cellular Component
+GO:0016281	eukaryotic translation initiation factor...	5	2	0.36	38	0.0456	0.04561	Cellular Component
