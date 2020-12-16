@@ -1,5 +1,0 @@
-GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
-GO:0031235	intrinsic component of the cytoplasmic s...	4	1	0	1	0.0026	0.0026	Cellular Component
-GO:0070847	core mediator complex	10	1	0.01	2	0.0064	0.0064	Cellular Component
-GO:0016592	mediator complex	28	1	0.02	3	0.0178	0.0178	Cellular Component
-GO:0016591	RNA polymerase II, holoenzyme	76	1	0.05	8	0.0479	0.0479	Cellular Component
