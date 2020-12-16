@@ -2,15 +2,14 @@
 #A script to read in gene lists and run GO term analysis using TopGO
 
 #LOAD
-BiocManager::install("topGO")
+#BiocManager::install("topGO")
 library("topGO")
-BiocManager::install("Rgraphviz")
-library("Rgraphviz")
+#BiocManager::install("Rgraphviz")
+#library("Rgraphviz")
 
 #Read in files
 setwd("input/GOI/")
 filelist <- list.files(pattern ="*.txt")
-head(filelist)
 
 #Use this list to read in all files together and store as a data variable
 go.data <- lapply(filelist, function(x){
@@ -29,7 +28,6 @@ for (i in 1:length(go.data)){
   names(go.data[[i]]) <- getname(filelist[i])
 }
 
-head(go.data[[5]])
 
 #Now to run the tests
 
@@ -61,11 +59,11 @@ BP.craft <- function(x){
 
 bp.list <- as.list(lapply(go.data, BP.craft))
 
-setwd("output/topGO/")
-for (i in 1:length(bp.list)){
-  filename <- paste(getname(filelist[i]), "_GOterms_BP.tsv", sep="")
-  write.table(bp.list[[i]], filename, col.names = T, row.names = F, sep = "\t", quote = F)
-}
+#setwd("output/topGO/")
+#for (i in 1:length(bp.list)){
+#  filename <- paste(getname(filelist[i]), "_GOterms_BP.tsv", sep="")
+#  write.table(bp.list[[i]], filename, col.names = T, row.names = F, sep = "\t", quote = F)
+#}
 
 #set function for determining cellular component orthology terms
 CC.craft <- function(x){
@@ -88,11 +86,10 @@ CC.craft <- function(x){
 
 cc.list <- as.list(lapply(go.data, CC.craft))
 
-setwd("output/topGO/")
-for (i in 1:length(cc.list)){
-  filename <- paste(getname(filelist[i]), "_GOterms_CC.tsv", sep="")
-  write.table(cc.list[[i]], filename, col.names = T, row.names = F, sep = "\t", quote = F)
-}
+#for (i in 1:length(cc.list)){
+#  filename <- paste(getname(filelist[i]), "_GOterms_CC.tsv", sep="")
+#  write.table(cc.list[[i]], filename, col.names = T, row.names = F, sep = "\t", quote = F)
+#}
 
 #set function for determining molecular function orthology terms
 MF.craft <- function(x){
@@ -115,9 +112,28 @@ MF.craft <- function(x){
 
 mf.list <- as.list(lapply(go.data, MF.craft))
 
-for (i in 1:length(mf.list)){
-  filename <- paste(getname(filelist[i]), "_GOterms_MF.tsv", sep="")
-  write.table(mf.list[[i]], filename, col.names = T, row.names = F, sep = "\t", quote = F)
+for (i in 1:length(filelist)){
+  nombre[i] <- getname(filelist[i])  
+}
+nombre
+
+
+
+#for (i in 1:length(mf.list)){
+#  filename <- paste(getname(filelist[i]), "_GOterms_MF.tsv", sep="")
+#  write.table(mf.list[[i]], filename, col.names = T, row.names = F, sep = "\t", quote = F)
+#}
+setwd("~/Documents/Projects/ProjectZero/Proj0_Analysis/")
+
+for (i in 1:length(go.data)){
+  bp <- as.data.frame(bp.list[i])
+  mf <- as.data.frame(mf.list[i])
+  cc <- as.data.frame(cc.list[i])
+  out <- rbind(bp, mf, cc)
+  filename <- paste(getname(filelist[i]), "_GOterms.tsv", sep="")
+  write.table(out, file = paste("output/topGO/", filename, sep = ""), 
+              col.names = T, row.names = F, sep = "\t", quote = F)
 }
 
-setwd("../../")
+
+#setwd("../../")
