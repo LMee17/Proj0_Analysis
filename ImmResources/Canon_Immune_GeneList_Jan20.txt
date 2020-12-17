@@ -117,7 +117,7 @@ LOC726781	Autophagy	XP_006566643.1	ubiquitin-like-conjugating enzyme ATG10 isofo
 LOC727396	Autophagy	XP_006569601.1	eukaryotic translation initiation factor 2-alpha kinase isoform X1 	
 LOC727634	Autophagy	XP_001123340.2	activating molecule in BECN1-regulated autophagy protein 1 isoform X2 	
 Pten	Autophagy	NP_001155985.1	phosphatase and tensin-like 	
-PGRP-S3	 Humoral	NP_001157187.1	peptidoglycan-recognition protein SA precursor 
+PGRP-S3	Humoral	NP_001157187.1	peptidoglycan-recognition protein SA precursor 
 LOC408924	Humoral	XP_006565569.1	peptidoglycan-recognition protein LC isoform X6 
 LOC552247	Humoral	XP_026299963.1	nuclear factor NF-kappa-B p100 subunit isoform X4 
 Imd	Humoral	NP_001157189.1	immune deficiency 
@@ -139,7 +139,7 @@ LOC726947	Humoral	XP_016771592.1	TGF-beta-activated kinase 1 and MAP3K7-binding 
 LOC724930	Humoral	XP_006570976.2	caspase-8 
 LOC412703	Humoral	XP_006562783.1	protein toll 
 Dl	Humoral	NP_001164477.1	dorsal protein isoform B 
-B-gluc1	 Humoral	NP_001157186.1	gram-negative bacteria-binding protein 1-2 precursor 
+B-gluc1	Humoral	NP_001157186.1	gram-negative bacteria-binding protein 1-2 precursor 
 LOC413742	JAKSTAT	XP_397181.1	signal transducer and activator of transcription 5B 	
 LOC413772	JAKSTAT	XP_006572407.1	myosin-G heavy chain 	
 LOC552036	JAKSTAT	XP_624419.3	uncharacterized protein LOC552036 isoform X1 	
