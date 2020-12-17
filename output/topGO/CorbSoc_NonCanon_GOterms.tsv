@@ -1,5 +1,0 @@
-GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
-GO:0006367	transcription initiation from RNA polyme...	60	1	0.01	1	0.011	0.011	Biological Process
-GO:0006352	DNA-templated transcription, initiation	65	1	0.01	2	0.012	0.012	Biological Process
-GO:0003712	transcription coregulator activity	90	1	0.02	1	0.021	0.021	Molecular Function
-GO:0016592	mediator complex	28	1	0.01	1	0.006	0.006	Cellular Component
