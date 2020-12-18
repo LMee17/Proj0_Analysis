@@ -1,0 +1,41 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0031167	rRNA methylation	17	2	0.03	1	0.0254	0.00043	Biological Process
+GO:0032259	methylation	98	3	0.19	2	0.0107	0.00068	Biological Process
+GO:0000154	rRNA modification	26	2	0.05	3	0.0403	0.00103	Biological Process
+GO:0070212	protein poly-ADP-ribosylation	1	1	0	4	0.0019	0.00190	Biological Process
+GO:0009405	pathogenesis	1	1	0	5	0.0019	0.00190	Biological Process
+GO:0090364	regulation of proteasome assembly	2	1	0	7	0.0038	0.00379	Biological Process
+GO:0030259	lipid glycosylation	2	1	0	8	0.0038	0.00379	Biological Process
+GO:2000211	regulation of glutamate metabolic proces...	2	1	0	9	0.0038	0.00379	Biological Process
+GO:0018364	peptidyl-glutamine methylation	2	1	0	12	0.0038	0.00379	Biological Process
+GO:0070476	rRNA (guanine-N7)-methylation	2	1	0	13	0.0038	0.00379	Biological Process
+GO:0008611	ether lipid biosynthetic process	3	1	0.01	14	0.0057	0.00569	Biological Process
+GO:0071712	ER-associated misfolded protein cataboli...	3	1	0.01	22	0.0057	0.00569	Biological Process
+GO:0006390	mitochondrial transcription	6	1	0.01	29	0.0113	0.01134	Biological Process
+GO:0035269	protein O-linked mannosylation	7	1	0.01	30	0.0132	0.01322	Biological Process
+GO:0035268	protein mannosylation	8	1	0.02	32	0.0151	0.01510	Biological Process
+GO:0030488	tRNA methylation	13	1	0.02	39	0.0244	0.02443	Biological Process
+GO:0006109	regulation of carbohydrate metabolic pro...	17	1	0.03	41	0.0318	0.03183	Biological Process
+GO:0000959	mitochondrial RNA metabolic process	18	1	0.03	43	0.0337	0.03368	Biological Process
+GO:0097502	mannosylation	19	1	0.04	44	0.0355	0.03552	Biological Process
+GO:0006493	protein O-linked glycosylation	19	1	0.04	45	0.0355	0.03552	Biological Process
+GO:0016740	transferase activity	704	8	1.51	1	0.0158	4.5e-06	Molecular Function
+GO:0008609	alkylglycerone-phosphate synthase activi...	1	1	0	2	0.0021	0.0021	Molecular Function
+GO:0015643	toxic substance binding	1	1	0	3	0.0021	0.0021	Molecular Function
+GO:0003950	NAD+ ADP-ribosyltransferase activity	2	1	0	4	0.0043	0.0043	Molecular Function
+GO:0003867	4-aminobutyrate transaminase activity	2	1	0	5	0.0043	0.0043	Molecular Function
+GO:0004169	dolichyl-phosphate-mannose-protein manno...	2	1	0	6	0.0043	0.0043	Molecular Function
+GO:0071949	FAD binding	2	1	0	7	0.0043	0.0043	Molecular Function
+GO:0097110	scaffold protein binding	3	1	0.01	9	0.0064	0.0064	Molecular Function
+GO:0000179	rRNA (adenine-N6,N6-)-dimethyltransferas...	3	1	0.01	10	0.0064	0.0064	Molecular Function
+GO:0034062	5'-3' RNA polymerase activity	13	1	0.03	20	0.0275	0.0275	Molecular Function
+GO:0003899	DNA-directed 5'-3' RNA polymerase activi...	13	1	0.03	22	0.0275	0.0275	Molecular Function
+GO:0097747	RNA polymerase activity	13	1	0.03	23	0.0275	0.0275	Molecular Function
+GO:0055029	nuclear DNA-directed RNA polymerase comp...	95	3	0.2	1	0.00087	0.00087	Cellular Component
+GO:0070013	intracellular organelle lumen	741	5	1.58	5	0.01231	0.01231	Cellular Component
+GO:0043233	organelle lumen	741	5	1.58	6	0.01231	0.01231	Cellular Component
+GO:0031974	membrane-enclosed lumen	741	5	1.58	7	0.01231	0.01231	Cellular Component
+GO:0005736	RNA polymerase I complex	11	1	0.02	8	0.02326	0.02326	Cellular Component
+GO:0005665	RNA polymerase II, core complex	13	1	0.03	9	0.02744	0.02744	Cellular Component
+GO:0005759	mitochondrial matrix	135	2	0.29	10	0.03189	0.03189	Cellular Component
+GO:0005666	RNA polymerase III complex	18	1	0.04	12	0.03781	0.03781	Cellular Component

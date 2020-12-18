@@ -1,0 +1,64 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0007526	larval somatic muscle development	31	2	0.04	1	0.00069	0.00069	Biological Process
+GO:0035167	larval lymph gland hemopoiesis	39	2	0.05	3	0.00110	0.00110	Biological Process
+GO:1903461	Okazaki fragment processing involved in ...	1	1	0	4	0.00133	0.00133	Biological Process
+GO:0035291	specification of segmental identity, int...	1	1	0	5	0.00133	0.00133	Biological Process
+GO:0006266	DNA ligation	3	1	0	8	0.00398	0.00398	Biological Process
+GO:1903804	glycine import across plasma membrane	3	1	0	9	0.00398	0.00398	Biological Process
+GO:0009608	response to symbiont	4	1	0.01	17	0.00531	0.00531	Biological Process
+GO:0045332	phospholipid translocation	6	1	0.01	23	0.00795	0.00795	Biological Process
+GO:0048680	positive regulation of axon regeneration	7	1	0.01	29	0.00927	0.00927	Biological Process
+GO:0016204	determination of muscle attachment site	7	1	0.01	30	0.00927	0.00927	Biological Process
+GO:0042694	muscle cell fate specification	7	1	0.01	32	0.00927	0.00927	Biological Process
+GO:0048813	dendrite morphogenesis	117	2	0.16	34	0.00955	0.00955	Biological Process
+GO:0046427	positive regulation of receptor signalin...	9	1	0.01	41	0.01190	0.01190	Biological Process
+GO:1904894	positive regulation of receptor signalin...	9	1	0.01	42	0.01190	0.01190	Biological Process
+GO:0035203	regulation of lamellocyte differentiatio...	10	1	0.01	45	0.01322	0.01322	Biological Process
+GO:0045613	regulation of plasmatocyte differentiati...	10	1	0.01	46	0.01322	0.01322	Biological Process
+GO:0048194	Golgi vesicle budding	11	1	0.01	51	0.01453	0.01453	Biological Process
+GO:0035289	posterior head segmentation	11	1	0.01	52	0.01453	0.01453	Biological Process
+GO:0007464	R3/R4 cell fate commitment	12	1	0.02	53	0.01585	0.01585	Biological Process
+GO:0035171	lamellocyte differentiation	13	1	0.02	54	0.01716	0.01716	Biological Process
+GO:1903706	regulation of hemopoiesis	13	1	0.02	57	0.01716	0.01716	Biological Process
+GO:0048056	R3/R4 cell differentiation	13	1	0.02	59	0.01716	0.01716	Biological Process
+GO:0042387	plasmatocyte differentiation	14	1	0.02	63	0.01847	0.01847	Biological Process
+GO:0006955	immune response	174	2	0.23	66	0.02042	0.02042	Biological Process
+GO:0044719	regulation of imaginal disc-derived wing...	16	1	0.02	69	0.02108	0.02108	Biological Process
+GO:0006900	vesicle budding from membrane	16	1	0.02	70	0.02108	0.02108	Biological Process
+GO:0035168	larval lymph gland hemocyte differentiat...	17	1	0.02	71	0.02238	0.02238	Biological Process
+GO:0006334	nucleosome assembly	17	1	0.02	73	0.02238	0.02238	Biological Process
+GO:0045476	nurse cell apoptotic process	17	1	0.02	74	0.02238	0.02238	Biological Process
+GO:0048580	regulation of post-embryonic development	17	1	0.02	75	0.02238	0.02238	Biological Process
+GO:0016199	axon midline choice point recognition	18	1	0.02	77	0.02369	0.02369	Biological Process
+GO:0016198	axon choice point recognition	19	1	0.03	80	0.02499	0.02499	Biological Process
+GO:1902742	apoptotic process involved in developmen...	19	1	0.03	81	0.02499	0.02499	Biological Process
+GO:0045467	R7 cell development	19	1	0.03	82	0.02499	0.02499	Biological Process
+GO:0043486	histone exchange	19	1	0.03	83	0.02499	0.02499	Biological Process
+GO:0006915	apoptotic process	209	2	0.28	89	0.02884	0.02884	Biological Process
+GO:0046425	regulation of receptor signaling pathway...	22	1	0.03	91	0.02889	0.02889	Biological Process
+GO:1904892	regulation of receptor signaling pathway...	22	1	0.03	92	0.02889	0.02889	Biological Process
+GO:0048814	regulation of dendrite morphogenesis	24	1	0.03	93	0.03148	0.03148	Biological Process
+GO:0007476	imaginal disc-derived wing morphogenesis	223	2	0.3	95	0.03254	0.03254	Biological Process
+GO:0007259	receptor signaling pathway via JAK-STAT	25	1	0.03	96	0.03277	0.03277	Biological Process
+GO:0097696	receptor signaling pathway via STAT	25	1	0.03	97	0.03277	0.03277	Biological Process
+GO:0007472	wing disc morphogenesis	228	2	0.3	101	0.03392	0.03392	Biological Process
+GO:0043044	ATP-dependent chromatin remodeling	27	1	0.04	102	0.03535	0.03535	Biological Process
+GO:0007367	segment polarity determination	28	1	0.04	103	0.03664	0.03664	Biological Process
+GO:0045610	regulation of hemocyte differentiation	29	1	0.04	105	0.03793	0.03793	Biological Process
+GO:0035120	post-embryonic appendage morphogenesis	262	2	0.35	113	0.04384	0.04384	Biological Process
+GO:0050773	regulation of dendrite development	34	1	0.05	114	0.04434	0.04434	Biological Process
+GO:0012501	programmed cell death	268	2	0.36	118	0.04570	0.04570	Biological Process
+GO:0035114	imaginal disc-derived appendage morphoge...	268	2	0.36	119	0.04570	0.04570	Biological Process
+GO:0035107	appendage morphogenesis	271	2	0.36	120	0.04664	0.04664	Biological Process
+GO:0048737	imaginal disc-derived appendage developm...	272	2	0.36	122	0.04696	0.04696	Biological Process
+GO:0007365	periodic partitioning	37	1	0.05	123	0.04817	0.04817	Biological Process
+GO:0048736	appendage development	276	2	0.37	124	0.04823	0.04823	Biological Process
+GO:0031497	chromatin assembly	38	1	0.05	125	0.04944	0.04944	Biological Process
+GO:0015375	glycine:sodium symporter activity	1	1	0	1	0.0014	0.0014	Molecular Function
+GO:0003910	DNA ligase (ATP) activity	3	1	0	4	0.0043	0.0043	Molecular Function
+GO:0019955	cytokine binding	5	1	0.01	7	0.0071	0.0071	Molecular Function
+GO:0005548	phospholipid transporter activity	10	1	0.01	12	0.0142	0.0142	Molecular Function
+GO:0003730	mRNA 3'-UTR binding	22	1	0.03	16	0.0310	0.0310	Molecular Function
+GO:0005319	lipid transporter activity	23	1	0.03	17	0.0324	0.0324	Molecular Function
+GO:0042393	histone binding	32	1	0.05	19	0.0448	0.0448	Molecular Function
+GO:0005802	trans-Golgi network	27	1	0.03	1	0.034	0.034	Cellular Component

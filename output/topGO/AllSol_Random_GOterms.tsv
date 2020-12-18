@@ -1,0 +1,33 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0010225	response to UV-C	1	1	0	1	0.00057	0.00057	Biological Process
+GO:1900744	regulation of p38MAPK cascade	1	1	0	2	0.00057	0.00057	Biological Process
+GO:1901562	response to paraquat	2	1	0	3	0.00114	0.00114	Biological Process
+GO:0097753	membrane bending	2	1	0	4	0.00114	0.00114	Biological Process
+GO:0097688	glutamate receptor clustering	3	1	0	7	0.00171	0.00171	Biological Process
+GO:0045678	positive regulation of R7 cell different...	7	1	0	10	0.00398	0.00398	Biological Process
+GO:0043407	negative regulation of MAP kinase activi...	8	1	0	11	0.00455	0.00455	Biological Process
+GO:0040034	regulation of development, heterochronic	11	1	0.01	15	0.00625	0.00625	Biological Process
+GO:0046529	imaginal disc fusion, thorax closure	14	1	0.01	19	0.00795	0.00795	Biological Process
+GO:0099173	postsynapse organization	19	1	0.01	21	0.01078	0.01078	Biological Process
+GO:0046580	negative regulation of Ras protein signa...	21	1	0.01	22	0.01191	0.01191	Biological Process
+GO:0051058	negative regulation of small GTPase medi...	22	1	0.01	23	0.01248	0.01248	Biological Process
+GO:0070303	negative regulation of stress-activated ...	22	1	0.01	24	0.01248	0.01248	Biological Process
+GO:0032873	negative regulation of stress-activated ...	22	1	0.01	25	0.01248	0.01248	Biological Process
+GO:0046329	negative regulation of JNK cascade	22	1	0.01	26	0.01248	0.01248	Biological Process
+GO:0030522	intracellular receptor signaling pathway	28	1	0.02	32	0.01586	0.01586	Biological Process
+GO:0046328	regulation of JNK cascade	48	1	0.03	41	0.02709	0.02709	Biological Process
+GO:0016319	mushroom body development	53	1	0.03	45	0.02989	0.02989	Biological Process
+GO:0007254	JNK cascade	57	1	0.03	48	0.03212	0.03212	Biological Process
+GO:0046578	regulation of Ras protein signal transdu...	62	1	0.04	53	0.03490	0.03490	Biological Process
+GO:0051056	regulation of small GTPase mediated sign...	63	1	0.04	55	0.03546	0.03546	Biological Process
+GO:0006470	protein dephosphorylation	78	1	0.04	62	0.04377	0.04377	Biological Process
+GO:0006979	response to oxidative stress	82	1	0.05	65	0.04598	0.04598	Biological Process
+GO:0007391	dorsal closure	85	1	0.05	67	0.04764	0.04764	Biological Process
+GO:0007420	brain development	87	1	0.05	68	0.04874	0.04874	Biological Process
+GO:0004879	nuclear receptor activity	14	1	0.01	2	0.0066	0.0066	Molecular Function
+GO:0004722	protein serine/threonine phosphatase act...	28	1	0.01	3	0.0133	0.0133	Molecular Function
+GO:0004721	phosphoprotein phosphatase activity	58	1	0.03	4	0.0274	0.0274	Molecular Function
+GO:0016791	phosphatase activity	95	1	0.05	5	0.0446	0.0446	Molecular Function
+GO:0000977	RNA polymerase II transcription regulato...	97	1	0.05	6	0.0456	0.0456	Molecular Function
+GO:0098975	postsynapse of neuromuscular junction	13	1	0.01	1	0.0083	0.0083	Cellular Component
+GO:0000139	Golgi membrane	46	1	0.03	3	0.0292	0.0292	Cellular Component

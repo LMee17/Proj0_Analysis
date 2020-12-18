@@ -1,0 +1,6 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0006749	glutathione metabolic process	15	1	0.01	1	0.0057	0.0057	Biological Process
+GO:0016034	maleylacetoacetate isomerase activity	1	1	0	1	0.00048	0.00048	Molecular Function
+GO:0004364	glutathione transferase activity	8	1	0	2	0.00380	0.00380	Molecular Function
+GO:0003899	DNA-directed 5'-3' RNA polymerase activi...	13	1	0.01	4	0.00617	0.00617	Molecular Function
+GO:0005665	RNA polymerase II, core complex	13	1	0.01	1	0.0055	0.0055	Cellular Component

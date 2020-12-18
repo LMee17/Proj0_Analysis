@@ -1,0 +1,125 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0072583	clathrin-dependent endocytosis	18	2	0.09	1	0.0037	0.0037	Biological Process
+GO:0032533	regulation of follicle cell microvillus ...	1	1	0.01	6	0.0051	0.0051	Biological Process
+GO:1903061	positive regulation of protein lipidatio...	1	1	0.01	7	0.0051	0.0051	Biological Process
+GO:0007384	specification of segmental identity, tho...	1	1	0.01	8	0.0051	0.0051	Biological Process
+GO:0097062	dendritic spine maintenance	1	1	0.01	11	0.0051	0.0051	Biological Process
+GO:1903461	Okazaki fragment processing involved in ...	1	1	0.01	14	0.0051	0.0051	Biological Process
+GO:0006540	glutamate decarboxylation to succinate	1	1	0.01	15	0.0051	0.0051	Biological Process
+GO:0045762	positive regulation of adenylate cyclase...	1	1	0.01	16	0.0051	0.0051	Biological Process
+GO:0010777	meiotic mismatch repair involved in reci...	1	1	0.01	17	0.0051	0.0051	Biological Process
+GO:0009450	gamma-aminobutyric acid catabolic proces...	1	1	0.01	18	0.0051	0.0051	Biological Process
+GO:0034628	'de novo' NAD biosynthetic process from ...	1	1	0.01	20	0.0051	0.0051	Biological Process
+GO:0007029	endoplasmic reticulum organization	24	2	0.12	22	0.0065	0.0065	Biological Process
+GO:0051222	positive regulation of protein transport	28	2	0.14	25	0.0088	0.0088	Biological Process
+GO:0070863	positive regulation of protein exit from...	2	1	0.01	29	0.0102	0.0102	Biological Process
+GO:0070293	renal absorption	2	1	0.01	31	0.0102	0.0102	Biological Process
+GO:0007383	specification of segmental identity, ant...	2	1	0.01	32	0.0102	0.0102	Biological Process
+GO:0006105	succinate metabolic process	2	1	0.01	33	0.0102	0.0102	Biological Process
+GO:0097017	renal protein absorption	2	1	0.01	34	0.0102	0.0102	Biological Process
+GO:1990809	endoplasmic reticulum tubular network me...	2	1	0.01	35	0.0102	0.0102	Biological Process
+GO:0140053	mitochondrial gene expression	96	3	0.49	37	0.0125	0.0125	Biological Process
+GO:0032527	protein exit from endoplasmic reticulum	3	1	0.02	38	0.0153	0.0153	Biological Process
+GO:0070861	regulation of protein exit from endoplas...	3	1	0.02	40	0.0153	0.0153	Biological Process
+GO:0007299	ovarian follicle cell-cell adhesion	3	1	0.02	42	0.0153	0.0153	Biological Process
+GO:0006266	DNA ligation	3	1	0.02	43	0.0153	0.0153	Biological Process
+GO:0090158	endoplasmic reticulum membrane organizat...	3	1	0.02	44	0.0153	0.0153	Biological Process
+GO:0048081	positive regulation of cuticle pigmentat...	3	1	0.02	45	0.0153	0.0153	Biological Process
+GO:0000707	meiotic DNA recombinase assembly	3	1	0.02	50	0.0153	0.0153	Biological Process
+GO:0048207	vesicle targeting, rough ER to cis-Golgi	4	1	0.02	52	0.0203	0.0203	Biological Process
+GO:0048208	COPII vesicle coating	4	1	0.02	53	0.0203	0.0203	Biological Process
+GO:0030704	vitelline membrane formation	4	1	0.02	54	0.0203	0.0203	Biological Process
+GO:0042148	strand invasion	4	1	0.02	55	0.0203	0.0203	Biological Process
+GO:0042066	perineurial glial growth	4	1	0.02	57	0.0203	0.0203	Biological Process
+GO:0071786	endoplasmic reticulum tubular network or...	4	1	0.02	58	0.0203	0.0203	Biological Process
+GO:0006901	vesicle coating	4	1	0.02	59	0.0203	0.0203	Biological Process
+GO:0007305	vitelline membrane formation involved in...	4	1	0.02	60	0.0203	0.0203	Biological Process
+GO:0090735	DNA repair complex assembly	4	1	0.02	61	0.0203	0.0203	Biological Process
+GO:0090113	regulation of ER to Golgi vesicle-mediat...	4	1	0.02	62	0.0203	0.0203	Biological Process
+GO:0045752	positive regulation of Toll signaling pa...	4	1	0.02	65	0.0203	0.0203	Biological Process
+GO:0035803	egg coat formation	4	1	0.02	66	0.0203	0.0203	Biological Process
+GO:0000730	DNA recombinase assembly	4	1	0.02	67	0.0203	0.0203	Biological Process
+GO:0003400	regulation of COPII vesicle coating	4	1	0.02	68	0.0203	0.0203	Biological Process
+GO:0048209	regulation of vesicle targeting, to, fro...	5	1	0.03	69	0.0254	0.0254	Biological Process
+GO:0045823	positive regulation of heart contraction	5	1	0.03	71	0.0254	0.0254	Biological Process
+GO:0048199	vesicle targeting, to, from or within Go...	5	1	0.03	72	0.0254	0.0254	Biological Process
+GO:1903524	positive regulation of blood circulation	5	1	0.03	75	0.0254	0.0254	Biological Process
+GO:0042795	snRNA transcription by RNA polymerase II	5	1	0.03	76	0.0254	0.0254	Biological Process
+GO:0019932	second-messenger-mediated signaling	49	2	0.25	79	0.0257	0.0257	Biological Process
+GO:0060628	regulation of ER to Golgi vesicle-mediat...	6	1	0.03	81	0.0304	0.0304	Biological Process
+GO:2000370	positive regulation of clathrin-dependen...	6	1	0.03	82	0.0304	0.0304	Biological Process
+GO:0097065	anterior head development	6	1	0.03	83	0.0304	0.0304	Biological Process
+GO:0048087	positive regulation of developmental pig...	6	1	0.03	84	0.0304	0.0304	Biological Process
+GO:0009301	snRNA transcription	6	1	0.03	85	0.0304	0.0304	Biological Process
+GO:0035288	anterior head segmentation	6	1	0.03	88	0.0304	0.0304	Biological Process
+GO:0046856	phosphatidylinositol dephosphorylation	7	1	0.04	91	0.0353	0.0353	Biological Process
+GO:0097205	renal filtration	7	1	0.04	92	0.0353	0.0353	Biological Process
+GO:0097206	nephrocyte filtration	7	1	0.04	93	0.0353	0.0353	Biological Process
+GO:0042065	glial cell growth	7	1	0.04	95	0.0353	0.0353	Biological Process
+GO:1903051	negative regulation of proteolysis invol...	7	1	0.04	96	0.0353	0.0353	Biological Process
+GO:1903363	negative regulation of cellular protein ...	7	1	0.04	97	0.0353	0.0353	Biological Process
+GO:0001682	tRNA 5'-leader removal	7	1	0.04	98	0.0353	0.0353	Biological Process
+GO:0045022	early endosome to late endosome transpor...	7	1	0.04	99	0.0353	0.0353	Biological Process
+GO:0090646	mitochondrial tRNA processing	7	1	0.04	100	0.0353	0.0353	Biological Process
+GO:0090136	epithelial cell-cell adhesion	7	1	0.04	101	0.0353	0.0353	Biological Process
+GO:0042694	muscle cell fate specification	7	1	0.04	102	0.0353	0.0353	Biological Process
+GO:0099116	tRNA 5'-end processing	7	1	0.04	103	0.0353	0.0353	Biological Process
+GO:0009306	protein secretion	62	2	0.32	107	0.0396	0.0396	Biological Process
+GO:0042177	negative regulation of protein catabolic...	8	1	0.04	108	0.0403	0.0403	Biological Process
+GO:0061356	regulation of Wnt protein secretion	8	1	0.04	109	0.0403	0.0403	Biological Process
+GO:0061357	positive regulation of Wnt protein secre...	8	1	0.04	110	0.0403	0.0403	Biological Process
+GO:0007380	specification of segmental identity, hea...	8	1	0.04	111	0.0403	0.0403	Biological Process
+GO:0098927	vesicle-mediated transport between endos...	8	1	0.04	112	0.0403	0.0403	Biological Process
+GO:2000369	regulation of clathrin-dependent endocyt...	8	1	0.04	114	0.0403	0.0403	Biological Process
+GO:0090114	COPII-coated vesicle budding	8	1	0.04	115	0.0403	0.0403	Biological Process
+GO:0034471	ncRNA 5'-end processing	8	1	0.04	116	0.0403	0.0403	Biological Process
+GO:0045500	sevenless signaling pathway	8	1	0.04	117	0.0403	0.0403	Biological Process
+GO:0000966	RNA 5'-end processing	8	1	0.04	118	0.0403	0.0403	Biological Process
+GO:0071692	protein localization to extracellular re...	64	2	0.33	119	0.0420	0.0420	Biological Process
+GO:0035592	establishment of protein localization to...	64	2	0.33	120	0.0420	0.0420	Biological Process
+GO:0046839	phospholipid dephosphorylation	9	1	0.05	121	0.0452	0.0452	Biological Process
+GO:0085029	extracellular matrix assembly	9	1	0.05	122	0.0452	0.0452	Biological Process
+GO:0006312	mitotic recombination	9	1	0.05	123	0.0452	0.0452	Biological Process
+GO:1901186	positive regulation of ERBB signaling pa...	9	1	0.05	124	0.0452	0.0452	Biological Process
+GO:0050775	positive regulation of dendrite morphoge...	9	1	0.05	126	0.0452	0.0452	Biological Process
+GO:0031936	negative regulation of chromatin silenci...	9	1	0.05	127	0.0452	0.0452	Biological Process
+GO:0048260	positive regulation of receptor-mediated...	9	1	0.05	128	0.0452	0.0452	Biological Process
+GO:0045742	positive regulation of epidermal growth ...	9	1	0.05	129	0.0452	0.0452	Biological Process
+GO:0002790	peptide secretion	67	2	0.34	130	0.0456	0.0456	Biological Process
+GO:0000309	nicotinamide-nucleotide adenylyltransfer...	1	1	0	2	0.0050	0.0050	Molecular Function
+GO:0004515	nicotinate-nucleotide adenylyltransferas...	1	1	0	3	0.0050	0.0050	Molecular Function
+GO:0004777	succinate-semialdehyde dehydrogenase (NA...	1	1	0	4	0.0050	0.0050	Molecular Function
+GO:0003697	single-stranded DNA binding	25	2	0.12	5	0.0066	0.0066	Molecular Function
+GO:0004526	ribonuclease P activity	2	1	0.01	6	0.0100	0.0100	Molecular Function
+GO:0051287	NAD binding	2	1	0.01	7	0.0100	0.0100	Molecular Function
+GO:0005118	sevenless binding	3	1	0.01	8	0.0149	0.0149	Molecular Function
+GO:0003909	DNA ligase activity	3	1	0.01	9	0.0149	0.0149	Molecular Function
+GO:0003910	DNA ligase (ATP) activity	3	1	0.01	10	0.0149	0.0149	Molecular Function
+GO:0097110	scaffold protein binding	3	1	0.01	11	0.0149	0.0149	Molecular Function
+GO:0016886	ligase activity, forming phosphoric este...	4	1	0.02	12	0.0198	0.0198	Molecular Function
+GO:0000150	recombinase activity	4	1	0.02	13	0.0198	0.0198	Molecular Function
+GO:0030544	Hsp70 protein binding	4	1	0.02	15	0.0198	0.0198	Molecular Function
+GO:0042169	SH2 domain binding	5	1	0.02	16	0.0247	0.0247	Molecular Function
+GO:0043024	ribosomal small subunit binding	6	1	0.03	17	0.0296	0.0296	Molecular Function
+GO:0052744	phosphatidylinositol monophosphate phosp...	6	1	0.03	18	0.0296	0.0296	Molecular Function
+GO:0043035	chromatin insulator sequence binding	6	1	0.03	19	0.0296	0.0296	Molecular Function
+GO:0004438	phosphatidylinositol-3-phosphatase activ...	6	1	0.03	20	0.0296	0.0296	Molecular Function
+GO:0000400	four-way junction DNA binding	8	1	0.04	21	0.0393	0.0393	Molecular Function
+GO:0140097	catalytic activity, acting on DNA	71	2	0.35	26	0.0479	0.0479	Molecular Function
+GO:0000217	DNA secondary structure binding	10	1	0.05	27	0.0488	0.0488	Molecular Function
+GO:0017124	SH3 domain binding	10	1	0.05	28	0.0488	0.0488	Molecular Function
+GO:0031072	heat shock protein binding	10	1	0.05	30	0.0488	0.0488	Molecular Function
+GO:0071942	XPC complex	1	1	0.01	1	0.0053	0.0053	Cellular Component
+GO:0000111	nucleotide-excision repair factor 2 comp...	1	1	0.01	2	0.0053	0.0053	Cellular Component
+GO:0005739	mitochondrion	509	7	2.72	3	0.0144	0.0144	Cellular Component
+GO:0071011	precatalytic spliceosome	3	1	0.02	4	0.0159	0.0159	Cellular Component
+GO:0033061	DNA recombinase mediator complex	3	1	0.02	5	0.0159	0.0159	Cellular Component
+GO:0033063	Rad51B-Rad51C-Rad51D-XRCC2 complex	3	1	0.02	6	0.0159	0.0159	Cellular Component
+GO:0031235	intrinsic component of the cytoplasmic s...	4	1	0.02	7	0.0212	0.0212	Cellular Component
+GO:0030678	mitochondrial ribonuclease P complex	4	1	0.02	9	0.0212	0.0212	Cellular Component
+GO:0045263	proton-transporting ATP synthase complex...	7	1	0.04	10	0.0368	0.0368	Cellular Component
+GO:0032783	super elongation complex	7	1	0.04	11	0.0368	0.0368	Cellular Component
+GO:0000276	mitochondrial proton-transporting ATP sy...	7	1	0.04	12	0.0368	0.0368	Cellular Component
+GO:0030127	COPII vesicle coat	7	1	0.04	13	0.0368	0.0368	Cellular Component
+GO:0070971	endoplasmic reticulum exit site	7	1	0.04	14	0.0368	0.0368	Cellular Component
+GO:0030677	ribonuclease P complex	9	1	0.05	15	0.0471	0.0471	Cellular Component
