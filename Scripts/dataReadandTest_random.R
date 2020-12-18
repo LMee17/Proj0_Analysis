@@ -69,11 +69,25 @@ for (i in 1:length(data)){
 }
 
 
+###Remove non-coding elements
+
+ran.nc <- read.table("../../Genome_Misc/Random_noncoding_list.txt")
+gene<-strsplit(as.character(ran.nc$V1),".",fixed = T)
+ran.nc$Gene<-sapply(gene,"[",1)
+ran.nc$V1 <- NULL
+ran.nc$Gene <- as.factor(ran.nc$Gene)
+
+for (i in 1:length(data)){
+  data[[i]]$Gene <- as.factor(data[[i]]$Gene)
+  data[[i]] <- data[[i]][!data[[i]]$Gene %in% ran.nc$Gene,]
+}
+
+
 ##Write Up
 
 data.ran <- bind_rows(data)
 
 
-setwd("../../")
+setwd("~/Documents/Projects/ProjectZero/Proj0_Analysis/")
 write.table(data.ran, "output/CodeML_RandomResults_All.tsv", sep = "\t", row.names = F, 
             quote = F)

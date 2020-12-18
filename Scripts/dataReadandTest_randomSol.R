@@ -68,6 +68,20 @@ for (i in 1:length(data.sol)){
 }
 
 
+###Remove non-coding elements
+
+ran.nc <- read.table("../../../Genome_Misc/Random_noncoding_list.txt")
+gene<-strsplit(as.character(ran.nc$V1),".",fixed = T)
+ran.nc$Gene<-sapply(gene,"[",1)
+ran.nc$V1 <- NULL
+ran.nc$Gene <- as.factor(ran.nc$Gene)
+
+for (i in 1:length(data.sol)){
+  data.sol[[i]]$Gene <- as.factor(data.sol[[i]]$Gene)
+  data.sol[[i]] <- data.sol[[i]][!data.sol[[i]]$Gene %in% ran.nc$Gene,]
+}
+
+
 ##Write Up
 
 data.sol.ran <- bind_rows(data.sol)
