@@ -21,18 +21,17 @@ for (i in 1:length(branches)){
                            data.complete$Class == paste(class),]
     two <- one[one$adj_pvalue < 0.051,]
     three <- merge(two, iso.verse, by = "Gene")
-    three <- as.data.frame(three$Resolved_Isoform)
+    four <- as.data.frame(three$Resolved_Isoform)
     check <- nrow(two) == nrow(three)
     if (check == FALSE) {
       miss <- as.data.frame(two$Gene[!two$Gene %in% three$Gene])
-      miss.file <- paste(soc, class, "missinggene_G0analysis.txt", sep=".")
+      miss.file <- paste(soc, class, "missinggene_GOanalysis.txt", sep=".")
       write.table(miss, file = paste("output/GO_missingGenes/", miss.file, sep = ""),
                   col.names = F, row.names = F, quote = F)
     } 
     filename <- paste(soc, class,sep = "_")
-    write.table(three, file = paste("input/GOI/", filename, ".txt", sep=""), 
+    write.table(four, file = paste("input/GOI/", filename, ".txt", sep=""), 
                 col.names = F, row.names = F, quote = F)
   }
 }
-
 

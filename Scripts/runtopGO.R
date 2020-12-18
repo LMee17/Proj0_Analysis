@@ -112,17 +112,12 @@ MF.craft <- function(x){
 
 mf.list <- as.list(lapply(go.data, MF.craft))
 
-for (i in 1:length(filelist)){
-  nombre[i] <- getname(filelist[i])  
-}
-nombre
-
-
 
 #for (i in 1:length(mf.list)){
 #  filename <- paste(getname(filelist[i]), "_GOterms_MF.tsv", sep="")
 #  write.table(mf.list[[i]], filename, col.names = T, row.names = F, sep = "\t", quote = F)
 #}
+
 setwd("~/Documents/Projects/ProjectZero/Proj0_Analysis/")
 
 for (i in 1:length(go.data)){
@@ -136,4 +131,4 @@ for (i in 1:length(go.data)){
 }
 
 
-#setwd("../../")
+
