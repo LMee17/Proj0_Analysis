@@ -45,6 +45,28 @@ source("Scripts/dataRead_immunitySol.R", local = knitr::knit_global())
 head(data.sol[[2]])
 ```
 
+###Remove Non-coding Elements
+
+There are some codon alignments (noncanon) in the midst that were based on non-coding transcripts. For the purposes of stringency I will be reomving these from the analysis.
+
+```{r}
+data.sol[[2]][grep("LOC100576660", data.sol[[2]]$Gene),]
+```
+
+
+The noncoding immune genes are stored in the item imm.nc
+
+```{r}
+
+for (i in 1:length(data.sol)){
+  data.sol[[i]]$Gene <- as.factor(data.sol[[i]]$Gene)
+  data.sol[[i]] <- data.sol[[i]][!data.sol[[i]]$Gene %in% imm.nc$Gene,]
+}
+
+
+data.sol[[2]][grep("LOC100576660", data.sol[[2]]$Gene),]
+```
+
 ####Tests of significance
 
 SigTestSol.R uses the LRT scores and a Chi square distribution (one-tailed, one degree of freedom) to produce pvalues. Pvalues below 0.05 are considered significant (before correction for multiple testing).
@@ -89,6 +111,7 @@ source("Scripts/dataReadandTest_randomSol.R", local = knitr::knit_global())
 ```{r}
 head(data.sol[[4]])
 ```
+
 
 #### Compare Immunity and Random
 
@@ -180,26 +203,24 @@ See my original notes for more.
 The script has been written so that 100,000 iterations x social origin x class of gene (canon / noncanon) iterations will take place, with results being stored in boot.results. Off to make a cup of tea.
 
 ```{r}
-#source("Scripts/bootstrapSol.R", local = knitr::knit_global())
+source("Scripts/bootstrapSol.R", local = knitr::knit_global())
 ```
 
 ```{r}
-#boot.sol.results
+boot.sol.results
 ```
 
 12th Dec - Mac shut down unexpectedly and I lost the project environment. I do not want to run this again for an hour so I will populate the object with the results from the last run.
 
 ```{r}
-boot.sol.results <- read.table("output/Sol_BootStrapResults.tsv", header = T)
-boot.sol.results
+#boot.sol.results <- read.table("output/Sol_BootStrapResults.tsv", header = T)
+#boot.sol.results
 ```
 
 
 
-
-
 ```{r}
-#write.table(boot.sol.results, "output/Sol_BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
+write.table(boot.sol.results, "output/Sol_BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
 ```
 
 
