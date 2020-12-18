@@ -231,58 +231,6 @@ iso.verse <- read.table("Genome_Misc/AmelHAv3.1_filtered.checked.faa.table", hea
 head(iso.verse)
 ```
 
-Looking at this has highlighted an issue - there's a number of alignments in here which come from non-coding transcripts orginally. At the very least I need to be able to highlight them or else remove them entirely. 
-
-This is more important for the immune stuff so I'll look at that first.
-
-```{r}
-imm.nc <- read.table("Genome_Misc/ImmRun_noncoding_list.txt", header = F)
-imm.nc
-```
-
-```{r}
-gene<-strsplit(as.character(imm.nc$V1),".",fixed = T)
-imm.nc$Gene<-sapply(gene,"[",1)
-imm.nc$V1 <- NULL
-imm.nc$Gene <- as.factor(imm.nc$Gene)
-nrow(imm.nc)
-```
-
-So 13 genes were input. They're all non-canon
-
-```{r}
-nrow(undersel.all[undersel.all$Gene %in% imm.nc$Gene,])
-undersel.all[undersel.all$Gene %in% imm.nc$Gene,]
-```
-
-8 of them were considered showing signs of a longterm shift in selection
-
-```{r}
-undersel.all[undersel.all$Gene %in% imm.nc$Gene,]
-```
-
-And again for the random genes
-
-```{r}
-ran.nc <- read.table("Genome_Misc/Random_noncoding_list.txt", header = F)
-gene<-strsplit(as.character(ran.nc$V1),".",fixed = T)
-ran.nc$Gene<-sapply(gene,"[",1)
-ran.nc$V1 <- NULL
-ran.nc$Gene <- as.factor(ran.nc$Gene)
-nrow(ran.nc)
-```
-
-107 were analysed
-
-```{r}
-nrow(undersel.all[undersel$Gene %in% ran.nc$Gene,])
-```
-
-71 came back as under selection ? 
-
-I want to remove these but I'll wait for Seth's input.
-
-Anyway, back to making the lists for GO analysis ...
 
 ```{r}
 source("Scripts/genGeneList2.R", local = knitr::knit_global())
@@ -296,7 +244,7 @@ I had previously produced a GOverse file to use with topGO using the script genG
 runtopGO.R produces many results files. For each lineage/class combination (and the canon and noncanon input lists) there will be one table written that has all three GO term classes included.
 
 ```{r}
-#source("Scripts/runtopGO.R"), local = knitr::knit_global()
+source("Scripts/runtopGO.R"), local = knitr::knit_global()
 ```
 
 ###GO Comparisons
