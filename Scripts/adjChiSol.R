@@ -60,5 +60,5 @@ chi.sol.adj.results <- cbind(Test, chi.sol.adj.results)
 
 #Write up
 
-write.table(chi.sol.adj.results, "output/ChiSqTestbyOrigin_adjustedpvalues.tsv", 
+write.table(chi.sol.adj.results, "output/ChiSqTestbyOrigin_Sol_adjustedpvalues.tsv", 
             sep="\t", quote=F, row.names=F)

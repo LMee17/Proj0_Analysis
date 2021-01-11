@@ -98,7 +98,7 @@ for (i in 1:length(data)){
 }
 
 
-data[[2]][grep("LOC113218526", data[[2]]$Gene),]
+data[[3]][grep("LOC113218526", data[[3]]$Gene),]
 ```
 
 
@@ -224,52 +224,11 @@ source("Scripts/adjChi.R", local = knitr::knit_global())
 chi.adj.results
 ```
 
+
+
 In terms of significant relationships, I think this is a no.
 
-###Bootstrapping Approach
-
-Bootstrapping is a resampling technique to estimate statistics on a population by sampling a dataset with replacement.
-
-A useful feature of the bootstrap method is that the resulting sample of estimations often forms a Gaussian distribution. In additional to summarizing this distribution with a central tendency, measures of variance can be given, such as standard deviation and standard error. Further, a confidence interval can be calculated and used to bound the presented estimate. This is useful when presenting the estimated skill of a machine learning model. (https://machinelearningmastery.com/a-gentle-introduction-to-the-bootstrap-method/)
-
-Sample Size - use a sample size that is the same size as the original dataset. For my purposes, this will be the number of genes under selection (all classes) per origin of sociality tested. The statistic I'm looking for is the number of genes from each class that are then found in each randomly selected dataset. 
-
-i.e. using the CorbSoc origin of sociality ...
-
-```{r}
-test <- data[["CorbSoc"]]
-nrow(test[test$adj_pvalue < 0.05,])
-```
-
-This means I would be making a "population" of all the genes that were tested (this will be very slightly different for each origin of sociality as some branch site analyses for some genes failed in some origins that worked in others, etc) and then sampling 12 genes at random. The number of canon or noncanon genes will be returned, before the genes are replaced and sampling occurs again, x100,000.
-
-From this I should get a distribution with other descriptive statistics including confidence intervals, against which I can then say whether the number of genes of each class under selection differ from what can be expected by chance (by random sampling).
-
-The script has been written so that 100,000 iterations x social origin x class of gene (canon / noncanon) iterations will take place, with results being stored in boot.results. Off to make a cup of tea.
-
-```{r}
-source("Scripts/bootstrap.R", local = knitr::knit_global())
-```
-
-```{r}
-boot.results
-```
-
-If there are any issues (as there has been as of now, 12th December, where my laptop shut down unexpectedly and I lost all environment objects), it is not feasible to run this again. Instead I will read in boot.results from the results file already produced.
-
-```{r}
-#boot.results <- read.table("output/BootStrapResults.tsv", header = T)
-#boot.results
-```
-
-
-So, as in the case of the Fisher's test and the Chisq simulated tests, there appears to be no significant relationship between the fact that genes either are or are suspected to be functionally immune and the number of said genes being under selection. The number of genes found to be under selection is no more or less than what you'd expect by chance, as seen after 100000 random sampling iterations.
-
-That took a full 2 hrs to run (tbf it was 18 million iterations in total) and so I need to have this saved asap.
-
-```{r}
-write.table(boot.results, "output/BootStrapResults.tsv", row.names = F, quote = F, sep = "\t")
-```
+See Bootstrap.rmd for Bootstrap approach.
 
 ##Evolutionary Rate
 
