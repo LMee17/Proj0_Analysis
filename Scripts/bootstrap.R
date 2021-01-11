@@ -24,7 +24,7 @@ can.sel <- function(x){
   no <- nrow(x[x$adj_pvalue < 0.05,])
   can <- droplevels(x$Gene[x$Class == "Canon"])
   bite <- sample(pop, size=no,replace=T)
-  hit.can <- sum(as.integer(can %in% bite))
+  hit.can <- sum(as.numeric(can %in% bite))
   return(hit.can)
 }
 
@@ -62,8 +62,8 @@ can.assess <- function(x,y){
   soc <- droplevels(x$SocOrigin[!duplicated(x$SocOrigin)])
   can.data <- nrow(subset(x, adj_pvalue < 0.05 & Class == "Canon"))
   class <- "Canon"
-  low <- as.integer(quantile(out, probs=0.025))
-  high <- as.integer(quantile(out, probs=0.975))
+  low <- as.numeric(quantile(out, probs=0.025))
+  high <- as.numeric(quantile(out, probs=0.975))
   echo <- sum(out==can.data)/y
   check1 <- mu < low
   check2 <- mu > high
@@ -85,7 +85,7 @@ non.sel <- function(x){
   no <- nrow(x[x$adj_pvalue < 0.05,])
   can <- droplevels(x$Gene[x$Class == "NonCanon"])
   bite <- sample(pop, size=no,replace=T)
-  hit.non <- sum(as.integer(can %in% bite))
+  hit.non <- sum(as.numeric(can %in% bite))
   return(hit.non)
 }
 
@@ -96,8 +96,8 @@ non.assess <- function(x,y){
   soc <- droplevels(x$SocOrigin[!duplicated(x$SocOrigin)])
   non.data <- nrow(subset(x, adj_pvalue < 0.05 & Class == "NonCanon"))
   class <- "NonCanon"
-  low <- as.integer(quantile(out, probs=0.025))
-  high <- as.integer(quantile(out, probs=0.975))
+  low <- as.numeric(quantile(out, probs=0.025))
+  high <- as.numeric(quantile(out, probs=0.975))
   echo <- sum(out==non.data)/y
   check1 <- mu < low
   check2 <- mu > high
