@@ -123,6 +123,7 @@ nrow(undersel.all.can)
 
 ```{r}
 head(undersel.all.can)
+undersel.all.can[undersel.all.can$Gene == "Dl",]
 ```
 
 
@@ -139,6 +140,12 @@ head(imm.fun)
 undersel.all.can <- merge(undersel.all.can, imm.fun, by = "Gene")
 head(undersel.all.can)
 ```
+
+```{r}
+undersel.all.can[undersel.all.can$count > 1,]
+```
+
+
 
 ```{r}
 summary(as.factor(undersel.all.can$Function))
@@ -232,7 +239,7 @@ head(iso.verse)
 ```
 
 
-```{r}
+```{r} 
 source("Scripts/genGeneList2.R", local = knitr::knit_global())
 ```
 
@@ -244,14 +251,8 @@ I had previously produced a GOverse file to use with topGO using the script genG
 runtopGO.R produces many results files. For each lineage/class combination (and the canon and noncanon input lists) there will be one table written that has all three GO term classes included.
 
 ```{r}
-source("Scripts/runtopGO.R"), local = knitr::knit_global()
+source("Scripts/runtopGO.R", local = knitr::knit_global())
 ```
 
-###GO Comparisons
 
-####Canon versus Noncanon (input)
-
-####Apidae Socialities
-
-###Halictidae
 
