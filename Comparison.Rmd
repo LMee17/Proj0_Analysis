@@ -7,7 +7,7 @@ output: html_notebook
 
 Each lineage has been tested for differences between number of genes under selection using ChiSq contingency tables. These comparisons were pairwise comparisons and as such may need to be corrected for multiple testing - but as mostly they were insignificant I'll worry about that later.
 
-In order to test proprtions between lineages I'm going to test them simultaneously using r's 'prop.test' function. I can't find much on what test it actually runs, but it seems that it uses Pearson's Chisq, but without pairwise comparisons. 
+In order to test proportions between lineages I'm going to test them simultaneously using r's 'prop.test' function. I can't find much on what test it actually runs, but it seems that it uses Pearson's Chisq, but without pairwise comparisons. 
 
 To get this to work I'm going to compare AllSol, AllComplex and AllOrigins. These will be rownames, with genes as column headers. If that gene was found to be under selection after adjusted pvalues in that codeml run, it will be coded wih a 1. If it was not under selection after adjusted pvalues then the value entered will be 0.
 
@@ -19,10 +19,16 @@ allori <- data[[2]]
 allcom <- data[[1]]
 ```
 
-AllComplex and AllOrigin have have 28 more genes in their dataframes than AllSol. I hope this is down to duplications.
+AllSol has 5 more genes than AllOri and AllCom .... 
 
 ```{r}
-nrow(allcom[!duplicated(allcom$Gene),])
+miss <- allsol$Gene[!allsol$Gene %in% allori$Gene]
+miss
+```
+
+
+```{r}
+nrow(allcom[!duplicated(allsol$Gene),])
 ```
 
 That looks better
@@ -33,13 +39,13 @@ allcom <- allcom[!duplicated(allcom$Gene),]
 allori <- allori[!duplicated(allori$Gene),]
 ```
 
-Ok now they're all 6109, hopefully all the same.
+Ok now they're all 5989, hopefully all the same.
 
 Put in a list to make it easier to play with
 
 ```{r}
 all.list <- list(allsol, allori, allcom)
-head(all.list[[2]])
+head(all.list[[3]])
 ```
 
 1 = AllSol
@@ -47,6 +53,8 @@ head(all.list[[2]])
 2 = AllOri
 
 3 = AllCom
+
+I now will iterate through the different SocOrigins and for each row an ifelse function will code either a 0 or 1 depending on whether that gene is under selection or not. Each row will also have a 1 in the Total column for counting reasons.
 
 ```{r}
 all.vect <- c("AllSol", "AllOrigin", "AllComplex")
@@ -62,14 +70,16 @@ head(all.list[[3]])
 To check they're still in the same order, I'll compare the number of genes under selection between allcom and all.list[[2]]
 
 ```{r}
-nrow(allcom[allcom$adj_pvalue < 0.051,]) == nrow(all.list2[[2]][all.list2[[2]]$Selection == 1,])
+nrow(allcom[allcom$adj_pvalue < 0.051,]) == nrow(all.list[[3]][all.list[[3]]$Selection == 1,])
 ```
 
 Make really sure
 
 ```{r}
-nrow(allsol[allsol$adj_pvalue < 0.051,]) == nrow(all.list2[[1]][all.list2[[1]]$Selection == 1,])
+nrow(allsol[allsol$adj_pvalue < 0.051,]) == nrow(all.list[[1]][all.list[[1]]$Selection == 1,])
 ```
+
+Make a table of genes not under selection versus those under selection per lineage.
 
 ```{r}
 all.combined <- bind_rows(all.list)
@@ -79,13 +89,16 @@ table(all.combined$SocOrigin, all.combined$Selection)
 
 ##Canon
 
+Looking just at canon genes ....
+
+Put into a table of Not Under Selection versus Under Selection per lineage test
 
 ```{r}
 all.can <- all.combined[all.combined$Class == "Canon",]
 table(all.can$SocOrigin, all.can$Selection)
 ```
 
-
+Store those under selection
 
 ```{r}
 can.pos <- tapply(as.integer(all.can$Selection), all.can$SocOrigin, sum)
@@ -104,6 +117,19 @@ prop.test(can.pos, can.tot)
 ```
 
 Didn't see that coming. Moving on.
+
+As some of these numbers are very small, it may be worth revisiting Fisher's exact test.
+
+```{r}
+can.test <- rbind(can.pos, can.tot)
+rownames(can.test) <- c("UnderSel", "NoSelection")
+can.test
+```
+
+```{r}
+fisher.test(can.test)
+```
+
 
 ##NonCanon
 
@@ -132,6 +158,18 @@ prop.test(non.pos, non.tot)
 ```
 
 Didn't see that coming. Moving on.
+
+Fisher's
+
+```{r}
+non.test <- rbind(non.pos, non.tot)
+rownames(non.test) <- c("UnderSel", "NoSelection")
+non.test
+```
+
+```{r}
+fisher.test(non.test)
+```
 
 ##Random
 
@@ -170,6 +208,8 @@ all.combined$Sociality[all.combined$SocOrigin == "AllComplex"] <- 3
 head(all.combined)
 ```
 
+Pull out jut random genes from all.combined object, make a table of under selection versus not under selection per sociality of the lineage tested.
+
 ```{r}
 all.ran2 <- all.combined[all.combined$Class == "Random",]
 table(all.ran2$Sociality, all.ran$Selection)
@@ -195,7 +235,20 @@ plot(ran2.pos, xlab = "Sociality", ylab = "Number of Random Genes under Selectio
 ```
 
 
+With increased sociality there is more selection occurring in the background genes.
+Which is to be expected after all . . . 
 
 
+Just for completeness, I will also run a Fisher's test on these proportions. However, with the large counts in the NoSelection categories I do not think they are appropriate.
 
+```{r}
+ran.test <- rbind(ran.pos, ran.tot)
+rownames(ran.test) <- c("UnderSel", "NoSelection")
+ran.test
+```
 
+```{r}
+fisher.test(ran.test)
+```
+
+Also significant.
