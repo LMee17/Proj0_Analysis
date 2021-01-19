@@ -1,0 +1,31 @@
+---
+title: "UpSetR_Workbook"
+output: html_notebook
+---
+
+#Comparisons
+
+Now that I have GO terms and genes under selection, its prudent to compare. Let's see what upsetR is saying.
+
+```{r}
+install.packages("UpSetR")
+library("UpSetR")
+```
+
+I've written a script that does everything I need here.
+
+1. Makes tables of GOterms based on absence / presence (1/0) in each lineage/sociality
+
+2. Makes master tables and separate immune / random only tables
+
+3. Write these tables in an output folder 
+
+```{r}
+source("Scripts/makeUpsetR.R", local = knitr::knit_global())
+```
+
+##Canon versus Noncanon (input)
+
+##Apidae Socialities
+
+##Halictidae 
