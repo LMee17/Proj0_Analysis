@@ -221,3 +221,5 @@ write.table(soc.imm.terms, "output/upsetr_tables/AllSocialities_Immune_goUpSetR.
 #All Socialities, random
 write.table(soc.ran.terms, "output/upsetr_tables/AllSocialities_Random_goUpSetR.tsv",
             sep = "\t", quote = F, row.names = F)
+
+
