@@ -60,7 +60,7 @@ I now will iterate through the different SocOrigins and for each row an ifelse f
 all.vect <- c("AllSol", "AllOrigin", "AllComplex")
 
 for (i in 1:length(all.list)){
-  all.list[[i]]$Selection <- ifelse(all.list[[i]]$adj_pvalue < 0.051, paste(1), paste(0))
+  all.list[[i]]$Selection <- ifelse(all.list[[i]]$adj_pvalue < 0.05, paste(1), paste(0))
   all.list[[i]]$Tot <- paste(1)
 }
 
@@ -252,3 +252,290 @@ fisher.test(ran.test)
 ```
 
 Also significant.
+
+
+#All Lineages
+
+Let's start with everything combined, including the all runs.
+
+```{r}
+solitary <- c("AllSol", "Habro", "Nova", 'Mega')
+social <- c("AllOrigin", "CorbSoc", "Halictid", "Xylo")
+complex <- c("AllComplex", "Apis", "Meli")
+
+soc <- c(solitary, social, complex)
+```
+
+Let's do this. Function time.
+
+x = sociality, y = class
+
+```{r}
+count.craft <- function(x, y){
+  pos <- data.complete$Gene[data.complete$SocOrigin %in% x 
+                               & data.complete$Class == paste(y)
+                                & data.complete$adj_pvalue < 0.05]
+  pos <- pos[!duplicated(pos)]
+  no <- data.complete$Gene[data.complete$SocOrigin %in% x
+                                 & data.complete$Class == paste(y)
+                                 & !data.complete$Gene %in% pos]
+  no <- no[!duplicated(no)]
+  top <- c("undersel", "not undersel")
+  bottom <- c(length(pos), length(no))
+  fin <- rbind(top, bottom)
+  rownames(fin) <- NULL
+  colnames(fin) <- fin[1,]
+  fin <- fin[-1,]
+  return(fin)
+}
+
+sol.can <- count.craft(solitary, "Canon")
+soc.can <- count.craft(social, "Canon")
+com.can <- count.craft(complex, "Canon")
+
+can.count <- rbind(sol.can, soc.can, com.can)
+can.count <- as.data.frame(can.count)
+
+sol.non <- count.craft(solitary, "NonCanon")
+soc.non <- count.craft(social, "NonCanon")
+com.non <- count.craft(complex, "NonCanon")
+
+non.count <- rbind (sol.non, soc.non, com.non)
+non.count <- as.data.frame(non.count)
+
+sol.ran <- count.craft(solitary, "Random")
+soc.ran <- count.craft(social, "Random")
+com.ran <- count.craft(complex, "Random")
+
+ran.count <- rbind(sol.ran, soc.ran, com.ran)
+ran.count <- as.data.frame(ran.count)
+```
+
+```{r}
+can.pos.3 <- as.numeric(can.count$undersel)
+can.tot.3 <- as.numeric(can.count$`not undersel`)
+prop.test(can.pos.3, can.tot.3)
+```
+
+```{r}
+prop.trend.test(can.pos.3, can.tot.3)
+```
+
+Significantly different with a potential trend. Double check with some Fisher
+
+```{r}
+can.test2 <- cbind(can.pos.3, can.tot.3)
+
+colnames(can.test2) <- c("UnderSel", "NotUnderSel")
+can.test2
+```
+
+```{r}
+fisher.test(can.test2)
+```
+
+Still significant. 
+A significant difference between socialities and number of canon genes under selection, with a trend leaning towards more social = more genes under selection.
+
+NONCANON
+
+```{r}
+non.pos.3 <- as.numeric(non.count$undersel)
+non.tot.3 <- as.numeric(non.count$`not undersel`)
+prop.test(non.pos.3, non.tot.3)
+```
+
+Again, significant difference between different socialities and number of noncanon genes under selection.
+
+```{r}
+prop.trend.test(non.pos.3, non.tot.3)
+```
+
+Highly significant trend = increased sociality, increased number of genes under selection
+
+Double check.
+
+```{r}
+non.test2 <- cbind(non.pos.3, non.tot.3)
+
+colnames(non.test2) <- c("UnderSel", "NotUnderSel")
+non.test2
+```
+
+```{r}
+fisher.test(non.test2)
+```
+
+RANDOM
+
+```{r}
+ran.pos.3 <- as.numeric(ran.count$undersel)
+ran.tot.3 <- as.numeric(ran.count$`not undersel`)
+prop.test(ran.pos.3, ran.tot.3)
+```
+
+Again, significant difference between different socialities and number of random genes under selection.
+
+```{r}
+prop.trend.test(ran.pos.3, ran.tot.3)
+```
+
+Highly significant trend = increased sociality, increased number of genes under selection
+
+Double check.
+
+```{r}
+ran.test2 <- cbind(ran.pos.3, ran.tot.3)
+
+colnames(ran.test2) <- c("UnderSel", "NotUnderSel")
+ran.test2
+```
+
+Fisher test ... even though its not appropriate in this case as we have some counts over 1000.
+
+```{r}
+fisher.test(non.test2)
+```
+
+Without Melipona ?? 
+
+I'm going to repeat that entire thing but remove Melipona and see how much of a difference it makes, just so I know.
+
+```{r}
+solitary <- c("Habro", "Nova", 'Mega')
+social <- c("CorbSoc", "Halictid", "Xylo")
+complex <- c("Apis")
+```
+
+Let's do this. Function time.
+
+x = sociality, y = class
+
+```{r}
+count.craft <- function(x, y){
+  pos <- data.complete$Gene[data.complete$SocOrigin %in% x 
+                               & data.complete$Class == paste(y)
+                                & data.complete$adj_pvalue < 0.05]
+  pos <- pos[!duplicated(pos)]
+  no <- data.complete$Gene[data.complete$SocOrigin %in% x
+                                 & data.complete$Class == paste(y)
+                                 & !data.complete$Gene %in% pos]
+  no <- no[!duplicated(no)]
+  top <- c("undersel", "not undersel")
+  bottom <- c(length(pos), length(no))
+  fin <- rbind(top, bottom)
+  rownames(fin) <- NULL
+  colnames(fin) <- fin[1,]
+  fin <- fin[-1,]
+  return(fin)
+}
+
+sol.can <- count.craft(solitary, "Canon")
+soc.can <- count.craft(social, "Canon")
+com.can <- count.craft(complex, "Canon")
+
+can.count <- rbind(sol.can, soc.can, com.can)
+can.count <- as.data.frame(can.count)
+
+sol.non <- count.craft(solitary, "NonCanon")
+soc.non <- count.craft(social, "NonCanon")
+com.non <- count.craft(complex, "NonCanon")
+
+non.count <- rbind (sol.non, soc.non, com.non)
+non.count <- as.data.frame(non.count)
+
+sol.ran <- count.craft(solitary, "Random")
+soc.ran <- count.craft(social, "Random")
+com.ran <- count.craft(complex, "Random")
+
+ran.count <- rbind(sol.ran, soc.ran, com.ran)
+ran.count <- as.data.frame(ran.count)
+```
+
+```{r}
+can.pos.3 <- as.numeric(can.count$undersel)
+can.tot.3 <- as.numeric(can.count$`not undersel`)
+prop.test(can.pos.3, can.tot.3)
+```
+
+```{r}
+prop.trend.test(can.pos.3, can.tot.3)
+```
+
+Significantly different with a potential trend. Double check with some Fisher
+
+```{r}
+can.test2 <- cbind(can.pos.3, can.tot.3)
+
+colnames(can.test2) <- c("UnderSel", "NotUnderSel")
+can.test2
+```
+
+```{r}
+fisher.test(can.test2)
+```
+
+Still significant. 
+A significant difference between socialities and number of canon genes under selection, with a trend leaning towards more solitary = more genes under selection.
+
+So reverse in what I've seen before.
+
+NONCANON
+
+```{r}
+non.pos.3 <- as.numeric(non.count$undersel)
+non.tot.3 <- as.numeric(non.count$`not undersel`)
+prop.test(non.pos.3, non.tot.3)
+```
+
+Again, significant difference between different socialities and number of noncanon genes under selection.
+
+```{r}
+prop.trend.test(non.pos.3, non.tot.3)
+```
+
+Highly significant trend = decreased sociality, increased number of genes under selection
+
+Double check.
+
+```{r}
+non.test2 <- cbind(non.pos.3, non.tot.3)
+
+colnames(non.test2) <- c("UnderSel", "NotUnderSel")
+non.test2
+```
+
+```{r}
+fisher.test(non.test2)
+```
+
+RANDOM
+
+```{r}
+ran.pos.3 <- as.numeric(ran.count$undersel)
+ran.tot.3 <- as.numeric(ran.count$`not undersel`)
+prop.test(ran.pos.3, ran.tot.3)
+```
+
+Again, significant difference between different socialities and number of random genes under selection.
+
+```{r}
+prop.trend.test(ran.pos.3, ran.tot.3)
+```
+
+Highly significant trend = decreased sociality, increased number of genes under selection
+
+Double check.
+
+```{r}
+ran.test2 <- cbind(ran.pos.3, ran.tot.3)
+
+colnames(ran.test2) <- c("UnderSel", "NotUnderSel")
+ran.test2
+```
+
+Fisher test ... even though its not appropriate in this case as we have some counts over 1000.
+
+```{r}
+fisher.test(non.test2)
+```
