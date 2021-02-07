@@ -271,3 +271,298 @@ ggboxplot(omega, x = "Class", y = "dN.dS",
           ylab = "Omega", xlab = "Gene Class")
 #omega_colourScatterplot.png
 ######Venn Diagram####
+
+#Let's make a Venn diagram of overlapping genes under positive selection via phylogenetic
+#family
+
+#CANON
+
+Apidae <- c("Apis", "Habro", "Meli", "CorbSoc", "Xylo")
+Megachilidae <- "Mega"
+Halictidae <- c("Halictid", "Nova")
+
+api.can.gene <- data.complete$Gene[data.complete$SocOrigin %in% Apidae
+                               & data.complete$Class == "Canon"
+                               & data.complete$adj_pvalue < 0.05]
+api.can.gene <- api.can.gene[!duplicated(api.can.gene)]
+
+meg.can.gene <- data.complete$Gene[data.complete$SocOrigin %in% Megachilidae
+                                   & data.complete$Class == "Canon"
+                                   & data.complete$adj_pvalue < 0.05]
+meg.can.gene <- meg.can.gene[!duplicated(meg.can.gene)]
+
+hal.can.gene <- data.complete$Gene[data.complete$SocOrigin %in% Halictidae
+                                   & data.complete$Class == "Canon"
+                                   & data.complete$adj_pvalue < 0.05]
+hal.can.gene <- hal.can.gene[!duplicated(hal.can.gene)]
+
+install.packages("VennDiagram")
+library("VennDiagram")
+
+require("RColorBrewer")
+scheme <- brewer.pal(3, "Dark2")
+
+venn.diagram(x <- list(api.can.gene, meg.can.gene, hal.can.gene),
+             category.names = c("Apidae", "Megachilidae", "Halictidae"),
+             filename = "Plots/can_by_family_Venn.png", 
+             output = T,
+             imagetype = "png",
+             lwd = 2, lty = "blank", fill = scheme,
+             cex = .6, fontface = "bold", fontfamily = "sans",
+             cat.cex = 0.6, cat.fontface = "bold", cat.default.pos = "outer")
+
+#NONCANON
+
+api.non.gene <- data.complete$Gene[data.complete$SocOrigin %in% Apidae
+                                   & data.complete$Class == "NonCanon"
+                                   & data.complete$adj_pvalue < 0.05]
+api.non.gene <- api.non.gene[!duplicated(api.non.gene)]
+
+meg.non.gene <- data.complete$Gene[data.complete$SocOrigin %in% Megachilidae
+                                   & data.complete$Class == "NonCanon"
+                                   & data.complete$adj_pvalue < 0.05]
+meg.non.gene <- meg.non.gene[!duplicated(meg.non.gene)]
+
+hal.non.gene <- data.complete$Gene[data.complete$SocOrigin %in% Halictidae
+                                   & data.complete$Class == "NonCanon"
+                                   & data.complete$adj_pvalue < 0.05]
+hal.non.gene <- hal.non.gene[!duplicated(hal.non.gene)]
+
+venn.diagram(x <- list(api.non.gene, meg.non.gene, hal.non.gene),
+             category.names = c("Apidae", "Megachilidae", "Halictidae"),
+             filename = "Plots/noncan_by_family_Venn.png", 
+             output = T,
+             imagetype = "png",
+             lwd = 2, lty = "blank", fill = scheme,
+             cex = .6, fontface = "bold", fontfamily = "sans",
+             cat.cex = 0.6, cat.fontface = "bold", cat.default.pos = "outer")
+
+#RANDOM
+
+api.ran.gene <- data.complete$Gene[data.complete$SocOrigin %in% Apidae
+                                   & data.complete$Class == "Random"
+                                   & data.complete$adj_pvalue < 0.05]
+api.ran.gene <- api.ran.gene[!duplicated(api.ran.gene)]
+
+meg.ran.gene <- data.complete$Gene[data.complete$SocOrigin %in% Megachilidae
+                                   & data.complete$Class == "Random"
+                                   & data.complete$adj_pvalue < 0.05]
+meg.ran.gene <- meg.ran.gene[!duplicated(meg.ran.gene)]
+
+hal.ran.gene <- data.complete$Gene[data.complete$SocOrigin %in% Halictidae
+                                   & data.complete$Class == "Random"
+                                   & data.complete$adj_pvalue < 0.05]
+hal.ran.gene <- hal.ran.gene[!duplicated(hal.ran.gene)]
+
+
+venn.diagram(x <- list(api.ran.gene, meg.ran.gene, hal.ran.gene),
+             category.names = c("Apidae", "Megachilidae", "Halictidae"),
+             filename = "Plots/random_by_family_Venn.png", 
+             output = T,
+             imagetype = "png",
+             lwd = 2, lty = "blank", fill = scheme,
+             cex = .6, fontface = "bold", fontfamily = "sans",
+             cat.cex = 0.6, cat.fontface = "bold", cat.default.pos = "outer")
+
+#For shits and gigs, all of them together
+
+api.all.gene <- data.complete$Gene[data.complete$SocOrigin %in% Apidae
+                                   & data.complete$adj_pvalue < 0.05]
+api.all.gene <- api.all.gene[!duplicated(api.all.gene)]
+
+meg.all.gene <- data.complete$Gene[data.complete$SocOrigin %in% Megachilidae
+                                   & data.complete$adj_pvalue < 0.05]
+meg.all.gene <- meg.all.gene[!duplicated(meg.all.gene)]
+
+hal.all.gene <- data.complete$Gene[data.complete$SocOrigin %in% Halictidae
+                                   & data.complete$adj_pvalue < 0.05]
+hal.all.gene <- hal.all.gene[!duplicated(hal.all.gene)]
+
+
+venn.diagram(x <- list(api.all.gene, meg.all.gene, hal.all.gene),
+             category.names = c("Apidae", "Megachilidae", "Halictidae"),
+             filename = "Plots/all_by_family_Venn.png", 
+             output = T,
+             imagetype = "png",
+             lwd = 2, lty = "blank", fill = scheme,
+             cex = .6, fontface = "bold", fontfamily = "sans",
+             cat.cex = 0.6, cat.fontface = "bold", cat.default.pos = "outer")
+
+
+#####Stacked BarCharts GUS versus lineage / sociality#####
+soc <- data.complete$SocOrigin[!duplicated(data.complete$SocOrigin)]
+soc <- soc[c(-3,-6)] #remove epi runs
+soc
+
+canon <- vector(length = length(soc))
+noncanon <- vector(length = length(soc))
+random <- vector(length = length(soc))
+
+for (i in 1:length(soc)){
+  one <- nrow(data.complete[data.complete$SocOrigin == paste(soc[i])
+                            & data.complete$adj_pvalue < 0.05
+                            & data.complete$Class == "Canon",])
+  two <- nrow(data.complete[data.complete$SocOrigin == paste(soc[i])
+                            & data.complete$adj_pvalue < 0.05
+                            & data.complete$Class == "NonCanon",])
+  three <- nrow(data.complete[data.complete$SocOrigin == paste(soc[i])
+                              & data.complete$adj_pvalue < 0.05
+                              & data.complete$Class == "Random",])
+  canon[i] <- one
+  noncanon[i] <- two
+  random[i] <- three
+}
+
+chart.table <- rbind(canon, noncanon, random)
+colnames(chart.table) <- paste(soc)
+chart.table
+
+barplot(chart.table, col = colors()[c(23, 89, 12)],
+        border = "white", space = 0.04, xlab = "Lineage")
+
+#ok so that's gross let's not use it.
+#I'll do it again without the random genes.
+
+chart.table <- rbind(canon, noncanon)
+colnames(chart.table) <- paste(soc)
+chart.table
+
+barplot(chart.table, col = colors()[c(23, 89, 12)],
+        border = "white", space = 0.04, xlab = "Lineage")
+
+#Yeah ... this is just not worth doing 
+
+#####Sociality versus number of genes under selection####
+
+solitary <- c("AllSol", "Habro", "Mega", "Nova")
+social <- c("AllOrigin", "Halictid", "Xylo", "CorbSoc")
+complex <- c("AllComplex", "Meli", "Apis")
+
+plot.data <- cbind(as.character(soc),canon,noncanon,random)
+plot.data <- as.data.frame(plot.data)
+colnames(plot.data)[1] <- "Lineage"
+for (i in 2:ncol(plot.data)){
+  plot.data[,i] <- as.integer(plot.data[,i])
+}
+plot.data$Sociality[plot.data$Lineage %in% solitary] <- "Solitary"
+plot.data$Sociality[plot.data$Lineage %in% social] <- "Social"
+plot.data$Sociality[plot.data$Lineage %in% complex] <- "Advanced Eusocial"
+plot.data$Sociality2[plot.data$Lineage %in% solitary] <- 1
+plot.data$Sociality2[plot.data$Lineage %in% social] <- 2
+plot.data$Sociality2[plot.data$Lineage %in% complex] <- 3
+plot.data$Family[plot.data$Lineage %in% Apidae] <- "Apidae"
+plot.data$Family[plot.data$Lineage %in% Halictidae] <- "Halictidae"
+plot.data$Family[plot.data$Lineage == "Mega"] <- "Megachilidae"
+
+library(ggplot2)
+
+ggplot(plot.data, aes(x = Sociality2, y = canon)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm") +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+
+#Hmm. Remove All runs I think.
+
+plot.data2 <- na.omit(plot.data)
+
+ggplot(plot.data2, aes(x = Sociality2, y = canon)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm") +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+
+prettylabels <- c("Apis", "Social Corbiculates", "Lasioglossum", "Melipona", "Ceratina",
+                  "Habropoda", "Megachile", "Novaeangliae")
+plot.data3 <- cbind(plot.data2, prettylabels)
+colnames(plot.data3)[8] <- "DP"
+plot.data3
+
+require("ggrepel")
+
+ggplot(plot.data3, aes(x = Sociality2, y = canon)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+#CanonByLineage_lmtrendline_ggplot.png
+
+ggplot(plot.data3, aes(x = Sociality2, y = canon)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+#  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+#CanonByLineage_ggplot.png
+
+ggplot(plot.data3, aes(x = Sociality2, y = noncanon)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+#NonCanonByLineage_lmtrendline_ggplot.png
+
+ggplot(plot.data3, aes(x = Sociality2, y = noncanon)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  #  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+#NonCanonByLineage_ggplot.png
+
+ggplot(plot.data3, aes(x = Sociality2, y = random)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+#RandomByLineage_lmtrendline_ggplot.png
+
+ggplot(plot.data3, aes(x = Sociality2, y = random)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  #  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+#RandomByLineage_ggplot.png
+
+plot.data3$Total <- plot.data3$canon + plot.data3$noncanon + plot.data3$random
+plot.data3
+
+ggplot(plot.data3, aes(x = Sociality2, y = Total)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+#AllGenesByLineage_lmtrendline_ggplot.png
+
+ggplot(plot.data3, aes(x = Sociality2, y = Total)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  #  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+#AllGenesByLineage_ggplot.png
