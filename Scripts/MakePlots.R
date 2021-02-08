@@ -510,7 +510,7 @@ ggplot(plot.data3, aes(x = Sociality2, y = noncanon)) +
         axis.ticks.x = element_blank()) +
   geom_smooth(method="lm") +
   geom_text_repel(aes(label = DP), box.padding = .4) +
-  labs(title = "Canon Immune Genes vs Sociality", 
+  labs(title = "Non-Canon Immune Genes vs Sociality", 
        y = "No Genes Under Selection", x = "Sociality")
 #NonCanonByLineage_lmtrendline_ggplot.png
 
@@ -520,7 +520,7 @@ ggplot(plot.data3, aes(x = Sociality2, y = noncanon)) +
         axis.ticks.x = element_blank()) +
   #  geom_smooth(method="lm") +
   geom_text_repel(aes(label = DP), box.padding = .4) +
-  labs(title = "Canon Immune Genes vs Sociality", 
+  labs(title = "Non-Canon Immune Genes vs Sociality", 
        y = "No Genes Under Selection", x = "Sociality")
 #NonCanonByLineage_ggplot.png
 
@@ -530,7 +530,7 @@ ggplot(plot.data3, aes(x = Sociality2, y = random)) +
         axis.ticks.x = element_blank()) +
   geom_smooth(method="lm") +
   geom_text_repel(aes(label = DP), box.padding = .4) +
-  labs(title = "Canon Immune Genes vs Sociality", 
+  labs(title = "Background Genes vs Sociality", 
        y = "No Genes Under Selection", x = "Sociality")
 #RandomByLineage_lmtrendline_ggplot.png
 
@@ -540,7 +540,7 @@ ggplot(plot.data3, aes(x = Sociality2, y = random)) +
         axis.ticks.x = element_blank()) +
   #  geom_smooth(method="lm") +
   geom_text_repel(aes(label = DP), box.padding = .4) +
-  labs(title = "Canon Immune Genes vs Sociality", 
+  labs(title = "Background Genes vs Sociality", 
        y = "No Genes Under Selection", x = "Sociality")
 #RandomByLineage_ggplot.png
 
@@ -553,7 +553,7 @@ ggplot(plot.data3, aes(x = Sociality2, y = Total)) +
         axis.ticks.x = element_blank()) +
   geom_smooth(method="lm") +
   geom_text_repel(aes(label = DP), box.padding = .4) +
-  labs(title = "Canon Immune Genes vs Sociality", 
+  labs(title = "All Genes vs Sociality", 
        y = "No Genes Under Selection", x = "Sociality")
 #AllGenesByLineage_lmtrendline_ggplot.png
 
@@ -563,6 +563,6 @@ ggplot(plot.data3, aes(x = Sociality2, y = Total)) +
         axis.ticks.x = element_blank()) +
   #  geom_smooth(method="lm") +
   geom_text_repel(aes(label = DP), box.padding = .4) +
-  labs(title = "Canon Immune Genes vs Sociality", 
+  labs(title = "All Genes vs Sociality", 
        y = "No Genes Under Selection", x = "Sociality")
 #AllGenesByLineage_ggplot.png
