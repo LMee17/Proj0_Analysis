@@ -330,6 +330,7 @@ colnames(can.test2) <- c("UnderSel", "NotUnderSel")
 can.test2
 ```
 
+
 ```{r}
 fisher.test(can.test2)
 ```
@@ -396,6 +397,17 @@ Fisher test ... even though its not appropriate in this case as we have some cou
 ```{r}
 fisher.test(non.test2)
 ```
+
+Check after multiple testing
+```{r}
+pvalue <- c(prop.test(can.pos.3, can.tot.3)$p.value, 
+            prop.test(non.pos.3,non.tot.3)$p.value, 
+            prop.test(ran.pos.3, ran.tot.3)$p.value)
+pvalue
+adjp <- p.adjust(pvalue, method = "bonferroni")
+adjp
+```
+
 
 Without Melipona ?? 
 
@@ -533,7 +545,6 @@ ran.test2 <- cbind(ran.pos.3, ran.tot.3)
 colnames(ran.test2) <- c("UnderSel", "NotUnderSel")
 ran.test2
 ```
-
 Fisher test ... even though its not appropriate in this case as we have some counts over 1000.
 
 ```{r}

@@ -268,8 +268,26 @@ ggline(omega, x = "Class", y = "dN.dS",
 ggboxplot(omega, x = "Class", y = "dN.dS", 
           color = "Class", palette = c("blue", "green", "orange"),
           order = c("Canon", "NonCanon", "Random"),
+          panel.labs = c("Canon", "Non-Canon", "Background"),
           ylab = "Omega", xlab = "Gene Class")
 #omega_colourScatterplot.png
+
+omega2 <- omega
+omega2 <- na.omit(omega2)
+library("dplyr")
+library("stringr")
+levels(omega2$Class) <- gsub("Random", "Background", levels(omega2$Class))
+levels(omega2$Class) <- gsub("NonCanon", "Non-Canon", levels(omega2$Class))
+summary(omega2$Class)
+
+ggboxplot(omega2, x = "Class", y = "dN.dS", 
+          color = "Class", palette = c("blue", "green", "orange"),
+          order = c("Canon", "Non-Canon", "Background"),
+          ylab = "dNdS", xlab = "Gene Class")
+#omega_colourScatterplot2.png
+
+
+
 ######Venn Diagram####
 
 #Let's make a Venn diagram of overlapping genes under positive selection via phylogenetic
@@ -308,8 +326,8 @@ venn.diagram(x <- list(api.can.gene, meg.can.gene, hal.can.gene),
              output = T,
              imagetype = "png",
              lwd = 2, lty = "blank", fill = scheme,
-             cex = .6, fontface = "bold", fontfamily = "sans",
-             cat.cex = 0.6, cat.fontface = "bold", cat.default.pos = "outer")
+             cex = 1, fontface = "bold", fontfamily = "sans",
+             cat.cex = 1, cat.fontface = "bold", cat.default.pos = "outer")
 
 #NONCANON
 
@@ -333,9 +351,10 @@ venn.diagram(x <- list(api.non.gene, meg.non.gene, hal.non.gene),
              filename = "Plots/noncan_by_family_Venn.png", 
              output = T,
              imagetype = "png",
+             cat.pos = c(-27, 27, 135),
              lwd = 2, lty = "blank", fill = scheme,
-             cex = .6, fontface = "bold", fontfamily = "sans",
-             cat.cex = 0.6, cat.fontface = "bold", cat.default.pos = "outer")
+             cex = 1, fontface = "bold", fontfamily = "sans",
+             cat.cex = 1, cat.fontface = "bold", cat.default.pos = "outer")
 
 #RANDOM
 
@@ -359,10 +378,11 @@ venn.diagram(x <- list(api.ran.gene, meg.ran.gene, hal.ran.gene),
              category.names = c("Apidae", "Megachilidae", "Halictidae"),
              filename = "Plots/random_by_family_Venn.png", 
              output = T,
+             cat.pos = c(-27, 27, 135),
              imagetype = "png",
              lwd = 2, lty = "blank", fill = scheme,
-             cex = .6, fontface = "bold", fontfamily = "sans",
-             cat.cex = 0.6, cat.fontface = "bold", cat.default.pos = "outer")
+             cex = 1, fontface = "bold", fontfamily = "sans",
+             cat.cex = 1, cat.fontface = "bold", cat.default.pos = "outer")
 
 #For shits and gigs, all of them together
 
@@ -383,10 +403,11 @@ venn.diagram(x <- list(api.all.gene, meg.all.gene, hal.all.gene),
              category.names = c("Apidae", "Megachilidae", "Halictidae"),
              filename = "Plots/all_by_family_Venn.png", 
              output = T,
+             cat.pos = c(-27, 27, 135),
              imagetype = "png",
              lwd = 2, lty = "blank", fill = scheme,
-             cex = .6, fontface = "bold", fontfamily = "sans",
-             cat.cex = 0.6, cat.fontface = "bold", cat.default.pos = "outer")
+             cex = 1, fontface = "bold", fontfamily = "sans",
+             cat.cex = 1, cat.fontface = "bold", cat.default.pos = "outer")
 
 
 #####Stacked BarCharts GUS versus lineage / sociality#####
