@@ -8,7 +8,7 @@ library("dplyr")
 #unlist data
 one <- bind_rows(data)
 #keep only the significant hits and some other details
-two <- one[one$adj_pvalue < 0.5,]
+two <- one[one$adj_pvalue < 0.05,]
 two <- two[,c(1,5)]
 #aggregate by social origin
 two <- aggregate(two[2], two[-2], 
