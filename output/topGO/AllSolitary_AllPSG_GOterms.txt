@@ -1,0 +1,36 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank in Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0010225	response to UV-C	1	1	0	1	0.00095	0.00095	Biological Process
+GO:1900744	regulation of p38MAPK cascade	1	1	0	2	0.00095	0.00095	Biological Process
+GO:1901562	response to paraquat	2	1	0	3	0.00190	0.00190	Biological Process
+GO:0097753	membrane bending	2	1	0	4	0.00190	0.00190	Biological Process
+GO:0097688	glutamate receptor clustering	3	1	0	7	0.00285	0.00285	Biological Process
+GO:0045678	positive regulation of R7 cell different...	7	1	0.01	10	0.00663	0.00663	Biological Process
+GO:0043407	negative regulation of MAP kinase activi...	8	1	0.01	11	0.00757	0.00757	Biological Process
+GO:0040034	regulation of development, heterochronic	11	1	0.01	15	0.01040	0.01040	Biological Process
+GO:0046528	imaginal disc fusion	14	1	0.01	18	0.01322	0.01322	Biological Process
+GO:0046529	imaginal disc fusion, thorax closure	14	1	0.01	19	0.01322	0.01322	Biological Process
+GO:0006749	glutathione metabolic process	15	1	0.01	20	0.01416	0.01416	Biological Process
+GO:0099173	postsynapse organization	19	1	0.02	22	0.01791	0.01791	Biological Process
+GO:0046580	negative regulation of Ras protein signa...	21	1	0.02	23	0.01978	0.01978	Biological Process
+GO:0051058	negative regulation of small GTPase medi...	22	1	0.02	24	0.02071	0.02071	Biological Process
+GO:0070303	negative regulation of stress-activated ...	22	1	0.02	25	0.02071	0.02071	Biological Process
+GO:0032873	negative regulation of stress-activated ...	22	1	0.02	26	0.02071	0.02071	Biological Process
+GO:0046329	negative regulation of JNK cascade	22	1	0.02	27	0.02071	0.02071	Biological Process
+GO:0006575	cellular modified amino acid metabolic p...	26	1	0.02	30	0.02444	0.02444	Biological Process
+GO:0030522	intracellular receptor signaling pathway	28	1	0.03	33	0.02630	0.02630	Biological Process
+GO:0007552	metamorphosis	371	2	0.35	38	0.04290	0.04290	Biological Process
+GO:0046328	regulation of JNK cascade	48	1	0.05	40	0.04475	0.04475	Biological Process
+GO:0016319	mushroom body development	53	1	0.05	44	0.04932	0.04932	Biological Process
+GO:0016034	maleylacetoacetate isomerase activity	1	1	0	1	0.00095	0.00095	Molecular Function
+GO:0004364	glutathione transferase activity	8	1	0.01	2	0.00758	0.00758	Molecular Function
+GO:0097747	RNA polymerase activity	13	1	0.01	3	0.01230	0.01230	Molecular Function
+GO:0034062	5'-3' RNA polymerase activity	13	1	0.01	4	0.01230	0.01230	Molecular Function
+GO:0003899	DNA-directed 5'-3' RNA polymerase activi...	13	1	0.01	5	0.01230	0.01230	Molecular Function
+GO:0098531	ligand-activated transcription factor ac...	14	1	0.01	6	0.01324	0.01324	Molecular Function
+GO:0004879	nuclear receptor activity	14	1	0.01	7	0.01324	0.01324	Molecular Function
+GO:0004722	protein serine/threonine phosphatase act...	28	1	0.03	10	0.02635	0.02635	Molecular Function
+GO:0016779	nucleotidyltransferase activity	41	1	0.04	11	0.03841	0.03841	Molecular Function
+GO:0005665	RNA polymerase II, core complex	13	1	0.01	1	0.014	0.014	Cellular Component
+GO:0098975	postsynapse of neuromuscular junction	13	1	0.01	2	0.014	0.014	Cellular Component
+GO:0098794	postsynapse	35	1	0.04	3	0.037	0.037	Cellular Component
+GO:0000139	Golgi membrane	46	1	0.05	4	0.048	0.048	Cellular Component
