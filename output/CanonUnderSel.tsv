@@ -1,83 +1,67 @@
-Gene	Class	Gene_Desc	SocOrigin	count	Function
-CytC	Canon	 mitochondrial cytochrome C 	Halictid	1	Apoptosis
-Dcr-1	Canon	 endoribonuclease Dicer-1 	Meli, Habro	2	RNAi
-Dl	Canon	 dorsal 	AllSol, Habro, Nova	3	Toll_IMD
-Dl	Canon	 dorsal 	AllSol, Habro, Nova	3	Humoral
-LOC100576527	Canon	 cyclic AMP-dependent transcription factor ATF-2 	Habro	1	Toll_IMD
-LOC100576742	Canon	 integrin beta-nu 	Halictid	1	Phagosome
-LOC100578537	Canon	 UV radiation resistance-associated gene protein 	Halictid	1	Autophagy
-LOC406097	Canon	 integrin beta-PS 	Mega	1	Phagosome
-LOC408717	Canon	 sialomucin core protein 24 	Halictid	1	Lysosome
-LOC408808	Canon	 prosaposin 	Halictid, Habro	2	Lysosome
-LOC409036	Canon	 GTP-binding protein Rheb homolog 	Halictid	1	Autophagy
-LOC409125	Canon	 mitogen-activated protein kinase kinase kinase 4 	Halictid	1	Toll_IMD
-LOC409125	Canon	 mitogen-activated protein kinase kinase kinase 4 	Halictid	1	JNK
-LOC409286	Canon	 stress-activated protein kinase JNK 	Meli	1	Autophagy
-LOC409286	Canon	 stress-activated protein kinase JNK 	Meli	1	Toll_IMD
-LOC409286	Canon	 stress-activated protein kinase JNK 	Meli	1	JNK
-LOC409286	Canon	 stress-activated protein kinase JNK 	Meli	1	Apoptosis
-LOC409336	Canon	 sialin 	Meli, Nova	2	Lysosome
-LOC409529	Canon	 ras-like protein 2 	Meli	1	Autophagy
-LOC409791	Canon	 cAMP-dependent protein kinase catalytic subunit 	Meli	1	Autophagy
-LOC409920	Canon	 ubiquitin-conjugating enzyme E2 variant 2 	Meli	1	Toll_IMD
-LOC410183	Canon	 1-phosphatidylinositol 3-phosphate 5-kinase 	Apis	1	Phagosome
-LOC410575	Canon	 dual specificity mitogen-activated protein kinase kinase 4 	Halictid	1	JNK
-LOC410732	Canon	 3-phosphoinositide-dependent protein kinase 1 	Halictid, Meli	2	Autophagy
-LOC410812	Canon	 ras-like protein 1 	Meli	1	Autophagy
-LOC410860	Canon	 battenin 	AllComplex, Meli	2	Lysosome
-LOC411115	Canon	 baculoviral IAP repeat-containing protein 6 	Apis, Halictid	2	Apoptosis
-LOC411639	Canon	 cytoplasmic dynein 2 heavy chain 1 	Meli	1	Phagosome
-LOC411892	Canon	 V-type proton ATPase subunit C 	Nova	1	Phagosome
-LOC412278	Canon	 tuberin 	Halictid	1	Autophagy
-LOC412687	Canon	 beclin 1-associated autophagy-related key regulator 	Habro	1	Autophagy
-LOC413119	Canon	 heparan-alpha-glucosaminide N-acetyltransferase 	Meli	1	Lysosome
-LOC413126	Canon	 serine/threonine-protein kinase Tao 	Nova	1	JNK
-LOC413153	Canon	 uncharacterized LOC413153 	Halictid	1	Autophagy
-LOC413194	Canon	 myeloid differentiation primary response protein MyD88-A 	Apis, Mega	2	Toll_IMD
-LOC413194	Canon	 myeloid differentiation primary response protein MyD88-A 	Apis, Mega	2	Humoral
-LOC413389	Canon	 dual specificity mitogen-activated protein kinase kinase hemipterous 	Habro	1	Toll_IMD
-LOC413389	Canon	 dual specificity mitogen-activated protein kinase kinase hemipterous 	Habro	1	JNK
-LOC413411	Canon	 myotubularin-related protein 14 	Meli	1	Autophagy
-LOC413430	Canon	 RAC serine/threonine-protein kinase 	Habro	1	Autophagy
-LOC413668	Canon	 run domain Beclin-1-interacting and cysteine-rich domain-containing protein 	Meli	1	Autophagy
-LOC413782	Canon	 cartilage oligomeric matrix protein 	Xylo	1	Phagosome
-LOC550716	Canon	 clathrin heavy chain 	Halictid	1	Lysosome
-LOC550869	Canon	 N-acetylglucosamine-6-sulfatase 	Habro	1	Lysosome
-LOC551012	Canon	 cation-independent mannose-6-phosphate receptor 	Meli, Xylo	2	Lysosome
-LOC551036	Canon	 vacuole membrane protein 1 	Meli	1	Autophagy
-LOC551290	Canon	 cathepsin O 	Halictid, Nova	2	Lysosome
-LOC551500	Canon	 phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform 	Meli	1	Autophagy
-LOC551517	Canon	 beta-TrCP 	Meli	1	Toll_IMD
-LOC551554	Canon	 ras-related protein Rac1 	Meli	1	Phagosome
-LOC551608	Canon	 serine/threonine-protein kinase pelle 	Meli	1	Toll_IMD
-LOC551608	Canon	 serine/threonine-protein kinase pelle 	Meli	1	Humoral
-LOC551668	Canon	 regulatory-associated protein of mTOR 	Habro, Mega	2	Autophagy
-LOC551668	Canon	 regulatory-associated protein of mTOR 	Habro, Mega	2	Autophagy
-LOC552091	Canon	 group XV phospholipase A2 	Halictid	1	Lysosome
-LOC552138	Canon	 Mig-2-like GTPase Mtl 	Meli	1	Phagosome
-LOC552249	Canon	 lysosomal alpha-mannosidase 	Habro, Nova	2	Lysosome
-LOC552249	Canon	 lysosomal alpha-mannosidase 	Halictid	1	Lysosome
-LOC552315	Canon	 ubiquitin-like-conjugating enzyme ATG3 	AllComplex, Meli	2	Autophagy
-LOC552315	Canon	 ubiquitin-like-conjugating enzyme ATG3 	AllComplex, Meli	2	Autophagy
-LOC552315	Canon	 ubiquitin-like-conjugating enzyme ATG3 	Habro	1	Autophagy
-LOC552315	Canon	 ubiquitin-like-conjugating enzyme ATG3 	Habro	1	Autophagy
-LOC552520	Canon	 AP-3 complex subunit mu-1 	Habro	1	Lysosome
-LOC552571	Canon	 serine/threonine-protein kinase unc-51 	Nova	1	Autophagy
-LOC552571	Canon	 serine/threonine-protein kinase unc-51 	Nova	1	Autophagy
-LOC552721	Canon	 CD63 antigen 	Meli	1	Lysosome
-LOC725111	Canon	 piwi-like protein Ago3 	Habro	1	RNAi
-LOC725368	Canon	 probable serine/threonine-protein kinase DDB_G0283337 	Meli	1	Humoral
-LOC725512	Canon	 RISC-loading complex subunit TARBP2 	Habro	1	RNAi
-LOC725571	Canon	 protein transport protein Sec61 subunit alpha 	Meli	1	Phagosome
-LOC725756	Canon	 beta-galactosidase 	Meli	1	Lysosome
-LOC726002	Canon	 tyrosine-protein kinase hopscotch 	Habro	1	Humoral
-LOC726002	Canon	 tyrosine-protein kinase hopscotch 	Habro	1	JAKSTAT
-LOC726167	Canon	 lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog 	Halictid, Meli, Mega, Nova	4	Lysosome
-LOC726187	Canon	 AP-1 complex subunit beta-1 	Meli	1	Lysosome
-LOC726947	Canon	 TGF-beta-activated kinase 1 and MAP3K7-binding protein 3 	AllOriginEpi, Halictid, Meli	3	Humoral
-LOC726947	Canon	 TGF-beta-activated kinase 1 and MAP3K7-binding protein 3 	AllOriginEpi, Halictid, Meli	3	Toll_IMD
-LOC727396	Canon	 eukaryotic translation initiation factor 2-alpha kinase 	Habro	1	Autophagy
-LOC727634	Canon	 activating molecule in BECN1-regulated autophagy protein 1 	Xylo	1	Autophagy
-LOC727634	Canon	 activating molecule in BECN1-regulated autophagy protein 1 	AllSol, Mega	2	Autophagy
-Tspan6	Canon	 tetraspanin 6 	Mega	1	Lysosome
-Tspan6	Canon	 tetraspanin 6 	CorbSoc, Halictid	2	Lysosome
+Gene	SocOrigin	Class	Gene_Desc	count	Function
+CytC	Halictid	Canon	 mitochondrial cytochrome C 	1	Apoptosis
+Dcr-1	Meli, Habro	Canon	 endoribonuclease Dicer-1 	2	RNAi
+Dl	AllSol, Habro, Nova	Canon	 dorsal 	3	Humoral
+Dl	AllSol, Habro, Nova	Canon	 dorsal 	3	Toll_IMD
+LOC100576527	Habro	Canon	 cyclic AMP-dependent transcription factor ATF-2 	1	Toll_IMD
+LOC100578537	Halictid	Canon	 UV radiation resistance-associated gene protein 	1	Autophagy
+LOC408717	Halictid	Canon	 sialomucin core protein 24 	1	Lysosome
+LOC408808	Habro	Canon	 prosaposin 	1	Lysosome
+LOC409125	Halictid	Canon	 mitogen-activated protein kinase kinase kinase 4 	1	Toll_IMD
+LOC409125	Halictid	Canon	 mitogen-activated protein kinase kinase kinase 4 	1	JNK
+LOC409286	Meli	Canon	 stress-activated protein kinase JNK 	1	Autophagy
+LOC409286	Meli	Canon	 stress-activated protein kinase JNK 	1	Apoptosis
+LOC409286	Meli	Canon	 stress-activated protein kinase JNK 	1	JNK
+LOC409286	Meli	Canon	 stress-activated protein kinase JNK 	1	Toll_IMD
+LOC409336	Meli, Nova	Canon	 sialin 	2	Lysosome
+LOC409529	Meli	Canon	 ras-like protein 2 	1	Autophagy
+LOC409791	Meli	Canon	 cAMP-dependent protein kinase catalytic subunit 	1	Autophagy
+LOC409920	Meli	Canon	 ubiquitin-conjugating enzyme E2 variant 2 	1	Toll_IMD
+LOC410183	Apis	Canon	 1-phosphatidylinositol 3-phosphate 5-kinase 	1	Phagosome
+LOC410575	Halictid	Canon	 dual specificity mitogen-activated protein kinase kinase 4 	1	JNK
+LOC410732	Meli	Canon	 3-phosphoinositide-dependent protein kinase 1 	1	Autophagy
+LOC410812	Meli	Canon	 ras-like protein 1 	1	Autophagy
+LOC410860	AllComplex, Meli	Canon	 battenin 	2	Lysosome
+LOC411115	Apis, Halictid	Canon	 baculoviral IAP repeat-containing protein 6 	2	Apoptosis
+LOC411639	Meli	Canon	 cytoplasmic dynein 2 heavy chain 1 	1	Phagosome
+LOC411892	Nova	Canon	 V-type proton ATPase subunit C 	1	Phagosome
+LOC412278	Halictid	Canon	 tuberin 	1	Autophagy
+LOC412687	Habro	Canon	 beclin 1-associated autophagy-related key regulator 	1	Autophagy
+LOC413119	Meli	Canon	 heparan-alpha-glucosaminide N-acetyltransferase 	1	Lysosome
+LOC413126	Nova	Canon	 serine/threonine-protein kinase Tao 	1	JNK
+LOC413153	Halictid	Canon	 uncharacterized LOC413153 	1	Autophagy
+LOC413194	Apis	Canon	 myeloid differentiation primary response protein MyD88-A 	1	Toll_IMD
+LOC413194	Apis	Canon	 myeloid differentiation primary response protein MyD88-A 	1	Humoral
+LOC413389	Habro	Canon	 dual specificity mitogen-activated protein kinase kinase hemipterous 	1	JNK
+LOC413389	Habro	Canon	 dual specificity mitogen-activated protein kinase kinase hemipterous 	1	Toll_IMD
+LOC413411	Meli	Canon	 myotubularin-related protein 14 	1	Autophagy
+LOC413430	Habro	Canon	 RAC serine/threonine-protein kinase 	1	Autophagy
+LOC413668	Meli	Canon	 run domain Beclin-1-interacting and cysteine-rich domain-containing protein 	1	Autophagy
+LOC413782	Xylo	Canon	 cartilage oligomeric matrix protein 	1	Phagosome
+LOC550716	Halictid	Canon	 clathrin heavy chain 	1	Lysosome
+LOC551012	Meli, Xylo	Canon	 cation-independent mannose-6-phosphate receptor 	2	Lysosome
+LOC551036	Meli	Canon	 vacuole membrane protein 1 	1	Autophagy
+LOC551500	Meli	Canon	 phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform 	1	Autophagy
+LOC551517	Meli	Canon	 beta-TrCP 	1	Toll_IMD
+LOC551554	Meli	Canon	 ras-related protein Rac1 	1	Phagosome
+LOC551608	Meli	Canon	 serine/threonine-protein kinase pelle 	1	Toll_IMD
+LOC551608	Meli	Canon	 serine/threonine-protein kinase pelle 	1	Humoral
+LOC551668	Habro, Mega	Canon	 regulatory-associated protein of mTOR 	2	Autophagy
+LOC551668	Habro, Mega	Canon	 regulatory-associated protein of mTOR 	2	Autophagy
+LOC552138	Meli	Canon	 Mig-2-like GTPase Mtl 	1	Phagosome
+LOC552249	Nova	Canon	 lysosomal alpha-mannosidase 	1	Lysosome
+LOC552315	AllComplex, Meli, Habro	Canon	 ubiquitin-like-conjugating enzyme ATG3 	3	Autophagy
+LOC552315	AllComplex, Meli, Habro	Canon	 ubiquitin-like-conjugating enzyme ATG3 	3	Autophagy
+LOC552520	Habro	Canon	 AP-3 complex subunit mu-1 	1	Lysosome
+LOC552571	Nova	Canon	 serine/threonine-protein kinase unc-51 	1	Autophagy
+LOC552571	Nova	Canon	 serine/threonine-protein kinase unc-51 	1	Autophagy
+LOC552721	Meli	Canon	 CD63 antigen 	1	Lysosome
+LOC725571	Meli	Canon	 protein transport protein Sec61 subunit alpha 	1	Phagosome
+LOC725756	Meli	Canon	 beta-galactosidase 	1	Lysosome
+LOC726167	Halictid, Meli, Mega, Nova	Canon	 lipopolysaccharide-induced tumor necrosis factor-alpha factor homolog 	4	Lysosome
+LOC726187	Meli	Canon	 AP-1 complex subunit beta-1 	1	Lysosome
+LOC726947	AllOriginEpi, Halictid, Meli	Canon	 TGF-beta-activated kinase 1 and MAP3K7-binding protein 3 	3	Toll_IMD
+LOC726947	AllOriginEpi, Halictid, Meli	Canon	 TGF-beta-activated kinase 1 and MAP3K7-binding protein 3 	3	Humoral
+LOC727396	Habro	Canon	 eukaryotic translation initiation factor 2-alpha kinase 	1	Autophagy
+LOC727634	Xylo, AllSol, Mega	Canon	 activating molecule in BECN1-regulated autophagy protein 1 	3	Autophagy
+Tspan6	Halictid	Canon	 tetraspanin 6 	1	Lysosome
