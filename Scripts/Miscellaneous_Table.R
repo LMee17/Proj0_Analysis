@@ -63,7 +63,7 @@ for (i in 1:length(soc)){
 out2 <- as.data.frame(cbind(paste(soc), canprop, nonprop, ranprop, proptres))
 out2
 
-out2$adjpvalue <- p.adjust(out2$proptres, method = "bonferroni")
+out2$adjpvalue <- p.adjust(out2$proptres, method = "fdr")
 out2
 
 titles <- c("All Advanced", "All Social", "Apis", "Social Corbiculates",
@@ -148,29 +148,47 @@ out5$RanNoSelection <- out$RandomTotal - out$RandomUnderSel
 
 #canon
 can.chi <- vector(length = length(soc))
+can.chi.pvalue <- vector(length = length(soc))
 for (i in 1:length(soc)){
   one <- c(out5[i,2], out5[i,5])
   two <- c(out5[i,4], out5[i,7])
   three <- rbind(one,two)
   four <- chisq.test(three, simulate.p.value = TRUE, B = 10000)
-  can.chi[i] <- four$p.value
+  can.chi[i] <- four$statistic
+  can.chi.pvalue[i] <- four$p.value
 }
 
 #noncanon
 non.chi <- vector(length = length(soc))
+non.chi.pvalue <- vector(length = length(soc))
 for (i in 1:length(soc)){
   one <- c(out5[i,3], out5[i,6])
   two <- c(out5[i,4], out5[i,7])
   three <- rbind(one,two)
   four <- chisq.test(three, simulate.p.value = TRUE, B = 10000)
-  non.chi[i] <- four$p.value
+  non.chi[i] <- four$statistic
+  non.chi.pvalue[i] <- four$p.value
 }
 
-non.chi
-out6 <- as.data.frame(cbind(paste(soc), can.chi))
-out6$can.chi.adj <- p.adjust(out6$can.chi, method = "fdr")
-out6$non.chi.adj <- p.adjust(out6$non.chi, method = "fdr")
+
+out6 <- as.data.frame(cbind(paste(soc), can.chi, can.chi.pvalue))
+out6$can.chi.padj <- p.adjust(out6$can.chi.pvalue, method = "BH")
+out6 <- cbind(out6, non.chi, non.chi.pvalue)
+out6$non.chi.padj <- p.adjust(out6$non.chi.pvalue, method = "BH")
 out6
+
+four
+out6.can <- out6[,c(1:4)]
+out6.non <- out6[,c(1,5:7)]
+out6.non
+
+names(out6.can) <- c("Branch(es) Tested", "X-Squared", "p.value", "adj.p.value")
+names(out6.non) <- c("Branch(es) Tested", "X-Squared", "p.value", "adj.p.value")
+
+p.adjust(out6$can.chi, method = "fdr")
+
+four$statistic
+
 
 four
 one <- as.data.frame(can.chi)
@@ -180,8 +198,35 @@ test <- p.adjust(test.chi, method = "fdr")
 test2
 cbind(test.chi, test)
 
+out
+out2
+out3
 out4
+out5
+out6
 
+out6.can$Canon.Prop.PSG <- out2$Canon
+out6.can$Background.Prop.PSG <- out2$Background
+out6.can$BY <- p.adjust(out6.can$p.value, method = "BY")
+
+
+test.p <- as.data.frame(c(out6.can$p.value, out6.non$p.value))
+test.p$BY <- p.adjust(test.p$`c(out6.can$p.value, out6.non$p.value)`, method = "BY")
+test.p
+
+out6.non$NonCanon.Prop.PSG <- out2$`Non-Canon`
+out6.non$Background.Prop.PSG <- out2$Background
+
+out6.non
+
+out6.can$`X-Squared` <- as.numeric(formatC(out6.can$`X-Squared`, digits = 4, format = "f"))
+out6.can$p.value <- as.numeric(formatC(out6.can$p.value, digits = 4, format = "f"))
+
+for (i in 4:6){
+  out6.can[,i] <- as.numeric(formatC(out6.can[,i], digits = 4, format = "f"))
+}
+
+out6.can
 data.complete[data.complete$Gene == "Dl" & data.complete$SocOrigin == "Apis",]
 
 goi.all[goi.all$count > 5,]
@@ -189,3 +234,19 @@ goi.all[goi.all$Gene == "Dl",]
 
 imm.verse[imm.verse$GeneID == "LOC726167",]
 imm.fun[imm.fun$Gene == "LOC726167",]
+
+one <- c(0, 872)
+two <- c(11, 4842)
+three <- rbind(one,two)
+four <- chisq.test(three, simulate.p.value = F)
+four
+
+out
+
+data.complete[data.complete$SocOrigin == "CorbSoc"
+              & data.complete$Class == "Canon"
+              & data.complete$adj_pvalue < 0.05,]
+data.complete[data.complete$Gene == "Tspan6",]
+
+
+undersel.all[undersel.all$Gene == "Tspan6",]
