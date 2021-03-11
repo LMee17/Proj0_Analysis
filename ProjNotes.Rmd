@@ -267,6 +267,7 @@ source("Scripts/omegaData.R", local = knitr::knit_global())
 ```
 
 
+
 ###Visualise.
 
 ```{r}
@@ -347,7 +348,7 @@ library("ggpubr")
 ```{r}
 ggboxplot(omega, x = "Class", y = "dN.dS", 
           color = "Class", palette = c("blue", "green", "orange"),
-          order = c("Canon", "NonCanon", "Random"),
+          order = c("Canon", "Non-Canon", "Background"),
           ylab = "Omega", xlab = "Gene Class")
 ```
 
