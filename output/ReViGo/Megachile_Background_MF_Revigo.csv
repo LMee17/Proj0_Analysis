@@ -1,0 +1,24 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0003697", "single-stranded DNA binding", 0.408, -6.336, -2.203, 1.672, -2.180, 0.860, 0.000, -1, False
+"GO:0004777", "succinate-semialdehyde dehydrogenase (NAD+) activity", 0.009, 2.285, 2.446, 0.301, -2.301, 0.933, 0.000, -1, False
+"GO:0097110", "scaffold protein binding", 0.027, 2.281, -3.003, 0.602, -1.827, 0.911, 0.044, -1, False
+"GO:0043024", "ribosomal small subunit binding", 0.098, 6.278, 2.003, 1.079, -1.529, 0.956, 0.048, -1, False
+"GO:0004515", "nicotinate-nucleotide adenylyltransferase activity", 0.009, -2.510, -8.160, 0.301, -2.301, 0.879, 0.068, -1, False
+"GO:0000309", "nicotinamide-nucleotide adenylyltransferase activity", 0.009, null, null, 0.301, -2.301, 0.879, 0.689, 4515, True
+"GO:0004526", "ribonuclease P activity", 0.106, -1.053, 5.833, 1.114, -2.000, 0.819, 0.078, -1, False
+"GO:0016886", "ligase activity, forming phosphoric ester bonds", 0.044, 3.604, 5.309, 0.778, -1.703, 0.849, 0.087, -1, False
+"GO:0003910", "DNA ligase (ATP) activity", 0.027, null, null, 0.602, -1.827, 0.761, 0.533, 16886, True
+"GO:0000150", "recombinase activity", 0.044, null, null, 0.778, -1.703, 0.830, 0.550, 16886, True
+"GO:0003909", "DNA ligase activity", 0.027, null, null, 0.602, -1.827, 0.761, 0.966, 16886, True
+"GO:0140097", "catalytic activity, acting on DNA", 1.180, -4.939, 4.864, 2.127, -1.320, 0.910, 0.112, -1, False
+"GO:0005118", "sevenless binding", 0.035, 5.308, -2.525, 0.699, -1.827, 0.909, 0.141, -1, False
+"GO:0030544", "Hsp70 protein binding", 0.115, 4.754, -4.723, 1.146, -1.703, 0.903, 0.155, -1, False
+"GO:0042169", "SH2 domain binding", 0.053, 1.810, -6.590, 0.845, -1.607, 0.862, 0.159, -1, False
+"GO:0017124", "SH3 domain binding", 0.169, null, null, 1.301, -1.312, 0.856, 0.690, 42169, True
+"GO:0051287", "NAD binding", 0.337, -6.471, 0.521, 1.591, -2.000, 0.911, 0.181, -1, False
+"GO:0031072", "heat shock protein binding", 0.355, 3.190, -5.342, 1.613, -1.312, 0.896, 0.184, -1, False
+"GO:0000400", "four-way junction DNA binding", 0.071, -6.030, -3.472, 0.954, -1.406, 0.873, 0.346, -1, False
+"GO:0000217", "DNA secondary structure binding", 0.124, -5.186, -2.935, 1.176, -1.312, 0.869, 0.362, -1, False
+"GO:0043035", "chromatin insulator sequence binding", 0.177, -5.468, -1.886, 1.322, -1.529, 0.867, 0.373, -1, False
+"GO:0004438", "phosphatidylinositol-3-phosphatase activity", 0.080, -1.539, 5.429, 1.000, -1.529, 0.827, 0.412, -1, False
+"GO:0052744", "phosphatidylinositol monophosphate phosphatase activity", 0.089, null, null, 1.041, -1.529, 0.826, 0.908, 4438, True

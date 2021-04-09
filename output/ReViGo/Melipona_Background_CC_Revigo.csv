@@ -1,0 +1,28 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0030424", "axon", 2.353, 2.230, 6.661, 2.441, -3.319, 0.868, 0.000, -1, False
+"GO:0061176", "type Ib terminal bouton", 0.068, null, null, 0.954, -2.815, 0.758, 0.546, 30424, True
+"GO:0030426", "growth cone", 0.257, null, null, 1.491, -1.730, 0.846, 0.709, 30424, True
+"GO:0061177", "type Is terminal bouton", 0.051, null, null, 0.845, -2.188, 0.761, 0.815, 30424, True
+"GO:0090443", "FAR/SIN/STRIPAK complex", 0.077, -2.478, 2.938, 1.000, -2.466, 0.896, 0.000, -1, False
+"GO:0031616", "spindle pole centrosome", 0.060, 4.788, -0.495, 0.903, -2.466, 0.927, 0.003, -1, False
+"GO:0030427", "site of polarized growth", 0.274, -1.015, -7.034, 1.519, -1.649, 0.994, 0.004, -1, False
+"GO:0030055", "cell-substrate junction", 0.342, 2.299, -5.438, 1.613, -2.319, 0.832, 0.004, -1, False
+"GO:0005919", "pleated septate junction", 0.043, null, null, 0.778, -1.542, 0.849, 0.630, 30055, True
+"GO:0005925", "focal adhesion", 0.231, null, null, 1.447, -1.350, 0.835, 0.721, 30055, True
+"GO:0071944", "cell periphery", 16.842, 4.567, 3.582, 3.294, -1.557, 0.991, 0.007, -1, False
+"GO:0016533", "protein kinase 5 complex", 0.017, -2.828, 6.107, 0.477, -1.821, 0.894, 0.140, -1, False
+"GO:0098797", "plasma membrane protein complex", 1.412, -5.446, -0.038, 2.220, -2.314, 0.686, 0.194, -1, False
+"GO:0098533", "ATPase dependent transmembrane transport complex", 0.120, null, null, 1.176, -1.821, 0.758, 0.531, 98797, True
+"GO:0016281", "eukaryotic translation initiation factor 4F complex", 0.094, -5.197, 4.780, 1.079, -1.341, 0.880, 0.197, -1, False
+"GO:0030992", "intraciliary transport particle B", 0.094, -6.923, 3.491, 1.079, -1.789, 0.895, 0.197, -1, False
+"GO:0000778", "condensed nuclear chromosome kinetochore", 0.043, 4.368, -2.011, 0.778, -1.821, 0.811, 0.200, -1, False
+"GO:0000779", "condensed chromosome, centromeric region", 0.257, null, null, 1.491, -1.637, 0.802, 0.731, 778, True
+"GO:0000777", "condensed chromosome kinetochore", 0.163, null, null, 1.301, -1.391, 0.798, 0.839, 778, True
+"GO:0000776", "kinetochore", 0.436, null, null, 1.716, -1.530, 0.801, 0.847, 778, True
+"GO:0042383", "sarcolemma", 0.103, -5.486, -3.993, 1.114, -1.821, 0.849, 0.309, -1, False
+"GO:0016600", "flotillin complex", 0.017, -5.985, -0.995, 0.477, -2.277, 0.734, 0.451, -1, False
+"GO:0038037", "G protein-coupled receptor dimeric complex", 0.034, null, null, 0.699, -1.821, 0.713, 0.504, 16600, True
+"GO:0016011", "dystroglycan complex", 0.034, null, null, 0.699, -1.542, 0.724, 0.526, 16600, True
+"GO:0097648", "G protein-coupled receptor complex", 0.034, null, null, 0.699, -1.821, 0.713, 0.697, 16600, True
+"GO:0031226", "intrinsic component of plasma membrane", 4.253, -6.306, -3.194, 2.697, -1.362, 0.792, 0.463, -1, False
+"GO:0005886", "plasma membrane", 13.659, null, null, 3.203, -1.816, 0.798, 0.575, 31226, True

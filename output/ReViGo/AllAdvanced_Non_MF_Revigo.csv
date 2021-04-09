@@ -1,0 +1,11 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0004385", "guanylate kinase activity", 0.027, 4.293, -1.237, 0.602, -2.420, 1.000, 0.000, -1, False
+"GO:0035255", "ionotropic glutamate receptor binding", 0.009, -6.339, -2.531, 0.301, -2.721, 0.718, 0.000, -1, False
+"GO:0035591", "signaling adaptor activity", 0.160, 0.199, -6.833, 1.279, -1.821, 0.831, 0.000, -1, False
+"GO:0030674", "protein-macromolecule adaptor activity", 0.852, null, null, 1.987, -1.367, 0.831, 0.795, 35591, True
+"GO:0060090", "molecular adaptor activity", 1.109, 2.222, 5.447, 2.100, -1.358, 1.000, 0.000, -1, False
+"GO:0050839", "cell adhesion molecule binding", 0.568, -4.503, 2.929, 1.813, -1.627, 0.792, 0.157, -1, False
+"GO:0019901", "protein kinase binding", 0.736, -6.885, 2.584, 1.924, -1.376, 0.707, 0.226, -1, False
+"GO:0019900", "kinase binding", 0.896, null, null, 2.009, -1.306, 0.705, 0.660, 19901, True
+"GO:0005158", "insulin receptor binding", 0.124, -6.226, -1.093, 1.176, -2.553, 0.683, 0.452, -1, False
+"GO:0005154", "epidermal growth factor receptor binding", 0.080, null, null, 1.000, -2.328, 0.689, 0.524, 5158, True

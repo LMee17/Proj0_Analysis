@@ -1,0 +1,3 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0070847", "core mediator complex", 0.094, 0.382, 0.999, 1.079, -2.071, 0.382, 0.000, -1, False
+"GO:0016592", "mediator complex", 0.308, 0.997, 0.382, 1.568, -1.625, 0.382, 0.382, -1, False

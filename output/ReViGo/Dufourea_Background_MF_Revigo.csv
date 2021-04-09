@@ -1,0 +1,34 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0003682", "chromatin binding", 1.908, -1.627, -7.747, 2.334, -1.959, 0.968, 0.000, -1, False
+"GO:0005085", "guanyl-nucleotide exchange factor activity", 0.790, -0.435, 0.981, 1.954, -1.959, 0.988, 0.000, -1, False
+"GO:0008503", "benzodiazepine receptor activity", 0.162, -1.218, 6.453, 1.279, -1.959, 0.901, 0.000, -1, False
+"GO:0017056", "structural constituent of nuclear pore", 0.177, 3.685, -5.277, 1.322, -1.854, 0.915, 0.000, -1, False
+"GO:0033677", "DNA/RNA helicase activity", 0.009, -4.050, 3.031, 0.301, -1.959, 0.961, 0.000, -1, False
+"GO:0033130", "acetylcholine receptor binding", 0.018, -6.417, -1.097, 0.477, -1.638, 0.926, 0.048, -1, False
+"GO:0070717", "poly-purine tract binding", 0.098, 6.649, 0.630, 1.079, -1.469, 0.913, 0.055, -1, False
+"GO:0008143", "poly(A) binding", 0.071, null, null, 0.954, -1.469, 0.914, 0.789, 70717, True
+"GO:0004766", "spermidine synthase activity", 0.009, -5.318, 5.324, 0.301, -1.959, 0.961, 0.068, -1, False
+"GO:0016623", "oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor", 0.035, 4.031, 5.005, 0.699, -1.959, 0.848, 0.073, -1, False
+"GO:0004732", "pyridoxal oxidase activity", 0.009, null, null, 0.301, -1.959, 0.840, 0.629, 16623, True
+"GO:0004031", "aldehyde oxidase activity", 0.027, null, null, 0.602, -1.959, 0.833, 0.904, 16623, True
+"GO:0004837", "tyrosine decarboxylase activity", 0.018, 6.527, -3.018, 0.477, -1.638, 0.960, 0.076, -1, False
+"GO:0019948", "SUMO activating enzyme activity", 0.018, 2.464, -0.480, 0.477, -1.638, 0.954, 0.076, -1, False
+"GO:0001227", "DNA-binding transcription repressor activity, RNA polymerase II-specific", 0.506, -7.170, 2.815, 1.763, -1.347, 0.956, 0.099, -1, False
+"GO:0001217", "DNA-binding transcription repressor activity", 0.515, null, null, 1.771, -1.347, 0.956, 0.618, 1227, True
+"GO:0031267", "small GTPase binding", 0.967, -4.753, -3.747, 2.041, -1.469, 0.891, 0.172, -1, False
+"GO:0030544", "Hsp70 protein binding", 0.115, -6.512, -3.362, 1.146, -1.347, 0.938, 0.200, -1, False
+"GO:0022883", "zinc efflux transmembrane transporter activity", 0.027, 1.938, -5.698, 0.602, -1.469, 0.846, 0.208, -1, False
+"GO:0046583", "cation efflux transmembrane transporter activity", 0.027, null, null, 0.602, -1.469, 0.849, 0.880, 22883, True
+"GO:0004854", "xanthine dehydrogenase activity", 0.009, 4.733, 4.266, 0.301, -1.638, 0.858, 0.306, -1, False
+"GO:0016726", "oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor", 0.009, null, null, 0.301, -1.638, 0.858, 0.882, 4854, True
+"GO:0003723", "RNA binding", 6.327, 6.559, -0.036, 2.854, -1.398, 0.933, 0.323, -1, False
+"GO:0016725", "oxidoreductase activity, acting on CH or CH2 groups", 0.027, 3.894, 4.264, 0.602, -1.347, 0.888, 0.327, -1, False
+"GO:0022836", "gated channel activity", 1.695, 2.721, -5.713, 2.283, -1.398, 0.831, 0.408, -1, False
+"GO:0022839", "ion gated channel activity", 0.115, null, null, 1.146, -1.481, 0.851, 0.670, 22836, True
+"GO:0005118", "sevenless binding", 0.035, -5.782, -1.286, 0.699, -1.469, 0.924, 0.437, -1, False
+"GO:0015562", "efflux transmembrane transporter activity", 0.071, 2.459, -6.337, 0.954, -1.347, 0.878, 0.444, -1, False
+"GO:0004890", "GABA-A receptor activity", 0.035, -0.979, 5.997, 0.699, -1.638, 0.892, 0.450, -1, False
+"GO:0022851", "GABA-gated chloride ion channel activity", 0.027, null, null, 0.602, -1.469, 0.741, 0.912, 4890, True
+"GO:0015026", "coreceptor activity", 0.062, -0.545, 6.445, 0.903, -1.469, 0.920, 0.468, -1, False
+"GO:0033134", "ubiquitin activating enzyme binding", 0.027, -4.524, -4.718, 0.602, -1.347, 0.909, 0.494, -1, False
+"GO:0044388", "small protein activating enzyme binding", 0.027, -4.020, -4.198, 0.602, -1.347, 0.909, 0.494, -1, False

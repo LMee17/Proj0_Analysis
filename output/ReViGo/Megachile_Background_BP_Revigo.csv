@@ -1,0 +1,88 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0007384", "specification of segmental identity, thorax", 0.026, 0.985, 7.097, 0.602, -2.292, 0.913, 0.000, -1, False
+"GO:0007383", "specification of segmental identity, antennal segment", 0.018, null, null, 0.477, -1.991, 0.895, 0.683, 7384, True
+"GO:0007380", "specification of segmental identity, head", 0.097, null, null, 1.079, -1.395, 0.888, 0.806, 7384, True
+"GO:0035288", "anterior head segmentation", 0.070, null, null, 0.954, -1.517, 0.892, 0.912, 7384, True
+"GO:0072583", "clathrin-dependent endocytosis", 0.185, -5.165, -2.828, 1.342, -2.432, 0.895, 0.000, -1, False
+"GO:1903061", "positive regulation of protein lipidation", 0.018, -5.439, 3.959, 0.477, -2.292, 0.889, 0.000, -1, False
+"GO:1903461", "Okazaki fragment processing involved in mitotic DNA replication", 0.009, 6.579, -1.096, 0.301, -2.292, 0.881, 0.013, -1, False
+"GO:0097062", "dendritic spine maintenance", 0.018, 0.168, -2.187, 0.477, -2.292, 0.945, 0.013, -1, False
+"GO:0045762", "positive regulation of adenylate cyclase activity", 0.009, -1.544, -7.238, 0.301, -2.292, 0.961, 0.056, -1, False
+"GO:0097017", "renal protein absorption", 0.018, 0.136, -7.505, 0.477, -1.991, 0.921, 0.093, -1, False
+"GO:0070293", "renal absorption", 0.018, null, null, 0.477, -1.991, 0.921, 0.716, 97017, True
+"GO:0097206", "nephrocyte filtration", 0.062, null, null, 0.903, -1.452, 0.916, 0.772, 97017, True
+"GO:0097205", "renal filtration", 0.062, null, null, 0.903, -1.452, 0.916, 0.837, 97017, True
+"GO:0019932", "second-messenger-mediated signaling", 0.626, 7.091, 2.655, 1.857, -1.590, 0.899, 0.098, -1, False
+"GO:0140053", "mitochondrial gene expression", 1.057, 6.485, -3.767, 2.083, -1.903, 0.910, 0.123, -1, False
+"GO:0032533", "regulation of follicle cell microvillus length", 0.009, -2.513, 1.892, 0.301, -2.292, 0.864, 0.123, -1, False
+"GO:0007299", "ovarian follicle cell-cell adhesion", 0.053, 3.410, 4.881, 0.845, -1.815, 0.883, 0.138, -1, False
+"GO:0090136", "epithelial cell-cell adhesion", 0.079, null, null, 1.000, -1.452, 0.971, 0.631, 7299, True
+"GO:0097065", "anterior head development", 0.070, 5.401, 5.442, 0.954, -1.517, 0.925, 0.147, -1, False
+"GO:0007029", "endoplasmic reticulum organization", 0.308, -0.023, -0.140, 1.556, -2.187, 0.899, 0.154, -1, False
+"GO:1990809", "endoplasmic reticulum tubular network membrane organization", 0.018, null, null, 0.477, -1.991, 0.888, 0.575, 7029, True
+"GO:0090158", "endoplasmic reticulum membrane organization", 0.035, null, null, 0.699, -1.815, 0.884, 0.695, 7029, True
+"GO:0071786", "endoplasmic reticulum tubular network organization", 0.044, null, null, 0.778, -1.693, 0.901, 0.735, 7029, True
+"GO:0090735", "DNA repair complex assembly", 0.026, 0.363, 1.731, 0.602, -1.693, 0.918, 0.158, -1, False
+"GO:0034628", "'de novo' NAD biosynthetic process from aspartate", 0.009, 4.156, -4.590, 0.301, -2.292, 0.862, 0.204, -1, False
+"GO:0006105", "succinate metabolic process", 0.009, null, null, 0.301, -1.991, 0.929, 0.620, 34628, True
+"GO:0006540", "glutamate decarboxylation to succinate", 0.013, null, null, 0.301, -2.292, 0.916, 0.634, 34628, True
+"GO:0051222", "positive regulation of protein transport", 0.317, -3.689, 5.577, 1.568, -2.056, 0.778, 0.218, -1, False
+"GO:0003400", "regulation of COPII vesicle coating", 0.035, null, null, 0.699, -1.693, 0.807, 0.508, 51222, True
+"GO:0048209", "regulation of vesicle targeting, to, from or within Golgi", 0.009, null, null, 0.301, -1.595, 0.864, 0.515, 51222, True
+"GO:2000369", "regulation of clathrin-dependent endocytosis", 0.070, null, null, 0.954, -1.395, 0.812, 0.582, 51222, True
+"GO:0060628", "regulation of ER to Golgi vesicle-mediated transport", 0.070, null, null, 0.954, -1.517, 0.820, 0.677, 51222, True
+"GO:0070861", "regulation of protein exit from endoplasmic reticulum", 0.044, null, null, 0.778, -1.815, 0.816, 0.766, 51222, True
+"GO:0070863", "positive regulation of protein exit from endoplasmic reticulum", 0.018, null, null, 0.477, -1.991, 0.792, 0.793, 51222, True
+"GO:0061356", "regulation of Wnt protein secretion", 0.088, null, null, 1.041, -1.395, 0.811, 0.808, 51222, True
+"GO:2000370", "positive regulation of clathrin-dependent endocytosis", 0.053, null, null, 0.845, -1.517, 0.784, 0.819, 51222, True
+"GO:0061357", "positive regulation of Wnt protein secretion", 0.088, null, null, 1.041, -1.395, 0.777, 0.893, 51222, True
+"GO:0048260", "positive regulation of receptor-mediated endocytosis", 0.185, null, null, 1.342, -1.345, 0.767, 0.895, 51222, True
+"GO:0090113", "regulation of ER to Golgi vesicle-mediated transport by GTP hydrolysis", 0.035, null, null, 0.699, -1.693, 0.822, 0.912, 51222, True
+"GO:0042694", "muscle cell fate specification", 0.062, 2.501, 6.346, 0.903, -1.452, 0.923, 0.222, -1, False
+"GO:0045500", "sevenless signaling pathway", 0.150, null, null, 1.255, -1.395, 0.828, 0.507, 42694, True
+"GO:0048081", "positive regulation of cuticle pigmentation", 0.026, -3.145, 6.178, 0.602, -1.815, 0.878, 0.224, -1, False
+"GO:0045823", "positive regulation of heart contraction", 0.062, null, null, 0.903, -1.595, 0.878, 0.508, 48081, True
+"GO:0050775", "positive regulation of dendrite morphogenesis", 0.106, null, null, 1.114, -1.345, 0.759, 0.558, 48081, True
+"GO:0048087", "positive regulation of developmental pigmentation", 0.044, null, null, 0.778, -1.517, 0.895, 0.765, 48081, True
+"GO:1903524", "positive regulation of blood circulation", 0.062, null, null, 0.903, -1.595, 0.878, 0.810, 48081, True
+"GO:0042066", "perineurial glial growth", 0.044, 3.281, 6.183, 0.778, -1.693, 0.902, 0.253, -1, False
+"GO:0042065", "glial cell growth", 0.070, null, null, 0.954, -1.452, 0.899, 0.710, 42066, True
+"GO:0032527", "protein exit from endoplasmic reticulum", 0.350, -4.687, -4.206, 1.602, -1.815, 0.883, 0.254, -1, False
+"GO:0009306", "protein secretion", 0.520, null, null, 1.778, -1.402, 0.883, 0.526, 32527, True
+"GO:0002790", "peptide secretion", 0.529, null, null, 1.785, -1.341, 0.917, 0.760, 32527, True
+"GO:0035592", "establishment of protein localization to extracellular region", 0.555, null, null, 1.806, -1.377, 0.908, 0.976, 32527, True
+"GO:0045752", "positive regulation of Toll signaling pathway", 0.317, -4.160, 5.190, 1.568, -1.693, 0.868, 0.272, -1, False
+"GO:0045742", "positive regulation of epidermal growth factor receptor signaling pathway", 0.088, null, null, 1.041, -1.345, 0.871, 0.504, 45752, True
+"GO:1901186", "positive regulation of ERBB signaling pathway", 0.088, null, null, 1.041, -1.345, 0.871, 0.793, 45752, True
+"GO:0046839", "phospholipid dephosphorylation", 0.220, 1.771, -6.361, 1.415, -1.345, 0.930, 0.291, -1, False
+"GO:0046856", "phosphatidylinositol dephosphorylation", 0.141, null, null, 1.230, -1.452, 0.930, 0.714, 46839, True
+"GO:1903051", "negative regulation of proteolysis involved in cellular protein catabolic process", 0.088, -6.403, 2.451, 1.041, -1.452, 0.897, 0.333, -1, False
+"GO:0042177", "negative regulation of protein catabolic process", 0.106, null, null, 1.114, -1.395, 0.905, 0.775, 1903051, True
+"GO:1903363", "negative regulation of cellular protein catabolic process", 0.097, null, null, 1.079, -1.452, 0.897, 0.980, 1903051, True
+"GO:0090646", "mitochondrial tRNA processing", 0.088, 6.380, -2.515, 1.041, -1.452, 0.860, 0.355, -1, False
+"GO:0034471", "ncRNA 5'-end processing", 0.167, null, null, 1.301, -1.395, 0.844, 0.537, 90646, True
+"GO:0001682", "tRNA 5'-leader removal", 0.088, null, null, 1.041, -1.452, 0.846, 0.951, 90646, True
+"GO:0099116", "tRNA 5'-end processing", 0.097, null, null, 1.079, -1.452, 0.845, 0.957, 90646, True
+"GO:0031936", "negative regulation of chromatin silencing", 0.132, -4.558, 3.866, 1.204, -1.345, 0.857, 0.361, -1, False
+"GO:0010777", "meiotic mismatch repair involved in reciprocal meiotic recombination", 0.009, 4.699, 0.136, 0.301, -2.292, 0.808, 0.377, -1, False
+"GO:0042148", "strand invasion", 0.035, null, null, 0.699, -1.693, 0.861, 0.543, 10777, True
+"GO:0000730", "DNA recombinase assembly", 0.026, null, null, 0.602, -1.693, 0.793, 0.579, 10777, True
+"GO:0006312", "mitotic recombination", 0.044, null, null, 0.778, -1.345, 0.860, 0.598, 10777, True
+"GO:0000707", "meiotic DNA recombinase assembly", 0.009, null, null, 0.301, -1.815, 0.794, 0.937, 10777, True
+"GO:0042795", "snRNA transcription by RNA polymerase II", 0.053, 5.553, -3.042, 0.845, -1.595, 0.868, 0.388, -1, False
+"GO:0009301", "snRNA transcription", 0.053, null, null, 0.845, -1.517, 0.868, 0.815, 42795, True
+"GO:0035803", "egg coat formation", 0.115, 3.849, 4.833, 1.146, -1.693, 0.894, 0.391, -1, False
+"GO:0006901", "vesicle coating", 0.018, -3.648, -2.261, 0.477, -1.693, 0.839, 0.398, -1, False
+"GO:0090114", "COPII-coated vesicle budding", 0.053, null, null, 0.845, -1.395, 0.817, 0.788, 6901, True
+"GO:0048199", "vesicle targeting, to, from or within Golgi", 0.018, -5.555, -3.122, 0.477, -1.595, 0.883, 0.398, -1, False
+"GO:0048208", "COPII vesicle coating", 0.009, null, null, 0.301, -1.693, 0.798, 0.752, 48199, True
+"GO:0048207", "vesicle targeting, rough ER to cis-Golgi", 0.009, null, null, 0.301, -1.693, 0.880, 0.926, 48199, True
+"GO:0006266", "DNA ligation", 0.035, 6.153, -1.354, 0.699, -1.815, 0.874, 0.407, -1, False
+"GO:0000966", "RNA 5'-end processing", 0.167, 5.965, -2.556, 1.301, -1.395, 0.869, 0.422, -1, False
+"GO:0045022", "early endosome to late endosome transport", 0.053, -4.989, -3.396, 0.845, -1.452, 0.899, 0.430, -1, False
+"GO:0098927", "vesicle-mediated transport between endosomal compartments", 0.053, -5.616, -2.462, 0.845, -1.395, 0.903, 0.430, -1, False
+"GO:0071692", "protein localization to extracellular region", 0.590, -4.146, -4.813, 1.833, -1.377, 0.928, 0.460, -1, False
+"GO:0009450", "gamma-aminobutyric acid catabolic process", 0.018, 3.387, -6.762, 0.477, -2.292, 0.925, 0.463, -1, False
+"GO:0007305", "vitelline membrane formation involved in chorion-containing eggshell formation", 0.115, 2.334, 3.814, 1.146, -1.693, 0.820, 0.498, -1, False
+"GO:0085029", "extracellular matrix assembly", 0.176, null, null, 1.322, -1.345, 0.896, 0.783, 7305, True
+"GO:0030704", "vitelline membrane formation", 0.115, null, null, 1.146, -1.693, 0.823, 0.999, 7305, True

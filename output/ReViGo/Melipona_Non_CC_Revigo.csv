@@ -1,0 +1,21 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0043679", "axon terminus", 0.633, 0.507, 7.345, 1.875, -2.292, 0.663, 0.000, -1, False
+"GO:0005918", "septate junction", 0.282, null, null, 1.531, -2.009, 0.792, 0.523, 43679, True
+"GO:0097060", "synaptic membrane", 0.719, null, null, 1.929, -1.366, 0.716, 0.637, 43679, True
+"GO:0061174", "type I terminal bouton", 0.231, null, null, 1.447, -1.429, 0.682, 0.901, 43679, True
+"GO:0043195", "terminal bouton", 0.573, null, null, 1.833, -1.570, 0.664, 0.981, 43679, True
+"GO:0060187", "cell pole", 0.034, 5.084, -0.135, 0.699, -1.593, 0.995, 0.003, -1, False
+"GO:0090533", "cation-transporting ATPase complex", 0.428, -5.703, -1.738, 1.708, -1.593, 0.731, 0.004, -1, False
+"GO:0005890", "sodium:potassium-exchanging ATPase complex", 0.060, null, null, 0.903, -1.593, 0.706, 0.733, 90533, True
+"GO:0098533", "ATPase dependent transmembrane transport complex", 0.120, null, null, 1.176, -1.421, 0.710, 0.775, 90533, True
+"GO:0048471", "perinuclear region of cytoplasm", 0.804, 4.768, 3.369, 1.978, -1.614, 0.951, 0.004, -1, False
+"GO:0016529", "sarcoplasmic reticulum", 0.094, 3.850, -3.390, 1.079, -1.593, 0.942, 0.089, -1, False
+"GO:0005776", "autophagosome", 0.308, -2.971, -6.711, 1.568, -1.307, 0.937, 0.099, -1, False
+"GO:0045169", "fusome", 0.334, 1.085, -5.731, 1.602, -1.307, 0.954, 0.100, -1, False
+"GO:0008232", "activator ecdysone receptor complex", 0.017, -5.422, 4.053, 0.477, -1.593, 0.787, 0.157, -1, False
+"GO:0008230", "ecdysone receptor holocomplex", 0.034, null, null, 0.699, -1.421, 0.779, 0.556, 8232, True
+"GO:1990124", "messenger ribonucleoprotein complex", 0.145, -7.361, 0.338, 1.255, -1.421, 0.841, 0.185, -1, False
+"GO:1990204", "oxidoreductase complex", 0.787, -4.122, 0.248, 1.968, -1.426, 0.792, 0.215, -1, False
+"GO:0005697", "telomerase holoenzyme complex", 0.026, -6.673, 2.375, 0.602, -1.421, 0.785, 0.387, -1, False
+"GO:0035097", "histone methyltransferase complex", 0.394, -4.949, 1.973, 1.672, -1.366, 0.722, 0.429, -1, False
+"GO:0044292", "dendrite terminus", 0.026, 1.253, 6.880, 0.602, -1.893, 0.862, 0.452, -1, False

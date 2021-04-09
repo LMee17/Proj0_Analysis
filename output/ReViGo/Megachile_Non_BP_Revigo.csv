@@ -1,0 +1,13 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0008315", "G2/MI transition of meiotic cell cycle", 0.026, -4.622, -3.880, 0.602, -2.943, 0.886, 0.000, -1, False
+"GO:0009650", "UV protection", 0.026, 5.450, 2.507, 0.602, -2.943, 0.889, 0.000, -1, False
+"GO:0070935", "3'-UTR-mediated mRNA stabilization", 0.018, -2.637, 4.911, 0.477, -3.244, 0.870, 0.000, -1, False
+"GO:0019985", "translesion synthesis", 0.070, 4.509, -2.737, 0.954, -2.467, 0.535, 0.140, -1, False
+"GO:0000724", "double-strand break repair via homologous recombination", 0.538, null, null, 1.792, -1.691, 0.460, 0.632, 19985, True
+"GO:0006310", "DNA recombination", 0.881, null, null, 2.004, -1.478, 0.515, 0.706, 19985, True
+"GO:0006302", "double-strand break repair", 0.811, null, null, 1.968, -1.509, 0.465, 0.786, 19985, True
+"GO:0000725", "recombinational repair", 0.538, null, null, 1.792, -1.691, 0.460, 0.897, 19985, True
+"GO:0070475", "rRNA base methylation", 0.062, 3.326, -5.071, 0.903, -2.342, 0.724, 0.282, -1, False
+"GO:0045924", "regulation of female receptivity", 0.326, -5.001, -0.141, 1.580, -2.166, 0.831, 0.290, -1, False
+"GO:0048137", "spermatocyte division", 0.132, -5.867, -2.367, 1.204, -2.041, 0.873, 0.352, -1, False
+"GO:0045948", "positive regulation of translational initiation", 0.044, -1.054, 6.319, 0.778, -2.767, 0.901, 0.481, -1, False

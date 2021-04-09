@@ -1,0 +1,21 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0009405", "pathogenesis", 0.969, 5.325, 0.864, 2.045, -2.721, 1.000, 0.000, -1, False
+"GO:0032259", "methylation", 1.410, -2.030, -6.785, 2.207, -3.167, 0.864, 0.000, -1, False
+"GO:2000211", "regulation of glutamate metabolic process", 0.009, 2.396, -4.601, 0.301, -2.421, 0.973, 0.000, -1, False
+"GO:0090364", "regulation of proteasome assembly", 0.018, 4.216, 4.502, 0.477, -2.421, 0.984, 0.075, -1, False
+"GO:0030259", "lipid glycosylation", 0.018, -0.086, 7.153, 0.477, -2.421, 0.661, 0.078, -1, False
+"GO:0035269", "protein O-linked mannosylation", 0.115, null, null, 1.146, -1.879, 0.530, 0.575, 30259, True
+"GO:0097502", "mannosylation", 0.238, null, null, 1.447, -1.450, 0.656, 0.692, 30259, True
+"GO:0006493", "protein O-linked glycosylation", 0.344, null, null, 1.602, -1.450, 0.520, 0.757, 30259, True
+"GO:0035268", "protein mannosylation", 0.123, null, null, 1.176, -1.821, 0.528, 0.895, 30259, True
+"GO:0031167", "rRNA methylation", 0.167, -6.531, 1.166, 1.301, -3.367, 0.539, 0.094, -1, False
+"GO:0018364", "peptidyl-glutamine methylation", 0.026, null, null, 0.602, -2.421, 0.671, 0.588, 31167, True
+"GO:0000154", "rRNA modification", 0.238, null, null, 1.447, -2.987, 0.589, 0.721, 31167, True
+"GO:0070476", "rRNA (guanine-N7)-methylation", 0.018, null, null, 0.477, -2.421, 0.588, 0.802, 31167, True
+"GO:0030488", "tRNA methylation", 0.238, null, null, 1.447, -1.612, 0.540, 0.826, 31167, True
+"GO:0071712", "ER-associated misfolded protein catabolic process", 0.070, -4.362, -2.130, 0.954, -2.245, 0.796, 0.152, -1, False
+"GO:0006109", "regulation of carbohydrate metabolic process", 0.220, 3.591, -3.053, 1.415, -1.497, 0.972, 0.182, -1, False
+"GO:0070212", "protein poly-ADP-ribosylation", 0.018, -6.993, -2.508, 0.477, -2.721, 0.777, 0.194, -1, False
+"GO:0006390", "mitochondrial transcription", 0.079, -4.987, 3.220, 1.000, -1.945, 0.645, 0.352, -1, False
+"GO:0008611", "ether lipid biosynthetic process", 0.026, -1.610, 6.490, 0.602, -2.245, 0.780, 0.382, -1, False
+"GO:0000959", "mitochondrial RNA metabolic process", 0.238, -6.752, 2.807, 1.447, -1.473, 0.710, 0.384, -1, False

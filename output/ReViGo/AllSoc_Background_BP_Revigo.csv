@@ -1,0 +1,88 @@
+TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0007526", "larval somatic muscle development", 0.300, -4.675, 2.070, 1.544, -2.745, 0.813, 0.000, -1, False
+"GO:0016204", "determination of muscle attachment site", 0.062, null, null, 0.903, -1.839, 0.844, 0.600, 7526, True
+"GO:0042694", "muscle cell fate specification", 0.062, null, null, 0.903, -1.839, 0.845, 0.600, 7526, True
+"GO:0042693", "muscle cell fate commitment", 0.123, null, null, 1.176, -1.572, 0.838, 0.664, 7526, True
+"GO:0035167", "larval lymph gland hemopoiesis", 0.388, null, null, 1.653, -2.553, 0.803, 0.736, 7526, True
+"GO:0035171", "lamellocyte differentiation", 0.044, null, null, 0.778, -1.572, 0.806, 0.833, 7526, True
+"GO:0035168", "larval lymph gland hemocyte differentiation", 0.123, null, null, 1.176, -1.456, 0.792, 0.903, 7526, True
+"GO:0009608", "response to symbiont", 0.044, -2.295, 7.263, 0.778, -2.081, 0.970, 0.000, -1, False
+"GO:0010876", "lipid localization", 0.881, -2.959, -6.178, 2.004, -1.932, 0.946, 0.000, -1, False
+"GO:0042593", "glucose homeostasis", 0.405, -1.063, -2.156, 1.672, -2.921, 0.910, 0.000, -1, False
+"GO:0001678", "cellular glucose homeostasis", 0.088, null, null, 1.041, -2.678, 0.902, 0.846, 42593, True
+"GO:1903461", "Okazaki fragment processing involved in mitotic DNA replication", 0.009, 5.882, -0.567, 0.301, -2.678, 0.882, 0.000, -1, False
+"GO:0006334", "nucleosome assembly", 0.317, -6.831, -2.794, 1.568, -1.456, 0.912, 0.013, -1, False
+"GO:0043486", "histone exchange", 0.326, null, null, 1.580, -1.409, 0.912, 0.866, 6334, True
+"GO:0051156", "glucose 6-phosphate metabolic process", 0.115, 4.907, 4.374, 1.146, -1.983, 0.796, 0.071, -1, False
+"GO:0010975", "regulation of neuron projection development", 0.864, 4.730, -5.064, 1.996, -1.975, 0.840, 0.097, -1, False
+"GO:0031344", "regulation of cell projection organization", 1.251, null, null, 2.155, -1.730, 0.880, 0.549, 10975, True
+"GO:0048680", "positive regulation of axon regeneration", 0.070, null, null, 0.954, -1.839, 0.766, 0.725, 10975, True
+"GO:0070570", "regulation of neuron projection regeneration", 0.088, null, null, 1.041, -1.728, 0.790, 0.739, 10975, True
+"GO:0048814", "regulation of dendrite morphogenesis", 0.291, null, null, 1.531, -1.310, 0.813, 0.822, 10975, True
+"GO:1903036", "positive regulation of response to wounding", 0.194, null, null, 1.362, -1.483, 0.851, 0.877, 10975, True
+"GO:0120035", "regulation of plasma membrane bounded cell projection organization", 1.216, null, null, 2.143, -1.730, 0.837, 0.944, 10975, True
+"GO:0070572", "positive regulation of neuron projection regeneration", 0.070, null, null, 0.954, -1.839, 0.773, 0.968, 10975, True
+"GO:0048679", "regulation of axon regeneration", 0.088, null, null, 1.041, -1.728, 0.769, 0.984, 10975, True
+"GO:0005975", "carbohydrate metabolic process", 2.265, 2.711, 6.433, 2.412, -1.724, 0.932, 0.108, -1, False
+"GO:1903034", "regulation of response to wounding", 0.264, 2.617, -6.571, 1.491, -1.387, 0.871, 0.114, -1, False
+"GO:0035203", "regulation of lamellocyte differentiation", 0.097, 0.122, 6.692, 1.079, -1.684, 0.866, 0.115, -1, False
+"GO:1903706", "regulation of hemopoiesis", 0.106, null, null, 1.114, -1.572, 0.878, 0.556, 35203, True
+"GO:0045664", "regulation of neuron differentiation", 0.696, null, null, 1.903, -1.587, 0.863, 0.610, 35203, True
+"GO:0045613", "regulation of plasmatocyte differentiation", 0.097, null, null, 1.079, -1.684, 0.868, 0.892, 35203, True
+"GO:0048678", "response to axon injury", 0.088, -3.524, 7.060, 1.041, -1.456, 0.963, 0.147, -1, False
+"GO:0035291", "specification of segmental identity, intercalary segment", 0.009, -3.578, 3.753, 0.301, -2.678, 0.906, 0.162, -1, False
+"GO:0035289", "posterior head segmentation", 0.115, null, null, 1.146, -1.642, 0.892, 0.780, 35291, True
+"GO:0042387", "plasmatocyte differentiation", 0.115, -6.979, 1.577, 1.146, -1.539, 0.825, 0.166, -1, False
+"GO:0006955", "immune response", 1.798, null, null, 2.312, -1.310, 0.915, 0.632, 42387, True
+"GO:0031099", "regeneration", 0.264, -5.711, 3.851, 1.491, -1.409, 0.908, 0.186, -1, False
+"GO:0042866", "pyruvate biosynthetic process", 0.009, 3.249, -0.390, 0.301, -1.684, 0.843, 0.204, -1, False
+"GO:0006090", "pyruvate metabolic process", 0.397, null, null, 1.663, -1.328, 0.821, 0.544, 42866, True
+"GO:0006096", "glycolytic process", 0.238, null, null, 1.447, -1.606, 0.672, 0.716, 42866, True
+"GO:0009185", "ribonucleoside diphosphate metabolic process", 0.300, null, null, 1.544, -1.432, 0.694, 0.941, 42866, True
+"GO:0009135", "purine nucleoside diphosphate metabolic process", 0.282, null, null, 1.519, -1.432, 0.695, 0.955, 42866, True
+"GO:0046031", "ADP metabolic process", 0.256, null, null, 1.477, -1.539, 0.693, 0.975, 42866, True
+"GO:0006165", "nucleoside diphosphate phosphorylation", 0.291, null, null, 1.531, -1.456, 0.686, 0.975, 42866, True
+"GO:0006757", "ATP generation from ADP", 0.238, null, null, 1.447, -1.606, 0.687, 0.986, 42866, True
+"GO:0009179", "purine ribonucleoside diphosphate metabolic process", 0.282, null, null, 1.519, -1.432, 0.692, 0.989, 42866, True
+"GO:0072525", "pyridine-containing compound biosynthetic process", 0.106, 4.992, -0.217, 1.114, -1.483, 0.804, 0.235, -1, False
+"GO:0019359", "nicotinamide nucleotide biosynthetic process", 0.070, null, null, 0.954, -1.572, 0.714, 0.938, 72525, True
+"GO:0019362", "pyridine nucleotide metabolic process", 0.088, null, null, 1.041, -1.328, 0.713, 0.953, 72525, True
+"GO:0019363", "pyridine nucleotide biosynthetic process", 0.070, null, null, 0.954, -1.572, 0.714, 0.968, 72525, True
+"GO:0046496", "nicotinamide nucleotide metabolic process", 0.088, null, null, 1.041, -1.328, 0.710, 0.984, 72525, True
+"GO:0048193", "Golgi vesicle transport", 1.207, -4.272, -5.540, 2.140, -1.747, 0.913, 0.272, -1, False
+"GO:0090277", "positive regulation of peptide hormone secretion", 0.070, 0.315, -4.359, 0.954, -2.081, 0.885, 0.292, -1, False
+"GO:0015748", "organophosphate ester transport", 0.344, -3.619, -5.811, 1.602, -1.432, 0.944, 0.301, -1, False
+"GO:0048813", "dendrite morphogenesis", 1.181, -5.788, 0.570, 2.130, -1.627, 0.761, 0.321, -1, False
+"GO:0031102", "neuron projection regeneration", 0.062, null, null, 0.903, -1.572, 0.788, 0.539, 48813, True
+"GO:0016199", "axon midline choice point recognition", 0.220, null, null, 1.415, -1.432, 0.770, 0.618, 48813, True
+"GO:0031175", "neuron projection development", 3.657, null, null, 2.619, -1.439, 0.744, 0.747, 48813, True
+"GO:0016198", "axon choice point recognition", 0.238, null, null, 1.447, -1.409, 0.768, 0.749, 48813, True
+"GO:0016358", "dendrite development", 1.234, null, null, 2.149, -1.573, 0.761, 0.751, 48813, True
+"GO:0031103", "axon regeneration", 0.044, null, null, 0.778, -1.572, 0.783, 0.783, 48813, True
+"GO:0046835", "carbohydrate phosphorylation", 0.167, 4.074, 4.427, 1.301, -1.728, 0.819, 0.342, -1, False
+"GO:0045476", "nurse cell apoptotic process", 0.123, -6.594, 2.479, 1.176, -1.456, 0.853, 0.347, -1, False
+"GO:1902742", "apoptotic process involved in development", 0.150, null, null, 1.255, -1.409, 0.888, 0.677, 45476, True
+"GO:1904892", "regulation of receptor signaling pathway via STAT", 0.238, 2.153, -5.869, 1.447, -1.347, 0.884, 0.379, -1, False
+"GO:0045332", "phospholipid translocation", 0.115, -3.471, -3.963, 1.146, -1.903, 0.791, 0.394, -1, False
+"GO:0097035", "regulation of membrane lipid distribution", 0.132, null, null, 1.204, -1.728, 0.844, 0.558, 45332, True
+"GO:0015914", "phospholipid transport", 0.229, null, null, 1.431, -1.642, 0.921, 0.880, 45332, True
+"GO:0034204", "lipid translocation", 0.123, null, null, 1.176, -1.839, 0.793, 0.983, 45332, True
+"GO:0006266", "DNA ligation", 0.035, 6.608, -0.109, 0.699, -2.201, 0.877, 0.407, -1, False
+"GO:0046427", "positive regulation of receptor signaling pathway via JAK-STAT", 0.097, 1.684, -6.183, 1.079, -1.728, 0.859, 0.439, -1, False
+"GO:1904894", "positive regulation of receptor signaling pathway via STAT", 0.097, null, null, 1.079, -1.728, 0.859, 0.869, 46427, True
+"GO:0046425", "regulation of receptor signaling pathway via JAK-STAT", 0.238, null, null, 1.447, -1.347, 0.860, 0.929, 46427, True
+"GO:0018107", "peptidyl-threonine phosphorylation", 0.167, 5.084, 2.929, 1.301, -1.510, 0.809, 0.464, -1, False
+"GO:0009166", "nucleotide catabolic process", 0.167, 4.715, 2.005, 1.301, -1.510, 0.727, 0.474, -1, False
+"GO:0046434", "organophosphate catabolic process", 0.458, null, null, 1.724, -1.347, 0.775, 0.530, 9166, True
+"GO:0009132", "nucleoside diphosphate metabolic process", 0.370, null, null, 1.633, -1.310, 0.725, 0.633, 9166, True
+"GO:1901292", "nucleoside phosphate catabolic process", 0.194, null, null, 1.362, -1.483, 0.724, 0.891, 9166, True
+"GO:0048056", "R3/R4 cell differentiation", 0.141, -5.583, 1.792, 1.230, -1.572, 0.813, 0.479, -1, False
+"GO:0007464", "R3/R4 cell fate commitment", 0.106, null, null, 1.114, -1.606, 0.804, 0.619, 48056, True
+"GO:0045467", "R7 cell development", 0.123, null, null, 1.176, -1.409, 0.807, 0.626, 48056, True
+"GO:0048194", "Golgi vesicle budding", 0.018, -5.018, -4.431, 0.477, -1.642, 0.871, 0.485, -1, False
+"GO:0006890", "retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum", 0.194, null, null, 1.362, -1.409, 0.919, 0.586, 48194, True
+"GO:0006900", "vesicle budding from membrane", 0.167, null, null, 1.301, -1.483, 0.856, 0.618, 48194, True
+"GO:0046939", "nucleotide phosphorylation", 0.300, 4.397, 4.120, 1.544, -1.456, 0.815, 0.486, -1, False
+"GO:0044719", "regulation of imaginal disc-derived wing size", 0.115, -3.797, 0.347, 1.146, -1.483, 0.786, 0.495, -1, False
+"GO:0018210", "peptidyl-threonine modification", 0.176, 6.327, -2.049, 1.322, -1.483, 0.910, 0.495, -1, False
+"GO:0048580", "regulation of post-embryonic development", 0.044, 0.171, 7.253, 0.778, -1.456, 0.888, 0.496, -1, False
