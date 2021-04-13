@@ -24,8 +24,19 @@ I've written a script that does everything I need here.
 source("Scripts/makeUpsetR.R", local = knitr::knit_global())
 ```
 
-##Canon versus Noncanon (input)
+All Upset plots were made in the Script MakePlots.R
 
-##Apidae Socialities
+I have new GO term lists from ReViGo which have reduced the GO terms to more broad parent terms. It will be using this I'll be making any manuscript level figures with but I need to make the tables I needed for UpSetR to do so.
 
-##Halictidae 
+I manually picked out terms that looked to be immune from the ReViGo results and put them into a list (below).
+
+```{r}
+go.immune <- read.table("Genome_Misc/ImmGOterms_GUS.txt", header = F)
+head(go.immune)
+```
+
+```{r}
+
+```
+
+

@@ -261,19 +261,34 @@ library(&quot;UpSetR&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<div id="canon-versus-noncanon-input" class="section level2">
-<h2>Canon versus Noncanon (input)</h2>
-</div>
-<div id="apidae-socialities" class="section level2">
-<h2>Apidae Socialities</h2>
-</div>
-<div id="halictidae" class="section level2">
-<h2>Halictidae</h2>
+<p>All Upset plots were made in the Script MakePlots.R</p>
+<p>I have new GO term lists from ReViGo which have reduced the GO terms to more broad parent terms. It will be using this I'll be making any manuscript level figures with but I need to make the tables I needed for UpSetR to do so.</p>
+<p>I manually picked out terms that looked to be immune from the ReViGo results and put them into a list (below).</p>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGVhZChnby5pbW11bmUpXG5cbmBgYCJ9 -->
+<pre class="r"><code>head(go.immune)
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgIFYxXG4xIEdPOjAwMDg2MzFcbjIgR086MTkwMjg4MlxuMyBHTzoxOTAyMTc1XG40IEdPOjAwMDk0MDVcbjUgR086MDAwOTQwNVxuNiBHTzowMDUyMzcyXG4ifQ== -->
+<pre><code>          V1
+1 GO:0008631
+2 GO:1902882
+3 GO:1902175
+4 GO:0009405
+5 GO:0009405
+6 GO:0052372</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 </div>
-</div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiVXBTZXRSX1dvcmtib29rIgpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sKLS0tCgojQ29tcGFyaXNvbnMKCk5vdyB0aGF0IEkgaGF2ZSBHTyB0ZXJtcyBhbmQgZ2VuZXMgdW5kZXIgc2VsZWN0aW9uLCBpdHMgcHJ1ZGVudCB0byBjb21wYXJlLiBMZXQncyBzZWUgd2hhdCB1cHNldFIgaXMgc2F5aW5nLgoKYGBge3J9Cmluc3RhbGwucGFja2FnZXMoIlVwU2V0UiIpCmxpYnJhcnkoIlVwU2V0UiIpCmBgYAoKSSd2ZSB3cml0dGVuIGEgc2NyaXB0IHRoYXQgZG9lcyBldmVyeXRoaW5nIEkgbmVlZCBoZXJlLgoKMS4gTWFrZXMgdGFibGVzIG9mIEdPdGVybXMgYmFzZWQgb24gYWJzZW5jZSAvIHByZXNlbmNlICgxLzApIGluIGVhY2ggbGluZWFnZS9zb2NpYWxpdHkKCjIuIE1ha2VzIG1hc3RlciB0YWJsZXMgYW5kIHNlcGFyYXRlIGltbXVuZSAvIHJhbmRvbSBvbmx5IHRhYmxlcwoKMy4gV3JpdGUgdGhlc2UgdGFibGVzIGluIGFuIG91dHB1dCBmb2xkZXIgCgpgYGB7cn0Kc291cmNlKCJTY3JpcHRzL21ha2VVcHNldFIuUiIsIGxvY2FsID0ga25pdHI6OmtuaXRfZ2xvYmFsKCkpCmBgYAoKIyNDYW5vbiB2ZXJzdXMgTm9uY2Fub24gKGlucHV0KQoKIyNBcGlkYWUgU29jaWFsaXRpZXMKCiMjSGFsaWN0aWRhZSA=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiVXBTZXRSX1dvcmtib29rIgpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sKLS0tCgojQ29tcGFyaXNvbnMKCk5vdyB0aGF0IEkgaGF2ZSBHTyB0ZXJtcyBhbmQgZ2VuZXMgdW5kZXIgc2VsZWN0aW9uLCBpdHMgcHJ1ZGVudCB0byBjb21wYXJlLiBMZXQncyBzZWUgd2hhdCB1cHNldFIgaXMgc2F5aW5nLgoKYGBge3J9Cmluc3RhbGwucGFja2FnZXMoIlVwU2V0UiIpCmxpYnJhcnkoIlVwU2V0UiIpCmBgYAoKSSd2ZSB3cml0dGVuIGEgc2NyaXB0IHRoYXQgZG9lcyBldmVyeXRoaW5nIEkgbmVlZCBoZXJlLgoKMS4gTWFrZXMgdGFibGVzIG9mIEdPdGVybXMgYmFzZWQgb24gYWJzZW5jZSAvIHByZXNlbmNlICgxLzApIGluIGVhY2ggbGluZWFnZS9zb2NpYWxpdHkKCjIuIE1ha2VzIG1hc3RlciB0YWJsZXMgYW5kIHNlcGFyYXRlIGltbXVuZSAvIHJhbmRvbSBvbmx5IHRhYmxlcwoKMy4gV3JpdGUgdGhlc2UgdGFibGVzIGluIGFuIG91dHB1dCBmb2xkZXIgCgpgYGB7cn0Kc291cmNlKCJTY3JpcHRzL21ha2VVcHNldFIuUiIsIGxvY2FsID0ga25pdHI6OmtuaXRfZ2xvYmFsKCkpCmBgYAoKQWxsIFVwc2V0IHBsb3RzIHdlcmUgbWFkZSBpbiB0aGUgU2NyaXB0IE1ha2VQbG90cy5SCgpJIGhhdmUgbmV3IEdPIHRlcm0gbGlzdHMgZnJvbSBSZVZpR28gd2hpY2ggaGF2ZSByZWR1Y2VkIHRoZSBHTyB0ZXJtcyB0byBtb3JlIGJyb2FkIHBhcmVudCB0ZXJtcy4gSXQgd2lsbCBiZSB1c2luZyB0aGlzIEknbGwgYmUgbWFraW5nIGFueSBtYW51c2NyaXB0IGxldmVsIGZpZ3VyZXMgd2l0aCBidXQgSSBuZWVkIHRvIG1ha2UgdGhlIHRhYmxlcyBJIG5lZWRlZCBmb3IgVXBTZXRSIHRvIGRvIHNvLgoKSSBtYW51YWxseSBwaWNrZWQgb3V0IHRlcm1zIHRoYXQgbG9va2VkIHRvIGJlIGltbXVuZSBmcm9tIHRoZSBSZVZpR28gcmVzdWx0cyBhbmQgcHV0IHRoZW0gaW50byBhIGxpc3QgKGJlbG93KS4KCmBgYHtyfQpnby5pbW11bmUgPC0gcmVhZC50YWJsZSgiR2Vub21lX01pc2MvSW1tR090ZXJtc19HVVMudHh0IiwgaGVhZGVyID0gRikKaGVhZChnby5pbW11bmUpCmBgYAoKYGBge3J9CgpgYGAKCgo=</div>
 
 
 
