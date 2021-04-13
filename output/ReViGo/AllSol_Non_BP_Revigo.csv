@@ -1,2 +1,2 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0006749", "glutathione metabolic process", 0.467, 0.995, 0.438, 1.732, -2.244, 1.000, 0.000, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0006749	glutathione_metabolic_process	0.467	0.995	0.438	1.732	-2.244	1.000	0.000	-1	False

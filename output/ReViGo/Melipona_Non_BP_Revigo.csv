@@ -1,116 +1,116 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0001510", "RNA methylation", 0.573, 6.261, -0.474, 1.820, -2.866, 0.866, 0.000, -1, False
-"GO:0070476", "rRNA (guanine-N7)-methylation", 0.018, null, null, 0.477, -1.566, 0.850, 0.650, 1510, True
-"GO:0036265", "RNA (guanine-N7)-methylation", 0.053, null, null, 0.845, -1.393, 0.881, 0.706, 1510, True
-"GO:0000154", "rRNA modification", 0.238, null, null, 1.447, -1.314, 0.830, 0.800, 1510, True
-"GO:0030488", "tRNA methylation", 0.238, null, null, 1.447, -1.885, 0.865, 0.800, 1510, True
-"GO:0031167", "rRNA methylation", 0.167, null, null, 1.301, -1.659, 0.828, 0.826, 1510, True
-"GO:0009405", "pathogenesis", 0.969, -0.088, -2.581, 2.045, -1.864, 0.959, 0.000, -1, False
-"GO:0046718", "viral entry into host cell", 0.220, null, null, 1.415, -1.393, 0.939, 0.584, 9405, True
-"GO:0051701", "biological process involved in interaction with host", 0.220, null, null, 1.415, -1.393, 0.940, 0.957, 9405, True
-"GO:0044409", "entry into host", 0.220, null, null, 1.415, -1.393, 0.939, 0.998, 9405, True
-"GO:0052126", "movement in host environment", 0.220, null, null, 1.415, -1.393, 0.939, 0.998, 9405, True
-"GO:0040007", "growth", 1.551, -2.454, -1.255, 2.248, -1.304, 1.000, 0.000, -1, False
-"GO:1905879", "regulation of oogenesis", 0.018, 1.137, 3.237, 0.477, -3.013, 0.887, 0.000, -1, False
-"GO:0060281", "regulation of oocyte development", 0.009, null, null, 0.301, -1.525, 0.891, 0.502, 1905879, True
-"GO:0030710", "regulation of border follicle cell delamination", 0.083, null, null, 1.000, -1.864, 0.880, 0.573, 1905879, True
-"GO:0007317", "regulation of pole plasm oskar mRNA localization", 0.220, null, null, 1.415, -1.525, 0.803, 0.683, 1905879, True
-"GO:1904580", "regulation of intracellular mRNA localization", 0.238, null, null, 1.447, -1.525, 0.828, 0.732, 1905879, True
-"GO:0022407", "regulation of cell-cell adhesion", 0.264, null, null, 1.491, -1.412, 0.898, 0.826, 1905879, True
-"GO:0007043", "cell-cell junction assembly", 0.529, 3.104, -6.788, 1.785, -2.081, 0.887, 0.019, -1, False
-"GO:0019991", "septate junction assembly", 0.317, null, null, 1.568, -1.834, 0.889, 0.909, 7043, True
-"GO:0120193", "tight junction organization", 0.344, null, null, 1.602, -1.773, 0.904, 0.916, 7043, True
-"GO:0043297", "apical junction assembly", 0.405, null, null, 1.672, -1.541, 0.888, 0.930, 7043, True
-"GO:0120192", "tight junction assembly", 0.344, null, null, 1.602, -1.773, 0.888, 0.990, 7043, True
-"GO:0007298", "border follicle cell migration", 0.837, -2.790, -5.454, 1.982, -2.472, 0.903, 0.020, -1, False
-"GO:0030714", "anterior/posterior axis specification, follicular epithelium", 0.026, null, null, 0.602, -1.566, 0.939, 0.547, 7298, True
-"GO:0006930", "substrate-dependent cell migration, cell extension", 0.026, null, null, 0.602, -1.393, 0.913, 0.565, 7298, True
-"GO:0006929", "substrate-dependent cell migration", 0.035, null, null, 0.699, -1.393, 0.960, 0.578, 7298, True
-"GO:0007315", "pole plasm assembly", 0.432, null, null, 1.699, -1.453, 0.870, 0.600, 7298, True
-"GO:1990845", "adaptive thermogenesis", 0.018, 5.277, 6.265, 0.477, -1.566, 0.971, 0.073, -1, False
-"GO:1905153", "regulation of membrane invagination", 0.018, -4.271, 5.189, 0.477, -1.864, 0.890, 0.078, -1, False
-"GO:1901569", "fatty acid derivative catabolic process", 0.018, 5.623, -5.310, 0.477, -1.864, 0.940, 0.082, -1, False
-"GO:0046952", "ketone body catabolic process", 0.009, null, null, 0.301, -1.864, 0.921, 0.629, 1901569, True
-"GO:1902224", "ketone body metabolic process", 0.026, null, null, 0.602, -1.566, 0.941, 0.670, 1901569, True
-"GO:0046950", "cellular ketone body metabolic process", 0.026, 6.311, 4.100, 0.602, -1.566, 0.946, 0.083, -1, False
-"GO:0010883", "regulation of lipid storage", 0.379, -0.853, 6.390, 1.643, -2.117, 0.811, 0.085, -1, False
-"GO:0043525", "positive regulation of neuron apoptotic process", 0.026, -2.832, 1.585, 0.602, -1.393, 0.887, 0.088, -1, False
-"GO:0016024", "CDP-diacylglycerol biosynthetic process", 0.018, 7.948, 1.748, 0.477, -1.864, 0.944, 0.091, -1, False
-"GO:0046341", "CDP-diacylglycerol metabolic process", 0.018, null, null, 0.477, -1.864, 0.949, 0.506, 16024, True
-"GO:0052372", "modulation by symbiont of entry into host", 0.053, -0.124, -0.212, 0.845, -1.566, 0.859, 0.093, -1, False
-"GO:0046598", "positive regulation of viral entry into host cell", 0.018, null, null, 0.477, -1.566, 0.834, 0.856, 52372, True
-"GO:0075294", "positive regulation by symbiont of entry into host", 0.018, null, null, 0.477, -1.566, 0.837, 0.872, 52372, True
-"GO:0048524", "positive regulation of viral process", 0.026, null, null, 0.602, -1.393, 0.835, 0.878, 52372, True
-"GO:0046596", "regulation of viral entry into host cell", 0.053, null, null, 0.845, -1.566, 0.857, 0.932, 52372, True
-"GO:1903902", "positive regulation of viral life cycle", 0.018, null, null, 0.477, -1.393, 0.837, 0.953, 52372, True
-"GO:2000765", "regulation of cytoplasmic translation", 0.062, -6.042, 2.424, 0.903, -2.029, 0.886, 0.094, -1, False
-"GO:0032482", "Rab protein signal transduction", 0.300, 2.775, 5.554, 1.544, -1.898, 0.856, 0.107, -1, False
-"GO:0007264", "small GTPase mediated signal transduction", 0.908, null, null, 2.017, -1.589, 0.853, 0.626, 32482, True
-"GO:0032486", "Rap protein signal transduction", 0.018, null, null, 0.477, -1.566, 0.880, 0.692, 32482, True
-"GO:0007265", "Ras protein signal transduction", 0.652, null, null, 1.875, -1.701, 0.849, 0.859, 32482, True
-"GO:0061058", "regulation of peptidoglycan recognition protein signaling pathway", 0.291, -6.179, -0.908, 1.531, -1.393, 0.905, 0.115, -1, False
-"GO:0044281", "small molecule metabolic process", 7.059, 7.712, -2.930, 2.904, -1.388, 0.953, 0.129, -1, False
-"GO:0040008", "regulation of growth", 2.749, -2.271, 6.497, 2.496, -1.336, 0.899, 0.132, -1, False
-"GO:0009650", "UV protection", 0.026, 3.182, 7.045, 0.602, -1.566, 0.981, 0.155, -1, False
-"GO:0007382", "specification of segmental identity, maxillary segment", 0.018, -5.625, -3.885, 0.477, -1.393, 0.961, 0.163, -1, False
-"GO:1903515", "calcium ion transport from cytosol to endoplasmic reticulum", 0.009, -0.185, -6.136, 0.301, -1.864, 0.967, 0.176, -1, False
-"GO:0048210", "Golgi vesicle fusion to target membrane", 0.018, 1.252, -6.589, 0.477, -1.393, 0.935, 0.186, -1, False
-"GO:0016320", "endoplasmic reticulum membrane fusion", 0.026, null, null, 0.602, -1.393, 0.950, 0.640, 48210, True
-"GO:0006478", "peptidyl-tyrosine sulfation", 0.009, 4.590, -2.032, 0.301, -1.864, 0.913, 0.202, -1, False
-"GO:0006477", "protein sulfation", 0.009, null, null, 0.301, -1.864, 0.920, 0.827, 6478, True
-"GO:0097120", "receptor localization to synapse", 0.070, -1.510, -6.811, 0.954, -1.393, 0.980, 0.207, -1, False
-"GO:0097305", "response to alcohol", 1.022, 3.707, 6.042, 2.068, -1.424, 0.967, 0.209, -1, False
-"GO:0045471", "response to ethanol", 0.608, null, null, 1.845, -1.432, 0.968, 0.721, 97305, True
-"GO:0007028", "cytoplasm organization", 0.493, 3.544, -6.501, 1.756, -1.317, 0.950, 0.210, -1, False
-"GO:0007349", "cellularization", 0.952, -4.410, -4.229, 2.037, -1.745, 0.964, 0.231, -1, False
-"GO:0061031", "endodermal digestive tract morphogenesis", 0.018, -4.713, -3.371, 0.477, -1.566, 0.972, 0.270, -1, False
-"GO:0097681", "double-strand break repair via alternative nonhomologous end joining", 0.018, 5.105, 1.476, 0.477, -1.864, 0.902, 0.299, -1, False
-"GO:0046967", "cytosol to endoplasmic reticulum transport", 0.018, -0.171, -6.911, 0.477, -1.566, 0.967, 0.300, -1, False
-"GO:0097352", "autophagosome maturation", 0.185, 4.641, -5.614, 1.342, -1.525, 0.914, 0.301, -1, False
-"GO:1901096", "regulation of autophagosome maturation", 0.053, -4.688, 4.083, 0.845, -1.393, 0.861, 0.310, -1, False
-"GO:1901098", "positive regulation of autophagosome maturation", 0.026, null, null, 0.602, -1.393, 0.831, 0.734, 1901096, True
-"GO:0002084", "protein depalmitoylation", 0.035, 5.787, -3.381, 0.699, -1.393, 0.921, 0.316, -1, False
-"GO:1902875", "regulation of embryonic pattern specification", 0.009, 1.294, 2.064, 0.301, -1.412, 0.920, 0.317, -1, False
-"GO:0006011", "UDP-glucose metabolic process", 0.097, 6.667, 2.225, 1.079, -1.566, 0.907, 0.325, -1, False
-"GO:0033138", "positive regulation of peptidyl-serine phosphorylation", 0.018, -5.317, 2.228, 0.477, -1.864, 0.843, 0.326, -1, False
-"GO:0071073", "positive regulation of phospholipid biosynthetic process", 0.026, null, null, 0.602, -1.566, 0.795, 0.520, 33138, True
-"GO:0051055", "negative regulation of lipid biosynthetic process", 0.062, null, null, 0.903, -1.566, 0.840, 0.771, 33138, True
-"GO:0010868", "negative regulation of triglyceride biosynthetic process", 0.018, null, null, 0.477, -1.566, 0.847, 0.844, 33138, True
-"GO:0010511", "regulation of phosphatidylinositol biosynthetic process", 0.018, null, null, 0.477, -1.566, 0.829, 0.942, 33138, True
-"GO:1903727", "positive regulation of phospholipid metabolic process", 0.026, null, null, 0.602, -1.566, 0.799, 0.965, 33138, True
-"GO:0010513", "positive regulation of phosphatidylinositol biosynthetic process", 0.018, null, null, 0.477, -1.566, 0.799, 0.976, 33138, True
-"GO:0071071", "regulation of phospholipid biosynthetic process", 0.035, null, null, 0.699, -1.393, 0.823, 0.982, 33138, True
-"GO:0010248", "establishment or maintenance of transmembrane electrochemical gradient", 0.079, -0.510, -6.492, 1.000, -1.864, 0.964, 0.332, -1, False
-"GO:0006431", "methionyl-tRNA aminoacylation", 0.018, 6.525, 1.243, 0.477, -1.393, 0.892, 0.345, -1, False
-"GO:0018193", "peptidyl-amino acid modification", 3.780, 6.533, -1.359, 2.633, -1.593, 0.904, 0.346, -1, False
-"GO:0060249", "anatomical structure homeostasis", 1.480, 0.183, 6.618, 2.228, -1.746, 0.892, 0.381, -1, False
-"GO:0046716", "muscle cell cellular homeostasis", 0.273, null, null, 1.505, -1.412, 0.895, 0.590, 60249, True
-"GO:0006730", "one-carbon metabolic process", 0.282, 6.516, 3.621, 1.519, -1.393, 0.937, 0.385, -1, False
-"GO:0060100", "positive regulation of phagocytosis, engulfment", 0.009, -3.230, 4.884, 0.301, -1.864, 0.781, 0.390, -1, False
-"GO:0030100", "regulation of endocytosis", 0.546, null, null, 1.799, -1.612, 0.774, 0.609, 60100, True
-"GO:1900244", "positive regulation of synaptic vesicle endocytosis", 0.035, null, null, 0.699, -1.393, 0.774, 0.673, 60100, True
-"GO:0051050", "positive regulation of transport", 1.313, null, null, 2.176, -1.516, 0.771, 0.730, 60100, True
-"GO:0045807", "positive regulation of endocytosis", 0.352, null, null, 1.613, -1.378, 0.745, 0.815, 60100, True
-"GO:1903423", "positive regulation of synaptic vesicle recycling", 0.035, null, null, 0.699, -1.393, 0.806, 0.884, 60100, True
-"GO:1905155", "positive regulation of membrane invagination", 0.009, null, null, 0.301, -1.864, 0.841, 0.926, 60100, True
-"GO:0060099", "regulation of phagocytosis, engulfment", 0.018, null, null, 0.477, -1.864, 0.798, 0.961, 60100, True
-"GO:0008360", "regulation of cell shape", 0.573, 0.061, 5.493, 1.820, -1.373, 0.872, 0.398, -1, False
-"GO:0016476", "regulation of embryonic cell shape", 0.264, null, null, 1.491, -1.485, 0.873, 0.873, 8360, True
-"GO:0061060", "negative regulation of peptidoglycan recognition protein signaling pathway", 0.203, -6.300, -0.437, 1.380, -1.393, 0.899, 0.420, -1, False
-"GO:1904396", "regulation of neuromuscular junction development", 1.031, -2.288, 5.130, 2.072, -1.367, 0.835, 0.424, -1, False
-"GO:0018208", "peptidyl-proline modification", 0.546, 6.006, -1.674, 1.799, -1.525, 0.909, 0.433, -1, False
-"GO:0000413", "protein peptidyl-prolyl isomerization", 0.291, null, null, 1.531, -1.611, 0.913, 0.570, 18208, True
-"GO:0008049", "male courtship behavior", 0.529, -3.799, -5.557, 1.785, -2.470, 0.939, 0.433, -1, False
-"GO:0007626", "locomotory behavior", 1.533, null, null, 2.243, -1.916, 0.966, 0.620, 8049, True
-"GO:0008344", "adult locomotory behavior", 0.740, null, null, 1.929, -1.913, 0.951, 0.643, 8049, True
-"GO:0030534", "adult behavior", 1.375, null, null, 2.196, -1.629, 0.948, 0.690, 8049, True
-"GO:0051923", "sulfation", 0.044, 2.507, -2.752, 0.778, -1.566, 0.947, 0.479, -1, False
-"GO:0033135", "regulation of peptidyl-serine phosphorylation", 0.018, -6.234, 2.059, 0.477, -1.864, 0.876, 0.480, -1, False
-"GO:0051924", "regulation of calcium ion transport", 0.176, -1.305, 7.315, 1.322, -1.763, 0.800, 0.488, -1, False
-"GO:1901896", "positive regulation of ATPase-coupled calcium transmembrane transporter activity", 0.009, null, null, 0.301, -1.864, 0.799, 0.807, 51924, True
-"GO:1901894", "regulation of ATPase-coupled calcium transmembrane transporter activity", 0.018, null, null, 0.477, -1.566, 0.819, 0.845, 51924, True
-"GO:1901021", "positive regulation of calcium ion transmembrane transporter activity", 0.044, null, null, 0.778, -1.566, 0.780, 0.905, 51924, True
-"GO:1904427", "positive regulation of calcium ion transmembrane transport", 0.044, null, null, 0.778, -1.566, 0.781, 0.939, 51924, True
-"GO:0016331", "morphogenesis of embryonic epithelium", 1.049, -4.788, -4.337, 2.079, -1.424, 0.945, 0.496, -1, False
-"GO:0071897", "DNA biosynthetic process", 0.405, 6.733, 0.239, 1.672, -1.637, 0.902, 0.497, -1, False
-"GO:2000766", "negative regulation of cytoplasmic translation", 0.026, -6.180, 1.392, 0.602, -1.566, 0.883, 0.497, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0001510	RNA_methylation	0.573	6.261	-0.474	1.820	-2.866	0.866	0.000	-1	False
+GO:0070476	rRNA_(guanine-N7)-methylation	0.018	null	null	0.477	-1.566	0.850	0.650	1510	True
+GO:0036265	RNA_(guanine-N7)-methylation	0.053	null	null	0.845	-1.393	0.881	0.706	1510	True
+GO:0000154	rRNA_modification	0.238	null	null	1.447	-1.314	0.830	0.800	1510	True
+GO:0030488	tRNA_methylation	0.238	null	null	1.447	-1.885	0.865	0.800	1510	True
+GO:0031167	rRNA_methylation	0.167	null	null	1.301	-1.659	0.828	0.826	1510	True
+GO:0009405	pathogenesis	0.969	-0.088	-2.581	2.045	-1.864	0.959	0.000	-1	False
+GO:0046718	viral_entry_into_host_cell	0.220	null	null	1.415	-1.393	0.939	0.584	9405	True
+GO:0051701	biological_process_involved_in_interaction_with_host	0.220	null	null	1.415	-1.393	0.940	0.957	9405	True
+GO:0044409	entry_into_host	0.220	null	null	1.415	-1.393	0.939	0.998	9405	True
+GO:0052126	movement_in_host_environment	0.220	null	null	1.415	-1.393	0.939	0.998	9405	True
+GO:0040007	growth	1.551	-2.454	-1.255	2.248	-1.304	1.000	0.000	-1	False
+GO:1905879	regulation_of_oogenesis	0.018	1.137	3.237	0.477	-3.013	0.887	0.000	-1	False
+GO:0060281	regulation_of_oocyte_development	0.009	null	null	0.301	-1.525	0.891	0.502	1905879	True
+GO:0030710	regulation_of_border_follicle_cell_delamination	0.083	null	null	1.000	-1.864	0.880	0.573	1905879	True
+GO:0007317	regulation_of_pole_plasm_oskar_mRNA_localization	0.220	null	null	1.415	-1.525	0.803	0.683	1905879	True
+GO:1904580	regulation_of_intracellular_mRNA_localization	0.238	null	null	1.447	-1.525	0.828	0.732	1905879	True
+GO:0022407	regulation_of_cell-cell_adhesion	0.264	null	null	1.491	-1.412	0.898	0.826	1905879	True
+GO:0007043	cell-cell_junction_assembly	0.529	3.104	-6.788	1.785	-2.081	0.887	0.019	-1	False
+GO:0019991	septate_junction_assembly	0.317	null	null	1.568	-1.834	0.889	0.909	7043	True
+GO:0120193	tight_junction_organization	0.344	null	null	1.602	-1.773	0.904	0.916	7043	True
+GO:0043297	apical_junction_assembly	0.405	null	null	1.672	-1.541	0.888	0.930	7043	True
+GO:0120192	tight_junction_assembly	0.344	null	null	1.602	-1.773	0.888	0.990	7043	True
+GO:0007298	border_follicle_cell_migration	0.837	-2.790	-5.454	1.982	-2.472	0.903	0.020	-1	False
+GO:0030714	anterior/posterior_axis_specification_follicular_epithelium	0.026	null	null	0.602	-1.566	0.939	0.547	7298	True
+GO:0006930	substrate-dependent_cell_migration_cell_extension	0.026	null	null	0.602	-1.393	0.913	0.565	7298	True
+GO:0006929	substrate-dependent_cell_migration	0.035	null	null	0.699	-1.393	0.960	0.578	7298	True
+GO:0007315	pole_plasm_assembly	0.432	null	null	1.699	-1.453	0.870	0.600	7298	True
+GO:1990845	adaptive_thermogenesis	0.018	5.277	6.265	0.477	-1.566	0.971	0.073	-1	False
+GO:1905153	regulation_of_membrane_invagination	0.018	-4.271	5.189	0.477	-1.864	0.890	0.078	-1	False
+GO:1901569	fatty_acid_derivative_catabolic_process	0.018	5.623	-5.310	0.477	-1.864	0.940	0.082	-1	False
+GO:0046952	ketone_body_catabolic_process	0.009	null	null	0.301	-1.864	0.921	0.629	1901569	True
+GO:1902224	ketone_body_metabolic_process	0.026	null	null	0.602	-1.566	0.941	0.670	1901569	True
+GO:0046950	cellular_ketone_body_metabolic_process	0.026	6.311	4.100	0.602	-1.566	0.946	0.083	-1	False
+GO:0010883	regulation_of_lipid_storage	0.379	-0.853	6.390	1.643	-2.117	0.811	0.085	-1	False
+GO:0043525	positive_regulation_of_neuron_apoptotic_process	0.026	-2.832	1.585	0.602	-1.393	0.887	0.088	-1	False
+GO:0016024	CDP-diacylglycerol_biosynthetic_process	0.018	7.948	1.748	0.477	-1.864	0.944	0.091	-1	False
+GO:0046341	CDP-diacylglycerol_metabolic_process	0.018	null	null	0.477	-1.864	0.949	0.506	16024	True
+GO:0052372	modulation_by_symbiont_of_entry_into_host	0.053	-0.124	-0.212	0.845	-1.566	0.859	0.093	-1	False
+GO:0046598	positive_regulation_of_viral_entry_into_host_cell	0.018	null	null	0.477	-1.566	0.834	0.856	52372	True
+GO:0075294	positive_regulation_by_symbiont_of_entry_into_host	0.018	null	null	0.477	-1.566	0.837	0.872	52372	True
+GO:0048524	positive_regulation_of_viral_process	0.026	null	null	0.602	-1.393	0.835	0.878	52372	True
+GO:0046596	regulation_of_viral_entry_into_host_cell	0.053	null	null	0.845	-1.566	0.857	0.932	52372	True
+GO:1903902	positive_regulation_of_viral_life_cycle	0.018	null	null	0.477	-1.393	0.837	0.953	52372	True
+GO:2000765	regulation_of_cytoplasmic_translation	0.062	-6.042	2.424	0.903	-2.029	0.886	0.094	-1	False
+GO:0032482	Rab_protein_signal_transduction	0.300	2.775	5.554	1.544	-1.898	0.856	0.107	-1	False
+GO:0007264	small_GTPase_mediated_signal_transduction	0.908	null	null	2.017	-1.589	0.853	0.626	32482	True
+GO:0032486	Rap_protein_signal_transduction	0.018	null	null	0.477	-1.566	0.880	0.692	32482	True
+GO:0007265	Ras_protein_signal_transduction	0.652	null	null	1.875	-1.701	0.849	0.859	32482	True
+GO:0061058	regulation_of_peptidoglycan_recognition_protein_signaling_pathway	0.291	-6.179	-0.908	1.531	-1.393	0.905	0.115	-1	False
+GO:0044281	small_molecule_metabolic_process	7.059	7.712	-2.930	2.904	-1.388	0.953	0.129	-1	False
+GO:0040008	regulation_of_growth	2.749	-2.271	6.497	2.496	-1.336	0.899	0.132	-1	False
+GO:0009650	UV_protection	0.026	3.182	7.045	0.602	-1.566	0.981	0.155	-1	False
+GO:0007382	specification_of_segmental_identity_maxillary_segment	0.018	-5.625	-3.885	0.477	-1.393	0.961	0.163	-1	False
+GO:1903515	calcium_ion_transport_from_cytosol_to_endoplasmic_reticulum	0.009	-0.185	-6.136	0.301	-1.864	0.967	0.176	-1	False
+GO:0048210	Golgi_vesicle_fusion_to_target_membrane	0.018	1.252	-6.589	0.477	-1.393	0.935	0.186	-1	False
+GO:0016320	endoplasmic_reticulum_membrane_fusion	0.026	null	null	0.602	-1.393	0.950	0.640	48210	True
+GO:0006478	peptidyl-tyrosine_sulfation	0.009	4.590	-2.032	0.301	-1.864	0.913	0.202	-1	False
+GO:0006477	protein_sulfation	0.009	null	null	0.301	-1.864	0.920	0.827	6478	True
+GO:0097120	receptor_localization_to_synapse	0.070	-1.510	-6.811	0.954	-1.393	0.980	0.207	-1	False
+GO:0097305	response_to_alcohol	1.022	3.707	6.042	2.068	-1.424	0.967	0.209	-1	False
+GO:0045471	response_to_ethanol	0.608	null	null	1.845	-1.432	0.968	0.721	97305	True
+GO:0007028	cytoplasm_organization	0.493	3.544	-6.501	1.756	-1.317	0.950	0.210	-1	False
+GO:0007349	cellularization	0.952	-4.410	-4.229	2.037	-1.745	0.964	0.231	-1	False
+GO:0061031	endodermal_digestive_tract_morphogenesis	0.018	-4.713	-3.371	0.477	-1.566	0.972	0.270	-1	False
+GO:0097681	double-strand_break_repair_via_alternative_nonhomologous_end_joining	0.018	5.105	1.476	0.477	-1.864	0.902	0.299	-1	False
+GO:0046967	cytosol_to_endoplasmic_reticulum_transport	0.018	-0.171	-6.911	0.477	-1.566	0.967	0.300	-1	False
+GO:0097352	autophagosome_maturation	0.185	4.641	-5.614	1.342	-1.525	0.914	0.301	-1	False
+GO:1901096	regulation_of_autophagosome_maturation	0.053	-4.688	4.083	0.845	-1.393	0.861	0.310	-1	False
+GO:1901098	positive_regulation_of_autophagosome_maturation	0.026	null	null	0.602	-1.393	0.831	0.734	1901096	True
+GO:0002084	protein_depalmitoylation	0.035	5.787	-3.381	0.699	-1.393	0.921	0.316	-1	False
+GO:1902875	regulation_of_embryonic_pattern_specification	0.009	1.294	2.064	0.301	-1.412	0.920	0.317	-1	False
+GO:0006011	UDP-glucose_metabolic_process	0.097	6.667	2.225	1.079	-1.566	0.907	0.325	-1	False
+GO:0033138	positive_regulation_of_peptidyl-serine_phosphorylation	0.018	-5.317	2.228	0.477	-1.864	0.843	0.326	-1	False
+GO:0071073	positive_regulation_of_phospholipid_biosynthetic_process	0.026	null	null	0.602	-1.566	0.795	0.520	33138	True
+GO:0051055	negative_regulation_of_lipid_biosynthetic_process	0.062	null	null	0.903	-1.566	0.840	0.771	33138	True
+GO:0010868	negative_regulation_of_triglyceride_biosynthetic_process	0.018	null	null	0.477	-1.566	0.847	0.844	33138	True
+GO:0010511	regulation_of_phosphatidylinositol_biosynthetic_process	0.018	null	null	0.477	-1.566	0.829	0.942	33138	True
+GO:1903727	positive_regulation_of_phospholipid_metabolic_process	0.026	null	null	0.602	-1.566	0.799	0.965	33138	True
+GO:0010513	positive_regulation_of_phosphatidylinositol_biosynthetic_process	0.018	null	null	0.477	-1.566	0.799	0.976	33138	True
+GO:0071071	regulation_of_phospholipid_biosynthetic_process	0.035	null	null	0.699	-1.393	0.823	0.982	33138	True
+GO:0010248	establishment_or_maintenance_of_transmembrane_electrochemical_gradient	0.079	-0.510	-6.492	1.000	-1.864	0.964	0.332	-1	False
+GO:0006431	methionyl-tRNA_aminoacylation	0.018	6.525	1.243	0.477	-1.393	0.892	0.345	-1	False
+GO:0018193	peptidyl-amino_acid_modification	3.780	6.533	-1.359	2.633	-1.593	0.904	0.346	-1	False
+GO:0060249	anatomical_structure_homeostasis	1.480	0.183	6.618	2.228	-1.746	0.892	0.381	-1	False
+GO:0046716	muscle_cell_cellular_homeostasis	0.273	null	null	1.505	-1.412	0.895	0.590	60249	True
+GO:0006730	one-carbon_metabolic_process	0.282	6.516	3.621	1.519	-1.393	0.937	0.385	-1	False
+GO:0060100	positive_regulation_of_phagocytosis_engulfment	0.009	-3.230	4.884	0.301	-1.864	0.781	0.390	-1	False
+GO:0030100	regulation_of_endocytosis	0.546	null	null	1.799	-1.612	0.774	0.609	60100	True
+GO:1900244	positive_regulation_of_synaptic_vesicle_endocytosis	0.035	null	null	0.699	-1.393	0.774	0.673	60100	True
+GO:0051050	positive_regulation_of_transport	1.313	null	null	2.176	-1.516	0.771	0.730	60100	True
+GO:0045807	positive_regulation_of_endocytosis	0.352	null	null	1.613	-1.378	0.745	0.815	60100	True
+GO:1903423	positive_regulation_of_synaptic_vesicle_recycling	0.035	null	null	0.699	-1.393	0.806	0.884	60100	True
+GO:1905155	positive_regulation_of_membrane_invagination	0.009	null	null	0.301	-1.864	0.841	0.926	60100	True
+GO:0060099	regulation_of_phagocytosis_engulfment	0.018	null	null	0.477	-1.864	0.798	0.961	60100	True
+GO:0008360	regulation_of_cell_shape	0.573	0.061	5.493	1.820	-1.373	0.872	0.398	-1	False
+GO:0016476	regulation_of_embryonic_cell_shape	0.264	null	null	1.491	-1.485	0.873	0.873	8360	True
+GO:0061060	negative_regulation_of_peptidoglycan_recognition_protein_signaling_pathway	0.203	-6.300	-0.437	1.380	-1.393	0.899	0.420	-1	False
+GO:1904396	regulation_of_neuromuscular_junction_development	1.031	-2.288	5.130	2.072	-1.367	0.835	0.424	-1	False
+GO:0018208	peptidyl-proline_modification	0.546	6.006	-1.674	1.799	-1.525	0.909	0.433	-1	False
+GO:0000413	protein_peptidyl-prolyl_isomerization	0.291	null	null	1.531	-1.611	0.913	0.570	18208	True
+GO:0008049	male_courtship_behavior	0.529	-3.799	-5.557	1.785	-2.470	0.939	0.433	-1	False
+GO:0007626	locomotory_behavior	1.533	null	null	2.243	-1.916	0.966	0.620	8049	True
+GO:0008344	adult_locomotory_behavior	0.740	null	null	1.929	-1.913	0.951	0.643	8049	True
+GO:0030534	adult_behavior	1.375	null	null	2.196	-1.629	0.948	0.690	8049	True
+GO:0051923	sulfation	0.044	2.507	-2.752	0.778	-1.566	0.947	0.479	-1	False
+GO:0033135	regulation_of_peptidyl-serine_phosphorylation	0.018	-6.234	2.059	0.477	-1.864	0.876	0.480	-1	False
+GO:0051924	regulation_of_calcium_ion_transport	0.176	-1.305	7.315	1.322	-1.763	0.800	0.488	-1	False
+GO:1901896	positive_regulation_of_ATPase-coupled_calcium_transmembrane_transporter_activity	0.009	null	null	0.301	-1.864	0.799	0.807	51924	True
+GO:1901894	regulation_of_ATPase-coupled_calcium_transmembrane_transporter_activity	0.018	null	null	0.477	-1.566	0.819	0.845	51924	True
+GO:1901021	positive_regulation_of_calcium_ion_transmembrane_transporter_activity	0.044	null	null	0.778	-1.566	0.780	0.905	51924	True
+GO:1904427	positive_regulation_of_calcium_ion_transmembrane_transport	0.044	null	null	0.778	-1.566	0.781	0.939	51924	True
+GO:0016331	morphogenesis_of_embryonic_epithelium	1.049	-4.788	-4.337	2.079	-1.424	0.945	0.496	-1	False
+GO:0071897	DNA_biosynthetic_process	0.405	6.733	0.239	1.672	-1.637	0.902	0.497	-1	False
+GO:2000766	negative_regulation_of_cytoplasmic_translation	0.026	-6.180	1.392	0.602	-1.566	0.883	0.497	-1	False

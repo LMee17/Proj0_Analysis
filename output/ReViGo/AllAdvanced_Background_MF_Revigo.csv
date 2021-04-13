@@ -1,15 +1,15 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0000095", "S-adenosyl-L-methionine transmembrane transporter activity", 0.009, -1.426, -6.448, 0.301, -2.369, 0.933, 0.000, -1, False
-"GO:0035925", "mRNA 3'-UTR AU-rich region binding", 0.035, 5.181, -1.767, 0.699, -2.069, 0.612, 0.000, -1, False
-"GO:0043539", "protein serine/threonine kinase activator activity", 0.133, -2.349, 5.400, 1.204, -1.595, 0.939, 0.000, -1, False
-"GO:0004697", "protein kinase C activity", 0.062, -4.858, -0.127, 0.903, -2.069, 0.996, 0.012, -1, False
-"GO:0003723", "RNA binding", 6.327, 4.930, 1.508, 2.854, -3.854, 0.626, 0.292, -1, False
-"GO:0030628", "pre-mRNA 3'-splice site binding", 0.044, 6.341, 1.530, 0.778, -1.770, 0.607, 0.330, -1, False
-"GO:0000340", "RNA 7-methylguanosine cap binding", 0.098, 6.822, -0.653, 1.079, -1.770, 0.589, 0.353, -1, False
-"GO:0008266", "poly(U) RNA binding", 0.098, 6.211, -1.482, 1.079, -1.673, 0.537, 0.373, -1, False
-"GO:0008187", "poly-pyrimidine tract binding", 0.133, null, null, 1.204, -1.422, 0.530, 0.826, 8266, True
-"GO:0030371", "translation repressor activity", 0.177, -1.448, 6.252, 1.322, -1.422, 0.939, 0.404, -1, False
-"GO:0005385", "zinc ion transmembrane transporter activity", 0.142, -2.277, -5.655, 1.230, -1.377, 0.933, 0.430, -1, False
-"GO:0003729", "mRNA binding", 1.996, 5.670, 0.064, 2.354, -1.716, 0.502, 0.477, -1, False
-"GO:0000339", "RNA cap binding", 0.151, 6.582, 0.415, 1.255, -1.472, 0.578, 0.497, -1, False
-"GO:0036002", "pre-mRNA binding", 0.160, 4.841, -0.269, 1.279, -1.336, 0.576, 0.500, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0000095	S-adenosyl-L-methionine_transmembrane_transporter_activity	0.009	-1.426	-6.448	0.301	-2.369	0.933	0.000	-1	False
+GO:0035925	mRNA_3'-UTR_AU-rich_region_binding	0.035	5.181	-1.767	0.699	-2.069	0.612	0.000	-1	False
+GO:0043539	protein_serine/threonine_kinase_activator_activity	0.133	-2.349	5.400	1.204	-1.595	0.939	0.000	-1	False
+GO:0004697	protein_kinase_C_activity	0.062	-4.858	-0.127	0.903	-2.069	0.996	0.012	-1	False
+GO:0003723	RNA_binding	6.327	4.930	1.508	2.854	-3.854	0.626	0.292	-1	False
+GO:0030628	pre-mRNA_3'-splice_site_binding	0.044	6.341	1.530	0.778	-1.770	0.607	0.330	-1	False
+GO:0000340	RNA_7-methylguanosine_cap_binding	0.098	6.822	-0.653	1.079	-1.770	0.589	0.353	-1	False
+GO:0008266	poly(U)_RNA_binding	0.098	6.211	-1.482	1.079	-1.673	0.537	0.373	-1	False
+GO:0008187	poly-pyrimidine_tract_binding	0.133	null	null	1.204	-1.422	0.530	0.826	8266	True
+GO:0030371	translation_repressor_activity	0.177	-1.448	6.252	1.322	-1.422	0.939	0.404	-1	False
+GO:0005385	zinc_ion_transmembrane_transporter_activity	0.142	-2.277	-5.655	1.230	-1.377	0.933	0.430	-1	False
+GO:0003729	mRNA_binding	1.996	5.670	0.064	2.354	-1.716	0.502	0.477	-1	False
+GO:0000339	RNA_cap_binding	0.151	6.582	0.415	1.255	-1.472	0.578	0.497	-1	False
+GO:0036002	pre-mRNA_binding	0.160	4.841	-0.269	1.279	-1.336	0.576	0.500	-1	False

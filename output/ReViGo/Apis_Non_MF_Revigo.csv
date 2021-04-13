@@ -1,31 +1,31 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0000406", "double-strand/single-strand DNA junction binding", 0.009, -2.613, 5.840, 0.301, -2.510, 0.792, 0.000, -1, False
-"GO:0000404", "heteroduplex DNA loop binding", 0.027, null, null, 0.602, -2.510, 0.699, 0.761, 406, True
-"GO:0000403", "Y-form DNA binding", 0.018, null, null, 0.477, -2.034, 0.786, 0.792, 406, True
-"GO:0000400", "four-way junction DNA binding", 0.071, null, null, 0.954, -1.612, 0.772, 0.863, 406, True
-"GO:0032137", "guanine/thymine mispair binding", 0.009, null, null, 0.301, -2.210, 0.811, 0.879, 406, True
-"GO:0032138", "single base insertion or deletion binding", 0.018, null, null, 0.477, -2.210, 0.799, 1.024, 406, True
-"GO:0003824", "catalytic activity", 36.797, -5.597, 1.901, 3.618, -3.409, 1.000, 0.000, -1, False
-"GO:0051267", "CP2 mannose-ethanolamine phosphotransferase activity", 0.009, 4.480, 5.591, 0.301, -2.510, 0.810, 0.000, -1, False
-"GO:0001784", "phosphotyrosine residue binding", 0.071, -5.109, -2.246, 0.954, -2.210, 0.959, 0.036, -1, False
-"GO:0004815", "aspartate-tRNA ligase activity", 0.018, 3.565, -6.200, 0.477, -2.210, 0.820, 0.070, -1, False
-"GO:0004449", "isocitrate dehydrogenase (NAD+) activity", 0.053, -0.115, -6.933, 0.845, -2.034, 0.889, 0.078, -1, False
-"GO:0008420", "RNA polymerase II CTD heptapeptide repeat phosphatase activity", 0.035, 6.600, -0.804, 0.699, -1.910, 0.681, 0.082, -1, False
-"GO:0030971", "receptor tyrosine kinase binding", 0.071, -3.696, -4.559, 0.954, -2.034, 0.959, 0.157, -1, False
-"GO:0017124", "SH3 domain binding", 0.169, -3.237, -2.451, 1.301, -1.516, 0.957, 0.167, -1, False
-"GO:0004581", "dolichyl-phosphate beta-glucosyltransferase activity", 0.009, 2.766, 5.883, 0.301, -2.510, 0.809, 0.200, -1, False
-"GO:0000030", "mannosyltransferase activity", 0.195, null, null, 1.362, -1.372, 0.771, 0.552, 4581, True
-"GO:0016788", "hydrolase activity, acting on ester bonds", 4.836, 5.046, -1.614, 2.737, -1.538, 0.751, 0.268, -1, False
-"GO:0003684", "damaged DNA binding", 0.222, -3.219, 4.963, 1.415, -1.372, 0.870, 0.286, -1, False
-"GO:0061630", "ubiquitin protein ligase activity", 1.287, 5.052, 2.821, 2.164, -1.656, 0.683, 0.290, -1, False
-"GO:0061659", "ubiquitin-like protein ligase activity", 1.349, null, null, 2.185, -1.635, 0.682, 0.910, 61630, True
-"GO:0004842", "ubiquitin-protein transferase activity", 1.668, null, null, 2.276, -1.317, 0.678, 0.938, 61630, True
-"GO:0003887", "DNA-directed DNA polymerase activity", 0.080, 4.299, 3.651, 1.000, -1.475, 0.722, 0.369, -1, False
-"GO:0034061", "DNA polymerase activity", 0.080, null, null, 1.000, -1.475, 0.722, 0.769, 3887, True
-"GO:0000175", "3'-5'-exoribonuclease activity", 0.177, 5.154, -2.595, 1.322, -1.404, 0.604, 0.481, -1, False
-"GO:0042578", "phosphoric ester hydrolase activity", 1.996, null, null, 2.354, -1.366, 0.660, 0.563, 175, True
-"GO:0008081", "phosphoric diester hydrolase activity", 0.275, null, null, 1.505, -1.438, 0.681, 0.588, 175, True
-"GO:0004532", "exoribonuclease activity", 0.204, null, null, 1.380, -1.404, 0.602, 0.956, 175, True
-"GO:0016896", "exoribonuclease activity, producing 5'-phosphomonoesters", 0.204, null, null, 1.380, -1.404, 0.601, 0.987, 175, True
-"GO:0004114", "3',5'-cyclic-nucleotide phosphodiesterase activity", 0.053, 6.873, -2.647, 0.845, -1.735, 0.697, 0.496, -1, False
-"GO:0004112", "cyclic-nucleotide phosphodiesterase activity", 0.062, null, null, 0.903, -1.735, 0.694, 0.788, 4114, True
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0000406	double-strand/single-strand_DNA_junction_binding	0.009	-2.613	5.840	0.301	-2.510	0.792	0.000	-1	False
+GO:0000404	heteroduplex_DNA_loop_binding	0.027	null	null	0.602	-2.510	0.699	0.761	406	True
+GO:0000403	Y-form_DNA_binding	0.018	null	null	0.477	-2.034	0.786	0.792	406	True
+GO:0000400	four-way_junction_DNA_binding	0.071	null	null	0.954	-1.612	0.772	0.863	406	True
+GO:0032137	guanine/thymine_mispair_binding	0.009	null	null	0.301	-2.210	0.811	0.879	406	True
+GO:0032138	single_base_insertion_or_deletion_binding	0.018	null	null	0.477	-2.210	0.799	1.024	406	True
+GO:0003824	catalytic_activity	36.797	-5.597	1.901	3.618	-3.409	1.000	0.000	-1	False
+GO:0051267	CP2_mannose-ethanolamine_phosphotransferase_activity	0.009	4.480	5.591	0.301	-2.510	0.810	0.000	-1	False
+GO:0001784	phosphotyrosine_residue_binding	0.071	-5.109	-2.246	0.954	-2.210	0.959	0.036	-1	False
+GO:0004815	aspartate-tRNA_ligase_activity	0.018	3.565	-6.200	0.477	-2.210	0.820	0.070	-1	False
+GO:0004449	isocitrate_dehydrogenase_(NAD+)_activity	0.053	-0.115	-6.933	0.845	-2.034	0.889	0.078	-1	False
+GO:0008420	RNA_polymerase_II_CTD_heptapeptide_repeat_phosphatase_activity	0.035	6.600	-0.804	0.699	-1.910	0.681	0.082	-1	False
+GO:0030971	receptor_tyrosine_kinase_binding	0.071	-3.696	-4.559	0.954	-2.034	0.959	0.157	-1	False
+GO:0017124	SH3_domain_binding	0.169	-3.237	-2.451	1.301	-1.516	0.957	0.167	-1	False
+GO:0004581	dolichyl-phosphate_beta-glucosyltransferase_activity	0.009	2.766	5.883	0.301	-2.510	0.809	0.200	-1	False
+GO:0000030	mannosyltransferase_activity	0.195	null	null	1.362	-1.372	0.771	0.552	4581	True
+GO:0016788	hydrolase_activity_acting_on_ester_bonds	4.836	5.046	-1.614	2.737	-1.538	0.751	0.268	-1	False
+GO:0003684	damaged_DNA_binding	0.222	-3.219	4.963	1.415	-1.372	0.870	0.286	-1	False
+GO:0061630	ubiquitin_protein_ligase_activity	1.287	5.052	2.821	2.164	-1.656	0.683	0.290	-1	False
+GO:0061659	ubiquitin-like_protein_ligase_activity	1.349	null	null	2.185	-1.635	0.682	0.910	61630	True
+GO:0004842	ubiquitin-protein_transferase_activity	1.668	null	null	2.276	-1.317	0.678	0.938	61630	True
+GO:0003887	DNA-directed_DNA_polymerase_activity	0.080	4.299	3.651	1.000	-1.475	0.722	0.369	-1	False
+GO:0034061	DNA_polymerase_activity	0.080	null	null	1.000	-1.475	0.722	0.769	3887	True
+GO:0000175	3'-5'-exoribonuclease_activity	0.177	5.154	-2.595	1.322	-1.404	0.604	0.481	-1	False
+GO:0042578	phosphoric_ester_hydrolase_activity	1.996	null	null	2.354	-1.366	0.660	0.563	175	True
+GO:0008081	phosphoric_diester_hydrolase_activity	0.275	null	null	1.505	-1.438	0.681	0.588	175	True
+GO:0004532	exoribonuclease_activity	0.204	null	null	1.380	-1.404	0.602	0.956	175	True
+GO:0016896	exoribonuclease_activity_producing_5'-phosphomonoesters	0.204	null	null	1.380	-1.404	0.601	0.987	175	True
+GO:0004114	3',5'-cyclic-nucleotide_phosphodiesterase_activity	0.053	6.873	-2.647	0.845	-1.735	0.697	0.496	-1	False
+GO:0004112	cyclic-nucleotide_phosphodiesterase_activity	0.062	null	null	0.903	-1.735	0.694	0.788	4114	True

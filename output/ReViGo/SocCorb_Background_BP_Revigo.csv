@@ -1,56 +1,56 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0007526", "larval somatic muscle development", 0.300, 6.670, 2.485, 1.544, -3.161, 0.669, 0.000, -1, False
-"GO:0016204", "determination of muscle attachment site", 0.062, null, null, 0.903, -2.033, 0.737, 0.600, 7526, True
-"GO:0042694", "muscle cell fate specification", 0.062, null, null, 0.903, -2.033, 0.774, 0.600, 7526, True
-"GO:0035167", "larval lymph gland hemopoiesis", 0.388, null, null, 1.653, -2.959, 0.639, 0.736, 7526, True
-"GO:0035171", "lamellocyte differentiation", 0.044, null, null, 0.778, -1.765, 0.666, 0.833, 7526, True
-"GO:0035168", "larval lymph gland hemocyte differentiation", 0.123, null, null, 1.176, -1.650, 0.643, 0.903, 7526, True
-"GO:0009608", "response to symbiont", 0.044, -0.248, -6.128, 0.778, -2.275, 0.958, 0.000, -1, False
-"GO:0048680", "positive regulation of axon regeneration", 0.070, -2.843, 5.636, 0.954, -2.033, 0.817, 0.000, -1, False
-"GO:0048814", "regulation of dendrite morphogenesis", 0.291, null, null, 1.531, -1.502, 0.842, 0.719, 48680, True
-"GO:0050773", "regulation of dendrite development", 0.414, null, null, 1.681, -1.353, 0.838, 0.832, 48680, True
-"GO:1903461", "Okazaki fragment processing involved in mitotic DNA replication", 0.009, -5.831, -1.370, 0.301, -2.876, 0.974, 0.000, -1, False
-"GO:1903804", "glycine import across plasma membrane", 0.018, 3.426, -5.753, 0.477, -2.400, 0.964, 0.011, -1, False
-"GO:0006334", "nucleosome assembly", 0.317, 6.436, -3.824, 1.568, -1.650, 0.860, 0.014, -1, False
-"GO:0043044", "ATP-dependent chromatin remodeling", 0.476, null, null, 1.740, -1.452, 0.871, 0.590, 6334, True
-"GO:0043486", "histone exchange", 0.326, null, null, 1.580, -1.602, 0.864, 0.866, 6334, True
-"GO:0031497", "chromatin assembly", 0.441, null, null, 1.708, -1.306, 0.868, 0.952, 6334, True
-"GO:0006915", "apoptotic process", 1.093, -1.835, -0.830, 2.097, -1.540, 0.900, 0.019, -1, False
-"GO:0045476", "nurse cell apoptotic process", 0.123, null, null, 1.176, -1.650, 0.732, 0.720, 6915, True
-"GO:1902742", "apoptotic process involved in development", 0.150, null, null, 1.255, -1.602, 0.762, 0.733, 6915, True
-"GO:0012501", "programmed cell death", 1.648, null, null, 2.274, -1.340, 0.898, 0.919, 6915, True
-"GO:0007259", "receptor signaling pathway via JAK-STAT", 0.079, -2.173, -5.175, 1.000, -1.485, 0.893, 0.146, -1, False
-"GO:0035291", "specification of segmental identity, intercalary segment", 0.009, 4.837, 5.910, 0.301, -2.876, 0.803, 0.162, -1, False
-"GO:0007367", "segment polarity determination", 0.397, null, null, 1.663, -1.436, 0.758, 0.544, 35291, True
-"GO:0007365", "periodic partitioning", 0.502, null, null, 1.763, -1.317, 0.753, 0.747, 35291, True
-"GO:0035289", "posterior head segmentation", 0.115, null, null, 1.146, -1.838, 0.769, 0.780, 35291, True
-"GO:0042387", "plasmatocyte differentiation", 0.115, 3.690, 2.951, 1.146, -1.734, 0.732, 0.166, -1, False
-"GO:0006955", "immune response", 1.798, null, null, 2.312, -1.690, 0.872, 0.632, 42387, True
-"GO:0048736", "appendage development", 2.855, 5.752, 3.892, 2.512, -1.317, 0.763, 0.261, -1, False
-"GO:0045332", "phospholipid translocation", 0.115, 4.567, -3.801, 1.146, -2.100, 0.852, 0.313, -1, False
-"GO:0006900", "vesicle budding from membrane", 0.167, null, null, 1.301, -1.676, 0.884, 0.568, 45332, True
-"GO:0048194", "Golgi vesicle budding", 0.018, null, null, 0.477, -1.838, 0.898, 0.618, 45332, True
-"GO:0048813", "dendrite morphogenesis", 1.181, 5.406, 0.829, 2.130, -2.020, 0.635, 0.321, -1, False
-"GO:0016199", "axon midline choice point recognition", 0.220, null, null, 1.415, -1.625, 0.648, 0.618, 48813, True
-"GO:0016198", "axon choice point recognition", 0.238, null, null, 1.447, -1.602, 0.646, 0.749, 48813, True
-"GO:1904892", "regulation of receptor signaling pathway via STAT", 0.238, -4.516, 3.739, 1.447, -1.539, 0.905, 0.342, -1, False
-"GO:0035203", "regulation of lamellocyte differentiation", 0.097, -1.200, 7.104, 1.079, -1.879, 0.841, 0.377, -1, False
-"GO:1903706", "regulation of hemopoiesis", 0.106, null, null, 1.114, -1.765, 0.853, 0.556, 35203, True
-"GO:0045610", "regulation of hemocyte differentiation", 0.203, null, null, 1.380, -1.421, 0.849, 0.587, 35203, True
-"GO:0045613", "regulation of plasmatocyte differentiation", 0.097, null, null, 1.079, -1.879, 0.844, 0.892, 35203, True
-"GO:0006266", "DNA ligation", 0.035, -5.994, -0.729, 0.699, -2.400, 0.972, 0.407, -1, False
-"GO:0046427", "positive regulation of receptor signaling pathway via JAK-STAT", 0.097, -4.529, 4.351, 1.079, -1.924, 0.870, 0.420, -1, False
-"GO:1904894", "positive regulation of receptor signaling pathway via STAT", 0.097, null, null, 1.079, -1.924, 0.870, 0.869, 46427, True
-"GO:0046425", "regulation of receptor signaling pathway via JAK-STAT", 0.238, null, null, 1.447, -1.539, 0.867, 0.929, 46427, True
-"GO:0097696", "receptor signaling pathway via STAT", 0.079, -2.708, -5.029, 1.000, -1.485, 0.893, 0.434, -1, False
-"GO:0048056", "R3/R4 cell differentiation", 0.141, 5.609, 2.332, 1.230, -1.765, 0.696, 0.479, -1, False
-"GO:0007464", "R3/R4 cell fate commitment", 0.106, null, null, 1.114, -1.800, 0.691, 0.619, 48056, True
-"GO:0045467", "R7 cell development", 0.123, null, null, 1.176, -1.602, 0.694, 0.626, 48056, True
-"GO:0044719", "regulation of imaginal disc-derived wing size", 0.115, 6.331, 0.995, 1.146, -1.676, 0.629, 0.495, -1, False
-"GO:0007476", "imaginal disc-derived wing morphogenesis", 2.282, null, null, 2.415, -1.488, 0.578, 0.691, 44719, True
-"GO:0007472", "wing disc morphogenesis", 2.388, null, null, 2.435, -1.470, 0.624, 0.885, 44719, True
-"GO:0035120", "post-embryonic appendage morphogenesis", 2.688, null, null, 2.486, -1.358, 0.601, 0.941, 44719, True
-"GO:0035107", "appendage morphogenesis", 2.785, null, null, 2.501, -1.331, 0.647, 0.960, 44719, True
-"GO:0035114", "imaginal disc-derived appendage morphogenesis", 2.767, null, null, 2.498, -1.340, 0.646, 0.967, 44719, True
-"GO:0048737", "imaginal disc-derived appendage development", 2.829, null, null, 2.508, -1.328, 0.672, 0.967, 44719, True
-"GO:0048580", "regulation of post-embryonic development", 0.044, -0.741, 7.355, 0.778, -1.650, 0.871, 0.496, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0007526	larval_somatic_muscle_development	0.300	6.670	2.485	1.544	-3.161	0.669	0.000	-1	False
+GO:0016204	determination_of_muscle_attachment_site	0.062	null	null	0.903	-2.033	0.737	0.600	7526	True
+GO:0042694	muscle_cell_fate_specification	0.062	null	null	0.903	-2.033	0.774	0.600	7526	True
+GO:0035167	larval_lymph_gland_hemopoiesis	0.388	null	null	1.653	-2.959	0.639	0.736	7526	True
+GO:0035171	lamellocyte_differentiation	0.044	null	null	0.778	-1.765	0.666	0.833	7526	True
+GO:0035168	larval_lymph_gland_hemocyte_differentiation	0.123	null	null	1.176	-1.650	0.643	0.903	7526	True
+GO:0009608	response_to_symbiont	0.044	-0.248	-6.128	0.778	-2.275	0.958	0.000	-1	False
+GO:0048680	positive_regulation_of_axon_regeneration	0.070	-2.843	5.636	0.954	-2.033	0.817	0.000	-1	False
+GO:0048814	regulation_of_dendrite_morphogenesis	0.291	null	null	1.531	-1.502	0.842	0.719	48680	True
+GO:0050773	regulation_of_dendrite_development	0.414	null	null	1.681	-1.353	0.838	0.832	48680	True
+GO:1903461	Okazaki_fragment_processing_involved_in_mitotic_DNA_replication	0.009	-5.831	-1.370	0.301	-2.876	0.974	0.000	-1	False
+GO:1903804	glycine_import_across_plasma_membrane	0.018	3.426	-5.753	0.477	-2.400	0.964	0.011	-1	False
+GO:0006334	nucleosome_assembly	0.317	6.436	-3.824	1.568	-1.650	0.860	0.014	-1	False
+GO:0043044	ATP-dependent_chromatin_remodeling	0.476	null	null	1.740	-1.452	0.871	0.590	6334	True
+GO:0043486	histone_exchange	0.326	null	null	1.580	-1.602	0.864	0.866	6334	True
+GO:0031497	chromatin_assembly	0.441	null	null	1.708	-1.306	0.868	0.952	6334	True
+GO:0006915	apoptotic_process	1.093	-1.835	-0.830	2.097	-1.540	0.900	0.019	-1	False
+GO:0045476	nurse_cell_apoptotic_process	0.123	null	null	1.176	-1.650	0.732	0.720	6915	True
+GO:1902742	apoptotic_process_involved_in_development	0.150	null	null	1.255	-1.602	0.762	0.733	6915	True
+GO:0012501	programmed_cell_death	1.648	null	null	2.274	-1.340	0.898	0.919	6915	True
+GO:0007259	receptor_signaling_pathway_via_JAK-STAT	0.079	-2.173	-5.175	1.000	-1.485	0.893	0.146	-1	False
+GO:0035291	specification_of_segmental_identity_intercalary_segment	0.009	4.837	5.910	0.301	-2.876	0.803	0.162	-1	False
+GO:0007367	segment_polarity_determination	0.397	null	null	1.663	-1.436	0.758	0.544	35291	True
+GO:0007365	periodic_partitioning	0.502	null	null	1.763	-1.317	0.753	0.747	35291	True
+GO:0035289	posterior_head_segmentation	0.115	null	null	1.146	-1.838	0.769	0.780	35291	True
+GO:0042387	plasmatocyte_differentiation	0.115	3.690	2.951	1.146	-1.734	0.732	0.166	-1	False
+GO:0006955	immune_response	1.798	null	null	2.312	-1.690	0.872	0.632	42387	True
+GO:0048736	appendage_development	2.855	5.752	3.892	2.512	-1.317	0.763	0.261	-1	False
+GO:0045332	phospholipid_translocation	0.115	4.567	-3.801	1.146	-2.100	0.852	0.313	-1	False
+GO:0006900	vesicle_budding_from_membrane	0.167	null	null	1.301	-1.676	0.884	0.568	45332	True
+GO:0048194	Golgi_vesicle_budding	0.018	null	null	0.477	-1.838	0.898	0.618	45332	True
+GO:0048813	dendrite_morphogenesis	1.181	5.406	0.829	2.130	-2.020	0.635	0.321	-1	False
+GO:0016199	axon_midline_choice_point_recognition	0.220	null	null	1.415	-1.625	0.648	0.618	48813	True
+GO:0016198	axon_choice_point_recognition	0.238	null	null	1.447	-1.602	0.646	0.749	48813	True
+GO:1904892	regulation_of_receptor_signaling_pathway_via_STAT	0.238	-4.516	3.739	1.447	-1.539	0.905	0.342	-1	False
+GO:0035203	regulation_of_lamellocyte_differentiation	0.097	-1.200	7.104	1.079	-1.879	0.841	0.377	-1	False
+GO:1903706	regulation_of_hemopoiesis	0.106	null	null	1.114	-1.765	0.853	0.556	35203	True
+GO:0045610	regulation_of_hemocyte_differentiation	0.203	null	null	1.380	-1.421	0.849	0.587	35203	True
+GO:0045613	regulation_of_plasmatocyte_differentiation	0.097	null	null	1.079	-1.879	0.844	0.892	35203	True
+GO:0006266	DNA_ligation	0.035	-5.994	-0.729	0.699	-2.400	0.972	0.407	-1	False
+GO:0046427	positive_regulation_of_receptor_signaling_pathway_via_JAK-STAT	0.097	-4.529	4.351	1.079	-1.924	0.870	0.420	-1	False
+GO:1904894	positive_regulation_of_receptor_signaling_pathway_via_STAT	0.097	null	null	1.079	-1.924	0.870	0.869	46427	True
+GO:0046425	regulation_of_receptor_signaling_pathway_via_JAK-STAT	0.238	null	null	1.447	-1.539	0.867	0.929	46427	True
+GO:0097696	receptor_signaling_pathway_via_STAT	0.079	-2.708	-5.029	1.000	-1.485	0.893	0.434	-1	False
+GO:0048056	R3/R4_cell_differentiation	0.141	5.609	2.332	1.230	-1.765	0.696	0.479	-1	False
+GO:0007464	R3/R4_cell_fate_commitment	0.106	null	null	1.114	-1.800	0.691	0.619	48056	True
+GO:0045467	R7_cell_development	0.123	null	null	1.176	-1.602	0.694	0.626	48056	True
+GO:0044719	regulation_of_imaginal_disc-derived_wing_size	0.115	6.331	0.995	1.146	-1.676	0.629	0.495	-1	False
+GO:0007476	imaginal_disc-derived_wing_morphogenesis	2.282	null	null	2.415	-1.488	0.578	0.691	44719	True
+GO:0007472	wing_disc_morphogenesis	2.388	null	null	2.435	-1.470	0.624	0.885	44719	True
+GO:0035120	post-embryonic_appendage_morphogenesis	2.688	null	null	2.486	-1.358	0.601	0.941	44719	True
+GO:0035107	appendage_morphogenesis	2.785	null	null	2.501	-1.331	0.647	0.960	44719	True
+GO:0035114	imaginal_disc-derived_appendage_morphogenesis	2.767	null	null	2.498	-1.340	0.646	0.967	44719	True
+GO:0048737	imaginal_disc-derived_appendage_development	2.829	null	null	2.508	-1.328	0.672	0.967	44719	True
+GO:0048580	regulation_of_post-embryonic_development	0.044	-0.741	7.355	0.778	-1.650	0.871	0.496	-1	False

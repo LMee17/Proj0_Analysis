@@ -1,26 +1,26 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0010225", "response to UV-C", 0.009, 5.362, 4.466, 0.301, -3.244, 0.953, 0.000, -1, False
-"GO:0046529", "imaginal disc fusion, thorax closure", 0.185, -2.939, -5.292, 1.342, -2.100, 0.898, 0.000, -1, False
-"GO:0007391", "dorsal closure", 0.908, null, null, 2.017, -1.322, 0.916, 0.517, 46529, True
-"GO:0097753", "membrane bending", 0.026, -5.278, 3.118, 0.602, -2.943, 0.972, 0.000, -1, False
-"GO:1900744", "regulation of p38MAPK cascade", 0.018, -2.001, -0.199, 0.477, -3.244, 0.590, 0.000, -1, False
-"GO:0043407", "negative regulation of MAP kinase activity", 0.079, null, null, 1.000, -2.342, 0.540, 0.562, 1900744, True
-"GO:0051056", "regulation of small GTPase mediated signal transduction", 0.775, null, null, 1.949, -1.450, 0.571, 0.566, 1900744, True
-"GO:0046580", "negative regulation of Ras protein signal transduction", 0.053, null, null, 0.845, -1.924, 0.569, 0.614, 1900744, True
-"GO:0051058", "negative regulation of small GTPase mediated signal transduction", 0.062, null, null, 0.903, -1.904, 0.565, 0.646, 1900744, True
-"GO:0046578", "regulation of Ras protein signal transduction", 0.705, null, null, 1.908, -1.457, 0.545, 0.781, 1900744, True
-"GO:0046329", "negative regulation of JNK cascade", 0.238, null, null, 1.447, -1.904, 0.487, 0.829, 1900744, True
-"GO:0070303", "negative regulation of stress-activated protein kinase signaling cascade", 0.256, null, null, 1.477, -1.904, 0.502, 0.845, 1900744, True
-"GO:0046328", "regulation of JNK cascade", 0.573, null, null, 1.820, -1.567, 0.499, 0.911, 1900744, True
-"GO:0032873", "negative regulation of stress-activated MAPK cascade", 0.247, null, null, 1.462, -1.904, 0.486, 0.989, 1900744, True
-"GO:0006470", "protein dephosphorylation", 0.943, 2.929, -6.944, 2.033, -1.359, 0.993, 0.015, -1, False
-"GO:0045678", "positive regulation of R7 cell differentiation", 0.026, -0.973, 6.498, 0.602, -2.400, 0.882, 0.079, -1, False
-"GO:1901562", "response to paraquat", 0.035, 5.728, -2.816, 0.699, -2.943, 0.950, 0.126, -1, False
-"GO:0097688", "glutamate receptor clustering", 0.044, -6.130, -0.029, 0.778, -2.767, 0.937, 0.139, -1, False
-"GO:0099173", "postsynapse organization", 0.203, null, null, 1.380, -1.967, 0.935, 0.591, 97688, True
-"GO:0030522", "intracellular receptor signaling pathway", 0.326, 7.022, -0.020, 1.580, -1.800, 0.824, 0.159, -1, False
-"GO:0007254", "JNK cascade", 0.167, 6.249, 0.983, 1.301, -1.493, 0.818, 0.324, -1, False
-"GO:0040034", "regulation of development, heterochronic", 0.106, 0.004, 6.843, 1.114, -2.204, 0.881, 0.355, -1, False
-"GO:0016319", "mushroom body development", 0.634, -2.009, -5.738, 1.863, -1.524, 0.877, 0.363, -1, False
-"GO:0007420", "brain development", 0.987, null, null, 2.053, -1.312, 0.875, 0.905, 16319, True
-"GO:0006979", "response to oxidative stress", 1.190, 5.061, 0.742, 2.134, -1.337, 0.924, 0.378, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0010225	response_to_UV-C	0.009	5.362	4.466	0.301	-3.244	0.953	0.000	-1	False
+GO:0046529	imaginal_disc_fusion_thorax_closure	0.185	-2.939	-5.292	1.342	-2.100	0.898	0.000	-1	False
+GO:0007391	dorsal_closure	0.908	null	null	2.017	-1.322	0.916	0.517	46529	True
+GO:0097753	membrane_bending	0.026	-5.278	3.118	0.602	-2.943	0.972	0.000	-1	False
+GO:1900744	regulation_of_p38MAPK_cascade	0.018	-2.001	-0.199	0.477	-3.244	0.590	0.000	-1	False
+GO:0043407	negative_regulation_of_MAP_kinase_activity	0.079	null	null	1.000	-2.342	0.540	0.562	1900744	True
+GO:0051056	regulation_of_small_GTPase_mediated_signal_transduction	0.775	null	null	1.949	-1.450	0.571	0.566	1900744	True
+GO:0046580	negative_regulation_of_Ras_protein_signal_transduction	0.053	null	null	0.845	-1.924	0.569	0.614	1900744	True
+GO:0051058	negative_regulation_of_small_GTPase_mediated_signal_transduction	0.062	null	null	0.903	-1.904	0.565	0.646	1900744	True
+GO:0046578	regulation_of_Ras_protein_signal_transduction	0.705	null	null	1.908	-1.457	0.545	0.781	1900744	True
+GO:0046329	negative_regulation_of_JNK_cascade	0.238	null	null	1.447	-1.904	0.487	0.829	1900744	True
+GO:0070303	negative_regulation_of_stress-activated_protein_kinase_signaling_cascade	0.256	null	null	1.477	-1.904	0.502	0.845	1900744	True
+GO:0046328	regulation_of_JNK_cascade	0.573	null	null	1.820	-1.567	0.499	0.911	1900744	True
+GO:0032873	negative_regulation_of_stress-activated_MAPK_cascade	0.247	null	null	1.462	-1.904	0.486	0.989	1900744	True
+GO:0006470	protein_dephosphorylation	0.943	2.929	-6.944	2.033	-1.359	0.993	0.015	-1	False
+GO:0045678	positive_regulation_of_R7_cell_differentiation	0.026	-0.973	6.498	0.602	-2.400	0.882	0.079	-1	False
+GO:1901562	response_to_paraquat	0.035	5.728	-2.816	0.699	-2.943	0.950	0.126	-1	False
+GO:0097688	glutamate_receptor_clustering	0.044	-6.130	-0.029	0.778	-2.767	0.937	0.139	-1	False
+GO:0099173	postsynapse_organization	0.203	null	null	1.380	-1.967	0.935	0.591	97688	True
+GO:0030522	intracellular_receptor_signaling_pathway	0.326	7.022	-0.020	1.580	-1.800	0.824	0.159	-1	False
+GO:0007254	JNK_cascade	0.167	6.249	0.983	1.301	-1.493	0.818	0.324	-1	False
+GO:0040034	regulation_of_development_heterochronic	0.106	0.004	6.843	1.114	-2.204	0.881	0.355	-1	False
+GO:0016319	mushroom_body_development	0.634	-2.009	-5.738	1.863	-1.524	0.877	0.363	-1	False
+GO:0007420	brain_development	0.987	null	null	2.053	-1.312	0.875	0.905	16319	True
+GO:0006979	response_to_oxidative_stress	1.190	5.061	0.742	2.134	-1.337	0.924	0.378	-1	False

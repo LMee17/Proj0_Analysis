@@ -1,3 +1,3 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0098975", "postsynapse of neuromuscular junction", 0.171, 0.004, 0.998, 1.322, -2.081, 0.993, 0.000, -1, False
-"GO:0000139", "Golgi membrane", 1.566, 0.984, 0.004, 2.265, -1.535, 0.993, 0.004, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0098975	postsynapse_of_neuromuscular_junction	0.171	0.004	0.998	1.322	-2.081	0.993	0.000	-1	False
+GO:0000139	Golgi_membrane	1.566	0.984	0.004	2.265	-1.535	0.993	0.004	-1	False

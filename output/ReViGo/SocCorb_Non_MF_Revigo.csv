@@ -1,2 +1,2 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0003712", "transcription coregulator activity", 1.606, 0.984, 0.438, 2.260, -1.678, 1.000, 0.000, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0003712	transcription coregulator activity	1.606	0.984	0.438	2.260	-1.678	1.000	0.000	-1	False

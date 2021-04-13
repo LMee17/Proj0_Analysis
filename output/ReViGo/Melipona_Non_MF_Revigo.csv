@@ -1,57 +1,57 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0003824", "catalytic activity", 36.797, -4.195, -6.717, 3.618, -5.119, 1.000, 0.000, -1, False
-"GO:0015643", "toxic substance binding", 0.009, 5.963, -2.184, 0.301, -1.825, 0.987, 0.000, -1, False
-"GO:0015662", "ion transmembrane transporter activity, phosphorylative mechanism", 0.071, -1.533, 7.101, 0.954, -2.130, 0.895, 0.000, -1, False
-"GO:0008556", "potassium transmembrane transporter activity, phosphorylative mechanism", 0.018, null, null, 0.477, -1.825, 0.884, 0.704, 15662, True
-"GO:0019829", "ATPase-coupled cation transmembrane transporter activity", 0.346, null, null, 1.602, -1.495, 0.882, 0.866, 15662, True
-"GO:0008554", "P-type sodium transporter activity", 0.133, null, null, 1.204, -1.825, 0.875, 0.950, 15662, True
-"GO:0016779", "nucleotidyltransferase activity", 0.816, -5.997, -1.606, 1.968, -3.495, 0.651, 0.000, -1, False
-"GO:0003887", "DNA-directed DNA polymerase activity", 0.080, null, null, 1.000, -1.954, 0.631, 0.508, 16779, True
-"GO:0009931", "calcium-dependent protein serine/threonine kinase activity", 0.089, null, null, 1.041, -1.354, 0.672, 0.513, 16779, True
-"GO:0010857", "calcium-dependent protein kinase activity", 0.089, null, null, 1.041, -1.354, 0.672, 0.535, 16779, True
-"GO:0051575", "5'-deoxyribose-5-phosphate lyase activity", 0.018, null, null, 0.477, -1.527, 0.806, 0.556, 16779, True
-"GO:0003983", "UTP:glucose-1-phosphate uridylyltransferase activity", 0.009, null, null, 0.301, -1.825, 0.690, 0.579, 16779, True
-"GO:0004605", "phosphatidate cytidylyltransferase activity", 0.018, null, null, 0.477, -1.527, 0.688, 0.605, 16779, True
-"GO:0070569", "uridylyltransferase activity", 0.044, null, null, 0.778, -1.527, 0.672, 0.642, 16779, True
-"GO:0070567", "cytidylyltransferase activity", 0.053, null, null, 0.845, -1.354, 0.668, 0.650, 16779, True
-"GO:0004089", "carbonate dehydratase activity", 0.142, null, null, 1.230, -1.527, 0.817, 0.690, 16779, True
-"GO:0016835", "carbon-oxygen lyase activity", 0.515, null, null, 1.771, -1.341, 0.806, 0.724, 16779, True
-"GO:0034061", "DNA polymerase activity", 0.080, null, null, 1.000, -1.954, 0.631, 0.769, 16779, True
-"GO:0051748", "UTP-monosaccharide-1-phosphate uridylyltransferase activity", 0.009, null, null, 0.301, -1.825, 0.690, 0.827, 16779, True
-"GO:0005500", "juvenile hormone binding", 0.009, 4.250, 4.678, 0.301, -1.527, 0.972, 0.032, -1, False
-"GO:0051019", "mitogen-activated protein kinase binding", 0.053, 0.643, -6.230, 0.845, -1.527, 0.938, 0.036, -1, False
-"GO:0019900", "kinase binding", 0.896, null, null, 2.009, -1.356, 0.937, 0.519, 51019, True
-"GO:0036313", "phosphatidylinositol 3-kinase catalytic subunit binding", 0.018, null, null, 0.477, -1.527, 0.941, 0.578, 51019, True
-"GO:0008494", "translation activator activity", 0.053, 5.401, 0.506, 0.845, -1.527, 0.977, 0.040, -1, False
-"GO:0003707", "steroid hormone receptor activity", 0.035, -1.987, -7.094, 0.699, -1.527, 0.988, 0.087, -1, False
-"GO:0004345", "glucose-6-phosphate dehydrogenase activity", 0.018, 1.245, 6.814, 0.477, -1.825, 0.890, 0.094, -1, False
-"GO:0004825", "methionine-tRNA ligase activity", 0.018, 1.054, 2.589, 0.477, -1.354, 0.830, 0.094, -1, False
-"GO:0061929", "gamma-glutamylaminecyclotransferase activity", 0.018, 0.703, -0.726, 0.477, -1.825, 0.842, 0.094, -1, False
-"GO:0004177", "aminopeptidase activity", 0.382, -5.235, 4.105, 1.643, -1.748, 0.781, 0.122, -1, False
-"GO:0008238", "exopeptidase activity", 0.816, null, null, 1.968, -1.376, 0.769, 0.537, 4177, True
-"GO:0035255", "ionotropic glutamate receptor binding", 0.009, 3.043, -4.629, 0.301, -1.527, 0.948, 0.135, -1, False
-"GO:0016740", "transferase activity", 12.032, -4.552, 1.259, 3.133, -4.959, 0.817, 0.182, -1, False
-"GO:0070034", "telomerase RNA binding", 0.027, 5.916, 1.446, 0.602, -1.354, 0.981, 0.198, -1, False
-"GO:0008474", "palmitoyl-(protein) hydrolase activity", 0.071, -5.183, 5.228, 0.954, -1.354, 0.811, 0.278, -1, False
-"GO:0016411", "acylglycerol O-acyltransferase activity", 0.053, -6.103, -3.053, 0.845, -2.498, 0.736, 0.302, -1, False
-"GO:0004144", "diacylglycerol O-acyltransferase activity", 0.018, null, null, 0.477, -1.527, 0.752, 0.740, 16411, True
-"GO:0003755", "peptidyl-prolyl cis-trans isomerase activity", 0.293, -6.579, 3.756, 1.531, -1.539, 0.773, 0.313, -1, False
-"GO:0016859", "cis-trans isomerase activity", 0.319, null, null, 1.568, -1.453, 0.845, 0.755, 3755, True
-"GO:0008146", "sulfotransferase activity", 0.151, -6.919, -2.339, 1.255, -2.234, 0.673, 0.330, -1, False
-"GO:0008260", "3-oxoacid CoA-transferase activity", 0.009, null, null, 0.301, -1.825, 0.721, 0.720, 8146, True
-"GO:0008476", "protein-tyrosine sulfotransferase activity", 0.009, null, null, 0.301, -1.825, 0.698, 0.720, 8146, True
-"GO:0008467", "[heparan sulfate]-glucosamine 3-sulfotransferase 1 activity", 0.018, null, null, 0.477, -1.527, 0.708, 0.753, 8146, True
-"GO:0008410", "CoA-transferase activity", 0.035, null, null, 0.699, -1.825, 0.699, 0.789, 8146, True
-"GO:0005391", "P-type sodium:potassium-exchanging ATPase activity", 0.080, -2.921, 5.945, 1.000, -1.825, 0.778, 0.395, -1, False
-"GO:0003924", "GTPase activity", 1.295, null, null, 2.167, -1.364, 0.821, 0.508, 5391, True
-"GO:0035254", "glutamate receptor binding", 0.018, 2.982, -5.255, 0.477, -1.354, 0.946, 0.403, -1, False
-"GO:0008168", "methyltransferase activity", 1.207, -6.822, -0.949, 2.137, -3.292, 0.619, 0.404, -1, False
-"GO:0004047", "aminomethyltransferase activity", 0.009, null, null, 0.301, -1.825, 0.718, 0.628, 8168, True
-"GO:0016435", "rRNA (guanine) methyltransferase activity", 0.018, null, null, 0.477, -1.354, 0.667, 0.662, 8168, True
-"GO:0016300", "tRNA (uracil) methyltransferase activity", 0.027, null, null, 0.602, -1.354, 0.654, 0.683, 8168, True
-"GO:0035241", "protein-arginine omega-N monomethyltransferase activity", 0.062, null, null, 0.903, -1.354, 0.655, 0.732, 8168, True
-"GO:0008173", "RNA methyltransferase activity", 0.461, null, null, 1.724, -2.053, 0.599, 0.882, 8168, True
-"GO:0008175", "tRNA methyltransferase activity", 0.195, null, null, 1.362, -1.954, 0.611, 0.884, 8168, True
-"GO:0016741", "transferase activity, transferring one-carbon groups", 1.260, -6.263, -0.967, 2.155, -3.194, 0.691, 0.424, -1, False
-"GO:0019840", "isoprenoid binding", 0.035, 3.921, 5.057, 0.699, -1.354, 0.971, 0.457, -1, False
-"GO:0005158", "insulin receptor binding", 0.124, 2.417, -5.106, 1.176, -1.354, 0.942, 0.473, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0003824	catalytic_activity	36.797	-4.195	-6.717	3.618	-5.119	1.000	0.000	-1	False
+GO:0015643	toxic_substance_binding	0.009	5.963	-2.184	0.301	-1.825	0.987	0.000	-1	False
+GO:0015662	ion_transmembrane_transporter_activity_phosphorylative_mechanism	0.071	-1.533	7.101	0.954	-2.130	0.895	0.000	-1	False
+GO:0008556	potassium_transmembrane_transporter_activity_phosphorylative_mechanism	0.018	null	null	0.477	-1.825	0.884	0.704	15662	True
+GO:0019829	ATPase-coupled_cation_transmembrane_transporter_activity	0.346	null	null	1.602	-1.495	0.882	0.866	15662	True
+GO:0008554	P-type_sodium_transporter_activity	0.133	null	null	1.204	-1.825	0.875	0.950	15662	True
+GO:0016779	nucleotidyltransferase_activity	0.816	-5.997	-1.606	1.968	-3.495	0.651	0.000	-1	False
+GO:0003887	DNA-directed_DNA_polymerase_activity	0.080	null	null	1.000	-1.954	0.631	0.508	16779	True
+GO:0009931	calcium-dependent_protein_serine/threonine_kinase_activity	0.089	null	null	1.041	-1.354	0.672	0.513	16779	True
+GO:0010857	calcium-dependent_protein_kinase_activity	0.089	null	null	1.041	-1.354	0.672	0.535	16779	True
+GO:0051575	5'-deoxyribose-5-phosphate_lyase_activity	0.018	null	null	0.477	-1.527	0.806	0.556	16779	True
+GO:0003983	UTP:glucose-1-phosphate_uridylyltransferase_activity	0.009	null	null	0.301	-1.825	0.690	0.579	16779	True
+GO:0004605	phosphatidate_cytidylyltransferase_activity	0.018	null	null	0.477	-1.527	0.688	0.605	16779	True
+GO:0070569	uridylyltransferase_activity	0.044	null	null	0.778	-1.527	0.672	0.642	16779	True
+GO:0070567	cytidylyltransferase_activity	0.053	null	null	0.845	-1.354	0.668	0.650	16779	True
+GO:0004089	carbonate_dehydratase_activity	0.142	null	null	1.230	-1.527	0.817	0.690	16779	True
+GO:0016835	carbon-oxygen_lyase_activity	0.515	null	null	1.771	-1.341	0.806	0.724	16779	True
+GO:0034061	DNA_polymerase_activity	0.080	null	null	1.000	-1.954	0.631	0.769	16779	True
+GO:0051748	UTP-monosaccharide-1-phosphate_uridylyltransferase_activity	0.009	null	null	0.301	-1.825	0.690	0.827	16779	True
+GO:0005500	juvenile_hormone_binding	0.009	4.250	4.678	0.301	-1.527	0.972	0.032	-1	False
+GO:0051019	mitogen-activated_protein_kinase_binding	0.053	0.643	-6.230	0.845	-1.527	0.938	0.036	-1	False
+GO:0019900	kinase_binding	0.896	null	null	2.009	-1.356	0.937	0.519	51019	True
+GO:0036313	phosphatidylinositol_3-kinase_catalytic_subunit_binding	0.018	null	null	0.477	-1.527	0.941	0.578	51019	True
+GO:0008494	translation_activator_activity	0.053	5.401	0.506	0.845	-1.527	0.977	0.040	-1	False
+GO:0003707	steroid_hormone_receptor_activity	0.035	-1.987	-7.094	0.699	-1.527	0.988	0.087	-1	False
+GO:0004345	glucose-6-phosphate_dehydrogenase_activity	0.018	1.245	6.814	0.477	-1.825	0.890	0.094	-1	False
+GO:0004825	methionine-tRNA_ligase_activity	0.018	1.054	2.589	0.477	-1.354	0.830	0.094	-1	False
+GO:0061929	gamma-glutamylaminecyclotransferase_activity	0.018	0.703	-0.726	0.477	-1.825	0.842	0.094	-1	False
+GO:0004177	aminopeptidase_activity	0.382	-5.235	4.105	1.643	-1.748	0.781	0.122	-1	False
+GO:0008238	exopeptidase_activity	0.816	null	null	1.968	-1.376	0.769	0.537	4177	True
+GO:0035255	ionotropic_glutamate_receptor_binding	0.009	3.043	-4.629	0.301	-1.527	0.948	0.135	-1	False
+GO:0016740	transferase_activity	12.032	-4.552	1.259	3.133	-4.959	0.817	0.182	-1	False
+GO:0070034	telomerase_RNA_binding	0.027	5.916	1.446	0.602	-1.354	0.981	0.198	-1	False
+GO:0008474	palmitoyl-(protein)_hydrolase_activity	0.071	-5.183	5.228	0.954	-1.354	0.811	0.278	-1	False
+GO:0016411	acylglycerol_O-acyltransferase_activity	0.053	-6.103	-3.053	0.845	-2.498	0.736	0.302	-1	False
+GO:0004144	diacylglycerol_O-acyltransferase_activity	0.018	null	null	0.477	-1.527	0.752	0.740	16411	True
+GO:0003755	peptidyl-prolyl_cis-trans_isomerase_activity	0.293	-6.579	3.756	1.531	-1.539	0.773	0.313	-1	False
+GO:0016859	cis-trans_isomerase_activity	0.319	null	null	1.568	-1.453	0.845	0.755	3755	True
+GO:0008146	sulfotransferase_activity	0.151	-6.919	-2.339	1.255	-2.234	0.673	0.330	-1	False
+GO:0008260	3-oxoacid_CoA-transferase_activity	0.009	null	null	0.301	-1.825	0.721	0.720	8146	True
+GO:0008476	protein-tyrosine_sulfotransferase_activity	0.009	null	null	0.301	-1.825	0.698	0.720	8146	True
+GO:0008467	[heparan_sulfate]-glucosamine_3-sulfotransferase_1_activity	0.018	null	null	0.477	-1.527	0.708	0.753	8146	True
+GO:0008410	CoA-transferase_activity	0.035	null	null	0.699	-1.825	0.699	0.789	8146	True
+GO:0005391	P-type_sodium:potassium-exchanging_ATPase_activity	0.080	-2.921	5.945	1.000	-1.825	0.778	0.395	-1	False
+GO:0003924	GTPase_activity	1.295	null	null	2.167	-1.364	0.821	0.508	5391	True
+GO:0035254	glutamate_receptor_binding	0.018	2.982	-5.255	0.477	-1.354	0.946	0.403	-1	False
+GO:0008168	methyltransferase_activity	1.207	-6.822	-0.949	2.137	-3.292	0.619	0.404	-1	False
+GO:0004047	aminomethyltransferase_activity	0.009	null	null	0.301	-1.825	0.718	0.628	8168	True
+GO:0016435	rRNA_(guanine)_methyltransferase_activity	0.018	null	null	0.477	-1.354	0.667	0.662	8168	True
+GO:0016300	tRNA_(uracil)_methyltransferase_activity	0.027	null	null	0.602	-1.354	0.654	0.683	8168	True
+GO:0035241	protein-arginine_omega-N_monomethyltransferase_activity	0.062	null	null	0.903	-1.354	0.655	0.732	8168	True
+GO:0008173	RNA_methyltransferase_activity	0.461	null	null	1.724	-2.053	0.599	0.882	8168	True
+GO:0008175	tRNA_methyltransferase_activity	0.195	null	null	1.362	-1.954	0.611	0.884	8168	True
+GO:0016741	transferase_activity_transferring_one-carbon_groups	1.260	-6.263	-0.967	2.155	-3.194	0.691	0.424	-1	False
+GO:0019840	isoprenoid_binding	0.035	3.921	5.057	0.699	-1.354	0.971	0.457	-1	False
+GO:0005158	insulin_receptor_binding	0.124	2.417	-5.106	1.176	-1.354	0.942	0.473	-1	False

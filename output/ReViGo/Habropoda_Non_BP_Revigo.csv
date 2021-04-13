@@ -1,66 +1,66 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0034968", "histone lysine methylation", 0.423, -5.042, -2.603, 1.690, -3.201, 0.606, 0.000, -1, False
-"GO:0061647", "histone H3-K9 modification", 0.123, null, null, 1.176, -1.502, 0.711, 0.651, 34968, True
-"GO:0018205", "peptidyl-lysine modification", 1.489, null, null, 2.230, -2.772, 0.691, 0.652, 34968, True
-"GO:0016569", "covalent chromatin modification", 1.780, null, null, 2.307, -2.286, 0.695, 0.690, 34968, True
-"GO:0044648", "histone H3-K4 dimethylation", 0.009, null, null, 0.301, -2.341, 0.688, 0.714, 34968, True
-"GO:0080182", "histone H3-K4 trimethylation", 0.026, null, null, 0.602, -1.866, 0.667, 0.771, 34968, True
-"GO:0010452", "histone H3-K36 methylation", 0.044, null, null, 0.778, -1.502, 0.659, 0.801, 34968, True
-"GO:0016570", "histone modification", 1.780, null, null, 2.307, -2.315, 0.649, 0.834, 34968, True
-"GO:0018023", "peptidyl-lysine trimethylation", 0.088, null, null, 1.041, -1.502, 0.674, 0.846, 34968, True
-"GO:0051567", "histone H3-K9 methylation", 0.088, null, null, 1.041, -1.646, 0.644, 0.846, 34968, True
-"GO:0018022", "peptidyl-lysine methylation", 0.493, null, null, 1.756, -3.167, 0.641, 0.906, 34968, True
-"GO:0006479", "protein methylation", 0.731, null, null, 1.924, -2.799, 0.640, 0.955, 34968, True
-"GO:0016571", "histone methylation", 0.493, null, null, 1.756, -2.928, 0.617, 0.955, 34968, True
-"GO:0035265", "organ growth", 0.123, 2.887, 3.597, 1.176, -1.623, 0.995, 0.000, -1, False
-"GO:2000480", "negative regulation of cAMP-dependent protein kinase activity", 0.009, 3.098, -4.776, 0.301, -2.341, 0.909, 0.000, -1, False
-"GO:0008315", "G2/MI transition of meiotic cell cycle", 0.026, 1.669, 6.394, 0.602, -2.041, 0.970, 0.014, -1, False
-"GO:0098506", "polynucleotide 3' dephosphorylation", 0.009, -1.860, -7.365, 0.301, -2.341, 0.876, 0.075, -1, False
-"GO:0098502", "DNA dephosphorylation", 0.223, null, null, 1.415, -2.341, 0.849, 0.515, 98506, True
-"GO:0098501", "polynucleotide dephosphorylation", 0.026, null, null, 0.602, -2.341, 0.774, 0.554, 98506, True
-"GO:0090263", "positive regulation of canonical Wnt signaling pathway", 0.432, 4.432, -1.031, 1.699, -2.096, 0.899, 0.091, -1, False
-"GO:0090364", "regulation of proteasome assembly", 0.018, 0.914, -7.032, 0.477, -2.041, 0.957, 0.095, -1, False
-"GO:0043153", "entrainment of circadian clock by photoperiod", 0.106, -2.479, 6.660, 1.114, -1.502, 0.899, 0.099, -1, False
-"GO:0009648", "photoperiodism", 0.115, null, null, 1.146, -1.502, 0.938, 0.634, 43153, True
-"GO:0045498", "sex comb development", 0.097, 4.365, 4.265, 1.079, -1.395, 0.995, 0.153, -1, False
-"GO:0006807", "nitrogen compound metabolic process", 33.821, -6.458, -5.212, 3.584, -3.222, 0.848, 0.154, -1, False
-"GO:1904812", "rRNA acetylation involved in maturation of SSU-rRNA", 0.009, -7.252, 0.762, 0.301, -2.341, 0.733, 0.197, -1, False
-"GO:0002101", "tRNA wobble cytosine modification", 0.088, null, null, 1.041, -2.341, 0.702, 0.548, 1904812, True
-"GO:0070681", "glutaminyl-tRNAGln biosynthesis via transamidation", 0.026, null, null, 0.602, -2.041, 0.754, 0.571, 1904812, True
-"GO:0006425", "glutaminyl-tRNA aminoacylation", 0.018, null, null, 0.477, -2.041, 0.734, 0.664, 1904812, True
-"GO:0051391", "tRNA acetylation", 0.009, null, null, 0.301, -2.341, 0.725, 1.000, 1904812, True
-"GO:0070212", "protein poly-ADP-ribosylation", 0.018, -3.049, -2.241, 0.477, -2.341, 0.815, 0.217, -1, False
-"GO:0045004", "DNA replication proofreading", 0.044, -5.348, 2.546, 0.778, -2.041, 0.710, 0.242, -1, False
-"GO:0006272", "leading strand elongation", 0.070, null, null, 0.954, -1.568, 0.754, 0.648, 45004, True
-"GO:0006783", "heme biosynthetic process", 0.123, -7.326, -0.327, 1.176, -1.350, 0.701, 0.263, -1, False
-"GO:0033014", "tetrapyrrole biosynthetic process", 0.123, null, null, 1.176, -1.350, 0.702, 0.970, 6783, True
-"GO:0006778", "porphyrin-containing compound metabolic process", 0.132, null, null, 1.204, -1.350, 0.704, 0.975, 6783, True
-"GO:0042168", "heme metabolic process", 0.132, null, null, 1.204, -1.350, 0.703, 0.994, 6783, True
-"GO:0006779", "porphyrin-containing compound biosynthetic process", 0.123, null, null, 1.176, -1.350, 0.701, 0.999, 6783, True
-"GO:0033013", "tetrapyrrole metabolic process", 0.150, -6.043, -0.008, 1.255, -1.350, 0.779, 0.265, -1, False
-"GO:0046470", "phosphatidylcholine metabolic process", 0.062, -3.428, -5.800, 0.903, -1.866, 0.819, 0.269, -1, False
-"GO:0006644", "phospholipid metabolic process", 1.542, null, null, 2.246, -1.400, 0.825, 0.558, 46470, True
-"GO:0008213", "protein alkylation", 0.731, -6.235, -2.578, 1.924, -2.799, 0.760, 0.294, -1, False
-"GO:0070935", "3'-UTR-mediated mRNA stabilization", 0.018, 3.787, -3.723, 0.477, -2.341, 0.878, 0.296, -1, False
-"GO:1902175", "regulation of oxidative stress-induced intrinsic apoptotic signaling pathway", 0.009, 4.760, 0.572, 0.301, -1.866, 0.876, 0.342, -1, False
-"GO:2001242", "regulation of intrinsic apoptotic signaling pathway", 0.053, null, null, 0.845, -1.502, 0.899, 0.744, 1902175, True
-"GO:1900407", "regulation of cellular response to oxidative stress", 0.088, null, null, 1.041, -1.445, 0.878, 0.817, 1902175, True
-"GO:1903201", "regulation of oxidative stress-induced cell death", 0.053, null, null, 0.845, -1.568, 0.875, 0.918, 1902175, True
-"GO:0007113", "endomitotic cell cycle", 0.097, 1.195, 6.713, 1.079, -1.310, 0.968, 0.352, -1, False
-"GO:0018193", "peptidyl-amino acid modification", 3.780, -5.651, -2.050, 2.633, -2.243, 0.723, 0.373, -1, False
-"GO:0008631", "intrinsic apoptotic signaling pathway in response to oxidative stress", 0.055, -4.697, 5.477, 0.845, -1.866, 0.818, 0.375, -1, False
-"GO:0034349", "glial cell apoptotic process", 0.018, null, null, 0.477, -1.742, 0.951, 0.553, 8631, True
-"GO:0036473", "cell death in response to oxidative stress", 0.009, null, null, 0.301, -1.502, 0.869, 0.668, 8631, True
-"GO:1902882", "regulation of response to oxidative stress", 0.123, 5.165, 0.337, 1.176, -1.350, 0.902, 0.441, -1, False
-"GO:0045948", "positive regulation of translational initiation", 0.044, 3.448, -3.457, 0.778, -1.866, 0.875, 0.481, -1, False
-"GO:0035194", "post-transcriptional gene silencing by RNA", 0.502, null, null, 1.763, -1.855, 0.811, 0.552, 45948, True
-"GO:0016441", "posttranscriptional gene silencing", 0.555, null, null, 1.806, -1.795, 0.818, 0.809, 45948, True
-"GO:0031053", "primary miRNA processing", 0.062, null, null, 0.903, -1.568, 0.641, 0.814, 45948, True
-"GO:0031047", "gene silencing by RNA", 0.634, null, null, 1.863, -1.688, 0.830, 0.827, 45948, True
-"GO:0035196", "production of miRNAs involved in gene silencing by miRNA", 0.123, null, null, 1.176, -1.350, 0.640, 0.914, 45948, True
-"GO:0006287", "base-excision repair, gap-filling", 0.018, -5.430, 3.110, 0.477, -2.041, 0.733, 0.482, -1, False
-"GO:0071407", "cellular response to organic cyclic compound", 0.397, -4.229, 5.997, 1.663, -1.757, 0.851, 0.486, -1, False
-"GO:0035076", "ecdysone receptor-mediated signaling pathway", 0.088, null, null, 1.041, -1.350, 0.823, 0.745, 71407, True
-"GO:0043331", "response to dsRNA", 0.246, null, null, 1.447, -1.310, 0.889, 0.811, 71407, True
-"GO:0071359", "cellular response to dsRNA", 0.170, null, null, 1.301, -1.310, 0.855, 0.821, 71407, True
-"GO:0006297", "nucleotide-excision repair, DNA gap filling", 0.026, -5.878, 2.882, 0.602, -1.866, 0.726, 0.494, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0034968	histone_lysine_methylation	0.423	-5.042	-2.603	1.690	-3.201	0.606	0.000	-1	False
+GO:0061647	histone_H3-K9_modification	0.123	null	null	1.176	-1.502	0.711	0.651	34968	True
+GO:0018205	peptidyl-lysine_modification	1.489	null	null	2.230	-2.772	0.691	0.652	34968	True
+GO:0016569	covalent_chromatin_modification	1.780	null	null	2.307	-2.286	0.695	0.690	34968	True
+GO:0044648	histone_H3-K4_dimethylation	0.009	null	null	0.301	-2.341	0.688	0.714	34968	True
+GO:0080182	histone_H3-K4_trimethylation	0.026	null	null	0.602	-1.866	0.667	0.771	34968	True
+GO:0010452	histone_H3-K36_methylation	0.044	null	null	0.778	-1.502	0.659	0.801	34968	True
+GO:0016570	histone_modification	1.780	null	null	2.307	-2.315	0.649	0.834	34968	True
+GO:0018023	peptidyl-lysine_trimethylation	0.088	null	null	1.041	-1.502	0.674	0.846	34968	True
+GO:0051567	histone_H3-K9_methylation	0.088	null	null	1.041	-1.646	0.644	0.846	34968	True
+GO:0018022	peptidyl-lysine_methylation	0.493	null	null	1.756	-3.167	0.641	0.906	34968	True
+GO:0006479	protein_methylation	0.731	null	null	1.924	-2.799	0.640	0.955	34968	True
+GO:0016571	histone_methylation	0.493	null	null	1.756	-2.928	0.617	0.955	34968	True
+GO:0035265	organ_growth	0.123	2.887	3.597	1.176	-1.623	0.995	0.000	-1	False
+GO:2000480	negative_regulation_of_cAMP-dependent_protein_kinase_activity	0.009	3.098	-4.776	0.301	-2.341	0.909	0.000	-1	False
+GO:0008315	G2/MI_transition_of_meiotic_cell_cycle	0.026	1.669	6.394	0.602	-2.041	0.970	0.014	-1	False
+GO:0098506	polynucleotide_3'_dephosphorylation	0.009	-1.860	-7.365	0.301	-2.341	0.876	0.075	-1	False
+GO:0098502	DNA_dephosphorylation	0.223	null	null	1.415	-2.341	0.849	0.515	98506	True
+GO:0098501	polynucleotide_dephosphorylation	0.026	null	null	0.602	-2.341	0.774	0.554	98506	True
+GO:0090263	positive_regulation_of_canonical_Wnt_signaling_pathway	0.432	4.432	-1.031	1.699	-2.096	0.899	0.091	-1	False
+GO:0090364	regulation_of_proteasome_assembly	0.018	0.914	-7.032	0.477	-2.041	0.957	0.095	-1	False
+GO:0043153	entrainment_of_circadian_clock_by_photoperiod	0.106	-2.479	6.660	1.114	-1.502	0.899	0.099	-1	False
+GO:0009648	photoperiodism	0.115	null	null	1.146	-1.502	0.938	0.634	43153	True
+GO:0045498	sex_comb_development	0.097	4.365	4.265	1.079	-1.395	0.995	0.153	-1	False
+GO:0006807	nitrogen_compound_metabolic_process	33.821	-6.458	-5.212	3.584	-3.222	0.848	0.154	-1	False
+GO:1904812	rRNA_acetylation_involved_in_maturation_of_SSU-rRNA	0.009	-7.252	0.762	0.301	-2.341	0.733	0.197	-1	False
+GO:0002101	tRNA_wobble_cytosine_modification	0.088	null	null	1.041	-2.341	0.702	0.548	1904812	True
+GO:0070681	glutaminyl-tRNAGln_biosynthesis_via_transamidation	0.026	null	null	0.602	-2.041	0.754	0.571	1904812	True
+GO:0006425	glutaminyl-tRNA_aminoacylation	0.018	null	null	0.477	-2.041	0.734	0.664	1904812	True
+GO:0051391	tRNA_acetylation	0.009	null	null	0.301	-2.341	0.725	1.000	1904812	True
+GO:0070212	protein_poly-ADP-ribosylation	0.018	-3.049	-2.241	0.477	-2.341	0.815	0.217	-1	False
+GO:0045004	DNA_replication_proofreading	0.044	-5.348	2.546	0.778	-2.041	0.710	0.242	-1	False
+GO:0006272	leading_strand_elongation	0.070	null	null	0.954	-1.568	0.754	0.648	45004	True
+GO:0006783	heme_biosynthetic_process	0.123	-7.326	-0.327	1.176	-1.350	0.701	0.263	-1	False
+GO:0033014	tetrapyrrole_biosynthetic_process	0.123	null	null	1.176	-1.350	0.702	0.970	6783	True
+GO:0006778	porphyrin-containing_compound_metabolic_process	0.132	null	null	1.204	-1.350	0.704	0.975	6783	True
+GO:0042168	heme_metabolic_process	0.132	null	null	1.204	-1.350	0.703	0.994	6783	True
+GO:0006779	porphyrin-containing_compound_biosynthetic_process	0.123	null	null	1.176	-1.350	0.701	0.999	6783	True
+GO:0033013	tetrapyrrole_metabolic_process	0.150	-6.043	-0.008	1.255	-1.350	0.779	0.265	-1	False
+GO:0046470	phosphatidylcholine_metabolic_process	0.062	-3.428	-5.800	0.903	-1.866	0.819	0.269	-1	False
+GO:0006644	phospholipid_metabolic_process	1.542	null	null	2.246	-1.400	0.825	0.558	46470	True
+GO:0008213	protein_alkylation	0.731	-6.235	-2.578	1.924	-2.799	0.760	0.294	-1	False
+GO:0070935	3'-UTR-mediated_mRNA_stabilization	0.018	3.787	-3.723	0.477	-2.341	0.878	0.296	-1	False
+GO:1902175	regulation_of_oxidative_stress-induced_intrinsic_apoptotic_signaling_pathway	0.009	4.760	0.572	0.301	-1.866	0.876	0.342	-1	False
+GO:2001242	regulation_of_intrinsic_apoptotic_signaling_pathway	0.053	null	null	0.845	-1.502	0.899	0.744	1902175	True
+GO:1900407	regulation_of_cellular_response_to_oxidative_stress	0.088	null	null	1.041	-1.445	0.878	0.817	1902175	True
+GO:1903201	regulation_of_oxidative_stress-induced_cell_death	0.053	null	null	0.845	-1.568	0.875	0.918	1902175	True
+GO:0007113	endomitotic_cell_cycle	0.097	1.195	6.713	1.079	-1.310	0.968	0.352	-1	False
+GO:0018193	peptidyl-amino_acid_modification	3.780	-5.651	-2.050	2.633	-2.243	0.723	0.373	-1	False
+GO:0008631	intrinsic_apoptotic_signaling_pathway_in_response_to_oxidative_stress	0.055	-4.697	5.477	0.845	-1.866	0.818	0.375	-1	False
+GO:0034349	glial_cell_apoptotic_process	0.018	null	null	0.477	-1.742	0.951	0.553	8631	True
+GO:0036473	cell_death_in_response_to_oxidative_stress	0.009	null	null	0.301	-1.502	0.869	0.668	8631	True
+GO:1902882	regulation_of_response_to_oxidative_stress	0.123	5.165	0.337	1.176	-1.350	0.902	0.441	-1	False
+GO:0045948	positive_regulation_of_translational_initiation	0.044	3.448	-3.457	0.778	-1.866	0.875	0.481	-1	False
+GO:0035194	post-transcriptional_gene_silencing_by_RNA	0.502	null	null	1.763	-1.855	0.811	0.552	45948	True
+GO:0016441	posttranscriptional_gene_silencing	0.555	null	null	1.806	-1.795	0.818	0.809	45948	True
+GO:0031053	primary_miRNA_processing	0.062	null	null	0.903	-1.568	0.641	0.814	45948	True
+GO:0031047	gene_silencing_by_RNA	0.634	null	null	1.863	-1.688	0.830	0.827	45948	True
+GO:0035196	production_of_miRNAs_involved_in_gene_silencing_by_miRNA	0.123	null	null	1.176	-1.350	0.640	0.914	45948	True
+GO:0006287	base-excision_repair_gap-filling	0.018	-5.430	3.110	0.477	-2.041	0.733	0.482	-1	False
+GO:0071407	cellular_response_to_organic_cyclic_compound	0.397	-4.229	5.997	1.663	-1.757	0.851	0.486	-1	False
+GO:0035076	ecdysone_receptor-mediated_signaling_pathway	0.088	null	null	1.041	-1.350	0.823	0.745	71407	True
+GO:0043331	response_to_dsRNA	0.246	null	null	1.447	-1.310	0.889	0.811	71407	True
+GO:0071359	cellular_response_to_dsRNA	0.170	null	null	1.301	-1.310	0.855	0.821	71407	True
+GO:0006297	nucleotide-excision_repair_DNA_gap_filling	0.026	-5.878	2.882	0.602	-1.866	0.726	0.494	-1	False

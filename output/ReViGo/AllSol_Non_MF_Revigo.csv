@@ -1,4 +1,4 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0016034", "maleylacetoacetate isomerase activity", 0.018, 5.062, -0.023, 0.477, -3.319, 0.833, 0.000, -1, False
-"GO:0004364", "glutathione transferase activity", 0.355, -4.809, 1.579, 1.613, -2.420, 0.632, 0.089, -1, False
-"GO:0003899", "DNA-directed 5'-3' RNA polymerase activity", 0.257, -4.823, -1.535, 1.477, -2.210, 0.634, 0.321, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0016034	maleylacetoacetate_isomerase_activity	0.018	5.062	-0.023	0.477	-3.319	0.833	0.000	-1	False
+GO:0004364	glutathione_transferase_activity	0.355	-4.809	1.579	1.613	-2.420	0.632	0.089	-1	False
+GO:0003899	DNA-directed_5'-3'_RNA_polymerase_activity	0.257	-4.823	-1.535	1.477	-2.210	0.634	0.321	-1	False

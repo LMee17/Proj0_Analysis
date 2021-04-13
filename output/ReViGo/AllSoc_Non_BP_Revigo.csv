@@ -1,48 +1,48 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-GO:0030710," ""regulation of border follicle cell delamination""",0.096,2.65,-6.049,1.079,-3.721,0.951,0,-1, False
-GO:0030714," ""anterior/posterior axis specification  follicular epithelium""",0.026,-4.965,2.62,0.602,-3.42,0.758,0,-1, False
-GO:0007318," ""pole plasm protein localization""",0.097, null, null,1.079,-2.721,0.738,0.541,30714, True
-GO:0046956," ""positive phototaxis""",0.035,0.625,7.131,0.699,-3.119,0.965,0,-1, False
-GO:0048511," ""rhythmic process""",1.401,-0.344,0.527,2.204,-1.632,1,0,-1, False
-GO:0097120," ""receptor localization to synapse""",0.07,-2.978,-5.272,0.954,-3.244,0.932,0,-1, False
-GO:0036445," ""neuronal stem cell division""",0.018,-7.57,-0.517,0.477,-2.12,0.97,0.012,-1, False
-GO:0046710," ""GDP metabolic process""",0.026,0.255,-7.573,0.602,-3.119,0.931,0.012,-1, False
-GO:0046940," ""nucleoside monophosphate phosphorylation""",0.106, null, null,1.114,-2.68,0.934,0.504,46710, True
-GO:0046037," ""GMP metabolic process""",0.044, null, null,0.778,-3.022,0.92,0.868,46710, True
-GO:0019991," ""septate junction assembly""",0.317,-6.797,-3.653,1.568,-2.142,0.964,0.014,-1, False
-GO:0046425," ""regulation of receptor signaling pathway via JAK-STAT""",0.238,5.217,-3.736,1.447,-2.379,0.903,0.103,-1, False
-GO:0045887," ""positive regulation of synaptic growth at neuromuscular junction""",0.335,6.217,2.658,1.591,-2.217,0.945,0.114,-1, False
-GO:0008285," ""negative regulation of cell population proliferation""",0.626,6.696,0.252,1.857,-1.889,0.919,0.125,-1, False
-GO:0042127," ""regulation of cell population proliferation""",1.974,4.076,-0.092,2.352,-1.481,0.935,0.149,-1, False
-GO:0048149," ""behavioral response to ethanol""",0.485,-1.297,6.242,1.748,-2.131,0.808,0.163,-1, False
-GO:0008049," ""male courtship behavior""",0.529, null, null,1.785,-2.059,0.812,0.553,48149, True
-GO:0045475," ""locomotor rhythm""",0.538, null, null,1.792,-1.997,0.818,0.558,48149, True
-GO:0007626," ""locomotory behavior""",1.533, null, null,2.243,-1.572,0.869,0.621,48149, True
-GO:0007622," ""rhythmic behavior""",0.617, null, null,1.851,-1.802,0.822,0.816,48149, True
-GO:0007623," ""circadian rhythm""",1.216, null, null,2.143,-1.635,0.888,0.886,48149, True
-GO:0048512," ""circadian behavior""",0.599, null, null,1.839,-1.808,0.816,0.978,48149, True
-GO:0009792," ""embryo development ending in birth or egg hatching""",1.542,-4.167,4.435,2.246,-1.546,0.822,0.197,-1, False
-GO:0007219," ""Notch signaling pathway""",0.414,3.143,4.504,1.681,-1.639,0.848,0.201,-1, False
-GO:0043113," ""receptor clustering""",0.106,-3.454,-4.669,1.114,-2.943,0.913,0.352,-1, False
-GO:0045175," ""basal protein localization""",0.088,-2.76,-4.52,1.041,-2.68,0.931,0.358,-1, False
-GO:0045167," ""asymmetric protein localization involved in cell fate determination""",0.159,-3.814,-1.857,1.279,-2.466,0.799,0.374,-1, False
-GO:0060581," ""cell fate commitment involved in pattern specification""",0.308, null, null,1.556,-2.245,0.814,0.576,45167, True
-GO:0001708," ""cell fate specification""",0.758, null, null,1.94,-1.864,0.838,0.66,45167, True
-GO:0007268," ""chemical synaptic transmission""",1.956,4.368,5.811,2.348,-1.397,0.854,0.384,-1, False
-GO:0099536," ""synaptic signaling""",2.053, null, null,2.369,-1.395,0.861,0.875,7268, True
-GO:0099537," ""trans-synaptic signaling""",1.983, null, null,2.354,-1.397,0.854,0.969,7268, True
-GO:0098916," ""anterograde trans-synaptic signaling""",1.956, null, null,2.348,-1.397,0.854,0.977,7268, True
-GO:0000122," ""negative regulation of transcription by RNA polymerase II""",1.939,6.04,-0.103,2.344,-1.618,0.895,0.415,-1, False
-GO:0045892," ""negative regulation of transcription  DNA-templated""",3.41, null, null,2.589,-1.329,0.891,0.891,122, True
-GO:0001738," ""morphogenesis of a polarized epithelium""",0.775,-5.521,2.923,1.949,-1.726,0.858,0.434,-1, False
-GO:0042058," ""regulation of epidermal growth factor receptor signaling pathway""",0.37,4.688,-3.313,1.633,-2.069,0.9,0.435,-1, False
-GO:0008593," ""regulation of Notch signaling pathway""",0.59,5.21,-2.93,1.833,-1.717,0.896,0.471,-1, False
-GO:1902531," ""regulation of intracellular signal transduction""",3.023, null, null,2.537,-1.317,0.882,0.586,8593, True
-GO:0042332," ""gravitaxis""",0.229,0.75,6.694,1.431,-2.379,0.963,0.492,-1, False
-GO:0016336," ""establishment or maintenance of polarity of larval imaginal disc epithelium""",0.044,-5.261,3.557,0.778,-3.022,0.79,0.5,-1, False
-GO:0016332," ""establishment or maintenance of polarity of embryonic epithelium""",0.053, null, null,0.845,-2.818,0.745,0.522,16336, True
-GO:0000132," ""establishment of mitotic spindle orientation""",0.194, null, null,1.362,-2.491,0.817,0.578,16336, True
-GO:0045196," ""establishment or maintenance of neuroblast polarity""",0.132, null, null,1.204,-2.466,0.734,0.62,16336, True
-GO:0045197," ""establishment or maintenance of epithelial cell apical/basal polarity""",0.229, null, null,1.431,-2.274,0.864,0.647,16336, True
-GO:0007391," ""dorsal closure""",0.908, null, null,2.017,-1.792,0.775,0.736,16336, True
-GO:0001700," ""embryonic development via the syncytial blastoderm""",1.463, null, null,2.223,-1.566,0.812,0.92,16336, True
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0030710	regulation_of_border_follicle_cell_delamination	0.096	2.65	-6.049	1.079	-3.721	0.951	0	-1	False
+GO:0030714	anterior/posterior_axis_specification__follicular_epithelium	0.026	-4.965	2.62	0.602	-3.42	0.758	0	-1	False
+GO:0007318	pole_plasm_protein_localization	0.097	null	null	1.079	-2.721	0.738	0.541	30714	True
+GO:0046956	positive_phototaxis	0.035	0.625	7.131	0.699	-3.119	0.965	0	-1	False
+GO:0048511	rhythmic_process	1.401	-0.344	0.527	2.204	-1.632	1	0	-1	False
+GO:0097120	receptor_localization_to_synapse	0.07	-2.978	-5.272	0.954	-3.244	0.932	0	-1	False
+GO:0036445	neuronal_stem_cell_division	0.018	-7.57	-0.517	0.477	-2.12	0.97	0.012	-1	False
+GO:0046710	GDP_metabolic_process	0.026	0.255	-7.573	0.602	-3.119	0.931	0.012	-1	False
+GO:0046940	nucleoside_monophosphate_phosphorylation	0.106	null	null	1.114	-2.68	0.934	0.504	46710	True
+GO:0046037	GMP_metabolic_process	0.044	null	null	0.778	-3.022	0.92	0.868	46710	True
+GO:0019991	septate_junction_assembly	0.317	-6.797	-3.653	1.568	-2.142	0.964	0.014	-1	False
+GO:0046425	regulation_of_receptor_signaling_pathway_via_JAK-STAT	0.238	5.217	-3.736	1.447	-2.379	0.903	0.103	-1	False
+GO:0045887	positive_regulation_of_synaptic_growth_at_neuromuscular_junction	0.335	6.217	2.658	1.591	-2.217	0.945	0.114	-1	False
+GO:0008285	negative_regulation_of_cell_population_proliferation	0.626	6.696	0.252	1.857	-1.889	0.919	0.125	-1	False
+GO:0042127	regulation_of_cell_population_proliferation	1.974	4.076	-0.092	2.352	-1.481	0.935	0.149	-1	False
+GO:0048149	behavioral_response_to_ethanol	0.485	-1.297	6.242	1.748	-2.131	0.808	0.163	-1	False
+GO:0008049	male_courtship_behavior	0.529	null	null	1.785	-2.059	0.812	0.553	48149	True
+GO:0045475	locomotor_rhythm	0.538	null	null	1.792	-1.997	0.818	0.558	48149	True
+GO:0007626	locomotory_behavior	1.533	null	null	2.243	-1.572	0.869	0.621	48149	True
+GO:0007622	rhythmic_behavior	0.617	null	null	1.851	-1.802	0.822	0.816	48149	True
+GO:0007623	circadian_rhythm	1.216	null	null	2.143	-1.635	0.888	0.886	48149	True
+GO:0048512	circadian_behavior	0.599	null	null	1.839	-1.808	0.816	0.978	48149	True
+GO:0009792	embryo_development_ending_in_birth_or_egg_hatching	1.542	-4.167	4.435	2.246	-1.546	0.822	0.197	-1	False
+GO:0007219	Notch_signaling_pathway	0.414	3.143	4.504	1.681	-1.639	0.848	0.201	-1	False
+GO:0043113	receptor_clustering	0.106	-3.454	-4.669	1.114	-2.943	0.913	0.352	-1	False
+GO:0045175	basal_protein_localization	0.088	-2.76	-4.52	1.041	-2.68	0.931	0.358	-1	False
+GO:0045167	asymmetric_protein_localization_involved_in_cell_fate_determination	0.159	-3.814	-1.857	1.279	-2.466	0.799	0.374	-1	False
+GO:0060581	cell_fate_commitment_involved_in_pattern_specification	0.308	null	null	1.556	-2.245	0.814	0.576	45167	True
+GO:0001708	cell_fate_specification	0.758	null	null	1.94	-1.864	0.838	0.66	45167	True
+GO:0007268	chemical_synaptic_transmission	1.956	4.368	5.811	2.348	-1.397	0.854	0.384	-1	False
+GO:0099536	synaptic_signaling	2.053	null	null	2.369	-1.395	0.861	0.875	7268	True
+GO:0099537	trans-synaptic_signaling	1.983	null	null	2.354	-1.397	0.854	0.969	7268	True
+GO:0098916	anterograde_trans-synaptic_signaling	1.956	null	null	2.348	-1.397	0.854	0.977	7268	True
+GO:0000122	negative_regulation_of_transcription_by_RNA_polymerase_II	1.939	6.04	-0.103	2.344	-1.618	0.895	0.415	-1	False
+GO:0045892	negative_regulation_of_transcription__DNA-templated	3.41	null	null	2.589	-1.329	0.891	0.891	122	True
+GO:0001738	morphogenesis_of_a_polarized_epithelium	0.775	-5.521	2.923	1.949	-1.726	0.858	0.434	-1	False
+GO:0042058	regulation_of_epidermal_growth_factor_receptor_signaling_pathway	0.37	4.688	-3.313	1.633	-2.069	0.9	0.435	-1	False
+GO:0008593	regulation_of_Notch_signaling_pathway	0.59	5.21	-2.93	1.833	-1.717	0.896	0.471	-1	False
+GO:1902531	regulation_of_intracellular_signal_transduction	3.023	null	null	2.537	-1.317	0.882	0.586	8593	True
+GO:0042332	gravitaxis	0.229	0.75	6.694	1.431	-2.379	0.963	0.492	-1	False
+GO:0016336	establishment_or_maintenance_of_polarity_of_larval_imaginal_disc_epithelium	0.044	-5.261	3.557	0.778	-3.022	0.79	0.5	-1	False
+GO:0016332	establishment_or_maintenance_of_polarity_of_embryonic_epithelium	0.053	null	null	0.845	-2.818	0.745	0.522	16336	True
+GO:0000132	establishment_of_mitotic_spindle_orientation	0.194	null	null	1.362	-2.491	0.817	0.578	16336	True
+GO:0045196	establishment_or_maintenance_of_neuroblast_polarity	0.132	null	null	1.204	-2.466	0.734	0.62	16336	True
+GO:0045197	establishment_or_maintenance_of_epithelial_cell_apical/basal_polarity	0.229	null	null	1.431	-2.274	0.864	0.647	16336	True
+GO:0007391	dorsal_closure	0.908	null	null	2.017	-1.792	0.775	0.736	16336	True
+GO:0001700	embryonic_development_via_the_syncytial_blastoderm	1.463	null	null	2.223	-1.566	0.812	0.92	16336	True

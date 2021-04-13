@@ -1,26 +1,26 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0016592", "mediator complex", 0.308, 5.478, -0.125, 1.568, -3.155, 0.680, 0.000, -1, False
-"GO:0005918", "septate junction", 0.282, -4.947, 3.078, 1.531, -2.854, 0.758, 0.003, -1, False
-"GO:0061689", "tricellular tight junction", 0.043, null, null, 0.778, -1.500, 0.779, 0.834, 5918, True
-"GO:0005920", "smooth septate junction", 0.060, null, null, 0.903, -1.357, 0.775, 0.855, 5918, True
-"GO:0016323", "basolateral plasma membrane", 0.334, -3.292, -4.545, 1.602, -1.575, 0.956, 0.003, -1, False
-"GO:0005795", "Golgi stack", 0.591, 1.685, -6.457, 1.845, -2.495, 0.867, 0.091, -1, False
-"GO:0031985", "Golgi cisterna", 0.342, null, null, 1.613, -1.900, 0.870, 0.701, 5795, True
-"GO:0016035", "zeta DNA polymerase complex", 0.034, 5.152, 5.127, 0.699, -2.194, 0.604, 0.161, -1, False
-"GO:0055029", "nuclear DNA-directed RNA polymerase complex", 0.787, null, null, 1.968, -1.656, 0.461, 0.663, 16035, True
-"GO:0005658", "alpha DNA polymerase:primase complex", 0.034, null, null, 0.699, -1.719, 0.461, 0.833, 16035, True
-"GO:0030880", "RNA polymerase complex", 0.804, null, null, 1.978, -1.644, 0.544, 0.880, 16035, True
-"GO:0043601", "nuclear replisome", 0.094, null, null, 1.079, -1.423, 0.616, 0.931, 16035, True
-"GO:0000428", "DNA-directed RNA polymerase complex", 0.796, null, null, 1.973, -1.644, 0.533, 0.989, 16035, True
-"GO:0030894", "replisome", 0.094, 2.677, 3.253, 1.079, -1.423, 0.682, 0.174, -1, False
-"GO:0090533", "cation-transporting ATPase complex", 0.428, 2.201, 0.414, 1.708, -1.893, 0.689, 0.197, -1, False
-"GO:0005890", "sodium:potassium-exchanging ATPase complex", 0.060, null, null, 0.903, -1.893, 0.604, 0.733, 90533, True
-"GO:0098533", "ATPase dependent transmembrane transport complex", 0.120, null, null, 1.176, -1.719, 0.599, 0.775, 90533, True
-"GO:1904949", "ATPase complex", 0.633, 5.848, 3.236, 1.875, -1.517, 0.665, 0.342, -1, False
-"GO:0044611", "nuclear pore inner ring", 0.034, 4.488, -2.402, 0.699, -1.595, 0.691, 0.354, -1, False
-"GO:0008623", "CHRAC", 0.043, 5.621, 1.526, 0.778, -1.500, 0.588, 0.360, -1, False
-"GO:0070847", "core mediator complex", 0.094, 6.294, -0.703, 1.079, -2.770, 0.703, 0.382, -1, False
-"GO:0030015", "CCR4-NOT core complex", 0.077, 3.617, 6.001, 1.000, -1.500, 0.704, 0.391, -1, False
-"GO:0014069", "postsynaptic density", 0.137, -5.098, 2.209, 1.230, -1.423, 0.745, 0.459, -1, False
-"GO:0032279", "asymmetric synapse", 0.137, null, null, 1.230, -1.423, 0.781, 0.999, 14069, True
-"GO:0098984", "neuron to neuron synapse", 0.137, -4.689, 3.941, 1.230, -1.423, 0.820, 0.483, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0016592	mediator_complex	0.308	5.478	-0.125	1.568	-3.155	0.680	0.000	-1	False
+GO:0005918	septate_junction	0.282	-4.947	3.078	1.531	-2.854	0.758	0.003	-1	False
+GO:0061689	tricellular_tight_junction	0.043	null	null	0.778	-1.500	0.779	0.834	5918	True
+GO:0005920	smooth_septate_junction	0.060	null	null	0.903	-1.357	0.775	0.855	5918	True
+GO:0016323	basolateral_plasma_membrane	0.334	-3.292	-4.545	1.602	-1.575	0.956	0.003	-1	False
+GO:0005795	Golgi_stack	0.591	1.685	-6.457	1.845	-2.495	0.867	0.091	-1	False
+GO:0031985	Golgi_cisterna	0.342	null	null	1.613	-1.900	0.870	0.701	5795	True
+GO:0016035	zeta_DNA_polymerase_complex	0.034	5.152	5.127	0.699	-2.194	0.604	0.161	-1	False
+GO:0055029	nuclear_DNA-directed_RNA_polymerase_complex	0.787	null	null	1.968	-1.656	0.461	0.663	16035	True
+GO:0005658	alpha_DNA_polymerase:primase_complex	0.034	null	null	0.699	-1.719	0.461	0.833	16035	True
+GO:0030880	RNA_polymerase_complex	0.804	null	null	1.978	-1.644	0.544	0.880	16035	True
+GO:0043601	nuclear_replisome	0.094	null	null	1.079	-1.423	0.616	0.931	16035	True
+GO:0000428	DNA-directed_RNA_polymerase_complex	0.796	null	null	1.973	-1.644	0.533	0.989	16035	True
+GO:0030894	replisome	0.094	2.677	3.253	1.079	-1.423	0.682	0.174	-1	False
+GO:0090533	cation-transporting_ATPase_complex	0.428	2.201	0.414	1.708	-1.893	0.689	0.197	-1	False
+GO:0005890	sodium:potassium-exchanging_ATPase_complex	0.060	null	null	0.903	-1.893	0.604	0.733	90533	True
+GO:0098533	ATPase_dependent_transmembrane_transport_complex	0.120	null	null	1.176	-1.719	0.599	0.775	90533	True
+GO:1904949	ATPase_complex	0.633	5.848	3.236	1.875	-1.517	0.665	0.342	-1	False
+GO:0044611	nuclear_pore_inner_ring	0.034	4.488	-2.402	0.699	-1.595	0.691	0.354	-1	False
+GO:0008623	CHRAC	0.043	5.621	1.526	0.778	-1.500	0.588	0.360	-1	False
+GO:0070847	core_mediator_complex	0.094	6.294	-0.703	1.079	-2.770	0.703	0.382	-1	False
+GO:0030015	CCR4-NOT_core_complex	0.077	3.617	6.001	1.000	-1.500	0.704	0.391	-1	False
+GO:0014069	postsynaptic_density	0.137	-5.098	2.209	1.230	-1.423	0.745	0.459	-1	False
+GO:0032279	asymmetric_synapse	0.137	null	null	1.230	-1.423	0.781	0.999	14069	True
+GO:0098984	neuron_to_neuron_synapse	0.137	-4.689	3.941	1.230	-1.423	0.820	0.483	-1	False

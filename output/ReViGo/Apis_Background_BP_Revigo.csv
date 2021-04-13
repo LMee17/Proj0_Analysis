@@ -1,91 +1,91 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0007464", "R3/R4 cell fate commitment", 0.106, 7.902, 0.084, 1.114, -2.278, 0.908, 0.000, -1, False
-"GO:0042051", "compound eye photoreceptor development", 0.670, null, null, 1.886, -2.168, 0.887, 0.700, 7464, True
-"GO:0045470", "R8 cell-mediated photoreceptor organization", 0.018, null, null, 0.477, -1.558, 0.909, 0.725, 7464, True
-"GO:0045463", "R8 cell development", 0.035, null, null, 0.699, -1.435, 0.906, 0.763, 7464, True
-"GO:0045467", "R7 cell development", 0.123, null, null, 1.176, -1.883, 0.898, 0.845, 7464, True
-"GO:0046580", "negative regulation of Ras protein signal transduction", 0.053, -3.782, -3.577, 0.845, -3.051, 0.815, 0.000, -1, False
-"GO:2000051", "negative regulation of non-canonical Wnt signaling pathway", 0.361, null, null, 1.623, -2.032, 0.788, 0.515, 46580, True
-"GO:0035695", "mitophagy by induced vacuole formation", 0.009, 1.935, 6.688, 0.301, -2.032, 0.940, 0.012, -1, False
-"GO:0044351", "macropinocytosis", 0.009, -3.970, 5.646, 0.301, -2.032, 0.972, 0.012, -1, False
-"GO:0016444", "somatic cell DNA recombination", 0.009, 3.792, 2.537, 0.301, -2.032, 0.899, 0.060, -1, False
-"GO:0000724", "double-strand break repair via homologous recombination", 0.538, null, null, 1.792, -1.360, 0.785, 0.644, 16444, True
-"GO:0045002", "double-strand break repair via single-strand annealing", 0.026, null, null, 0.602, -1.340, 0.828, 0.709, 16444, True
-"GO:0000725", "recombinational repair", 0.538, null, null, 1.792, -1.360, 0.788, 0.897, 16444, True
-"GO:1902803", "regulation of synaptic vesicle transport", 0.009, -2.266, 0.264, 0.301, -1.340, 0.850, 0.079, -1, False
-"GO:0019218", "regulation of steroid metabolic process", 0.070, -4.380, -5.471, 0.954, -1.340, 0.745, 0.082, -1, False
-"GO:0045998", "positive regulation of ecdysteroid biosynthetic process", 0.053, null, null, 0.845, -1.435, 0.616, 0.733, 19218, True
-"GO:0010566", "regulation of ketone biosynthetic process", 0.062, null, null, 0.903, -1.435, 0.765, 0.886, 19218, True
-"GO:0032352", "positive regulation of hormone metabolic process", 0.053, null, null, 0.845, -1.435, 0.709, 0.887, 19218, True
-"GO:0046885", "regulation of hormone biosynthetic process", 0.097, null, null, 1.079, -1.340, 0.684, 0.924, 19218, True
-"GO:0045940", "positive regulation of steroid metabolic process", 0.053, null, null, 0.845, -1.435, 0.703, 0.961, 19218, True
-"GO:0050810", "regulation of steroid biosynthetic process", 0.053, null, null, 0.845, -1.435, 0.696, 0.961, 19218, True
-"GO:0007553", "regulation of ecdysteroid metabolic process", 0.062, null, null, 0.903, -1.340, 0.634, 0.971, 19218, True
-"GO:0007554", "regulation of ecdysteroid biosynthetic process", 0.053, null, null, 0.845, -1.435, 0.622, 0.999, 19218, True
-"GO:0010893", "positive regulation of steroid biosynthetic process", 0.053, null, null, 0.845, -1.435, 0.683, 0.999, 19218, True
-"GO:0045966", "positive regulation of ecdysteroid metabolic process", 0.053, null, null, 0.845, -1.435, 0.628, 0.999, 19218, True
-"GO:0046886", "positive regulation of hormone biosynthetic process", 0.053, null, null, 0.845, -1.435, 0.678, 0.999, 19218, True
-"GO:0090030", "regulation of steroid hormone biosynthetic process", 0.053, null, null, 0.845, -1.435, 0.634, 0.999, 19218, True
-"GO:0090031", "positive regulation of steroid hormone biosynthetic process", 0.053, null, null, 0.845, -1.435, 0.627, 0.999, 19218, True
-"GO:0043547", "positive regulation of GTPase activity", 0.934, 1.441, -7.555, 2.029, -1.320, 0.899, 0.084, -1, False
-"GO:0019934", "cGMP-mediated signaling", 0.097, 3.242, -4.886, 1.079, -2.907, 0.805, 0.093, -1, False
-"GO:0046693", "sperm storage", 0.106, 0.879, -1.286, 1.114, -1.340, 0.977, 0.115, -1, False
-"GO:0097298", "regulation of nucleus size", 0.018, -3.380, 2.707, 0.477, -1.732, 0.848, 0.123, -1, False
-"GO:0097240", "chromosome attachment to the nuclear envelope", 0.018, -1.294, 6.802, 0.477, -1.732, 0.960, 0.139, -1, False
-"GO:0009651", "response to salt stress", 0.097, 5.476, -3.862, 1.079, -2.640, 0.881, 0.156, -1, False
-"GO:1990834", "response to odorant", 0.097, 4.664, -5.410, 1.079, -1.435, 0.909, 0.156, -1, False
-"GO:0015718", "monocarboxylic acid transport", 0.397, -2.590, 6.273, 1.663, -1.977, 0.970, 0.204, -1, False
-"GO:1905519", "negative regulation of presynaptic active zone assembly", 0.009, -5.779, -0.019, 0.301, -2.032, 0.813, 0.221, -1, False
-"GO:0006182", "cGMP biosynthetic process", 0.106, 5.430, 3.919, 1.114, -2.029, 0.900, 0.223, -1, False
-"GO:0099509", "regulation of presynaptic cytosolic calcium ion concentration", 0.044, -5.643, 2.737, 0.778, -1.435, 0.861, 0.228, -1, False
-"GO:0060233", "oenocyte delamination", 0.018, -5.634, -2.341, 0.477, -1.732, 0.856, 0.231, -1, False
-"GO:0000389", "mRNA 3'-splice site recognition", 0.018, 2.061, 3.350, 0.477, -1.558, 0.910, 0.233, -1, False
-"GO:0002209", "behavioral defense response", 0.026, 6.193, -3.505, 0.602, -1.732, 0.908, 0.270, -1, False
-"GO:1901416", "regulation of response to ethanol", 0.018, -1.118, -6.825, 0.477, -1.732, 0.893, 0.281, -1, False
-"GO:0017148", "negative regulation of translation", 0.538, -4.573, -2.947, 1.792, -1.533, 0.704, 0.293, -1, False
-"GO:0070131", "positive regulation of mitochondrial translation", 0.079, null, null, 1.000, -1.435, 0.771, 0.629, 17148, True
-"GO:0034249", "negative regulation of cellular amide metabolic process", 0.617, null, null, 1.851, -1.453, 0.729, 0.712, 17148, True
-"GO:2000113", "negative regulation of cellular macromolecule biosynthetic process", 4.027, null, null, 2.661, -1.359, 0.668, 0.731, 17148, True
-"GO:0006417", "regulation of translation", 1.903, null, null, 2.336, -1.424, 0.729, 0.811, 17148, True
-"GO:0010558", "negative regulation of macromolecule biosynthetic process", 4.027, null, null, 2.661, -1.315, 0.677, 0.946, 17148, True
-"GO:1900037", "regulation of cellular response to hypoxia", 0.035, -1.851, -6.431, 0.699, -1.732, 0.882, 0.293, -1, False
-"GO:1901419", "regulation of response to alcohol", 0.053, -1.261, -6.243, 0.845, -1.732, 0.886, 0.301, -1, False
-"GO:0007188", "adenylate cyclase-modulating G protein-coupled receptor signaling pathway", 0.555, 3.249, -4.161, 1.806, -1.561, 0.758, 0.324, -1, False
-"GO:0007191", "adenylate cyclase-activating dopamine receptor signaling pathway", 0.035, null, null, 0.699, -1.435, 0.779, 0.588, 7188, True
-"GO:0007187", "G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger", 0.079, null, null, 1.000, -1.533, 0.790, 0.627, 7188, True
-"GO:0007218", "neuropeptide signaling pathway", 0.679, null, null, 1.892, -1.382, 0.755, 0.759, 7188, True
-"GO:0007526", "larval somatic muscle development", 0.300, 7.974, -0.406, 1.544, -1.479, 0.946, 0.326, -1, False
-"GO:1901255", "nucleotide-excision repair involved in interstrand cross-link repair", 0.026, 4.280, -0.344, 0.602, -1.732, 0.820, 0.400, -1, False
-"GO:0006296", "nucleotide-excision repair, DNA incision, 5'-to lesion", 0.026, null, null, 0.602, -1.558, 0.820, 0.719, 1901255, True
-"GO:0033683", "nucleotide-excision repair, DNA incision", 0.053, null, null, 0.845, -1.435, 0.813, 0.750, 1901255, True
-"GO:0015908", "fatty acid transport", 0.167, -2.855, 6.016, 1.301, -1.732, 0.972, 0.404, -1, False
-"GO:0016199", "axon midline choice point recognition", 0.220, 5.248, -1.153, 1.415, -1.928, 0.810, 0.406, -1, False
-"GO:0042330", "taxis", 2.873, null, null, 2.515, -1.424, 0.891, 0.573, 16199, True
-"GO:0016198", "axon choice point recognition", 0.238, null, null, 1.447, -1.883, 0.809, 0.749, 16199, True
-"GO:0035694", "mitochondrial protein catabolic process", 0.009, 2.624, 6.220, 0.301, -2.032, 0.926, 0.418, -1, False
-"GO:2000301", "negative regulation of synaptic vesicle exocytosis", 0.026, -4.308, -0.535, 0.602, -1.732, 0.711, 0.420, -1, False
-"GO:0045920", "negative regulation of exocytosis", 0.026, null, null, 0.602, -1.732, 0.764, 0.812, 2000301, True
-"GO:1902804", "negative regulation of synaptic vesicle transport", 0.471, null, null, 1.732, -1.732, 0.733, 0.814, 2000301, True
-"GO:0051589", "negative regulation of neurotransmitter transport", 0.044, null, null, 0.778, -1.558, 0.772, 0.845, 2000301, True
-"GO:2000300", "regulation of synaptic vesicle exocytosis", 0.070, null, null, 0.954, -1.340, 0.741, 0.846, 2000301, True
-"GO:0045955", "negative regulation of calcium ion-dependent exocytosis", 0.015, null, null, 0.301, -1.732, 0.763, 0.965, 2000301, True
-"GO:0046929", "negative regulation of neurotransmitter secretion", 0.044, null, null, 0.778, -1.558, 0.710, 0.968, 2000301, True
-"GO:1903306", "negative regulation of regulated secretory pathway", 0.026, null, null, 0.602, -1.732, 0.755, 1.000, 2000301, True
-"GO:0006044", "N-acetylglucosamine metabolic process", 0.088, 6.925, 4.112, 1.041, -1.340, 0.945, 0.423, -1, False
-"GO:0008542", "visual learning", 0.035, 6.000, -4.124, 0.699, -2.032, 0.887, 0.429, -1, False
-"GO:0006265", "DNA topological change", 0.062, 3.043, 3.869, 0.903, -1.340, 0.876, 0.450, -1, False
-"GO:0048582", "positive regulation of post-embryonic development", 0.116, -6.752, 0.675, 1.146, -1.435, 0.862, 0.452, -1, False
-"GO:0000056", "ribosomal small subunit export from nucleus", 0.035, -1.030, 5.684, 0.699, -1.558, 0.926, 0.460, -1, False
-"GO:0035157", "negative regulation of fusion cell fate specification", 0.018, -5.957, -1.084, 0.477, -1.435, 0.844, 0.467, -1, False
-"GO:0030210", "heparin biosynthetic process", 0.044, 6.447, 4.637, 0.778, -1.558, 0.918, 0.473, -1, False
-"GO:0030202", "heparin metabolic process", 0.053, null, null, 0.845, -1.435, 0.921, 0.908, 30210, True
-"GO:0015014", "heparan sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process", 0.053, 5.939, 4.658, 0.845, -1.340, 0.924, 0.479, -1, False
-"GO:0048312", "intracellular distribution of mitochondria", 0.035, 0.156, 6.155, 0.699, -1.340, 0.924, 0.480, -1, False
-"GO:2000112", "regulation of cellular macromolecule biosynthetic process", 12.663, -2.518, -4.192, 3.158, -2.112, 0.699, 0.494, -1, False
-"GO:0010468", "regulation of gene expression", 15.201, null, null, 3.237, -1.743, 0.745, 0.666, 2000112, True
-"GO:0006355", "regulation of transcription, DNA-templated", 10.575, null, null, 3.080, -1.378, 0.700, 0.835, 2000112, True
-"GO:2001141", "regulation of RNA biosynthetic process", 10.575, null, null, 3.080, -1.311, 0.701, 0.839, 2000112, True
-"GO:1903506", "regulation of nucleic acid-templated transcription", 10.575, null, null, 3.080, -1.311, 0.700, 0.894, 2000112, True
-"GO:0071456", "cellular response to hypoxia", 0.256, 4.953, -3.862, 1.477, -1.561, 0.813, 0.495, -1, False
-"GO:0071453", "cellular response to oxygen levels", 0.282, null, null, 1.519, -1.505, 0.843, 0.845, 71456, True
-"GO:0036294", "cellular response to decreased oxygen levels", 0.273, null, null, 1.505, -1.533, 0.840, 0.986, 71456, True
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0007464	R3/R4_cell_fate_commitment	0.106	7.902	0.084	1.114	-2.278	0.908	0.000	-1	False
+GO:0042051	compound_eye_photoreceptor_development	0.670	null	null	1.886	-2.168	0.887	0.700	7464	True
+GO:0045470	R8_cell-mediated_photoreceptor_organization	0.018	null	null	0.477	-1.558	0.909	0.725	7464	True
+GO:0045463	R8_cell_development	0.035	null	null	0.699	-1.435	0.906	0.763	7464	True
+GO:0045467	R7_cell_development	0.123	null	null	1.176	-1.883	0.898	0.845	7464	True
+GO:0046580	negative_regulation_of_Ras_protein_signal_transduction	0.053	-3.782	-3.577	0.845	-3.051	0.815	0.000	-1	False
+GO:2000051	negative_regulation_of_non-canonical_Wnt_signaling_pathway	0.361	null	null	1.623	-2.032	0.788	0.515	46580	True
+GO:0035695	mitophagy_by_induced_vacuole_formation	0.009	1.935	6.688	0.301	-2.032	0.940	0.012	-1	False
+GO:0044351	macropinocytosis	0.009	-3.970	5.646	0.301	-2.032	0.972	0.012	-1	False
+GO:0016444	somatic_cell_DNA_recombination	0.009	3.792	2.537	0.301	-2.032	0.899	0.060	-1	False
+GO:0000724	double-strand_break_repair_via_homologous_recombination	0.538	null	null	1.792	-1.360	0.785	0.644	16444	True
+GO:0045002	double-strand_break_repair_via_single-strand_annealing	0.026	null	null	0.602	-1.340	0.828	0.709	16444	True
+GO:0000725	recombinational_repair	0.538	null	null	1.792	-1.360	0.788	0.897	16444	True
+GO:1902803	regulation_of_synaptic_vesicle_transport	0.009	-2.266	0.264	0.301	-1.340	0.850	0.079	-1	False
+GO:0019218	regulation_of_steroid_metabolic_process	0.070	-4.380	-5.471	0.954	-1.340	0.745	0.082	-1	False
+GO:0045998	positive_regulation_of_ecdysteroid_biosynthetic_process	0.053	null	null	0.845	-1.435	0.616	0.733	19218	True
+GO:0010566	regulation_of_ketone_biosynthetic_process	0.062	null	null	0.903	-1.435	0.765	0.886	19218	True
+GO:0032352	positive_regulation_of_hormone_metabolic_process	0.053	null	null	0.845	-1.435	0.709	0.887	19218	True
+GO:0046885	regulation_of_hormone_biosynthetic_process	0.097	null	null	1.079	-1.340	0.684	0.924	19218	True
+GO:0045940	positive_regulation_of_steroid_metabolic_process	0.053	null	null	0.845	-1.435	0.703	0.961	19218	True
+GO:0050810	regulation_of_steroid_biosynthetic_process	0.053	null	null	0.845	-1.435	0.696	0.961	19218	True
+GO:0007553	regulation_of_ecdysteroid_metabolic_process	0.062	null	null	0.903	-1.340	0.634	0.971	19218	True
+GO:0007554	regulation_of_ecdysteroid_biosynthetic_process	0.053	null	null	0.845	-1.435	0.622	0.999	19218	True
+GO:0010893	positive_regulation_of_steroid_biosynthetic_process	0.053	null	null	0.845	-1.435	0.683	0.999	19218	True
+GO:0045966	positive_regulation_of_ecdysteroid_metabolic_process	0.053	null	null	0.845	-1.435	0.628	0.999	19218	True
+GO:0046886	positive_regulation_of_hormone_biosynthetic_process	0.053	null	null	0.845	-1.435	0.678	0.999	19218	True
+GO:0090030	regulation_of_steroid_hormone_biosynthetic_process	0.053	null	null	0.845	-1.435	0.634	0.999	19218	True
+GO:0090031	positive_regulation_of_steroid_hormone_biosynthetic_process	0.053	null	null	0.845	-1.435	0.627	0.999	19218	True
+GO:0043547	positive_regulation_of_GTPase_activity	0.934	1.441	-7.555	2.029	-1.320	0.899	0.084	-1	False
+GO:0019934	cGMP-mediated_signaling	0.097	3.242	-4.886	1.079	-2.907	0.805	0.093	-1	False
+GO:0046693	sperm_storage	0.106	0.879	-1.286	1.114	-1.340	0.977	0.115	-1	False
+GO:0097298	regulation_of_nucleus_size	0.018	-3.380	2.707	0.477	-1.732	0.848	0.123	-1	False
+GO:0097240	chromosome_attachment_to_the_nuclear_envelope	0.018	-1.294	6.802	0.477	-1.732	0.960	0.139	-1	False
+GO:0009651	response_to_salt_stress	0.097	5.476	-3.862	1.079	-2.640	0.881	0.156	-1	False
+GO:1990834	response_to_odorant	0.097	4.664	-5.410	1.079	-1.435	0.909	0.156	-1	False
+GO:0015718	monocarboxylic_acid_transport	0.397	-2.590	6.273	1.663	-1.977	0.970	0.204	-1	False
+GO:1905519	negative_regulation_of_presynaptic_active_zone_assembly	0.009	-5.779	-0.019	0.301	-2.032	0.813	0.221	-1	False
+GO:0006182	cGMP_biosynthetic_process	0.106	5.430	3.919	1.114	-2.029	0.900	0.223	-1	False
+GO:0099509	regulation_of_presynaptic_cytosolic_calcium_ion_concentration	0.044	-5.643	2.737	0.778	-1.435	0.861	0.228	-1	False
+GO:0060233	oenocyte_delamination	0.018	-5.634	-2.341	0.477	-1.732	0.856	0.231	-1	False
+GO:0000389	mRNA_3'-splice_site_recognition	0.018	2.061	3.350	0.477	-1.558	0.910	0.233	-1	False
+GO:0002209	behavioral_defense_response	0.026	6.193	-3.505	0.602	-1.732	0.908	0.270	-1	False
+GO:1901416	regulation_of_response_to_ethanol	0.018	-1.118	-6.825	0.477	-1.732	0.893	0.281	-1	False
+GO:0017148	negative_regulation_of_translation	0.538	-4.573	-2.947	1.792	-1.533	0.704	0.293	-1	False
+GO:0070131	positive_regulation_of_mitochondrial_translation	0.079	null	null	1.000	-1.435	0.771	0.629	17148	True
+GO:0034249	negative_regulation_of_cellular_amide_metabolic_process	0.617	null	null	1.851	-1.453	0.729	0.712	17148	True
+GO:2000113	negative_regulation_of_cellular_macromolecule_biosynthetic_process	4.027	null	null	2.661	-1.359	0.668	0.731	17148	True
+GO:0006417	regulation_of_translation	1.903	null	null	2.336	-1.424	0.729	0.811	17148	True
+GO:0010558	negative_regulation_of_macromolecule_biosynthetic_process	4.027	null	null	2.661	-1.315	0.677	0.946	17148	True
+GO:1900037	regulation_of_cellular_response_to_hypoxia	0.035	-1.851	-6.431	0.699	-1.732	0.882	0.293	-1	False
+GO:1901419	regulation_of_response_to_alcohol	0.053	-1.261	-6.243	0.845	-1.732	0.886	0.301	-1	False
+GO:0007188	adenylate_cyclase-modulating_G_protein-coupled_receptor_signaling_pathway	0.555	3.249	-4.161	1.806	-1.561	0.758	0.324	-1	False
+GO:0007191	adenylate_cyclase-activating_dopamine_receptor_signaling_pathway	0.035	null	null	0.699	-1.435	0.779	0.588	7188	True
+GO:0007187	G_protein-coupled_receptor_signaling_pathway_coupled_to_cyclic_nucleotide_second_messenger	0.079	null	null	1.000	-1.533	0.790	0.627	7188	True
+GO:0007218	neuropeptide_signaling_pathway	0.679	null	null	1.892	-1.382	0.755	0.759	7188	True
+GO:0007526	larval_somatic_muscle_development	0.300	7.974	-0.406	1.544	-1.479	0.946	0.326	-1	False
+GO:1901255	nucleotide-excision_repair_involved_in_interstrand_cross-link_repair	0.026	4.280	-0.344	0.602	-1.732	0.820	0.400	-1	False
+GO:0006296	nucleotide-excision_repair_DNA_incision_5'-to_lesion	0.026	null	null	0.602	-1.558	0.820	0.719	1901255	True
+GO:0033683	nucleotide-excision_repair_DNA_incision	0.053	null	null	0.845	-1.435	0.813	0.750	1901255	True
+GO:0015908	fatty_acid_transport	0.167	-2.855	6.016	1.301	-1.732	0.972	0.404	-1	False
+GO:0016199	axon_midline_choice_point_recognition	0.220	5.248	-1.153	1.415	-1.928	0.810	0.406	-1	False
+GO:0042330	taxis	2.873	null	null	2.515	-1.424	0.891	0.573	16199	True
+GO:0016198	axon_choice_point_recognition	0.238	null	null	1.447	-1.883	0.809	0.749	16199	True
+GO:0035694	mitochondrial_protein_catabolic_process	0.009	2.624	6.220	0.301	-2.032	0.926	0.418	-1	False
+GO:2000301	negative_regulation_of_synaptic_vesicle_exocytosis	0.026	-4.308	-0.535	0.602	-1.732	0.711	0.420	-1	False
+GO:0045920	negative_regulation_of_exocytosis	0.026	null	null	0.602	-1.732	0.764	0.812	2000301	True
+GO:1902804	negative_regulation_of_synaptic_vesicle_transport	0.471	null	null	1.732	-1.732	0.733	0.814	2000301	True
+GO:0051589	negative_regulation_of_neurotransmitter_transport	0.044	null	null	0.778	-1.558	0.772	0.845	2000301	True
+GO:2000300	regulation_of_synaptic_vesicle_exocytosis	0.070	null	null	0.954	-1.340	0.741	0.846	2000301	True
+GO:0045955	negative_regulation_of_calcium_ion-dependent_exocytosis	0.015	null	null	0.301	-1.732	0.763	0.965	2000301	True
+GO:0046929	negative_regulation_of_neurotransmitter_secretion	0.044	null	null	0.778	-1.558	0.710	0.968	2000301	True
+GO:1903306	negative_regulation_of_regulated_secretory_pathway	0.026	null	null	0.602	-1.732	0.755	1.000	2000301	True
+GO:0006044	N-acetylglucosamine_metabolic_process	0.088	6.925	4.112	1.041	-1.340	0.945	0.423	-1	False
+GO:0008542	visual_learning	0.035	6.000	-4.124	0.699	-2.032	0.887	0.429	-1	False
+GO:0006265	DNA_topological_change	0.062	3.043	3.869	0.903	-1.340	0.876	0.450	-1	False
+GO:0048582	positive_regulation_of_post-embryonic_development	0.116	-6.752	0.675	1.146	-1.435	0.862	0.452	-1	False
+GO:0000056	ribosomal_small_subunit_export_from_nucleus	0.035	-1.030	5.684	0.699	-1.558	0.926	0.460	-1	False
+GO:0035157	negative_regulation_of_fusion_cell_fate_specification	0.018	-5.957	-1.084	0.477	-1.435	0.844	0.467	-1	False
+GO:0030210	heparin_biosynthetic_process	0.044	6.447	4.637	0.778	-1.558	0.918	0.473	-1	False
+GO:0030202	heparin_metabolic_process	0.053	null	null	0.845	-1.435	0.921	0.908	30210	True
+GO:0015014	heparan_sulfate_proteoglycan_biosynthetic_process_polysaccharide_chain_biosynthetic_process	0.053	5.939	4.658	0.845	-1.340	0.924	0.479	-1	False
+GO:0048312	intracellular_distribution_of_mitochondria	0.035	0.156	6.155	0.699	-1.340	0.924	0.480	-1	False
+GO:2000112	regulation_of_cellular_macromolecule_biosynthetic_process	12.663	-2.518	-4.192	3.158	-2.112	0.699	0.494	-1	False
+GO:0010468	regulation_of_gene_expression	15.201	null	null	3.237	-1.743	0.745	0.666	2000112	True
+GO:0006355	regulation_of_transcription_DNA-templated	10.575	null	null	3.080	-1.378	0.700	0.835	2000112	True
+GO:2001141	regulation_of_RNA_biosynthetic_process	10.575	null	null	3.080	-1.311	0.701	0.839	2000112	True
+GO:1903506	regulation_of_nucleic_acid-templated_transcription	10.575	null	null	3.080	-1.311	0.700	0.894	2000112	True
+GO:0071456	cellular_response_to_hypoxia	0.256	4.953	-3.862	1.477	-1.561	0.813	0.495	-1	False
+GO:0071453	cellular_response_to_oxygen_levels	0.282	null	null	1.519	-1.505	0.843	0.845	71456	True
+GO:0036294	cellular_response_to_decreased_oxygen_levels	0.273	null	null	1.505	-1.533	0.840	0.986	71456	True

@@ -1,16 +1,16 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0070090", "metaphase plate", 0.009, 2.511, 4.261, 0.301, -2.328, 0.950, 0.000, -1, False
-"GO:0005920", "smooth septate junction", 0.060, -1.646, 6.313, 0.903, -1.489, 0.995, 0.002, -1, False
-"GO:0042405", "nuclear inclusion body", 0.009, 4.481, 0.052, 0.301, -2.328, 0.872, 0.024, -1, False
-"GO:0035861", "site of double-strand break", 0.094, -6.934, -1.194, 1.079, -1.854, 0.728, 0.047, -1, False
-"GO:0016363", "nuclear matrix", 0.077, 4.510, -3.413, 1.000, -1.633, 0.744, 0.124, -1, False
-"GO:0005652", "nuclear lamina", 0.103, null, null, 1.114, -1.432, 0.742, 0.821, 16363, True
-"GO:0000439", "transcription factor TFIIH core complex", 0.051, 1.822, -5.961, 0.845, -1.554, 0.761, 0.139, -1, False
-"GO:0005675", "transcription factor TFIIH holo complex", 0.086, null, null, 1.041, -1.337, 0.675, 0.633, 439, True
-"GO:0072546", "EMC complex", 0.086, -1.109, -8.276, 1.041, -1.489, 0.773, 0.151, -1, False
-"GO:0008250", "oligosaccharyltransferase complex", 0.086, null, null, 1.041, -1.489, 0.739, 0.714, 72546, True
-"GO:1990047", "spindle matrix", 0.034, -6.000, 1.626, 0.699, -1.728, 0.808, 0.203, -1, False
-"GO:0090734", "site of DNA damage", 0.094, -5.522, -0.877, 1.079, -1.854, 0.728, 0.351, -1, False
-"GO:0000786", "nucleosome", 0.154, -4.603, -3.289, 1.279, -1.489, 0.661, 0.364, -1, False
-"GO:0005701", "polytene chromosome chromocenter", 0.128, -6.762, -2.569, 1.204, -1.432, 0.724, 0.372, -1, False
-"GO:0000791", "euchromatin", 0.214, -5.768, -2.051, 1.415, -1.337, 0.706, 0.470, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0070090	metaphase_plate	0.009	2.511	4.261	0.301	-2.328	0.950	0.000	-1	False
+GO:0005920	smooth_septate_junction	0.060	-1.646	6.313	0.903	-1.489	0.995	0.002	-1	False
+GO:0042405	nuclear_inclusion_body	0.009	4.481	0.052	0.301	-2.328	0.872	0.024	-1	False
+GO:0035861	site_of_double-strand_break	0.094	-6.934	-1.194	1.079	-1.854	0.728	0.047	-1	False
+GO:0016363	nuclear_matrix	0.077	4.510	-3.413	1.000	-1.633	0.744	0.124	-1	False
+GO:0005652	nuclear_lamina	0.103	null	null	1.114	-1.432	0.742	0.821	16363	True
+GO:0000439	transcription_factor_TFIIH_core_complex	0.051	1.822	-5.961	0.845	-1.554	0.761	0.139	-1	False
+GO:0005675	transcription_factor_TFIIH_holo_complex	0.086	null	null	1.041	-1.337	0.675	0.633	439	True
+GO:0072546	EMC_complex	0.086	-1.109	-8.276	1.041	-1.489	0.773	0.151	-1	False
+GO:0008250	oligosaccharyltransferase_complex	0.086	null	null	1.041	-1.489	0.739	0.714	72546	True
+GO:1990047	spindle_matrix	0.034	-6.000	1.626	0.699	-1.728	0.808	0.203	-1	False
+GO:0090734	site_of_DNA_damage	0.094	-5.522	-0.877	1.079	-1.854	0.728	0.351	-1	False
+GO:0000786	nucleosome	0.154	-4.603	-3.289	1.279	-1.489	0.661	0.364	-1	False
+GO:0005701	polytene_chromosome_chromocenter	0.128	-6.762	-2.569	1.204	-1.432	0.724	0.372	-1	False
+GO:0000791	euchromatin	0.214	-5.768	-2.051	1.415	-1.337	0.706	0.470	-1	False

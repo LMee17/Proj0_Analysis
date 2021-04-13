@@ -1,26 +1,26 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0000974", "Prp19 complex", 0.103, -7.211, 2.706, 1.114, -3.921, 0.862, 0.000, -1, False
-"GO:0032589", "neuron projection membrane", 0.770, 0.961, -6.641, 1.959, -1.986, 0.680, 0.000, -1, False
-"GO:0043005", "neuron projection", 4.288, null, null, 2.701, -1.388, 0.779, 0.643, 32589, True
-"GO:0031253", "cell projection membrane", 0.933, null, null, 2.041, -1.527, 0.729, 0.700, 32589, True
-"GO:0031256", "leading edge membrane", 0.804, null, null, 1.978, -1.931, 0.849, 0.923, 32589, True
-"GO:0005722", "beta-heterochromatin", 0.009, -2.140, 7.216, 0.301, -1.980, 0.942, 0.003, -1, False
-"GO:0036477", "somatodendritic compartment", 2.490, 4.703, 2.116, 2.465, -1.469, 0.993, 0.004, -1, False
-"GO:0031252", "cell leading edge", 1.087, 2.748, 5.595, 2.107, -1.336, 0.993, 0.005, -1, False
-"GO:0044297", "cell body", 1.549, 4.853, -1.645, 2.260, -1.311, 0.993, 0.005, -1, False
-"GO:0005850", "eukaryotic translation initiation factor 2 complex", 0.026, -1.810, 0.874, 0.602, -1.682, 0.868, 0.146, -1, False
-"GO:0071014", "post-mRNA release spliceosomal complex", 0.086, -5.165, -2.091, 1.041, -2.804, 0.729, 0.159, -1, False
-"GO:0071012", "catalytic step 1 spliceosome", 0.026, null, null, 0.602, -2.804, 0.734, 0.527, 71014, True
-"GO:0071010", "prespliceosome", 0.128, null, null, 1.204, -1.786, 0.723, 0.589, 71014, True
-"GO:0032809", "neuronal cell body membrane", 0.034, 2.147, -5.686, 0.699, -1.980, 0.748, 0.268, -1, False
-"GO:0044298", "cell body membrane", 0.043, null, null, 0.778, -1.980, 0.835, 0.521, 32809, True
-"GO:0043025", "neuronal cell body", 1.455, null, null, 2.233, -1.427, 0.753, 0.685, 32809, True
-"GO:0030425", "dendrite", 1.806, null, null, 2.326, -1.382, 0.666, 0.874, 32809, True
-"GO:0097447", "dendritic tree", 1.806, null, null, 2.326, -1.382, 0.666, 0.897, 32809, True
-"GO:0008278", "cohesin complex", 0.043, -4.009, 4.469, 0.778, -1.385, 0.844, 0.286, -1, False
-"GO:0031510", "SUMO activating enzyme complex", 0.017, -6.846, -1.460, 0.477, -1.682, 0.769, 0.310, -1, False
-"GO:0044614", "nuclear pore cytoplasmic filaments", 0.017, -5.373, -3.733, 0.477, -1.508, 0.735, 0.310, -1, False
-"GO:0005643", "nuclear pore", 0.402, null, null, 1.681, -1.313, 0.697, 0.626, 44614, True
-"GO:0044611", "nuclear pore inner ring", 0.034, null, null, 0.699, -1.385, 0.725, 0.660, 44614, True
-"GO:0000445", "THO complex part of transcription export complex", 0.043, -6.453, -2.814, 0.778, -1.385, 0.770, 0.329, -1, False
-"GO:0031461", "cullin-RING ubiquitin ligase complex", 0.950, -6.057, 0.736, 2.049, -1.475, 0.814, 0.334, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0000974	Prp19_complex	0.103	-7.211	2.706	1.114	-3.921	0.862	0.000	-1	False
+GO:0032589	neuron_projection_membrane	0.770	0.961	-6.641	1.959	-1.986	0.680	0.000	-1	False
+GO:0043005	neuron_projection	4.288	null	null	2.701	-1.388	0.779	0.643	32589	True
+GO:0031253	cell_projection_membrane	0.933	null	null	2.041	-1.527	0.729	0.700	32589	True
+GO:0031256	leading_edge_membrane	0.804	null	null	1.978	-1.931	0.849	0.923	32589	True
+GO:0005722	beta-heterochromatin	0.009	-2.140	7.216	0.301	-1.980	0.942	0.003	-1	False
+GO:0036477	somatodendritic_compartment	2.490	4.703	2.116	2.465	-1.469	0.993	0.004	-1	False
+GO:0031252	cell_leading_edge	1.087	2.748	5.595	2.107	-1.336	0.993	0.005	-1	False
+GO:0044297	cell_body	1.549	4.853	-1.645	2.260	-1.311	0.993	0.005	-1	False
+GO:0005850	eukaryotic_translation_initiation_factor_2_complex	0.026	-1.810	0.874	0.602	-1.682	0.868	0.146	-1	False
+GO:0071014	post-mRNA_release_spliceosomal_complex	0.086	-5.165	-2.091	1.041	-2.804	0.729	0.159	-1	False
+GO:0071012	catalytic_step_1_spliceosome	0.026	null	null	0.602	-2.804	0.734	0.527	71014	True
+GO:0071010	prespliceosome	0.128	null	null	1.204	-1.786	0.723	0.589	71014	True
+GO:0032809	neuronal_cell_body_membrane	0.034	2.147	-5.686	0.699	-1.980	0.748	0.268	-1	False
+GO:0044298	cell_body_membrane	0.043	null	null	0.778	-1.980	0.835	0.521	32809	True
+GO:0043025	neuronal_cell_body	1.455	null	null	2.233	-1.427	0.753	0.685	32809	True
+GO:0030425	dendrite	1.806	null	null	2.326	-1.382	0.666	0.874	32809	True
+GO:0097447	dendritic_tree	1.806	null	null	2.326	-1.382	0.666	0.897	32809	True
+GO:0008278	cohesin_complex	0.043	-4.009	4.469	0.778	-1.385	0.844	0.286	-1	False
+GO:0031510	SUMO_activating_enzyme_complex	0.017	-6.846	-1.460	0.477	-1.682	0.769	0.310	-1	False
+GO:0044614	nuclear_pore_cytoplasmic_filaments	0.017	-5.373	-3.733	0.477	-1.508	0.735	0.310	-1	False
+GO:0005643	nuclear_pore	0.402	null	null	1.681	-1.313	0.697	0.626	44614	True
+GO:0044611	nuclear_pore_inner_ring	0.034	null	null	0.699	-1.385	0.725	0.660	44614	True
+GO:0000445	THO_complex_part_of_transcription_export_complex	0.043	-6.453	-2.814	0.778	-1.385	0.770	0.329	-1	False
+GO:0031461	cullin-RING_ubiquitin_ligase_complex	0.950	-6.057	0.736	2.049	-1.475	0.814	0.334	-1	False

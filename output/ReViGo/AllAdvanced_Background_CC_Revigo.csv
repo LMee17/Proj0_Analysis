@@ -1,16 +1,16 @@
-TermID, Name, Frequency, PlotX, PlotY, LogSize, Value, Uniqueness, Dispensability, Representative, Eliminated
-"GO:0016533", "protein kinase 5 complex", 0.017, -5.563, 4.817, 0.477, -1.873, 0.819, 0.000, -1, False
-"GO:0016607", "nuclear speck", 0.368, 2.080, 7.265, 1.643, -2.770, 0.763, 0.000, -1, False
-"GO:0035062", "omega speckle", 0.051, null, null, 0.845, -1.873, 0.780, 0.740, 16607, True
-"GO:0043005", "neuron projection", 4.288, 2.432, -3.726, 2.701, -1.333, 0.835, 0.004, -1, False
-"GO:0071212", "subsynaptic reticulum", 0.103, null, null, 1.114, -1.357, 0.771, 0.514, 43005, True
-"GO:0150034", "distal axon", 0.873, null, null, 2.013, -1.350, 0.821, 0.654, 43005, True
-"GO:0000932", "P-body", 0.342, 5.217, 0.337, 1.613, -2.201, 0.924, 0.068, -1, False
-"GO:0045180", "basal cortex", 0.094, -2.573, -5.381, 1.079, -1.575, 0.833, 0.083, -1, False
-"GO:0009925", "basal plasma membrane", 0.454, null, null, 1.732, -1.401, 0.882, 0.816, 45180, True
-"GO:1990904", "ribonucleoprotein complex", 4.912, -6.215, 0.308, 2.760, -1.506, 0.852, 0.190, -1, False
-"GO:0000177", "cytoplasmic exosome (RNase complex)", 0.077, -4.934, 2.812, 1.000, -1.654, 0.609, 0.281, -1, False
-"GO:0000176", "nuclear exosome (RNase complex)", 0.086, null, null, 1.041, -1.452, 0.512, 0.955, 177, True
-"GO:0000178", "exosome (RNase complex)", 0.111, null, null, 1.146, -1.316, 0.619, 0.969, 177, True
-"GO:1905354", "exoribonuclease complex", 0.120, -6.530, 2.979, 1.176, -1.316, 0.798, 0.321, -1, False
-"GO:0005652", "nuclear lamina", 0.103, 2.975, 6.300, 1.114, -1.452, 0.822, 0.387, -1, False
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0016533	protein_kinase_5_complex	0.017	-5.563	4.817	0.477	-1.873	0.819	0.000	-1	False
+GO:0016607	nuclear_speck	0.368	2.080	7.265	1.643	-2.770	0.763	0.000	-1	False
+GO:0035062	omega_speckle	0.051	null	null	0.845	-1.873	0.780	0.740	16607	True
+GO:0043005	neuron_projection	4.288	2.432	-3.726	2.701	-1.333	0.835	0.004	-1	False
+GO:0071212	subsynaptic_reticulum	0.103	null	null	1.114	-1.357	0.771	0.514	43005	True
+GO:0150034	distal_axon	0.873	null	null	2.013	-1.350	0.821	0.654	43005	True
+GO:0000932	P-body	0.342	5.217	0.337	1.613	-2.201	0.924	0.068	-1	False
+GO:0045180	basal_cortex	0.094	-2.573	-5.381	1.079	-1.575	0.833	0.083	-1	False
+GO:0009925	basal_plasma_membrane	0.454	null	null	1.732	-1.401	0.882	0.816	45180	True
+GO:1990904	ribonucleoprotein_complex	4.912	-6.215	0.308	2.760	-1.506	0.852	0.190	-1	False
+GO:0000177	cytoplasmic_exosome_(RNase_complex)	0.077	-4.934	2.812	1.000	-1.654	0.609	0.281	-1	False
+GO:0000176	nuclear_exosome_(RNase_complex)	0.086	null	null	1.041	-1.452	0.512	0.955	177	True
+GO:0000178	exosome_(RNase_complex)	0.111	null	null	1.146	-1.316	0.619	0.969	177	True
+GO:1905354	exoribonuclease_complex	0.120	-6.530	2.979	1.176	-1.316	0.798	0.321	-1	False
+GO:0005652	nuclear_lamina	0.103	2.975	6.300	1.114	-1.452	0.822	0.387	-1	False
