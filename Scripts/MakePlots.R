@@ -189,7 +189,7 @@ upset(ran.undersel, mb.ratio = c(0.7,0.3),
       order.by = c("freq", "degree"), keep.order = T)
 #RanGUS_orderbyPhylo.png
 
-####GO Terms#####
+####GO Terms: UpSetR#####
 ##Noncanon (immune)
 head(imm.terms)
 imm.terms.work <- imm.terms[,c(1:3,5:8,10:11,13:14,16:17)]
@@ -587,3 +587,213 @@ ggplot(plot.data3, aes(x = Sociality2, y = Total)) +
   labs(title = "All Genes vs Sociality", 
        y = "No Genes Under Selection", x = "Sociality")
 #AllGenesByLineage_ggplot.png
+
+
+#####GGPlot stacked bar chat for gus per class
+
+#I need genes under selection per lineage
+
+data.complete.sig <- data.complete[data.complete$adj_pvalue < 0.05,]
+
+#aggregate by social lineage to get combinations of genes under selection
+data.complete.sig <- data.complete.sig[,c(1,5,6)]
+#remove epi runs
+data.complete.sig <- data.complete.sig[!data.complete.sig$SocOrigin == "CorbSocEpi",]
+data.complete.sig <- data.complete.sig[!data.complete.sig$SocOrigin == "AllOriginEpi",]
+
+head(data.complete.sig)
+unique(data.complete.sig$SocOrigin)
+
+adv <- c("AllComplex", "Apis", "Meli")
+soc <- c("AllOrigin", "CorbSoc", "Halictid", "Xylo")
+sol <- c("AllSol", "Habro", "Mega", "Nova")
+
+data.complete.sig$SocOrigin <- as.character(data.complete.sig$SocOrigin)
+
+data.complete.sig$Sociality[as.character(data.complete.sig$SocOrigin) %in% adv] <- "Advanced Eusocial"
+data.complete.sig$Sociality[as.character(data.complete.sig$SocOrigin) %in% soc] <- "Social"
+data.complete.sig$Sociality[as.character(data.complete.sig$SocOrigin) %in% sol] <- "Solitary"
+
+head(data.complete.sig)
+
+#group by sociality
+data.complete.sig$Sociality <- as.factor(data.complete.sig$Sociality)
+tmp <- data.complete.sig[,c(1,3,4)]
+
+tmp <- aggregate(tmp[3], tmp[-3], 
+                               FUN = function(X) paste(unique(X), collapse=", "))
+head(tmp)
+combo <- unique(tmp$Sociality)
+combo
+
+
+#I'm gonna have to go through and hand code these combinations in terms of sociality (sob)
+soc.code <- c("Social", "Advanced Eusocial and Solitary", 
+              "Solitary", "Advanced Eusocial",
+              "Advanced Eusocial and Solitary", "Advanced Eusocial and Social",
+              "All Socialities", "Advanced Eusocial and Social",
+              "Social and Solitary", "Social and Solitary",
+              "All Socialities", "All Socialities",
+              "All Socialities", "All Socialities")
+
+#check
+soc.key <- as.data.frame(cbind(combo, soc.code))
+soc.key
+
+for (i in 1:nrow(soc.key)){
+  tmp$SocKey[tmp$Sociality == paste(soc.key[i,1])] <- paste(soc.key[i,2])
+}
+
+head(tmp)
+
+#Canon
+can.tmp <- tmp[tmp$Class == "Canon",]
+
+plot.data4 <- data.frame()
+
+for (i in 1:length(unique(soc.key$combo))){
+  print(soc.key[i,2])
+  plot.data4[i,1] <- paste(soc.key[i,2])
+  one <- can.tmp[can.tmp$SocKey == paste(soc.key[i,2]),]
+  plot.data4[i,2] <- nrow(one)
+}
+
+names(plot.data4) <- c("Sociality", "Number_PSGs")
+plot.data4$Class <- paste("Canon")
+plot.data4 <- unique(plot.data4)
+
+library(ggplot2)
+
+ggplot(plot.data4, aes(fill = Sociality, y = Class, x = Number_PSGs))+
+  geom_bar(position = "stack", stat = "identity") +
+  theme(legend.position = "bottom")
+
+
+#I want these ideally as percentages so I can compare amongst socialities.
+plot.data4$PercentagePSG <- (plot.data4$Number_PSGs / sum(plot.data4$Number_PSGs))*100
+plot.data4
+
+ggplot(plot.data4, aes(fill = Sociality, y = Class, x = PercentagePSG))+
+  geom_bar(position = "stack", stat = "identity") +
+  theme(legend.position = "bottom")
+
+#add noncanon
+non.tmp <- tmp[tmp$Class == "NonCanon",]
+two <- data.frame()
+
+for (i in 1:length(unique(soc.key$combo))){
+  print(soc.key[i,2])
+  two[i,1] <- paste(soc.key[i,2])
+  one <- non.tmp[non.tmp$SocKey == paste(soc.key[i,2]),]
+  two[i,2] <- nrow(one)
+}
+names(two) <- c("Sociality", "Number_PSGs")
+two$Class <- paste("NonCanon")
+
+two <- unique(two)
+two$PercentagePSG <- (two$Number_PSGs / sum(two$Number_PSGs)*100)
+two
+
+plot.data5 <- rbind(plot.data4, two)
+plot.data5
+
+ggplot(plot.data5, aes(fill = Sociality, y = Class, x = PercentagePSG))+
+  geom_bar(position = "stack", stat = "identity") +
+  theme(legend.position = "bottom")
+
+#add background
+
+back.tmp <- tmp[tmp$Class == "Random",]
+two <- data.frame()
+
+for (i in 1:length(unique(soc.key$combo))){
+  print(soc.key[i,2])
+  two[i,1] <- paste(soc.key[i,2])
+  one <- back.tmp[back.tmp$SocKey == paste(soc.key[i,2]),]
+  two[i,2] <- nrow(one)
+}
+names(two) <- c("Sociality", "Number_PSGs")
+two$Class <- paste("Background")
+two <- unique(two)
+two$PercentagePSG <- (two$Number_PSGs / sum(two$Number_PSGs)*100)
+two
+
+plot.data5 <- rbind(plot.data5, two)
+plot.data5
+
+ggplot(plot.data5, aes(fill = Sociality, y = Class, x = PercentagePSG))+
+  geom_bar(position = "fill", stat = "identity") +
+  theme(legend.position = "bottom")
+
+
+#try and order the x and y axes
+library("dplyr")
+
+plot.data5$Sociality <- factor(plot.data5$Sociality, levels=c("Advanced Eusocial", 
+                                                "Advanced Eusocial and Social", "Social",
+                                                "Advanced Eusocial and Solitary", "Social and Solitary", 
+                                                "Solitary", "All Socialities"))
+plot.data5$Class <- factor(plot.data5$Class, levels = c("Canon", "NonCanon", "Background"))
+  
+ggplot(plot.data5, aes(fill = Sociality, y = Number_PSGs, x = Class)) +
+  geom_bar(position = "fill", stat = "identity") +
+  theme(legend.position = "bottom") +
+  xlab("Proportion of Genes Under Selection")
+  
+#I'm gonna try and add another bar per class showing social versus solitary versus all 
+#I also don't need the percentage thing cos ggplot can do it itself with the position ="fill" option
+plot.data5$Key <- paste(1)
+plot.data6 <- plot.data5[,c(1:3,5)]
+head(plot.data6)
+
+three <- plot.data6
+three$Key <- paste(2)
+#recode the socialities (sigh)
+social <- c("Social", "Advanced Eusocial", "Advanced Eusocial and Social")
+three$Sociality[three$Sociality %in% social] <- "Social"
+mix <- c("Social and Solitary", "Advanced Eusocial and Solitary")
+three$Sociality[three$Sociality %in% mix] <- "Social and Solitary"
+three
+
+plot.data6 <- rbind(plot.data6, three)
+plot.data6
+
+#No idea if this is gonna work but let's try
+gg1 <- ggplot(plot.data6, aes(fill = Sociality, y = Number_PSGs, x = Key)) +
+  geom_bar(position = "fill", stat = "identity") +
+  facet_grid(~Class) +
+  theme(legend.position = "right") +
+  theme(axis.text.x = element_blank()) +
+  ylab("Proportion of Genes Under Selection") +
+  xlab("Gene Class")
+
+#set colours  
+unique(plot.data6$Sociality)
+paint <- c("green", "purple" , "blue", "orange", "bluish green", "black", "yellow")
+names(paint) <- levels(factor(c(levels(plot.data6$Sociality))))
+
+paint2 <- c("#E69F00", "#F0E442", "#56B4E9", "#000000", "#009E73", "#D55E00", "#0072B2")
+names(paint2) <- levels(factor(c(levels(plot.data6$Sociality))))
+
+gg1 + scale_fill_manual(name = "Sociality", values = paint2)
+
+
+levels(plot.data6$Sociality)
+
+plot.data6$Sociality <- factor(plot.data6$Sociality, levels=c("All Socialities", "Advanced Eusocial",
+                                                              "Advanced Eusocial and Social", "Social",
+                                                              "Advanced Eusocial and Solitary", "Social and Solitary",
+                                                              "Solitary"))
+plot.data5$Sociality <- factor(plot.data5$Sociality, levels=c("All Socialities", "Advanced Eusocial",
+                                                              "Advanced Eusocial and Social", "Social",
+                                                              "Advanced Eusocial and Solitary", "Social and Solitary",
+                                                              "Solitary"))
+
+
+ggplot(plot.data6, aes(fill = Sociality, y = Number_PSGs, x = Key)) +
+  geom_bar(position = "fill", stat = "identity") +
+  facet_grid(~Class) +
+  theme(legend.position = "bottom") +
+  xlab("Proportion of Genes Under Selection")
+
+#to do: order x axis, order Socialities, tidy
