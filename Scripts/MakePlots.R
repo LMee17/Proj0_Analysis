@@ -728,6 +728,7 @@ ggplot(plot.data5, aes(fill = Sociality, y = Class, x = PercentagePSG))+
 
 #try and order the x and y axes
 library("dplyr")
+library("ggplot2")
 
 plot.data5$Sociality <- factor(plot.data5$Sociality, levels=c("Advanced Eusocial", 
                                                 "Advanced Eusocial and Social", "Social",
@@ -756,7 +757,9 @@ three$Sociality[three$Sociality %in% mix] <- "Social and Solitary"
 three
 
 plot.data6 <- rbind(plot.data6, three)
-plot.data6
+plot.data6$Class<- as.character(plot.data6$Class)
+plot.data6$Class[plot.data6$Class == "NonCanon"] <- "Non-Canon"
+plot.data6$Class <- as.factor(plot.data6$Class)
 
 #No idea if this is gonna work but let's try
 gg1 <- ggplot(plot.data6, aes(fill = Sociality, y = Number_PSGs, x = Key)) +
@@ -775,7 +778,17 @@ names(paint) <- levels(factor(c(levels(plot.data6$Sociality))))
 paint2 <- c("#E69F00", "#F0E442", "#56B4E9", "#000000", "#009E73", "#D55E00", "#0072B2")
 names(paint2) <- levels(factor(c(levels(plot.data6$Sociality))))
 
-gg1 + scale_fill_manual(name = "Sociality", values = paint2)
+plot.data6$Class <- factor(plot.data6$Class, levels =
+                                 c("Canon", "Non-Canon", "Background"))
+
+ggplot(plot.data6, aes(fill = Sociality, y = Number_PSGs, x = Key)) +
+  geom_bar(position = "fill", stat = "identity") +
+  facet_grid(~Class) +
+  theme(legend.position = "right") +
+  theme(axis.text.x = element_blank()) +
+  ylab("Proportion of Genes Under Selection") +
+  xlab("Gene Class") + 
+  scale_fill_manual(name = "Sociality", values = paint2)
 
 
 levels(plot.data6$Sociality)
