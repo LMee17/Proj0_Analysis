@@ -1,0 +1,6 @@
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0004571	mannosyl-oligosaccharide 1,2-alpha-mannosidase activity	0.071	3.935	4.224	0.954	-2.119	1.000	0.000	-1	False
+GO:0008553	P-type proton-exporting transporter activity	0.035	-5.626	1.296	0.699	-2.721	0.370	0.000	-1	False
+GO:0046961	proton-transporting ATPase activity, rotational mechanism	0.283	null	null	1.519	-2.022	0.327	0.834	8553	True
+GO:0042626	ATPase-coupled transmembrane transporter activity	0.883	null	null	2.004	-1.376	0.357	0.877	8553	True
+GO:0032182	ubiquitin-like protein binding	0.336	1.691	-5.520	1.591	-1.595	1.000	0.000	-1	False

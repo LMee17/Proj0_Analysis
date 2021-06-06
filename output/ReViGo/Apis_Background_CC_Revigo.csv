@@ -1,4 +1,4 @@
-ƒTermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
 GO:0031011	Ino80_complex	0.111	-5.106	-1.605	1.146	-2.770	0.624	0.000	-1	False
 GO:1990621	ESCRT_IV_complex	0.017	null	null	0.477	-1.738	0.666	0.650	31011	True
 GO:0031226	intrinsic_component_of_plasma_membrane	4.253	5.012	-0.974	2.697	-1.833	0.738	0.004	-1	False

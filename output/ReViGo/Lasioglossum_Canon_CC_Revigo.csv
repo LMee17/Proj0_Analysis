@@ -1,0 +1,15 @@
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0071439	clathrin complex	0.017	3.473	6.346	0.477	-2.420	0.904	0.000	-1	False
+GO:0098549	somatic ring canal	0.017	0.064	-6.103	0.477	-2.237	0.764	0.002	-1	False
+GO:0035324	female germline ring canal	0.111	null	null	1.146	-1.607	0.748	0.788	98549	True
+GO:0045172	germline ring canal	0.197	null	null	1.380	-1.382	0.743	0.935	98549	True
+GO:0005905	clathrin-coated pit	0.120	5.592	-3.118	1.176	-1.764	0.936	0.086	-1	False
+GO:0031410	cytoplasmic vesicle	4.110	-5.502	3.219	2.683	-1.943	0.602	0.087	-1	False
+GO:0030141	secretory granule	0.256	null	null	1.491	-1.545	0.641	0.668	31410	True
+GO:0030136	clathrin-coated vesicle	0.299	null	null	1.556	-1.467	0.674	0.680	31410	True
+GO:0097708	intracellular vesicle	4.110	null	null	2.683	-1.943	0.622	0.926	31410	True
+GO:0005737	cytoplasm	41.360	-5.934	-2.746	3.685	-2.357	0.910	0.108	-1	False
+GO:0005758	mitochondrial intermembrane space	0.256	-0.595	-0.260	1.491	-1.444	0.824	0.113	-1	False
+GO:0031970	organelle envelope lumen	0.273	null	null	1.519	-1.444	0.844	0.503	5758	True
+GO:0033596	TSC1-TSC2 complex	0.017	6.047	2.987	0.477	-2.420	0.916	0.129	-1	False
+GO:0031982	vesicle	4.529	-2.961	6.740	2.725	-1.827	0.900	0.133	-1	False
