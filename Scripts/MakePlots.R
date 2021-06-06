@@ -589,7 +589,7 @@ ggplot(plot.data3, aes(x = Sociality2, y = Total)) +
 #AllGenesByLineage_ggplot.png
 
 
-#####GGPlot stacked bar chat for gus per class
+#####GGPlot stacked bar chat for gus per class#######
 
 #I need genes under selection per lineage
 
@@ -809,4 +809,31 @@ ggplot(plot.data6, aes(fill = Sociality, y = Number_PSGs, x = Key)) +
   theme(legend.position = "bottom") +
   xlab("Proportion of Genes Under Selection")
 
-#to do: order x axis, order Socialities, tidy
+#####GGPBoxplot for omega values#######
+omega2 <- omega
+omega2$Class2[omega2$Class == "Random"] <- "Background"
+omega2$Class2[omega2$Class == "Canon"] <- "Canon"
+omega2$Class2[omega2$Class == "NonCanon"] <- "Non-Canon"
+
+
+head(omega)
+ggplot(omega2, aes(x = Class2, y = dN.dS, fill = Class2)) +
+  geom_violin() +
+  geom_boxplot(width = .1)
+
+ggplot(omega, aes(x = Class, y = dN.dS)) +
+  geom_dotplot(binaxis = "y", stackdir = "center", dotsize = .01)
+
+
+ggplot(omega2, aes(x = Class2, y = dN.dS, fill = Class2)) +
+  geom_violin() +
+  geom_boxplot(width = .1) +
+  coord_flip() +
+  xlab("Gene Class") +
+  guides(fill = guide_legend(title = "Gene Class")) +
+  scale_x_discrete(limits = c("Background", "Non-Canon", "Canon")) +
+  ylab("dN/dS ratio") +
+#  scale_fill_brewer(palette = "PuRd")
+ scale_fill_manual(values = c("#56B4E9", "#F0E442", "#CC79A7")) 
+  
+  

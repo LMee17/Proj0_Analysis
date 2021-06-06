@@ -6,6 +6,7 @@
 library("dplyr")
 library("stringr")
 library("UpSetR")
+library("ggplot2")
 
 #Read in
 filelist <- list.files(path = "output/ReViGo/", pattern = "*csv")
@@ -65,6 +66,7 @@ rvg.complete$Sociality[rvg.complete$SocOrigin %in% sol] <- "Solitary"
 for (i in 1:nrow(rvg.complete)){
   rvg.complete$Lineage[i] <- posh[(grep(paste(rvg.complete$SocOrigin[i]), socs))]
 }
+
 
 ##Canon####
 #Pull out all Canon terms order by lineage tested
@@ -497,25 +499,22 @@ for (s in 1:length(socs)){
   }
 }
 
-
-
-summary(as.factor(rvg.all$Class))
+all.stack
 
 prop.imm$X3 <- round(as.numeric(prop.imm$X3), digits = 2)
 prop.imm
 
-test <- as.numeric(prop.imm$X3)
-round(test, digits = 2)
+sig.test <- function(x,y){
+  one <- all.stack[all.stack$Class == paste(x),]
+  two <- all.stack[all.stack$Class == paste(y),]
+}
 
-one <- all.stack$Number_GOterms[all.stack$Sociality == paste(socs[i])]
-t <- sum(one)
-two <- all.stack$Number_GOterms[all.stack$Sociality == paste(socs[i]) 
-                                & all.stack$Immune == "Immune"]
-imm <- sum(two)
-prop <- imm/t
+
+25/96
 all.stack
-
-
+a <- c(25,17) 
+b <- c(71,180)
+prop.test(a,b)
 
 ##Upset ? 
 head(rvg.can)
@@ -569,25 +568,101 @@ upset(rvg.all,
 #so there would be a social canon, social non-canon, social background, solitary canon etc
 #this would then be overlaps between gene classes as well as socialities
 
-head(rvg.back)
+rvg.comb <- go.base
+key <- c("Advanced_Eusocial.Canon", "Advanced_Eusocial.Non", "Advanced_Eusocial.Background",
+         "Social.Canon", "Social.Non", "Social.Background",
+         "Solitary.Canon", "Solitary.Non", "Solitary.Background")
 
-head(rvg.complete)
+for (i in 1:length(key)){
+  s <- str_split(key[i], "\\.")[[1]][1]
+  c <- str_split(key[i], "\\.")[[1]][2]
+  tmp <- rvg.complete[rvg.complete$Eliminated == "False" & 
+                        rvg.complete$Sociality == paste(paste(s)) &
+                        rvg.complete$Class == paste(c),]
+  tmp <- tmp$TermID
+  rvg.comb[,i+1] <- ifelse(rvg.comb$GOterm %in% tmp, paste(1), paste(0))
+  names(rvg.comb)[i+1] <- paste(key[i])
+}
+head(rvg.comb)
 
 
-rvg.non.count <- rvg.complete[rvg.complete$Class == "Non" & rvg.complete$Eliminated == "False",]
-nrow(rvg.non.count)
 
-rvg.non.count$Imm <- ifelse(rvg.non.count$TermID %in% go.immune$V1, paste(TRUE), paste(FALSE))
-rvg.non.count <- rvg.non.count[,c(1,17)]
-rvg.non.count
-rvg.non.count <- rvg.non.count[!duplicated(rvg.non.count),]
-nrow(rvg.non.count[rvg.non.count$Imm == "TRUE",]) / nrow(rvg.non.count)
+names(rvg.comb) <- c("GOterms", "Advanced Eusocial Canon Immune", "Advanced Eusocial Non-Canon Immune", "Advanced Eusocial Background",
+                     "Social Canon Immune", "Social Non-Canon Immune", "Social Background",
+                     "Solitary Canon Immune", "Solitary Non-Canon Immune", "Solitary Background")
+for (i in 2:ncol(rvg.comb)){
+  rvg.comb[,i] <- as.numeric(rvg.comb[,i])
+}
 
-rvg.back.count <- rvg.complete[rvg.complete$Class == "Background" & rvg.complete$Eliminated == "False",]
+upset(rvg.comb,
+      sets = c("Advanced Eusocial Canon Immune", "Advanced Eusocial Non-Canon Immune", "Advanced Eusocial Background",
+               "Social Canon Immune", "Social Non-Canon Immune", "Social Background",
+               "Solitary Canon Immune", "Solitary Non-Canon Immune", "Solitary Background"),
+      keep.order = T)
 
-rvg.back.count$Imm <- ifelse(rvg.back.count$TermID %in% go.immune$V1, paste(TRUE), paste(FALSE))
-rvg.back.count <- rvg.back.count[,c(1,17)]
-rvg.back.count
-rvg.back.count <- rvg.back.count[!duplicated(rvg.back.count),]
-nrow(rvg.back.count[rvg.back.count$Imm == "TRUE",]) / nrow(rvg.back.count)
+
+#And also colour the set size by sociality ....
+rvg.comb$Imm <- ifelse(rvg.comb$GOterm %in% go.immune$V1, paste(TRUE), paste(FALSE))
+head(rvg.comb[rvg.comb$Imm == TRUE,])
+rvg.comb$Imm <- as.character(rvg.comb$Imm)
+
+
+upset(rvg.comb, 
+      query.legend = "top",
+      mb.ratio = c(0.5, 0.5),
+      nsets = length(socs),
+      sets = c("Advanced Eusocial Canon Immune", "Advanced Eusocial Non-Canon Immune", "Advanced Eusocial Background",
+                       "Social Canon Immune", "Social Non-Canon Immune", "Social Background",
+                       "Solitary Canon Immune", "Solitary Non-Canon Immune", "Solitary Background"),
+      sets.bar.color = c("orange", "orange", "orange", "green", "green",
+                         "green", "blue", "blue", "blue"),
+      order.by = c("freq"), keep.order = T,
+      queries = list(list(query = elements,
+                          params = list("Imm", "TRUE"), color = "red", active = F,
+                          query.name = "Immune GOterms")))
+
+
+#and add sociality as metdata item .. 
+key <- c("Advanced Eusocial Canon Immune", "Advanced Eusocial Non-Canon Immune", "Advanced Eusocial Background",
+"Social Canon Immune", "Social Non-Canon Immune", "Social Background",
+"Solitary Canon Immune", "Solitary Non-Canon Immune", "Solitary Background")
+key2 <- c("Advanced_Eusocial", "Advanced_Eusocial", "Advanced_Eusocial", 
+          "Social", "Social", "Social", "Solitary", "Solitary", "Solitary")
+rvg.meta2 <- cbind(key,key2)
+
+rvg.meta2 <- as.data.frame(rvg.meta2)
+rvg.meta2
+
+#try and plot
+
+upset(rvg.comb, 
+      query.legend = "top",
+      mb.ratio = c(0.6, 0.4),
+      nsets = length(socs),
+      sets = c("Advanced Eusocial Background", "Advanced Eusocial Non-Canon Immune", "Advanced Eusocial Canon Immune",
+               "Social Background", "Social Non-Canon Immune", "Social Canon Immune",
+               "Solitary Background", "Solitary Non-Canon Immune", "Solitary Canon Immune"),
+      sets.bar.color = c("orange", "orange", "orange", "green", "green",
+                         "green", "blue", "blue", "blue"),
+      sets.x.label = "Number GO terms from PSG",
+      set.metadata = list(data = rvg.meta2, plots = list(list(type = "matrix_rows", 
+                                                             column = "key2", assign = 10, 
+                                                             colors = c(Advanced_Eusocial = "orange", 
+                                                                        Social = "green",
+                                                                        Solitary = "blue"))),
+                          list(type = "text", column = "key2", assign = 10, 
+                               colors = c(Advanced_Eusocial = "orange", 
+                                          Social = "green",
+                                          Solitary = "blue"),
+                               query.name = "key2")),
+      order.by = c("freq"), keep.order = T,
+      queries = list(list(query = elements,
+                          params = list("Imm", "TRUE"), color = "red", active = T,
+                          query.name = "Immune GO terms")))
+
+
+str(rvg.meta)
+str(rvg.meta2)
+
+
 
