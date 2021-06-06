@@ -1,0 +1,91 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0016049	cell growth	117	7	0.49	1	0.00880	2.9e-07	Biological Process
+GO:0045666	positive regulation of neuron differenti...	57	5	0.24	9	0.01214	2.8e-06	Biological Process
+GO:0050769	positive regulation of neurogenesis	71	5	0.3	16	0.01994	8.5e-06	Biological Process
+GO:0009799	specification of symmetry	12	3	0.05	20	0.02260	1.4e-05	Biological Process
+GO:0009855	determination of bilateral symmetry	12	3	0.05	21	0.02260	1.4e-05	Biological Process
+GO:0007166	cell surface receptor signaling pathway	517	10	2.16	25	0.01222	1.7e-05	Biological Process
+GO:0010720	positive regulation of cell development	91	5	0.38	30	0.03308	2.9e-05	Biological Process
+GO:0045597	positive regulation of cell differentiat...	96	5	0.4	33	0.03697	3.7e-05	Biological Process
+GO:0009607	response to biotic stimulus	244	7	1.02	35	0.01841	3.9e-05	Biological Process
+GO:0043207	response to external biotic stimulus	244	7	1.02	36	0.01841	3.9e-05	Biological Process
+GO:0051707	response to other organism	244	7	1.02	37	0.01841	3.9e-05	Biological Process
+GO:0051962	positive regulation of nervous system de...	103	5	0.43	48	0.04354	5.2e-05	Biological Process
+GO:0007254	JNK cascade	57	4	0.24	57	0.00132	7.8e-05	Biological Process
+GO:0006915	apoptotic process	209	6	0.87	73	0.00109	0.00016	Biological Process
+GO:0045793	positive regulation of cell size	30	3	0.13	84	0.00024	0.00024	Biological Process
+GO:0071907	determination of digestive tract left/ri...	6	2	0.03	86	0.00025	0.00025	Biological Process
+GO:0008258	head involution	31	3	0.13	89	0.00026	0.00026	Biological Process
+GO:0007034	vacuolar transport	32	3	0.13	92	0.04483	0.00029	Biological Process
+GO:0051897	positive regulation of protein kinase B ...	7	2	0.03	102	0.00035	0.00035	Biological Process
+GO:0048682	sprouting of injured axon	7	2	0.03	103	0.01979	0.00035	Biological Process
+GO:0043902	positive regulation of multi-organism pr...	35	3	0.15	105	0.00742	0.00038	Biological Process
+GO:0007394	dorsal closure, elongation of leading ed...	8	2	0.03	114	0.00046	0.00046	Biological Process
+GO:0080134	regulation of response to stress	166	5	0.69	116	0.02049	0.00050	Biological Process
+GO:0046843	dorsal appendage formation	39	3	0.16	118	0.00052	0.00052	Biological Process
+GO:0009615	response to virus	40	3	0.17	119	0.02272	0.00057	Biological Process
+GO:0090303	positive regulation of wound healing	9	2	0.04	120	0.00059	0.00059	Biological Process
+GO:0007163	establishment or maintenance of cell pol...	173	5	0.72	123	0.00417	0.00060	Biological Process
+GO:0030307	positive regulation of cell growth	41	3	0.17	124	0.00061	0.00061	Biological Process
+GO:0006810	transport	1124	12	4.69	127	0.04715	0.00064	Biological Process
+GO:0008286	insulin receptor signaling pathway	45	3	0.19	144	0.00080	0.00080	Biological Process
+GO:0007298	border follicle cell migration	108	4	0.45	148	0.00810	0.00092	Biological Process
+GO:0045087	innate immune response	111	4	0.46	157	0.03421	0.00102	Biological Process
+GO:0000578	embryonic axis specification	114	4	0.48	163	0.00965	0.00113	Biological Process
+GO:0031102	neuron projection regeneration	13	2	0.05	173	0.04304	0.00126	Biological Process
+GO:0031103	axon regeneration	13	2	0.05	174	0.04304	0.00126	Biological Process
+GO:0045475	locomotor rhythm	53	3	0.22	177	0.00129	0.00129	Biological Process
+GO:0031929	TOR signaling	55	3	0.23	184	0.00144	0.00144	Biological Process
+GO:0071900	regulation of protein serine/threonine k...	55	3	0.23	185	0.00144	0.00144	Biological Process
+GO:0046622	positive regulation of organ growth	14	2	0.06	187	0.00147	0.00147	Biological Process
+GO:0035212	cell competition in a multicellular orga...	15	2	0.06	192	0.00169	0.00169	Biological Process
+GO:0009994	oocyte differentiation	129	4	0.54	195	0.01354	0.00178	Biological Process
+GO:0046934	phosphatidylinositol-4,5-bisphosphate 3-...	1	1	0	5	0.0038	0.0038	Molecular Function
+GO:0004705	JUN kinase activity	1	1	0	6	0.0038	0.0038	Molecular Function
+GO:0004676	3-phosphoinositide-dependent protein kin...	1	1	0	8	0.0038	0.0038	Molecular Function
+GO:0003924	GTPase activity	89	3	0.34	9	0.0042	0.0042	Molecular Function
+GO:0035005	1-phosphatidylinositol-4-phosphate 3-kin...	2	1	0.01	11	0.0076	0.0076	Molecular Function
+GO:0070883	pre-miRNA binding	2	1	0.01	12	0.0076	0.0076	Molecular Function
+GO:0016443	bidentate ribonuclease III activity	2	1	0.01	13	0.0076	0.0076	Molecular Function
+GO:0004530	deoxyribonuclease I activity	2	1	0.01	14	0.0076	0.0076	Molecular Function
+GO:0019776	Atg8 ligase activity	2	1	0.01	15	0.0076	0.0076	Molecular Function
+GO:0016303	1-phosphatidylinositol-3-kinase activity	3	1	0.01	18	0.0114	0.0114	Molecular Function
+GO:0019904	protein domain specific binding	60	2	0.23	24	0.0211	0.0211	Molecular Function
+GO:0004438	phosphatidylinositol-3-phosphatase activ...	6	1	0.02	25	0.0226	0.0226	Molecular Function
+GO:0032794	GTPase activating protein binding	6	1	0.02	26	0.0226	0.0226	Molecular Function
+GO:0052742	phosphatidylinositol kinase activity	6	1	0.02	28	0.0226	0.0226	Molecular Function
+GO:0052744	phosphatidylinositol monophosphate phosp...	6	1	0.02	29	0.0226	0.0226	Molecular Function
+GO:0051219	phosphoprotein binding	7	1	0.03	30	0.0263	0.0263	Molecular Function
+GO:0017124	SH3 domain binding	10	1	0.04	31	0.0374	0.0374	Molecular Function
+GO:0052866	phosphatidylinositol phosphate phosphata...	12	1	0.05	33	0.0447	0.0447	Molecular Function
+GO:0005886	plasma membrane	706	10	2.86	1	0.00014	0.00014	Cellular Component
+GO:0030136	clathrin-coated vesicle	18	2	0.07	4	0.00229	0.00229	Cellular Component
+GO:0005802	trans-Golgi network	27	2	0.11	5	0.00515	0.00515	Cellular Component
+GO:0005773	vacuole	93	3	0.38	6	0.00583	0.00583	Cellular Component
+GO:0005943	phosphatidylinositol 3-kinase complex, c...	2	1	0.01	7	0.00810	0.00810	Cellular Component
+GO:0000153	cytoplasmic ubiquitin ligase complex	3	1	0.01	10	0.01212	0.01212	Cellular Component
+GO:0001726	ruffle	3	1	0.01	11	0.01212	0.01212	Cellular Component
+GO:0070578	RISC-loading complex	3	1	0.01	12	0.01212	0.01212	Cellular Component
+GO:0031528	microvillus membrane	4	1	0.02	13	0.01613	0.01613	Cellular Component
+GO:0030128	clathrin coat of endocytic vesicle	5	1	0.02	16	0.02013	0.02013	Cellular Component
+GO:0045334	clathrin-coated endocytic vesicle	5	1	0.02	17	0.02013	0.02013	Cellular Component
+GO:0030666	endocytic vesicle membrane	5	1	0.02	18	0.02013	0.02013	Cellular Component
+GO:0030669	clathrin-coated endocytic vesicle membra...	5	1	0.02	19	0.02013	0.02013	Cellular Component
+GO:0030122	AP-2 adaptor complex	5	1	0.02	20	0.02013	0.02013	Cellular Component
+GO:0005764	lysosome	57	2	0.23	21	0.02179	0.02179	Cellular Component
+GO:0000323	lytic vacuole	58	2	0.24	22	0.02251	0.02251	Cellular Component
+GO:0016442	RISC complex	6	1	0.02	23	0.02411	0.02411	Cellular Component
+GO:0030132	clathrin coat of coated pit	6	1	0.02	24	0.02411	0.02411	Cellular Component
+GO:0031332	RNAi effector complex	6	1	0.02	25	0.02411	0.02411	Cellular Component
+GO:0120025	plasma membrane bounded cell projection	304	4	1.23	30	0.03103	0.03103	Cellular Component
+GO:0042995	cell projection	305	4	1.24	31	0.03136	0.03136	Cellular Component
+GO:0030131	clathrin adaptor complex	8	1	0.03	32	0.03202	0.03202	Cellular Component
+GO:0030425	dendrite	74	2	0.3	33	0.03540	0.03540	Cellular Component
+GO:0097447	dendritic tree	74	2	0.3	34	0.03540	0.03540	Cellular Component
+GO:0030125	clathrin vesicle coat	9	1	0.04	35	0.03595	0.03595	Cellular Component
+GO:0030665	clathrin-coated vesicle membrane	9	1	0.04	36	0.03595	0.03595	Cellular Component
+GO:0005791	rough endoplasmic reticulum	9	1	0.04	37	0.03595	0.03595	Cellular Component
+GO:0005905	clathrin-coated pit	9	1	0.04	38	0.03595	0.03595	Cellular Component
+GO:0030118	clathrin coat	10	1	0.04	39	0.03987	0.03987	Cellular Component
+GO:0005902	microvillus	11	1	0.04	41	0.04377	0.04377	Cellular Component
+GO:0030119	AP-type membrane coat adaptor complex	12	1	0.05	42	0.04766	0.04766	Cellular Component

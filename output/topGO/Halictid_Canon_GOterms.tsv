@@ -1,0 +1,98 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0043085	positive regulation of catalytic activit...	207	5	0.39	1	0.01495	1.9e-05	Biological Process
+GO:0032270	positive regulation of cellular protein ...	214	5	0.41	2	0.01635	2.3e-05	Biological Process
+GO:0051247	positive regulation of protein metabolic...	223	5	0.42	5	0.01823	2.8e-05	Biological Process
+GO:0044093	positive regulation of molecular functio...	233	5	0.44	6	0.02042	3.4e-05	Biological Process
+GO:0007165	signal transduction	1028	8	1.95	11	0.04999	6.3e-05	Biological Process
+GO:0050790	regulation of catalytic activity	309	5	0.59	16	0.04049	0.00013	Biological Process
+GO:0051173	positive regulation of nitrogen compound...	520	6	0.99	17	0.01819	0.00013	Biological Process
+GO:0048584	positive regulation of response to stimu...	311	5	0.59	18	0.00868	0.00014	Biological Process
+GO:0031325	positive regulation of cellular metaboli...	540	6	1.03	19	0.02043	0.00017	Biological Process
+GO:0045860	positive regulation of protein kinase ac...	61	3	0.12	21	0.00395	0.00017	Biological Process
+GO:0042981	regulation of apoptotic process	171	4	0.32	22	0.00237	0.00019	Biological Process
+GO:0009966	regulation of signal transduction	569	6	1.08	26	0.00627	0.00022	Biological Process
+GO:0009893	positive regulation of metabolic process	583	6	1.11	29	0.02577	0.00025	Biological Process
+GO:0043406	positive regulation of MAP kinase activi...	19	2	0.04	42	0.02537	0.00055	Biological Process
+GO:0046330	positive regulation of JNK cascade	21	2	0.04	46	0.02871	0.00067	Biological Process
+GO:0070304	positive regulation of stress-activated ...	22	2	0.04	47	0.03038	0.00073	Biological Process
+GO:0032874	positive regulation of stress-activated ...	22	2	0.04	48	0.03038	0.00073	Biological Process
+GO:0009967	positive regulation of signal transducti...	248	4	0.47	50	0.04910	0.00080	Biological Process
+GO:0045807	positive regulation of endocytosis	24	2	0.05	53	0.00088	0.00088	Biological Process
+GO:0043405	regulation of MAP kinase activity	27	2	0.05	57	0.03867	0.00111	Biological Process
+GO:0071475	cellular hyperosmotic salinity response	1	1	0	67	0.00190	0.00190	Biological Process
+GO:0007594	puparial adhesion	1	1	0	68	0.00190	0.00190	Biological Process
+GO:0031452	negative regulation of heterochromatin a...	1	1	0	69	0.00190	0.00190	Biological Process
+GO:0000003	reproduction	854	6	1.62	74	0.02175	0.00208	Biological Process
+GO:0080134	regulation of response to stress	166	3	0.32	79	0.02940	0.00313	Biological Process
+GO:0045849	negative regulation of nurse cell apopto...	2	1	0	88	0.00379	0.00379	Biological Process
+GO:1904515	positive regulation of TORC2 signaling	2	1	0	89	0.00379	0.00379	Biological Process
+GO:1902350	cellular response to chloroquine	2	1	0	90	0.00379	0.00379	Biological Process
+GO:0021700	developmental maturation	183	3	0.35	93	0.00413	0.00413	Biological Process
+GO:0038066	p38MAPK cascade	3	1	0.01	99	0.00569	0.00569	Biological Process
+GO:0008285	negative regulation of cell population p...	68	2	0.13	108	0.00691	0.00691	Biological Process
+GO:0007286	spermatid development	68	2	0.13	109	0.00691	0.00691	Biological Process
+GO:0007257	activation of JUN kinase activity	4	1	0.01	113	0.00757	0.00757	Biological Process
+GO:0051898	negative regulation of protein kinase B ...	4	1	0.01	114	0.00757	0.00757	Biological Process
+GO:0042307	positive regulation of protein import in...	4	1	0.01	115	0.00757	0.00757	Biological Process
+GO:0008361	regulation of cell size	77	2	0.15	118	0.00880	0.00880	Biological Process
+GO:0043652	engulfment of apoptotic cell	5	1	0.01	121	0.00946	0.00946	Biological Process
+GO:0071276	cellular response to cadmium ion	5	1	0.01	122	0.00946	0.00946	Biological Process
+GO:0071243	cellular response to arsenic-containing ...	5	1	0.01	123	0.00946	0.00946	Biological Process
+GO:0010506	regulation of autophagy	80	2	0.15	125	0.00947	0.00947	Biological Process
+GO:0051726	regulation of cell cycle	248	3	0.47	126	0.00967	0.00967	Biological Process
+GO:0006964	positive regulation of biosynthetic proc...	6	1	0.01	130	0.01134	0.01134	Biological Process
+GO:0000186	activation of MAPKK activity	6	1	0.01	131	0.01134	0.01134	Biological Process
+GO:0070059	intrinsic apoptotic signaling pathway in...	6	1	0.01	132	0.01134	0.01134	Biological Process
+GO:0019646	aerobic electron transport chain	6	1	0.01	133	0.01134	0.01134	Biological Process
+GO:0006123	mitochondrial electron transport, cytoch...	6	1	0.01	134	0.01134	0.01134	Biological Process
+GO:0007166	cell surface receptor signaling pathway	517	4	0.98	136	0.01190	0.01190	Biological Process
+GO:0042632	cholesterol homeostasis	7	1	0.01	139	0.01322	0.01322	Biological Process
+GO:0008593	regulation of Notch signaling pathway	101	2	0.19	146	0.01482	0.01482	Biological Process
+GO:0055092	sterol homeostasis	8	1	0.02	149	0.01510	0.01510	Biological Process
+GO:0002812	biosynthetic process of antibacterial pe...	8	1	0.02	150	0.01510	0.01510	Biological Process
+GO:0002813	regulation of biosynthetic process of an...	8	1	0.02	151	0.01510	0.01510	Biological Process
+GO:0033363	secretory granule organization	8	1	0.02	152	0.01510	0.01510	Biological Process
+GO:0016242	negative regulation of macroautophagy	8	1	0.02	153	0.01510	0.01510	Biological Process
+GO:0035002	liquid clearance, open tracheal system	8	1	0.02	155	0.01510	0.01510	Biological Process
+GO:0016050	vesicle organization	105	2	0.2	156	0.01595	0.01595	Biological Process
+GO:0035493	SNARE complex assembly	9	1	0.02	159	0.01697	0.01697	Biological Process
+GO:0030308	negative regulation of cell growth	9	1	0.02	160	0.01697	0.01697	Biological Process
+GO:0048082	regulation of adult chitin-containing cu...	9	1	0.02	161	0.01697	0.01697	Biological Process
+GO:0048260	positive regulation of receptor-mediated...	9	1	0.02	162	0.01697	0.01697	Biological Process
+GO:0007564	regulation of chitin-based cuticle tanni...	10	1	0.02	170	0.01884	0.01884	Biological Process
+GO:1904262	negative regulation of TORC1 signaling	11	1	0.02	174	0.02070	0.02070	Biological Process
+GO:0042045	epithelial fluid transport	11	1	0.02	176	0.02070	0.02070	Biological Process
+GO:0050691	regulation of defense response to virus ...	11	1	0.02	178	0.02070	0.02070	Biological Process
+GO:0002230	positive regulation of defense response ...	11	1	0.02	180	0.02070	0.02070	Biological Process
+GO:0070633	transepithelial transport	11	1	0.02	181	0.02070	0.02070	Biological Process
+GO:0007219	Notch signaling pathway	121	2	0.23	183	0.02087	0.02087	Biological Process
+GO:0031667	response to nutrient levels	121	2	0.23	184	0.02087	0.02087	Biological Process
+GO:0009991	response to extracellular stimulus	123	2	0.23	185	0.02153	0.02153	Biological Process
+GO:0007584	response to nutrient	12	1	0.02	190	0.02257	0.02257	Biological Process
+GO:0048079	regulation of cuticle pigmentation	12	1	0.02	193	0.02257	0.02257	Biological Process
+GO:0048259	regulation of receptor-mediated endocyto...	12	1	0.02	194	0.02257	0.02257	Biological Process
+GO:0051345	positive regulation of hydrolase activit...	131	2	0.25	198	0.02423	0.02423	Biological Process
+GO:0006963	positive regulation of antibacterial pep...	13	1	0.02	199	0.02443	0.02443	Biological Process
+GO:0061057	peptidoglycan recognition protein signal...	13	1	0.02	200	0.02443	0.02443	Biological Process
+GO:0004674	protein serine/threonine kinase activity	135	3	0.26	1	0.0183	0.0016	Molecular Function
+GO:0032051	clathrin light chain binding	1	1	0	2	0.0019	0.0019	Molecular Function
+GO:0031434	mitogen-activated protein kinase kinase ...	2	1	0	5	0.0038	0.0038	Molecular Function
+GO:0004708	MAP kinase kinase activity	4	1	0.01	9	0.0076	0.0076	Molecular Function
+GO:0004709	MAP kinase kinase kinase activity	4	1	0.01	10	0.0076	0.0076	Molecular Function
+GO:0061631	ubiquitin conjugating enzyme activity	4	1	0.01	11	0.0076	0.0076	Molecular Function
+GO:0004683	calmodulin-dependent protein kinase acti...	9	1	0.02	15	0.0170	0.0170	Molecular Function
+GO:0005516	calmodulin binding	26	1	0.05	19	0.0484	0.0484	Molecular Function
+GO:0033596	TSC1-TSC2 complex	2	1	0	1	0.0038	0.0038	Cellular Component
+GO:0071439	clathrin complex	2	1	0	2	0.0038	0.0038	Cellular Component
+GO:0005737	cytoplasm	2565	9	4.93	3	0.0146	0.0044	Cellular Component
+GO:0098549	somatic ring canal	3	1	0.01	4	0.0058	0.0058	Cellular Component
+GO:0031410	cytoplasmic vesicle	263	3	0.51	5	0.0114	0.0114	Cellular Component
+GO:0097708	intracellular vesicle	263	3	0.51	6	0.0114	0.0114	Cellular Component
+GO:0031982	vesicle	290	3	0.56	7	0.0149	0.0149	Cellular Component
+GO:0005905	clathrin-coated pit	9	1	0.02	8	0.0172	0.0172	Cellular Component
+GO:0035324	female germline ring canal	13	1	0.02	10	0.0247	0.0247	Cellular Component
+GO:0030141	secretory granule	15	1	0.03	11	0.0285	0.0285	Cellular Component
+GO:0030136	clathrin-coated vesicle	18	1	0.03	12	0.0341	0.0341	Cellular Component
+GO:0005758	mitochondrial intermembrane space	19	1	0.04	13	0.0360	0.0360	Cellular Component
+GO:0031970	organelle envelope lumen	19	1	0.04	14	0.0360	0.0360	Cellular Component
+GO:0045172	germline ring canal	22	1	0.04	15	0.0415	0.0415	Cellular Component

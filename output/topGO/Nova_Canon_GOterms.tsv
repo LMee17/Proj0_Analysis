@@ -1,0 +1,48 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0045819	positive regulation of glycogen cataboli...	3	1	0	4	0.0023	0.00228	Biological Process
+GO:0006013	mannose metabolic process	4	1	0	7	0.0030	0.00303	Biological Process
+GO:0060729	intestinal epithelial structure maintena...	4	1	0	12	0.0030	0.00303	Biological Process
+GO:0045850	positive regulation of nurse cell apopto...	5	1	0	14	0.0038	0.00379	Biological Process
+GO:0006517	protein deglycosylation	7	1	0.01	19	0.0053	0.00531	Biological Process
+GO:0014067	negative regulation of phosphatidylinosi...	9	1	0.01	22	0.0068	0.00682	Biological Process
+GO:0061723	glycophagy	11	1	0.01	26	0.0083	0.00833	Biological Process
+GO:0015988	energy coupled proton transmembrane tran...	15	1	0.01	37	0.0113	0.01134	Biological Process
+GO:0032007	negative regulation of TOR signaling	17	1	0.01	39	0.0128	0.01285	Biological Process
+GO:0035096	larval midgut cell programmed cell death	20	1	0.02	46	0.0151	0.01510	Biological Process
+GO:2000331	regulation of terminal button organizati...	21	1	0.02	52	0.0159	0.01585	Biological Process
+GO:0099174	regulation of presynapse organization	22	1	0.02	55	0.0166	0.01660	Biological Process
+GO:0034599	cellular response to oxidative stress	23	1	0.02	56	0.0174	0.01735	Biological Process
+GO:0035069	larval midgut histolysis	23	1	0.02	57	0.0174	0.01735	Biological Process
+GO:0062197	cellular response to chemical stress	24	1	0.02	58	0.0181	0.01810	Biological Process
+GO:0010508	positive regulation of autophagy	26	1	0.02	59	0.0196	0.01960	Biological Process
+GO:0008088	axo-dendritic transport	31	1	0.02	64	0.0233	0.02334	Biological Process
+GO:0072553	terminal button organization	32	1	0.02	65	0.0241	0.02408	Biological Process
+GO:0006811	ion transport	352	2	0.27	66	0.0244	0.02441	Biological Process
+GO:0046777	protein autophosphorylation	34	1	0.03	68	0.0256	0.02557	Biological Process
+GO:0055085	transmembrane transport	376	2	0.29	70	0.0277	0.02768	Biological Process
+GO:0099172	presynapse organization	38	1	0.03	71	0.0286	0.02855	Biological Process
+GO:0032006	regulation of TOR signaling	42	1	0.03	72	0.0315	0.03152	Biological Process
+GO:0006810	transport	1124	3	0.85	73	0.0326	0.03258	Biological Process
+GO:0051234	establishment of localization	1159	3	0.88	75	0.0355	0.03551	Biological Process
+GO:0060033	anatomical structure regression	52	1	0.04	77	0.0389	0.03891	Biological Process
+GO:0010970	transport along microtubule	53	1	0.04	78	0.0397	0.03965	Biological Process
+GO:1902600	proton transmembrane transport	55	1	0.04	80	0.0411	0.04112	Biological Process
+GO:0099111	microtubule-based transport	55	1	0.04	81	0.0411	0.04112	Biological Process
+GO:0031929	TOR signaling	55	1	0.04	82	0.0411	0.04112	Biological Process
+GO:0030705	cytoskeleton-dependent intracellular tra...	56	1	0.04	83	0.0419	0.04186	Biological Process
+GO:0009267	cellular response to starvation	63	1	0.05	86	0.0470	0.04700	Biological Process
+GO:0001558	regulation of cell growth	64	1	0.05	87	0.0477	0.04773	Biological Process
+GO:0031669	cellular response to nutrient levels	65	1	0.05	88	0.0485	0.04846	Biological Process
+GO:0031668	cellular response to extracellular stimu...	67	1	0.05	90	0.0499	0.04992	Biological Process
+GO:0008553	proton-exporting ATPase activity, phosph...	2	1	0	1	0.0019	0.0019	Molecular Function
+GO:0004571	mannosyl-oligosaccharide 1,2-alpha-manno...	8	1	0.01	2	0.0076	0.0076	Molecular Function
+GO:0046961	proton-transporting ATPase activity, rot...	10	1	0.01	7	0.0095	0.0095	Molecular Function
+GO:0032182	ubiquitin-like protein binding	27	1	0.03	12	0.0254	0.0254	Molecular Function
+GO:0043492	ATPase activity, coupled to movement of ...	45	1	0.04	18	0.0421	0.0421	Molecular Function
+GO:1990316	Atg1/ULK1 kinase complex	4	1	0	1	0.0026	0.0026	Cellular Component
+GO:0000221	vacuolar proton-transporting V-type ATPa...	6	1	0	3	0.0038	0.0038	Cellular Component
+GO:0033181	plasma membrane proton-transporting V-ty...	13	1	0.01	5	0.0083	0.0083	Cellular Component
+GO:0098852	lytic vacuole membrane	18	1	0.01	8	0.0115	0.0115	Cellular Component
+GO:0005765	lysosomal membrane	18	1	0.01	9	0.0115	0.0115	Cellular Component
+GO:0005764	lysosome	57	1	0.04	14	0.0361	0.0361	Cellular Component
+GO:0000323	lytic vacuole	58	1	0.04	15	0.0367	0.0367	Cellular Component
