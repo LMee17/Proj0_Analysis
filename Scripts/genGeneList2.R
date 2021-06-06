@@ -1,10 +1,11 @@
 #15th December 2020
+#Updated: 2nd June 2021 - add Canon
 #A script to pull out genes under selection per lineage per class (noncanon/random) of gene.
 
 #Start with making an object with the name of each lineage and each class
 
 branches <- unique(as.factor(droplevels(data.complete$SocOrigin)))
-classes <- cbind("NonCanon", "Random")
+classes <- cbind("NonCanon", "Random", "Canon")
 
 #This loop will go through each lineage and extract the genes per class
 #keep only those that are significant, remove the rest of the information
@@ -34,4 +35,7 @@ for (i in 1:length(branches)){
                 col.names = F, row.names = F, quote = F)
   }
 }
+
+
+
 
