@@ -8,8 +8,12 @@ library("topGO")
 #library("Rgraphviz")
 
 #Read in files
-setwd("input/GOI/")
+setwd("~/Documents/Projects/ProjectZero/Proj0_Analysis/input/GOI/")
 filelist <- list.files(pattern ="*.txt")
+
+#remove any empty files
+mt <- file.size(filelist) == 0
+file.remove(filelist[mt])
 
 #Use this list to read in all files together and store as a data variable
 go.data <- lapply(filelist, function(x){
