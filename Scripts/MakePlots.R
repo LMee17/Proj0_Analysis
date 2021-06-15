@@ -2,6 +2,7 @@
 ######UpSetR#####
 
 library("UpSetR")
+library("ggplot2")
 
 ####genes under selection####
 upset(can.gus, mb.ratio = c(0.7, 0.3),
@@ -515,6 +516,8 @@ ggplot(plot.data3, aes(x = Sociality2, y = canon)) +
        y = "No Genes Under Selection", x = "Sociality")
 #CanonByLineage_lmtrendline_ggplot.png
 
+plot.data3
+
 ggplot(plot.data3, aes(x = Sociality2, y = canon)) + 
   geom_point(aes(col=Sociality), size = 3) + 
   theme(axis.text.x = element_blank(),
@@ -588,6 +591,113 @@ ggplot(plot.data3, aes(x = Sociality2, y = Total)) +
        y = "No Genes Under Selection", x = "Sociality")
 #AllGenesByLineage_ggplot.png
 
+#Let's go back to this and add in the all lineages
+
+plot.data
+
+ggplot(plot.data, aes(x = Sociality2, y = canon)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm") +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality")
+
+prettylabels2 <- c("All Advanced Eusocial", "All Social", "Apis", "Social Corbiculates", 
+                   "Lasioglossum", "Melipona", "Ceratina", "All Solitary",
+                  "Habropoda", "Megachile", "Novaeangliae")
+plot.data <- cbind(plot.data, prettylabels2)
+colnames(plot.data)[8] <- "DP"
+plot.data
+
+require("ggrepel")
+require("ggpubr")
+
+ggplot(plot.data, aes(x = Sociality2, y = canon)) + 
+  geom_point(aes(col=Sociality), size = 3, alpha = 0.6 ) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm") +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(title = "Canon Immune Genes vs Sociality", 
+       y = "No Genes Under Selection", x = "Sociality") +
+  scale_color_manual(values = c("#e69f00", "#009e73", "#0072B2")) 
+#CanonByLineage_lmtrendline_ggplot.png
+
+#Hmmm. I see why I stopped this last time. May be just supplement with a bar chart ? 
+
+plot.data7 <- plot.data[c(1:2,8),]
+plot.data7
+
+plot.data7$DP <- factor(plot.data7$DP, levels = c("All Solitary", "All Social", 
+                                                  "All Advanced Eusocial"))
+
+d <- ggplot(plot.data7, aes(x = DP, y = canon, fill = Sociality)) +
+  geom_bar(stat = "identity", show.legend = F) +
+  xlab("Sociality") +
+  ylab("No Genes under Positive Selection") +
+  #theme(axis.text.x = element_blank()) +
+  #ggtitle("Canon Immune") +
+  #theme(legend.position = c(.8, .8)) +
+  scale_y_continuous(limits=c(0, 5)) +
+  scale_fill_manual(values = c("#e69f00", "#009e73", "#0072B2")) 
+#Allruns_canon_bylineage_ggplot.png
+
+
+e <- ggplot(plot.data7, aes(x = DP, y = noncanon, fill = Sociality)) +
+  geom_bar(stat = "identity", show.legend = F) +
+  xlab("Sociality") +
+  ylab("No Genes under Positive Selection") +
+  #theme(axis.text.x = element_blank()) +
+  #ggtitle("Non-Canon Immune") +
+  scale_y_continuous(limits=c(0, 5)) +
+  scale_fill_manual(values = c("#e69f00", "#009e73", "#0072B2"))
+#Allruns_noncanon_bylineage_ggplot.png
+
+f <- ggplot(plot.data7, aes(x = DP, y = random, fill = Sociality)) +
+  geom_bar(stat = "identity", show.legend = F) +
+  xlab("Sociality") +
+  ylab("No Genes under Positive Selection") +
+  #theme(axis.text.x = element_blank()) +
+  #ggtitle("Background") +
+  scale_y_continuous(limits=c(0, 50)) +
+  scale_fill_manual(values = c("#e69f00", "#009e73", "#0072B2"))
+#Allruns_background_bylineage_ggplot.png
+  
+a <- ggplot(plot.data3, aes(x = Sociality2, y = canon)) + 
+  geom_point(aes(col=Sociality), size = 3) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        legend.position = c(.15, .85)) +
+  geom_smooth(method="lm", stat = 'smooth', colour = "dark gray", se = T) +
+  geom_text_repel(aes(label = DP), box.padding = .4) +
+  labs(y = "No Genes Under Selection", x = " ") +
+  scale_color_manual(values = c("#e69f00", "#009e73", "#0072B2")) 
+
+b <- ggplot(plot.data3, aes(x = Sociality2, y = noncanon)) + 
+  geom_point(aes(col=Sociality), size = 3, show.legend = F) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm", stat = 'smooth', colour = "dark gray") +
+  geom_text_repel(aes(label = DP), box.padding = .3) +
+  labs(y = "No Genes Under Selection", x = " ") +
+  scale_color_manual(values = c("#e69f00", "#009e73", "#0072B2")) 
+
+c <- ggplot(plot.data3, aes(x = Sociality2, y = random)) + 
+  geom_point(aes(col=Sociality), size = 3, show.legend = F) + 
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank()) +
+  geom_smooth(method="lm", stat = 'smooth', colour = "dark gray") +
+  geom_text_repel(aes(label = DP), box.padding = .3) +
+  labs(y = "No Genes Under Selection", x = " ") +
+  scale_color_manual(values = c("#e69f00", "#009e73", "#0072B2")) 
+
+
+
+fig <- ggarrange(a, b, c, d, e, f, 
+                 labels = c("Canon Immune", "Non-Canon Immune", "Background", " ", " ", " "),
+                 common.legend = T)
+fig
 
 #####GGPlot stacked bar chat for gus per class#######
 
@@ -836,4 +946,5 @@ ggplot(omega2, aes(x = Class2, y = dN.dS, fill = Class2)) +
 #  scale_fill_brewer(palette = "PuRd")
  scale_fill_manual(values = c("#56B4E9", "#F0E442", "#CC79A7")) 
   
+3500*12
   
