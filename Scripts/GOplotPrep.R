@@ -637,7 +637,7 @@ rvg.meta2
 
 upset(rvg.comb, 
       query.legend = "top",
-      mb.ratio = c(0.6, 0.4),
+      mb.ratio = c(0.55, 0.45),
       nsets = length(socs),
       sets = c("Advanced Eusocial Background", "Advanced Eusocial Non-Canon Immune", "Advanced Eusocial Canon Immune",
                "Social Background", "Social Non-Canon Immune", "Social Canon Immune",
@@ -661,7 +661,7 @@ upset(rvg.comb,
                           query.name = "Immune GO terms")))
 
 
-str(rvg.meta)
+  str(rvg.meta)
 str(rvg.meta2)
 
 

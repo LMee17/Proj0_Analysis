@@ -323,12 +323,12 @@ scheme <- brewer.pal(3, "Dark2")
 
 venn.diagram(x <- list(api.can.gene, meg.can.gene, hal.can.gene),
              category.names = c("Apidae", "Megachilidae", "Halictidae"),
-             filename = "Plots/can_by_family_Venn.png", 
+             filename = "Plots/png/can_by_family_Venn.png", 
              output = T,
              imagetype = "png",
              lwd = 2, lty = "blank", fill = scheme,
-             cex = 1, fontface = "bold", fontfamily = "sans",
-             cat.cex = 1, cat.fontface = "bold", cat.default.pos = "outer")
+             cex = 3, fontface = "bold", fontfamily = "sans",
+             cat.cex = 2, cat.fontface = "bold", cat.default.pos = "outer")
 
 #NONCANON
 
@@ -354,8 +354,8 @@ venn.diagram(x <- list(api.non.gene, meg.non.gene, hal.non.gene),
              imagetype = "png",
              cat.pos = c(-27, 27, 135),
              lwd = 2, lty = "blank", fill = scheme,
-             cex = 1, fontface = "bold", fontfamily = "sans",
-             cat.cex = 1, cat.fontface = "bold", cat.default.pos = "outer")
+             cex = 3, fontface = "bold", fontfamily = "sans",
+             cat.cex = 2, cat.fontface = "bold", cat.default.pos = "outer")
 
 #RANDOM
 
@@ -382,8 +382,8 @@ venn.diagram(x <- list(api.ran.gene, meg.ran.gene, hal.ran.gene),
              cat.pos = c(-27, 27, 135),
              imagetype = "png",
              lwd = 2, lty = "blank", fill = scheme,
-             cex = 1, fontface = "bold", fontfamily = "sans",
-             cat.cex = 1, cat.fontface = "bold", cat.default.pos = "outer")
+             cex = 3, fontface = "bold", fontfamily = "sans",
+             cat.cex = 2, cat.fontface = "bold", cat.default.pos = "outer")
 
 #For shits and gigs, all of them together
 
@@ -407,8 +407,8 @@ venn.diagram(x <- list(api.all.gene, meg.all.gene, hal.all.gene),
              cat.pos = c(-27, 27, 135),
              imagetype = "png",
              lwd = 2, lty = "blank", fill = scheme,
-             cex = 1, fontface = "bold", fontfamily = "sans",
-             cat.cex = 1, cat.fontface = "bold", cat.default.pos = "outer")
+             cex = 3, fontface = "bold", fontfamily = "sans",
+             cat.cex = 2, cat.fontface = "bold", cat.default.pos = "outer")
 
 
 #####Stacked BarCharts GUS versus lineage / sociality#####
@@ -888,13 +888,18 @@ names(paint) <- levels(factor(c(levels(plot.data6$Sociality))))
 paint2 <- c("#E69F00", "#F0E442", "#56B4E9", "#000000", "#009E73", "#D55E00", "#0072B2")
 names(paint2) <- levels(factor(c(levels(plot.data6$Sociality))))
 
+paint3 <- c("#000000", "#E69F00", "#F0E442", "#009E73", "#56B4E9", "#D55E00", "#0072B2")
+
+
+paint3
+
 plot.data6$Class <- factor(plot.data6$Class, levels =
                                  c("Canon", "Non-Canon", "Background"))
 
 ggplot(plot.data6, aes(fill = Sociality, y = Number_PSGs, x = Key)) +
   geom_bar(position = "fill", stat = "identity") +
-  facet_grid(~Class) +
   theme(legend.position = "right") +
+  facet_grid(~Class) +
   theme(axis.text.x = element_blank()) +
   ylab("Proportion of Genes Under Selection") +
   xlab("Gene Class") + 
@@ -913,11 +918,21 @@ plot.data5$Sociality <- factor(plot.data5$Sociality, levels=c("All Socialities",
                                                               "Solitary"))
 
 
+
 ggplot(plot.data6, aes(fill = Sociality, y = Number_PSGs, x = Key)) +
   geom_bar(position = "fill", stat = "identity") +
   facet_grid(~Class) +
-  theme(legend.position = "bottom") +
-  xlab("Proportion of Genes Under Selection")
+  theme(legend.position = "right") +
+  scale_fill_manual(name = "Sociality", values = paint3) +
+  xlab("Proportion of Genes Under Selection") +
+  ylab("Proportion of Genes Under Selection") +
+  theme(axis.text.x = element_blank())
+
+
+  
+  
+  
+  
 
 #####GGPBoxplot for omega values#######
 omega2 <- omega
