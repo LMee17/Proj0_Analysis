@@ -327,3 +327,4 @@ LOC725374	Toll_IMD	XP_006562044.3	dual specificity mitogen-activated protein kin
 LOC726289	Toll_IMD	XP_003251036.1	transcription factor AP-1 	
 LOC726760	Toll_IMD	XP_026294855.1	inhibitor of nuclear factor kappa-B kinase subunit beta 	
 LOC726947	Toll_IMD	XP_016771592.1	TGF-beta-activated kinase 1 and MAP3K7-binding protein 3 isoform X1 	
+18-w	Humoral	NM_001013361.1	18-wheeler
