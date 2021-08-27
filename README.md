@@ -163,15 +163,15 @@ Please contact Dr Seth Barribeau who underwent this portion of the analysis for 
 
 ## Program Versions
 
-`BLAST` blast 2.7.1, build Oct 18 2017 
-`CAFE5` 5.0.0
-`FastOrtho` PATRIC3/FastOrtho
-`Linux` 16.04.5 LTS (Xenial Xerus)
-`MAFFT` 7.407
-`OrthoFinder` v2.5.4
-`Pal2Nal` v14
-`PAML` 4.9
-`R` 4.0.2 (2020-06-22) -- "Taking Off Again"
+`BLAST` blast 2.7.1, build Oct 18 2017 \
+`CAFE5` 5.0.0 \
+`FastOrtho` PATRIC3/FastOrtho \
+`Linux` 16.04.5 LTS (Xenial Xerus) \
+`MAFFT` 7.407 \
+`OrthoFinder` v2.5.4 \
+`Pal2Nal` v14 \
+`PAML` 4.9 \
+`R` 4.0.2 (2020-06-22) -- "Taking Off Again" \
 
 ## References
 Alaux, C., Dantec, C., Parrinello, H. & Le Conte, Y. Nutrigenomics in honey bees: Digital gene expression analysis of pollen’s nutritive effects on healthy and varroa-parasitized bees. _BMC Genomics_ 12, (2011).
