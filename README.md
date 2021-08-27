@@ -174,26 +174,26 @@ Please contact Dr Seth Barribeau who underwent this portion of the analysis for 
 `R` 4.0.2 (2020-06-22) -- "Taking Off Again" \
 
 ## References
-Alaux, C., Dantec, C., Parrinello, H. & Le Conte, Y. Nutrigenomics in honey bees: Digital gene expression analysis of pollen’s nutritive effects on healthy and varroa-parasitized bees. _BMC Genomics_ 12, (2011).
-Camacho C, _et al_. BLAST+: architecture and applications. _BMC Bioinformatics_. (2009) Dec 15;10:421. doi: 10.1186/1471-2105-10-421. PMID: 20003500; PMCID: PMC2803857.
-Davis, J. J. _et al_. The PATRIC Bioinformatics Resource Center: expanding data and analysis capabilities. _Nucleic Acids Research_. Volume 48, Issue D1, 08 January 2020, Pages D606–D612, https://doi.org/10.1093/nar/gkz943
-Doublet, V. _et al_. Unity in defence: honeybee workers exhibit conserved molecular responses to diverse pathogens. _BMC Genomics_ 18, 207 (2017).
-Emms DM, Kelly S. OrthoFinder: phylogenetic orthology inference for comparative genomics. _Genome Biol_. 20(1):238, (2019) doi: 10.1186/s13059-019-1832-y. PMID: 31727128; PMCID: PMC6857279.
-Evans, J. D. _et al_. Immune pathways and defence mechanisms in honey bees _Apis mellifera_. _Insect Mol Biol_. 15, 645–656 (2006).
-Geer, L. Y. _et al_. The NCBI BioSystems database. _Nucleic Acids Res_. 38, 492–496 (2009).
-Kapheim, K. M. _et al_. Genomic signatures of evolutionary transitions from solitary to group living. _Science_. 348, 1139–1143 (2015).
-Katoh, K., Rozewicki, J. & Yamada, K. D. MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. _Brief. Bioinform_. 1–7 (2017). doi:10.1093/bib/bbx108
-Kocher, S. D. _et al_. The draft genome of a socially polymorphic halictid. _Genome Biol_. 14, R142 (2013).
-Mendes FK, Vanderpool D, Fulton B, Hahn MW. CAFE 5 models variation in evolutionary rates among gene families. _Bioinformatics_. (2020) doi: 10.1093/bioinformatics/btaa1022. Epub ahead of print. PMID: 33325502.
-Philippon, H., Souvane, A., Brochier-Armanet, C. & Perrière, G. IsoSel: Protein isoform selector for phylogenetic reconstructions. _PLoS One_. 12, 1–13 (2017).
-Rehan, S. M., Glastad, K. M., Lawson, S. P. & Hunt, B. G. The Genome and Methylome of a Subsocial Small Carpenter Bee, _Ceratina calcarata_. _Genome Biol. Evol_. 8, 1401–1410 (2016).
-Richard, F.-J., Holt, H. L. & Grozinger, C. M. Effects of immunostimulation on social behavior, chemical communication and genome-wide gene expression in honey bee workers (_Apis mellifera_). _BMC Genomics_ 13, 558 (2012).
-Sadd, B. M. _et al_. The genomes of two key bumblebee species with primitive eusocial organization. _Genome Biol_. 16, 76 (2015).
-Suyama, M., Torrents, D., Bork, P. & Delbru, M. PAL2NAL : robust conversion of protein sequence alignments into the corresponding codon alignments. _Nucleic Acids Res_. 34, 609–612 (2006).
-Wallberg, A. _et al_. A hybrid de novo genome assembly of the honeybee, _Apis mellifera_, with chromosome-length scaffolds. _BMC Genomics_. 20, 1–19 (2019).
-Yang, Z. PAML: a program package for phylogenetic analysis by maximum likelihood. _Comput. Appl. Biosci_. 13, 555–6 (1997).
-Yang, Z. PAML 4: Phylogenetic analysis by maximum likelihood. _Mol. Biol. Evol_. 24, 1586–1591 (2007).
-Zdobnov, E. M. Tegenfeldt, F. Kuznetsov, D. Waterhouse, R. M. Simão, F. A. Ioannidis, P. Seppey, M. Loetscher, A. Kriventseva, E. V. OrthoDB v9.1: cataloging evolutionary and functional annotations for animal, fungal, plant, archaeal, bacterial and viral orthologs. _Nucleic Acids Research_. 45(D1) D744 - D749 (2017). https://doi.org/10.1093/nar/gkw1119
+Alaux, C., Dantec, C., Parrinello, H. & Le Conte, Y. Nutrigenomics in honey bees: Digital gene expression analysis of pollen’s nutritive effects on healthy and varroa-parasitized bees. _BMC Genomics_ 12, (2011). \
+Camacho C, _et al_. BLAST+: architecture and applications. _BMC Bioinformatics_. (2009) Dec 15;10:421. doi: 10.1186/1471-2105-10-421. PMID: 20003500; PMCID: PMC2803857. \
+Davis, J. J. _et al_. The PATRIC Bioinformatics Resource Center: expanding data and analysis capabilities. _Nucleic Acids Research_. Volume 48, Issue D1, 08 January 2020, Pages D606–D612, https://doi.org/10.1093/nar/gkz943 \
+Doublet, V. _et al_. Unity in defence: honeybee workers exhibit conserved molecular responses to diverse pathogens. _BMC Genomics_ 18, 207 (2017). \
+Emms DM, Kelly S. OrthoFinder: phylogenetic orthology inference for comparative genomics. _Genome Biol_. 20(1):238, (2019) doi: 10.1186/s13059-019-1832-y. PMID: 31727128; PMCID: PMC6857279. \
+Evans, J. D. _et al_. Immune pathways and defence mechanisms in honey bees _Apis mellifera_. _Insect Mol Biol_. 15, 645–656 (2006). \
+Geer, L. Y. _et al_. The NCBI BioSystems database. _Nucleic Acids Res_. 38, 492–496 (2009). \
+Kapheim, K. M. _et al_. Genomic signatures of evolutionary transitions from solitary to group living. _Science_. 348, 1139–1143 (2015). \
+Katoh, K., Rozewicki, J. & Yamada, K. D. MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. _Brief. Bioinform_. 1–7 (2017). doi:10.1093/bib/bbx108 \
+Kocher, S. D. _et al_. The draft genome of a socially polymorphic halictid. _Genome Biol_. 14, R142 (2013). \
+Mendes FK, Vanderpool D, Fulton B, Hahn MW. CAFE 5 models variation in evolutionary rates among gene families. _Bioinformatics_. (2020) doi: 10.1093/bioinformatics/btaa1022. Epub ahead of print. PMID: 33325502. \
+Philippon, H., Souvane, A., Brochier-Armanet, C. & Perrière, G. IsoSel: Protein isoform selector for phylogenetic reconstructions. _PLoS One_. 12, 1–13 (2017). \
+Rehan, S. M., Glastad, K. M., Lawson, S. P. & Hunt, B. G. The Genome and Methylome of a Subsocial Small Carpenter Bee, _Ceratina calcarata_. _Genome Biol. Evol_. 8, 1401–1410 (2016). \
+Richard, F.-J., Holt, H. L. & Grozinger, C. M. Effects of immunostimulation on social behavior, chemical communication and genome-wide gene expression in honey bee workers (_Apis mellifera_). _BMC Genomics_ 13, 558 (2012). \
+Sadd, B. M. _et al_. The genomes of two key bumblebee species with primitive eusocial organization. _Genome Biol_. 16, 76 (2015). \
+Suyama, M., Torrents, D., Bork, P. & Delbru, M. PAL2NAL : robust conversion of protein sequence alignments into the corresponding codon alignments. _Nucleic Acids Res_. 34, 609–612 (2006). \
+Wallberg, A. _et al_. A hybrid de novo genome assembly of the honeybee, _Apis mellifera_, with chromosome-length scaffolds. _BMC Genomics_. 20, 1–19 (2019). \
+Yang, Z. PAML: a program package for phylogenetic analysis by maximum likelihood. _Comput. Appl. Biosci_. 13, 555–6 (1997). \
+Yang, Z. PAML 4: Phylogenetic analysis by maximum likelihood. _Mol. Biol. Evol_. 24, 1586–1591 (2007). \
+Zdobnov, E. M. Tegenfeldt, F. Kuznetsov, D. Waterhouse, R. M. Simão, F. A. Ioannidis, P. Seppey, M. Loetscher, A. Kriventseva, E. V. OrthoDB v9.1: cataloging evolutionary and functional annotations for animal, fungal, plant, archaeal, bacterial and viral orthologs. _Nucleic Acids Research_. 45(D1) D744 - D749 (2017). https://doi.org/10.1093/nar/gkw1119 \
 Zhang, J., Nielsen, R. & Yang, Z. Evaluation of an Improved Branch-Site Likelihood Method for Detecting Positive Selection at the Molecular Level. _Mol. Biol. Evol_. 22, 2472–2479 (2005).
 
 
