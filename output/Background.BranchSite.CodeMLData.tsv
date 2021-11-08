@@ -1,4 +1,4 @@
-#Each branch site analysis results in a LRT score that is compared to a chi-square distrubtion with 1 degree of freedom to give a pvalue
+#Each branch site analysis results in a LRT score that is compared to a chi-square distribution with 1 degree of freedom to give a pvalue
 #This table shows the adjusted pvalues for each lineage per tested gene. NA means the test resulted in convergence failure
 
 Gene	All_Advanced_Eusocial	All_Social	All_Solitary	Apis	Social_Corbiculates	Habropoda	Lasioglossum	Megachilidae	Melipona	Dufourea	Ceratina
