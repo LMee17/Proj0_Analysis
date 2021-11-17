@@ -1,0 +1,16 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0033627	cell adhesion mediated by integrin	18	1	0.01	1	0.0068	0.0068	Biological Process
+GO:0007041	lysosomal transport	20	1	0.01	2	0.0076	0.0076	Biological Process
+GO:0010508	positive regulation of autophagy	26	1	0.01	3	0.0098	0.0098	Biological Process
+GO:0006892	post-Golgi vesicle-mediated transport	26	1	0.01	4	0.0098	0.0098	Biological Process
+GO:0016203	muscle attachment	36	1	0.01	6	0.0136	0.0136	Biological Process
+GO:0060538	skeletal muscle organ development	43	1	0.02	7	0.0163	0.0163	Biological Process
+GO:0007517	muscle organ development	82	1	0.03	11	0.0309	0.0309	Biological Process
+GO:0008201	heparin binding	11	1	0.01	1	0.0052	0.0052	Molecular Function
+GO:0062023	collagen-containing extracellular matrix	10	1	0	1	0.0043	0.0043	Cellular Component
+GO:0005927	muscle tendon junction	13	1	0.01	2	0.0055	0.0055	Cellular Component
+GO:0030136	clathrin-coated vesicle	18	1	0.01	3	0.0077	0.0077	Cellular Component
+GO:0005802	trans-Golgi network	27	1	0.01	4	0.0115	0.0115	Cellular Component
+GO:0048471	perinuclear region of cytoplasm	49	1	0.02	8	0.0208	0.0208	Cellular Component
+GO:0005912	adherens junction	70	1	0.03	9	0.0297	0.0297	Cellular Component
+GO:0098791	Golgi apparatus subcompartment	108	1	0.05	10	0.0456	0.0456	Cellular Component

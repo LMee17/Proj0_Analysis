@@ -1,0 +1,111 @@
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0048667	cell morphogenesis involved in neuron differentiation	3.419	6.035	2.463	2.590	-3.602	0.703	0.000	-1	False
+GO:0007400	neuroblast fate determination	0.238	null	null	1.447	-1.744	0.779	0.525	48667	True
+GO:0010001	glial cell differentiation	0.370	null	null	1.633	-1.582	0.784	0.536	48667	True
+GO:0014016	neuroblast differentiation	0.423	null	null	1.690	-1.643	0.780	0.559	48667	True
+GO:0048729	tissue morphogenesis	5.182	null	null	2.770	-1.964	0.797	0.567	48667	True
+GO:0007413	axonal fasciculation	0.185	null	null	1.342	-1.854	0.745	0.599	48667	True
+GO:0106030	neuron projection fasciculation	0.194	null	null	1.362	-1.744	0.750	0.602	48667	True
+GO:0072499	photoreceptor cell axon guidance	0.238	null	null	1.447	-2.000	0.669	0.668	48667	True
+GO:0007414	axonal defasciculation	0.106	null	null	1.114	-1.537	0.756	0.693	48667	True
+GO:0022008	neurogenesis	7.429	null	null	2.926	-2.636	0.712	0.732	48667	True
+GO:0002009	morphogenesis of an epithelium	5.014	null	null	2.756	-1.754	0.796	0.743	48667	True
+GO:0007411	axon guidance	2.185	null	null	2.396	-2.312	0.600	0.874	48667	True
+GO:0065007	biological regulation	42.148	2.256	-2.190	3.680	-4.398	1.000	0.000	-1	False
+GO:0007191	adenylate cyclase-activating dopamine receptor signaling pathway	0.035	-3.858	-1.521	0.699	-2.876	0.864	0.017	-1	False
+GO:0060359	response to ammonium ion	0.018	null	null	0.477	-2.279	0.944	0.506	7191	True
+GO:0048148	behavioral response to cocaine	0.079	null	null	1.000	-2.433	0.872	0.620	7191	True
+GO:0048149	behavioral response to ethanol	0.485	null	null	1.748	-1.744	0.862	0.678	7191	True
+GO:0007193	adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway	0.194	null	null	1.362	-2.262	0.881	0.728	7191	True
+GO:0047496	vesicle transport along microtubule	0.097	-0.782	5.997	1.079	-3.137	0.840	0.019	-1	False
+GO:0051642	centrosome localization	0.150	null	null	1.255	-1.744	0.868	0.568	47496	True
+GO:0051293	establishment of spindle localization	0.308	null	null	1.556	-2.082	0.761	0.668	47496	True
+GO:0000132	establishment of mitotic spindle orientation	0.194	null	null	1.362	-1.551	0.758	0.954	47496	True
+GO:0040001	establishment of mitotic spindle localization	0.247	null	null	1.462	-1.777	0.765	0.973	47496	True
+GO:0051294	establishment of spindle orientation	0.247	null	null	1.462	-1.864	0.754	0.973	47496	True
+GO:0035335	peptidyl-tyrosine dephosphorylation	0.405	2.520	-5.781	1.672	-2.580	0.923	0.022	-1	False
+GO:0030010	establishment of cell polarity	0.493	3.769	7.973	1.756	-1.963	0.953	0.023	-1	False
+GO:0007030	Golgi organization	0.643	-4.362	-4.785	1.869	-2.427	0.898	0.023	-1	False
+GO:0048585	negative regulation of response to stimulus	3.472	-6.485	1.948	2.597	-2.346	0.856	0.107	-1	False
+GO:0010648	negative regulation of cell communication	3.252	null	null	2.568	-2.293	0.853	0.506	48585	True
+GO:0023057	negative regulation of signaling	3.260	null	null	2.569	-2.293	0.856	0.506	48585	True
+GO:0050777	negative regulation of immune response	0.467	null	null	1.732	-1.864	0.871	0.521	48585	True
+GO:2000273	positive regulation of signaling receptor activity	0.387	null	null	1.643	-1.845	0.878	0.523	48585	True
+GO:0046578	regulation of Ras protein signal transduction	0.705	null	null	1.908	-1.962	0.865	0.560	48585	True
+GO:0035331	negative regulation of hippo signaling	0.352	null	null	1.613	-1.551	0.850	0.640	48585	True
+GO:0051056	regulation of small GTPase mediated signal transduction	0.775	null	null	1.949	-1.914	0.864	0.692	48585	True
+GO:0009968	negative regulation of signal transduction	3.023	null	null	2.537	-1.686	0.824	0.732	48585	True
+GO:0031348	negative regulation of defense response	0.485	null	null	1.748	-1.551	0.871	0.735	48585	True
+GO:0010971	positive regulation of G2/M transition of mitotic cell cycle	0.044	-6.307	-0.140	0.778	-2.301	0.945	0.109	-1	False
+GO:0032787	monocarboxylic acid metabolic process	1.639	-0.535	-6.340	2.272	-2.034	0.902	0.118	-1	False
+GO:0006108	malate metabolic process	0.106	null	null	1.114	-1.564	0.921	0.600	32787	True
+GO:0006090	pyruvate metabolic process	0.397	null	null	1.663	-1.696	0.910	0.683	32787	True
+GO:0072330	monocarboxylic acid biosynthetic process	0.687	null	null	1.898	-1.632	0.899	0.769	32787	True
+GO:0043052	thermotaxis	0.176	-0.853	-1.309	1.322	-2.693	0.930	0.152	-1	False
+GO:0061842	microtubule organizing center localization	0.150	0.332	7.406	1.255	-1.744	0.913	0.185	-1	False
+GO:0002188	translation reinitiation	0.026	5.234	-4.355	0.602	-1.845	0.936	0.186	-1	False
+GO:0015871	choline transport	0.018	-2.420	7.012	0.477	-2.301	0.928	0.195	-1	False
+GO:0007611	learning or memory	1.410	5.047	5.937	2.207	-1.607	0.897	0.206	-1	False
+GO:0050890	cognition	1.410	null	null	2.207	-1.607	0.911	0.651	7611	True
+GO:0007528	neuromuscular junction development	0.696	-5.105	-4.123	1.903	-1.793	0.914	0.221	-1	False
+GO:0000973	posttranscriptional tethering of RNA polymerase II gene DNA at nuclear periphery	0.018	-3.553	-5.463	0.477	-1.845	0.922	0.227	-1	False
+GO:0015893	drug transport	0.009	-1.805	3.736	0.301	-1.921	0.891	0.238	-1	False
+GO:0030037	actin filament reorganization involved in cell cycle	0.044	-3.673	-4.199	0.778	-1.845	0.863	0.244	-1	False
+GO:0090527	actin filament reorganization	0.062	null	null	0.903	-1.564	0.868	0.788	30037	True
+GO:0030838	positive regulation of actin filament polymerization	0.291	-5.552	0.908	1.531	-2.299	0.848	0.244	-1	False
+GO:0060305	regulation of cell diameter	0.156	null	null	1.255	-1.564	0.868	0.656	30838	True
+GO:0009914	hormone transport	0.018	-3.682	5.232	0.477	-1.975	0.887	0.257	-1	False
+GO:0099509	regulation of presynaptic cytosolic calcium ion concentration	0.044	-5.766	4.259	0.778	-1.564	0.933	0.275	-1	False
+GO:0046903	secretion	1.727	-1.473	6.379	2.294	-1.615	0.903	0.276	-1	False
+GO:1990834	response to odorant	0.097	-2.538	-1.279	1.079	-1.564	0.948	0.276	-1	False
+GO:0070646	protein modification by small protein removal	0.555	3.640	-5.294	1.806	-1.954	0.926	0.286	-1	False
+GO:0016579	protein deubiquitination	0.423	null	null	1.690	-1.744	0.927	0.636	70646	True
+GO:0007268	chemical synaptic transmission	1.956	-6.312	-2.332	2.348	-2.152	0.940	0.305	-1	False
+GO:0007165	signal transduction	10.998	null	null	3.097	-3.229	0.837	0.590	7268	True
+GO:0023061	signal release	0.820	null	null	1.973	-1.919	0.860	0.783	7268	True
+GO:0015866	ADP transport	0.026	-1.888	7.299	0.602	-1.564	0.926	0.308	-1	False
+GO:0046929	negative regulation of neurotransmitter secretion	0.044	-5.660	2.901	0.778	-1.845	0.839	0.310	-1	False
+GO:0050805	negative regulation of synaptic transmission	0.194	null	null	1.362	-1.551	0.873	0.619	46929	True
+GO:1903530	regulation of secretion by cell	0.837	null	null	1.982	-1.620	0.913	0.751	46929	True
+GO:0051589	negative regulation of neurotransmitter transport	0.044	null	null	0.778	-1.845	0.898	0.790	46929	True
+GO:1903531	negative regulation of secretion by cell	0.123	null	null	1.176	-1.537	0.882	0.918	46929	True
+GO:0032507	maintenance of protein location in cell	0.185	-2.871	5.417	1.342	-2.082	0.831	0.335	-1	False
+GO:0048140	male germ-line cyst encapsulation	0.079	4.638	3.132	1.000	-1.669	0.824	0.342	-1	False
+GO:0048863	stem cell differentiation	0.247	6.750	0.528	1.462	-1.693	0.830	0.354	-1	False
+GO:0035011	melanotic encapsulation of foreign target	0.264	-0.895	-3.251	1.491	-2.171	0.903	0.374	-1	False
+GO:0006509	membrane protein ectodomain proteolysis	0.079	4.239	-5.381	1.000	-1.669	0.954	0.381	-1	False
+GO:0033619	membrane protein proteolysis	0.106	4.060	-4.955	1.114	-1.537	0.954	0.390	-1	False
+GO:0046939	nucleotide phosphorylation	0.300	0.778	-6.523	1.544	-1.551	0.936	0.398	-1	False
+GO:0009653	anatomical structure morphogenesis	12.751	6.828	1.921	3.161	-3.301	0.813	0.402	-1	False
+GO:0048869	cellular developmental process	14.478	null	null	3.216	-2.936	0.799	0.522	9653	True
+GO:0048731	system development	14.584	null	null	3.219	-2.833	0.779	0.548	9653	True
+GO:0048513	animal organ development	10.090	null	null	3.059	-1.637	0.768	0.580	9653	True
+GO:0035071	salivary gland cell autophagic cell death	0.238	6.251	2.858	1.447	-1.619	0.781	0.410	-1	False
+GO:0048102	autophagic cell death	0.247	null	null	1.462	-1.548	0.967	0.670	35071	True
+GO:0042692	muscle cell differentiation	0.890	6.503	1.020	2.009	-2.330	0.778	0.410	-1	False
+GO:0042694	muscle cell fate specification	0.062	null	null	0.903	-2.003	0.808	0.654	42692	True
+GO:0051146	striated muscle cell differentiation	0.767	null	null	1.944	-1.701	0.775	0.826	42692	True
+GO:0030239	myofibril assembly	0.405	null	null	1.672	-1.794	0.678	0.902	42692	True
+GO:0045214	sarcomere organization	0.291	null	null	1.531	-1.582	0.687	0.935	42692	True
+GO:0010876	lipid localization	0.881	-0.764	6.990	2.004	-1.578	0.905	0.411	-1	False
+GO:0030706	germarium-derived oocyte differentiation	0.282	5.066	2.499	1.519	-2.664	0.747	0.417	-1	False
+GO:0008302	female germline ring canal formation_actin assembly	0.026	null	null	0.602	-1.845	0.684	0.672	30706	True
+GO:0008335	female germline ring canal stabilization	0.044	null	null	0.778	-1.564	0.688	0.733	30706	True
+GO:0030723	ovarian fusome organization	0.097	null	null	1.079	-2.223	0.732	0.740	30706	True
+GO:0007294	germarium-derived oocyte fate determination	0.238	null	null	1.447	-1.619	0.739	0.796	30706	True
+GO:0019184	nonribosomal peptide biosynthetic process	0.044	5.663	-4.099	0.778	-1.564	0.938	0.432	-1	False
+GO:0048732	gland development	1.542	6.369	3.364	2.246	-1.605	0.813	0.436	-1	False
+GO:0048134	germ-line cyst formation	0.264	5.012	2.161	1.491	-1.696	0.771	0.439	-1	False
+GO:0048135	female germ-line cyst formation	0.194	null	null	1.362	-1.551	0.774	0.736	48134	True
+GO:0034502	protein localization to chromosome	0.141	-0.366	6.743	1.230	-1.537	0.877	0.440	-1	False
+GO:0034501	protein localization to kinetochore	0.079	null	null	1.000	-1.564	0.875	0.545	34502	True
+GO:0071459	protein localization to chromosome_centromeric region	0.079	null	null	1.000	-1.564	0.875	0.918	34502	True
+GO:0033313	meiotic cell cycle checkpoint	0.035	-0.511	1.161	0.699	-1.564	0.822	0.443	-1	False
+GO:0046033	AMP metabolic process	0.115	1.457	-5.647	1.146	-1.564	0.893	0.453	-1	False
+GO:0006165	nucleoside diphosphate phosphorylation	0.291	null	null	1.531	-1.551	0.893	0.604	46033	True
+GO:0006167	AMP biosynthetic process	0.053	null	null	0.845	-1.564	0.894	0.859	46033	True
+GO:0030513	positive regulation of BMP signaling pathway	0.159	-6.783	1.257	1.279	-2.223	0.881	0.463	-1	False
+GO:0008354	germ cell migration	0.397	1.257	4.563	1.663	-2.151	0.781	0.466	-1	False
+GO:0007280	pole cell migration	0.194	null	null	1.362	-1.956	0.793	0.625	8354	True
+GO:0045165	cell fate commitment	2.688	6.406	1.419	2.486	-1.842	0.785	0.475	-1	False
+GO:0009888	tissue development	8.830	6.993	1.631	3.001	-2.022	0.822	0.486	-1	False

@@ -1,0 +1,45 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0007033	vacuole organization	50	2	0.02	1	0.00647	8.8e-05	Biological Process
+GO:0015809	arginine transport	1	1	0	2	0.00038	0.00038	Biological Process
+GO:0061723	glycophagy	11	1	0	4	0.00417	0.00417	Biological Process
+GO:0044804	autophagy of nucleus	12	1	0	7	0.00455	0.00455	Biological Process
+GO:0007040	lysosome organization	16	1	0.01	13	0.00607	0.00607	Biological Process
+GO:0033554	cellular response to stress	417	2	0.16	14	0.00625	0.00625	Biological Process
+GO:0000422	autophagy of mitochondrion	25	1	0.01	20	0.00947	0.00947	Biological Process
+GO:0051453	regulation of intracellular pH	26	1	0.01	21	0.00985	0.00985	Biological Process
+GO:0000045	autophagosome assembly	29	1	0.01	28	0.01098	0.01098	Biological Process
+GO:1905037	autophagosome organization	31	1	0.01	30	0.01174	0.01174	Biological Process
+GO:0007034	vacuolar transport	32	1	0.01	31	0.01211	0.01211	Biological Process
+GO:0046328	regulation of JNK cascade	48	1	0.02	34	0.01814	0.01814	Biological Process
+GO:0070302	regulation of stress-activated protein k...	49	1	0.02	35	0.01852	0.01852	Biological Process
+GO:0032872	regulation of stress-activated MAPK casc...	49	1	0.02	36	0.01852	0.01852	Biological Process
+GO:0007254	JNK cascade	57	1	0.02	38	0.02153	0.02153	Biological Process
+GO:0051403	stress-activated MAPK cascade	60	1	0.02	39	0.02265	0.02265	Biological Process
+GO:0009267	cellular response to starvation	63	1	0.02	41	0.02378	0.02378	Biological Process
+GO:0031669	cellular response to nutrient levels	65	1	0.02	42	0.02453	0.02453	Biological Process
+GO:0031668	cellular response to extracellular stimu...	67	1	0.03	43	0.02528	0.02528	Biological Process
+GO:0031098	stress-activated protein kinase signalin...	71	1	0.03	46	0.02678	0.02678	Biological Process
+GO:0071496	cellular response to external stimulus	74	1	0.03	48	0.02790	0.02790	Biological Process
+GO:0006979	response to oxidative stress	82	1	0.03	49	0.03089	0.03089	Biological Process
+GO:0043408	regulation of MAPK cascade	83	1	0.03	50	0.03127	0.03127	Biological Process
+GO:0080135	regulation of cellular response to stres...	87	1	0.03	54	0.03276	0.03276	Biological Process
+GO:0000165	MAPK cascade	98	1	0.04	59	0.03686	0.03686	Biological Process
+GO:0023014	signal transduction by protein phosphory...	101	1	0.04	60	0.03798	0.03798	Biological Process
+GO:0008593	regulation of Notch signaling pathway	101	1	0.04	61	0.03798	0.03798	Biological Process
+GO:0042594	response to starvation	106	1	0.04	63	0.03984	0.03984	Biological Process
+GO:0007219	Notch signaling pathway	121	1	0.05	66	0.04541	0.04541	Biological Process
+GO:0031667	response to nutrient levels	121	1	0.05	67	0.04541	0.04541	Biological Process
+GO:0009991	response to extracellular stimulus	123	1	0.05	68	0.04616	0.04616	Biological Process
+GO:0008340	determination of adult lifespan	127	1	0.05	69	0.04764	0.04764	Biological Process
+GO:0010259	multicellular organism aging	130	1	0.05	70	0.04875	0.04875	Biological Process
+GO:0019776	Atg8 ligase activity	2	1	0	1	0.00048	0.00048	Molecular Function
+GO:0019787	ubiquitin-like protein transferase activ...	121	1	0.03	2	0.02875	0.02875	Molecular Function
+GO:0005773	vacuole	93	2	0.04	1	0.00039	0.00039	Cellular Component
+GO:0000153	cytoplasmic ubiquitin ligase complex	3	1	0	2	0.00128	0.00128	Cellular Component
+GO:0031528	microvillus membrane	4	1	0	3	0.00171	0.00171	Cellular Component
+GO:0005776	autophagosome	28	1	0.01	7	0.01192	0.01192	Cellular Component
+GO:0005770	late endosome	46	1	0.02	8	0.01955	0.01955	Cellular Component
+GO:0016324	apical plasma membrane	51	1	0.02	9	0.02166	0.02166	Cellular Component
+GO:0005764	lysosome	57	1	0.02	10	0.02419	0.02419	Cellular Component
+GO:0000323	lytic vacuole	58	1	0.02	11	0.02461	0.02461	Cellular Component
+GO:0045177	apical part of cell	106	1	0.05	13	0.04475	0.04475	Cellular Component

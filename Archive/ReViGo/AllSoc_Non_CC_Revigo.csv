@@ -1,0 +1,13 @@
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0061689	tricellular_tight_junction	0.043	5.189	1.234	0.778	-2.959	0.552	0.000	-1	False
+GO:0005920	smooth_septate_junction	0.060	null	null	0.903	-2.824	0.545	0.749	61689	True
+GO:0016328	lateral_plasma_membrane	0.188	-5.111	3.060	1.362	-2.585	0.804	0.003	-1	False
+GO:0048471	perinuclear_region_of_cytoplasm	0.804	-0.133	-5.781	1.978	-1.979	0.960	0.003	-1	False
+GO:0045179	apical_cortex	0.462	-4.975	0.784	1.740	-2.114	0.784	0.254	-1	False
+GO:0016327	apicolateral_plasma_membrane	0.197	-4.204	4.891	1.380	-2.387	0.716	0.275	-1	False
+GO:0016323	basolateral_plasma_membrane	0.334	null	null	1.602	-2.071	0.708	0.560	16327	True
+GO:0014069	postsynaptic_density	0.137	4.827	3.808	1.230	-2.886	0.513	0.399	-1	False
+GO:0031594	neuromuscular_junction	0.804	null	null	1.978	-1.851	0.503	0.558	14069	True
+GO:0045211	postsynaptic_membrane	0.496	null	null	1.771	-2.387	0.286	0.810	14069	True
+GO:0061176	type_Ib_terminal_bouton	0.068	5.197	2.722	0.954	-2.770	0.512	0.459	-1	False
+GO:0071212	subsynaptic_reticulum	0.103	null	null	1.114	-2.678	0.481	0.855	61176	True

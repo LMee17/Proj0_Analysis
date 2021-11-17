@@ -1,0 +1,4 @@
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0004385	guanylate_kinase_activity	0.027	5.033	-0.019	0.602	-3.022	1.000	0.000	-1	False
+GO:0035255	ionotropic_glutamate_receptor_binding	0.009	-4.898	1.155	0.301	-3.319	0.608	0.000	-1	False
+GO:0005154	epidermal_growth_factor_receptor_binding	0.080	-4.907	-1.117	1.000	-2.924	0.608	0.440	-1	False

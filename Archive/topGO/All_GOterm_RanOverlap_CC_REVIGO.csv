@@ -1,0 +1,3 @@
+term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
+GO:0044613,"nuclear pore central transport channel",0.063%, 0.028, 0.999,0.903,0.001,0.000,44613,0
+GO:0043005,"neuron projection",2.942%, 0.971, 0.028,2.513,0.000,0.028,43005,0

@@ -1,0 +1,23 @@
+TermID, Name, Frequency, PlotX, PlotY, PlotSize, Value, Uniqueness, Dispensability, Representative, Eliminated
+"GO:0010225", "response to UV-C", 0.003, 2.637, 7.004, 2.867, -3.022, 0.966, 0.000, -1, False
+"GO:0046529", "imaginal disc fusion, thorax closure", 0.001, -5.163, 3.754, 2.134, -1.879, 0.856, 0.000, -1, False
+"GO:0046528", "imaginal disc fusion", 0.001, null, null, 2.134, -1.879, 0.856, 0.758, 46529, True
+"GO:0097753", "membrane bending", 0.000, 1.217, -5.747, 1.987, -2.721, 0.959, 0.000, -1, False
+"GO:1900744", "regulation of p38MAPK cascade", 0.008, 2.236, 0.578, 3.263, -3.022, 0.530, 0.000, -1, False
+"GO:0043407", "negative regulation of MAP kinase activity", 0.023, null, null, 3.723, -2.121, 0.512, 0.732, 1900744, True
+"GO:0046580", "negative regulation of Ras protein signal transduction", 0.017, null, null, 3.588, -1.704, 0.553, 0.781, 1900744, True
+"GO:0051058", "negative regulation of small GTPase mediated signal transduction", 0.019, null, null, 3.624, -1.684, 0.552, 0.785, 1900744, True
+"GO:0070303", "negative regulation of stress-activated protein kinase signaling cascade", 0.008, null, null, 3.242, -1.684, 0.511, 0.836, 1900744, True
+"GO:0032873", "negative regulation of stress-activated MAPK cascade", 0.008, null, null, 3.239, -1.684, 0.492, 0.871, 1900744, True
+"GO:0046328", "regulation of JNK cascade", 0.026, null, null, 3.766, -1.349, 0.508, 0.895, 1900744, True
+"GO:0046329", "negative regulation of JNK cascade", 0.005, null, null, 3.087, -1.684, 0.498, 0.981, 1900744, True
+"GO:0006749", "glutathione metabolic process", 0.446, -5.297, -3.466, 5.002, -1.849, 0.984, 0.004, -1, False
+"GO:0045678", "positive regulation of R7 cell differentiation", 0.000, 6.629, -0.314, 1.230, -2.178, 0.873, 0.111, -1, False
+"GO:0006575", "cellular modified amino acid metabolic process", 1.175, -3.440, -4.846, 5.422, -1.612, 0.984, 0.151, -1, False
+"GO:1901562", "response to paraquat", 0.000, 0.096, 7.254, 1.857, -2.721, 0.968, 0.156, -1, False
+"GO:0097688", "glutamate receptor clustering", 0.001, 3.024, -5.370, 2.179, -2.545, 0.914, 0.200, -1, False
+"GO:0099173", "postsynapse organization", 0.012, null, null, 3.440, -1.747, 0.911, 0.711, 97688, True
+"GO:0030522", "intracellular receptor signaling pathway", 0.060, 3.414, 4.621, 4.132, -1.580, 0.824, 0.202, -1, False
+"GO:0040034", "regulation of development, heterochronic", 0.005, 6.339, 0.945, 3.045, -1.983, 0.859, 0.356, -1, False
+"GO:0007552", "metamorphosis", 0.013, -5.567, 2.362, 3.468, -1.368, 0.890, 0.389, -1, False
+"GO:0016319", "mushroom body development", 0.002, -5.748, 3.182, 2.613, -1.307, 0.883, 0.425, -1, False

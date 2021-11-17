@@ -1,0 +1,111 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology	Parent.Function
+GO:0003723	RNA binding	411	8	1.76	1	0.00064	0.00014	Molecular Function	RNA binding
+GO:0016607	nuclear speck	14	2	0.06	1	0.0017	0.0017	Cellular Component	nucleus
+GO:0016199	axon midline choice point recognition	18	2	0.08	3	0.0027	0.00267	Biological Process	neurogenesis
+GO:0000095	S-adenosyl-L-methionine transmembrane tr...	1	1	0	5	0.00428	0.00428	Molecular Function	transmembrane transporter activity
+GO:0002092	positive regulation of receptor internal...	1	1	0	12	0.0044	0.00437	Biological Process	positive regulation of cellular metabolic process
+GO:0044351	macropinocytosis	1	1	0	25	0.0044	0.00437	Biological Process	vesicle-mediated transport
+GO:1901962	S-adenosyl-L-methionine transmembrane tr...	1	1	0	10	0.0044	0.00437	Biological Process	ion transport
+GO:1905062	positive regulation of cardioblast proli...	1	1	0	19	0.0044	0.00437	Biological Process	embryo development
+GO:1905306	positive regulation of cardiac myofibril...	1	1	0	24	0.0044	0.00437	Biological Process	embryo development
+GO:0000288	nuclear-transcribed mRNA catabolic proce...	24	2	0.1	29	0.0047	0.00475	Biological Process	RNA metabolic process
+GO:0000932	P-body	27	2	0.12	2	0.0063	0.0063	Cellular Component	cytoplasm
+GO:0004697	protein kinase C activity	2	1	0.01	6	0.00854	0.00854	Molecular Function	protein kinase activity
+GO:0017091	AU-rich element binding	2	1	0.01	7	0.00854	0.00854	Molecular Function	RNA binding
+GO:0010606	positive regulation of cytoplasmic mRNA ...	2	1	0.01	33	0.0087	0.00871	Biological Process	cellular component organization or biogenesis
+GO:0034473	U1 snRNA 3'-end processing	2	1	0.01	35	0.0087	0.00871	Biological Process	RNA metabolic process
+GO:0034476	U5 snRNA 3'-end processing	2	1	0.01	36	0.0087	0.00871	Biological Process	RNA metabolic process
+GO:0071042	nuclear polyadenylation-dependent mRNA c...	2	1	0.01	37	0.0087	0.00871	Biological Process	RNA metabolic process
+GO:0051965	positive regulation of synapse assembly	34	2	0.15	40	0.0094	0.0094	Biological Process	cellular component organization or biogenesis
+GO:0000389	mRNA 3'-splice site recognition	3	1	0.01	43	0.013	0.01304	Biological Process	RNA metabolic process
+GO:0000459	exonucleolytic trimming involved in rRNA...	3	1	0.01	49	0.013	0.01304	Biological Process	cellular component organization or biogenesis
+GO:0000467	exonucleolytic trimming to generate matu...	3	1	0.01	48	0.013	0.01304	Biological Process	cellular component organization or biogenesis
+GO:0046012	positive regulation of oskar mRNA transl...	3	1	0.01	42	0.013	0.01304	Biological Process	cellular amide metabolic process
+GO:0071029	nuclear ncRNA surveillance	3	1	0.01	50	0.013	0.01304	Biological Process	RNA metabolic process
+GO:0071035	nuclear polyadenylation-dependent rRNA c...	3	1	0.01	52	0.013	0.01304	Biological Process	RNA metabolic process
+GO:0071038	nuclear polyadenylation-dependent tRNA c...	3	1	0.01	53	0.013	0.01304	Biological Process	RNA metabolic process
+GO:0071046	nuclear polyadenylation-dependent ncRNA ...	3	1	0.01	51	0.013	0.01304	Biological Process	RNA metabolic process
+GO:0016533	protein kinase 5 complex	3	1	0.01	4	0.0134	0.0134	Cellular Component	transferase complex
+GO:0035062	omega speckle	3	1	0.01	5	0.0134	0.0134	Cellular Component	nucleus
+GO:0000340	RNA 7-methylguanosine cap binding	4	1	0.02	9	0.017	0.017	Molecular Function	RNA binding
+GO:0030628	pre-mRNA 3'-splice site binding	4	1	0.02	10	0.017	0.017	Molecular Function	RNA binding
+GO:0007554	regulation of ecdysteroid biosynthetic p...	4	1	0.02	63	0.0174	0.01735	Biological Process	embryo development
+GO:0010566	regulation of ketone biosynthetic proces...	4	1	0.02	64	0.0174	0.01735	Biological Process	ketone biosynthetic process
+GO:0010893	positive regulation of steroid biosynthe...	4	1	0.02	61	0.0174	0.01735	Biological Process	lipid biosynthetic process
+GO:0032352	positive regulation of hormone metabolic...	4	1	0.02	67	0.0174	0.01735	Biological Process	hormone metabolic process
+GO:0034475	U4 snRNA 3'-end processing	4	1	0.02	66	0.0174	0.01735	Biological Process	RNA metabolic process
+GO:0043634	polyadenylation-dependent ncRNA cataboli...	4	1	0.02	69	0.0174	0.01735	Biological Process	RNA metabolic process
+GO:0045940	positive regulation of steroid metabolic...	4	1	0.02	62	0.0174	0.01735	Biological Process	lipid metabolic process
+GO:0045966	positive regulation of ecdysteroid metab...	4	1	0.02	56	0.0174	0.01735	Biological Process	embryo development
+GO:0045998	positive regulation of ecdysteroid biosy...	4	1	0.02	72	0.0174	0.01735	Biological Process	embryo development
+GO:0046886	positive regulation of hormone biosynthe...	4	1	0.02	59	0.0174	0.01735	Biological Process	hormone biosynthetic process
+GO:0046888	negative regulation of hormone secretion	4	1	0.02	60	0.0174	0.01735	Biological Process	regulation of hormone levels
+GO:0048582	positive regulation of post-embryonic de...	4	1	0.02	73	0.0174	0.01735	Biological Process	development
+GO:0050810	regulation of steroid biosynthetic proce...	4	1	0.02	58	0.0174	0.01735	Biological Process	lipid biosynthetic process
+GO:0090030	regulation of steroid hormone biosynthet...	4	1	0.02	70	0.0174	0.01735	Biological Process	hormone biosynthetic process
+GO:0090031	positive regulation of steroid hormone b...	4	1	0.02	71	0.0174	0.01735	Biological Process	hormone biosynthetic process
+GO:0090278	negative regulation of peptide hormone s...	4	1	0.02	57	0.0174	0.01735	Biological Process	regulation of hormone levels
+GO:0003729	mRNA binding	137	3	0.59	11	0.01924	0.01924	Molecular Function	RNA binding
+GO:0008266	poly(U) RNA binding	5	1	0.02	12	0.02121	0.02121	Molecular Function	RNA binding
+GO:0007553	regulation of ecdysteroid metabolic proc...	5	1	0.02	78	0.0216	0.02165	Biological Process	development
+GO:0016075	rRNA catabolic process	5	1	0.02	79	0.0216	0.02165	Biological Process	RNA metabolic process
+GO:0016078	tRNA catabolic process	5	1	0.02	80	0.0216	0.02165	Biological Process	RNA metabolic process
+GO:0019218	regulation of steroid metabolic process	5	1	0.02	82	0.0216	0.02165	Biological Process	lipid metabolic process
+GO:0022611	dormancy process	5	1	0.02	85	0.0216	0.02165	Biological Process	dormancy
+GO:0034427	nuclear-transcribed mRNA catabolic proce...	5	1	0.02	83	0.0216	0.02165	Biological Process	RNA metabolic process
+GO:0043928	exonucleolytic catabolism of deadenylate...	5	1	0.02	84	0.0216	0.02165	Biological Process	RNA metabolic process
+GO:0046885	regulation of hormone biosynthetic proce...	5	1	0.02	75	0.0216	0.02165	Biological Process	hormone biosynthetic process
+GO:0000177	cytoplasmic exosome (RNase complex)	5	1	0.02	6	0.0222	0.0222	Cellular Component	cytoplasm
+GO:0043539	protein serine/threonine kinase activato...	6	1	0.03	14	0.0254	0.0254	Molecular Function	enzyme activator activity
+GO:0007528	neuromuscular junction development	148	3	0.65	89	0.0255	0.02549	Biological Process	cellular component organization or biogenesis
+GO:0000290	deadenylation-dependent decapping of nuc...	6	1	0.03	91	0.0259	0.02592	Biological Process	RNA metabolic process
+GO:0031125	rRNA 3'-end processing	6	1	0.03	98	0.0259	0.02592	Biological Process	RNA metabolic process
+GO:0032350	regulation of hormone metabolic process	6	1	0.03	97	0.0259	0.02592	Biological Process	hormone metabolic process
+GO:0035418	protein localization to synapse	6	1	0.03	92	0.0259	0.02592	Biological Process	protein localisation
+GO:0070059	intrinsic apoptotic signaling pathway in...	6	1	0.03	90	0.0259	0.02592	Biological Process	cell death
+GO:0071028	nuclear mRNA surveillance	6	1	0.03	96	0.0259	0.02592	Biological Process	cellular catabolic process
+GO:0008283	cell population proliferation	279	5	1.22	31	0.0262	0.00615	Biological Process	cell population proliferation
+GO:0045180	basal cortex	6	1	0.03	9	0.0266	0.0266	Cellular Component	basal part of cell
+GO:0007616	long-term memory	60	2	0.26	103	0.0277	0.02768	Biological Process	learning or memory
+GO:0010817	regulation of hormone levels	61	2	0.27	104	0.0285	0.02855	Biological Process	regulation of hormone levels
+GO:0000291	nuclear-transcribed mRNA catabolic proce...	7	1	0.03	106	0.0302	0.03018	Biological Process	RNA metabolic process
+GO:0002792	negative regulation of peptide secretion	7	1	0.03	107	0.0302	0.03018	Biological Process	ion transport
+GO:1990904	ribonucleoprotein complex	409	5	1.83	10	0.0312	0.0312	Cellular Component	ribonucleoprotein complex
+GO:0000339	RNA cap binding	8	1	0.03	15	0.03373	0.03373	Molecular Function	RNA binding
+GO:0006839	mitochondrial transport	67	2	0.29	109	0.034	0.03395	Biological Process	mitochondrial transport
+GO:0006376	mRNA splice site selection	8	1	0.03	114	0.0344	0.03442	Biological Process	RNA metabolic process
+GO:0010565	regulation of cellular ketone metabolic ...	8	1	0.03	113	0.0344	0.03442	Biological Process	cellular ketone metabolic process
+GO:0034661	ncRNA catabolic process	8	1	0.03	115	0.0344	0.03442	Biological Process	RNA metabolic process
+GO:0110154	RNA decapping	8	1	0.03	110	0.0344	0.03442	Biological Process	RNA metabolic process
+GO:0110156	methylguanosine-cap decapping	8	1	0.03	111	0.0344	0.03442	Biological Process	RNA metabolic process
+GO:0048863	stem cell differentiation	68	2	0.3	117	0.0349	0.03489	Biological Process	cell differentiation
+GO:0000176	nuclear exosome (RNase complex)	8	1	0.04	11	0.0353	0.0353	Cellular Component	nucleus
+GO:0005652	nuclear lamina	8	1	0.04	12	0.0353	0.0353	Cellular Component	nucleus
+GO:0008187	poly-pyrimidine tract binding	9	1	0.04	16	0.03787	0.03787	Molecular Function	RNA binding
+GO:0030371	translation repressor activity	9	1	0.04	17	0.03787	0.03787	Molecular Function	translation regulator activity
+GO:0030072	peptide hormone secretion	9	1	0.04	124	0.0386	0.03864	Biological Process	regulation of hormone levels
+GO:0045450	bicoid mRNA localization	9	1	0.04	127	0.0386	0.03864	Biological Process	embryo development
+GO:0046011	regulation of oskar mRNA translation	9	1	0.04	123	0.0386	0.03864	Biological Process	regulation of gene expression
+GO:0071025	RNA surveillance	9	1	0.04	125	0.0386	0.03864	Biological Process	RNA catabolic process
+GO:0071027	nuclear RNA surveillance	9	1	0.04	126	0.0386	0.03864	Biological Process	RNA catabolic process
+GO:0090276	regulation of peptide hormone secretion	9	1	0.04	121	0.0386	0.03864	Biological Process	hormone transport
+GO:1902414	protein localization to cell junction	9	1	0.04	122	0.0386	0.03864	Biological Process	protein localisation
+GO:0009925	basal plasma membrane	9	1	0.04	13	0.0397	0.0397	Cellular Component	basal part of cell
+GO:0005385	zinc ion transmembrane transporter activ...	10	1	0.04	18	0.042	0.042	Molecular Function	transmembrane transporter activity
+GO:0006829	zinc ion transport	10	1	0.04	132	0.0428	0.04285	Biological Process	ion transport
+GO:0007318	pole plasm protein localization	10	1	0.04	131	0.0428	0.04285	Biological Process	embryo development
+GO:0007414	axonal defasciculation	10	1	0.04	136	0.0428	0.04285	Biological Process	neurogenesis
+GO:0071577	zinc ion transmembrane transport	10	1	0.04	137	0.0428	0.04285	Biological Process	ion transport
+GO:1903531	negative regulation of secretion by cell	10	1	0.04	135	0.0428	0.04285	Biological Process	negative regulation of secretion
+GO:0071212	subsynaptic reticulum	10	1	0.04	14	0.044	0.044	Cellular Component	intracellular anatomical structure
+GO:0150034	distal axon	76	2	0.34	15	0.0447	0.0447	Cellular Component	neuron projection
+GO:0033962	cytoplasmic mRNA processing body assembl...	13	2	0.06	2	0.045	0.00138	Biological Process	cellular component organization or biogenesis
+GO:0036002	pre-mRNA binding	11	1	0.05	20	0.0461	0.0461	Molecular Function	RNA binding
+GO:0043005	neuron projection	183	3	0.82	16	0.0465	0.0465	Cellular Component	neuron projection
+GO:0006417	regulation of translation	80	2	0.35	138	0.0469	0.0469	Biological Process	regulation of gene expression
+GO:0000466	maturation of 5.8S rRNA from tricistroni...	11	1	0.05	142	0.047	0.04703	Biological Process	cellular component organization or biogenesis
+GO:0007586	digestion	11	1	0.05	141	0.047	0.04703	Biological Process	digestion
+GO:0046889	positive regulation of lipid biosyntheti...	11	1	0.05	139	0.047	0.04703	Biological Process	lipid biosynthetic process
+GO:0051048	negative regulation of secretion	11	1	0.05	143	0.047	0.04703	Biological Process	negative regulation of secretion
+GO:0000178	exosome (RNase complex)	11	1	0.05	17	0.0483	0.0483	Cellular Component	exosome
+GO:1905354	exoribonuclease complex	11	1	0.05	18	0.0483	0.0483	Cellular Component	catalytic complex

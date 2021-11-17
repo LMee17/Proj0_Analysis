@@ -1,0 +1,23 @@
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0016236	macroautophagy	0.605	3.169	5.280	1.845	-3.276	0.798	0.000	-1	False
+GO:0097352	autophagosome maturation	0.184	null	null	1.342	-1.945	0.747	0.796	16236	True
+GO:0006914	autophagy	1.016	null	null	2.068	-2.697	0.792	0.937	16236	True
+GO:0043900	regulation of multi-organism process	0.298	0.668	-0.031	1.544	-3.004	0.940	0.000	-1	False
+GO:0050830	defense response to Gram-positive bacterium	0.412	-6.220	0.638	1.681	-2.204	0.797	0.000	-1	False
+GO:0008333	endosome to lysosome transport	0.123	-2.055	6.720	1.176	-2.166	0.971	0.021	-1	False
+GO:0032984	protein-containing complex disassembly	0.464	5.602	-3.167	1.732	-1.471	0.897	0.024	-1	False
+GO:0061919	process utilizing autophagic mechanism	1.016	6.037	-0.019	2.068	-2.697	0.965	0.026	-1	False
+GO:0007286	spermatid development	1.016	-5.139	5.841	2.068	-1.418	0.893	0.027	-1	False
+GO:0048515	spermatid differentiation	1.104	null	null	2.104	-1.381	0.893	0.810	7286	True
+GO:0045849	negative regulation of nurse cell apoptotic process	0.018	2.746	-5.556	0.477	-2.943	0.934	0.086	-1	False
+GO:0002804	positive regulation of antifungal peptide production	0.088	-1.667	-6.813	1.041	-2.342	0.925	0.097	-1	False
+GO:0046854	phosphatidylinositol phosphate biosynthetic process	0.342	4.497	3.122	1.602	-2.245	0.932	0.123	-1	False
+GO:0000209	protein polyubiquitination	0.850	1.085	5.366	1.991	-1.450	0.926	0.134	-1	False
+GO:0008063	Toll signaling pathway	0.131	-6.620	-2.146	1.204	-1.742	0.785	0.182	-1	False
+GO:0043902	positive regulation of multi-organism process	0.096	-3.622	-6.932	1.079	-1.703	0.933	0.223	-1	False
+GO:0016242	negative regulation of macroautophagy	0.088	1.067	-5.890	1.041	-2.342	0.921	0.239	-1	False
+GO:0009267	cellular response to starvation	0.736	-6.296	-0.602	1.929	-1.450	0.661	0.443	-1	False
+GO:0031668	cellular response to extracellular stimulus	0.806	null	null	1.968	-1.424	0.660	0.967	9267	True
+GO:0031669	cellular response to nutrient levels	0.789	null	null	1.959	-1.437	0.660	0.980	9267	True
+GO:0071496	cellular response to external stimulus	0.867	-6.766	0.164	2.000	-1.381	0.784	0.477	-1	False
+GO:0007165	signal transduction	10.846	-4.571	-1.957	3.093	-2.130	0.690	0.497	-1	False

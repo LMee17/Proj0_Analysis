@@ -1,0 +1,113 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0006807	nitrogen compound metabolic process	2861	21	13.03	1	0.0242	0.00060	Biological Process
+GO:0034968	histone lysine methylation	38	3	0.17	2	0.0111	0.00063	Biological Process
+GO:0018022	peptidyl-lysine methylation	39	3	0.18	3	0.0117	0.00068	Biological Process
+GO:0016571	histone methylation	47	3	0.21	4	0.0168	0.00118	Biological Process
+GO:0008213	protein alkylation	52	3	0.24	5	0.0204	0.00159	Biological Process
+GO:0006479	protein methylation	52	3	0.24	6	0.0204	0.00159	Biological Process
+GO:0018205	peptidyl-lysine modification	116	4	0.53	7	0.0131	0.00169	Biological Process
+GO:0051391	tRNA acetylation	1	1	0	10	0.0046	0.00456	Biological Process
+GO:2000480	negative regulation of cAMP-dependent pr...	1	1	0	11	0.0046	0.00456	Biological Process
+GO:0044648	histone H3-K4 dimethylation	1	1	0	12	0.0046	0.00456	Biological Process
+GO:1904812	rRNA acetylation involved in maturation ...	1	1	0	13	0.0046	0.00456	Biological Process
+GO:0070935	3'-UTR-mediated mRNA stabilization	1	1	0	14	0.0046	0.00456	Biological Process
+GO:0098501	polynucleotide dephosphorylation	1	1	0	15	0.0046	0.00456	Biological Process
+GO:0098502	DNA dephosphorylation	1	1	0	16	0.0046	0.00456	Biological Process
+GO:0098506	polynucleotide 3' dephosphorylation	1	1	0	17	0.0046	0.00456	Biological Process
+GO:0070212	protein poly-ADP-ribosylation	1	1	0	18	0.0046	0.00456	Biological Process
+GO:0002101	tRNA wobble cytosine modification	1	1	0	22	0.0046	0.00456	Biological Process
+GO:0016570	histone modification	155	4	0.71	24	0.0283	0.00484	Biological Process
+GO:0016569	covalent chromatin modification	158	4	0.72	25	0.0297	0.00518	Biological Process
+GO:0018193	peptidyl-amino acid modification	262	5	1.19	26	0.0248	0.00571	Biological Process
+GO:0090263	positive regulation of canonical Wnt sig...	30	2	0.14	29	0.0080	0.00801	Biological Process
+GO:0070681	glutaminyl-tRNAGln biosynthesis via tran...	2	1	0.01	31	0.0091	0.00909	Biological Process
+GO:0090364	regulation of proteasome assembly	2	1	0.01	33	0.0091	0.00909	Biological Process
+GO:0045004	DNA replication proofreading	2	1	0.01	35	0.0091	0.00909	Biological Process
+GO:0006287	base-excision repair, gap-filling	2	1	0.01	36	0.0091	0.00909	Biological Process
+GO:0006425	glutaminyl-tRNA aminoacylation	2	1	0.01	37	0.0091	0.00909	Biological Process
+GO:0008315	G2/MI transition of meiotic cell cycle	2	1	0.01	38	0.0091	0.00909	Biological Process
+GO:0080182	histone H3-K4 trimethylation	3	1	0.01	42	0.0136	0.01361	Biological Process
+GO:0045948	positive regulation of translational ini...	3	1	0.01	43	0.0136	0.01361	Biological Process
+GO:0006297	nucleotide-excision repair, DNA gap fill...	3	1	0.01	44	0.0136	0.01361	Biological Process
+GO:0008631	intrinsic apoptotic signaling pathway in...	3	1	0.01	45	0.0136	0.01361	Biological Process
+GO:1902175	regulation of oxidative stress-induced i...	3	1	0.01	46	0.0136	0.01361	Biological Process
+GO:0046470	phosphatidylcholine metabolic process	3	1	0.01	47	0.0136	0.01361	Biological Process
+GO:0035194	post-transcriptional gene silencing by R...	40	2	0.18	48	0.0140	0.01396	Biological Process
+GO:0016441	posttranscriptional gene silencing	43	2	0.2	50	0.0160	0.01603	Biological Process
+GO:0071407	cellular response to organic cyclic comp...	45	2	0.21	51	0.0175	0.01748	Biological Process
+GO:0034349	glial cell apoptotic process	4	1	0.02	52	0.0181	0.01810	Biological Process
+GO:0031047	gene silencing by RNA	49	2	0.22	56	0.0205	0.02053	Biological Process
+GO:0051567	histone H3-K9 methylation	5	1	0.02	57	0.0226	0.02258	Biological Process
+GO:0035265	organ growth	53	2	0.24	59	0.0238	0.02380	Biological Process
+GO:0031053	primary miRNA processing	6	1	0.03	63	0.0270	0.02704	Biological Process
+GO:0006272	leading strand elongation	6	1	0.03	64	0.0270	0.02704	Biological Process
+GO:1903201	regulation of oxidative stress-induced c...	6	1	0.03	65	0.0270	0.02704	Biological Process
+GO:0043153	entrainment of circadian clock by photop...	7	1	0.03	67	0.0315	0.03148	Biological Process
+GO:0061647	histone H3-K9 modification	7	1	0.03	68	0.0315	0.03148	Biological Process
+GO:0009648	photoperiodism	7	1	0.03	69	0.0315	0.03148	Biological Process
+GO:0010452	histone H3-K36 methylation	7	1	0.03	70	0.0315	0.03148	Biological Process
+GO:0036473	cell death in response to oxidative stre...	7	1	0.03	72	0.0315	0.03148	Biological Process
+GO:2001242	regulation of intrinsic apoptotic signal...	7	1	0.03	74	0.0315	0.03148	Biological Process
+GO:0018023	peptidyl-lysine trimethylation	7	1	0.03	75	0.0315	0.03148	Biological Process
+GO:1900407	regulation of cellular response to oxida...	8	1	0.04	79	0.0359	0.03589	Biological Process
+GO:0006644	phospholipid metabolic process	70	2	0.32	82	0.0398	0.03980	Biological Process
+GO:0045498	sex comb development	9	1	0.04	83	0.0403	0.04029	Biological Process
+GO:0006783	heme biosynthetic process	10	1	0.05	89	0.0447	0.04467	Biological Process
+GO:0006778	porphyrin-containing compound metabolic ...	10	1	0.05	90	0.0447	0.04467	Biological Process
+GO:0006779	porphyrin-containing compound biosynthet...	10	1	0.05	91	0.0447	0.04467	Biological Process
+GO:0035076	ecdysone receptor-mediated signaling pat...	10	1	0.05	92	0.0447	0.04467	Biological Process
+GO:0033013	tetrapyrrole metabolic process	10	1	0.05	93	0.0447	0.04467	Biological Process
+GO:0033014	tetrapyrrole biosynthetic process	10	1	0.05	94	0.0447	0.04467	Biological Process
+GO:1902882	regulation of response to oxidative stre...	10	1	0.05	95	0.0447	0.04467	Biological Process
+GO:0042168	heme metabolic process	10	1	0.05	97	0.0447	0.04467	Biological Process
+GO:0035196	production of miRNAs involved in gene si...	10	1	0.05	98	0.0447	0.04467	Biological Process
+GO:0043331	response to dsRNA	11	1	0.05	100	0.0490	0.04903	Biological Process
+GO:0071359	cellular response to dsRNA	11	1	0.05	101	0.0490	0.04903	Biological Process
+GO:0007113	endomitotic cell cycle	11	1	0.05	102	0.0490	0.04903	Biological Process
+GO:0018024	histone-lysine N-methyltransferase activ...	13	2	0.07	4	0.0020	0.0020	Molecular Function
+GO:0003899	DNA-directed 5'-3' RNA polymerase activi...	13	2	0.07	6	0.0020	0.0020	Molecular Function
+GO:0016853	isomerase activity	63	3	0.33	10	0.0375	0.0040	Molecular Function
+GO:1990883	rRNA cytidine N-acetyltransferase activi...	1	1	0.01	16	0.0052	0.0052	Molecular Function
+GO:0016034	maleylacetoacetate isomerase activity	1	1	0.01	17	0.0052	0.0052	Molecular Function
+GO:0034236	protein kinase A catalytic subunit bindi...	1	1	0.01	18	0.0052	0.0052	Molecular Function
+GO:0046403	polynucleotide 3'-phosphatase activity	1	1	0.01	19	0.0052	0.0052	Molecular Function
+GO:0046404	ATP-dependent polydeoxyribonucleotide 5'...	1	1	0.01	20	0.0052	0.0052	Molecular Function
+GO:0004622	lysophospholipase activity	1	1	0.01	21	0.0052	0.0052	Molecular Function
+GO:0004366	glycerol-3-phosphate O-acyltransferase a...	1	1	0.01	22	0.0052	0.0052	Molecular Function
+GO:0003870	5-aminolevulinate synthase activity	1	1	0.01	24	0.0052	0.0052	Molecular Function
+GO:0051392	tRNA N-acetyltransferase activity	1	1	0.01	25	0.0052	0.0052	Molecular Function
+GO:0008494	translation activator activity	2	1	0.01	31	0.0104	0.0104	Molecular Function
+GO:0003950	NAD+ ADP-ribosyltransferase activity	2	1	0.01	32	0.0104	0.0104	Molecular Function
+GO:0080132	fatty acid alpha-hydroxylase activity	2	1	0.01	34	0.0104	0.0104	Molecular Function
+GO:0050567	glutaminyl-tRNA synthase (glutamine-hydr...	2	1	0.01	35	0.0104	0.0104	Molecular Function
+GO:0097110	scaffold protein binding	3	1	0.02	37	0.0156	0.0156	Molecular Function
+GO:0046975	histone methyltransferase activity (H3-K...	4	1	0.02	38	0.0208	0.0208	Molecular Function
+GO:0008310	single-stranded DNA 3'-5' exodeoxyribonu...	4	1	0.02	40	0.0208	0.0208	Molecular Function
+GO:0042800	histone methyltransferase activity (H3-K...	5	1	0.03	41	0.0259	0.0259	Molecular Function
+GO:0008297	single-stranded DNA exodeoxyribonuclease...	5	1	0.03	42	0.0259	0.0259	Molecular Function
+GO:0008296	3'-5'-exodeoxyribonuclease activity	6	1	0.03	44	0.0310	0.0310	Molecular Function
+GO:0016884	carbon-nitrogen ligase activity, with gl...	7	1	0.04	46	0.0360	0.0360	Molecular Function
+GO:0004529	exodeoxyribonuclease activity	7	1	0.04	47	0.0360	0.0360	Molecular Function
+GO:0016895	exodeoxyribonuclease activity, producing...	7	1	0.04	48	0.0360	0.0360	Molecular Function
+GO:0051219	phosphoprotein binding	7	1	0.04	49	0.0360	0.0360	Molecular Function
+GO:0004364	glutathione transferase activity	8	1	0.04	50	0.0411	0.0411	Molecular Function
+GO:0008239	dipeptidyl-peptidase activity	8	1	0.04	51	0.0411	0.0411	Molecular Function
+GO:0016763	transferase activity, transferring pento...	9	1	0.05	52	0.0461	0.0461	Molecular Function
+GO:0055029	nuclear DNA-directed RNA polymerase comp...	95	4	0.45	2	0.0472	0.00088	Cellular Component
+GO:0000428	DNA-directed RNA polymerase complex	96	4	0.45	3	0.0482	0.00091	Cellular Component
+GO:0030880	RNA polymerase complex	96	4	0.45	4	0.0482	0.00091	Cellular Component
+GO:0005665	RNA polymerase II, core complex	13	2	0.06	5	0.0016	0.00159	Cellular Component
+GO:0030956	glutamyl-tRNA(Gln) amidotransferase comp...	1	1	0	7	0.0047	0.00470	Cellular Component
+GO:0045169	fusome	28	2	0.13	9	0.0074	0.00739	Cellular Component
+GO:0060187	cell pole	2	1	0.01	10	0.0094	0.00937	Cellular Component
+GO:0008622	epsilon DNA polymerase complex	2	1	0.01	11	0.0094	0.00937	Cellular Component
+GO:0043204	perikaryon	3	1	0.01	13	0.0140	0.01403	Cellular Component
+GO:0070732	spindle envelope	5	1	0.02	19	0.0233	0.02327	Cellular Component
+GO:0031332	RNAi effector complex	6	1	0.03	21	0.0279	0.02787	Cellular Component
+GO:0016442	RISC complex	6	1	0.03	22	0.0279	0.02787	Cellular Component
+GO:0048188	Set1C/COMPASS complex	7	1	0.03	23	0.0324	0.03244	Cellular Component
+GO:0005701	polytene chromosome chromocenter	8	1	0.04	24	0.0370	0.03699	Cellular Component
+GO:0005576	extracellular region	279	4	1.31	25	0.0385	0.03850	Cellular Component
+GO:0005791	rough endoplasmic reticulum	9	1	0.04	26	0.0415	0.04152	Cellular Component
+GO:0043025	neuronal cell body	71	2	0.33	27	0.0430	0.04305	Cellular Component
+GO:0070847	core mediator complex	10	1	0.05	28	0.0460	0.04603	Cellular Component

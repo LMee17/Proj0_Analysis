@@ -1,0 +1,96 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0090267	positive regulation of mitotic cell cycl...	1	1	0	2	0.0049	0.0049	Biological Process
+GO:0071928	tyramine signaling pathway	1	1	0	3	0.0049	0.0049	Biological Process
+GO:0071418	cellular response to amine stimulus	1	1	0	5	0.0049	0.0049	Biological Process
+GO:0090070	positive regulation of ribosome biogenes...	2	1	0.01	8	0.0098	0.0098	Biological Process
+GO:0060158	phospholipase C-activating dopamine rece...	2	1	0.01	10	0.0098	0.0098	Biological Process
+GO:0097017	renal protein absorption	2	1	0.01	12	0.0098	0.0098	Biological Process
+GO:0090235	regulation of metaphase plate congressio...	2	1	0.01	15	0.0098	0.0098	Biological Process
+GO:2000786	positive regulation of autophagosome ass...	2	1	0.01	16	0.0098	0.0098	Biological Process
+GO:0030198	extracellular matrix organization	32	2	0.16	18	0.0106	0.0106	Biological Process
+GO:0099504	synaptic vesicle cycle	101	3	0.5	19	0.0129	0.0129	Biological Process
+GO:1903423	positive regulation of synaptic vesicle ...	3	1	0.01	21	0.0147	0.0147	Biological Process
+GO:1900244	positive regulation of synaptic vesicle ...	3	1	0.01	22	0.0147	0.0147	Biological Process
+GO:1901673	regulation of mitotic spindle assembly	3	1	0.01	23	0.0147	0.0147	Biological Process
+GO:0090528	smooth septate junction assembly	3	1	0.01	25	0.0147	0.0147	Biological Process
+GO:0099003	vesicle-mediated transport in synapse	111	3	0.55	26	0.0166	0.0166	Biological Process
+GO:0140238	presynaptic endocytosis	43	2	0.21	27	0.0187	0.0187	Biological Process
+GO:0048488	synaptic vesicle endocytosis	43	2	0.21	28	0.0187	0.0187	Biological Process
+GO:0043062	extracellular structure organization	44	2	0.22	30	0.0195	0.0195	Biological Process
+GO:0090169	regulation of spindle assembly	4	1	0.02	32	0.0196	0.0196	Biological Process
+GO:1901838	positive regulation of transcription of ...	4	1	0.02	33	0.0196	0.0196	Biological Process
+GO:0060236	regulation of mitotic spindle organizati...	4	1	0.02	34	0.0196	0.0196	Biological Process
+GO:0007191	adenylate cyclase-activating dopamine re...	4	1	0.02	35	0.0196	0.0196	Biological Process
+GO:0030704	vitelline membrane formation	4	1	0.02	36	0.0196	0.0196	Biological Process
+GO:0035803	egg coat formation	4	1	0.02	37	0.0196	0.0196	Biological Process
+GO:0007305	vitelline membrane formation involved in...	4	1	0.02	39	0.0196	0.0196	Biological Process
+GO:0036465	synaptic vesicle recycling	48	2	0.24	41	0.0230	0.0230	Biological Process
+GO:0051252	regulation of RNA metabolic process	750	8	3.7	42	0.0239	0.0239	Biological Process
+GO:1901836	regulation of transcription of nucleolar...	5	1	0.02	43	0.0244	0.0244	Biological Process
+GO:0007599	hemostasis	5	1	0.02	44	0.0244	0.0244	Biological Process
+GO:0042381	hemolymph coagulation	5	1	0.02	45	0.0244	0.0244	Biological Process
+GO:0090224	regulation of spindle organization	5	1	0.02	46	0.0244	0.0244	Biological Process
+GO:0050817	coagulation	5	1	0.02	48	0.0244	0.0244	Biological Process
+GO:0007612	learning	53	2	0.26	49	0.0277	0.0277	Biological Process
+GO:0010468	regulation of gene expression	928	9	4.58	50	0.0284	0.0284	Biological Process
+GO:2000253	positive regulation of feeding behavior	6	1	0.03	51	0.0293	0.0293	Biological Process
+GO:1900242	regulation of synaptic vesicle endocytos...	6	1	0.03	52	0.0293	0.0293	Biological Process
+GO:0042790	nucleolar large rRNA transcription by RN...	6	1	0.03	53	0.0293	0.0293	Biological Process
+GO:0045943	positive regulation of transcription by ...	6	1	0.03	54	0.0293	0.0293	Biological Process
+GO:0071168	protein localization to chromatin	6	1	0.03	55	0.0293	0.0293	Biological Process
+GO:0019219	regulation of nucleobase-containing comp...	782	8	3.86	56	0.0300	0.0300	Biological Process
+GO:1903421	regulation of synaptic vesicle recycling	7	1	0.03	59	0.0341	0.0341	Biological Process
+GO:0097205	renal filtration	7	1	0.03	60	0.0341	0.0341	Biological Process
+GO:0097206	nephrocyte filtration	7	1	0.03	61	0.0341	0.0341	Biological Process
+GO:0048133	male germ-line stem cell asymmetric divi...	7	1	0.03	62	0.0341	0.0341	Biological Process
+GO:0018279	protein N-linked glycosylation via aspar...	7	1	0.03	63	0.0341	0.0341	Biological Process
+GO:0001120	protein-DNA complex remodeling	7	1	0.03	64	0.0341	0.0341	Biological Process
+GO:0001112	DNA-templated transcription open complex...	7	1	0.03	65	0.0341	0.0341	Biological Process
+GO:0001113	transcription open complex formation at ...	7	1	0.03	66	0.0341	0.0341	Biological Process
+GO:0006743	ubiquinone metabolic process	7	1	0.03	67	0.0341	0.0341	Biological Process
+GO:0006744	ubiquinone biosynthetic process	7	1	0.03	68	0.0341	0.0341	Biological Process
+GO:1901661	quinone metabolic process	7	1	0.03	69	0.0341	0.0341	Biological Process
+GO:1901663	quinone biosynthetic process	7	1	0.03	70	0.0341	0.0341	Biological Process
+GO:0018196	peptidyl-asparagine modification	7	1	0.03	71	0.0341	0.0341	Biological Process
+GO:0060250	germ-line stem-cell niche homeostasis	7	1	0.03	72	0.0341	0.0341	Biological Process
+GO:0034367	protein-containing complex remodeling	7	1	0.03	73	0.0341	0.0341	Biological Process
+GO:0070085	glycosylation	63	2	0.31	74	0.0381	0.0381	Biological Process
+GO:0045500	sevenless signaling pathway	8	1	0.04	75	0.0388	0.0388	Biological Process
+GO:0034975	protein folding in endoplasmic reticulum	8	1	0.04	76	0.0388	0.0388	Biological Process
+GO:0001111	promoter clearance from RNA polymerase I...	8	1	0.04	77	0.0388	0.0388	Biological Process
+GO:0001109	promoter clearance during DNA-templated ...	8	1	0.04	78	0.0388	0.0388	Biological Process
+GO:0006356	regulation of transcription by RNA polym...	8	1	0.04	79	0.0388	0.0388	Biological Process
+GO:0006355	regulation of transcription, DNA-templat...	674	7	3.33	81	0.0402	0.0402	Biological Process
+GO:0085029	extracellular matrix assembly	9	1	0.04	82	0.0436	0.0436	Biological Process
+GO:0009303	rRNA transcription	9	1	0.04	83	0.0436	0.0436	Biological Process
+GO:0036098	male germ-line stem cell population main...	9	1	0.04	85	0.0436	0.0436	Biological Process
+GO:2001141	regulation of RNA biosynthetic process	691	7	3.41	86	0.0452	0.0452	Biological Process
+GO:1903506	regulation of nucleic acid-templated tra...	691	7	3.41	87	0.0452	0.0452	Biological Process
+GO:0090316	positive regulation of intracellular pro...	10	1	0.05	89	0.0483	0.0483	Biological Process
+GO:0034502	protein localization to chromosome	10	1	0.05	90	0.0483	0.0483	Biological Process
+GO:0060259	regulation of feeding behavior	10	1	0.05	91	0.0483	0.0483	Biological Process
+GO:0003677	DNA binding	334	6	1.51	1	0.0027	0.0027	Molecular Function
+GO:0003810	protein-glutamine gamma-glutamyltransfer...	1	1	0	2	0.0045	0.0045	Molecular Function
+GO:0000033	alpha-1,3-mannosyltransferase activity	2	1	0.01	4	0.0090	0.0090	Molecular Function
+GO:0008226	tyramine receptor activity	2	1	0.01	5	0.0090	0.0090	Molecular Function
+GO:0004576	oligosaccharyl transferase activity	3	1	0.01	6	0.0135	0.0135	Molecular Function
+GO:0004579	dolichyl-diphosphooligosaccharide-protei...	3	1	0.01	7	0.0135	0.0135	Molecular Function
+GO:0005118	sevenless binding	3	1	0.01	8	0.0135	0.0135	Molecular Function
+GO:0042169	SH2 domain binding	5	1	0.02	9	0.0224	0.0224	Molecular Function
+GO:0031593	polyubiquitin modification-dependent pro...	7	1	0.03	11	0.0312	0.0312	Molecular Function
+GO:0017124	SH3 domain binding	10	1	0.05	15	0.0443	0.0443	Molecular Function
+GO:0070090	metaphase plate	1	1	0	1	0.0047	0.0047	Cellular Component
+GO:0042405	nuclear inclusion body	1	1	0	2	0.0047	0.0047	Cellular Component
+GO:0090734	site of DNA damage	3	1	0.01	4	0.0140	0.0140	Cellular Component
+GO:0035861	site of double-strand break	3	1	0.01	5	0.0140	0.0140	Cellular Component
+GO:1990047	spindle matrix	4	1	0.02	6	0.0187	0.0187	Cellular Component
+GO:0016363	nuclear matrix	5	1	0.02	7	0.0233	0.0233	Cellular Component
+GO:0000439	transcription factor TFIIH core complex	6	1	0.03	8	0.0279	0.0279	Cellular Component
+GO:0072546	ER membrane protein complex	7	1	0.03	9	0.0324	0.0324	Cellular Component
+GO:0000786	nucleosome	7	1	0.03	10	0.0324	0.0324	Cellular Component
+GO:0005920	smooth septate junction	7	1	0.03	11	0.0324	0.0324	Cellular Component
+GO:0008250	oligosaccharyltransferase complex	7	1	0.03	12	0.0324	0.0324	Cellular Component
+GO:0005701	polytene chromosome chromocenter	8	1	0.04	13	0.0370	0.0370	Cellular Component
+GO:0005652	nuclear lamina	8	1	0.04	14	0.0370	0.0370	Cellular Component
+GO:0005675	transcription factor TFIIH holo complex	10	1	0.05	15	0.0460	0.0460	Cellular Component
+GO:0005719	nuclear euchromatin	10	1	0.05	16	0.0460	0.0460	Cellular Component

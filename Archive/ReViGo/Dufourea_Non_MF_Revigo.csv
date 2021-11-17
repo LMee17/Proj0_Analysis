@@ -1,0 +1,13 @@
+TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
+GO:0008609	alkylglycerone-phosphate_synthase_activity	0.009	-6.019	-2.780	0.301	-2.678	0.716	0.000	-1	False
+GO:0015643	toxic_substance_binding	0.009	-1.217	7.791	0.301	-2.678	0.987	0.000	-1	False
+GO:0071949	FAD_binding	0.222	4.796	-1.223	1.415	-2.367	0.985	0.039	-1	False
+GO:0097110	scaffold_protein_binding	0.027	0.404	-6.677	0.602	-2.194	0.986	0.042	-1	False
+GO:0016740	transferase_activity	12.032	1.215	2.912	3.133	-5.347	0.814	0.110	-1	False
+GO:0003867	4-aminobutyrate_transaminase_activity	0.009	-7.770	-0.323	0.301	-2.367	0.716	0.223	-1	False
+GO:0004169	dolichyl-phosphate-mannose-protein_mannosyltransferase_activity	0.062	-4.599	-0.177	0.903	-2.367	0.629	0.223	-1	False
+GO:0003950	NAD+_ADP-ribosyltransferase_activity	0.044	null	null	0.778	-2.367	0.647	0.534	4169	True
+GO:0000179	rRNA_(adenine-N6,N6-)-dimethyltransferase_activity	0.027	-6.243	1.907	0.602	-2.194	0.591	0.239	-1	False
+GO:0003899	DNA-directed_5'-3'_RNA_polymerase_activity	0.257	null	null	1.477	-1.561	0.454	0.507	179	True
+GO:0097747	RNA_polymerase_activity	0.257	null	null	1.477	-1.561	0.490	0.800	179	True
+GO:0034062	5'-3'_RNA_polymerase_activity	0.257	null	null	1.477	-1.561	0.465	0.997	179	True
