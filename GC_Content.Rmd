@@ -224,3 +224,178 @@ qqline(resid(lm3))
 dvg2[dvg2$Gene == "LOC724292",]
 ```
 
+I now have a preliminary list of non-canon genes to play with.
+
+
+```{r}
+dvg3 <- read.table("output/AlignmentInfo2_Nov2021.tsv",
+                   header = T, sep = "\t")
+head(dvg3)
+```
+
+```{r}
+p2 <- ggplot(dvg3, aes(x = log(dN.dS), y = log(GeneAverage))) +
+  geom_point(aes(color = factor(Function))) +
+  stat_smooth(method = "lm",
+        col = "#C42126",
+        se = FALSE,
+        size = 1) +
+  xlab("log dN/dS ratio") +
+  ylab("log GC content")
+
+p2
+```
+
+```{r}
+p3 <- ggplot(dvg3, aes(x=Function, y=GeneAverage, fill = Function)) + 
+  geom_boxplot()
+
+p3
+```
+And dN.dS ... 
+
+```{r}
+dvg3$Function <- factor(dvg3$Function, levels=c("Receptor", 
+                                                "Signalling", "Effector",
+                                                "Non-Canon", "NA"))
+
+p3 <- ggplot(dvg3, aes(x=Function, y=dN.dS, fill = Function)) + 
+  geom_boxplot()
+
+p3
+```
+
+```{r}
+png("Plots/PrelimdN.dS.png")
+p3
+dev.off
+```
+
+Hmm. I'm gonna have to look at some of these alignments that have high dNdS ....
+
+```{r}
+dvg3[dvg$dN.dS > 0.3,]
+```
+
+
+
+```{r}
+highomega <- as.data.frame(dvg3$Gene[dvg3$dN.dS > 0.3])
+write.table(highomega, "output/highomega.txt", col.names = F, row.names = F, quote = F)
+```
+
+So I went away and looked through those alignments and took out 3 for seeming to have shifted a reading frame or having a species where the protein is no longer predicted.
+
+```{r}
+remaln <- c("LOC727165", "LOC726460", "LOC102654160")
+dvg3[dvg3$Gene %in% remaln,]
+```
+
+Plot again ...
+
+
+```{r}
+dvg4 <- dvg3[!dvg3$Gene %in% remaln,]
+
+library("stringr")
+dvg4$Function <- str_replace_na(dvg4$Function, replacement = "Background")
+dvg4$Function[dvg4$Function == "Non-Canon"] <- "Non-Canon Immune"
+
+head(dvg4)
+```
+
+
+```{r}
+dvg4$Function <- factor(dvg4$Function, levels=c("Receptor", 
+                                                "Signalling", "Effector",
+                                                "Non-Canon Immune", "Background"))
+
+
+p2 <- ggplot(dvg4, aes(x = log(dN.dS), y = log(GeneAverage))) +
+  geom_point(aes(color = factor(Function), shape = factor(Function))) +
+  scale_color_manual(values = c("Receptor" = "pink",
+                                "Signalling"="orange",
+                                "Effector"="skyblue",
+                                "Non-Canon Immune"="green",
+                                "Background"="gray")) +
+  stat_smooth(method = "lm",
+        col = "#C42126",
+        se = FALSE,
+        size = 1) +
+  xlab("log dN/dS ratio") +
+  ylab("log GC content")
+
+p2
+```
+
+```{r}
+dvg4$Immune <- ifelse(dvg4$Function == "Background", "0", "1")
+dvg4$Class[dvg4$Function == "Background"] <- "Background"
+dvg4$Class[dvg4$Function == "Non-Canon Immune"] <- "Non-Canon"
+dvg4$Class <- str_replace_na(dvg4$Class, replacement = "Canon Immune")
+head(dvg4, n= 40)
+```
+
+
+```{r}
+p2 <- ggplot(dvg4, aes(x = log(dN.dS), y = log(GeneAverage))) +
+  geom_point(aes(color = Class, alpha = Immune)) +
+  scale_color_manual(values = c("#56B4E9",
+                               "violet",
+                               "#009E73",
+                                "#F0E442",
+                                "gray"), 
+                     name = "Gene Class") +
+  #scale_alpha_manual(values = c(0.25, 5), guide = "none") +
+   geom_line(stat="smooth",method = "lm",
+              size = .5,
+              linetype ="dashed",
+              alpha = 0.5) + 
+        xlab("log dN/dS ratio") +
+        ylab("log GC content")
+
+p2
+```
+
+```{r}
+p3 <- ggplot(dvg4, aes(x=Function, y=GeneAverage, fill = Class)) + 
+  geom_boxplot() + 
+  scale_fill_manual(values = c("#56B4E9",
+                               "violet",
+                               "#009E73",
+                                "#F0E442",
+                                "gray"),
+                    name = "Gene Class")
+
+p3
+```
+```{r}
+dvg4$Class <- factor(dvg4$Class, levels=c("Canon Immune", 
+                                                "Non-Canon", 
+                                                "Background"))
+
+p3.2 <- ggplot(dvg4) +
+  geom_boxplot(aes(x=Function, y=dN.dS, fill = Class)) +
+  scale_fill_manual(values = c("#009E73",
+                               "violet",
+                               "gray"), 
+                    name = "Gene Class") +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
+  xlab("Gene Function") +
+  ylab("dN/dS Ratio")
+   
+p3.2
+```
+
+Write up Table
+
+```{r}
+head(dvg4)
+dvg5 <- dvg4[,c(1,5,9,2:4,6:8)]
+
+head(dvg5)
+
+write.table(dvg5, "Genome_Misc/AlnInfo_ImmFunc_Nov2021.tsv",
+            col.names = T, row.names = T, quote = F, sep = "\t")
+```
+
