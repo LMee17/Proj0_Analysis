@@ -27,11 +27,11 @@ LOC100577764	Recognition
 LOC100577844	Recognition
 LOC100577943	Recognition
 LOC100578030	Signalling
-LOC100578084 	Recognition
+LOC100578084	Recognition
 LOC100578156	Signalling
 LOC100578356	Signalling
 LOC100578534	Signalling
-LOC100578534 	Signalling
+LOC100578534	Signalling
 LOC100578537	Effector
 LOC100578966	Recognition
 LOC102654182	Recognition
@@ -115,7 +115,7 @@ LOC411888	Effector
 LOC411892	Signalling
 LOC411915	Signalling
 LOC411980	Signalling
-LOC412013 	Effector
+LOC412013	Effector
 LOC412115	Signalling
 LOC412235	Signalling
 LOC412278	Signalling
@@ -219,7 +219,7 @@ LOC724873	Signalling
 LOC724899	Effector
 LOC724917	Signalling
 LOC724930	Signalling
-LOC724930 	Signalling
+LOC724930	Signalling
 LOC724950	Recognition
 LOC725024	Signalling
 LOC725038	Recognition
@@ -253,7 +253,7 @@ LOC726197	Signalling
 LOC726269	Effector
 LOC726286	Signalling
 LOC726289	Signalling
-LOC726309 	Recognition
+LOC726309	Recognition
 LOC726320	Signalling
 LOC726497	Signalling
 LOC726500	Signalling
@@ -272,7 +272,7 @@ LOC727396	Signalling
 LOC727418	Effector
 LOC727634	Signalling
 NOS	Effector
-Pgrp-S2	Recognition
+Pgrp-s2	Recognition
 PGRP-S3	Recognition
 PPO	Effector
 Pten	Signalling
