@@ -1,0 +1,188 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0045455	ecdysteroid metabolic process	83	6	0.7	2	0.00060	6.9e-05	Biological Process
+GO:0009631	cold acclimation	12	3	0.1	6	0.00012	0.00012	Biological Process
+GO:0060575	intestinal epithelial cell differentiati...	5	2	0.04	12	0.03289	0.00069	Biological Process
+GO:0018990	ecdysis, chitin-based cuticle	25	3	0.21	13	0.00116	0.00116	Biological Process
+GO:0042026	protein refolding	8	2	0.07	16	0.00189	0.00189	Biological Process
+GO:0071361	cellular response to ethanol	9	2	0.08	19	0.00242	0.00242	Biological Process
+GO:0006026	aminoglycan catabolic process	34	3	0.29	20	0.00286	0.00286	Biological Process
+GO:0010025	wax biosynthetic process	10	2	0.08	22	0.00301	0.00301	Biological Process
+GO:0007589	body fluid secretion	12	2	0.1	25	0.00437	0.00437	Biological Process
+GO:0042559	pteridine-containing compound biosynthet...	12	2	0.1	26	0.00437	0.00437	Biological Process
+GO:0010171	body morphogenesis	13	2	0.11	27	0.00513	0.00513	Biological Process
+GO:0042595	behavioral response to starvation	13	2	0.11	28	0.00513	0.00513	Biological Process
+GO:0035336	long-chain fatty-acyl-CoA metabolic proc...	16	2	0.13	32	0.00777	0.00777	Biological Process
+GO:0015971	guanosine tetraphosphate catabolic proce...	1	1	0.01	34	0.00840	0.00840	Biological Process
+GO:0046344	ecdysteroid catabolic process	1	1	0.01	35	0.00840	0.00840	Biological Process
+GO:1902616	acyl carnitine transmembrane transport	1	1	0.01	37	0.00840	0.00840	Biological Process
+GO:0006679	glucosylceramide biosynthetic process	1	1	0.01	38	0.00840	0.00840	Biological Process
+GO:0060576	intestinal epithelial cell development	1	1	0.01	40	0.00840	0.00840	Biological Process
+GO:0050843	S-adenosylmethionine catabolic process	1	1	0.01	41	0.00840	0.00840	Biological Process
+GO:1901069	guanosine-containing compound catabolic ...	1	1	0.01	45	0.00840	0.00840	Biological Process
+GO:1901054	sarcosine biosynthetic process	1	1	0.01	47	0.00840	0.00840	Biological Process
+GO:0006828	manganese ion transport	17	2	0.14	48	0.00876	0.00876	Biological Process
+GO:0071236	cellular response to antibiotic	18	2	0.15	49	0.00980	0.00980	Biological Process
+GO:0009074	aromatic amino acid family catabolic pro...	20	2	0.17	53	0.01203	0.01203	Biological Process
+GO:0002764	immune response-regulating signaling pat...	58	3	0.49	54	0.01274	0.01274	Biological Process
+GO:0071229	cellular response to acid chemical	22	2	0.18	55	0.01447	0.01447	Biological Process
+GO:0003333	amino acid transmembrane transport	113	4	0.95	56	0.01509	0.01509	Biological Process
+GO:0044283	small molecule biosynthetic process	312	7	2.62	60	0.04560	0.01615	Biological Process
+GO:0035095	behavioral response to nicotine	2	1	0.02	61	0.01672	0.01672	Biological Process
+GO:0006558	L-phenylalanine metabolic process	2	1	0.02	62	0.01672	0.01672	Biological Process
+GO:0006559	L-phenylalanine catabolic process	2	1	0.02	63	0.01672	0.01672	Biological Process
+GO:0019442	tryptophan catabolic process to acetyl-C...	2	1	0.02	64	0.01672	0.01672	Biological Process
+GO:0046654	tetrahydrofolate biosynthetic process	2	1	0.02	65	0.01672	0.01672	Biological Process
+GO:0000053	argininosuccinate metabolic process	2	1	0.02	68	0.01672	0.01672	Biological Process
+GO:0006021	inositol biosynthetic process	2	1	0.02	69	0.01672	0.01672	Biological Process
+GO:1902221	erythrose 4-phosphate/phosphoenolpyruvat...	2	1	0.02	70	0.01672	0.01672	Biological Process
+GO:1902222	erythrose 4-phosphate/phosphoenolpyruvat...	2	1	0.02	71	0.01672	0.01672	Biological Process
+GO:0009257	10-formyltetrahydrofolate biosynthetic p...	2	1	0.02	73	0.01672	0.01672	Biological Process
+GO:0097237	cellular response to toxic substance	65	3	0.55	75	0.01728	0.01728	Biological Process
+GO:0061057	peptidoglycan recognition protein signal...	27	2	0.23	77	0.02140	0.02140	Biological Process
+GO:0006865	amino acid transport	130	4	1.09	81	0.02391	0.02391	Biological Process
+GO:0006032	chitin catabolic process	29	2	0.24	82	0.02448	0.02448	Biological Process
+GO:0015820	leucine transport	3	1	0.03	86	0.02498	0.02498	Biological Process
+GO:0015803	branched-chain amino acid transport	3	1	0.03	87	0.02498	0.02498	Biological Process
+GO:0098713	leucine import across plasma membrane	3	1	0.03	88	0.02498	0.02498	Biological Process
+GO:0000270	peptidoglycan metabolic process	3	1	0.03	92	0.02498	0.02498	Biological Process
+GO:0009253	peptidoglycan catabolic process	3	1	0.03	93	0.02498	0.02498	Biological Process
+GO:0071454	cellular response to anoxia	3	1	0.03	95	0.02498	0.02498	Biological Process
+GO:0097484	dendrite extension	3	1	0.03	96	0.02498	0.02498	Biological Process
+GO:1903801	L-leucine import across plasma membrane	3	1	0.03	97	0.02498	0.02498	Biological Process
+GO:0046148	pigment biosynthetic process	133	4	1.12	98	0.02573	0.02573	Biological Process
+GO:0009072	aromatic amino acid family metabolic pro...	30	2	0.25	99	0.02609	0.02609	Biological Process
+GO:0001101	response to acid chemical	33	2	0.28	103	0.03116	0.03116	Biological Process
+GO:0046348	amino sugar catabolic process	33	2	0.28	104	0.03116	0.03116	Biological Process
+GO:0031057	negative regulation of histone modificat...	33	2	0.28	105	0.03116	0.03116	Biological Process
+GO:0016201	synaptic target inhibition	33	2	0.28	106	0.03116	0.03116	Biological Process
+GO:1901072	glucosamine-containing compound cataboli...	33	2	0.28	107	0.03116	0.03116	Biological Process
+GO:0007283	spermatogenesis	523	9	4.39	108	0.03197	0.03197	Biological Process
+GO:0034756	regulation of iron ion transport	4	1	0.03	109	0.03317	0.03317	Biological Process
+GO:0034758	positive regulation of iron ion transpor...	4	1	0.03	110	0.03317	0.03317	Biological Process
+GO:0034759	regulation of iron ion transmembrane tra...	4	1	0.03	111	0.03317	0.03317	Biological Process
+GO:0046701	insecticide catabolic process	4	1	0.03	112	0.03317	0.03317	Biological Process
+GO:0017143	insecticide metabolic process	4	1	0.03	113	0.03317	0.03317	Biological Process
+GO:0019627	urea metabolic process	4	1	0.03	114	0.03317	0.03317	Biological Process
+GO:0046680	response to DDT	4	1	0.03	115	0.03317	0.03317	Biological Process
+GO:0046689	response to mercury ion	4	1	0.03	116	0.03317	0.03317	Biological Process
+GO:0071941	nitrogen cycle metabolic process	4	1	0.03	118	0.03317	0.03317	Biological Process
+GO:0000050	urea cycle	4	1	0.03	121	0.03317	0.03317	Biological Process
+GO:0009256	10-formyltetrahydrofolate metabolic proc...	4	1	0.03	122	0.03317	0.03317	Biological Process
+GO:1903703	enterocyte differentiation	4	1	0.03	123	0.03317	0.03317	Biological Process
+GO:0042178	xenobiotic catabolic process	4	1	0.03	124	0.03317	0.03317	Biological Process
+GO:0071421	manganese ion transmembrane transport	4	1	0.03	126	0.03317	0.03317	Biological Process
+GO:0034761	positive regulation of iron ion transmem...	4	1	0.03	127	0.03317	0.03317	Biological Process
+GO:0006030	chitin metabolic process	35	2	0.29	128	0.03474	0.03474	Biological Process
+GO:0015918	sterol transport	37	2	0.31	130	0.03846	0.03846	Biological Process
+GO:0030431	sleep	221	5	1.86	131	0.03857	0.03857	Biological Process
+GO:0031400	negative regulation of protein modificat...	224	5	1.88	132	0.04050	0.04050	Biological Process
+GO:0046718	viral entry into host cell	5	1	0.04	134	0.04129	0.04129	Biological Process
+GO:0051701	biological process involved in interacti...	5	1	0.04	135	0.04129	0.04129	Biological Process
+GO:0097091	synaptic vesicle clustering	5	1	0.04	136	0.04129	0.04129	Biological Process
+GO:0006805	xenobiotic metabolic process	5	1	0.04	137	0.04129	0.04129	Biological Process
+GO:0035283	central nervous system segmentation	5	1	0.04	138	0.04129	0.04129	Biological Process
+GO:0035284	brain segmentation	5	1	0.04	139	0.04129	0.04129	Biological Process
+GO:0019441	tryptophan catabolic process to kynureni...	5	1	0.04	140	0.04129	0.04129	Biological Process
+GO:0031117	positive regulation of microtubule depol...	5	1	0.04	141	0.04129	0.04129	Biological Process
+GO:0044409	entry into host	5	1	0.04	142	0.04129	0.04129	Biological Process
+GO:0045837	negative regulation of membrane potentia...	5	1	0.04	143	0.04129	0.04129	Biological Process
+GO:0052126	movement in host environment	5	1	0.04	144	0.04129	0.04129	Biological Process
+GO:0006117	acetaldehyde metabolic process	5	1	0.04	145	0.04129	0.04129	Biological Process
+GO:0009113	purine nucleobase biosynthetic process	5	1	0.04	146	0.04129	0.04129	Biological Process
+GO:0060586	multicellular organismal iron ion homeos...	5	1	0.04	147	0.04129	0.04129	Biological Process
+GO:0006027	glycosaminoglycan catabolic process	5	1	0.04	148	0.04129	0.04129	Biological Process
+GO:0042631	cellular response to water deprivation	5	1	0.04	149	0.04129	0.04129	Biological Process
+GO:0032536	regulation of cell projection size	5	1	0.04	150	0.04129	0.04129	Biological Process
+GO:0071465	cellular response to desiccation	5	1	0.04	151	0.04129	0.04129	Biological Process
+GO:0090528	smooth septate junction assembly	5	1	0.04	152	0.04129	0.04129	Biological Process
+GO:0007494	midgut development	92	3	0.77	153	0.04228	0.04228	Biological Process
+GO:1902905	positive regulation of supramolecular fi...	156	4	1.31	155	0.04242	0.04242	Biological Process
+GO:0007291	sperm individualization	156	4	1.31	156	0.04242	0.04242	Biological Process
+GO:0008205	ecdysone metabolic process	41	2	0.34	157	0.04635	0.04635	Biological Process
+GO:0007218	neuropeptide signaling pathway	96	3	0.81	158	0.04697	0.04697	Biological Process
+GO:0033212	iron import into cell	6	1	0.05	160	0.04934	0.04934	Biological Process
+GO:0035094	response to nicotine	6	1	0.05	161	0.04934	0.04934	Biological Process
+GO:0009396	folic acid-containing compound biosynthe...	6	1	0.05	162	0.04934	0.04934	Biological Process
+GO:0006526	arginine biosynthetic process	6	1	0.05	163	0.04934	0.04934	Biological Process
+GO:0050774	negative regulation of dendrite morphoge...	6	1	0.05	165	0.04934	0.04934	Biological Process
+GO:2000171	negative regulation of dendrite developm...	6	1	0.05	166	0.04934	0.04934	Biological Process
+GO:0003096	renal sodium ion transport	6	1	0.05	169	0.04934	0.04934	Biological Process
+GO:0071462	cellular response to water stimulus	6	1	0.05	170	0.04934	0.04934	Biological Process
+GO:0006728	pteridine biosynthetic process	6	1	0.05	171	0.04934	0.04934	Biological Process
+GO:0019889	pteridine metabolic process	6	1	0.05	172	0.04934	0.04934	Biological Process
+GO:0016491	oxidoreductase activity	470	14	3.68	5	0.00019	1.6e-05	Molecular Function
+GO:0030882	lipid antigen binding	3	2	0.02	8	0.00018	0.00018	Molecular Function
+GO:0070891	lipoteichoic acid binding	3	2	0.02	9	0.00018	0.00018	Molecular Function
+GO:0020037	heme binding	23	3	0.18	13	0.00074	0.00074	Molecular Function
+GO:0004177	aminopeptidase activity	25	3	0.2	14	0.00094	0.00094	Molecular Function
+GO:0001530	lipopolysaccharide binding	8	2	0.06	15	0.00165	0.00165	Molecular Function
+GO:0005214	structural constituent of chitin-based c...	34	3	0.27	17	0.00234	0.00234	Molecular Function
+GO:0008239	dipeptidyl-peptidase activity	10	2	0.08	18	0.00262	0.00262	Molecular Function
+GO:0080019	fatty-acyl-CoA reductase (alcohol-formin...	10	2	0.08	19	0.00262	0.00262	Molecular Function
+GO:0043621	protein self-association	10	2	0.08	20	0.00262	0.00262	Molecular Function
+GO:0008236	serine-type peptidase activity	87	4	0.68	22	0.00478	0.00478	Molecular Function
+GO:0016411	acylglycerol O-acyltransferase activity	16	2	0.13	24	0.00678	0.00678	Molecular Function
+GO:0008120	ceramide glucosyltransferase activity	1	1	0.01	25	0.00783	0.00783	Molecular Function
+GO:0016084	myostimulatory hormone activity	1	1	0.01	26	0.00783	0.00783	Molecular Function
+GO:0004040	amidase activity	1	1	0.01	28	0.00783	0.00783	Molecular Function
+GO:0008893	guanosine-3',5'-bis(diphosphate) 3'-diph...	1	1	0.01	29	0.00783	0.00783	Molecular Function
+GO:0031492	nucleosomal DNA binding	1	1	0.01	30	0.00783	0.00783	Molecular Function
+GO:0019841	retinol binding	1	1	0.01	32	0.00783	0.00783	Molecular Function
+GO:0005504	fatty acid binding	1	1	0.01	33	0.00783	0.00783	Molecular Function
+GO:0004556	alpha-amylase activity	1	1	0.01	35	0.00783	0.00783	Molecular Function
+GO:0015078	proton transmembrane transporter activit...	102	4	0.8	37	0.00836	0.00836	Molecular Function
+GO:0051082	unfolded protein binding	60	3	0.47	38	0.01154	0.01154	Molecular Function
+GO:0032934	sterol binding	22	2	0.17	39	0.01266	0.01266	Molecular Function
+GO:0005496	steroid binding	22	2	0.17	40	0.01266	0.01266	Molecular Function
+GO:0008235	metalloexopeptidase activity	24	2	0.19	43	0.01498	0.01498	Molecular Function
+GO:0004512	inositol-3-phosphate synthase activity	2	1	0.02	44	0.01561	0.01561	Molecular Function
+GO:0016872	intramolecular lyase activity	2	1	0.02	45	0.01561	0.01561	Molecular Function
+GO:0004833	tryptophan 2,3-dioxygenase activity	2	1	0.02	46	0.01561	0.01561	Molecular Function
+GO:0030911	TPR domain binding	2	1	0.02	47	0.01561	0.01561	Molecular Function
+GO:0004329	formate-tetrahydrofolate ligase activity	2	1	0.02	48	0.01561	0.01561	Molecular Function
+GO:0004055	argininosuccinate synthase activity	2	1	0.02	49	0.01561	0.01561	Molecular Function
+GO:0008010	structural constituent of chitin-based l...	25	2	0.2	51	0.01620	0.01620	Molecular Function
+GO:0004568	chitinase activity	28	2	0.22	52	0.02010	0.02010	Molecular Function
+GO:0004252	serine-type endopeptidase activity	76	3	0.6	53	0.02168	0.02168	Molecular Function
+GO:0008240	tripeptidyl-peptidase activity	3	1	0.02	54	0.02332	0.02332	Molecular Function
+GO:0015227	acyl carnitine transmembrane transporter...	3	1	0.02	55	0.02332	0.02332	Molecular Function
+GO:0010461	light-activated ion channel activity	3	1	0.02	56	0.02332	0.02332	Molecular Function
+GO:0035237	corazonin receptor activity	3	1	0.02	57	0.02332	0.02332	Molecular Function
+GO:0016723	oxidoreductase activity, acting on metal...	3	1	0.02	58	0.02332	0.02332	Molecular Function
+GO:0004505	phenylalanine 4-monooxygenase activity	3	1	0.02	59	0.02332	0.02332	Molecular Function
+GO:0000293	ferric-chelate reductase activity	3	1	0.02	60	0.02332	0.02332	Molecular Function
+GO:0015651	quaternary ammonium group transmembrane ...	3	1	0.02	61	0.02332	0.02332	Molecular Function
+GO:0008745	N-acetylmuramoyl-L-alanine amidase activ...	3	1	0.02	63	0.02332	0.02332	Molecular Function
+GO:0004676	3-phosphoinositide-dependent protein kin...	3	1	0.02	64	0.02332	0.02332	Molecular Function
+GO:0015453	oxidoreduction-driven active transmembra...	31	2	0.24	65	0.02436	0.02436	Molecular Function
+GO:0004857	enzyme inhibitor activity	81	3	0.63	66	0.02559	0.02559	Molecular Function
+GO:0140678	molecular function inhibitor activity	81	3	0.63	67	0.02559	0.02559	Molecular Function
+GO:0008061	chitin binding	34	2	0.27	68	0.02895	0.02895	Molecular Function
+GO:0005384	manganese ion transmembrane transporter ...	4	1	0.03	69	0.03097	0.03097	Molecular Function
+GO:0047661	amino-acid racemase activity	4	1	0.03	70	0.03097	0.03097	Molecular Function
+GO:0016855	racemase and epimerase activity, acting ...	4	1	0.03	71	0.03097	0.03097	Molecular Function
+GO:0004035	alkaline phosphatase activity	4	1	0.03	72	0.03097	0.03097	Molecular Function
+GO:0030378	serine racemase activity	4	1	0.03	73	0.03097	0.03097	Molecular Function
+GO:0036361	racemase activity, acting on amino acids...	4	1	0.03	74	0.03097	0.03097	Molecular Function
+GO:0004486	methylenetetrahydrofolate dehydrogenase ...	4	1	0.03	75	0.03097	0.03097	Molecular Function
+GO:0004488	methylenetetrahydrofolate dehydrogenase ...	4	1	0.03	76	0.03097	0.03097	Molecular Function
+GO:0004477	methenyltetrahydrofolate cyclohydrolase ...	4	1	0.03	77	0.03097	0.03097	Molecular Function
+GO:0061783	peptidoglycan muralytic activity	4	1	0.03	78	0.03097	0.03097	Molecular Function
+GO:0019238	cyclohydrolase activity	4	1	0.03	79	0.03097	0.03097	Molecular Function
+GO:0016714	oxidoreductase activity, acting on paire...	5	1	0.04	80	0.03857	0.03857	Molecular Function
+GO:0005381	iron ion transmembrane transporter activ...	5	1	0.04	81	0.03857	0.03857	Molecular Function
+GO:0016722	oxidoreductase activity, acting on metal...	6	1	0.05	85	0.04610	0.04610	Molecular Function
+GO:0005616	larval serum protein complex	5	2	0.04	5	0.00055	0.00055	Cellular Component
+GO:0042600	egg chorion	12	2	0.09	6	0.00349	0.00349	Cellular Component
+GO:0005884	actin filament	23	2	0.17	7	0.01268	0.01268	Cellular Component
+GO:0036019	endolysosome	2	1	0.01	8	0.01492	0.01492	Cellular Component
+GO:0033185	dolichol-phosphate-mannose synthase comp...	2	1	0.01	9	0.01492	0.01492	Cellular Component
+GO:0005665	RNA polymerase II, core complex	26	2	0.19	10	0.01605	0.01605	Cellular Component
+GO:0070069	cytochrome complex	27	2	0.2	11	0.01725	0.01725	Cellular Component
+GO:0035101	FACT complex	3	1	0.02	12	0.02230	0.02230	Cellular Component
+GO:0031501	mannosyltransferase complex	3	1	0.02	13	0.02230	0.02230	Cellular Component
+GO:0071986	Ragulator complex	4	1	0.03	14	0.02963	0.02963	Cellular Component
+GO:0005920	smooth septate junction	38	2	0.28	15	0.03276	0.03276	Cellular Component
+GO:0005862	muscle thin filament tropomyosin	5	1	0.04	16	0.03690	0.03690	Cellular Component
+GO:0071598	neuronal ribonucleoprotein granule	5	1	0.04	17	0.03690	0.03690	Cellular Component
+GO:0005774	vacuolar membrane	103	3	0.77	18	0.04207	0.04207	Cellular Component

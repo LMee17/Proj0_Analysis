@@ -1,0 +1,36 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0010225	response to UV-C	3	1	0	1	0.0011	0.0011	Biological Process
+GO:0097688	glutamate receptor clustering	5	1	0	3	0.0018	0.0018	Biological Process
+GO:1900744	regulation of p38MAPK cascade	5	1	0	4	0.0018	0.0018	Biological Process
+GO:1901562	response to paraquat	6	1	0	5	0.0021	0.0021	Biological Process
+GO:0009635	response to herbicide	6	1	0	6	0.0021	0.0021	Biological Process
+GO:0097753	membrane bending	15	1	0.01	8	0.0053	0.0053	Biological Process
+GO:0045678	positive regulation of R7 cell different...	22	1	0.01	9	0.0077	0.0077	Biological Process
+GO:0006749	glutathione metabolic process	30	1	0.01	12	0.0105	0.0105	Biological Process
+GO:0043407	negative regulation of MAP kinase activi...	49	1	0.02	16	0.0172	0.0172	Biological Process
+GO:0046528	imaginal disc fusion	53	1	0.02	18	0.0186	0.0186	Biological Process
+GO:0046529	imaginal disc fusion, thorax closure	53	1	0.02	19	0.0186	0.0186	Biological Process
+GO:0006575	cellular modified amino acid metabolic p...	55	1	0.02	20	0.0193	0.0193	Biological Process
+GO:0071901	negative regulation of protein serine/th...	60	1	0.02	21	0.0210	0.0210	Biological Process
+GO:0070303	negative regulation of stress-activated ...	64	1	0.02	22	0.0224	0.0224	Biological Process
+GO:0032873	negative regulation of stress-activated ...	64	1	0.02	23	0.0224	0.0224	Biological Process
+GO:0046329	negative regulation of JNK cascade	64	1	0.02	24	0.0224	0.0224	Biological Process
+GO:0040034	regulation of development, heterochronic	73	1	0.03	25	0.0255	0.0255	Biological Process
+GO:0043409	negative regulation of MAPK cascade	80	1	0.03	26	0.0279	0.0279	Biological Process
+GO:0099173	postsynapse organization	82	1	0.03	27	0.0286	0.0286	Biological Process
+GO:0046580	negative regulation of Ras protein signa...	88	1	0.03	28	0.0307	0.0307	Biological Process
+GO:0006469	negative regulation of protein kinase ac...	99	1	0.03	29	0.0344	0.0344	Biological Process
+GO:0051058	negative regulation of small GTPase medi...	102	1	0.04	30	0.0355	0.0355	Biological Process
+GO:0033673	negative regulation of kinase activity	102	1	0.04	31	0.0355	0.0355	Biological Process
+GO:0051348	negative regulation of transferase activ...	106	1	0.04	32	0.0368	0.0368	Biological Process
+GO:0030522	intracellular receptor signaling pathway	119	1	0.04	34	0.0413	0.0413	Biological Process
+GO:0043405	regulation of MAP kinase activity	129	1	0.05	35	0.0447	0.0447	Biological Process
+GO:0016034	maleylacetoacetate isomerase activity	1	1	0	1	0.00034	0.00034	Molecular Function
+GO:0004364	glutathione transferase activity	14	1	0	2	0.00476	0.00476	Molecular Function
+GO:0003899	DNA-directed 5'-3' RNA polymerase activi...	16	1	0.01	4	0.00544	0.00544	Molecular Function
+GO:0004722	protein serine/threonine phosphatase act...	67	1	0.02	8	0.02263	0.02263	Molecular Function
+GO:0004879	nuclear receptor activity	73	1	0.02	10	0.02464	0.02464	Molecular Function
+GO:0098531	ligand-activated transcription factor ac...	73	1	0.02	11	0.02464	0.02464	Molecular Function
+GO:0005665	RNA polymerase II, core complex	26	1	0.01	1	0.010	0.010	Cellular Component
+GO:0098975	postsynapse of neuromuscular junction	56	1	0.02	2	0.022	0.022	Cellular Component
+GO:0000139	Golgi membrane	113	1	0.05	3	0.044	0.044	Cellular Component

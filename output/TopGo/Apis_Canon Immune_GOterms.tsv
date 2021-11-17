@@ -1,0 +1,27 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0045849	negative regulation of nurse cell apopto...	5	1	0	1	0.00035	0.00035	Biological Process
+GO:1905880	negative regulation of oogenesis	6	1	0	3	0.00042	0.00042	Biological Process
+GO:0016242	negative regulation of macroautophagy	14	1	0	4	0.00099	0.00099	Biological Process
+GO:0000209	protein polyubiquitination	145	1	0.01	15	0.01023	0.01023	Biological Process
+GO:0009267	cellular response to starvation	175	1	0.01	16	0.01235	0.01235	Biological Process
+GO:0031669	cellular response to nutrient levels	177	1	0.01	17	0.01249	0.01249	Biological Process
+GO:0031668	cellular response to extracellular stimu...	182	1	0.01	19	0.01284	0.01284	Biological Process
+GO:0071496	cellular response to external stimulus	212	1	0.01	22	0.01496	0.01496	Biological Process
+GO:0007286	spermatid development	242	1	0.02	26	0.01707	0.01707	Biological Process
+GO:0048515	spermatid differentiation	262	1	0.02	28	0.01849	0.01849	Biological Process
+GO:0042594	response to starvation	282	1	0.02	29	0.01990	0.01990	Biological Process
+GO:0031667	response to nutrient levels	339	1	0.02	32	0.02392	0.02392	Biological Process
+GO:0009991	response to extracellular stimulus	344	1	0.02	33	0.02427	0.02427	Biological Process
+GO:0016567	protein ubiquitination	377	1	0.03	34	0.02660	0.02660	Biological Process
+GO:0032446	protein modification by small protein co...	402	1	0.03	35	0.02836	0.02836	Biological Process
+GO:0019941	modification-dependent protein catabolic...	420	1	0.03	36	0.02963	0.02963	Biological Process
+GO:0006511	ubiquitin-dependent protein catabolic pr...	420	1	0.03	37	0.02963	0.02963	Biological Process
+GO:0043632	modification-dependent macromolecule cat...	428	1	0.03	38	0.03020	0.03020	Biological Process
+GO:0051603	proteolysis involved in cellular protein...	452	1	0.03	42	0.03189	0.03189	Biological Process
+GO:0044257	cellular protein catabolic process	459	1	0.03	44	0.03239	0.03239	Biological Process
+GO:0030163	protein catabolic process	482	1	0.03	46	0.03401	0.03401	Biological Process
+GO:0070647	protein modification by small protein co...	511	1	0.04	47	0.03605	0.03605	Biological Process
+GO:0007283	spermatogenesis	523	1	0.04	48	0.03690	0.03690	Biological Process
+GO:0048232	male gamete generation	601	1	0.04	53	0.04240	0.04240	Biological Process
+GO:1901565	organonitrogen compound catabolic proces...	616	1	0.04	54	0.04346	0.04346	Biological Process
+GO:0044265	cellular macromolecule catabolic process	636	1	0.04	56	0.04487	0.04487	Biological Process

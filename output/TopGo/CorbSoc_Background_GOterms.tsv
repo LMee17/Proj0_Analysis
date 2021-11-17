@@ -1,0 +1,67 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:1903461	Okazaki fragment processing involved in ...	3	1	0	1	0.0017	0.0017	Biological Process
+GO:0007526	larval somatic muscle development	133	2	0.08	2	0.0024	0.0024	Biological Process
+GO:0035291	specification of segmental identity, int...	5	1	0	5	0.0028	0.0028	Biological Process
+GO:0035167	larval lymph gland hemopoiesis	158	2	0.09	7	0.0033	0.0033	Biological Process
+GO:0006266	DNA ligation	6	1	0	8	0.0034	0.0034	Biological Process
+GO:0048680	positive regulation of axon regeneration	11	1	0.01	13	0.0062	0.0062	Biological Process
+GO:0006366	transcription by RNA polymerase II	1689	4	0.95	18	0.0095	0.0095	Biological Process
+GO:0048194	Golgi vesicle budding	17	1	0.01	20	0.0096	0.0096	Biological Process
+GO:0035289	posterior head segmentation	21	1	0.01	27	0.0118	0.0118	Biological Process
+GO:0009608	response to symbiont	22	1	0.01	30	0.0124	0.0124	Biological Process
+GO:0045893	positive regulation of transcription, DN...	955	3	0.54	33	0.0132	0.0132	Biological Process
+GO:1902680	positive regulation of RNA biosynthetic ...	971	3	0.55	35	0.0138	0.0138	Biological Process
+GO:1903508	positive regulation of nucleic acid-temp...	971	3	0.55	36	0.0138	0.0138	Biological Process
+GO:0045332	phospholipid translocation	26	1	0.01	37	0.0146	0.0146	Biological Process
+GO:0016204	determination of muscle attachment site	27	1	0.02	39	0.0151	0.0151	Biological Process
+GO:0034204	lipid translocation	29	1	0.02	42	0.0163	0.0163	Biological Process
+GO:0051254	positive regulation of RNA metabolic pro...	1043	3	0.59	43	0.0168	0.0168	Biological Process
+GO:0097035	regulation of membrane lipid distributio...	30	1	0.02	44	0.0168	0.0168	Biological Process
+GO:0046427	positive regulation of receptor signalin...	30	1	0.02	47	0.0168	0.0168	Biological Process
+GO:1904894	positive regulation of receptor signalin...	30	1	0.02	48	0.0168	0.0168	Biological Process
+GO:0042694	muscle cell fate specification	30	1	0.02	49	0.0168	0.0168	Biological Process
+GO:0010557	positive regulation of macromolecule bio...	1045	3	0.59	50	0.0169	0.0169	Biological Process
+GO:0045935	positive regulation of nucleobase-contai...	1061	3	0.6	52	0.0176	0.0176	Biological Process
+GO:0031328	positive regulation of cellular biosynth...	1102	3	0.62	54	0.0195	0.0195	Biological Process
+GO:0009891	positive regulation of biosynthetic proc...	1102	3	0.62	55	0.0195	0.0195	Biological Process
+GO:0043486	histone exchange	35	1	0.02	56	0.0196	0.0196	Biological Process
+GO:0035203	regulation of lamellocyte differentiatio...	36	1	0.02	57	0.0201	0.0201	Biological Process
+GO:0045613	regulation of plasmatocyte differentiati...	36	1	0.02	58	0.0201	0.0201	Biological Process
+GO:0010628	positive regulation of gene expression	1130	3	0.64	61	0.0209	0.0209	Biological Process
+GO:0006334	nucleosome assembly	38	1	0.02	63	0.0213	0.0213	Biological Process
+GO:0015914	phospholipid transport	40	1	0.02	64	0.0224	0.0224	Biological Process
+GO:0035171	lamellocyte differentiation	42	1	0.02	66	0.0235	0.0235	Biological Process
+GO:1903706	regulation of hemopoiesis	42	1	0.02	67	0.0235	0.0235	Biological Process
+GO:2001141	regulation of RNA biosynthetic process	2204	4	1.24	70	0.0241	0.0241	Biological Process
+GO:1903506	regulation of nucleic acid-templated tra...	2204	4	1.24	71	0.0241	0.0241	Biological Process
+GO:0042387	plasmatocyte differentiation	45	1	0.03	73	0.0251	0.0251	Biological Process
+GO:0035168	larval lymph gland hemocyte differentiat...	48	1	0.03	79	0.0268	0.0268	Biological Process
+GO:0042693	muscle cell fate commitment	51	1	0.03	80	0.0284	0.0284	Biological Process
+GO:0048580	regulation of post-embryonic development	52	1	0.03	81	0.0290	0.0290	Biological Process
+GO:0045664	regulation of neuron differentiation	502	2	0.28	82	0.0304	0.0304	Biological Process
+GO:0015748	organophosphate ester transport	56	1	0.03	84	0.0312	0.0312	Biological Process
+GO:0048813	dendrite morphogenesis	532	2	0.3	86	0.0339	0.0339	Biological Process
+GO:0051252	regulation of RNA metabolic process	2473	4	1.4	87	0.0358	0.0358	Biological Process
+GO:0016358	dendrite development	553	2	0.31	88	0.0364	0.0364	Biological Process
+GO:0019219	regulation of nucleobase-containing comp...	2519	4	1.42	90	0.0380	0.0380	Biological Process
+GO:0006915	apoptotic process	572	2	0.32	91	0.0387	0.0387	Biological Process
+GO:0010556	regulation of macromolecule biosynthetic...	2535	4	1.43	92	0.0389	0.0389	Biological Process
+GO:0031326	regulation of cellular biosynthetic proc...	2608	4	1.47	96	0.0427	0.0427	Biological Process
+GO:0009889	regulation of biosynthetic process	2612	4	1.47	97	0.0429	0.0429	Biological Process
+GO:0031497	chromatin assembly	81	1	0.05	99	0.0448	0.0448	Biological Process
+GO:0045476	nurse cell apoptotic process	81	1	0.05	101	0.0448	0.0448	Biological Process
+GO:1902742	apoptotic process involved in developmen...	84	1	0.05	102	0.0465	0.0465	Biological Process
+GO:0034728	nucleosome organization	86	1	0.05	103	0.0475	0.0475	Biological Process
+GO:0050767	regulation of neurogenesis	641	2	0.36	104	0.0477	0.0477	Biological Process
+GO:0046425	regulation of receptor signaling pathway...	89	1	0.05	108	0.0492	0.0492	Biological Process
+GO:1904892	regulation of receptor signaling pathway...	89	1	0.05	109	0.0492	0.0492	Biological Process
+GO:0003910	DNA ligase (ATP) activity	6	1	0	1	0.0036	0.0036	Molecular Function
+GO:0098847	sequence-specific single stranded DNA bi...	7	1	0	3	0.0042	0.0042	Molecular Function
+GO:0019955	cytokine binding	20	1	0.01	5	0.0119	0.0119	Molecular Function
+GO:0140110	transcription regulator activity	1041	3	0.62	6	0.0185	0.0185	Molecular Function
+GO:0005548	phospholipid transporter activity	40	1	0.02	7	0.0236	0.0236	Molecular Function
+GO:0042393	histone binding	69	1	0.04	9	0.0404	0.0404	Molecular Function
+GO:0005319	lipid transporter activity	82	1	0.05	10	0.0479	0.0479	Molecular Function
+GO:0016592	mediator complex	54	1	0.03	1	0.030	0.030	Cellular Component
+GO:0005634	nucleus	4059	5	2.26	2	0.040	0.040	Cellular Component
+GO:0005802	trans-Golgi network	77	1	0.04	3	0.042	0.042	Cellular Component

@@ -1,0 +1,19 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0060298	positive regulation of sarcomere organiz...	9	1	0	1	0.0019	0.0019	Biological Process
+GO:0035269	protein O-linked mannosylation	11	1	0	2	0.0023	0.0023	Biological Process
+GO:0006506	GPI anchor biosynthetic process	28	1	0.01	7	0.0059	0.0059	Biological Process
+GO:1902117	positive regulation of organelle assembl...	37	1	0.01	11	0.0078	0.0078	Biological Process
+GO:0009629	response to gravity	98	1	0.02	25	0.0206	0.0206	Biological Process
+GO:0042332	gravitaxis	98	1	0.02	26	0.0206	0.0206	Biological Process
+GO:0006936	muscle contraction	164	1	0.03	37	0.0343	0.0343	Biological Process
+GO:0003012	muscle system process	223	1	0.05	42	0.0465	0.0465	Biological Process
+GO:0051015	actin filament binding	121	1	0.01	1	0.010	0.010	Molecular Function
+GO:0008307	structural constituent of muscle	161	1	0.01	2	0.014	0.014	Molecular Function
+GO:0044877	protein-containing complex binding	379	1	0.03	3	0.032	0.032	Molecular Function
+GO:0003779	actin binding	468	1	0.04	4	0.040	0.040	Molecular Function
+GO:0033185	dolichol-phosphate-mannose synthase comp...	2	1	0	1	0.00032	0.00032	Cellular Component
+GO:0005862	muscle thin filament tropomyosin	5	1	0	3	0.00080	0.00080	Cellular Component
+GO:0005884	actin filament	23	1	0	4	0.00366	0.00366	Cellular Component
+GO:0005789	endoplasmic reticulum membrane	212	1	0.03	8	0.03350	0.03350	Cellular Component
+GO:0042175	nuclear outer membrane-endoplasmic retic...	217	1	0.03	9	0.03428	0.03428	Cellular Component
+GO:0098827	endoplasmic reticulum subcompartment	228	1	0.04	10	0.03600	0.03600	Cellular Component

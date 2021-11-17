@@ -1,0 +1,163 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0000972	transcription-dependent tethering of RNA...	12	2	0.06	1	0.0014	0.0014	Biological Process
+GO:0006405	RNA export from nucleus	108	4	0.51	2	0.0017	0.0017	Biological Process
+GO:0045732	positive regulation of protein catabolic...	125	4	0.59	3	0.0029	0.0029	Biological Process
+GO:0044106	cellular amine metabolic process	68	3	0.32	7	0.0041	0.0041	Biological Process
+GO:0042817	pyridoxal metabolic process	1	1	0	9	0.0047	0.0047	Biological Process
+GO:0035848	oviduct morphogenesis	1	1	0	11	0.0047	0.0047	Biological Process
+GO:0048621	post-embryonic digestive tract morphogen...	1	1	0	12	0.0047	0.0047	Biological Process
+GO:0007489	maintenance of imaginal histoblast diplo...	1	1	0	13	0.0047	0.0047	Biological Process
+GO:0048036	central complex development	23	2	0.11	15	0.0052	0.0052	Biological Process
+GO:0034605	cellular response to heat	25	2	0.12	16	0.0062	0.0062	Biological Process
+GO:0007443	Malpighian tubule morphogenesis	80	3	0.38	18	0.0064	0.0064	Biological Process
+GO:0007427	epithelial cell migration, open tracheal...	81	3	0.38	20	0.0066	0.0066	Biological Process
+GO:0042684	cardioblast cell fate commitment	28	2	0.13	23	0.0077	0.0077	Biological Process
+GO:0051276	chromosome organization	1039	11	4.91	25	0.0440	0.0090	Biological Process
+GO:0000349	generation of catalytic spliceosome for ...	2	1	0.01	26	0.0094	0.0094	Biological Process
+GO:0035024	negative regulation of Rho protein signa...	2	1	0.01	27	0.0094	0.0094	Biological Process
+GO:0034398	telomere tethering at nuclear periphery	2	1	0.01	29	0.0094	0.0094	Biological Process
+GO:1903061	positive regulation of protein lipidatio...	2	1	0.01	30	0.0094	0.0094	Biological Process
+GO:0000416	positive regulation of histone H3-K36 me...	2	1	0.01	32	0.0094	0.0094	Biological Process
+GO:0071311	cellular response to acetate	2	1	0.01	35	0.0094	0.0094	Biological Process
+GO:0052472	modulation by host of symbiont transcrip...	2	1	0.01	39	0.0094	0.0094	Biological Process
+GO:0032897	negative regulation of viral transcripti...	2	1	0.01	40	0.0094	0.0094	Biological Process
+GO:0031065	positive regulation of histone deacetyla...	2	1	0.01	42	0.0094	0.0094	Biological Process
+GO:0032876	negative regulation of DNA endoreduplica...	2	1	0.01	43	0.0094	0.0094	Biological Process
+GO:0043921	modulation by host of viral transcriptio...	2	1	0.01	45	0.0094	0.0094	Biological Process
+GO:0010157	response to chlorate	2	1	0.01	48	0.0094	0.0094	Biological Process
+GO:0097017	renal protein absorption	2	1	0.01	52	0.0094	0.0094	Biological Process
+GO:0070476	rRNA (guanine-N7)-methylation	2	1	0.01	53	0.0094	0.0094	Biological Process
+GO:0007499	ectoderm and mesoderm interaction	2	1	0.01	54	0.0094	0.0094	Biological Process
+GO:0035080	heat shock-mediated polytene chromosome ...	3	1	0.01	61	0.0141	0.0141	Biological Process
+GO:0018364	peptidyl-glutamine methylation	3	1	0.01	63	0.0141	0.0141	Biological Process
+GO:0071444	cellular response to pheromone	3	1	0.01	64	0.0141	0.0141	Biological Process
+GO:0030715	oocyte growth in germarium-derived egg c...	3	1	0.01	65	0.0141	0.0141	Biological Process
+GO:1905938	positive regulation of germ cell prolife...	3	1	0.01	69	0.0141	0.0141	Biological Process
+GO:2001252	positive regulation of chromosome organi...	107	3	0.51	72	0.0141	0.0141	Biological Process
+GO:0022417	protein maturation by protein folding	4	1	0.02	74	0.0188	0.0188	Biological Process
+GO:0009115	xanthine catabolic process	4	1	0.02	75	0.0188	0.0188	Biological Process
+GO:0046110	xanthine metabolic process	4	1	0.02	76	0.0188	0.0188	Biological Process
+GO:0030259	lipid glycosylation	4	1	0.02	78	0.0188	0.0188	Biological Process
+GO:0032488	Cdc42 protein signal transduction	4	1	0.02	83	0.0188	0.0188	Biological Process
+GO:0032489	regulation of Cdc42 protein signal trans...	4	1	0.02	84	0.0188	0.0188	Biological Process
+GO:0006145	purine nucleobase catabolic process	4	1	0.02	85	0.0188	0.0188	Biological Process
+GO:0000706	meiotic DNA double-strand break processi...	4	1	0.02	86	0.0188	0.0188	Biological Process
+GO:0033044	regulation of chromosome organization	333	5	1.57	90	0.0205	0.0205	Biological Process
+GO:0051304	chromosome separation	125	3	0.59	92	0.0213	0.0213	Biological Process
+GO:0050911	detection of chemical stimulus involved ...	49	2	0.23	94	0.0224	0.0224	Biological Process
+GO:0000820	regulation of glutamine family amino aci...	5	1	0.02	97	0.0234	0.0234	Biological Process
+GO:0007510	cardioblast cell fate determination	5	1	0.02	98	0.0234	0.0234	Biological Process
+GO:0000973	posttranscriptional tethering of RNA pol...	5	1	0.02	99	0.0234	0.0234	Biological Process
+GO:0035079	polytene chromosome puffing	5	1	0.02	100	0.0234	0.0234	Biological Process
+GO:0060913	cardiac cell fate determination	5	1	0.02	101	0.0234	0.0234	Biological Process
+GO:0003151	outflow tract morphogenesis	5	1	0.02	102	0.0234	0.0234	Biological Process
+GO:0006521	regulation of cellular amino acid metabo...	5	1	0.02	103	0.0234	0.0234	Biological Process
+GO:0001555	oocyte growth	5	1	0.02	104	0.0234	0.0234	Biological Process
+GO:2000211	regulation of glutamate metabolic proces...	5	1	0.02	105	0.0234	0.0234	Biological Process
+GO:1905936	regulation of germ cell proliferation	5	1	0.02	106	0.0234	0.0234	Biological Process
+GO:0006117	acetaldehyde metabolic process	5	1	0.02	107	0.0234	0.0234	Biological Process
+GO:0035094	response to nicotine	6	1	0.03	115	0.0280	0.0280	Biological Process
+GO:0071712	ER-associated misfolded protein cataboli...	6	1	0.03	116	0.0280	0.0280	Biological Process
+GO:0051092	positive regulation of NF-kappaB transcr...	6	1	0.03	117	0.0280	0.0280	Biological Process
+GO:0046113	nucleobase catabolic process	6	1	0.03	118	0.0280	0.0280	Biological Process
+GO:0043968	histone H2A acetylation	6	1	0.03	119	0.0280	0.0280	Biological Process
+GO:0036228	protein localization to nuclear inner me...	6	1	0.03	120	0.0280	0.0280	Biological Process
+GO:0071427	mRNA-containing ribonucleoprotein comple...	57	2	0.27	123	0.0297	0.0297	Biological Process
+GO:0006406	mRNA export from nucleus	57	2	0.27	124	0.0297	0.0297	Biological Process
+GO:0031503	protein-containing complex localization	147	3	0.69	126	0.0323	0.0323	Biological Process
+GO:0006390	mitochondrial transcription	7	1	0.03	129	0.0326	0.0326	Biological Process
+GO:0008295	spermidine biosynthetic process	7	1	0.03	130	0.0326	0.0326	Biological Process
+GO:0008216	spermidine metabolic process	7	1	0.03	131	0.0326	0.0326	Biological Process
+GO:0016925	protein sumoylation	7	1	0.03	132	0.0326	0.0326	Biological Process
+GO:0000729	DNA double-strand break processing	7	1	0.03	133	0.0326	0.0326	Biological Process
+GO:0006576	cellular biogenic amine metabolic proces...	63	2	0.3	137	0.0357	0.0357	Biological Process
+GO:0010669	epithelial structure maintenance	64	2	0.3	138	0.0368	0.0368	Biological Process
+GO:0046504	glycerol ether biosynthetic process	8	1	0.04	139	0.0372	0.0372	Biological Process
+GO:0097384	cellular lipid biosynthetic process	8	1	0.04	140	0.0372	0.0372	Biological Process
+GO:1901503	ether biosynthetic process	8	1	0.04	141	0.0372	0.0372	Biological Process
+GO:0006336	DNA replication-independent nucleosome a...	8	1	0.04	142	0.0372	0.0372	Biological Process
+GO:0033238	regulation of cellular amine metabolic p...	8	1	0.04	143	0.0372	0.0372	Biological Process
+GO:0018904	ether metabolic process	8	1	0.04	144	0.0372	0.0372	Biological Process
+GO:0008611	ether lipid biosynthetic process	8	1	0.04	145	0.0372	0.0372	Biological Process
+GO:0072523	purine-containing compound catabolic pro...	8	1	0.04	146	0.0372	0.0372	Biological Process
+GO:0045002	double-strand break repair via single-st...	8	1	0.04	147	0.0372	0.0372	Biological Process
+GO:0006662	glycerol ether metabolic process	8	1	0.04	148	0.0372	0.0372	Biological Process
+GO:1902683	regulation of receptor localization to s...	8	1	0.04	149	0.0372	0.0372	Biological Process
+GO:1902685	positive regulation of receptor localiza...	8	1	0.04	150	0.0372	0.0372	Biological Process
+GO:0046485	ether lipid metabolic process	8	1	0.04	151	0.0372	0.0372	Biological Process
+GO:0050907	detection of chemical stimulus involved ...	65	2	0.31	152	0.0378	0.0378	Biological Process
+GO:1905269	positive regulation of chromatin organiz...	67	2	0.32	153	0.0400	0.0400	Biological Process
+GO:0006259	DNA metabolic process	399	5	1.89	154	0.0402	0.0402	Biological Process
+GO:0043279	response to alkaloid	68	2	0.32	156	0.0411	0.0411	Biological Process
+GO:0032446	protein modification by small protein co...	402	5	1.9	157	0.0413	0.0413	Biological Process
+GO:0030046	parallel actin filament bundle assembly	9	1	0.04	159	0.0418	0.0418	Biological Process
+GO:0007501	mesodermal cell fate specification	9	1	0.04	160	0.0418	0.0418	Biological Process
+GO:0022606	establishment of proximal/distal cell po...	9	1	0.04	161	0.0418	0.0418	Biological Process
+GO:0050850	positive regulation of calcium-mediated ...	9	1	0.04	162	0.0418	0.0418	Biological Process
+GO:0035320	imaginal disc-derived wing hair site sel...	9	1	0.04	164	0.0418	0.0418	Biological Process
+GO:0055050	astral spindle assembly involved in male...	9	1	0.04	165	0.0418	0.0418	Biological Process
+GO:0007348	regulation of syncytial blastoderm mitot...	9	1	0.04	166	0.0418	0.0418	Biological Process
+GO:0055049	astral spindle assembly	9	1	0.04	167	0.0418	0.0418	Biological Process
+GO:0048668	collateral sprouting	9	1	0.04	168	0.0418	0.0418	Biological Process
+GO:0048674	collateral sprouting of injured axon	9	1	0.04	169	0.0418	0.0418	Biological Process
+GO:0034724	DNA replication-independent nucleosome o...	10	1	0.05	171	0.0463	0.0463	Biological Process
+GO:0031990	mRNA export from nucleus in response to ...	10	1	0.05	172	0.0463	0.0463	Biological Process
+GO:0042307	positive regulation of protein import in...	10	1	0.05	174	0.0463	0.0463	Biological Process
+GO:1904591	positive regulation of protein import	10	1	0.05	175	0.0463	0.0463	Biological Process
+GO:0006144	purine nucleobase metabolic process	10	1	0.05	177	0.0463	0.0463	Biological Process
+GO:0090435	protein localization to nuclear envelope	10	1	0.05	179	0.0463	0.0463	Biological Process
+GO:0051028	mRNA transport	75	2	0.35	180	0.0490	0.0490	Biological Process
+GO:0008609	alkylglycerone-phosphate synthase activi...	1	1	0	1	0.0047	0.0047	Molecular Function
+GO:0004031	aldehyde oxidase activity	1	1	0	3	0.0047	0.0047	Molecular Function
+GO:0004732	pyridoxal oxidase activity	1	1	0	4	0.0047	0.0047	Molecular Function
+GO:0033677	DNA/RNA helicase activity	1	1	0	5	0.0047	0.0047	Molecular Function
+GO:0017056	structural constituent of nuclear pore	25	2	0.12	6	0.0060	0.0060	Molecular Function
+GO:0050660	flavin adenine dinucleotide binding	33	2	0.15	7	0.0104	0.0104	Molecular Function
+GO:0019948	SUMO activating enzyme activity	3	1	0.01	8	0.0140	0.0140	Molecular Function
+GO:0015643	toxic substance binding	3	1	0.01	9	0.0140	0.0140	Molecular Function
+GO:0000179	rRNA (adenine-N6,N6-)-dimethyltransferas...	3	1	0.01	10	0.0140	0.0140	Molecular Function
+GO:0004854	xanthine dehydrogenase activity	4	1	0.02	12	0.0186	0.0186	Molecular Function
+GO:0004169	dolichyl-phosphate-mannose-protein manno...	4	1	0.02	13	0.0186	0.0186	Molecular Function
+GO:0016726	oxidoreductase activity, acting on CH or...	4	1	0.02	14	0.0186	0.0186	Molecular Function
+GO:0004837	tyrosine decarboxylase activity	4	1	0.02	15	0.0186	0.0186	Molecular Function
+GO:0003682	chromatin binding	338	5	1.58	16	0.0206	0.0206	Molecular Function
+GO:0008143	poly(A) binding	5	1	0.02	17	0.0232	0.0232	Molecular Function
+GO:0003867	4-aminobutyrate transaminase activity	5	1	0.02	18	0.0232	0.0232	Molecular Function
+GO:0030544	Hsp70 protein binding	5	1	0.02	19	0.0232	0.0232	Molecular Function
+GO:0016433	rRNA (adenine) methyltransferase activit...	5	1	0.02	20	0.0232	0.0232	Molecular Function
+GO:0070717	poly-purine tract binding	5	1	0.02	21	0.0232	0.0232	Molecular Function
+GO:0044388	small protein activating enzyme binding	6	1	0.03	24	0.0278	0.0278	Molecular Function
+GO:0033134	ubiquitin activating enzyme binding	6	1	0.03	25	0.0278	0.0278	Molecular Function
+GO:0004766	spermidine synthase activity	6	1	0.03	26	0.0278	0.0278	Molecular Function
+GO:0051082	unfolded protein binding	60	2	0.28	27	0.0321	0.0321	Molecular Function
+GO:0015026	coreceptor activity	7	1	0.03	28	0.0323	0.0323	Molecular Function
+GO:0016725	oxidoreductase activity, acting on CH or...	8	1	0.04	29	0.0369	0.0369	Molecular Function
+GO:0071949	FAD binding	9	1	0.04	30	0.0414	0.0414	Molecular Function
+GO:0000974	Prp19 complex	12	2	0.05	1	0.0013	0.0013	Cellular Component
+GO:0140513	nuclear protein-containing complex	1138	12	5.08	2	0.0038	0.0038	Cellular Component
+GO:0005587	collagen type IV trimer	2	1	0.01	3	0.0089	0.0089	Cellular Component
+GO:0031510	SUMO activating enzyme complex	3	1	0.01	8	0.0133	0.0133	Cellular Component
+GO:0005722	beta-heterochromatin	3	1	0.01	9	0.0133	0.0133	Cellular Component
+GO:0005850	eukaryotic translation initiation factor...	3	1	0.01	10	0.0133	0.0133	Cellular Component
+GO:1902494	catalytic complex	1266	11	5.65	11	0.0224	0.0224	Cellular Component
+GO:0032589	neuron projection membrane	52	2	0.23	12	0.0225	0.0225	Cellular Component
+GO:0005643	nuclear pore	56	2	0.25	13	0.0258	0.0258	Cellular Component
+GO:0000445	THO complex part of transcription export...	6	1	0.03	14	0.0265	0.0265	Cellular Component
+GO:0044611	nuclear pore inner ring	6	1	0.03	15	0.0265	0.0265	Cellular Component
+GO:0044614	nuclear pore cytoplasmic filaments	6	1	0.03	16	0.0265	0.0265	Cellular Component
+GO:0071012	catalytic step 1 spliceosome	6	1	0.03	17	0.0265	0.0265	Cellular Component
+GO:0031256	leading edge membrane	59	2	0.26	18	0.0284	0.0284	Cellular Component
+GO:0031461	cullin-RING ubiquitin ligase complex	149	3	0.66	19	0.0288	0.0288	Cellular Component
+GO:0071014	post-mRNA release spliceosomal complex	7	1	0.03	20	0.0308	0.0308	Cellular Component
+GO:1990234	transferase complex	688	7	3.07	21	0.0324	0.0324	Cellular Component
+GO:0055029	nuclear DNA-directed RNA polymerase comp...	161	3	0.72	22	0.0350	0.0350	Cellular Component
+GO:0030880	RNA polymerase complex	162	3	0.72	23	0.0356	0.0356	Cellular Component
+GO:0000428	DNA-directed RNA polymerase complex	162	3	0.72	24	0.0356	0.0356	Cellular Component
+GO:0044613	nuclear pore central transport channel	9	1	0.04	25	0.0395	0.0395	Cellular Component
+GO:0016282	eukaryotic 43S preinitiation complex	9	1	0.04	26	0.0395	0.0395	Cellular Component
+GO:0080008	Cul4-RING E3 ubiquitin ligase complex	9	1	0.04	27	0.0395	0.0395	Cellular Component
+GO:0008278	cohesin complex	10	1	0.04	28	0.0437	0.0437	Cellular Component
+GO:0070993	translation preinitiation complex	10	1	0.04	29	0.0437	0.0437	Cellular Component
+GO:0043614	multi-eIF complex	10	1	0.04	30	0.0437	0.0437	Cellular Component
+GO:0140535	intracellular protein-containing complex	747	7	3.33	31	0.0473	0.0473	Cellular Component
+GO:0000347	THO complex	11	1	0.05	32	0.0480	0.0480	Cellular Component

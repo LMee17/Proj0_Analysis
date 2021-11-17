@@ -1,0 +1,160 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0046885	regulation of hormone biosynthetic proce...	9	2	0.04	1	0.00056	0.00056	Biological Process
+GO:0036297	interstrand cross-link repair	10	2	0.04	3	0.00070	0.00070	Biological Process
+GO:0010165	response to X-ray	12	2	0.05	4	0.00102	0.00102	Biological Process
+GO:0006298	mismatch repair	14	2	0.06	5	0.00140	0.00140	Biological Process
+GO:0009651	response to salt stress	18	2	0.07	7	0.00233	0.00233	Biological Process
+GO:0016444	somatic cell DNA recombination	1	1	0	10	0.00402	0.00402	Biological Process
+GO:0110029	negative regulation of meiosis I	1	1	0	11	0.00402	0.00402	Biological Process
+GO:0045128	negative regulation of reciprocal meioti...	1	1	0	12	0.00402	0.00402	Biological Process
+GO:0006311	meiotic gene conversion	1	1	0	13	0.00402	0.00402	Biological Process
+GO:0046580	negative regulation of Ras protein signa...	88	3	0.35	17	0.00531	0.00531	Biological Process
+GO:0006302	double-strand break repair	90	3	0.36	18	0.00566	0.00566	Biological Process
+GO:1905519	negative regulation of presynaptic activ...	2	1	0.01	21	0.00803	0.00803	Biological Process
+GO:0044351	macropinocytosis	2	1	0.01	22	0.00803	0.00803	Biological Process
+GO:0006422	aspartyl-tRNA aminoacylation	2	1	0.01	26	0.00803	0.00803	Biological Process
+GO:0009187	cyclic nucleotide metabolic process	104	3	0.42	28	0.00843	0.00843	Biological Process
+GO:0010224	response to UV-B	3	1	0.01	32	0.01202	0.01202	Biological Process
+GO:0070940	dephosphorylation of RNA polymerase II C...	3	1	0.01	33	0.01202	0.01202	Biological Process
+GO:1901255	nucleotide-excision repair involved in i...	3	1	0.01	34	0.01202	0.01202	Biological Process
+GO:0035694	mitochondrial protein catabolic process	3	1	0.01	35	0.01202	0.01202	Biological Process
+GO:0035695	mitophagy by induced vacuole formation	3	1	0.01	36	0.01202	0.01202	Biological Process
+GO:0097298	regulation of nucleus size	3	1	0.01	37	0.01202	0.01202	Biological Process
+GO:0097240	chromosome attachment to the nuclear env...	3	1	0.01	38	0.01202	0.01202	Biological Process
+GO:0050810	regulation of steroid biosynthetic proce...	4	1	0.02	40	0.01599	0.01599	Biological Process
+GO:0070131	positive regulation of mitochondrial tra...	4	1	0.02	41	0.01599	0.01599	Biological Process
+GO:0007554	regulation of ecdysteroid biosynthetic p...	4	1	0.02	42	0.01599	0.01599	Biological Process
+GO:2000051	negative regulation of non-canonical Wnt...	4	1	0.02	43	0.01599	0.01599	Biological Process
+GO:0006296	nucleotide-excision repair, DNA incision...	4	1	0.02	44	0.01599	0.01599	Biological Process
+GO:0046886	positive regulation of hormone biosynthe...	4	1	0.02	45	0.01599	0.01599	Biological Process
+GO:0010893	positive regulation of steroid biosynthe...	4	1	0.02	46	0.01599	0.01599	Biological Process
+GO:0045998	positive regulation of ecdysteroid biosy...	4	1	0.02	47	0.01599	0.01599	Biological Process
+GO:0090030	regulation of steroid hormone biosynthet...	4	1	0.02	48	0.01599	0.01599	Biological Process
+GO:0090031	positive regulation of steroid hormone b...	4	1	0.02	49	0.01599	0.01599	Biological Process
+GO:0045966	positive regulation of ecdysteroid metab...	4	1	0.02	50	0.01599	0.01599	Biological Process
+GO:0015908	fatty acid transport	4	1	0.02	51	0.01599	0.01599	Biological Process
+GO:0045940	positive regulation of steroid metabolic...	4	1	0.02	52	0.01599	0.01599	Biological Process
+GO:0048582	positive regulation of post-embryonic de...	4	1	0.02	53	0.01599	0.01599	Biological Process
+GO:0010566	regulation of ketone biosynthetic proces...	4	1	0.02	54	0.01599	0.01599	Biological Process
+GO:0032352	positive regulation of hormone metabolic...	4	1	0.02	55	0.01599	0.01599	Biological Process
+GO:0000389	mRNA 3'-splice site recognition	4	1	0.02	56	0.01599	0.01599	Biological Process
+GO:0019935	cyclic-nucleotide-mediated signaling	143	3	0.58	57	0.01979	0.01979	Biological Process
+GO:0000724	double-strand break repair via homologou...	54	2	0.22	58	0.01989	0.01989	Biological Process
+GO:0000725	recombinational repair	54	2	0.22	59	0.01989	0.01989	Biological Process
+GO:0002209	behavioral defense response	5	1	0.02	60	0.01995	0.01995	Biological Process
+GO:0033683	nucleotide-excision repair, DNA incision	5	1	0.02	61	0.01995	0.01995	Biological Process
+GO:0032351	negative regulation of hormone metabolic...	5	1	0.02	62	0.01995	0.01995	Biological Process
+GO:0032353	negative regulation of hormone biosynthe...	5	1	0.02	63	0.01995	0.01995	Biological Process
+GO:1901416	regulation of response to ethanol	5	1	0.02	64	0.01995	0.01995	Biological Process
+GO:1901419	regulation of response to alcohol	5	1	0.02	65	0.01995	0.01995	Biological Process
+GO:0060233	oenocyte delamination	5	1	0.02	66	0.01995	0.01995	Biological Process
+GO:0015718	monocarboxylic acid transport	57	2	0.23	67	0.02202	0.02202	Biological Process
+GO:0019934	cGMP-mediated signaling	59	2	0.24	69	0.02348	0.02348	Biological Process
+GO:1902804	negative regulation of synaptic vesicle ...	6	1	0.02	70	0.02389	0.02389	Biological Process
+GO:0070129	regulation of mitochondrial translation	6	1	0.02	71	0.02389	0.02389	Biological Process
+GO:2000301	negative regulation of synaptic vesicle ...	6	1	0.02	72	0.02389	0.02389	Biological Process
+GO:0008542	visual learning	6	1	0.02	73	0.02389	0.02389	Biological Process
+GO:0045463	R8 cell development	6	1	0.02	74	0.02389	0.02389	Biological Process
+GO:0045470	R8 cell-mediated photoreceptor organizat...	6	1	0.02	75	0.02389	0.02389	Biological Process
+GO:0062125	regulation of mitochondrial gene express...	6	1	0.02	76	0.02389	0.02389	Biological Process
+GO:0045955	negative regulation of calcium ion-depen...	6	1	0.02	77	0.02389	0.02389	Biological Process
+GO:0045920	negative regulation of exocytosis	6	1	0.02	78	0.02389	0.02389	Biological Process
+GO:0043570	maintenance of DNA repeat elements	6	1	0.02	79	0.02389	0.02389	Biological Process
+GO:1903306	negative regulation of regulated secreto...	6	1	0.02	80	0.02389	0.02389	Biological Process
+GO:0015811	L-cystine transport	7	1	0.03	85	0.02782	0.02782	Biological Process
+GO:0000101	sulfur amino acid transport	7	1	0.03	86	0.02782	0.02782	Biological Process
+GO:0030210	heparin biosynthetic process	7	1	0.03	87	0.02782	0.02782	Biological Process
+GO:0007175	negative regulation of epidermal growth ...	8	1	0.03	88	0.03173	0.03173	Biological Process
+GO:0045002	double-strand break repair via single-st...	8	1	0.03	89	0.03173	0.03173	Biological Process
+GO:0001752	compound eye photoreceptor fate commitme...	177	3	0.71	91	0.03427	0.03427	Biological Process
+GO:0051589	negative regulation of neurotransmitter ...	9	1	0.04	94	0.03563	0.03563	Biological Process
+GO:0007553	regulation of ecdysteroid metabolic proc...	9	1	0.04	95	0.03563	0.03563	Biological Process
+GO:0046929	negative regulation of neurotransmitter ...	9	1	0.04	97	0.03563	0.03563	Biological Process
+GO:0019218	regulation of steroid metabolic process	9	1	0.04	98	0.03563	0.03563	Biological Process
+GO:0044257	cellular protein catabolic process	459	5	1.85	101	0.03681	0.03681	Biological Process
+GO:1905039	carboxylic acid transmembrane transport	185	3	0.74	103	0.03830	0.03830	Biological Process
+GO:1903825	organic acid transmembrane transport	185	3	0.74	104	0.03830	0.03830	Biological Process
+GO:0010556	regulation of macromolecule biosynthetic...	2535	16	10.2	105	0.03842	0.03842	Biological Process
+GO:0042706	eye photoreceptor cell fate commitment	186	3	0.75	106	0.03882	0.03882	Biological Process
+GO:0007176	regulation of epidermal growth factor-ac...	10	1	0.04	107	0.03951	0.03951	Biological Process
+GO:0035157	negative regulation of fusion cell fate ...	10	1	0.04	108	0.03951	0.03951	Biological Process
+GO:0006265	DNA topological change	10	1	0.04	109	0.03951	0.03951	Biological Process
+GO:0007188	adenylate cyclase-modulating G protein-c...	81	2	0.33	110	0.04205	0.04205	Biological Process
+GO:0048312	intracellular distribution of mitochondr...	11	1	0.04	111	0.04338	0.04338	Biological Process
+GO:0031573	mitotic intra-S DNA damage checkpoint si...	11	1	0.04	112	0.04338	0.04338	Biological Process
+GO:0046552	photoreceptor cell fate commitment	195	3	0.78	113	0.04365	0.04365	Biological Process
+GO:0030163	protein catabolic process	482	5	1.94	114	0.04392	0.04392	Biological Process
+GO:0007187	G protein-coupled receptor signaling pat...	84	2	0.34	115	0.04490	0.04490	Biological Process
+GO:0048663	neuron fate commitment	199	3	0.8	116	0.04590	0.04590	Biological Process
+GO:0007191	adenylate cyclase-activating dopamine re...	12	1	0.05	118	0.04723	0.04723	Biological Process
+GO:0015014	heparan sulfate proteoglycan biosyntheti...	12	1	0.05	119	0.04723	0.04723	Biological Process
+GO:0072337	modified amino acid transport	12	1	0.05	120	0.04723	0.04723	Biological Process
+GO:0006301	postreplication repair	12	1	0.05	121	0.04723	0.04723	Biological Process
+GO:2000272	negative regulation of signaling recepto...	12	1	0.05	122	0.04723	0.04723	Biological Process
+GO:0030202	heparin metabolic process	12	1	0.05	123	0.04723	0.04723	Biological Process
+GO:0006182	cGMP biosynthetic process	87	2	0.35	125	0.04782	0.04782	Biological Process
+GO:0052652	cyclic purine nucleotide metabolic proce...	87	2	0.35	126	0.04782	0.04782	Biological Process
+GO:0009190	cyclic nucleotide biosynthetic process	87	2	0.35	127	0.04782	0.04782	Biological Process
+GO:0015849	organic acid transport	203	3	0.82	128	0.04820	0.04820	Biological Process
+GO:0046942	carboxylic acid transport	203	3	0.82	129	0.04820	0.04820	Biological Process
+GO:0015711	organic anion transport	345	4	1.39	131	0.04975	0.04975	Biological Process
+GO:0140097	catalytic activity, acting on DNA	133	5	0.59	1	0.0422	0.00029	Molecular Function
+GO:0008094	ATP-dependent activity, acting on DNA	55	3	0.24	3	0.0018	0.00183	Molecular Function
+GO:0001653	peptide receptor activity	71	3	0.31	4	0.0038	0.00379	Molecular Function
+GO:0003684	damaged DNA binding	21	2	0.09	5	0.0038	0.00383	Molecular Function
+GO:0004454	ketohexokinase activity	1	1	0	6	0.0044	0.00443	Molecular Function
+GO:0000404	heteroduplex DNA loop binding	1	1	0	7	0.0044	0.00443	Molecular Function
+GO:0000406	double-strand/single-strand DNA junction...	1	1	0	8	0.0044	0.00443	Molecular Function
+GO:0004815	aspartate-tRNA ligase activity	2	1	0.01	9	0.0088	0.00884	Molecular Function
+GO:0032137	guanine/thymine mispair binding	2	1	0.01	12	0.0088	0.00884	Molecular Function
+GO:0032138	single base insertion or deletion bindin...	2	1	0.01	13	0.0088	0.00884	Molecular Function
+GO:0017116	single-stranded DNA helicase activity	3	1	0.01	15	0.0132	0.01323	Molecular Function
+GO:0000014	single-stranded DNA endodeoxyribonucleas...	3	1	0.01	16	0.0132	0.01323	Molecular Function
+GO:0035013	myosuppressin receptor activity	4	1	0.02	18	0.0176	0.01760	Molecular Function
+GO:0031957	very long-chain fatty acid-CoA ligase ac...	4	1	0.02	19	0.0176	0.01760	Molecular Function
+GO:0008420	RNA polymerase II CTD heptapeptide repea...	4	1	0.02	20	0.0176	0.01760	Molecular Function
+GO:0000403	Y-form DNA binding	4	1	0.02	21	0.0176	0.01760	Molecular Function
+GO:0015245	fatty acid transmembrane transporter act...	4	1	0.02	22	0.0176	0.01760	Molecular Function
+GO:0001067	transcription regulatory region nucleic ...	491	6	2.17	23	0.0207	0.02070	Molecular Function
+GO:0050508	glucuronosyl-N-acetylglucosaminyl-proteo...	5	1	0.02	24	0.0219	0.02195	Molecular Function
+GO:0050509	N-acetylglucosaminyl-proteoglycan 4-beta...	5	1	0.02	25	0.0219	0.02195	Molecular Function
+GO:0004396	hexokinase activity	5	1	0.02	26	0.0219	0.02195	Molecular Function
+GO:0008865	fructokinase activity	5	1	0.02	27	0.0219	0.02195	Molecular Function
+GO:0031490	chromatin DNA binding	53	2	0.23	28	0.0229	0.02295	Molecular Function
+GO:0008028	monocarboxylic acid transmembrane transp...	56	2	0.25	29	0.0254	0.02543	Molecular Function
+GO:0017136	NAD-dependent histone deacetylase activi...	6	1	0.03	30	0.0263	0.02628	Molecular Function
+GO:0034979	NAD-dependent protein deacetylase activi...	6	1	0.03	31	0.0263	0.02628	Molecular Function
+GO:0004969	histamine receptor activity	7	1	0.03	32	0.0306	0.03059	Molecular Function
+GO:0015184	L-cystine transmembrane transporter acti...	7	1	0.03	33	0.0306	0.03059	Molecular Function
+GO:0000099	sulfur amino acid transmembrane transpor...	7	1	0.03	34	0.0306	0.03059	Molecular Function
+GO:0008514	organic anion transmembrane transporter ...	275	4	1.22	35	0.0331	0.03310	Molecular Function
+GO:0008188	neuropeptide receptor activity	65	2	0.29	36	0.0335	0.03349	Molecular Function
+GO:0000976	transcription cis-regulatory region bind...	409	5	1.81	37	0.0340	0.03404	Molecular Function
+GO:0001784	phosphotyrosine residue binding	8	1	0.04	38	0.0349	0.03489	Molecular Function
+GO:0009378	four-way junction helicase activity	8	1	0.04	39	0.0349	0.03489	Molecular Function
+GO:0043138	3'-5' DNA helicase activity	8	1	0.04	40	0.0349	0.03489	Molecular Function
+GO:0042923	neuropeptide binding	8	1	0.04	41	0.0349	0.03489	Molecular Function
+GO:0015485	cholesterol binding	8	1	0.04	42	0.0349	0.03489	Molecular Function
+GO:0008261	allatostatin receptor activity	8	1	0.04	43	0.0349	0.03489	Molecular Function
+GO:0008528	G protein-coupled peptide receptor activ...	70	2	0.31	44	0.0384	0.03835	Molecular Function
+GO:0004930	G protein-coupled receptor activity	169	3	0.75	45	0.0387	0.03871	Molecular Function
+GO:0030628	pre-mRNA 3'-splice site binding	9	1	0.04	46	0.0392	0.03916	Molecular Function
+GO:0000977	RNA polymerase II transcription regulato...	301	4	1.33	47	0.0438	0.04380	Molecular Function
+GO:1990837	sequence-specific double-stranded DNA bi...	442	5	1.96	48	0.0451	0.04510	Molecular Function
+GO:0005342	organic acid transmembrane transporter a...	182	3	0.81	49	0.0465	0.04653	Molecular Function
+GO:0046943	carboxylic acid transmembrane transporte...	182	3	0.81	50	0.0465	0.04653	Molecular Function
+GO:0045309	protein phosphorylated amino acid bindin...	11	1	0.05	51	0.0477	0.04766	Molecular Function
+GO:0000400	four-way junction DNA binding	11	1	0.05	52	0.0477	0.04766	Molecular Function
+GO:0140513	nuclear protein-containing complex	1138	12	4.53	1	0.0217	0.0014	Cellular Component
+GO:0033202	DNA helicase complex	15	2	0.06	2	0.0016	0.0016	Cellular Component
+GO:0031011	Ino80 complex	15	2	0.06	4	0.0016	0.0016	Cellular Component
+GO:0032302	MutSbeta complex	1	1	0	6	0.0040	0.0040	Cellular Component
+GO:0005634	nucleus	4059	25	16.17	7	0.0260	0.0070	Cellular Component
+GO:0032301	MutSalpha complex	2	1	0.01	8	0.0080	0.0080	Cellular Component
+GO:0005587	collagen type IV trimer	2	1	0.01	13	0.0080	0.0080	Cellular Component
+GO:0071819	DUBm complex	4	1	0.02	14	0.0158	0.0158	Cellular Component
+GO:0000110	nucleotide-excision repair factor 1 comp...	4	1	0.02	15	0.0158	0.0158	Cellular Component
+GO:1990621	ESCRT IV complex	4	1	0.02	16	0.0158	0.0158	Cellular Component
+GO:0000109	nucleotide-excision repair complex	5	1	0.02	18	0.0198	0.0198	Cellular Component
+GO:0005658	alpha DNA polymerase:primase complex	8	1	0.03	20	0.0314	0.0314	Cellular Component
+GO:0044613	nuclear pore central transport channel	9	1	0.04	22	0.0353	0.0353	Cellular Component

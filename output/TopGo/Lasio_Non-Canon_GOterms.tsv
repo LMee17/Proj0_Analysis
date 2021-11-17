@@ -1,0 +1,41 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:2000035	regulation of stem cell division	8	1	0	1	0.0011	0.0011	Biological Process
+GO:0019102	male somatic sex determination	12	1	0	2	0.0017	0.0017	Biological Process
+GO:0019367	fatty acid elongation, saturated fatty a...	16	1	0	4	0.0023	0.0023	Biological Process
+GO:0034625	fatty acid elongation, monounsaturated f...	16	1	0	6	0.0023	0.0023	Biological Process
+GO:0034626	fatty acid elongation, polyunsaturated f...	16	1	0	7	0.0023	0.0023	Biological Process
+GO:0042761	very long-chain fatty acid biosynthetic ...	26	1	0	8	0.0037	0.0037	Biological Process
+GO:0030148	sphingolipid biosynthetic process	59	1	0.01	12	0.0083	0.0083	Biological Process
+GO:0030838	positive regulation of actin filament po...	97	1	0.01	17	0.0136	0.0136	Biological Process
+GO:0032273	positive regulation of protein polymeriz...	115	1	0.02	21	0.0162	0.0162	Biological Process
+GO:0030833	regulation of actin filament polymerizat...	132	1	0.02	23	0.0185	0.0185	Biological Process
+GO:0051170	import into nucleus	140	1	0.02	24	0.0197	0.0197	Biological Process
+GO:0030041	actin filament polymerization	141	1	0.02	25	0.0198	0.0198	Biological Process
+GO:0008064	regulation of actin polymerization or de...	147	1	0.02	26	0.0206	0.0206	Biological Process
+GO:0030832	regulation of actin filament length	147	1	0.02	27	0.0206	0.0206	Biological Process
+GO:0031334	positive regulation of protein-containin...	149	1	0.02	28	0.0209	0.0209	Biological Process
+GO:0032271	regulation of protein polymerization	151	1	0.02	29	0.0212	0.0212	Biological Process
+GO:1902905	positive regulation of supramolecular fi...	156	1	0.02	30	0.0219	0.0219	Biological Process
+GO:0035214	eye-antennal disc development	158	1	0.02	31	0.0222	0.0222	Biological Process
+GO:0008154	actin polymerization or depolymerization	169	1	0.02	34	0.0237	0.0237	Biological Process
+GO:0051495	positive regulation of cytoskeleton orga...	174	1	0.02	35	0.0244	0.0244	Biological Process
+GO:0110053	regulation of actin filament organizatio...	177	1	0.02	36	0.0248	0.0248	Biological Process
+GO:0001933	negative regulation of protein phosphory...	189	1	0.03	38	0.0265	0.0265	Biological Process
+GO:0042326	negative regulation of phosphorylation	194	1	0.03	39	0.0272	0.0272	Biological Process
+GO:0045936	negative regulation of phosphate metabol...	214	1	0.03	40	0.0300	0.0300	Biological Process
+GO:0010563	negative regulation of phosphorus metabo...	214	1	0.03	41	0.0300	0.0300	Biological Process
+GO:0031400	negative regulation of protein modificat...	224	1	0.03	42	0.0314	0.0314	Biological Process
+GO:0051258	protein polymerization	238	1	0.03	44	0.0333	0.0333	Biological Process
+GO:0006913	nucleocytoplasmic transport	244	1	0.03	45	0.0341	0.0341	Biological Process
+GO:0051169	nuclear transport	244	1	0.03	46	0.0341	0.0341	Biological Process
+GO:0032956	regulation of actin cytoskeleton organiz...	266	1	0.04	47	0.0372	0.0372	Biological Process
+GO:0032970	regulation of actin filament-based proce...	266	1	0.04	48	0.0372	0.0372	Biological Process
+GO:1902903	regulation of supramolecular fiber organ...	287	1	0.04	49	0.0401	0.0401	Biological Process
+GO:0016319	mushroom body development	296	1	0.04	50	0.0413	0.0413	Biological Process
+GO:0043254	regulation of protein-containing complex...	311	1	0.04	51	0.0434	0.0434	Biological Process
+GO:0010638	positive regulation of organelle organiz...	358	1	0.05	54	0.0499	0.0499	Biological Process
+GO:0009922	fatty acid elongase activity	17	1	0	1	0.0014	0.0014	Molecular Function
+GO:0030176	integral component of endoplasmic reticu...	81	1	0.02	1	0.019	0.019	Cellular Component
+GO:0031227	intrinsic component of endoplasmic retic...	86	1	0.02	2	0.020	0.020	Cellular Component
+GO:0031301	integral component of organelle membrane	172	1	0.04	3	0.041	0.041	Cellular Component
+GO:0031300	intrinsic component of organelle membran...	177	1	0.04	4	0.042	0.042	Cellular Component

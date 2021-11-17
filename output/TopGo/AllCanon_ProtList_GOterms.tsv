@@ -1,0 +1,142 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0050776	regulation of immune response	205	36	3.07	9	0.00096	1.9e-28	Biological Process
+GO:0009056	catabolic process	1373	77	20.54	15	0.02394	3.7e-26	Biological Process
+GO:0044248	cellular catabolic process	1300	73	19.45	16	0.04959	1.1e-24	Biological Process
+GO:0008219	cell death	862	59	12.89	21	0.04799	6.6e-24	Biological Process
+GO:0080134	regulation of response to stress	459	43	6.87	26	0.04767	1.6e-22	Biological Process
+GO:0002252	immune effector process	272	34	4.07	28	0.00034	6.9e-22	Biological Process
+GO:0035069	larval midgut histolysis	60	19	0.9	30	0.00029	1.1e-20	Biological Process
+GO:0031669	cellular response to nutrient levels	177	27	2.65	33	0.02640	8.0e-20	Biological Process
+GO:0031667	response to nutrient levels	339	35	5.07	34	0.01621	9.3e-20	Biological Process
+GO:0009991	response to extracellular stimulus	344	35	5.15	35	0.01920	1.5e-19	Biological Process
+GO:0016236	macroautophagy	225	29	3.37	38	0.01101	3.8e-19	Biological Process
+GO:0042594	response to starvation	282	31	4.22	41	0.01404	2.3e-18	Biological Process
+GO:0060033	anatomical structure regression	147	23	2.2	50	0.03135	2.8e-17	Biological Process
+GO:0006915	apoptotic process	572	41	8.56	51	0.00933	3.2e-17	Biological Process
+GO:0002684	positive regulation of immune system pro...	92	19	1.38	53	0.02880	8.2e-17	Biological Process
+GO:0002920	regulation of humoral immune response	100	19	1.5	57	0.02035	4.3e-16	Biological Process
+GO:0007166	cell surface receptor signaling pathway	1702	70	25.46	58	0.01946	4.9e-16	Biological Process
+GO:0019731	antibacterial humoral response	48	13	0.72	85	0.00140	1.6e-13	Biological Process
+GO:0002784	regulation of antimicrobial peptide prod...	94	16	1.41	90	0.04421	5.8e-13	Biological Process
+GO:0002700	regulation of production of molecular me...	95	16	1.42	93	0.04620	6.9e-13	Biological Process
+GO:0002775	antimicrobial peptide production	96	16	1.44	94	0.04823	8.2e-13	Biological Process
+GO:0061844	antimicrobial humoral immune response me...	96	16	1.44	95	0.04823	8.2e-13	Biological Process
+GO:0009620	response to fungus	118	17	1.77	100	0.00443	1.8e-12	Biological Process
+GO:0072593	reactive oxygen species metabolic proces...	53	12	0.79	116	0.02138	1.4e-11	Biological Process
+GO:0006468	protein phosphorylation	1144	46	17.11	140	0.00188	4.2e-10	Biological Process
+GO:0001934	positive regulation of protein phosphory...	312	22	4.67	157	0.00569	1.7e-09	Biological Process
+GO:0048585	negative regulation of response to stimu...	930	39	13.91	173	0.01314	3.6e-09	Biological Process
+GO:0010720	positive regulation of cell development	241	19	3.6	174	0.00917	3.7e-09	Biological Process
+GO:0019220	regulation of phosphate metabolic proces...	669	32	10.01	177	0.02547	5.1e-09	Biological Process
+GO:0051174	regulation of phosphorus metabolic proce...	669	32	10.01	178	0.02547	5.1e-09	Biological Process
+GO:0045859	regulation of protein kinase activity	313	21	4.68	192	0.02107	9.6e-09	Biological Process
+GO:0034097	response to cytokine	30	8	0.45	193	0.00304	9.7e-09	Biological Process
+GO:0043549	regulation of kinase activity	319	21	4.77	197	0.02489	1.3e-08	Biological Process
+GO:0045861	negative regulation of proteolysis	60	10	0.9	200	0.04645	1.8e-08	Biological Process
+GO:0004866	endopeptidase inhibitor activity	36	8	0.56	13	0.04466	6.5e-08	Molecular Function
+GO:0030414	peptidase inhibitor activity	36	8	0.56	14	0.04466	6.5e-08	Molecular Function
+GO:0004197	cysteine-type endopeptidase activity	38	7	0.6	23	0.01380	1.7e-06	Molecular Function
+GO:0004175	endopeptidase activity	172	13	2.69	25	0.04788	3.0e-06	Molecular Function
+GO:0004709	MAP kinase kinase kinase activity	10	4	0.16	33	0.00141	1.1e-05	Molecular Function
+GO:0061783	peptidoglycan muralytic activity	4	3	0.06	36	0.01550	1.5e-05	Molecular Function
+GO:0061980	regulatory RNA binding	16	4	0.25	42	0.00630	9.2e-05	Molecular Function
+GO:0004867	serine-type endopeptidase inhibitor acti...	17	4	0.27	43	0.00012	0.00012	Molecular Function
+GO:0004869	cysteine-type endopeptidase inhibitor ac...	17	4	0.27	44	0.01543	0.00012	Molecular Function
+GO:0019904	protein domain specific binding	215	12	3.37	45	0.00542	0.00014	Molecular Function
+GO:0004784	superoxide dismutase activity	2	2	0.03	47	0.00024	0.00024	Molecular Function
+GO:0005030	neurotrophin receptor activity	2	2	0.03	48	0.00024	0.00024	Molecular Function
+GO:0032934	sterol binding	22	4	0.34	50	0.00034	0.00034	Molecular Function
+GO:0019887	protein kinase regulator activity	94	7	1.47	52	0.02186	0.00067	Molecular Function
+GO:0097199	cysteine-type endopeptidase activity inv...	3	2	0.05	53	0.00072	0.00072	Molecular Function
+GO:0008745	N-acetylmuramoyl-L-alanine amidase activ...	3	2	0.05	54	0.00072	0.00072	Molecular Function
+GO:0008656	cysteine-type endopeptidase activator ac...	3	2	0.05	55	0.00072	0.00072	Molecular Function
+GO:0019207	kinase regulator activity	99	7	1.55	58	0.02743	0.00092	Molecular Function
+GO:0030246	carbohydrate binding	49	5	0.77	59	0.03051	0.00098	Molecular Function
+GO:0016443	bidentate ribonuclease III activity	4	2	0.06	62	0.00143	0.00143	Molecular Function
+GO:0004530	deoxyribonuclease I activity	4	2	0.06	63	0.00143	0.00143	Molecular Function
+GO:0061663	NEDD8 ligase activity	4	2	0.06	64	0.00143	0.00143	Molecular Function
+GO:0043027	cysteine-type endopeptidase inhibitor ac...	16	3	0.25	68	0.00182	0.00182	Molecular Function
+GO:0005126	cytokine receptor binding	16	3	0.25	69	0.00182	0.00182	Molecular Function
+GO:0001872	(1->3)-beta-D-glucan binding	5	2	0.08	70	0.00237	0.00237	Molecular Function
+GO:0003924	GTPase activity	226	10	3.54	72	0.00296	0.00296	Molecular Function
+GO:0005484	SNAP receptor activity	39	4	0.61	73	0.00313	0.00313	Molecular Function
+GO:0004706	JUN kinase kinase kinase activity	6	2	0.09	76	0.00351	0.00351	Molecular Function
+GO:0008553	P-type proton-exporting transporter acti...	6	2	0.09	77	0.00351	0.00351	Molecular Function
+GO:0004707	MAP kinase activity	20	3	0.31	81	0.00354	0.00354	Molecular Function
+GO:0016303	1-phosphatidylinositol-3-kinase activity	7	2	0.11	88	0.00487	0.00487	Molecular Function
+GO:0061631	ubiquitin conjugating enzyme activity	7	2	0.11	90	0.00487	0.00487	Molecular Function
+GO:0034584	piRNA binding	8	2	0.13	92	0.00642	0.00642	Molecular Function
+GO:0004252	serine-type endopeptidase activity	76	5	1.19	93	0.00673	0.00673	Molecular Function
+GO:0004860	protein kinase inhibitor activity	25	3	0.39	95	0.00675	0.00675	Molecular Function
+GO:0031625	ubiquitin protein ligase binding	111	6	1.74	96	0.00795	0.00795	Molecular Function
+GO:1990381	ubiquitin-specific protease binding	10	2	0.16	100	0.01011	0.01011	Molecular Function
+GO:0005121	Toll binding	12	2	0.19	104	0.01453	0.01453	Molecular Function
+GO:0016682	oxidoreductase activity, acting on diphe...	1	1	0.02	105	0.01567	0.01567	Molecular Function
+GO:0008384	IkappaB kinase activity	1	1	0.02	106	0.01567	0.01567	Molecular Function
+GO:0046790	virion binding	1	1	0.02	107	0.01567	0.01567	Molecular Function
+GO:1990525	BIR domain binding	1	1	0.02	108	0.01567	0.01567	Molecular Function
+GO:0004097	catechol oxidase activity	1	1	0.02	109	0.01567	0.01567	Molecular Function
+GO:0004517	nitric-oxide synthase activity	1	1	0.02	110	0.01567	0.01567	Molecular Function
+GO:0008545	JUN kinase kinase activity	1	1	0.02	111	0.01567	0.01567	Molecular Function
+GO:0003796	lysozyme activity	1	1	0.02	112	0.01567	0.01567	Molecular Function
+GO:0004503	tyrosinase activity	1	1	0.02	113	0.01567	0.01567	Molecular Function
+GO:0016716	oxidoreductase activity, acting on paire...	1	1	0.02	114	0.01567	0.01567	Molecular Function
+GO:0031435	mitogen-activated protein kinase kinase ...	1	1	0.02	115	0.01567	0.01567	Molecular Function
+GO:0004040	amidase activity	1	1	0.02	116	0.01567	0.01567	Molecular Function
+GO:0004438	phosphatidylinositol-3-phosphatase activ...	14	2	0.22	120	0.01963	0.01963	Molecular Function
+GO:0052744	phosphatidylinositol monophosphate phosp...	14	2	0.22	121	0.01963	0.01963	Molecular Function
+GO:0052813	phosphatidylinositol bisphosphate kinase...	2	1	0.03	126	0.03109	0.03109	Molecular Function
+GO:0004686	elongation factor-2 kinase activity	2	1	0.03	127	0.03109	0.03109	Molecular Function
+GO:0004679	AMP-activated protein kinase activity	2	1	0.03	128	0.03109	0.03109	Molecular Function
+GO:0046934	phosphatidylinositol-4,5-bisphosphate 3-...	2	1	0.03	129	0.03109	0.03109	Molecular Function
+GO:0031434	mitogen-activated protein kinase kinase ...	2	1	0.03	130	0.03109	0.03109	Molecular Function
+GO:1902936	phosphatidylinositol bisphosphate bindin...	19	2	0.3	132	0.03506	0.03506	Molecular Function
+GO:0000149	SNARE binding	119	5	1.86	134	0.03910	0.03910	Molecular Function
+GO:0004720	protein-lysine 6-oxidase activity	3	1	0.05	136	0.04627	0.04627	Molecular Function
+GO:0000285	1-phosphatidylinositol-3-phosphate 5-kin...	3	1	0.05	137	0.04627	0.04627	Molecular Function
+GO:0051721	protein phosphatase 2A binding	3	1	0.05	138	0.04627	0.04627	Molecular Function
+GO:0004676	3-phosphoinositide-dependent protein kin...	3	1	0.05	139	0.04627	0.04627	Molecular Function
+GO:0005159	insulin-like growth factor receptor bind...	3	1	0.05	140	0.04627	0.04627	Molecular Function
+GO:0019778	Atg12 activating enzyme activity	3	1	0.05	141	0.04627	0.04627	Molecular Function
+GO:0019779	Atg8 activating enzyme activity	3	1	0.05	142	0.04627	0.04627	Molecular Function
+GO:0016307	phosphatidylinositol phosphate kinase ac...	23	2	0.36	143	0.04980	0.04980	Molecular Function
+GO:0005737	cytoplasm	6322	137	96.71	8	0.01268	2.1e-09	Cellular Component
+GO:0000323	lytic vacuole	139	13	2.13	12	0.01450	2.0e-07	Cellular Component
+GO:0005776	autophagosome	80	9	1.22	20	0.00395	3.5e-06	Cellular Component
+GO:0005829	cytosol	822	30	12.57	24	0.00020	7.3e-06	Cellular Component
+GO:0034272	phosphatidylinositol 3-kinase complex, c...	7	3	0.11	28	0.00012	0.00012	Cellular Component
+GO:0005768	endosome	379	16	5.8	30	0.02502	0.00024	Cellular Component
+GO:1990131	Gtr1-Gtr2 GTPase complex	3	2	0.05	33	0.00069	0.00069	Cellular Component
+GO:0043293	apoptosome	3	2	0.05	34	0.00069	0.00069	Cellular Component
+GO:0005769	early endosome	97	7	1.48	35	0.00071	0.00071	Cellular Component
+GO:0034045	phagophore assembly site membrane	13	3	0.2	36	0.00090	0.00090	Cellular Component
+GO:0033596	TSC1-TSC2 complex	5	2	0.08	40	0.00226	0.00226	Cellular Component
+GO:0031201	SNARE complex	39	4	0.6	43	0.00287	0.00287	Cellular Component
+GO:0031932	TORC2 complex	6	2	0.09	44	0.00335	0.00335	Cellular Component
+GO:0005874	microtubule	100	6	1.53	45	0.00430	0.00430	Cellular Component
+GO:0005884	actin filament	23	3	0.35	46	0.00498	0.00498	Cellular Component
+GO:0005758	mitochondrial intermembrane space	24	3	0.37	47	0.00563	0.00563	Cellular Component
+GO:0070578	RISC-loading complex	8	2	0.12	49	0.00614	0.00614	Cellular Component
+GO:0034274	Atg12-Atg5-Atg16 complex	8	2	0.12	50	0.00614	0.00614	Cellular Component
+GO:0005765	lysosomal membrane	54	4	0.83	52	0.00925	0.00925	Cellular Component
+GO:0009986	cell surface	120	6	1.84	54	0.01027	0.01027	Cellular Component
+GO:0008305	integrin complex	11	2	0.17	55	0.01169	0.01169	Cellular Component
+GO:0098636	protein complex involved in cell adhesio...	11	2	0.17	56	0.01169	0.01169	Cellular Component
+GO:0005791	rough endoplasmic reticulum	12	2	0.18	57	0.01389	0.01389	Cellular Component
+GO:0070725	Yb body	12	2	0.18	58	0.01389	0.01389	Cellular Component
+GO:0008385	IkappaB kinase complex	1	1	0.02	59	0.01530	0.01530	Cellular Component
+GO:0044753	amphisome	1	1	0.02	60	0.01530	0.01530	Cellular Component
+GO:0045335	phagocytic vesicle	1	1	0.02	61	0.01530	0.01530	Cellular Component
+GO:0033290	eukaryotic 48S preinitiation complex	1	1	0.02	62	0.01530	0.01530	Cellular Component
+GO:0031205	endoplasmic reticulum Sec complex	1	1	0.02	63	0.01530	0.01530	Cellular Component
+GO:0031332	RNAi effector complex	13	2	0.2	64	0.01625	0.01625	Cellular Component
+GO:0016442	RISC complex	13	2	0.2	65	0.01625	0.01625	Cellular Component
+GO:0000159	protein phosphatase type 2A complex	17	2	0.26	69	0.02723	0.02723	Cellular Component
+GO:0005868	cytoplasmic dynein complex	44	3	0.67	70	0.02950	0.02950	Cellular Component
+GO:0031901	early endosome membrane	2	1	0.03	71	0.03036	0.03036	Cellular Component
+GO:0071561	nucleus-vacuole junction	2	1	0.03	72	0.03036	0.03036	Cellular Component
+GO:0033565	ESCRT-0 complex	2	1	0.03	73	0.03036	0.03036	Cellular Component
+GO:0044232	organelle membrane contact site	2	1	0.03	74	0.03036	0.03036	Cellular Component
+GO:1905348	endonuclease complex	22	2	0.34	77	0.04401	0.04401	Cellular Component
+GO:0031588	nucleotide-activated protein kinase comp...	3	1	0.05	78	0.04520	0.04520	Cellular Component
+GO:0005850	eukaryotic translation initiation factor...	3	1	0.05	79	0.04520	0.04520	Cellular Component

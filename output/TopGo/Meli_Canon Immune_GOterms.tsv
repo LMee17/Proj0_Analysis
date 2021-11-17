@@ -1,0 +1,83 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0009799	specification of symmetry	29	3	0.04	11	0.02127	1.0e-05	Biological Process
+GO:0009855	determination of bilateral symmetry	29	3	0.04	12	0.02127	1.0e-05	Biological Process
+GO:0051704	multi-organism process	2940	13	4.36	28	0.00287	4.8e-05	Biological Process
+GO:0035099	hemocyte migration	63	3	0.09	40	0.00011	0.00011	Biological Process
+GO:0071907	determination of digestive tract left/ri...	13	2	0.02	48	0.00016	0.00016	Biological Process
+GO:0051897	positive regulation of protein kinase B ...	13	2	0.02	49	0.00016	0.00016	Biological Process
+GO:0008219	cell death	862	7	1.28	50	0.04466	0.00016	Biological Process
+GO:0007390	germ-band shortening	75	3	0.11	54	0.00018	0.00018	Biological Process
+GO:0045793	positive regulation of cell size	90	3	0.13	62	0.00030	0.00030	Biological Process
+GO:0090303	positive regulation of wound healing	18	2	0.03	63	0.00032	0.00032	Biological Process
+GO:0007435	salivary gland morphogenesis	237	4	0.35	65	0.00036	0.00036	Biological Process
+GO:0009615	response to virus	96	3	0.14	67	0.01208	0.00037	Biological Process
+GO:0030307	positive regulation of cell growth	102	3	0.15	69	0.00044	0.00044	Biological Process
+GO:0008258	head involution	103	3	0.15	70	0.00045	0.00045	Biological Process
+GO:0045087	innate immune response	298	4	0.44	87	0.00086	0.00086	Biological Process
+GO:0000904	cell morphogenesis involved in different...	1509	8	2.24	89	0.02936	0.00092	Biological Process
+GO:0007394	dorsal closure, elongation of leading ed...	32	2	0.05	91	0.00101	0.00101	Biological Process
+GO:0046843	dorsal appendage formation	142	3	0.21	97	0.00115	0.00115	Biological Process
+GO:0008286	insulin receptor signaling pathway	145	3	0.21	98	0.00122	0.00122	Biological Process
+GO:0006915	apoptotic process	572	5	0.85	101	0.00737	0.00125	Biological Process
+GO:0035212	cell competition in a multicellular orga...	36	2	0.05	102	0.00128	0.00128	Biological Process
+GO:0000165	MAPK cascade	342	4	0.51	108	0.01117	0.00144	Biological Process
+GO:0031929	TOR signaling	155	3	0.23	111	0.00148	0.00148	Biological Process
+GO:0010593	negative regulation of lamellipodium ass...	1	1	0	113	0.00148	0.00148	Biological Process
+GO:0014065	phosphatidylinositol 3-kinase signaling	45	2	0.07	132	0.00199	0.00199	Biological Process
+GO:0030727	germarium-derived female germ-line cyst ...	46	2	0.07	138	0.00208	0.00208	Biological Process
+GO:0009267	cellular response to starvation	175	3	0.26	139	0.00209	0.00209	Biological Process
+GO:0009791	post-embryonic development	1712	8	2.54	142	0.01684	0.00212	Biological Process
+GO:0071900	regulation of protein serine/threonine k...	176	3	0.26	143	0.00212	0.00212	Biological Process
+GO:0019731	antibacterial humoral response	48	2	0.07	147	0.00226	0.00226	Biological Process
+GO:0045860	positive regulation of protein kinase ac...	193	3	0.29	162	0.00276	0.00276	Biological Process
+GO:0051450	myoblast proliferation	2	1	0	165	0.00296	0.00296	Biological Process
+GO:0038179	neurotrophin signaling pathway	2	1	0	166	0.00296	0.00296	Biological Process
+GO:0002250	adaptive immune response	2	1	0	169	0.00296	0.00296	Biological Process
+GO:0048169	regulation of long-term neuronal synapti...	2	1	0	170	0.00296	0.00296	Biological Process
+GO:0046598	positive regulation of viral entry into ...	2	1	0	172	0.00296	0.00296	Biological Process
+GO:0051272	positive regulation of cellular componen...	56	2	0.08	176	0.00307	0.00307	Biological Process
+GO:0007298	border follicle cell migration	421	4	0.62	177	0.00307	0.00307	Biological Process
+GO:0007426	tracheal outgrowth, open tracheal system	58	2	0.09	179	0.00329	0.00329	Biological Process
+GO:0043066	negative regulation of apoptotic process	208	3	0.31	183	0.03277	0.00341	Biological Process
+GO:0031532	actin cytoskeleton reorganization	61	2	0.09	187	0.00363	0.00363	Biological Process
+GO:0046622	positive regulation of organ growth	63	2	0.09	190	0.00387	0.00387	Biological Process
+GO:0043069	negative regulation of programmed cell d...	222	3	0.33	192	0.03702	0.00409	Biological Process
+GO:0036335	intestinal stem cell homeostasis	65	2	0.1	193	0.00411	0.00411	Biological Process
+GO:0007254	JNK cascade	225	3	0.33	196	0.03765	0.00425	Biological Process
+GO:0050829	defense response to Gram-negative bacter...	67	2	0.1	199	0.00436	0.00436	Biological Process
+GO:0003924	GTPase activity	226	3	0.27	1	0.0022	0.0022	Molecular Function
+GO:0046934	phosphatidylinositol-4,5-bisphosphate 3-...	2	1	0	2	0.0024	0.0024	Molecular Function
+GO:0005030	neurotrophin receptor activity	2	1	0	3	0.0024	0.0024	Molecular Function
+GO:0004676	3-phosphoinositide-dependent protein kin...	3	1	0	6	0.0036	0.0036	Molecular Function
+GO:0004530	deoxyribonuclease I activity	4	1	0	7	0.0048	0.0048	Molecular Function
+GO:0016443	bidentate ribonuclease III activity	4	1	0	8	0.0048	0.0048	Molecular Function
+GO:0070883	pre-miRNA binding	4	1	0	9	0.0048	0.0048	Molecular Function
+GO:0035005	1-phosphatidylinositol-4-phosphate 3-kin...	4	1	0	10	0.0048	0.0048	Molecular Function
+GO:0019776	Atg8 ligase activity	5	1	0.01	11	0.0059	0.0059	Molecular Function
+GO:0004705	JUN kinase activity	6	1	0.01	13	0.0071	0.0071	Molecular Function
+GO:0016303	1-phosphatidylinositol-3-kinase activity	7	1	0.01	15	0.0083	0.0083	Molecular Function
+GO:0004438	phosphatidylinositol-3-phosphatase activ...	14	1	0.02	25	0.0166	0.0166	Molecular Function
+GO:0052744	phosphatidylinositol monophosphate phosp...	14	1	0.02	26	0.0166	0.0166	Molecular Function
+GO:0051219	phosphoprotein binding	15	1	0.02	27	0.0177	0.0177	Molecular Function
+GO:0032794	GTPase activating protein binding	17	1	0.02	30	0.0201	0.0201	Molecular Function
+GO:0032934	sterol binding	22	1	0.03	35	0.0259	0.0259	Molecular Function
+GO:0005496	steroid binding	22	1	0.03	36	0.0259	0.0259	Molecular Function
+GO:0019904	protein domain specific binding	215	2	0.26	37	0.0263	0.0263	Molecular Function
+GO:0017124	SH3 domain binding	28	1	0.03	40	0.0329	0.0329	Molecular Function
+GO:0045505	dynein intermediate chain binding	30	1	0.04	41	0.0352	0.0352	Molecular Function
+GO:0003725	double-stranded RNA binding	31	1	0.04	42	0.0363	0.0363	Molecular Function
+GO:0051959	dynein light intermediate chain binding	33	1	0.04	44	0.0386	0.0386	Molecular Function
+GO:0019209	kinase activator activity	34	1	0.04	45	0.0398	0.0398	Molecular Function
+GO:0030295	protein kinase activator activity	34	1	0.04	46	0.0398	0.0398	Molecular Function
+GO:0008569	minus-end-directed microtubule motor act...	35	1	0.04	47	0.0409	0.0409	Molecular Function
+GO:0052866	phosphatidylinositol phosphate phosphata...	36	1	0.04	48	0.0421	0.0421	Molecular Function
+GO:0005943	phosphatidylinositol 3-kinase complex, c...	5	1	0.01	1	0.0060	0.0060	Cellular Component
+GO:0000153	cytoplasmic ubiquitin ligase complex	5	1	0.01	2	0.0060	0.0060	Cellular Component
+GO:0001726	ruffle	7	1	0.01	4	0.0083	0.0083	Cellular Component
+GO:0070578	RISC-loading complex	8	1	0.01	5	0.0095	0.0095	Cellular Component
+GO:0005791	rough endoplasmic reticulum	12	1	0.01	7	0.0143	0.0143	Cellular Component
+GO:0031332	RNAi effector complex	13	1	0.02	8	0.0154	0.0154	Cellular Component
+GO:0016442	RISC complex	13	1	0.02	9	0.0154	0.0154	Cellular Component
+GO:0036156	inner dynein arm	22	1	0.03	14	0.0260	0.0260	Cellular Component
+GO:1905348	endonuclease complex	22	1	0.03	15	0.0260	0.0260	Cellular Component
+GO:0005615	extracellular space	291	2	0.35	17	0.0461	0.0461	Cellular Component

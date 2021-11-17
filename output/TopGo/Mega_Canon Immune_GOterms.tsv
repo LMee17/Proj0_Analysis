@@ -1,0 +1,64 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0071230	cellular response to amino acid stimulus	14	1	0	2	0.00099	0.00099	Biological Process
+GO:1902669	positive regulation of axon guidance	38	1	0	5	0.00268	0.00268	Biological Process
+GO:0050921	positive regulation of chemotaxis	40	1	0	6	0.00282	0.00282	Biological Process
+GO:0050772	positive regulation of axonogenesis	44	1	0	7	0.00310	0.00310	Biological Process
+GO:0035096	larval midgut cell programmed cell death	50	1	0	8	0.00353	0.00353	Biological Process
+GO:0010770	positive regulation of cell morphogenesi...	70	1	0	12	0.00494	0.00494	Biological Process
+GO:0007562	eclosion	78	1	0.01	13	0.00550	0.00550	Biological Process
+GO:0010976	positive regulation of neuron projection...	81	1	0.01	15	0.00572	0.00572	Biological Process
+GO:0045793	positive regulation of cell size	90	1	0.01	17	0.00635	0.00635	Biological Process
+GO:0030307	positive regulation of cell growth	102	1	0.01	19	0.00720	0.00720	Biological Process
+GO:0071902	positive regulation of protein serine/th...	112	1	0.01	20	0.00790	0.00790	Biological Process
+GO:0038202	TORC1 signaling	119	1	0.01	21	0.00840	0.00840	Biological Process
+GO:0008286	insulin receptor signaling pathway	145	1	0.01	23	0.01023	0.01023	Biological Process
+GO:0045666	positive regulation of neuron differenti...	153	1	0.01	25	0.01080	0.01080	Biological Process
+GO:0071375	cellular response to peptide hormone sti...	161	1	0.01	28	0.01136	0.01136	Biological Process
+GO:0032869	cellular response to insulin stimulus	161	1	0.01	29	0.01136	0.01136	Biological Process
+GO:1901653	cellular response to peptide	161	1	0.01	30	0.01136	0.01136	Biological Process
+GO:0043434	response to peptide hormone	164	1	0.01	31	0.01157	0.01157	Biological Process
+GO:0032868	response to insulin	164	1	0.01	32	0.01157	0.01157	Biological Process
+GO:1901652	response to peptide	165	1	0.01	33	0.01164	0.01164	Biological Process
+GO:0009267	cellular response to starvation	175	1	0.01	34	0.01235	0.01235	Biological Process
+GO:0031669	cellular response to nutrient levels	177	1	0.01	36	0.01249	0.01249	Biological Process
+GO:0031668	cellular response to extracellular stimu...	182	1	0.01	37	0.01284	0.01284	Biological Process
+GO:1904397	negative regulation of neuromuscular jun...	194	1	0.01	42	0.01369	0.01369	Biological Process
+GO:0045886	negative regulation of synaptic assembly...	194	1	0.01	43	0.01369	0.01369	Biological Process
+GO:0051964	negative regulation of synapse assembly	196	1	0.01	45	0.01383	0.01383	Biological Process
+GO:1905809	negative regulation of synapse organizat...	196	1	0.01	46	0.01383	0.01383	Biological Process
+GO:1901889	negative regulation of cell junction ass...	201	1	0.01	48	0.01418	0.01418	Biological Process
+GO:0071496	cellular response to external stimulus	212	1	0.01	51	0.01496	0.01496	Biological Process
+GO:0010506	regulation of autophagy	218	1	0.02	52	0.01538	0.01538	Biological Process
+GO:0048640	negative regulation of developmental gro...	265	1	0.02	56	0.01870	0.01870	Biological Process
+GO:0042594	response to starvation	282	1	0.02	59	0.01990	0.01990	Biological Process
+GO:0032870	cellular response to hormone stimulus	287	1	0.02	60	0.02025	0.02025	Biological Process
+GO:0008340	determination of adult lifespan	323	1	0.02	67	0.02279	0.02279	Biological Process
+GO:0010259	multicellular organism aging	331	1	0.02	69	0.02335	0.02335	Biological Process
+GO:0045926	negative regulation of growth	332	1	0.02	70	0.02342	0.02342	Biological Process
+GO:0031667	response to nutrient levels	339	1	0.02	72	0.02392	0.02392	Biological Process
+GO:0007568	aging	341	1	0.02	74	0.02406	0.02406	Biological Process
+GO:0009991	response to extracellular stimulus	344	1	0.02	75	0.02427	0.02427	Biological Process
+GO:0051961	negative regulation of nervous system de...	345	1	0.02	76	0.02434	0.02434	Biological Process
+GO:0009725	response to hormone	352	1	0.02	80	0.02484	0.02484	Biological Process
+GO:0007517	muscle organ development	392	1	0.03	86	0.02766	0.02766	Biological Process
+GO:0051129	negative regulation of cellular componen...	431	1	0.03	87	0.03041	0.03041	Biological Process
+GO:0006914	autophagy	440	1	0.03	90	0.03104	0.03104	Biological Process
+GO:0061919	process utilizing autophagic mechanism	440	1	0.03	91	0.03104	0.03104	Biological Process
+GO:0031329	regulation of cellular catabolic process	452	1	0.03	92	0.03189	0.03189	Biological Process
+GO:0009894	regulation of catabolic process	471	1	0.03	94	0.03323	0.03323	Biological Process
+GO:0007346	regulation of mitotic cell cycle	482	1	0.03	96	0.03401	0.03401	Biological Process
+GO:0045664	regulation of neuron differentiation	502	1	0.04	97	0.03542	0.03542	Biological Process
+GO:0007169	transmembrane receptor protein tyrosine ...	518	1	0.04	100	0.03655	0.03655	Biological Process
+GO:0008582	regulation of synaptic assembly at neuro...	535	1	0.04	101	0.03775	0.03775	Biological Process
+GO:1904396	regulation of neuromuscular junction dev...	548	1	0.04	102	0.03867	0.03867	Biological Process
+GO:0051241	negative regulation of multicellular org...	554	1	0.04	103	0.03909	0.03909	Biological Process
+GO:0051963	regulation of synapse assembly	554	1	0.04	104	0.03909	0.03909	Biological Process
+GO:1901888	regulation of cell junction assembly	561	1	0.04	105	0.03958	0.03958	Biological Process
+GO:0051093	negative regulation of developmental pro...	587	1	0.04	108	0.04142	0.04142	Biological Process
+GO:0050807	regulation of synapse organization	628	1	0.04	114	0.04431	0.04431	Biological Process
+GO:0007167	enzyme linked receptor protein signaling...	674	1	0.05	120	0.04756	0.04756	Biological Process
+GO:0051124	synaptic assembly at neuromuscular junct...	674	1	0.05	121	0.04756	0.04756	Biological Process
+GO:0051726	regulation of cell cycle	693	1	0.05	122	0.04890	0.04890	Biological Process
+GO:0030674	protein-macromolecule adaptor activity	131	1	0.01	1	0.011	0.011	Molecular Function
+GO:0060090	molecular adaptor activity	133	1	0.01	2	0.011	0.011	Molecular Function
+GO:0031931	TORC1 complex	5	1	0	1	0.0004	0.00040	Cellular Component

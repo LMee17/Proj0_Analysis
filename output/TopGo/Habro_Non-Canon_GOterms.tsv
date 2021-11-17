@@ -1,0 +1,4 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0000413	protein peptidyl-prolyl isomerization	37	1	0	1	0.0026	0.0026	Biological Process
+GO:0003755	peptidyl-prolyl cis-trans isomerase acti...	37	1	0	1	0.0032	0.0032	Molecular Function
+GO:0005615	extracellular space	291	1	0.02	1	0.023	0.023	Cellular Component

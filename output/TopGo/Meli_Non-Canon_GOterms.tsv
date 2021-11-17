@@ -1,0 +1,35 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0035095	behavioral response to nicotine	2	1	0	1	0.00099	0.00099	Biological Process
+GO:0046323	glucose import	22	1	0.01	3	0.01082	0.01082	Biological Process
+GO:1904659	glucose transmembrane transport	22	1	0.01	4	0.01082	0.01082	Biological Process
+GO:0015749	monosaccharide transmembrane transport	23	1	0.01	5	0.01131	0.01131	Biological Process
+GO:0008645	hexose transmembrane transport	23	1	0.01	6	0.01131	0.01131	Biological Process
+GO:0008643	carbohydrate transport	24	1	0.01	7	0.01180	0.01180	Biological Process
+GO:0034219	carbohydrate transmembrane transport	24	1	0.01	8	0.01180	0.01180	Biological Process
+GO:0048148	behavioral response to cocaine	36	1	0.02	9	0.01765	0.01765	Biological Process
+GO:0060857	establishment of glial blood-brain barri...	37	1	0.02	10	0.01814	0.01814	Biological Process
+GO:0008366	axon ensheathment	37	1	0.02	11	0.01814	0.01814	Biological Process
+GO:0007272	ensheathment of neurons	41	1	0.02	12	0.02008	0.02008	Biological Process
+GO:0042220	response to cocaine	51	1	0.03	13	0.02492	0.02492	Biological Process
+GO:0060359	response to ammonium ion	59	1	0.03	14	0.02878	0.02878	Biological Process
+GO:0060856	establishment of blood-brain barrier	59	1	0.03	15	0.02878	0.02878	Biological Process
+GO:0043279	response to alkaloid	68	1	0.03	16	0.03311	0.03311	Biological Process
+GO:0021782	glial cell development	87	1	0.04	17	0.04219	0.04219	Biological Process
+GO:0010001	glial cell differentiation	97	1	0.05	18	0.04695	0.04695	Biological Process
+GO:0009410	response to xenobiotic stimulus	101	1	0.05	19	0.04884	0.04884	Biological Process
+GO:0008239	dipeptidyl-peptidase activity	10	1	0.01	1	0.0051	0.0051	Molecular Function
+GO:0005351	carbohydrate:proton symporter activity	22	1	0.01	2	0.0112	0.0112	Molecular Function
+GO:0005402	carbohydrate:cation symporter activity	22	1	0.01	3	0.0112	0.0112	Molecular Function
+GO:0015145	monosaccharide transmembrane transporter...	22	1	0.01	4	0.0112	0.0112	Molecular Function
+GO:0005355	glucose transmembrane transporter activi...	22	1	0.01	5	0.0112	0.0112	Molecular Function
+GO:0015149	hexose transmembrane transporter activit...	22	1	0.01	6	0.0112	0.0112	Molecular Function
+GO:0015144	carbohydrate transmembrane transporter a...	23	1	0.01	7	0.0117	0.0117	Molecular Function
+GO:0051119	sugar transmembrane transporter activity	23	1	0.01	8	0.0117	0.0117	Molecular Function
+GO:0015295	solute:proton symporter activity	24	1	0.01	9	0.0122	0.0122	Molecular Function
+GO:0008010	structural constituent of chitin-based l...	25	1	0.01	10	0.0127	0.0127	Molecular Function
+GO:0004177	aminopeptidase activity	25	1	0.01	11	0.0127	0.0127	Molecular Function
+GO:0005214	structural constituent of chitin-based c...	34	1	0.02	12	0.0172	0.0172	Molecular Function
+GO:0042302	structural constituent of cuticle	34	1	0.02	13	0.0172	0.0172	Molecular Function
+GO:0005919	pleated septate junction	16	1	0.01	1	0.0064	0.0064	Cellular Component
+GO:0005777	peroxisome	117	1	0.05	2	0.0458	0.0458	Cellular Component
+GO:0042579	microbody	117	1	0.05	3	0.0458	0.0458	Cellular Component

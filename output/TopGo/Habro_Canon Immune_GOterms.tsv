@@ -1,0 +1,96 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0031346	positive regulation of cell projection o...	155	3	0.07	1	0.00101	2.5e-05	Biological Process
+GO:1901699	cellular response to nitrogen compound	260	3	0.11	5	0.02935	0.00012	Biological Process
+GO:0012501	programmed cell death	770	4	0.33	6	0.00143	0.00012	Biological Process
+GO:0042594	response to starvation	282	3	0.12	7	0.03023	0.00015	Biological Process
+GO:0006950	response to stress	1831	5	0.78	10	0.03803	0.00019	Biological Process
+GO:0031667	response to nutrient levels	339	3	0.14	11	0.04605	0.00026	Biological Process
+GO:0009991	response to extracellular stimulus	344	3	0.15	12	0.04743	0.00027	Biological Process
+GO:0060292	long-term synaptic depression	1	1	0	15	0.00042	0.00042	Biological Process
+GO:0034769	basement membrane disassembly	1	1	0	16	0.00042	0.00042	Biological Process
+GO:0010976	positive regulation of neuron projection...	81	2	0.03	17	0.02447	0.00048	Biological Process
+GO:0120035	regulation of plasma membrane bounded ce...	437	3	0.18	18	0.00850	0.00054	Biological Process
+GO:0045793	positive regulation of cell size	90	2	0.04	22	0.00059	0.00059	Biological Process
+GO:0030307	positive regulation of cell growth	102	2	0.04	28	0.00075	0.00075	Biological Process
+GO:0055088	lipid homeostasis	108	2	0.05	29	0.03037	0.00085	Biological Process
+GO:0071902	positive regulation of protein serine/th...	112	2	0.05	31	0.00091	0.00091	Biological Process
+GO:0038202	TORC1 signaling	119	2	0.05	32	0.00103	0.00103	Biological Process
+GO:0032103	positive regulation of response to exter...	128	2	0.05	33	0.04064	0.00119	Biological Process
+GO:0006915	apoptotic process	572	3	0.24	34	0.01466	0.00119	Biological Process
+GO:0031054	pre-miRNA processing	3	1	0	35	0.00127	0.00127	Biological Process
+GO:0048646	anatomical structure formation involved ...	1425	4	0.6	36	0.00839	0.00129	Biological Process
+GO:0008286	insulin receptor signaling pathway	145	2	0.06	37	0.00152	0.00152	Biological Process
+GO:0031175	neuron projection development	1499	4	0.63	38	0.00975	0.00157	Biological Process
+GO:0045666	positive regulation of neuron differenti...	153	2	0.06	39	0.00169	0.00169	Biological Process
+GO:0035087	siRNA loading onto RISC involved in RNA ...	4	1	0	40	0.00169	0.00169	Biological Process
+GO:0007561	imaginal disc eversion	5	1	0	50	0.00212	0.00212	Biological Process
+GO:0009267	cellular response to starvation	175	2	0.07	51	0.00220	0.00220	Biological Process
+GO:0048477	oogenesis	1660	4	0.7	54	0.01298	0.00231	Biological Process
+GO:0050769	positive regulation of neurogenesis	187	2	0.08	57	0.00251	0.00251	Biological Process
+GO:0031104	dendrite regeneration	6	1	0	58	0.00254	0.00254	Biological Process
+GO:0045886	negative regulation of synaptic assembly...	194	2	0.08	62	0.00270	0.00270	Biological Process
+GO:0006309	apoptotic DNA fragmentation	7	1	0	72	0.00296	0.00296	Biological Process
+GO:0007292	female gamete generation	1801	4	0.76	73	0.01636	0.00315	Biological Process
+GO:0090278	negative regulation of peptide hormone s...	8	1	0	75	0.00338	0.00338	Biological Process
+GO:0046844	chorion micropyle formation	8	1	0	77	0.00338	0.00338	Biological Process
+GO:0010506	regulation of autophagy	218	2	0.09	79	0.00339	0.00339	Biological Process
+GO:0007281	germ cell development	1857	4	0.79	80	0.01783	0.00354	Biological Process
+GO:0010897	negative regulation of triglyceride cata...	10	1	0	84	0.00423	0.00423	Biological Process
+GO:0048680	positive regulation of axon regeneration	11	1	0	90	0.00465	0.00465	Biological Process
+GO:0030381	chorion-containing eggshell pattern form...	12	1	0.01	94	0.00507	0.00507	Biological Process
+GO:0048584	positive regulation of response to stimu...	954	3	0.4	96	0.03869	0.00521	Biological Process
+GO:0042592	homeostatic process	965	3	0.41	98	0.03882	0.00538	Biological Process
+GO:0022412	cellular process involved in reproductio...	2079	4	0.88	99	0.02447	0.00540	Biological Process
+GO:0071276	cellular response to cadmium ion	13	1	0.01	101	0.00549	0.00549	Biological Process
+GO:0071243	cellular response to arsenic-containing ...	13	1	0.01	103	0.00549	0.00549	Biological Process
+GO:0000278	mitotic cell cycle	994	3	0.42	109	0.00586	0.00586	Biological Process
+GO:0043652	engulfment of apoptotic cell	14	1	0.01	112	0.00591	0.00591	Biological Process
+GO:0071230	cellular response to amino acid stimulus	14	1	0.01	113	0.00591	0.00591	Biological Process
+GO:0003006	developmental process involved in reprod...	2163	4	0.92	114	0.02731	0.00626	Biological Process
+GO:0048583	regulation of response to stimulus	2229	4	0.94	119	0.02993	0.00701	Biological Process
+GO:0007276	gamete generation	2240	4	0.95	122	0.03009	0.00714	Biological Process
+GO:0008340	determination of adult lifespan	323	2	0.14	125	0.00731	0.00731	Biological Process
+GO:0030422	production of siRNA involved in RNA inte...	18	1	0.01	132	0.00760	0.00760	Biological Process
+GO:0042632	cholesterol homeostasis	21	1	0.01	148	0.00886	0.00886	Biological Process
+GO:0032233	positive regulation of actin filament bu...	21	1	0.01	149	0.00886	0.00886	Biological Process
+GO:0010884	positive regulation of lipid storage	24	1	0.01	162	0.01012	0.01012	Biological Process
+GO:0001709	cell fate determination	387	2	0.16	165	0.01037	0.01037	Biological Process
+GO:1902533	positive regulation of intracellular sig...	395	2	0.17	166	0.01079	0.01079	Biological Process
+GO:0007279	pole cell formation	26	1	0.01	167	0.01096	0.01096	Biological Process
+GO:1902745	positive regulation of lamellipodium org...	27	1	0.01	169	0.01138	0.01138	Biological Process
+GO:0010592	positive regulation of lamellipodium ass...	27	1	0.01	171	0.01138	0.01138	Biological Process
+GO:0043331	response to dsRNA	28	1	0.01	174	0.01180	0.01180	Biological Process
+GO:0071359	cellular response to dsRNA	28	1	0.01	175	0.01180	0.01180	Biological Process
+GO:0002682	regulation of immune system process	416	2	0.18	176	0.01192	0.01192	Biological Process
+GO:0019953	sexual reproduction	2576	4	1.09	177	0.04411	0.01195	Biological Process
+GO:0044703	multi-organism reproductive process	2576	4	1.09	178	0.04411	0.01195	Biological Process
+GO:0048609	multicellular organismal reproductive pr...	2582	4	1.09	179	0.04439	0.01205	Biological Process
+GO:0061723	glycophagy	30	1	0.01	181	0.01264	0.01264	Biological Process
+GO:0032504	multicellular organism reproduction	2636	4	1.12	188	0.04694	0.01300	Biological Process
+GO:0061912	selective autophagy	31	1	0.01	191	0.01305	0.01305	Biological Process
+GO:0042981	regulation of apoptotic process	443	2	0.19	192	0.01345	0.01345	Biological Process
+GO:0044247	cellular polysaccharide catabolic proces...	33	1	0.01	194	0.01389	0.01389	Biological Process
+GO:0007395	dorsal closure, spreading of leading edg...	33	1	0.01	195	0.01389	0.01389	Biological Process
+GO:0005980	glycogen catabolic process	33	1	0.01	196	0.01389	0.01389	Biological Process
+GO:0000272	polysaccharide catabolic process	33	1	0.01	197	0.01389	0.01389	Biological Process
+GO:0009251	glucan catabolic process	33	1	0.01	198	0.01389	0.01389	Biological Process
+GO:1905954	positive regulation of lipid localizatio...	34	1	0.01	200	0.01431	0.01431	Biological Process
+GO:0008545	JUN kinase kinase activity	1	1	0	1	0.00051	0.00051	Molecular Function
+GO:0030674	protein-macromolecule adaptor activity	131	2	0.07	2	0.04849	0.00180	Molecular Function
+GO:0060090	molecular adaptor activity	133	2	0.07	3	0.04931	0.00185	Molecular Function
+GO:0004530	deoxyribonuclease I activity	4	1	0	4	0.00204	0.00204	Molecular Function
+GO:0016443	bidentate ribonuclease III activity	4	1	0	6	0.00204	0.00204	Molecular Function
+GO:0070883	pre-miRNA binding	4	1	0	7	0.00204	0.00204	Molecular Function
+GO:0019776	Atg8 ligase activity	5	1	0	8	0.00255	0.00255	Molecular Function
+GO:0005078	MAP-kinase scaffold activity	15	1	0.01	13	0.00764	0.00764	Molecular Function
+GO:0003725	double-stranded RNA binding	31	1	0.02	17	0.01574	0.01574	Molecular Function
+GO:0005112	Notch binding	36	1	0.02	19	0.01826	0.01826	Molecular Function
+GO:0004674	protein serine/threonine kinase activity	545	2	0.28	21	0.02847	0.02847	Molecular Function
+GO:0003727	single-stranded RNA binding	91	1	0.05	26	0.04561	0.04561	Molecular Function
+GO:0031901	early endosome membrane	2	1	0	1	0.00096	0.00096	Cellular Component
+GO:0000153	cytoplasmic ubiquitin ligase complex	5	1	0	2	0.00239	0.00239	Cellular Component
+GO:0031931	TORC1 complex	5	1	0	3	0.00239	0.00239	Cellular Component
+GO:0070578	RISC-loading complex	8	1	0	5	0.00382	0.00382	Cellular Component
+GO:0016442	RISC complex	13	1	0.01	8	0.00620	0.00620	Cellular Component
+GO:1905348	endonuclease complex	22	1	0.01	10	0.01047	0.01047	Cellular Component
+GO:0005776	autophagosome	80	1	0.04	13	0.03765	0.03765	Cellular Component

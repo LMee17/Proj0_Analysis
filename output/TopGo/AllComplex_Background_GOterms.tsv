@@ -1,0 +1,139 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0051965	positive regulation of synapse assembly	176	4	0.35	1	0.0230	0.00037	Biological Process
+GO:1901890	positive regulation of cell junction ass...	176	4	0.35	2	0.0230	0.00037	Biological Process
+GO:0033962	P-body assembly	24	2	0.05	3	0.0010	0.00101	Biological Process
+GO:1902117	positive regulation of organelle assembl...	37	2	0.07	6	0.0024	0.00240	Biological Process
+GO:0044351	macropinocytosis	2	1	0	7	0.0039	0.00395	Biological Process
+GO:0046598	positive regulation of viral entry into ...	2	1	0	10	0.0039	0.00395	Biological Process
+GO:0045887	positive regulation of synaptic assembly...	163	3	0.32	13	0.0040	0.00396	Biological Process
+GO:1901962	S-adenosyl-L-methionine transmembrane tr...	3	1	0.01	21	0.0059	0.00592	Biological Process
+GO:0008283	cell population proliferation	872	6	1.72	26	0.0062	0.00625	Biological Process
+GO:0007318	pole plasm protein localization	62	2	0.12	27	0.0066	0.00661	Biological Process
+GO:0000288	nuclear-transcribed mRNA catabolic proce...	67	2	0.13	31	0.0077	0.00769	Biological Process
+GO:0016320	endoplasmic reticulum membrane fusion	4	1	0.01	33	0.0079	0.00788	Biological Process
+GO:0045998	positive regulation of ecdysteroid biosy...	4	1	0.01	38	0.0079	0.00788	Biological Process
+GO:0048582	positive regulation of post-embryonic de...	4	1	0.01	43	0.0079	0.00788	Biological Process
+GO:0043525	positive regulation of neuron apoptotic ...	4	1	0.01	45	0.0079	0.00788	Biological Process
+GO:0000389	mRNA 3'-splice site recognition	4	1	0.01	47	0.0079	0.00788	Biological Process
+GO:0007317	regulation of pole plasm oskar mRNA loca...	73	2	0.14	57	0.0091	0.00907	Biological Process
+GO:0060281	regulation of oocyte development	73	2	0.14	58	0.0091	0.00907	Biological Process
+GO:0097352	autophagosome maturation	77	2	0.15	66	0.0101	0.01005	Biological Process
+GO:0045167	asymmetric protein localization involved...	83	2	0.16	72	0.0116	0.01160	Biological Process
+GO:0032486	Rap protein signal transduction	6	1	0.01	73	0.0118	0.01180	Biological Process
+GO:0034473	U1 snRNA 3'-end processing	6	1	0.01	74	0.0118	0.01180	Biological Process
+GO:0034476	U5 snRNA 3'-end processing	6	1	0.01	75	0.0118	0.01180	Biological Process
+GO:0071042	nuclear polyadenylation-dependent mRNA c...	6	1	0.01	76	0.0118	0.01180	Biological Process
+GO:0071047	polyadenylation-dependent mRNA catabolic...	6	1	0.01	77	0.0118	0.01180	Biological Process
+GO:0045995	regulation of embryonic development	243	3	0.48	78	0.0119	0.01189	Biological Process
+GO:1902875	regulation of embryonic pattern specific...	86	2	0.17	80	0.0124	0.01242	Biological Process
+GO:0000467	exonucleolytic trimming to generate matu...	7	1	0.01	84	0.0138	0.01375	Biological Process
+GO:0000459	exonucleolytic trimming involved in rRNA...	7	1	0.01	85	0.0138	0.01375	Biological Process
+GO:0015811	L-cystine transport	7	1	0.01	86	0.0138	0.01375	Biological Process
+GO:0000101	sulfur amino acid transport	7	1	0.01	87	0.0138	0.01375	Biological Process
+GO:0071029	nuclear ncRNA surveillance	7	1	0.01	88	0.0138	0.01375	Biological Process
+GO:0106354	tRNA surveillance	7	1	0.01	89	0.0138	0.01375	Biological Process
+GO:0071046	nuclear polyadenylation-dependent ncRNA ...	7	1	0.01	90	0.0138	0.01375	Biological Process
+GO:0071035	nuclear polyadenylation-dependent rRNA c...	7	1	0.01	91	0.0138	0.01375	Biological Process
+GO:0071038	nuclear polyadenylation-dependent tRNA c...	7	1	0.01	92	0.0138	0.01375	Biological Process
+GO:0090278	negative regulation of peptide hormone s...	8	1	0.02	94	0.0157	0.01570	Biological Process
+GO:0043633	polyadenylation-dependent RNA catabolic ...	8	1	0.02	95	0.0157	0.01570	Biological Process
+GO:0043634	polyadenylation-dependent ncRNA cataboli...	8	1	0.02	96	0.0157	0.01570	Biological Process
+GO:0034475	U4 snRNA 3'-end processing	8	1	0.02	97	0.0157	0.01570	Biological Process
+GO:0046888	negative regulation of hormone secretion	8	1	0.02	98	0.0157	0.01570	Biological Process
+GO:0035418	protein localization to synapse	9	1	0.02	101	0.0176	0.01765	Biological Process
+GO:0010606	positive regulation of cytoplasmic mRNA ...	9	1	0.02	102	0.0176	0.01765	Biological Process
+GO:0034427	nuclear-transcribed mRNA catabolic proce...	9	1	0.02	104	0.0176	0.01765	Biological Process
+GO:0061323	cell proliferation involved in heart mor...	10	1	0.02	108	0.0196	0.01959	Biological Process
+GO:2000725	regulation of cardiac muscle cell differ...	10	1	0.02	109	0.0196	0.01959	Biological Process
+GO:2000727	positive regulation of cardiac muscle ce...	10	1	0.02	110	0.0196	0.01959	Biological Process
+GO:0016075	rRNA catabolic process	10	1	0.02	111	0.0196	0.01959	Biological Process
+GO:0031125	rRNA 3'-end processing	10	1	0.02	112	0.0196	0.01959	Biological Process
+GO:1905209	positive regulation of cardiocyte differ...	10	1	0.02	113	0.0196	0.01959	Biological Process
+GO:0045844	positive regulation of striated muscle t...	10	1	0.02	114	0.0196	0.01959	Biological Process
+GO:0003263	cardioblast proliferation	10	1	0.02	115	0.0196	0.01959	Biological Process
+GO:0003264	regulation of cardioblast proliferation	10	1	0.02	116	0.0196	0.01959	Biological Process
+GO:2000136	regulation of cell proliferation involve...	10	1	0.02	117	0.0196	0.01959	Biological Process
+GO:2000138	positive regulation of cell proliferatio...	10	1	0.02	118	0.0196	0.01959	Biological Process
+GO:1905304	regulation of cardiac myofibril assembly	10	1	0.02	119	0.0196	0.01959	Biological Process
+GO:1905306	positive regulation of cardiac myofibril...	10	1	0.02	120	0.0196	0.01959	Biological Process
+GO:1905062	positive regulation of cardioblast proli...	10	1	0.02	121	0.0196	0.01959	Biological Process
+GO:0055024	regulation of cardiac muscle tissue deve...	10	1	0.02	122	0.0196	0.01959	Biological Process
+GO:0055025	positive regulation of cardiac muscle ti...	10	1	0.02	123	0.0196	0.01959	Biological Process
+GO:0043928	exonucleolytic catabolism of deadenylate...	10	1	0.02	124	0.0196	0.01959	Biological Process
+GO:1901863	positive regulation of muscle tissue dev...	10	1	0.02	125	0.0196	0.01959	Biological Process
+GO:0055003	cardiac myofibril assembly	10	1	0.02	126	0.0196	0.01959	Biological Process
+GO:0002090	regulation of receptor internalization	10	1	0.02	127	0.0196	0.01959	Biological Process
+GO:0002092	positive regulation of receptor internal...	10	1	0.02	128	0.0196	0.01959	Biological Process
+GO:0022407	regulation of cell-cell adhesion	112	2	0.22	131	0.0205	0.02046	Biological Process
+GO:1903429	regulation of cell maturation	114	2	0.23	134	0.0212	0.02115	Biological Process
+GO:0016078	tRNA catabolic process	11	1	0.02	136	0.0215	0.02153	Biological Process
+GO:0071028	nuclear mRNA surveillance	11	1	0.02	138	0.0215	0.02153	Biological Process
+GO:0006839	mitochondrial transport	118	2	0.23	141	0.0226	0.02256	Biological Process
+GO:0010603	regulation of cytoplasmic mRNA processin...	12	1	0.02	144	0.0235	0.02346	Biological Process
+GO:0046012	positive regulation of oskar mRNA transl...	12	1	0.02	145	0.0235	0.02346	Biological Process
+GO:0072337	modified amino acid transport	12	1	0.02	146	0.0235	0.02346	Biological Process
+GO:0000291	nuclear-transcribed mRNA catabolic proce...	12	1	0.02	147	0.0235	0.02346	Biological Process
+GO:0031623	receptor internalization	12	1	0.02	148	0.0235	0.02346	Biological Process
+GO:0042127	regulation of cell population proliferat...	564	4	1.11	150	0.0238	0.02380	Biological Process
+GO:0055059	asymmetric neuroblast division	125	2	0.25	153	0.0251	0.02512	Biological Process
+GO:0000290	deadenylation-dependent decapping of nuc...	13	1	0.03	154	0.0254	0.02539	Biological Process
+GO:0002792	negative regulation of peptide secretion	13	1	0.03	155	0.0254	0.02539	Biological Process
+GO:0036445	neuronal stem cell division	129	2	0.25	157	0.0266	0.02663	Biological Process
+GO:0055057	neuroblast division	129	2	0.25	158	0.0266	0.02663	Biological Process
+GO:0030710	regulation of border follicle cell delam...	14	1	0.03	161	0.0273	0.02732	Biological Process
+GO:0016199	axon midline choice point recognition	132	2	0.26	165	0.0278	0.02778	Biological Process
+GO:0098609	cell-cell adhesion	336	3	0.66	166	0.0279	0.02792	Biological Process
+GO:0009636	response to toxic substance	337	3	0.67	167	0.0281	0.02813	Biological Process
+GO:0098586	cellular response to virus	15	1	0.03	169	0.0292	0.02924	Biological Process
+GO:0034661	ncRNA catabolic process	15	1	0.03	170	0.0292	0.02924	Biological Process
+GO:0048103	somatic stem cell division	145	2	0.29	180	0.0330	0.03303	Biological Process
+GO:0110154	RNA decapping	17	1	0.03	181	0.0331	0.03308	Biological Process
+GO:0110156	methylguanosine-cap decapping	17	1	0.03	182	0.0331	0.03308	Biological Process
+GO:1902414	protein localization to cell junction	17	1	0.03	183	0.0331	0.03308	Biological Process
+GO:0016198	axon choice point recognition	149	2	0.29	185	0.0347	0.03471	Biological Process
+GO:0000466	maturation of 5.8S rRNA from tricistroni...	19	1	0.04	187	0.0369	0.03690	Biological Process
+GO:0052128	positive energy taxis	19	1	0.04	188	0.0369	0.03690	Biological Process
+GO:0071025	RNA surveillance	19	1	0.04	189	0.0369	0.03690	Biological Process
+GO:0071027	nuclear RNA surveillance	19	1	0.04	190	0.0369	0.03690	Biological Process
+GO:0046956	positive phototaxis	19	1	0.04	191	0.0369	0.03690	Biological Process
+GO:0048636	positive regulation of muscle organ deve...	20	1	0.04	194	0.0388	0.03880	Biological Process
+GO:0022611	dormancy process	20	1	0.04	195	0.0388	0.03880	Biological Process
+GO:0060914	heart formation	20	1	0.04	197	0.0388	0.03880	Biological Process
+GO:0030155	regulation of cell adhesion	159	2	0.31	198	0.0391	0.03907	Biological Process
+GO:0034389	lipid droplet organization	21	1	0.04	200	0.0407	0.04071	Biological Process
+GO:0003723	RNA binding	967	8	1.89	1	0.00033	0.00033	Molecular Function
+GO:0000095	S-adenosyl-L-methionine transmembrane tr...	3	1	0.01	3	0.00586	0.00586	Molecular Function
+GO:0000099	sulfur amino acid transmembrane transpor...	7	1	0.01	5	0.01363	0.01363	Molecular Function
+GO:0015184	L-cystine transmembrane transporter acti...	7	1	0.01	6	0.01363	0.01363	Molecular Function
+GO:0005158	insulin receptor binding	9	1	0.02	9	0.01749	0.01749	Molecular Function
+GO:0030628	pre-mRNA 3'-splice site binding	9	1	0.02	10	0.01749	0.01749	Molecular Function
+GO:0004697	protein kinase C activity	9	1	0.02	11	0.01749	0.01749	Molecular Function
+GO:0072349	modified amino acid transmembrane transp...	12	1	0.02	12	0.02326	0.02326	Molecular Function
+GO:0035255	ionotropic glutamate receptor binding	15	1	0.03	13	0.02899	0.02899	Molecular Function
+GO:0000340	RNA 7-methylguanosine cap binding	16	1	0.03	14	0.03090	0.03090	Molecular Function
+GO:0035254	glutamate receptor binding	17	1	0.03	15	0.03280	0.03280	Molecular Function
+GO:0005154	epidermal growth factor receptor binding	19	1	0.04	16	0.03659	0.03659	Molecular Function
+GO:0000339	RNA cap binding	23	1	0.05	18	0.04413	0.04413	Molecular Function
+GO:0005102	signaling receptor binding	422	3	0.83	19	0.04789	0.04789	Molecular Function
+GO:0071212	subsynaptic reticulum	43	2	0.09	1	0.0035	0.0035	Cellular Component
+GO:1990904	ribonucleoprotein complex	745	6	1.54	2	0.0035	0.0035	Cellular Component
+GO:0016607	nuclear speck	58	2	0.12	5	0.0064	0.0064	Cellular Component
+GO:0000932	P-body	72	2	0.15	6	0.0096	0.0096	Cellular Component
+GO:0016323	basolateral plasma membrane	231	3	0.48	7	0.0117	0.0117	Cellular Component
+GO:0009925	basal plasma membrane	231	3	0.48	8	0.0117	0.0117	Cellular Component
+GO:0000177	cytoplasmic exosome (RNase complex)	9	1	0.02	9	0.0185	0.0185	Cellular Component
+GO:0045178	basal part of cell	279	3	0.58	10	0.0194	0.0194	Cellular Component
+GO:0060293	germ plasm	107	2	0.22	11	0.0205	0.0205	Cellular Component
+GO:0044754	autolysosome	10	1	0.02	12	0.0205	0.0205	Cellular Component
+GO:0005767	secondary lysosome	11	1	0.02	13	0.0226	0.0226	Cellular Component
+GO:0000176	nuclear exosome (RNase complex)	12	1	0.02	15	0.0246	0.0246	Cellular Component
+GO:0005652	nuclear lamina	12	1	0.02	16	0.0246	0.0246	Cellular Component
+GO:0045495	pole plasm	118	2	0.24	17	0.0246	0.0246	Cellular Component
+GO:0031252	cell leading edge	126	2	0.26	18	0.0278	0.0278	Cellular Component
+GO:0045179	apical cortex	137	2	0.28	20	0.0324	0.0324	Cellular Component
+GO:0000178	exosome (RNase complex)	16	1	0.03	21	0.0327	0.0327	Cellular Component
+GO:1905354	exoribonuclease complex	16	1	0.03	22	0.0327	0.0327	Cellular Component
+GO:0005764	lysosome	138	2	0.29	23	0.0328	0.0328	Cellular Component
+GO:0000323	lytic vacuole	139	2	0.29	24	0.0333	0.0333	Cellular Component
+GO:0035062	omega speckle	20	1	0.04	25	0.0407	0.0407	Cellular Component
+GO:0061689	tricellular tight junction	21	1	0.04	26	0.0426	0.0426	Cellular Component

@@ -1,0 +1,183 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0043161	proteasome-mediated ubiquitin-dependent ...	320	11	2.78	1	0.00011	0.00011	Biological Process
+GO:0016567	protein ubiquitination	377	12	3.27	2	0.00345	0.00011	Biological Process
+GO:0071704	organic substance metabolic process	7713	87	66.94	4	0.03337	0.00015	Biological Process
+GO:0006807	nitrogen compound metabolic process	7051	81	61.19	7	0.03495	0.00021	Biological Process
+GO:0034660	ncRNA metabolic process	390	11	3.38	15	0.01446	0.00058	Biological Process
+GO:0034470	ncRNA processing	272	9	2.36	16	0.02217	0.00061	Biological Process
+GO:0090615	mitochondrial mRNA processing	6	2	0.05	25	0.00110	0.00110	Biological Process
+GO:0031503	protein-containing complex localization	147	6	1.28	28	0.00177	0.00177	Biological Process
+GO:0006405	RNA export from nucleus	108	5	0.94	30	0.00248	0.00248	Biological Process
+GO:0045005	DNA-dependent DNA replication maintenanc...	10	2	0.09	32	0.00321	0.00321	Biological Process
+GO:0042255	ribosome assembly	42	3	0.36	36	0.00572	0.00572	Biological Process
+GO:0031053	primary miRNA processing	14	2	0.12	38	0.00635	0.00635	Biological Process
+GO:0016571	histone methylation	89	4	0.77	41	0.04027	0.00748	Biological Process
+GO:0000209	protein polyubiquitination	145	5	1.26	43	0.00862	0.00862	Biological Process
+GO:0015742	alpha-ketoglutarate transport	1	1	0.01	45	0.00868	0.00868	Biological Process
+GO:1902321	methyl-branched fatty acid biosynthetic ...	1	1	0.01	46	0.00868	0.00868	Biological Process
+GO:0051391	tRNA acetylation	1	1	0.01	47	0.00868	0.00868	Biological Process
+GO:1902559	3'-phospho-5'-adenylyl sulfate transmemb...	1	1	0.01	49	0.00868	0.00868	Biological Process
+GO:0044648	histone H3-K4 dimethylation	1	1	0.01	50	0.00868	0.00868	Biological Process
+GO:1904812	rRNA acetylation involved in maturation ...	1	1	0.01	53	0.00868	0.00868	Biological Process
+GO:0002101	tRNA wobble cytosine modification	1	1	0.01	54	0.00868	0.00868	Biological Process
+GO:0016246	RNA interference	49	3	0.43	55	0.00879	0.00879	Biological Process
+GO:0008213	protein alkylation	96	4	0.83	56	0.04867	0.00972	Biological Process
+GO:0006479	protein methylation	96	4	0.83	57	0.04867	0.00972	Biological Process
+GO:0031145	anaphase-promoting complex-dependent cat...	21	2	0.18	61	0.01409	0.01409	Biological Process
+GO:0045727	positive regulation of translation	61	3	0.53	63	0.01593	0.01593	Biological Process
+GO:0031146	SCF-dependent proteasomal ubiquitin-depe...	62	3	0.54	64	0.01664	0.01664	Biological Process
+GO:0097156	fasciculation of motor neuron axon	2	1	0.02	66	0.01728	0.01728	Biological Process
+GO:0042779	tRNA 3'-trailer cleavage	2	1	0.02	67	0.01728	0.01728	Biological Process
+GO:1902375	nuclear tRNA 3'-trailer cleavage, endonu...	2	1	0.02	68	0.01728	0.01728	Biological Process
+GO:0097017	renal protein absorption	2	1	0.02	69	0.01728	0.01728	Biological Process
+GO:0006572	tyrosine catabolic process	2	1	0.02	70	0.01728	0.01728	Biological Process
+GO:0032228	regulation of synaptic transmission, GAB...	2	1	0.02	71	0.01728	0.01728	Biological Process
+GO:0032229	negative regulation of synaptic transmis...	2	1	0.02	72	0.01728	0.01728	Biological Process
+GO:0006424	glutamyl-tRNA aminoacylation	2	1	0.02	73	0.01728	0.01728	Biological Process
+GO:0034474	U2 snRNA 3'-end processing	2	1	0.02	74	0.01728	0.01728	Biological Process
+GO:0140040	mitochondrial polycistronic RNA processi...	2	1	0.02	75	0.01728	0.01728	Biological Process
+GO:0034414	tRNA 3'-trailer cleavage, endonucleolyti...	2	1	0.02	76	0.01728	0.01728	Biological Process
+GO:1905267	endonucleolytic cleavage involved in tRN...	2	1	0.02	77	0.01728	0.01728	Biological Process
+GO:0072684	mitochondrial tRNA 3'-trailer cleavage, ...	2	1	0.02	78	0.01728	0.01728	Biological Process
+GO:0070293	renal absorption	2	1	0.02	79	0.01728	0.01728	Biological Process
+GO:0000027	ribosomal large subunit assembly	24	2	0.21	80	0.01820	0.01820	Biological Process
+GO:0043331	response to dsRNA	28	2	0.24	84	0.02438	0.02438	Biological Process
+GO:0071359	cellular response to dsRNA	28	2	0.24	85	0.02438	0.02438	Biological Process
+GO:0048193	Golgi vesicle transport	190	5	1.65	86	0.02495	0.02495	Biological Process
+GO:0015743	malate transport	3	1	0.03	87	0.02581	0.02581	Biological Process
+GO:0044528	regulation of mitochondrial mRNA stabili...	3	1	0.03	88	0.02581	0.02581	Biological Process
+GO:0031426	polycistronic mRNA processing	3	1	0.03	89	0.02581	0.02581	Biological Process
+GO:0042780	tRNA 3'-end processing	3	1	0.03	90	0.02581	0.02581	Biological Process
+GO:2001228	regulation of response to gamma radiatio...	3	1	0.03	91	0.02581	0.02581	Biological Process
+GO:2001229	negative regulation of response to gamma...	3	1	0.03	92	0.02581	0.02581	Biological Process
+GO:0006597	spermine biosynthetic process	3	1	0.03	93	0.02581	0.02581	Biological Process
+GO:0097298	regulation of nucleus size	3	1	0.03	94	0.02581	0.02581	Biological Process
+GO:0097240	chromosome attachment to the nuclear env...	3	1	0.03	95	0.02581	0.02581	Biological Process
+GO:0008215	spermine metabolic process	3	1	0.03	96	0.02581	0.02581	Biological Process
+GO:0010225	response to UV-C	3	1	0.03	97	0.02581	0.02581	Biological Process
+GO:0001561	fatty acid alpha-oxidation	3	1	0.03	98	0.02581	0.02581	Biological Process
+GO:0098501	polynucleotide dephosphorylation	3	1	0.03	99	0.02581	0.02581	Biological Process
+GO:0098502	DNA dephosphorylation	3	1	0.03	100	0.02581	0.02581	Biological Process
+GO:0098506	polynucleotide 3' dephosphorylation	3	1	0.03	101	0.02581	0.02581	Biological Process
+GO:0032418	lysosome localization	3	1	0.03	102	0.02581	0.02581	Biological Process
+GO:0071423	malate transmembrane transport	3	1	0.03	103	0.02581	0.02581	Biological Process
+GO:0006749	glutathione metabolic process	30	2	0.26	104	0.02774	0.02774	Biological Process
+GO:0006888	endoplasmic reticulum to Golgi vesicle-m...	76	3	0.66	106	0.02835	0.02835	Biological Process
+GO:0071166	ribonucleoprotein complex localization	78	3	0.68	108	0.03030	0.03030	Biological Process
+GO:0071426	ribonucleoprotein complex export from nu...	78	3	0.68	109	0.03030	0.03030	Biological Process
+GO:0006281	DNA repair	204	5	1.77	111	0.03252	0.03252	Biological Process
+GO:0045004	DNA replication proofreading	4	1	0.03	112	0.03427	0.03427	Biological Process
+GO:0070935	3'-UTR-mediated mRNA stabilization	4	1	0.03	113	0.03427	0.03427	Biological Process
+GO:0090616	mitochondrial mRNA 3'-end processing	4	1	0.03	114	0.03427	0.03427	Biological Process
+GO:1902373	negative regulation of mRNA catabolic pr...	4	1	0.03	115	0.03427	0.03427	Biological Process
+GO:0097222	mitochondrial mRNA polyadenylation	4	1	0.03	116	0.03427	0.03427	Biological Process
+GO:0048255	mRNA stabilization	4	1	0.03	117	0.03427	0.03427	Biological Process
+GO:2000480	negative regulation of cAMP-dependent pr...	4	1	0.03	118	0.03427	0.03427	Biological Process
+GO:0080182	histone H3-K4 trimethylation	4	1	0.03	119	0.03427	0.03427	Biological Process
+GO:0031297	replication fork processing	4	1	0.03	120	0.03427	0.03427	Biological Process
+GO:0070131	positive regulation of mitochondrial tra...	4	1	0.03	122	0.03427	0.03427	Biological Process
+GO:0006287	base-excision repair, gap-filling	4	1	0.03	123	0.03427	0.03427	Biological Process
+GO:0000965	mitochondrial RNA 3'-end processing	4	1	0.03	124	0.03427	0.03427	Biological Process
+GO:0000707	meiotic DNA recombinase assembly	4	1	0.03	125	0.03427	0.03427	Biological Process
+GO:0015786	UDP-glucose transmembrane transport	4	1	0.03	126	0.03427	0.03427	Biological Process
+GO:0016180	snRNA processing	35	2	0.3	129	0.03689	0.03689	Biological Process
+GO:0072578	neurotransmitter-gated ion channel clust...	5	1	0.04	133	0.04265	0.04265	Biological Process
+GO:0090735	DNA repair complex assembly	5	1	0.04	134	0.04265	0.04265	Biological Process
+GO:1900744	regulation of p38MAPK cascade	5	1	0.04	135	0.04265	0.04265	Biological Process
+GO:0010891	negative regulation of sequestering of t...	5	1	0.04	136	0.04265	0.04265	Biological Process
+GO:0042148	strand invasion	5	1	0.04	137	0.04265	0.04265	Biological Process
+GO:0000730	DNA recombinase assembly	5	1	0.04	138	0.04265	0.04265	Biological Process
+GO:0097688	glutamate receptor clustering	5	1	0.04	139	0.04265	0.04265	Biological Process
+GO:0006302	double-strand break repair	90	3	0.78	141	0.04345	0.04345	Biological Process
+GO:0007220	Notch receptor processing	40	2	0.35	142	0.04704	0.04704	Biological Process
+GO:0031123	RNA 3'-end processing	157	4	1.36	144	0.04784	0.04784	Biological Process
+GO:0017056	structural constituent of nuclear pore	25	3	0.2	1	0.0010	0.0010	Molecular Function
+GO:0061630	ubiquitin protein ligase activity	191	6	1.55	3	0.0045	0.0045	Molecular Function
+GO:0016830	carbon-carbon lyase activity	45	3	0.36	5	0.0483	0.0057	Molecular Function
+GO:0003899	DNA-directed 5'-3' RNA polymerase activi...	16	2	0.13	7	0.0072	0.0072	Molecular Function
+GO:0004014	adenosylmethionine decarboxylase activit...	1	1	0.01	9	0.0081	0.0081	Molecular Function
+GO:0015367	oxoglutarate:malate antiporter activity	1	1	0.01	10	0.0081	0.0081	Molecular Function
+GO:0004775	succinate-CoA ligase (ADP-forming) activ...	1	1	0.01	11	0.0081	0.0081	Molecular Function
+GO:0016034	maleylacetoacetate isomerase activity	1	1	0.01	12	0.0081	0.0081	Molecular Function
+GO:0046964	3'-phosphoadenosine 5'-phosphosulfate tr...	1	1	0.01	14	0.0081	0.0081	Molecular Function
+GO:0003870	5-aminolevulinate synthase activity	1	1	0.01	16	0.0081	0.0081	Molecular Function
+GO:1990883	rRNA cytidine N-acetyltransferase activi...	1	1	0.01	17	0.0081	0.0081	Molecular Function
+GO:0051392	tRNA N-acetyltransferase activity	1	1	0.01	18	0.0081	0.0081	Molecular Function
+GO:0008139	nuclear localization sequence binding	17	2	0.14	20	0.0081	0.0081	Molecular Function
+GO:0031490	chromatin DNA binding	53	3	0.43	22	0.0090	0.0090	Molecular Function
+GO:0008094	ATP-dependent activity, acting on DNA	55	3	0.44	23	0.0099	0.0099	Molecular Function
+GO:0031625	ubiquitin protein ligase binding	111	4	0.9	25	0.0125	0.0125	Molecular Function
+GO:0044389	ubiquitin-like protein ligase binding	112	4	0.91	26	0.0128	0.0128	Molecular Function
+GO:0018024	histone-lysine N-methyltransferase activ...	24	2	0.19	27	0.0159	0.0159	Molecular Function
+GO:0004818	glutamate-tRNA ligase activity	2	1	0.02	28	0.0161	0.0161	Molecular Function
+GO:0004157	dihydropyrimidinase activity	2	1	0.02	29	0.0161	0.0161	Molecular Function
+GO:0008887	glycerate kinase activity	2	1	0.02	30	0.0161	0.0161	Molecular Function
+GO:0003868	4-hydroxyphenylpyruvate dioxygenase acti...	2	1	0.02	31	0.0161	0.0161	Molecular Function
+GO:0042781	3'-tRNA processing endoribonuclease acti...	2	1	0.02	32	0.0161	0.0161	Molecular Function
+GO:0016278	lysine N-methyltransferase activity	25	2	0.2	33	0.0172	0.0172	Molecular Function
+GO:0016279	protein-lysine N-methyltransferase activ...	25	2	0.2	34	0.0172	0.0172	Molecular Function
+GO:0051733	polydeoxyribonucleotide kinase activity	3	1	0.02	37	0.0241	0.0241	Molecular Function
+GO:0051734	polynucleotide kinase activity	3	1	0.02	38	0.0241	0.0241	Molecular Function
+GO:0061133	endopeptidase activator activity	3	1	0.02	40	0.0241	0.0241	Molecular Function
+GO:0098518	polynucleotide phosphatase activity	3	1	0.02	43	0.0241	0.0241	Molecular Function
+GO:0046403	polynucleotide 3'-phosphatase activity	3	1	0.02	44	0.0241	0.0241	Molecular Function
+GO:0046404	polydeoxyribonucleotide 5'-hydroxyl-kina...	3	1	0.02	45	0.0241	0.0241	Molecular Function
+GO:0003725	double-stranded RNA binding	31	2	0.25	48	0.0259	0.0259	Molecular Function
+GO:0008013	beta-catenin binding	34	2	0.28	49	0.0307	0.0307	Molecular Function
+GO:0004622	lysophospholipase activity	4	1	0.03	51	0.0320	0.0320	Molecular Function
+GO:0070883	pre-miRNA binding	4	1	0.03	52	0.0320	0.0320	Molecular Function
+GO:0008310	single-stranded DNA 3'-5' exodeoxyribonu...	4	1	0.03	53	0.0320	0.0320	Molecular Function
+GO:0004837	tyrosine decarboxylase activity	4	1	0.03	54	0.0320	0.0320	Molecular Function
+GO:0035197	siRNA binding	4	1	0.03	55	0.0320	0.0320	Molecular Function
+GO:0034236	protein kinase A catalytic subunit bindi...	4	1	0.03	56	0.0320	0.0320	Molecular Function
+GO:0008297	single-stranded DNA exodeoxyribonuclease...	5	1	0.04	60	0.0398	0.0398	Molecular Function
+GO:0004357	glutamate-cysteine ligase activity	5	1	0.04	61	0.0398	0.0398	Molecular Function
+GO:0080132	fatty acid alpha-hydroxylase activity	5	1	0.04	62	0.0398	0.0398	Molecular Function
+GO:0000150	DNA strand exchange activity	5	1	0.04	63	0.0398	0.0398	Molecular Function
+GO:0016298	lipase activity	40	2	0.32	64	0.0414	0.0414	Molecular Function
+GO:0003723	RNA binding	967	13	7.82	65	0.0472	0.0472	Molecular Function
+GO:0051731	polynucleotide 5'-hydroxyl-kinase activi...	6	1	0.05	66	0.0476	0.0476	Molecular Function
+GO:0050567	glutaminyl-tRNA synthase (glutamine-hydr...	6	1	0.05	67	0.0476	0.0476	Molecular Function
+GO:0016812	hydrolase activity, acting on carbon-nit...	6	1	0.05	68	0.0476	0.0476	Molecular Function
+GO:0008494	translation activator activity	6	1	0.05	69	0.0476	0.0476	Molecular Function
+GO:0042054	histone methyltransferase activity	44	2	0.36	70	0.0492	0.0492	Molecular Function
+GO:1990234	transferase complex	688	20	6.08	2	0.04277	2.2e-06	Cellular Component
+GO:0032991	protein-containing complex	4305	62	38.07	3	0.01838	2.4e-06	Cellular Component
+GO:0061695	transferase complex, transferring phosph...	268	11	2.37	4	0.02544	2.5e-05	Cellular Component
+GO:0140513	nuclear protein-containing complex	1138	24	10.06	6	0.01557	4.5e-05	Cellular Component
+GO:0005622	intracellular anatomical structure	9602	100	84.92	10	0.00239	0.00019	Cellular Component
+GO:0016591	RNA polymerase II, holoenzyme	135	7	1.19	11	0.00019	0.00019	Cellular Component
+GO:0031981	nuclear lumen	1276	23	11.28	13	0.02759	0.00068	Cellular Component
+GO:0043233	organelle lumen	1481	25	13.1	14	0.03005	0.00099	Cellular Component
+GO:0070013	intracellular organelle lumen	1481	25	13.1	15	0.03005	0.00099	Cellular Component
+GO:0031974	membrane-enclosed lumen	1481	25	13.1	16	0.03005	0.00099	Cellular Component
+GO:0031461	cullin-RING ubiquitin ligase complex	149	6	1.32	18	0.00206	0.00206	Cellular Component
+GO:0044613	nuclear pore central transport channel	9	2	0.08	19	0.00268	0.00268	Cellular Component
+GO:0008541	proteasome regulatory particle, lid subc...	10	2	0.09	20	0.00333	0.00333	Cellular Component
+GO:0008278	cohesin complex	10	2	0.09	21	0.00333	0.00333	Cellular Component
+GO:0000145	exocyst	12	2	0.11	22	0.00483	0.00483	Cellular Component
+GO:0030008	TRAPP complex	14	2	0.12	24	0.00658	0.00658	Cellular Component
+GO:0045025	mitochondrial degradosome	1	1	0.01	25	0.00884	0.00884	Cellular Component
+GO:0009361	succinate-CoA ligase complex (ADP-formin...	1	1	0.01	26	0.00884	0.00884	Cellular Component
+GO:0019005	SCF ubiquitin ligase complex	99	4	0.88	27	0.01147	0.01147	Cellular Component
+GO:0000785	chromatin	497	10	4.4	29	0.01254	0.01254	Cellular Component
+GO:0032039	integrator complex	23	2	0.2	32	0.01737	0.01737	Cellular Component
+GO:0098651	basement membrane collagen trimer	2	1	0.02	35	0.01761	0.01761	Cellular Component
+GO:0005587	collagen type IV trimer	2	1	0.02	36	0.01761	0.01761	Cellular Component
+GO:0002102	podosome	2	1	0.02	37	0.01761	0.01761	Cellular Component
+GO:0098642	network-forming collagen trimer	2	1	0.02	38	0.01761	0.01761	Cellular Component
+GO:0098644	complex of collagen trimers	2	1	0.02	39	0.01761	0.01761	Cellular Component
+GO:0098645	collagen network	2	1	0.02	40	0.01761	0.01761	Cellular Component
+GO:0005665	RNA polymerase II, core complex	26	2	0.23	42	0.02194	0.02194	Cellular Component
+GO:0008622	epsilon DNA polymerase complex	3	1	0.03	43	0.02630	0.02630	Cellular Component
+GO:1990072	TRAPPIII protein complex	3	1	0.03	45	0.02630	0.02630	Cellular Component
+GO:0005829	cytosol	822	13	7.27	46	0.02928	0.02928	Cellular Component
+GO:0016586	RSC-type complex	31	2	0.27	47	0.03051	0.03051	Cellular Component
+GO:0033061	DNA recombinase mediator complex	4	1	0.04	49	0.03491	0.03491	Cellular Component
+GO:0033063	Rad51B-Rad51C-Rad51D-XRCC2 complex	4	1	0.04	50	0.03491	0.03491	Cellular Component
+GO:0030956	glutamyl-tRNA(Gln) amidotransferase comp...	4	1	0.04	51	0.03491	0.03491	Cellular Component
+GO:0000795	synaptonemal complex	4	1	0.04	52	0.03491	0.03491	Cellular Component
+GO:0099086	synaptonemal structure	4	1	0.04	53	0.03491	0.03491	Cellular Component
+GO:0030684	preribosome	83	3	0.73	54	0.03715	0.03715	Cellular Component
+GO:0005846	nuclear cap binding complex	5	1	0.04	55	0.04345	0.04345	Cellular Component
+GO:0005669	transcription factor TFIID complex	38	2	0.34	56	0.04432	0.04432	Cellular Component

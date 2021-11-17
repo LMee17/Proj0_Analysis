@@ -1,0 +1,91 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:0001894	tissue homeostasis	162	2	0.03	1	0.0204	0.00039	Biological Process
+GO:0048871	multicellular organismal homeostasis	193	2	0.04	2	0.0247	0.00055	Biological Process
+GO:0045819	positive regulation of glycogen cataboli...	5	1	0	3	0.0011	0.00106	Biological Process
+GO:0035094	response to nicotine	6	1	0	9	0.0013	0.00127	Biological Process
+GO:0097305	response to alcohol	313	2	0.07	11	0.0014	0.00144	Biological Process
+GO:0045850	positive regulation of nurse cell apopto...	8	1	0	12	0.0017	0.00169	Biological Process
+GO:0045468	regulation of R8 cell spacing in compoun...	9	1	0	14	0.0019	0.00190	Biological Process
+GO:0060729	intestinal epithelial structure maintena...	17	1	0	22	0.0036	0.00359	Biological Process
+GO:0007460	R8 cell fate commitment	18	1	0	23	0.0038	0.00381	Biological Process
+GO:0014067	negative regulation of phosphatidylinosi...	21	1	0	26	0.0044	0.00444	Biological Process
+GO:0048036	central complex development	23	1	0	28	0.0049	0.00486	Biological Process
+GO:1905881	positive regulation of oogenesis	25	1	0.01	30	0.0053	0.00528	Biological Process
+GO:0061723	glycophagy	30	1	0.01	38	0.0063	0.00634	Biological Process
+GO:0034599	cellular response to oxidative stress	49	1	0.01	52	0.0103	0.01034	Biological Process
+GO:0062197	cellular response to chemical stress	50	1	0.01	54	0.0105	0.01055	Biological Process
+GO:0035096	larval midgut cell programmed cell death	50	1	0.01	57	0.0105	0.01055	Biological Process
+GO:0035332	positive regulation of hippo signaling	51	1	0.01	59	0.0108	0.01076	Biological Process
+GO:0042220	response to cocaine	51	1	0.01	60	0.0108	0.01076	Biological Process
+GO:0046331	lateral inhibition	53	1	0.01	62	0.0112	0.01118	Biological Process
+GO:0045168	cell-cell signaling involved in cell fat...	54	1	0.01	63	0.0114	0.01139	Biological Process
+GO:0010508	positive regulation of autophagy	56	1	0.01	65	0.0118	0.01181	Biological Process
+GO:0032007	negative regulation of TOR signaling	58	1	0.01	66	0.0122	0.01223	Biological Process
+GO:0060359	response to ammonium ion	59	1	0.01	67	0.0124	0.01244	Biological Process
+GO:0035069	larval midgut histolysis	60	1	0.01	68	0.0126	0.01265	Biological Process
+GO:0046621	negative regulation of organ growth	63	1	0.01	74	0.0133	0.01328	Biological Process
+GO:0036335	intestinal stem cell homeostasis	65	1	0.01	77	0.0137	0.01370	Biological Process
+GO:0033554	cellular response to stress	986	2	0.21	79	0.0138	0.01383	Biological Process
+GO:2000331	regulation of terminal button organizati...	66	1	0.01	80	0.0139	0.01391	Biological Process
+GO:0099174	regulation of presynapse organization	68	1	0.01	81	0.0143	0.01433	Biological Process
+GO:0043279	response to alkaloid	68	1	0.01	82	0.0143	0.01433	Biological Process
+GO:0048872	homeostasis of number of cells	72	1	0.02	83	0.0152	0.01516	Biological Process
+GO:0040008	regulation of growth	1036	2	0.22	84	0.0152	0.01524	Biological Process
+GO:0043406	positive regulation of MAP kinase activi...	80	1	0.02	89	0.0168	0.01684	Biological Process
+GO:0006468	protein phosphorylation	1144	2	0.24	94	0.0185	0.01848	Biological Process
+GO:0045807	positive regulation of endocytosis	88	1	0.02	95	0.0185	0.01851	Biological Process
+GO:0016318	ommatidial rotation	96	1	0.02	96	0.0202	0.02018	Biological Process
+GO:0072553	terminal button organization	100	1	0.02	97	0.0210	0.02102	Biological Process
+GO:0009410	response to xenobiotic stimulus	101	1	0.02	98	0.0212	0.02123	Biological Process
+GO:0071902	positive regulation of protein serine/th...	112	1	0.02	99	0.0235	0.02352	Biological Process
+GO:0032006	regulation of TOR signaling	115	1	0.02	100	0.0241	0.02415	Biological Process
+GO:0048589	developmental growth	1317	2	0.28	101	0.0243	0.02428	Biological Process
+GO:0008407	chaeta morphogenesis	116	1	0.02	102	0.0244	0.02436	Biological Process
+GO:0099172	presynapse organization	116	1	0.02	103	0.0244	0.02436	Biological Process
+GO:0035330	regulation of hippo signaling	120	1	0.03	104	0.0252	0.02519	Biological Process
+GO:0048707	instar larval or pupal morphogenesis	1343	2	0.28	105	0.0252	0.02522	Biological Process
+GO:0009886	post-embryonic animal morphogenesis	1368	2	0.29	107	0.0261	0.02614	Biological Process
+GO:0035329	hippo signaling	129	1	0.03	108	0.0271	0.02706	Biological Process
+GO:0043405	regulation of MAP kinase activity	129	1	0.03	109	0.0271	0.02706	Biological Process
+GO:0007552	metamorphosis	1420	2	0.3	110	0.0281	0.02809	Biological Process
+GO:0008088	axo-dendritic transport	134	1	0.03	111	0.0281	0.02810	Biological Process
+GO:0032147	activation of protein kinase activity	137	1	0.03	113	0.0287	0.02872	Biological Process
+GO:0016310	phosphorylation	1441	2	0.31	114	0.0289	0.02889	Biological Process
+GO:0007267	cell-cell signaling	1461	2	0.31	116	0.0297	0.02967	Biological Process
+GO:0072347	response to anesthetic	144	1	0.03	117	0.0302	0.03017	Biological Process
+GO:0060033	anatomical structure regression	147	1	0.03	118	0.0308	0.03080	Biological Process
+GO:0040007	growth	1509	2	0.32	120	0.0316	0.03158	Biological Process
+GO:0031929	TOR signaling	155	1	0.03	121	0.0325	0.03245	Biological Process
+GO:0002165	instar larval or pupal development	1537	2	0.33	122	0.0327	0.03271	Biological Process
+GO:0046777	protein autophosphorylation	161	1	0.03	124	0.0337	0.03370	Biological Process
+GO:0030100	regulation of endocytosis	162	1	0.03	125	0.0339	0.03390	Biological Process
+GO:0046620	regulation of organ growth	164	1	0.03	126	0.0343	0.03432	Biological Process
+GO:0043410	positive regulation of MAPK cascade	165	1	0.03	127	0.0345	0.03452	Biological Process
+GO:0006979	response to oxidative stress	166	1	0.04	128	0.0347	0.03473	Biological Process
+GO:0010035	response to inorganic substance	167	1	0.04	129	0.0349	0.03494	Biological Process
+GO:0009267	cellular response to starvation	175	1	0.04	131	0.0366	0.03659	Biological Process
+GO:0071900	regulation of protein serine/threonine k...	176	1	0.04	132	0.0368	0.03680	Biological Process
+GO:0031669	cellular response to nutrient levels	177	1	0.04	134	0.0370	0.03700	Biological Process
+GO:0031668	cellular response to extracellular stimu...	182	1	0.04	137	0.0380	0.03803	Biological Process
+GO:0008587	imaginal disc-derived wing margin morpho...	190	1	0.04	141	0.0397	0.03968	Biological Process
+GO:0009791	post-embryonic development	1712	2	0.36	142	0.0402	0.04023	Biological Process
+GO:0033674	positive regulation of kinase activity	193	1	0.04	144	0.0403	0.04030	Biological Process
+GO:0045860	positive regulation of protein kinase ac...	193	1	0.04	145	0.0403	0.04030	Biological Process
+GO:0045471	response to ethanol	193	1	0.04	146	0.0403	0.04030	Biological Process
+GO:0010970	transport along microtubule	196	1	0.04	148	0.0409	0.04092	Biological Process
+GO:0001558	regulation of cell growth	196	1	0.04	150	0.0409	0.04092	Biological Process
+GO:0030705	cytoskeleton-dependent intracellular tra...	201	1	0.04	153	0.0419	0.04195	Biological Process
+GO:0099111	microtubule-based transport	201	1	0.04	154	0.0419	0.04195	Biological Process
+GO:0051347	positive regulation of transferase activ...	202	1	0.04	155	0.0422	0.04215	Biological Process
+GO:0046677	response to antibiotic	204	1	0.04	156	0.0426	0.04257	Biological Process
+GO:0035265	organ growth	206	1	0.04	157	0.0430	0.04298	Biological Process
+GO:0071496	cellular response to external stimulus	212	1	0.04	160	0.0442	0.04421	Biological Process
+GO:0010506	regulation of autophagy	218	1	0.05	162	0.0454	0.04544	Biological Process
+GO:0006950	response to stress	1831	2	0.39	163	0.0457	0.04574	Biological Process
+GO:0022416	chaeta development	225	1	0.05	165	0.0469	0.04688	Biological Process
+GO:0004709	MAP kinase kinase kinase activity	10	1	0	1	0.0017	0.0017	Molecular Function
+GO:0004674	protein serine/threonine kinase activity	545	2	0.09	2	0.0456	0.0021	Molecular Function
+GO:0032182	ubiquitin-like protein binding	45	1	0.01	7	0.0076	0.0076	Molecular Function
+GO:1990316	Atg1/ULK1 kinase complex	12	1	0	1	0.0029	0.0029	Cellular Component
+GO:0005874	microtubule	100	1	0.02	4	0.0237	0.0237	Cellular Component
+GO:0099513	polymeric cytoskeletal fiber	126	1	0.03	5	0.0298	0.0298	Cellular Component

@@ -1,0 +1,74 @@
+GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
+GO:1903461	Okazaki fragment processing involved in ...	3	1	0	3	0.0023	0.0023	Biological Process
+GO:0001678	cellular glucose homeostasis	4	1	0	4	0.0031	0.0031	Biological Process
+GO:0035291	specification of segmental identity, int...	5	1	0	5	0.0039	0.0039	Biological Process
+GO:0007526	larval somatic muscle development	133	2	0.1	7	0.0045	0.0045	Biological Process
+GO:0006266	DNA ligation	6	1	0	8	0.0046	0.0046	Biological Process
+GO:0035167	larval lymph gland hemopoiesis	158	2	0.12	10	0.0064	0.0064	Biological Process
+GO:0051156	glucose 6-phosphate metabolic process	10	1	0.01	13	0.0077	0.0077	Biological Process
+GO:0048680	positive regulation of axon regeneration	11	1	0.01	15	0.0085	0.0085	Biological Process
+GO:0048193	Golgi vesicle transport	190	2	0.15	17	0.0091	0.0091	Biological Process
+GO:0048194	Golgi vesicle budding	17	1	0.01	19	0.0131	0.0131	Biological Process
+GO:0010876	lipid localization	251	2	0.19	22	0.0155	0.0155	Biological Process
+GO:0035289	posterior head segmentation	21	1	0.02	24	0.0162	0.0162	Biological Process
+GO:0009608	response to symbiont	22	1	0.02	27	0.0169	0.0169	Biological Process
+GO:0045332	phospholipid translocation	26	1	0.02	30	0.0200	0.0200	Biological Process
+GO:0016204	determination of muscle attachment site	27	1	0.02	34	0.0208	0.0208	Biological Process
+GO:0042866	pyruvate biosynthetic process	28	1	0.02	35	0.0215	0.0215	Biological Process
+GO:0034204	lipid translocation	29	1	0.02	37	0.0223	0.0223	Biological Process
+GO:0005975	carbohydrate metabolic process	306	2	0.24	38	0.0225	0.0225	Biological Process
+GO:0042694	muscle cell fate specification	30	1	0.02	39	0.0230	0.0230	Biological Process
+GO:0097035	regulation of membrane lipid distributio...	30	1	0.02	40	0.0230	0.0230	Biological Process
+GO:1904894	positive regulation of receptor signalin...	30	1	0.02	43	0.0230	0.0230	Biological Process
+GO:0046427	positive regulation of receptor signalin...	30	1	0.02	44	0.0230	0.0230	Biological Process
+GO:0006890	retrograde vesicle-mediated transport, G...	32	1	0.02	45	0.0246	0.0246	Biological Process
+GO:0006757	ATP generation from ADP	35	1	0.03	47	0.0268	0.0268	Biological Process
+GO:0006096	glycolytic process	35	1	0.03	48	0.0268	0.0268	Biological Process
+GO:0043486	histone exchange	35	1	0.03	49	0.0268	0.0268	Biological Process
+GO:0046835	carbohydrate phosphorylation	36	1	0.03	50	0.0276	0.0276	Biological Process
+GO:0035203	regulation of lamellocyte differentiatio...	36	1	0.03	51	0.0276	0.0276	Biological Process
+GO:0045613	regulation of plasmatocyte differentiati...	36	1	0.03	52	0.0276	0.0276	Biological Process
+GO:0046031	ADP metabolic process	37	1	0.03	54	0.0284	0.0284	Biological Process
+GO:0019363	pyridine nucleotide biosynthetic process	38	1	0.03	55	0.0291	0.0291	Biological Process
+GO:0019359	nicotinamide nucleotide biosynthetic pro...	38	1	0.03	56	0.0291	0.0291	Biological Process
+GO:0090277	positive regulation of peptide hormone s...	38	1	0.03	57	0.0291	0.0291	Biological Process
+GO:0006334	nucleosome assembly	38	1	0.03	58	0.0291	0.0291	Biological Process
+GO:0009166	nucleotide catabolic process	39	1	0.03	60	0.0299	0.0299	Biological Process
+GO:0015914	phospholipid transport	40	1	0.03	61	0.0306	0.0306	Biological Process
+GO:0072525	pyridine-containing compound biosyntheti...	41	1	0.03	62	0.0314	0.0314	Biological Process
+GO:1901292	nucleoside phosphate catabolic process	41	1	0.03	64	0.0314	0.0314	Biological Process
+GO:1903706	regulation of hemopoiesis	42	1	0.03	65	0.0321	0.0321	Biological Process
+GO:0035171	lamellocyte differentiation	42	1	0.03	66	0.0321	0.0321	Biological Process
+GO:0046887	positive regulation of hormone secretion	42	1	0.03	67	0.0321	0.0321	Biological Process
+GO:0006165	nucleoside diphosphate phosphorylation	44	1	0.03	69	0.0336	0.0336	Biological Process
+GO:0046939	nucleotide phosphorylation	44	1	0.03	70	0.0336	0.0336	Biological Process
+GO:0042387	plasmatocyte differentiation	45	1	0.03	72	0.0344	0.0344	Biological Process
+GO:0090276	regulation of peptide hormone secretion	47	1	0.04	74	0.0359	0.0359	Biological Process
+GO:0030072	peptide hormone secretion	47	1	0.04	75	0.0359	0.0359	Biological Process
+GO:0035168	larval lymph gland hemocyte differentiat...	48	1	0.04	76	0.0366	0.0366	Biological Process
+GO:0042693	muscle cell fate commitment	51	1	0.04	77	0.0389	0.0389	Biological Process
+GO:0006090	pyruvate metabolic process	51	1	0.04	78	0.0389	0.0389	Biological Process
+GO:0048580	regulation of post-embryonic development	52	1	0.04	79	0.0396	0.0396	Biological Process
+GO:0034404	nucleobase-containing small molecule bio...	54	1	0.04	80	0.0411	0.0411	Biological Process
+GO:0006900	vesicle budding from membrane	55	1	0.04	81	0.0419	0.0419	Biological Process
+GO:0015748	organophosphate ester transport	56	1	0.04	82	0.0426	0.0426	Biological Process
+GO:0046879	hormone secretion	59	1	0.05	85	0.0449	0.0449	Biological Process
+GO:0090502	RNA phosphodiester bond hydrolysis, endo...	59	1	0.05	86	0.0449	0.0449	Biological Process
+GO:0046883	regulation of hormone secretion	59	1	0.05	87	0.0449	0.0449	Biological Process
+GO:0046434	organophosphate catabolic process	60	1	0.05	88	0.0456	0.0456	Biological Process
+GO:0009914	hormone transport	60	1	0.05	89	0.0456	0.0456	Biological Process
+GO:0006754	ATP biosynthetic process	62	1	0.05	90	0.0471	0.0471	Biological Process
+GO:0009168	purine ribonucleoside monophosphate bios...	62	1	0.05	91	0.0471	0.0471	Biological Process
+GO:0009127	purine nucleoside monophosphate biosynth...	62	1	0.05	92	0.0471	0.0471	Biological Process
+GO:0019362	pyridine nucleotide metabolic process	64	1	0.05	94	0.0486	0.0486	Biological Process
+GO:0009206	purine ribonucleoside triphosphate biosy...	64	1	0.05	95	0.0486	0.0486	Biological Process
+GO:0009145	purine nucleoside triphosphate biosynthe...	64	1	0.05	96	0.0486	0.0486	Biological Process
+GO:0046496	nicotinamide nucleotide metabolic proces...	64	1	0.05	97	0.0486	0.0486	Biological Process
+GO:0008419	RNA lariat debranching enzyme activity	3	1	0	1	0.0026	0.0026	Molecular Function
+GO:0004340	glucokinase activity	4	1	0	2	0.0034	0.0034	Molecular Function
+GO:0019158	mannokinase activity	4	1	0	3	0.0034	0.0034	Molecular Function
+GO:0008865	fructokinase activity	5	1	0	4	0.0043	0.0043	Molecular Function
+GO:0003910	DNA ligase (ATP) activity	6	1	0.01	7	0.0051	0.0051	Molecular Function
+GO:0019955	cytokine binding	20	1	0.02	10	0.0169	0.0169	Molecular Function
+GO:0005548	phospholipid transporter activity	40	1	0.03	13	0.0336	0.0336	Molecular Function
+GO:0030126	COPI vesicle coat	10	1	0.01	1	0.0072	0.0072	Cellular Component
