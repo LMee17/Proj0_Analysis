@@ -1,4 +1,0 @@
-term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
-GO:0015643,"toxic substance binding",0.009%,-4.311,-3.840,0.301,0.231,0.000,15643,0
-GO:0016740,"transferase activity",12.580%,-1.170, 5.654,3.146,0.317,0.000,16740,0
-GO:0008494,"translation activator activity",0.009%, 5.481,-1.814,0.301,0.231,0.039,8494,0

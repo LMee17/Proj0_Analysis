@@ -1,9 +1,0 @@
-TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
-GO:0005548	phospholipid_transporter_activity	0.133	2.607	5.254	1.204	-1.629	1.000	0.000	-1	False
-GO:0019158	mannokinase_activity	0.035	5.918	-2.296	0.699	-2.620	0.417	0.000	-1	False
-GO:0004340	glucokinase_activity	0.035	null	null	0.699	-2.620	0.417	0.912	19158	True
-GO:0008865	fructokinase_activity	0.071	null	null	0.954	-2.328	0.405	0.954	19158	True
-GO:0019955	cytokine_binding	0.106	-4.400	3.626	1.114	-1.928	1.000	0.000	-1	False
-GO:0008419	RNA_lariat_debranching_enzyme_activity	0.009	-4.517	-4.203	0.301	-2.620	0.846	0.073	-1	False
-GO:0003910	DNA_ligase_(ATP)_activity	0.027	-1.931	-5.711	0.602	-2.149	0.834	0.235	-1	False
-GO:0004683	calmodulin-dependent_protein_kinase_activity	0.080	4.533	-3.565	1.000	-1.674	0.586	0.460	-1	False

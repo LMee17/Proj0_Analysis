@@ -1,8 +1,0 @@
-TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
-GO:0010508	positive regulation of autophagy	0.438	-0.527	-6.596	1.708	-2.009	1.000	0.000	-1	False
-GO:0016203	muscle attachment	0.333	-5.139	-0.265	1.591	-1.866	0.536	0.000	-1	False
-GO:0007517	muscle organ development	0.718	null	null	1.919	-1.510	0.564	0.747	16203	True
-GO:0060538	skeletal muscle organ development	0.333	null	null	1.591	-1.788	0.536	0.859	16203	True
-GO:0033627	cell adhesion mediated by integrin	0.184	-0.567	6.095	1.342	-2.167	0.986	0.000	-1	False
-GO:0007041	lysosomal transport	0.245	6.067	-1.548	1.462	-2.119	0.910	0.020	-1	False
-GO:0006892	post-Golgi vesicle-mediated transport	0.315	6.059	1.089	1.568	-2.009	0.910	0.256	-1	False

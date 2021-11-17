@@ -1,6 +1,0 @@
-TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
-GO:0000285	1-phosphatidylinositol-3-phosphate 5-kinase activity	0.009	5.513	2.085	0.301	-3.149	0.530	0.000	-1	False
-GO:0016308	1-phosphatidylinositol-4-phosphate 5-kinase activity	0.026	null	null	0.602	-2.670	0.523	0.841	285	True
-GO:0005121	Toll binding	0.071	-3.292	4.979	0.954	-2.245	0.978	0.000	-1	False
-GO:0005546	phosphatidylinositol-4,5-bisphosphate binding	0.168	-2.920	-4.755	1.301	-2.194	0.978	0.044	-1	False
-GO:0061631	ubiquitin conjugating enzyme activity	0.238	5.638	-1.198	1.447	-2.545	0.760	0.247	-1	False

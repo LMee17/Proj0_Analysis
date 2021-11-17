@@ -1,4 +1,0 @@
-term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
-GO:0051219,"phosphoprotein binding",0.090%,-5.023,-0.002,1.041,0.250,0.000,51219,0
-GO:1990883,"rRNA cytidine N-acetyltransferase activity",0.009%, 4.930, 0.966,0.301,0.058,0.000,1990883,0
-GO:0051392,"tRNA N-acetyltransferase activity",0.009%, 4.931,-0.961,0.301,0.058,0.519,51392,0

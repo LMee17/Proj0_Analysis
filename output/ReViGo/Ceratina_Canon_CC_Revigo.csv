@@ -1,8 +1,0 @@
-TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
-GO:0062023	collagen-containing extracellular matrix	0.367	3.735	4.703	1.643	-2.367	0.993	0.000	-1	False
-GO:0005927	muscle tendon junction	0.120	-0.270	-6.298	1.176	-2.260	0.776	0.003	-1	False
-GO:0005912	adherens junction	0.453	null	null	1.732	-1.527	0.775	0.698	5927	True
-GO:0030136	clathrin-coated vesicle	0.299	-5.972	-1.843	1.556	-2.114	0.901	0.003	-1	False
-GO:0005802	trans-Golgi network	0.376	5.729	-2.252	1.653	-1.939	0.729	0.091	-1	False
-GO:0098791	Golgi apparatus subcompartment	2.059	null	null	2.384	-1.341	0.719	0.676	5802	True
-GO:0048471	perinuclear region of cytoplasm	0.795	-3.497	4.957	1.973	-1.682	0.894	0.099	-1	False

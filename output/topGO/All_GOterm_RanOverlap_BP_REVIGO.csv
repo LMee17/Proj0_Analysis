@@ -1,5 +1,0 @@
-term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
-GO:0042694,"muscle cell fate specification",0.070%,-4.433, 2.702,0.954,0.341,0.000,42694,0
-GO:1903506,"regulation of nucleic acid-templated transcription",9.695%, 5.192,-0.011,3.043,0.136,0.032,1903506,0
-GO:2001141,"regulation of RNA biosynthetic process",9.695%,null,null,3.043,0.136,0.878,1903506,1
-GO:0048869,"cellular developmental process",21.350%,-4.445,-2.681,3.386,0.388,0.186,48869,0

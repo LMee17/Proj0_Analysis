@@ -1,7 +1,0 @@
-term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
-GO:0030427,"site of polarized growth",0.172%,-1.248,-5.681,1.301,0.597,0.000,30427,0
-GO:0031616,"spindle pole centrosome",0.054%, 5.168,-2.184,0.845,0.547,0.022,31616,0
-GO:0030426,"growth cone",0.163%,-5.490, 1.481,1.279,0.420,0.024,30426,0
-GO:0005652,"nuclear lamina",0.100%, 4.766, 3.155,1.079,0.531,0.134,5652,0
-GO:0005634,"nucleus",22.678%, 1.810, 7.001,3.399,0.591,0.150,5634,0
-GO:0030424,"axon",1.738%,-5.396, 2.422,2.286,0.416,0.654,30424,0

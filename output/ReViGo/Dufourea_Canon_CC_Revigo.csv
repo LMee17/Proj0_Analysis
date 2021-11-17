@@ -1,8 +1,0 @@
-TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
-GO:1990316	Atg1/ULK1 kinase complex	0.034	0.147	1.000	0.699	-2.585	0.803	0.000	-1	False
-GO:0000221	vacuolar proton-transporting V-type ATPase,V1 domain	0.068	0.999	0.147	0.954	-2.420	0.129	0.147	-1	False
-GO:0005765	lysosomal membrane	0.410	null	null	1.690	-1.939	0.175	0.745	221	True
-GO:0033181	plasma membrane proton-transporting V-type ATPase complex	0.171	null	null	1.322	-2.081	0.631	0.848	221	True
-GO:0098852	lytic vacuole membrane	0.410	null	null	1.690	-1.939	0.175	0.867	221	True
-GO:0005764	lysosome	1.171	null	null	2.140	-1.442	0.183	0.883	221	True
-GO:0000323	lytic vacuole	1.179	null	null	2.143	-1.435	0.206	0.899	221	True
