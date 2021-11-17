@@ -1,11 +1,12 @@
 #15th December 2020
 #Updated: 2nd June 2021 - add Canon
+#Edited: 17th Nov 2021 - fitting revisions
 #A script to pull out genes under selection per lineage per class (noncanon/random) of gene.
 
 #Start with making an object with the name of each lineage and each class
 
-branches <- unique(as.factor(droplevels(data.complete$SocOrigin)))
-classes <- cbind("NonCanon", "Random", "Canon")
+branches <- unique(as.factor(droplevels(data.df$SocOrigin)))
+classes <- unique(as.factor(data.df$Class))
 
 #This loop will go through each lineage and extract the genes per class
 #keep only those that are significant, remove the rest of the information
@@ -18,10 +19,10 @@ for (i in 1:length(branches)){
   soc <- branches[i]
   for (i in 1:length(classes)){
     class <- classes[i]
-    one <- data.complete[data.complete$SocOrigin == paste(soc) & 
-                           data.complete$Class == paste(class),]
-    two <- one[one$adj_pvalue < 0.051,]
-    three <- merge(two, iso.verse, by = "Gene")
+    one <- data.df[data.df$SocOrigin == paste(soc) & 
+                           data.df$Class == paste(class),]
+    two <- one[one$adj_pvalue < 0.05,]
+    three <- merge(two, id, by = "Gene")
     four <- as.data.frame(three$Resolved_Isoform)
     check <- nrow(two) == nrow(three)
     if (check == FALSE) {

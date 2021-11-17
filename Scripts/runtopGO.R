@@ -1,15 +1,12 @@
 #30th September 2020
+#Edited 17th November 2021 - revisions
 #A script to read in gene lists and run GO term analysis using TopGO
 
 #LOAD
-#BiocManager::install("topGO")
 library("topGO")
-#BiocManager::install("Rgraphviz")
-#library("Rgraphviz")
 
 #Read in files
-setwd("~/Documents/Projects/ProjectZero/Proj0_Analysis/input/GOI/")
-filelist <- list.files(pattern ="*.txt")
+filelist <- list.files(pattern ="*.txt", path = "input/GOI")
 
 #remove any empty files
 mt <- file.size(filelist) == 0
@@ -17,8 +14,9 @@ file.remove(filelist[mt])
 
 #Use this list to read in all files together and store as a data variable
 go.data <- lapply(filelist, function(x){
-  read.table(x, header = F, sep = "\t")
+  read.table(paste("input/GOI/", x, sep = ""), header = F, sep = "\t")
 })
+
 
 #Little function to extract the run name from the lnLResults file and store it as a variable 
 #within the dataframe
@@ -32,12 +30,10 @@ for (i in 1:length(go.data)){
   names(go.data[[i]]) <- getname(filelist[i])
 }
 
-
 #Now to run the tests
 
 #Map GOterms for whole transcriptome
-setwd("../..")
-geneID2GO<-readMappings("Genome_Misc/Amel_HAv3.1_GOverse.txt")
+geneID2GO<-readMappings("Genome_Misc/Amel_GOterms_Oct2021.tsv", sep = "\t")
 
 #Determine gene universe for analysis against genes under selection
 geneUniverse<-names(geneID2GO)
@@ -56,7 +52,7 @@ BP.craft <- function(x){
                       Fisher.classic = resultClassic,
                       orderBy = "Fisher.classic" , topNodes = 200)
   results$Ontology <- paste("Biological Process")
-  results <- results[results$Fisher.elim < 0.0501,]
+  results <- results[results$Fisher.elim < 0.05,]
 }
 
 #apply
@@ -83,7 +79,7 @@ CC.craft <- function(x){
                       Fisher.classic = resultClassic,
                       orderBy = "Fisher.classic" , topNodes = 200)
   results$Ontology <- paste("Cellular Component")
-  results <- results[results$Fisher.elim < 0.0501,]
+  results <- results[results$Fisher.elim < 0.05,]
 }
 
 #apply
@@ -109,7 +105,7 @@ MF.craft <- function(x){
                       Fisher.classic = resultClassic,
                       orderBy = "Fisher.classic" , topNodes = 200)
   results$Ontology <- paste("Molecular Function")
-  results <- results[results$Fisher.elim < 0.0501,]
+  results <- results[results$Fisher.elim < 0.05,]
 }
 
 #apply
@@ -122,7 +118,7 @@ mf.list <- as.list(lapply(go.data, MF.craft))
 #  write.table(mf.list[[i]], filename, col.names = T, row.names = F, sep = "\t", quote = F)
 #}
 
-setwd("~/Documents/Projects/ProjectZero/Proj0_Analysis/")
+dir.create("output/TopGo")
 
 for (i in 1:length(go.data)){
   bp <- as.data.frame(bp.list[i])
@@ -133,6 +129,5 @@ for (i in 1:length(go.data)){
   write.table(out, file = paste("output/topGO/", filename, sep = ""), 
               col.names = T, row.names = F, sep = "\t", quote = F)
 }
-
 
 

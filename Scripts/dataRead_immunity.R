@@ -35,7 +35,7 @@ for (i in 1:length(data)){
 
 ######Add details######
 #Immune classifications
-imm.verse.slim <- imm.verse[,c(2,4)]
+imm.verse.slim <- imm.verse[,c(1,5)]
 data <- lapply(data, function(x) merge(x, imm.verse.slim, by.x="Gene", by.y="GeneID"))
 
 #Gene details

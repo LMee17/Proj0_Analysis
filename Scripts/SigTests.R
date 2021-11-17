@@ -7,14 +7,14 @@ pval <- function(x){
   pchisq(x, df = 1, lower.tail = F)
 }
 
-
 #Apply to the list
 for (i in 1:length(data)){
   data[[i]]$pvalue <- pval(data[[i]]$LRT)  
 }
 
-#Use the Benjamini-Hochburg procedure to correct for multiple testing
+#Use the Holm-Bonferonni procedure to correct for multiple testing
 
 for (i in 1:length(data)){
-  data[[i]]$adj_pvalue <- p.adjust(data[[i]]$pvalue)  
+  data[[i]]$adj_pvalue <- p.adjust(data[[i]]$pvalue, method = "holm")  
 }
+
