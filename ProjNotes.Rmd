@@ -40,17 +40,10 @@ verseSet.R reads in the relevant information from the Genome_Misc and ImmResourc
 source("Scripts/verseSet.R", local = knitr::knit_global())
 ```
 
-
-GeneVerse: created by reading in a file with all genes from Amel HAv3.1 complete with gene product description and transcript ID.
-
-```{r}
-head(gene.verse)
-```
-
-ImmVerse: created by reading in a file with all immune - associated genes used as the input for the ortholog finding program which created the codon alignments used in the codeML branch-site selection analyses, complete with classifications, transcript, peptide and gene IDs.
+The verse : a table with each gene tested, it's omega value, GC content, length, number of codons, and immune / non-immune function.
 
 ```{r}
-head(imm.verse)
+head(verse)
 ```
 
 ##Immunity Dataset

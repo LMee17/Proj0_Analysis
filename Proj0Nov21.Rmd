@@ -1,0 +1,801 @@
+---
+title: "ProjectZero_Nov2021"
+output: html_document
+---
+
+9th November 2021
+
+##Libraries
+
+```{r}
+library("InformationValue")
+library("ggplot2")
+library("ggpubr")
+library("FSA")
+library("stringr")
+library("dplyr")
+```
+
+
+## Project Notes 
+
+This project is concerned with looking at evolutionary signatures of selection on immune-associated genes, both canonical and candidate. All immune genes (canon/noncanon) are based on orthologs from *Apis mellifera* (Amel_HAv3.1, NCBI genome).
+
+Two types of analyses have been previously ran using PAML's module, codeML, using gene product codon alignments consisting of 11 bee species, including *Apis mellifera*. Gene sets are divided into "immunity" and "random", with immunity consisting of "canon" and "non-canon". All alignments consist of 1-1 single-copy orthologs present in all 11 species. Those that did not include all species were dropped.
+
+Evolutionary rate of each gene product was estimated using a codeml run that considers the whole gene product across the given phylogeny as a whole. It is not expected to get dN/dS ratio (omega) values anywhere near 1 (positive selection) using this method as site-specific signals of selection will be likely lost as the ratio is averaged along the length of the product. Instead, this is expected to offer a relative scale of evolutionary rate.
+
+The main analysis consisted of branch-site specific analyses of selection wherein the phylogenetic tree was designated a target, splitting the tree into foreground and background. CodeML then estimates omega value for foreground branches relative to background. For the purposes of this project, each of the designations correspond with the origin or elaboration of social living, to assess if and how these changes in lifestyle affected selection on immune and candidate immune genes in the bees, relative to other genes (the "random" set, which encompass all orthologs that could be made from all proteins in Apis mellifera using the ortholog bash script, OrthoScript [imaginitively named]).
+
+A list of all of the designations and the input newick formats is available in Genome_Misc/tree_designations.txt. I.e.
+
+```{r}
+cat(readLines('Genome_Misc/tree_designations.txt', n=2), sep="\n")
+```
+
+
+In the null version of this test, omega ratios on the foreground branches are fixed at 1, with the alternative version starting with omega estimates above 1 (a direct test of positive selection). Each model results in a global maximum log likelihoood score which can then be compared using a LRT.
+
+LRT = (lnLAlt - lnLNull)*2
+
+LRT scores can then be compared to a chi-square distribution with 1 degree of freedom to assess significance. LRT scores above 3.84 are considered significant. 
+
+P-values will be adjusted during this analysis to correct for multiple testing using the Benjamini-Hochburg procedure.
+
+##Setting the Verse
+
+In order to annotate the data with class of gene, description of gene (as it is described in Apis mellifera), etc. we first need a "dataverse" of Amel_HAv3.1.
+
+verseSet.R reads in the relevant information from the Genome_Misc and ImmResources folders.
+
+```{r}
+source("Scripts/verseSet.R", local = knitr::knit_global())
+```
+
+The verse : a table with each gene tested, it's omega value, GC content, length, number of codons, and immune / non-immune function.
+
+```{r}
+head(verse)
+```
+
+###Dataset
+
+Read in the results files for each of the 11 origins / elaborations / combinations of branch site analyses. 
+
+Each lnLResults.txt file consists of the name of the gene, the log likelihood score of the null and alternative branch-site models (lnL_Null / lnL_Alt) and the results of the likelihood ratio test ran between them (LRT).
+
+These raw data files look like this.
+
+```{r}
+cat(readLines("input/codemlFull/AllComplex.lnLResults.txt", n=5), sep = '\n')
+```
+
+###Adding annotations
+
+dataRead.R will read in the results file, collate them into one source and annotate each gene with gene class, immune function, and alignment / gene information.
+
+```{r}
+source("Scripts/dataRead.R", local = knitr::knit_global())
+```
+
+```{r}
+head(data[[2]], n = 40)
+```
+
+###Remove Non-coding Elements
+
+There are some codon alignments in the midst that were based on non-coding transcripts. I will be reomving these from the analysis.
+
+```{r}
+imm.nc <- read.table("Genome_Misc/ImmRun_noncoding_list.txt")
+gene<-strsplit(as.character(imm.nc$V1),".",fixed = T)
+imm.nc$Gene<-sapply(gene,"[",1)
+imm.nc$V1 <- NULL
+imm.nc$Gene <- as.factor(imm.nc$Gene)
+head(imm.nc)
+```
+
+```{r}
+for (i in 1:length(data)){
+  data[[i]]$Gene <- as.factor(data[[i]]$Gene)
+  data[[i]] <- data[[i]][!data[[i]]$Gene %in% imm.nc$Gene,]
+}
+
+
+data[[3]][grep("LOC113218526", data[[3]]$Gene),]
+```
+
+
+###Tests of significance
+
+SigTest.R uses the LRT scores and a Chi square distribution (one-tailed, one degree of freedom) to produce pvalues. Pvalues below 0.05 are considered significant (before correction for multiple testing).
+
+To correct for multiple testing, I'll be using the Benjamini-Hochburg procedure.
+
+```{r}
+source("Scripts/SigTests.R", local = knitr::knit_global())
+```
+
+```{r}
+head(data[[3]])
+```
+
+How many are still considered significant ? 
+
+```{r}
+data.df <- bind_rows(data)
+data.df$SocOrigin <- as.factor(data.df$SocOrigin)
+data.sig.df <- filter(data.df, adj_pvalue < 0.05)
+summary(data.sig.df$SocOrigin)
+```
+
+###Check for unannotated genes
+
+```{r}
+noclass <- data.df$Gene[is.na(data.df$Class)]
+nofunction <- data.df$Gene[is.na(data.df$Function)]
+
+unique(noclass == nofunction)
+```
+
+
+If these genes don't have the alignment annotations it means they were removed from the dN.dS or GC content analyses for a reason (ie too small, alignment wrong, etc). And so I will remove them from this analysis.
+
+```{r}
+data.df <- data.df[!data.df$Gene %in% noclass,]
+data.df[data.df$Gene %in% noclass,]
+```
+
+Has this made any change ? 
+
+```{r}
+data.sig.df <- filter(data.df, adj_pvalue < 0.05)
+summary(data.sig.df$SocOrigin)
+```
+
+###Write Up
+
+```{r}
+write.table(data.df, "output/CodeML_Results_All_Nov21.tsv", quote = F, row.names = F, sep = "\t")
+```
+
+## PSGs: Immunity, Sociality ....
+
+###Logistic Regression
+I'm going to attempt to do some logistic regression to try and see what has more affect on whether or not a gene is under selection - whether or not it is or possibly is immune, what function is has or else whether the branch test was considered post an origin or elaboration of sociality.
+
+Source: https://www.statology.org/logistic-regression-in-r/
+
+Ok, let's figure out what's under selection and not (adj_pvalue < 0.05)
+
+```{r}
+data.df$PSG <- ifelse(data.df$adj_pvalue < 0.05, 1, 0)
+head(data.df, n = 40)
+```
+```{r}
+summary(as.factor(data.df$Class))
+```
+
+
+I also need a sociality variable for the branches tested
+
+```{r}
+summary(as.factor(data.df$SocOrigin))
+```
+
+
+```{r}
+elaboration <- c("AllComplex", "Meli", "Apis")
+origin <- c("AllOrigin", "Ceratina", "CorbSoc", "Lasio")
+solitary <- c("Habro", "Dufourea", "Mega", "AllSol")
+
+data.df$BranchTested[data.df$SocOrigin %in% elaboration] <- "Elaboration of Sociality"
+data.df$BranchTested[data.df$SocOrigin %in% origin] <- "Origin of Sociality"
+data.df$BranchTested[data.df$SocOrigin %in% solitary] <- "Solitary"
+
+summary(as.factor(data.df$BranchTested))
+```
+
+Let's make a working dataframe with my variables of interest (PSG 1/0, branch tested, socorigin, gene function, gene class)
+
+```{r}
+work <- data.df[,c("PSG", "BranchTested", "SocOrigin", "Function", "Immune", "Class")]
+
+head(work)
+```
+```{r}
+work$BranchTested <- as.factor(work$BranchTested)
+work$Function <- as.factor(work$Function)
+work$Class <- as.factor(work$Class)
+
+work[is.na(work$Function),]
+
+summary(work)
+```
+
+These are pretty much all categorical variables .... so not sure how well they will work ... 
+
+I'm going to make a training set regardless (70% to train, 30% to test)
+
+```{r}
+set.seed(17)
+
+sample <- sample(c(TRUE, FALSE), nrow(work), replace=TRUE, prob=c(0.7,0.3))
+train <- work[sample, ]
+test <- work[!sample, ]  
+```
+
+
+```{r}
+model <- glm(PSG~BranchTested+SocOrigin+Function+Class, family="binomial", data=train)
+
+summary(model)
+```
+
+Hmm. I may change the branch test to integers.
+
+```{r}
+work$BranchTested <- as.character(work$BranchTested)
+work$BranchTested[work$BranchTested == "Elaboration of Sociality"] <- "3"
+work$BranchTested[work$BranchTested == "Origin of Sociality"] <- "2"
+work$BranchTested[work$BranchTested == "Solitary"] <- "1"
+work$BranchTested <- as.integer(work$BranchTested)
+
+set.seed(17)
+sample <- sample(c(TRUE, FALSE), nrow(work), replace=TRUE, prob=c(0.7,0.3))
+train <- work[sample, ]
+test <- work[!sample, ] 
+
+model <- glm(PSG~BranchTested+SocOrigin+Function+Class, family="binomial", data=train)
+
+summary(model)
+```
+
+Ok, too many variables, too, too many variables. I'm going to remove SocOrigin and see if anything happens. Though looking at this so far it looks like the individual test has more influence on the outcome of a gene being positively selected or not
+
+```{r}
+work2 <- work[,c(-3)]
+summary(work2)
+```
+```{r}
+model2 <- glm(PSG~BranchTested+Function+Immune+Class, family="binomial", data=train)
+
+summary(model2)
+```
+
+
+Error: 3 not defined because of singularities. Which apparently means these are too correlated ...
+
+```{r}
+model3 <- glm(PSG~BranchTested+Immune, family="binomial", data=train)
+
+summary(model3)
+```
+
+So when its straight up sociality of the branch test versus immunity, sociality wins outright.
+
+```{r}
+model4 <- glm(PSG~BranchTested+Function, family="binomial", data=train)
+
+summary(model4)
+```
+
+And lastly, is this surely a case of whether the branch test is solitary, post origin, post elaboration or else simply phylogenetic ? 
+
+```{r}
+model5 <- glm(PSG~BranchTested+SocOrigin, family="binomial", data=train)
+
+summary(model5)
+```
+
+Let's compare AIC
+
+```{r}
+mod.list <- list(model, model2, model3, model4, model5)
+
+mods.aic <- vector(length = 5)
+
+for (i in 1:length(mod.list)){
+  mods.aic[i] <- mod.list[[i]]$aic
+}
+
+mods.aic
+```
+
+For the McFadden r2 a good fit is between .2 to .4
+
+```{r}
+mods.McFadden <- vector(length = 5)
+
+for (i in 1:5){
+  mods.McFadden[i] <- pscl::pR2(mod.list[[i]])["McFadden"]
+}
+
+mods.McFadden
+```
+
+So none are particularly good, but model1 and 5 are considerably better than the others.
+
+I'm going to move forward with 5 as it has the lowest AIC (though the second highest McFadden R2). First I'm going to try and compute the variable importance of each of the factors
+
+```{r}
+caret::varImp(model5)
+```
+
+Here, branch tested ie the sociality of the test doesn't really affect whether the gene is under selection or not. Instead the strongest indicators of whether or not the gene will be under selection is whether the branch tested happened to be the branch leading to Lasioglossum or Melipona. This could be a sign that these genomes aren't the greatest build (that's what I'm willing to put money on). 
+
+I wish there was a way I could normalise the gene counts with these two. I'll come back to that.
+
+Let's get on with the test subset.
+
+```{r}
+predicted <- predict(model5, test, type="response")
+```
+
+  
+Using InformationValue to find the optimal probability to help improve model accuracy ...
+
+```{r}
+optimal <- optimalCutoff(test$PSG, predicted)[1]
+optimal
+```
+
+Any gene with a probability above 0.0678 is likely to be under selection ? Wow ha.
+
+Confusion matrix
+
+
+```{r}
+confusionMatrix(test$PSG, predicted)
+```
+This would assume that everything in the test dataframe isn't under selection.
+
+Calculate total misclassification error rate
+
+```{r}
+misClassError(test$PSG, predicted, threshold=optimal)
+```
+
+Hmm. This suggests the misclassification of the model is 9.25%. So 1 in 10 are wrong essentially.
+
+And finally, plot ROC (Receiver Operating Characteristic) Curve. (displays the percentage of true positives predicted by the model as the prediction probability cutoff is lowered from 1 to 0. The higher the AUC (area under the curve), the more accurately our model is able to predict outcomes)
+
+```{r}
+plotROC(test$PSG, predicted)
+```
+That's actually not *that* bad.
+
+
+###Pearson's ChiSq with Simulated Pvalues
+
+Using contigency tables, I will also be running ChiSq tests of significance comparing immune classes / functions to background genes. As in some of these cases the sample frequencies are heavily imbalanced (i.e 5 canonical immune genes under selection versus ~6000 random genes not under selection), I will be simulating the pvalue by Monte Carlo simulation (x10000). 
+
+First I'd like to just see how many are under selection across all the branch tests
+
+```{r}
+work3 <- data.df
+work3$PSG <- ifelse(work3$adj_pvalue < 0.05, "Under Selection", "Not Under Selection")
+
+table(work3$BranchTested, work3$PSG)
+```
+
+
+```{r}
+table(work3$SocOrigin, work3$PSG)
+```
+
+```{r}
+socs <- as.character(unique(work3$SocOrigin))
+
+undersel <- data.frame(BranchTested = character(),
+                       AllGenes = numeric(),
+                       AllCanon = numeric(),
+                       Receptor = numeric(),
+                       Signalling = numeric(),
+                       Effector = numeric(),
+                       NonCanon = numeric(),
+                       Background = numeric()
+                       )
+
+for (i in 1:length(socs)){
+  run <- socs[i]
+  x <- work3[work3$SocOrigin == paste(socs[i]) & work3$PSG == "Under Selection",]
+  allgenes <- nrow(x)
+  can <- nrow(x[x$Class == "Canon Immune" ,])
+  rec <- nrow(x[x$Function == "Receptor", ])
+  sig <- nrow(x[x$Function == "Signalling", ])
+  eff <- nrow(x[x$Function == "Effector", ])
+  non <- nrow(x[x$Class == "Non-Canon", ])
+  back <- nrow(x[x$Class == "Background", ])
+  out <- cbind(run, allgenes, can, rec, sig, eff, non, back)
+  undersel[i,] <- out
+}
+
+
+undersel
+```
+```{r}
+undersel$SocialScale[undersel$BranchTested %in% elaboration] <- "Elaboration of Sociality"
+undersel$SocialScale[undersel$BranchTested %in% origin] <- "Origin of Sociality"
+undersel$SocialScale[undersel$BranchTested %in% solitary] <- "Solitary"
+```
+
+
+Let's have a look at these
+
+```{r}
+for (i in 2:(ncol(undersel)-1)){
+  undersel[,i] <- as.numeric(undersel[,i])
+}
+
+ggplot(data = undersel, aes(x=BranchTested, y = AllGenes, fill = SocialScale)) +
+  geom_bar(colour="black", stat="identity")
+```
+Meli is just ridiculous.
+
+Anyhoo.
+
+
+```{r}
+source("Scripts/chi_Nov21.R", local = knitr::knit_global())
+```
+
+```{r}
+chi.res
+```
+
+```{r}
+chi.res$can.adj.pvalue <- p.adjust(chi.res$p.value...5, method = "BH")
+chi.res$non.adj.pvalue <- p.adjust(chi.res$p.value...9, method = "BH")
+
+chi.res <- chi.res[,c(1:5,10,6:9,11)]
+head(chi.res)
+```
+
+There's only the AllSol Canon versus Background hit that's significant, and not after correction for multiple testing.
+
+
+Write a table that requires editing manually 
+
+```{r}
+write.table(chi.res, "output/ChiSq_Raw.tsv", col.names = F, row.names = F, quote = F, sep = "\t")
+```
+
+
+##Evolutionary Rate
+
+For the purposes of this part of the analysis I will be using dN/dS ratio (omega) scores as a measure of evolutionary rate. The larger the score, the faster the protein product is considered to be evolving.
+
+For this, codeML considered the alignments and tree topology without any prior designation and so there is no breakdown by origin / elaboration of sociality.
+
+```{r}
+head(data.df)
+```
+
+
+###Visualise.
+
+
+```{r}
+boxplot(dN.dS~Function, data = data.df)
+```
+
+And just to look at the statistics.
+
+```{r}
+mean(data.df$dN.dS[data.df$Class == "Canon Immune"])
+```
+
+```{r}
+mean(data.df$dN.dS[data.df$Class == "Non-Canon"])
+```
+
+```{r}
+mean(data.df$dN.dS[data.df$Class == "Background"])
+```
+
+```{r}
+mean(data.df$dN.dS)
+```
+
+Ooh. That's interesting regarding the non-canonical subsection.
+
+```{r}
+mean(data.df$dN.dS[data.df$Function == "Receptor"])
+mean(data.df$dN.dS[data.df$Function == "Signalling"])
+mean(data.df$dN.dS[data.df$Function == "Effector"])
+```
+
+###Tests of Significance
+
+Using Kruskal–Wallis one-way analysis of variance as data is non-parametric. For example ...
+
+```{r}
+hist(data.df$dN.dS[data.df$Class == "Non-Canon"], main = "", xlab = "dN.dS")
+```
+
+Anyway.
+
+```{r}
+require("dplyr")
+```
+
+```{r}
+group_by(data.df, Function) %>%
+  summarise(
+    count = n(),
+    mean = mean(dN.dS, na.rm = T),
+    sd = sd(dN.dS, na.rm = T),
+    median = median(dN.dS, na.rm = T),
+    IQR = IQR(dN.dS, na.rm = T)
+  )
+```
+
+
+
+```{r}
+ggboxplot(data.df, x = "Function", y = "dN.dS",
+          ylab = "Omega", xlab = "Gene Class")
+```
+
+```{r}
+ggline(data.df, x = "Function", y = "dN.dS", 
+       add = c("mean_se", "jitter"), 
+       ylab = "Omega", xlab = "Gene Class")
+```
+
+And the test ...
+
+```{r}
+kruskal.test(dN.dS ~ Function, data = data.df)
+```
+
+Ooh. There are differences.
+
+```{r}
+dunnTest(dN.dS ~ Function, data = data.df, method = "bonferroni")
+```
+
+
+
+
+
+##GO Analysis
+
+GO analysis will be ran on canon / noncanon / random genes under selection per lineage. Go terms can then be checked for comparisons between socialities, etc.
+
+The first step here will be making gene lists of genes under selection per each lineage, separated by class of gene (noncanon candidate / random background). There will be a file called Hym_NonCan I will also look at - these are the noncanon genes that are only found in Hymenoptera and not in other insect species considered (see previous project for details). I will also be running a GO analysis of all canon immune genes and all candidate immune genes to see if there is much overlap in terms of gene function. NB: gene lists must be in the form of their associated protein's ID. 
+
+Once the lists are complete, I will write them as text files and save them in "input/GOI/" to be fed into GO analysis scripts (topGO). Results will be written as results files, before I make a master file of all GOterms over represented per lineage per class of gene. 
+
+This can then be used for comparative means - Venn tables, etc.
+
+
+###Gene Lists
+
+####Canon and Noncanon (all)
+
+These are just lists of all canon and non canon immune genes to look and see if they have much in common.
+
+```{r}
+can.imm <- read.table("ImmResources/ImmuneFunction_Nov2021.tsv", sep = "\t", header = T)
+head(can.imm)
+
+can.imm[can.imm$Gene == "Pgrp-S2",]
+```
+```{r}
+id <- read.table("Genome_Misc/AmelHAv3.1_filtered.checked.faa.table", sep = "\t",
+                 header = T)
+head(id)
+```
+
+I'm having issue with some discontinued entries being in the immune list (thanks OrthoDb) so need to remove them first
+
+```{r}
+disc <- c("LOC100576380", "LOC100577249", "LOC102654182", "LOC727231")
+can.imm <- can.imm[!can.imm$Gene %in% disc,]
+#no protein id on nbci
+noprot <- c("LOC725413")
+can.imm <- can.imm[!can.imm$Gene %in% noprot,]
+```
+
+
+```{r}
+for (i in 1:nrow(can.imm)){
+  can.imm[i,3] <- paste(id$Resolved_Isoform[id$Gene == paste(can.imm[i,1])])
+}
+```
+Write up all canon protein product list....
+
+```{r}
+dir.create("input/GOI")
+can.prot <- as.data.frame(can.imm$V3)
+write.table(can.prot, "input/GOI/AllCanon_ProtList.txt", col.names = F, row.names = F,
+            quote = F)
+```
+
+
+... and candidate (noncanon)
+
+
+```{r}
+non.can <- read.table("ImmResources/Prelim_NonCanList2.txt", header = F)
+#Remove any potential problems
+#discontinued
+disc <- c("LOC412892")
+non.can <- non.can[!non.can[,1] %in% disc,]
+#no protein id on nbci. Non.can is now a vector of gene ids
+noprot <- c("LOC409174", "LOC413237", "LOC413645", "SPH42", "LOC551600", "LOC724595", "Fur1",
+            "LOC727136", "Ancr-1", "LOC100577586", "LOC100577781")
+non.can <- non.can[!non.can %in% noprot]
+#back into dataframe
+non.can <- as.data.frame(non.can)
+```
+
+
+```{r}
+for (i in 1:nrow(non.can)){
+  non.can[i,2] <- paste(id$Resolved_Isoform[id$Gene == paste(non.can[i,1])])
+}
+```
+Write up 
+
+```{r}
+noncan.prot <- as.data.frame(non.can$V2)
+write.table(noncan.prot, "input/GOI/AllNonCanon_ProtList.txt", col.names = F, row.names = F,
+            quote = F)
+```
+
+###Genes under selection
+
+I will craft a script that will go through the undersel object and drag out the genes under selection per lineage per gene class (noncan / random). Each set will be stored in a data.frame object and then written as a .txt file in the "input/GOI" directory. 
+
+
+```{r} 
+source("Scripts/genGeneList2.R", local = knitr::knit_global())
+```
+
+###The Analysis
+
+I had previously produced a GOverse file to use with topGO using the script genGOverse.R. This will be read in using the topGO batch script.
+
+
+runtopGO.R produces many results files. For each lineage/class combination (and the canon and noncanon input lists) there will be one table written that has all three GO term classes included.
+
+```{r echo=T, results='hide'}
+source("Scripts/runtopGO.R", local = knitr::knit_global())
+```
+
+
+##GOI
+
+Are there interesting genes that are under selection in more than one lineage ? 
+
+```{r}
+data.sig <- data.df[data.df$adj_pvalue < 0.05,]
+
+data.goi <- data.sig[,c(1,5:7)]
+head(data.goi)
+```
+
+```{r}
+data.goi <- aggregate(data.goi[2], data.goi[-2], 
+                     FUN = function(X) paste(unique(X), collapse=", "))
+head(data.goi)
+```
+```{r}
+data.goi$count <- str_count(data.goi$SocOrigin, pattern = ",")+1
+
+head(data.goi)
+```
+
+Biggest immune candidates ? 
+
+```{r}
+data.goi[data.goi$Class == "Canon Immune" & data.goi$count > 1,]
+```
+
+And candidate immune....
+
+```{r}
+data.goi[data.goi$Class == "Non-Canon" & data.goi$count > 1,]
+```
+Eeek. Lot less to talk about in the discussion haha.
+
+What about what were the biggest hitters full stop ? 
+
+```{r}
+data.goi[data.goi$count == max(data.goi$count),]
+```
+Cubilin .... has something to do with protein absorption, expressed in gut tissue.
+
+```{r}
+data.goi[data.goi$count > 3,]
+```
+
+
+##CMD Considerations
+
+So, whilst doing this project it became apparent that the branch-site test of selection has a setback - it counts all codons of multiple differences (CMDs) that may have occurred due to single multiple nucleotide mutations (MNM) as positive selection, when this may not be the case. As it assume that all nucleotide changes are individual events and does not consider MNM it overestimates the importance of these codons. They may still have become fixated thanks to positive selection, but these codons may also persist thanks to neutral fixation. And the test cannot discern between these two phenomena
+
+With this in mind, I used the hyphy module FMM to run through all my alignments and assess if the selection analysis would have benefited from a model that took into consideration 2-hit and 3-hit simultaneous nucleotide mutations. I then parsed from the reports what codons in particular were likely to be CMD due to MNM per gene. I also pulled out the original sites under selection according to BEB. If a gene has been flagged as under selection by the BST, I compare the codons it designates as under selection with those that FMM considers likely to be due to MNM. If all codons are considered to be MNM-derived, I consider that the gene should be flagged as "uncertain", meaning that I can't say for sure if its actually under direct positive selection or not. If there are still significant codons that have not been flagged as MNM-derived, I suggest that the evidence is a little stronger than the gene is indeed under selection.
+
+Only genes that were considered under positive selection per branch test were checked.
+
+```{r}
+filelist <- list.files(path = "input/MNM/", pattern = "*tsv")
+filelist
+```
+
+```{r}
+unique(data.df$SocOrigin)
+```
+
+Slightly different naming structure, which I'm going to have to take into consideration.
+
+Will be using a function I created in the dataRead.R script, getname
+
+```{r}
+mnm.list <- lapply(filelist, function(x){
+  read.table(paste("input/MNM/", x, sep =""), header = T, sep = "\t")
+})
+
+head(mnm.list[[3]])
+```
+
+```{r}
+for (i in 1:length(mnm.list)){
+  mnm.list[[i]]$BranchTest <- getname(filelist[i])
+}
+
+head(mnm.list[[5]])
+```
+
+"Halictid", "Nova" and "Xylo" 
+
+```{r}
+mnm.df <- bind_rows(mnm.list)
+
+mnm.df$BranchTest[mnm.df$BranchTest == "Halictid"] <- "Lasio"
+mnm.df$BranchTest[mnm.df$BranchTest == "Xylo"] <- "Ceratina"
+mnm.df$BranchTest[mnm.df$BranchTest == "Nova"] <- "Dufourea"
+```
+
+I need to go through the significant dataframe by SocOrigin and paste each test result per gene ....
+
+There's a couple of failures in the background genes I'm going to remove
+
+```{r}
+torem <- c("LOC408808", "Kr")
+data.sig <- data.sig[!data.sig$Gene %in% torem,]
+```
+
+
+```{r}
+for (i in 1:nrow(data.sig)){
+  soc <- data.sig[i,5]
+  gene <- data.sig[i,1]
+  data.sig[i,18] <- mnm.df$X2hit[mnm.df$Gene == paste(gene) & mnm.df$BranchTest == paste(soc)]
+  data.sig[i,19] <- mnm.df$X3hit[mnm.df$Gene == paste(gene) & mnm.df$BranchTest == paste(soc)]
+  names(data.sig)[18:19] <- c("TwoHitCheck", "ThreeHitCheck")
+}
+
+head(data.sig)
+```
+
+Even if there is only one fail in either test the gene must be flagged as uncertain
+
+```{r}
+x <- nrow(data.sig[data.sig$TwoHitCheck == "Fail" | data.sig$ThreeHitCheck == "Fail",])
+(x / nrow(data.sig))*100
+```
+
+Only 8.9% are to be completely considered uncertain ? I mean that is great if that's the case but may be worth a quick manual check.
+
+```{r}
+nrow(data.sig[data.sig$TwoHitCheck == "Fail",])
+nrow(data.sig[data.sig$ThreeHitCheck == "Fail",])
+nrow(data.sig[data.sig$TwoHitCheck == "Fail" | data.sig$ThreeHitCheck == "Fail",])
+nrow(data.sig)
+```
+
