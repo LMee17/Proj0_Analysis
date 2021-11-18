@@ -1,11 +1,11 @@
 Gene	3hit	2hit
 Dl	Pass	Pass
 LOC107964404	Fail	Fail
-LOC113218774	Pass	Pass
+LOC113218774	Fail	Fail
 LOC408586	Pass	Fail
-LOC409351	Pass	Pass
+LOC409351	Fail	Fail
 LOC411088	Fail	Fail
 LOC411693	Fail	Fail
-LOC412598	Pass	Pass
-LOC552599	Pass	Fail
+LOC412598	Fail	Fail
+LOC552599	Fail	Fail
 LOC727634	Fail	Fail
