@@ -462,6 +462,83 @@ Write a table that requires editing manually
 write.table(chi.res, "output/ChiSq_Raw.tsv", col.names = F, row.names = F, quote = F, sep = "\t")
 ```
 
+###ChiSq: Gene Class vs Sociality
+
+Looking if there is difference in number of genes under selection across the three different types of branches tested as foreground across the three classes. 
+
+
+For canon genes under selection
+
+```{r}
+branches <- unique(data.df$BranchTested)
+branches
+```
+
+
+```{r}
+sel <- vector(length = 3)
+for (i in 1:length(branches)){
+  sel[i] <- length(unique(data.df$Gene[data.df$BranchTested == paste(branches[i]) 
+                           & data.df$Class == "Canon Immune"
+                           & data.df$PSG == 1]))
+}
+
+no.sel <- vector(length = 3)
+for (i in 1:length(branches)){
+  no.sel[i] <- length(unique(data.df$Gene[data.df$BranchTested == paste(branches[i]) 
+                           & data.df$Class == "Canon Immune"
+                           & data.df$PSG == 0]))
+}
+
+prop.test(sel, no.sel)
+```
+
+```{r}
+prop.trend.test(sel, no.sel)
+```
+
+```{r}
+sel2 <- vector(length = 3)
+for (i in 1:length(branches)){
+  sel2[i] <- length(unique(data.df$Gene[data.df$BranchTested == paste(branches[i]) 
+                           & data.df$Class == "Non-Canon"
+                           & data.df$PSG == 1]))
+}
+
+no.sel2 <- vector(length = 3)
+for (i in 1:length(branches)){
+  no.sel2[i] <- length(unique(data.df$Gene[data.df$BranchTested == paste(branches[i]) 
+                           & data.df$Class == "Non-Canon"]))
+}
+
+
+prop.test(sel2, no.sel2)
+```
+
+```{r}
+prop.trend.test(sel2,no.sel2)
+```
+
+```{r}
+sel3 <- vector(length = 3)
+for (i in 1:length(branches)){
+  sel3[i] <- length(unique(data.df$Gene[data.df$BranchTested == paste(branches[i]) 
+                           & data.df$Class == "Background"
+                           & data.df$PSG == 1]))
+}
+
+no.sel3 <- vector(length = 3)
+for (i in 1:length(branches)){
+  no.sel3[i] <- length(unique(data.df$Gene[data.df$BranchTested == paste(branches[i]) 
+                           & data.df$Class == "Background"]))
+}
+
+prop.test(sel3, no.sel3)
+```
+
+```{r}
+prop.trend.test(sel3, no.sel3)
+```
 
 ##Evolutionary Rate
 
@@ -559,8 +636,6 @@ dunnTest(dN.dS ~ Function, data = data.df, method = "bonferroni")
 
 
 
-
-
 ##GO Analysis
 
 GO analysis will be ran on canon / noncanon / random genes under selection per lineage. Go terms can then be checked for comparisons between socialities, etc.
@@ -639,6 +714,7 @@ for (i in 1:nrow(non.can)){
   non.can[i,2] <- paste(id$Resolved_Isoform[id$Gene == paste(non.can[i,1])])
 }
 ```
+
 Write up 
 
 ```{r}
@@ -791,7 +867,7 @@ x <- nrow(data.sig[data.sig$TwoHitCheck == "Fail" | data.sig$ThreeHitCheck == "F
 (x / nrow(data.sig))*100
 ```
 
-30% seems better than my original 8.9%. As much as it would nice to be the case.
+30% seems more likely than the original 8.9%. As much as it would be nice to be the case.
 
 
 ##GC Content
@@ -859,6 +935,7 @@ gc2$Sociality[gc2$Species == "Dnov" | gc2$Species == "Hlab" |
 ```{r}
 ggplot(data = gc2, aes(x = Species, y = GC, fill = Sociality)) +
   geom_boxplot()
+
 ```
 
 What's the average GC content saying ? 
@@ -1030,9 +1107,12 @@ cor.test(work4$logOmega, work4$logGC, method = "kendall")
 ```
 
 ```{r}
+work4.non <- work4[work4$Function == "Non-Canon Immune",]
+
 ggplot(work4, aes(x = logOmega, y = logGC)) +
   geom_point(aes(color = Function, alpha = Immune, shape = Class)) +
   scale_alpha(guide = "none") +
+  stat_ellipse(data = work4[work4$Function == "Non-Canon Immune",], colour = "violet") +
   scale_color_manual(values = c("gray",
                                 "#56B4E9",
                                "violet",
@@ -1054,7 +1134,7 @@ Let's try this since I've just found
 ggplot(work4, aes(y=logGC, x=logOmega)) +
   geom_point(cex=1) +
   stat_density_2d(aes(fill = ..level..), geom = "polygon", colour="white") +
-  scale_y_continuous("Sale Price", breaks = seq(0, 600000, by = 100000),
+  scale_y_continuous("logGC", breaks = seq(0, 600000, by = 100000),
                      labels = str_c(seq(0, 600, by = 100), "k")) +
   theme(legend.position = "none")
 ```
@@ -1063,7 +1143,7 @@ ggplot(work4, aes(y=logGC, x=logOmega)) +
 ggplot(work4, aes(y=logGC, x=logOmega, color = Class)) +
   geom_point(cex=1, alpha=.2) +
   geom_density_2d() +
-  scale_y_continuous("logOmega", breaks = seq(0, 400000, by = 100000), labels = str_c(seq(0, 400, by = 100), "k")) +
+  scale_y_continuous("logGC", breaks = seq(0, 400000, by = 100000), labels = str_c(seq(0, 400, by = 100), "k")) +
   scale_color_discrete(name = "")
 ```
 
@@ -1172,9 +1252,7 @@ ggplot(data = work5, aes(x = Selection, y = AvgBranch))+
 
 ```{r}
 ggplot(work5, aes(x=Selection, y=AvgBranch, fill=BranchTested)) +
-  geom_boxplot()
+  geom_boxplot() +
+  coord_flip()
 ```
-
-
-
 
