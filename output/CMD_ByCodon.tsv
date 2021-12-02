@@ -1,0 +1,1798 @@
+Gene	NoSelectedCodons	No_2hitCMD	No_3hitCMD	BranchTest	Prop2H	Prop3H	BranchType
+apd-3	5	5	2	AllComplex	1	0.4	Elaboration of Sociality
+Cac	18	16	5	AllComplex	0.888888888888889	0.277777777777778	Elaboration of Sociality
+For	43	16	9	AllComplex	0.372093023255814	0.209302325581395	Elaboration of Sociality
+LOC102654959	8	4	4	AllComplex	0.5	0.5	Elaboration of Sociality
+LOC102655263	6	1	3	AllComplex	0.166666666666667	0.5	Elaboration of Sociality
+LOC408343	41	0	2	AllComplex	0	0.0487804878048781	Elaboration of Sociality
+LOC408528	22	6	9	AllComplex	0.272727272727273	0.409090909090909	Elaboration of Sociality
+LOC408619	19	11	8	AllComplex	0.578947368421053	0.421052631578947	Elaboration of Sociality
+LOC408660	21	6	0	AllComplex	0.285714285714286	0	Elaboration of Sociality
+LOC408862	8	6	3	AllComplex	0.75	0.375	Elaboration of Sociality
+LOC408915	13	0	0	AllComplex	0	0	Elaboration of Sociality
+LOC409000	9	3	3	AllComplex	0.333333333333333	0.333333333333333	Elaboration of Sociality
+LOC409007	31	0	0	AllComplex	0	0	Elaboration of Sociality
+LOC409039	1	0	0	AllComplex	0	0	Elaboration of Sociality
+LOC409335	3	3	0	AllComplex	1	0	Elaboration of Sociality
+LOC409377	20	2	6	AllComplex	0.1	0.3	Elaboration of Sociality
+LOC409508	3	1	0	AllComplex	0.333333333333333	0	Elaboration of Sociality
+LOC410567	63	1	1	AllComplex	0.0158730158730159	0.0158730158730159	Elaboration of Sociality
+LOC410860	15	1	1	AllComplex	0.0666666666666667	0.0666666666666667	Elaboration of Sociality
+LOC410865	105	0	0	AllComplex	0	0	Elaboration of Sociality
+LOC410997	18	7	0	AllComplex	0.388888888888889	0	Elaboration of Sociality
+LOC411494	48	2	3	AllComplex	0.0416666666666667	0.0625	Elaboration of Sociality
+LOC411723	7	2	4	AllComplex	0.285714285714286	0.571428571428571	Elaboration of Sociality
+LOC411836	3	2	1	AllComplex	0.666666666666667	0.333333333333333	Elaboration of Sociality
+LOC411850	5	2	1	AllComplex	0.4	0.2	Elaboration of Sociality
+LOC412694	11	2	0	AllComplex	0.181818181818182	0	Elaboration of Sociality
+LOC412859	8	7	1	AllComplex	0.875	0.125	Elaboration of Sociality
+LOC413246	20	1	1	AllComplex	0.05	0.05	Elaboration of Sociality
+LOC413341	20	1	1	AllComplex	0.05	0.05	Elaboration of Sociality
+LOC551080	11	5	3	AllComplex	0.454545454545455	0.272727272727273	Elaboration of Sociality
+LOC551123	2	0	0	AllComplex	0	0	Elaboration of Sociality
+LOC551173	5	4	3	AllComplex	0.8	0.6	Elaboration of Sociality
+LOC551551	6	3	2	AllComplex	0.5	0.333333333333333	Elaboration of Sociality
+LOC551666	3	0	0	AllComplex	0	0	Elaboration of Sociality
+LOC551754	15	0	6	AllComplex	0	0.4	Elaboration of Sociality
+LOC551892	2	1	1	AllComplex	0.5	0.5	Elaboration of Sociality
+LOC552315	13	3	1	AllComplex	0.230769230769231	0.0769230769230769	Elaboration of Sociality
+LOC552505	8	4	0	AllComplex	0.5	0	Elaboration of Sociality
+LOC724150	10	1	1	AllComplex	0.1	0.1	Elaboration of Sociality
+LOC724195	2	2	0	AllComplex	1	0	Elaboration of Sociality
+LOC724292	14	6	8	AllComplex	0.428571428571429	0.571428571428571	Elaboration of Sociality
+LOC724310	7	1	3	AllComplex	0.142857142857143	0.428571428571429	Elaboration of Sociality
+LOC724607	6	1	0	AllComplex	0.166666666666667	0	Elaboration of Sociality
+LOC724936	4	3	1	AllComplex	0.75	0.25	Elaboration of Sociality
+LOC724979	0	0	0	AllComplex	NA	NA	Elaboration of Sociality
+LOC725336	9	0	0	AllComplex	0	0	Elaboration of Sociality
+LOC725960	7	4	1	AllComplex	0.571428571428571	0.142857142857143	Elaboration of Sociality
+Nedd9	6	4	3	AllComplex	0.666666666666667	0.5	Elaboration of Sociality
+apd-3	3	3	1	AllOrigin	1	0.333333333333333	Origin of Sociality
+LOC100578119	5	2	2	AllOrigin	0.4	0.4	Origin of Sociality
+LOC408752	5	5	3	AllOrigin	1	0.6	Origin of Sociality
+LOC409318	5	1	1	AllOrigin	0.2	0.2	Origin of Sociality
+LOC409486	7	2	2	AllOrigin	0.285714285714286	0.285714285714286	Origin of Sociality
+LOC409933	17	4	10	AllOrigin	0.235294117647059	0.588235294117647	Origin of Sociality
+LOC410398	7	0	0	AllOrigin	0	0	Origin of Sociality
+LOC410694	5	0	0	AllOrigin	0	0	Origin of Sociality
+LOC413189	3	0	0	AllOrigin	0	0	Origin of Sociality
+LOC413280	10	4	4	AllOrigin	0.4	0.4	Origin of Sociality
+LOC414021	2	2	2	AllOrigin	1	1	Origin of Sociality
+LOC551005	7	7	3	AllOrigin	1	0.428571428571429	Origin of Sociality
+LOC551497	52	0	0	AllOrigin	0	0	Origin of Sociality
+LOC552017	14	10	6	AllOrigin	0.714285714285714	0.428571428571429	Origin of Sociality
+LOC552074	9	0	4	AllOrigin	0	0.444444444444444	Origin of Sociality
+LOC724195	4	3	0	AllOrigin	0.75	0	Origin of Sociality
+LOC724292	14	8	6	AllOrigin	0.571428571428571	0.428571428571429	Origin of Sociality
+LOC725336	29	1	0	AllOrigin	0.0344827586206897	0	Origin of Sociality
+LOC727249	19	2	0	AllOrigin	0.105263157894737	0	Origin of Sociality
+Dl	190	1	0	AllSol	0.00526315789473684	0	Solitary
+LOC107964404	11	2	1	AllSol	0.181818181818182	0.0909090909090909	Solitary
+LOC113218774	2	0	0	AllSol	0	0	Solitary
+LOC408586	37	2	6	AllSol	0.0540540540540541	0.162162162162162	Solitary
+LOC409351	144	0	0	AllSol	0	0	Solitary
+LOC411088	12	0	1	AllSol	0	0.0833333333333333	Solitary
+LOC411693	10	0	1	AllSol	0	0.1	Solitary
+LOC412598	5	1	4	AllSol	0.2	0.8	Solitary
+LOC552599	5	5	2	AllSol	1	0.4	Solitary
+LOC727634	88	1	0	AllSol	0.0113636363636364	0	Solitary
+Dop1	4	4	3	Apis	1	0.75	Elaboration of Sociality
+LOC100576369	5	4	3	Apis	0.8	0.6	Elaboration of Sociality
+LOC100576640	4	1	0	Apis	0.25	0	Elaboration of Sociality
+LOC100576818	5	0	1	Apis	0	0.2	Elaboration of Sociality
+LOC100577194	6	0	1	Apis	0	0.166666666666667	Elaboration of Sociality
+LOC100577409	16	1	2	Apis	0.0625	0.125	Elaboration of Sociality
+LOC100577527	20	1	0	Apis	0.05	0	Elaboration of Sociality
+LOC100577656	7	3	1	Apis	0.428571428571429	0.142857142857143	Elaboration of Sociality
+LOC100578247	14	0	3	Apis	0	0.214285714285714	Elaboration of Sociality
+LOC100578600	11	3	2	Apis	0.272727272727273	0.181818181818182	Elaboration of Sociality
+LOC100578927	3	3	2	Apis	1	0.666666666666667	Elaboration of Sociality
+LOC100578999	9	3	5	Apis	0.333333333333333	0.555555555555556	Elaboration of Sociality
+LOC100579026	5	1	0	Apis	0.2	0	Elaboration of Sociality
+LOC102654959	6	3	3	Apis	0.5	0.5	Elaboration of Sociality
+LOC102655819	19	1	1	Apis	0.0526315789473684	0.0526315789473684	Elaboration of Sociality
+LOC102656656	4	0	0	Apis	0	0	Elaboration of Sociality
+LOC408293	17	0	8	Apis	0	0.470588235294118	Elaboration of Sociality
+LOC408333	33	9	12	Apis	0.272727272727273	0.363636363636364	Elaboration of Sociality
+LOC408354	14	13	3	Apis	0.928571428571429	0.214285714285714	Elaboration of Sociality
+LOC408374	9	1	0	Apis	0.111111111111111	0	Elaboration of Sociality
+LOC408414	5	4	4	Apis	0.8	0.8	Elaboration of Sociality
+LOC408471	11	3	1	Apis	0.272727272727273	0.0909090909090909	Elaboration of Sociality
+LOC408551	26	15	2	Apis	0.576923076923077	0.0769230769230769	Elaboration of Sociality
+LOC408619	16	8	7	Apis	0.5	0.4375	Elaboration of Sociality
+LOC408660	15	7	0	Apis	0.466666666666667	0	Elaboration of Sociality
+LOC408708	24	0	1	Apis	0	0.0416666666666667	Elaboration of Sociality
+LOC409000	9	1	3	Apis	0.111111111111111	0.333333333333333	Elaboration of Sociality
+LOC409039	4	1	1	Apis	0.25	0.25	Elaboration of Sociality
+LOC409221	20	8	10	Apis	0.4	0.5	Elaboration of Sociality
+LOC409292	3	1	1	Apis	0.333333333333333	0.333333333333333	Elaboration of Sociality
+LOC409671	6	6	3	Apis	1	0.5	Elaboration of Sociality
+LOC409714	39	10	2	Apis	0.256410256410256	0.0512820512820513	Elaboration of Sociality
+LOC409734	5	3	3	Apis	0.6	0.6	Elaboration of Sociality
+LOC409756	3	3	3	Apis	1	1	Elaboration of Sociality
+LOC409945	7	2	0	Apis	0.285714285714286	0	Elaboration of Sociality
+LOC410067	5	3	2	Apis	0.6	0.4	Elaboration of Sociality
+LOC410183	5	2	1	Apis	0.4	0.2	Elaboration of Sociality
+LOC410352	5	1	1	Apis	0.2	0.2	Elaboration of Sociality
+LOC410363	35	7	1	Apis	0.2	0.0285714285714286	Elaboration of Sociality
+LOC410379	11	4	1	Apis	0.363636363636364	0.0909090909090909	Elaboration of Sociality
+LOC410567	98	1	1	Apis	0.0102040816326531	0.0102040816326531	Elaboration of Sociality
+LOC410622	50	3	0	Apis	0.06	0	Elaboration of Sociality
+LOC410865	117	0	0	Apis	0	0	Elaboration of Sociality
+LOC410925	11	8	1	Apis	0.727272727272727	0.0909090909090909	Elaboration of Sociality
+LOC411115	5	4	4	Apis	0.8	0.8	Elaboration of Sociality
+LOC411495	8	2	2	Apis	0.25	0.25	Elaboration of Sociality
+LOC411599	3	3	2	Apis	1	0.666666666666667	Elaboration of Sociality
+LOC411917	22	5	6	Apis	0.227272727272727	0.272727272727273	Elaboration of Sociality
+LOC411920	9	7	8	Apis	0.777777777777778	0.888888888888889	Elaboration of Sociality
+LOC411982	8	4	5	Apis	0.5	0.625	Elaboration of Sociality
+LOC412000	8	3	0	Apis	0.375	0	Elaboration of Sociality
+LOC412422	5	5	5	Apis	1	1	Elaboration of Sociality
+LOC412787	1	0	0	Apis	0	0	Elaboration of Sociality
+LOC413018	2	2	1	Apis	1	0.5	Elaboration of Sociality
+LOC413194	4	0	0	Apis	0	0	Elaboration of Sociality
+LOC413319	4	2	0	Apis	0.5	0	Elaboration of Sociality
+LOC413427	14	4	0	Apis	0.285714285714286	0	Elaboration of Sociality
+LOC413534	5	0	1	Apis	0	0.2	Elaboration of Sociality
+LOC413582	82	0	0	Apis	0	0	Elaboration of Sociality
+LOC413917	8	0	4	Apis	0	0.5	Elaboration of Sociality
+LOC550964	11	8	3	Apis	0.727272727272727	0.272727272727273	Elaboration of Sociality
+LOC551080	2	1	0	Apis	0.5	0	Elaboration of Sociality
+LOC551111	9	0	0	Apis	0	0	Elaboration of Sociality
+LOC551173	7	4	3	Apis	0.571428571428571	0.428571428571429	Elaboration of Sociality
+LOC551207	4	1	1	Apis	0.25	0.25	Elaboration of Sociality
+LOC551498	7	4	4	Apis	0.571428571428571	0.571428571428571	Elaboration of Sociality
+LOC551506	6	1	1	Apis	0.166666666666667	0.166666666666667	Elaboration of Sociality
+LOC551551	6	3	2	Apis	0.5	0.333333333333333	Elaboration of Sociality
+LOC552017	8	7	7	Apis	0.875	0.875	Elaboration of Sociality
+LOC552113	8	4	2	Apis	0.5	0.25	Elaboration of Sociality
+LOC552257	23	10	2	Apis	0.434782608695652	0.0869565217391304	Elaboration of Sociality
+LOC552317	5	1	2	Apis	0.2	0.4	Elaboration of Sociality
+LOC552472	2	1	2	Apis	0.5	1	Elaboration of Sociality
+LOC552505	8	3	0	Apis	0.375	0	Elaboration of Sociality
+LOC552664	6	2	1	Apis	0.333333333333333	0.166666666666667	Elaboration of Sociality
+LOC552740	14	9	2	Apis	0.642857142857143	0.142857142857143	Elaboration of Sociality
+LOC552779	4	0	3	Apis	0	0.75	Elaboration of Sociality
+LOC552849	9	1	0	Apis	0.111111111111111	0	Elaboration of Sociality
+LOC724225	7	3	1	Apis	0.428571428571429	0.142857142857143	Elaboration of Sociality
+LOC724252	14	4	5	Apis	0.285714285714286	0.357142857142857	Elaboration of Sociality
+LOC724344	7	6	3	Apis	0.857142857142857	0.428571428571429	Elaboration of Sociality
+LOC724603	14	12	9	Apis	0.857142857142857	0.642857142857143	Elaboration of Sociality
+LOC724926	13	0	0	Apis	0	0	Elaboration of Sociality
+LOC724935	2	1	2	Apis	0.5	1	Elaboration of Sociality
+LOC724953	3	0	1	Apis	0	0.333333333333333	Elaboration of Sociality
+LOC725149	2	2	2	Apis	1	1	Elaboration of Sociality
+LOC725317	8	0	0	Apis	0	0	Elaboration of Sociality
+LOC725336	2	0	0	Apis	0	0	Elaboration of Sociality
+LOC725348	10	0	0	Apis	0	0	Elaboration of Sociality
+LOC725405	16	7	2	Apis	0.4375	0.125	Elaboration of Sociality
+LOC725515	2	2	2	Apis	1	1	Elaboration of Sociality
+LOC725586	3	3	3	Apis	1	1	Elaboration of Sociality
+LOC725589	9	2	3	Apis	0.222222222222222	0.333333333333333	Elaboration of Sociality
+LOC725594	9	1	0	Apis	0.111111111111111	0	Elaboration of Sociality
+LOC725893	16	0	0	Apis	0	0	Elaboration of Sociality
+LOC725960	4	4	0	Apis	1	0	Elaboration of Sociality
+LOC726215	19	1	0	Apis	0.0526315789473684	0	Elaboration of Sociality
+LOC726219	5	0	1	Apis	0	0.2	Elaboration of Sociality
+LOC726522	10	0	0	Apis	0	0	Elaboration of Sociality
+LOC726890	1	0	0	Apis	0	0	Elaboration of Sociality
+LOC727186	2	0	2	Apis	0	1	Elaboration of Sociality
+LOC408752	5	5	3	CorbSoc	1	0.6	Origin of Sociality
+LOC409318	3	1	1	CorbSoc	0.333333333333333	0.333333333333333	Origin of Sociality
+LOC410398	8	0	0	CorbSoc	0	0	Origin of Sociality
+LOC410694	4	0	0	CorbSoc	0	0	Origin of Sociality
+LOC411181	2	0	2	CorbSoc	0	1	Origin of Sociality
+LOC412422	26	21	13	CorbSoc	0.807692307692308	0.5	Origin of Sociality
+LOC413280	11	5	4	CorbSoc	0.454545454545455	0.363636363636364	Origin of Sociality
+LOC551073	27	3	18	CorbSoc	0.111111111111111	0.666666666666667	Origin of Sociality
+LOC552074	14	3	4	CorbSoc	0.214285714285714	0.285714285714286	Origin of Sociality
+LOC724195	2	2	0	CorbSoc	1	0	Origin of Sociality
+LOC724936	6	3	1	CorbSoc	0.5	0.166666666666667	Origin of Sociality
+LOC725336	29	2	0	CorbSoc	0.0689655172413793	0	Origin of Sociality
+Amel_8916	7	4	1	Habro	0.571428571428571	0.142857142857143	Solitary
+Brd7	9	0	0	Habro	0	0	Solitary
+Dcr-1	11	4	0	Habro	0.363636363636364	0	Solitary
+Dl	96	1	0	Habro	0.0104166666666667	0	Solitary
+LOC100576346	11	0	0	Habro	0	0	Solitary
+LOC100576374	11	0	0	Habro	0	0	Solitary
+LOC100576433	3	0	1	Habro	0	0.333333333333333	Solitary
+LOC100576461	5	0	0	Habro	0	0	Solitary
+LOC100576472	14	0	0	Habro	0	0	Solitary
+LOC100576527	6	0	0	Habro	0	0	Solitary
+LOC100576677	5	0	0	Habro	0	0	Solitary
+LOC100576703	2	2	0	Habro	1	0	Solitary
+LOC100576915	10	2	1	Habro	0.2	0.1	Solitary
+LOC100576963	19	0	0	Habro	0	0	Solitary
+LOC100577905	11	0	0	Habro	0	0	Solitary
+LOC100577972	10	0	0	Habro	0	0	Solitary
+LOC100578132	15	0	0	Habro	0	0	Solitary
+LOC100578246	22	1	2	Habro	0.0454545454545455	0.0909090909090909	Solitary
+LOC100578406	3	0	0	Habro	0	0	Solitary
+LOC100578450	9	0	1	Habro	0	0.111111111111111	Solitary
+LOC100578828	7	0	2	Habro	0	0.285714285714286	Solitary
+LOC102654365	3	0	0	Habro	0	0	Solitary
+LOC102654510	5	0	0	Habro	0	0	Solitary
+LOC102654653	17	0	0	Habro	0	0	Solitary
+LOC107964404	10	1	1	Habro	0.1	0.1	Solitary
+LOC113218829	14	0	0	Habro	0	0	Solitary
+LOC408433	6	0	0	Habro	0	0	Solitary
+LOC408526	6	5	0	Habro	0.833333333333333	0	Solitary
+LOC408551	5	2	0	Habro	0.4	0	Solitary
+LOC408586	37	2	6	Habro	0.0540540540540541	0.162162162162162	Solitary
+LOC408708	3	3	2	Habro	1	0.666666666666667	Solitary
+LOC408714	22	0	0	Habro	0	0	Solitary
+LOC408791	9	0	0	Habro	0	0	Solitary
+LOC408902	4	0	0	Habro	0	0	Solitary
+LOC408923	18	1	3	Habro	0.0555555555555556	0.166666666666667	Solitary
+LOC409026	3	2	0	Habro	0.666666666666667	0	Solitary
+LOC409106	9	2	0	Habro	0.222222222222222	0	Solitary
+LOC409134	13	0	3	Habro	0	0.230769230769231	Solitary
+LOC409139	13	0	0	Habro	0	0	Solitary
+LOC409170	19	3	6	Habro	0.157894736842105	0.315789473684211	Solitary
+LOC409351	122	0	0	Habro	0	0	Solitary
+LOC409410	11	0	0	Habro	0	0	Solitary
+LOC409417	4	0	0	Habro	0	0	Solitary
+LOC409440	10	0	4	Habro	0	0.4	Solitary
+LOC409476	6	0	2	Habro	0	0.333333333333333	Solitary
+LOC409483	13	0	2	Habro	0	0.153846153846154	Solitary
+LOC409499	14	1	0	Habro	0.0714285714285714	0	Solitary
+LOC409511	6	0	0	Habro	0	0	Solitary
+LOC409536	2	0	0	Habro	0	0	Solitary
+LOC409571	11	1	0	Habro	0.0909090909090909	0	Solitary
+LOC409589	18	0	1	Habro	0	0.0555555555555556	Solitary
+LOC409668	10	0	0	Habro	0	0	Solitary
+LOC409673	20	0	0	Habro	0	0	Solitary
+LOC409734	5	0	0	Habro	0	0	Solitary
+LOC409778	33	1	1	Habro	0.0303030303030303	0.0303030303030303	Solitary
+LOC409919	8	0	0	Habro	0	0	Solitary
+LOC409934	7	0	0	Habro	0	0	Solitary
+LOC409950	12	0	0	Habro	0	0	Solitary
+LOC409979	24	1	1	Habro	0.0416666666666667	0.0416666666666667	Solitary
+LOC410159	3	0	0	Habro	0	0	Solitary
+LOC410355	7	0	0	Habro	0	0	Solitary
+LOC410507	5	0	0	Habro	0	0	Solitary
+LOC410541	21	0	0	Habro	0	0	Solitary
+LOC410546	10	0	0	Habro	0	0	Solitary
+LOC410565	11	0	3	Habro	0	0.272727272727273	Solitary
+LOC410777	11	0	1	Habro	0	0.0909090909090909	Solitary
+LOC410948	16	1	0	Habro	0.0625	0	Solitary
+LOC411047	8	2	1	Habro	0.25	0.125	Solitary
+LOC411053	5	0	0	Habro	0	0	Solitary
+LOC411059	14	0	0	Habro	0	0	Solitary
+LOC411062	6	0	2	Habro	0	0.333333333333333	Solitary
+LOC411088	12	0	1	Habro	0	0.0833333333333333	Solitary
+LOC411186	28	0	0	Habro	0	0	Solitary
+LOC411199	8	2	1	Habro	0.25	0.125	Solitary
+LOC411361	48	1	11	Habro	0.0208333333333333	0.229166666666667	Solitary
+LOC411469	17	0	8	Habro	0	0.470588235294118	Solitary
+LOC411510	21	0	0	Habro	0	0	Solitary
+LOC411582	7	0	2	Habro	0	0.285714285714286	Solitary
+LOC411589	16	3	4	Habro	0.1875	0.25	Solitary
+LOC411619	9	1	0	Habro	0.111111111111111	0	Solitary
+LOC411693	10	0	1	Habro	0	0.1	Solitary
+LOC411707	11	1	0	Habro	0.0909090909090909	0	Solitary
+LOC411724	2	0	0	Habro	0	0	Solitary
+LOC411730	6	0	0	Habro	0	0	Solitary
+LOC411758	8	0	0	Habro	0	0	Solitary
+LOC411797	10	0	0	Habro	0	0	Solitary
+LOC411805	19	0	0	Habro	0	0	Solitary
+LOC411886	7	0	0	Habro	0	0	Solitary
+LOC411942	16	0	0	Habro	0	0	Solitary
+LOC411960	12	0	0	Habro	0	0	Solitary
+LOC411985	5	0	2	Habro	0	0.4	Solitary
+LOC411995	13	1	0	Habro	0.0769230769230769	0	Solitary
+LOC412002	22	0	0	Habro	0	0	Solitary
+LOC412018	3	2	0	Habro	0.666666666666667	0	Solitary
+LOC412084	16	0	0	Habro	0	0	Solitary
+LOC412104	2	0	0	Habro	0	0	Solitary
+LOC412157	14	3	2	Habro	0.214285714285714	0.142857142857143	Solitary
+LOC412224	12	0	0	Habro	0	0	Solitary
+LOC412232	13	0	0	Habro	0	0	Solitary
+LOC412245	24	0	0	Habro	0	0	Solitary
+LOC412435	8	0	1	Habro	0	0.125	Solitary
+LOC412491	5	3	2	Habro	0.6	0.4	Solitary
+LOC412687	3	0	2	Habro	0	0.666666666666667	Solitary
+LOC412764	9	1	0	Habro	0.111111111111111	0	Solitary
+LOC412806	8	1	0	Habro	0.125	0	Solitary
+LOC412815	6	0	0	Habro	0	0	Solitary
+LOC412825	7	2	1	Habro	0.285714285714286	0.142857142857143	Solitary
+LOC412834	7	0	0	Habro	0	0	Solitary
+LOC412862	18	1	0	Habro	0.0555555555555556	0	Solitary
+LOC412965	15	1	1	Habro	0.0666666666666667	0.0666666666666667	Solitary
+LOC413001	15	1	3	Habro	0.0666666666666667	0.2	Solitary
+LOC413018	7	5	2	Habro	0.714285714285714	0.285714285714286	Solitary
+LOC413030	6	0	2	Habro	0	0.333333333333333	Solitary
+LOC413032	4	0	0	Habro	0	0	Solitary
+LOC413228	17	0	0	Habro	0	0	Solitary
+LOC413299	6	0	0	Habro	0	0	Solitary
+LOC413389	3	0	2	Habro	0	0.666666666666667	Solitary
+LOC413407	8	0	1	Habro	0	0.125	Solitary
+LOC413430	2	1	2	Habro	0.5	1	Solitary
+LOC413498	7	0	0	Habro	0	0	Solitary
+LOC413524	19	0	2	Habro	0	0.105263157894737	Solitary
+LOC413547	9	0	0	Habro	0	0	Solitary
+LOC413670	13	0	1	Habro	0	0.0769230769230769	Solitary
+LOC413759	5	2	0	Habro	0.4	0	Solitary
+LOC413785	10	0	0	Habro	0	0	Solitary
+LOC413821	3	0	0	Habro	0	0	Solitary
+LOC414009	5	0	3	Habro	0	0.6	Solitary
+LOC414017	7	0	0	Habro	0	0	Solitary
+LOC551016	16	0	0	Habro	0	0	Solitary
+LOC551087	17	0	0	Habro	0	0	Solitary
+LOC551193	6	0	0	Habro	0	0	Solitary
+LOC551424	3	0	2	Habro	0	0.666666666666667	Solitary
+LOC551435	10	0	0	Habro	0	0	Solitary
+LOC551536	31	1	0	Habro	0.032258064516129	0	Solitary
+LOC551566	5	0	0	Habro	0	0	Solitary
+LOC551613	5	2	0	Habro	0.4	0	Solitary
+LOC551636	12	0	0	Habro	0	0	Solitary
+LOC551668	15	0	4	Habro	0	0.266666666666667	Solitary
+LOC551724	11	1	3	Habro	0.0909090909090909	0.272727272727273	Solitary
+LOC551738	14	0	0	Habro	0	0	Solitary
+LOC551745	10	0	1	Habro	0	0.1	Solitary
+LOC551907	6	1	0	Habro	0.166666666666667	0	Solitary
+LOC551947	35	0	11	Habro	0	0.314285714285714	Solitary
+LOC551958	2	0	0	Habro	0	0	Solitary
+LOC551960	9	0	0	Habro	0	0	Solitary
+LOC551997	9	0	2	Habro	0	0.222222222222222	Solitary
+LOC552016	8	0	0	Habro	0	0	Solitary
+LOC552053	4	0	1	Habro	0	0.25	Solitary
+LOC552082	3	0	3	Habro	0	1	Solitary
+LOC552156	3	1	2	Habro	0.333333333333333	0.666666666666667	Solitary
+LOC552254	7	0	0	Habro	0	0	Solitary
+LOC552315	22	0	1	Habro	0	0.0454545454545455	Solitary
+LOC552319	8	1	2	Habro	0.125	0.25	Solitary
+LOC552336	12	0	1	Habro	0	0.0833333333333333	Solitary
+LOC552372	17	0	0	Habro	0	0	Solitary
+LOC552497	7	0	0	Habro	0	0	Solitary
+LOC552520	8	0	0	Habro	0	0	Solitary
+LOC552574	6	0	1	Habro	0	0.166666666666667	Solitary
+LOC552599	6	5	2	Habro	0.833333333333333	0.333333333333333	Solitary
+LOC552642	14	0	0	Habro	0	0	Solitary
+LOC552651	11	5	2	Habro	0.454545454545455	0.181818181818182	Solitary
+LOC552677	8	4	2	Habro	0.5	0.25	Solitary
+LOC552738	9	0	0	Habro	0	0	Solitary
+LOC724287	21	0	0	Habro	0	0	Solitary
+LOC724501	34	1	1	Habro	0.0294117647058824	0.0294117647058824	Solitary
+LOC724502	8	2	2	Habro	0.25	0.25	Solitary
+LOC724510	4	1	0	Habro	0.25	0	Solitary
+LOC724548	5	0	0	Habro	0	0	Solitary
+LOC724571	8	0	0	Habro	0	0	Solitary
+LOC724656	8	0	0	Habro	0	0	Solitary
+LOC724665	9	4	2	Habro	0.444444444444444	0.222222222222222	Solitary
+LOC724724	6	1	0	Habro	0.166666666666667	0	Solitary
+LOC724787	30	15	3	Habro	0.5	0.1	Solitary
+LOC725197	4	0	0	Habro	0	0	Solitary
+LOC725218	7	1	0	Habro	0.142857142857143	0	Solitary
+LOC725294	12	7	2	Habro	0.583333333333333	0.166666666666667	Solitary
+LOC725379	6	2	1	Habro	0.333333333333333	0.166666666666667	Solitary
+LOC725400	13	0	0	Habro	0	0	Solitary
+LOC725594	4	0	0	Habro	0	0	Solitary
+LOC725896	5	0	0	Habro	0	0	Solitary
+LOC726077	12	0	0	Habro	0	0	Solitary
+LOC726110	5	0	0	Habro	0	0	Solitary
+LOC726130	5	1	3	Habro	0.2	0.6	Solitary
+LOC726354	10	1	0	Habro	0.1	0	Solitary
+LOC726367	8	5	0	Habro	0.625	0	Solitary
+LOC726524	11	0	1	Habro	0	0.0909090909090909	Solitary
+LOC726537	24	1	0	Habro	0.0416666666666667	0	Solitary
+LOC726874	2	0	0	Habro	0	0	Solitary
+LOC726928	3	0	0	Habro	0	0	Solitary
+LOC726949	9	0	2	Habro	0	0.222222222222222	Solitary
+LOC727001	4	0	0	Habro	0	0	Solitary
+LOC727396	4	0	0	Habro	0	0	Solitary
+LOC727447	7	0	0	Habro	0	0	Solitary
+LOC727652	5	0	0	Habro	0	0	Solitary
+Ppib	6	0	0	Habro	0	0	Solitary
+Tpcn1	8	0	1	Habro	0	0.125	Solitary
+apd-3	4	4	2	Lasio	1	0.5	Origin of Sociality
+CytC	7	0	0	Lasio	0	0	Origin of Sociality
+Ef-1a-f1	8	2	1	Lasio	0.25	0.125	Origin of Sociality
+Gfat2	26	0	2	Lasio	0	0.0769230769230769	Origin of Sociality
+Grd	9	0	0	Lasio	0	0	Origin of Sociality
+LOC100576321	3	0	0	Lasio	0	0	Origin of Sociality
+LOC100576346	10	0	0	Lasio	0	0	Origin of Sociality
+LOC100576512	11	2	3	Lasio	0.181818181818182	0.272727272727273	Origin of Sociality
+LOC100576667	6	0	0	Lasio	0	0	Origin of Sociality
+LOC100576671	7	0	0	Lasio	0	0	Origin of Sociality
+LOC100576812	13	0	0	Lasio	0	0	Origin of Sociality
+LOC100576912	7	0	0	Lasio	0	0	Origin of Sociality
+LOC100576947	6	0	0	Lasio	0	0	Origin of Sociality
+LOC100577053	6	1	0	Lasio	0.166666666666667	0	Origin of Sociality
+LOC100577198	14	1	0	Lasio	0.0714285714285714	0	Origin of Sociality
+LOC100577231	24	0	0	Lasio	0	0	Origin of Sociality
+LOC100577280	8	0	0	Lasio	0	0	Origin of Sociality
+LOC100577325	25	0	0	Lasio	0	0	Origin of Sociality
+LOC100577363	18	0	0	Lasio	0	0	Origin of Sociality
+LOC100577369	9	0	1	Lasio	0	0.111111111111111	Origin of Sociality
+LOC100577376	9	0	0	Lasio	0	0	Origin of Sociality
+LOC100577397	31	0	0	Lasio	0	0	Origin of Sociality
+LOC100577401	2	0	0	Lasio	0	0	Origin of Sociality
+LOC100577472	12	0	6	Lasio	0	0.5	Origin of Sociality
+LOC100577530	20	2	0	Lasio	0.1	0	Origin of Sociality
+LOC100577638	24	0	0	Lasio	0	0	Origin of Sociality
+LOC100577644	8	0	0	Lasio	0	0	Origin of Sociality
+LOC100577687	5	0	0	Lasio	0	0	Origin of Sociality
+LOC100577739	9	0	0	Lasio	0	0	Origin of Sociality
+LOC100577901	25	0	0	Lasio	0	0	Origin of Sociality
+LOC100577972	36	0	0	Lasio	0	0	Origin of Sociality
+LOC100577980	3	2	2	Lasio	0.666666666666667	0.666666666666667	Origin of Sociality
+LOC100578031	23	0	0	Lasio	0	0	Origin of Sociality
+LOC100578071	21	1	0	Lasio	0.0476190476190476	0	Origin of Sociality
+LOC100578126	32	3	2	Lasio	0.09375	0.0625	Origin of Sociality
+LOC100578201	5	0	0	Lasio	0	0	Origin of Sociality
+LOC100578207	20	1	0	Lasio	0.05	0	Origin of Sociality
+LOC100578237	5	0	0	Lasio	0	0	Origin of Sociality
+LOC100578289	25	0	0	Lasio	0	0	Origin of Sociality
+LOC100578298	7	0	0	Lasio	0	0	Origin of Sociality
+LOC100578515	54	2	0	Lasio	0.037037037037037	0	Origin of Sociality
+LOC100578537	29	0	0	Lasio	0	0	Origin of Sociality
+LOC100578556	5	0	0	Lasio	0	0	Origin of Sociality
+LOC100578563	4	0	0	Lasio	0	0	Origin of Sociality
+LOC100578587	43	0	0	Lasio	0	0	Origin of Sociality
+LOC100578600	10	2	0	Lasio	0.2	0	Origin of Sociality
+LOC100578606	15	0	0	Lasio	0	0	Origin of Sociality
+LOC100578852	15	0	0	Lasio	0	0	Origin of Sociality
+LOC100578939	15	4	1	Lasio	0.266666666666667	0.0666666666666667	Origin of Sociality
+LOC102653780	11	0	0	Lasio	0	0	Origin of Sociality
+LOC102653793	25	0	0	Lasio	0	0	Origin of Sociality
+LOC102654640	5	0	0	Lasio	0	0	Origin of Sociality
+LOC102654839	17	0	1	Lasio	0	0.0588235294117647	Origin of Sociality
+LOC102654959	6	0	0	Lasio	0	0	Origin of Sociality
+LOC102655126	5	0	0	Lasio	0	0	Origin of Sociality
+LOC102655429	23	3	0	Lasio	0.130434782608696	0	Origin of Sociality
+LOC102656656	5	0	0	Lasio	0	0	Origin of Sociality
+LOC102656766	10	0	0	Lasio	0	0	Origin of Sociality
+LOC107964839	9	0	0	Lasio	0	0	Origin of Sociality
+LOC107964884	6	0	0	Lasio	0	0	Origin of Sociality
+LOC107965828	34	0	0	Lasio	0	0	Origin of Sociality
+LOC113218580	5	0	0	Lasio	0	0	Origin of Sociality
+LOC113219045	5	3	1	Lasio	0.6	0.2	Origin of Sociality
+LOC406124	11	6	6	Lasio	0.545454545454545	0.545454545454545	Origin of Sociality
+LOC408298	8	0	2	Lasio	0	0.25	Origin of Sociality
+LOC408412	18	2	0	Lasio	0.111111111111111	0	Origin of Sociality
+LOC408494	7	0	0	Lasio	0	0	Origin of Sociality
+LOC408497	4	0	0	Lasio	0	0	Origin of Sociality
+LOC408551	4	1	0	Lasio	0.25	0	Origin of Sociality
+LOC408552	9	3	1	Lasio	0.333333333333333	0.111111111111111	Origin of Sociality
+LOC408618	17	0	0	Lasio	0	0	Origin of Sociality
+LOC408656	16	0	0	Lasio	0	0	Origin of Sociality
+LOC408675	13	1	0	Lasio	0.0769230769230769	0	Origin of Sociality
+LOC408693	9	7	3	Lasio	0.777777777777778	0.333333333333333	Origin of Sociality
+LOC408717	15	0	0	Lasio	0	0	Origin of Sociality
+LOC408721	36	0	0	Lasio	0	0	Origin of Sociality
+LOC408762	3	1	0	Lasio	0.333333333333333	0	Origin of Sociality
+LOC408766	16	0	2	Lasio	0	0.125	Origin of Sociality
+LOC408862	23	1	2	Lasio	0.0434782608695652	0.0869565217391304	Origin of Sociality
+LOC408863	9	1	0	Lasio	0.111111111111111	0	Origin of Sociality
+LOC408869	5	3	3	Lasio	0.6	0.6	Origin of Sociality
+LOC408874	22	0	0	Lasio	0	0	Origin of Sociality
+LOC408877	6	1	2	Lasio	0.166666666666667	0.333333333333333	Origin of Sociality
+LOC408889	28	0	0	Lasio	0	0	Origin of Sociality
+LOC408890	9	0	1	Lasio	0	0.111111111111111	Origin of Sociality
+LOC408910	17	0	3	Lasio	0	0.176470588235294	Origin of Sociality
+LOC408916	12	0	0	Lasio	0	0	Origin of Sociality
+LOC408958	7	0	0	Lasio	0	0	Origin of Sociality
+LOC409034	22	1	0	Lasio	0.0454545454545455	0	Origin of Sociality
+LOC409039	8	0	0	Lasio	0	0	Origin of Sociality
+LOC409059	14	1	3	Lasio	0.0714285714285714	0.214285714285714	Origin of Sociality
+LOC409077	16	2	0	Lasio	0.125	0	Origin of Sociality
+LOC409119	13	1	6	Lasio	0.0769230769230769	0.461538461538462	Origin of Sociality
+LOC409125	8	0	0	Lasio	0	0	Origin of Sociality
+LOC409184	136	3	0	Lasio	0.0220588235294118	0	Origin of Sociality
+LOC409186	10	1	2	Lasio	0.1	0.2	Origin of Sociality
+LOC409203	9	0	0	Lasio	0	0	Origin of Sociality
+LOC409235	29	1	0	Lasio	0.0344827586206897	0	Origin of Sociality
+LOC409267	12	1	0	Lasio	0.0833333333333333	0	Origin of Sociality
+LOC409331	9	0	0	Lasio	0	0	Origin of Sociality
+LOC409357	9	1	1	Lasio	0.111111111111111	0.111111111111111	Origin of Sociality
+LOC409390	22	0	0	Lasio	0	0	Origin of Sociality
+LOC409417	31	0	0	Lasio	0	0	Origin of Sociality
+LOC409422	4	0	0	Lasio	0	0	Origin of Sociality
+LOC409442	27	0	0	Lasio	0	0	Origin of Sociality
+LOC409460	3	0	0	Lasio	0	0	Origin of Sociality
+LOC409486	10	4	2	Lasio	0.4	0.2	Origin of Sociality
+LOC409511	8	0	0	Lasio	0	0	Origin of Sociality
+LOC409525	14	0	0	Lasio	0	0	Origin of Sociality
+LOC409564	20	0	0	Lasio	0	0	Origin of Sociality
+LOC409565	4	1	1	Lasio	0.25	0.25	Origin of Sociality
+LOC409609	6	0	1	Lasio	0	0.166666666666667	Origin of Sociality
+LOC409616	19	0	0	Lasio	0	0	Origin of Sociality
+LOC409643	41	1	0	Lasio	0.024390243902439	0	Origin of Sociality
+LOC409714	38	1	0	Lasio	0.0263157894736842	0	Origin of Sociality
+LOC409718	18	1	2	Lasio	0.0555555555555556	0.111111111111111	Origin of Sociality
+LOC409778	17	0	0	Lasio	0	0	Origin of Sociality
+LOC409887	4	0	2	Lasio	0	0.5	Origin of Sociality
+LOC409894	11	0	5	Lasio	0	0.454545454545455	Origin of Sociality
+LOC409921	8	3	1	Lasio	0.375	0.125	Origin of Sociality
+LOC409933	1	1	1	Lasio	1	1	Origin of Sociality
+LOC409993	16	0	0	Lasio	0	0	Origin of Sociality
+LOC410054	11	0	0	Lasio	0	0	Origin of Sociality
+LOC410067	31	1	1	Lasio	0.032258064516129	0.032258064516129	Origin of Sociality
+LOC410114	9	0	0	Lasio	0	0	Origin of Sociality
+LOC410159	4	0	0	Lasio	0	0	Origin of Sociality
+LOC410239	5	0	0	Lasio	0	0	Origin of Sociality
+LOC410253	23	1	0	Lasio	0.0434782608695652	0	Origin of Sociality
+LOC410379	8	1	0	Lasio	0.125	0	Origin of Sociality
+LOC410408	85	0	0	Lasio	0	0	Origin of Sociality
+LOC410468	10	1	2	Lasio	0.1	0.2	Origin of Sociality
+LOC410470	10	1	0	Lasio	0.1	0	Origin of Sociality
+LOC410482	18	1	0	Lasio	0.0555555555555556	0	Origin of Sociality
+LOC410493	10	0	1	Lasio	0	0.1	Origin of Sociality
+LOC410571	7	1	0	Lasio	0.142857142857143	0	Origin of Sociality
+LOC410575	8	0	0	Lasio	0	0	Origin of Sociality
+LOC410643	22	3	1	Lasio	0.136363636363636	0.0454545454545455	Origin of Sociality
+LOC410658	18	2	1	Lasio	0.111111111111111	0.0555555555555556	Origin of Sociality
+LOC410766	32	0	0	Lasio	0	0	Origin of Sociality
+LOC410776	11	0	3	Lasio	0	0.272727272727273	Origin of Sociality
+LOC410788	12	0	0	Lasio	0	0	Origin of Sociality
+LOC410802	9	0	0	Lasio	0	0	Origin of Sociality
+LOC410825	10	0	0	Lasio	0	0	Origin of Sociality
+LOC410851	10	0	0	Lasio	0	0	Origin of Sociality
+LOC410865	11	11	5	Lasio	1	0.454545454545455	Origin of Sociality
+LOC410886	6	0	0	Lasio	0	0	Origin of Sociality
+LOC410896	7	0	2	Lasio	0	0.285714285714286	Origin of Sociality
+LOC410986	9	0	0	Lasio	0	0	Origin of Sociality
+LOC411053	8	0	0	Lasio	0	0	Origin of Sociality
+LOC411083	19	14	5	Lasio	0.736842105263158	0.263157894736842	Origin of Sociality
+LOC411099	11	0	2	Lasio	0	0.181818181818182	Origin of Sociality
+LOC411115	28	2	0	Lasio	0.0714285714285714	0	Origin of Sociality
+LOC411176	7	0	0	Lasio	0	0	Origin of Sociality
+LOC411204	17	1	1	Lasio	0.0588235294117647	0.0588235294117647	Origin of Sociality
+LOC411213	16	3	1	Lasio	0.1875	0.0625	Origin of Sociality
+LOC411227	21	3	7	Lasio	0.142857142857143	0.333333333333333	Origin of Sociality
+LOC411288	6	1	1	Lasio	0.166666666666667	0.166666666666667	Origin of Sociality
+LOC411345	3	1	0	Lasio	0.333333333333333	0	Origin of Sociality
+LOC411450	14	0	0	Lasio	0	0	Origin of Sociality
+LOC411474	18	0	0	Lasio	0	0	Origin of Sociality
+LOC411494	34	3	1	Lasio	0.0882352941176471	0.0294117647058824	Origin of Sociality
+LOC411539	7	0	0	Lasio	0	0	Origin of Sociality
+LOC411575	19	0	0	Lasio	0	0	Origin of Sociality
+LOC411586	20	0	1	Lasio	0	0.05	Origin of Sociality
+LOC411600	87	1	1	Lasio	0.0114942528735632	0.0114942528735632	Origin of Sociality
+LOC411670	74	3	0	Lasio	0.0405405405405405	0	Origin of Sociality
+LOC411744	22	1	0	Lasio	0.0454545454545455	0	Origin of Sociality
+LOC411772	23	1	1	Lasio	0.0434782608695652	0.0434782608695652	Origin of Sociality
+LOC411794	4	2	3	Lasio	0.5	0.75	Origin of Sociality
+LOC411833	7	0	0	Lasio	0	0	Origin of Sociality
+LOC411919	13	0	3	Lasio	0	0.230769230769231	Origin of Sociality
+LOC411920	7	1	4	Lasio	0.142857142857143	0.571428571428571	Origin of Sociality
+LOC411930	9	0	0	Lasio	0	0	Origin of Sociality
+LOC411978	24	1	0	Lasio	0.0416666666666667	0	Origin of Sociality
+LOC411981	5	0	0	Lasio	0	0	Origin of Sociality
+LOC411982	9	0	1	Lasio	0	0.111111111111111	Origin of Sociality
+LOC411997	7	0	0	Lasio	0	0	Origin of Sociality
+LOC412002	4	0	0	Lasio	0	0	Origin of Sociality
+LOC412008	6	0	0	Lasio	0	0	Origin of Sociality
+LOC412034	14	0	0	Lasio	0	0	Origin of Sociality
+LOC412069	7	2	1	Lasio	0.285714285714286	0.142857142857143	Origin of Sociality
+LOC412081	19	0	0	Lasio	0	0	Origin of Sociality
+LOC412099	34	1	0	Lasio	0.0294117647058824	0	Origin of Sociality
+LOC412103	7	0	0	Lasio	0	0	Origin of Sociality
+LOC412119	14	0	0	Lasio	0	0	Origin of Sociality
+LOC412167	15	1	0	Lasio	0.0666666666666667	0	Origin of Sociality
+LOC412278	41	0	0	Lasio	0	0	Origin of Sociality
+LOC412464	3	0	0	Lasio	0	0	Origin of Sociality
+LOC412488	13	0	0	Lasio	0	0	Origin of Sociality
+LOC412510	8	0	0	Lasio	0	0	Origin of Sociality
+LOC412616	21	1	0	Lasio	0.0476190476190476	0	Origin of Sociality
+LOC412665	73	0	0	Lasio	0	0	Origin of Sociality
+LOC412690	10	1	0	Lasio	0.1	0	Origin of Sociality
+LOC412748	29	1	0	Lasio	0.0344827586206897	0	Origin of Sociality
+LOC412775	15	0	0	Lasio	0	0	Origin of Sociality
+LOC412815	12	1	0	Lasio	0.0833333333333333	0	Origin of Sociality
+LOC412817	13	0	0	Lasio	0	0	Origin of Sociality
+LOC412825	26	3	0	Lasio	0.115384615384615	0	Origin of Sociality
+LOC412855	14	5	1	Lasio	0.357142857142857	0.0714285714285714	Origin of Sociality
+LOC412858	4	0	0	Lasio	0	0	Origin of Sociality
+LOC412859	10	1	0	Lasio	0.1	0	Origin of Sociality
+LOC412897	38	0	0	Lasio	0	0	Origin of Sociality
+LOC412919	39	0	0	Lasio	0	0	Origin of Sociality
+LOC413018	14	0	0	Lasio	0	0	Origin of Sociality
+LOC413024	9	3	3	Lasio	0.333333333333333	0.333333333333333	Origin of Sociality
+LOC413086	7	0	0	Lasio	0	0	Origin of Sociality
+LOC413089	11	0	0	Lasio	0	0	Origin of Sociality
+LOC413106	14	0	0	Lasio	0	0	Origin of Sociality
+LOC413113	17	0	0	Lasio	0	0	Origin of Sociality
+LOC413120	30	0	0	Lasio	0	0	Origin of Sociality
+LOC413132	17	0	0	Lasio	0	0	Origin of Sociality
+LOC413133	12	0	0	Lasio	0	0	Origin of Sociality
+LOC413134	10	2	0	Lasio	0.2	0	Origin of Sociality
+LOC413153	36	0	0	Lasio	0	0	Origin of Sociality
+LOC413170	9	1	1	Lasio	0.111111111111111	0.111111111111111	Origin of Sociality
+LOC413200	34	0	0	Lasio	0	0	Origin of Sociality
+LOC413242	4	4	0	Lasio	1	0	Origin of Sociality
+LOC413270	13	5	2	Lasio	0.384615384615385	0.153846153846154	Origin of Sociality
+LOC413310	11	0	0	Lasio	0	0	Origin of Sociality
+LOC413383	14	1	0	Lasio	0.0714285714285714	0	Origin of Sociality
+LOC413408	13	2	0	Lasio	0.153846153846154	0	Origin of Sociality
+LOC413523	11	0	0	Lasio	0	0	Origin of Sociality
+LOC413557	14	0	0	Lasio	0	0	Origin of Sociality
+LOC413576	12	0	0	Lasio	0	0	Origin of Sociality
+LOC413594	19	0	0	Lasio	0	0	Origin of Sociality
+LOC413607	6	0	0	Lasio	0	0	Origin of Sociality
+LOC413759	33	4	1	Lasio	0.121212121212121	0.0303030303030303	Origin of Sociality
+LOC413805	12	0	0	Lasio	0	0	Origin of Sociality
+LOC413810	6	0	0	Lasio	0	0	Origin of Sociality
+LOC413814	9	0	1	Lasio	0	0.111111111111111	Origin of Sociality
+LOC413854	32	2	0	Lasio	0.0625	0	Origin of Sociality
+LOC413906	12	0	0	Lasio	0	0	Origin of Sociality
+LOC413907	9	0	0	Lasio	0	0	Origin of Sociality
+LOC413936	83	1	1	Lasio	0.0120481927710843	0.0120481927710843	Origin of Sociality
+LOC413977	9	0	0	Lasio	0	0	Origin of Sociality
+LOC414017	12	0	0	Lasio	0	0	Origin of Sociality
+LOC414035	3	1	0	Lasio	0.333333333333333	0	Origin of Sociality
+LOC550716	4	0	1	Lasio	0	0.25	Origin of Sociality
+LOC550791	29	0	0	Lasio	0	0	Origin of Sociality
+LOC550941	5	0	0	Lasio	0	0	Origin of Sociality
+LOC550964	12	0	0	Lasio	0	0	Origin of Sociality
+LOC550978	16	0	0	Lasio	0	0	Origin of Sociality
+LOC551041	14	1	0	Lasio	0.0714285714285714	0	Origin of Sociality
+LOC551086	45	0	3	Lasio	0	0.0666666666666667	Origin of Sociality
+LOC551130	14	2	1	Lasio	0.142857142857143	0.0714285714285714	Origin of Sociality
+LOC551133	11	0	0	Lasio	0	0	Origin of Sociality
+LOC551168	10	0	1	Lasio	0	0.1	Origin of Sociality
+LOC551212	7	0	0	Lasio	0	0	Origin of Sociality
+LOC551225	14	0	1	Lasio	0	0.0714285714285714	Origin of Sociality
+LOC551227	7	0	0	Lasio	0	0	Origin of Sociality
+LOC551331	5	1	1	Lasio	0.2	0.2	Origin of Sociality
+LOC551375	15	1	0	Lasio	0.0666666666666667	0	Origin of Sociality
+LOC551425	8	0	0	Lasio	0	0	Origin of Sociality
+LOC551432	12	0	0	Lasio	0	0	Origin of Sociality
+LOC551433	21	2	0	Lasio	0.0952380952380952	0	Origin of Sociality
+LOC551462	14	1	1	Lasio	0.0714285714285714	0.0714285714285714	Origin of Sociality
+LOC551477	7	0	0	Lasio	0	0	Origin of Sociality
+LOC551506	39	3	1	Lasio	0.0769230769230769	0.0256410256410256	Origin of Sociality
+LOC551549	4	0	0	Lasio	0	0	Origin of Sociality
+LOC551566	19	0	0	Lasio	0	0	Origin of Sociality
+LOC551576	7	0	0	Lasio	0	0	Origin of Sociality
+LOC551587	47	0	0	Lasio	0	0	Origin of Sociality
+LOC551604	9	0	0	Lasio	0	0	Origin of Sociality
+LOC551659	15	2	0	Lasio	0.133333333333333	0	Origin of Sociality
+LOC551677	27	0	1	Lasio	0	0.037037037037037	Origin of Sociality
+LOC551730	9	0	0	Lasio	0	0	Origin of Sociality
+LOC551772	7	2	1	Lasio	0.285714285714286	0.142857142857143	Origin of Sociality
+LOC551774	35	0	0	Lasio	0	0	Origin of Sociality
+LOC551780	11	0	0	Lasio	0	0	Origin of Sociality
+LOC551782	40	1	0	Lasio	0.025	0	Origin of Sociality
+LOC551840	10	0	2	Lasio	0	0.2	Origin of Sociality
+LOC551847	17	0	0	Lasio	0	0	Origin of Sociality
+LOC551871	37	0	0	Lasio	0	0	Origin of Sociality
+LOC551895	9	0	0	Lasio	0	0	Origin of Sociality
+LOC551919	32	0	0	Lasio	0	0	Origin of Sociality
+LOC551984	4	0	0	Lasio	0	0	Origin of Sociality
+LOC552017	6	3	0	Lasio	0.5	0	Origin of Sociality
+LOC552074	10	0	0	Lasio	0	0	Origin of Sociality
+LOC552128	7	1	0	Lasio	0.142857142857143	0	Origin of Sociality
+LOC552153	12	0	0	Lasio	0	0	Origin of Sociality
+LOC552259	6	0	0	Lasio	0	0	Origin of Sociality
+LOC552289	62	1	0	Lasio	0.0161290322580645	0	Origin of Sociality
+LOC552358	32	1	0	Lasio	0.03125	0	Origin of Sociality
+LOC552373	8	0	0	Lasio	0	0	Origin of Sociality
+LOC552428	132	0	0	Lasio	0	0	Origin of Sociality
+LOC552440	12	0	0	Lasio	0	0	Origin of Sociality
+LOC552449	6	0	0	Lasio	0	0	Origin of Sociality
+LOC552468	27	1	0	Lasio	0.037037037037037	0	Origin of Sociality
+LOC552496	11	0	0	Lasio	0	0	Origin of Sociality
+LOC552502	30	1	1	Lasio	0.0333333333333333	0.0333333333333333	Origin of Sociality
+LOC552578	16	0	0	Lasio	0	0	Origin of Sociality
+LOC552624	5	0	0	Lasio	0	0	Origin of Sociality
+LOC552625	6	0	0	Lasio	0	0	Origin of Sociality
+LOC552663	11	0	0	Lasio	0	0	Origin of Sociality
+LOC552674	17	0	0	Lasio	0	0	Origin of Sociality
+LOC552724	8	0	0	Lasio	0	0	Origin of Sociality
+LOC552746	34	1	0	Lasio	0.0294117647058824	0	Origin of Sociality
+LOC552814	13	0	0	Lasio	0	0	Origin of Sociality
+LOC552851	7	1	0	Lasio	0.142857142857143	0	Origin of Sociality
+LOC724215	22	0	0	Lasio	0	0	Origin of Sociality
+LOC724220	9	6	5	Lasio	0.666666666666667	0.555555555555556	Origin of Sociality
+LOC724244	4	0	0	Lasio	0	0	Origin of Sociality
+LOC724285	15	0	0	Lasio	0	0	Origin of Sociality
+LOC724290	15	1	0	Lasio	0.0666666666666667	0	Origin of Sociality
+LOC724292	8	0	2	Lasio	0	0.25	Origin of Sociality
+LOC724315	38	1	0	Lasio	0.0263157894736842	0	Origin of Sociality
+LOC724322	29	0	3	Lasio	0	0.103448275862069	Origin of Sociality
+LOC724328	24	0	0	Lasio	0	0	Origin of Sociality
+LOC724356	6	0	0	Lasio	0	0	Origin of Sociality
+LOC724358	15	1	0	Lasio	0.0666666666666667	0	Origin of Sociality
+LOC724442	10	1	5	Lasio	0.1	0.5	Origin of Sociality
+LOC724450	26	0	0	Lasio	0	0	Origin of Sociality
+LOC724468	22	1	0	Lasio	0.0454545454545455	0	Origin of Sociality
+LOC724487	5	1	3	Lasio	0.2	0.6	Origin of Sociality
+LOC724517	13	0	1	Lasio	0	0.0769230769230769	Origin of Sociality
+LOC724552	11	0	0	Lasio	0	0	Origin of Sociality
+LOC724592	27	0	2	Lasio	0	0.0740740740740741	Origin of Sociality
+LOC724593	9	0	0	Lasio	0	0	Origin of Sociality
+LOC724603	16	1	1	Lasio	0.0625	0.0625	Origin of Sociality
+LOC724608	17	0	0	Lasio	0	0	Origin of Sociality
+LOC724656	14	0	0	Lasio	0	0	Origin of Sociality
+LOC724660	15	0	0	Lasio	0	0	Origin of Sociality
+LOC724672	6	0	0	Lasio	0	0	Origin of Sociality
+LOC724700	24	0	0	Lasio	0	0	Origin of Sociality
+LOC724787	6	0	0	Lasio	0	0	Origin of Sociality
+LOC724823	10	0	1	Lasio	0	0.1	Origin of Sociality
+LOC724843	8	0	0	Lasio	0	0	Origin of Sociality
+LOC724859	13	0	0	Lasio	0	0	Origin of Sociality
+LOC724863	6	0	0	Lasio	0	0	Origin of Sociality
+LOC724912	39	1	0	Lasio	0.0256410256410256	0	Origin of Sociality
+LOC724917	9	0	0	Lasio	0	0	Origin of Sociality
+LOC724933	27	4	0	Lasio	0.148148148148148	0	Origin of Sociality
+LOC725003	41	1	0	Lasio	0.024390243902439	0	Origin of Sociality
+LOC725026	14	0	0	Lasio	0	0	Origin of Sociality
+LOC725036	10	0	0	Lasio	0	0	Origin of Sociality
+LOC725044	19	0	0	Lasio	0	0	Origin of Sociality
+LOC725101	11	0	0	Lasio	0	0	Origin of Sociality
+LOC725192	22	0	0	Lasio	0	0	Origin of Sociality
+LOC725220	33	2	0	Lasio	0.0606060606060606	0	Origin of Sociality
+LOC725327	18	0	0	Lasio	0	0	Origin of Sociality
+LOC725328	7	0	0	Lasio	0	0	Origin of Sociality
+LOC725336	12	7	0	Lasio	0.583333333333333	0	Origin of Sociality
+LOC725354	9	0	0	Lasio	0	0	Origin of Sociality
+LOC725408	7	0	0	Lasio	0	0	Origin of Sociality
+LOC725427	5	0	0	Lasio	0	0	Origin of Sociality
+LOC725453	14	0	0	Lasio	0	0	Origin of Sociality
+LOC725495	28	1	0	Lasio	0.0357142857142857	0	Origin of Sociality
+LOC725546	8	0	0	Lasio	0	0	Origin of Sociality
+LOC725596	4	0	0	Lasio	0	0	Origin of Sociality
+LOC725606	15	0	0	Lasio	0	0	Origin of Sociality
+LOC725611	7	0	0	Lasio	0	0	Origin of Sociality
+LOC725623	7	0	0	Lasio	0	0	Origin of Sociality
+LOC725662	14	0	0	Lasio	0	0	Origin of Sociality
+LOC725682	17	0	0	Lasio	0	0	Origin of Sociality
+LOC725710	14	0	2	Lasio	0	0.142857142857143	Origin of Sociality
+LOC725837	11	0	1	Lasio	0	0.0909090909090909	Origin of Sociality
+LOC725860	7	0	0	Lasio	0	0	Origin of Sociality
+LOC725864	11	0	0	Lasio	0	0	Origin of Sociality
+LOC725908	18	0	0	Lasio	0	0	Origin of Sociality
+LOC725960	12	2	0	Lasio	0.166666666666667	0	Origin of Sociality
+LOC725992	8	0	0	Lasio	0	0	Origin of Sociality
+LOC726045	16	0	0	Lasio	0	0	Origin of Sociality
+LOC726068	8	1	0	Lasio	0.125	0	Origin of Sociality
+LOC726093	23	0	2	Lasio	0	0.0869565217391304	Origin of Sociality
+LOC726107	54	0	0	Lasio	0	0	Origin of Sociality
+LOC726129	3	1	2	Lasio	0.333333333333333	0.666666666666667	Origin of Sociality
+LOC726164	11	0	0	Lasio	0	0	Origin of Sociality
+LOC726167	25	4	0	Lasio	0.16	0	Origin of Sociality
+LOC726180	14	0	1	Lasio	0	0.0714285714285714	Origin of Sociality
+LOC726215	7	0	0	Lasio	0	0	Origin of Sociality
+LOC726315	12	1	0	Lasio	0.0833333333333333	0	Origin of Sociality
+LOC726339	10	0	0	Lasio	0	0	Origin of Sociality
+LOC726348	69	0	0	Lasio	0	0	Origin of Sociality
+LOC726354	7	1	0	Lasio	0.142857142857143	0	Origin of Sociality
+LOC726380	17	0	0	Lasio	0	0	Origin of Sociality
+LOC726418	24	0	0	Lasio	0	0	Origin of Sociality
+LOC726529	6	4	0	Lasio	0.666666666666667	0	Origin of Sociality
+LOC726579	6	0	0	Lasio	0	0	Origin of Sociality
+LOC726643	13	1	0	Lasio	0.0769230769230769	0	Origin of Sociality
+LOC726657	31	0	0	Lasio	0	0	Origin of Sociality
+LOC726673	5	0	0	Lasio	0	0	Origin of Sociality
+LOC726735	14	0	0	Lasio	0	0	Origin of Sociality
+LOC726895	13	0	0	Lasio	0	0	Origin of Sociality
+LOC726914	24	2	2	Lasio	0.0833333333333333	0.0833333333333333	Origin of Sociality
+LOC726947	6	2	1	Lasio	0.333333333333333	0.166666666666667	Origin of Sociality
+LOC726989	13	0	0	Lasio	0	0	Origin of Sociality
+LOC727022	4	0	0	Lasio	0	0	Origin of Sociality
+LOC727027	7	1	0	Lasio	0.142857142857143	0	Origin of Sociality
+LOC727108	24	0	3	Lasio	0	0.125	Origin of Sociality
+LOC727150	12	0	0	Lasio	0	0	Origin of Sociality
+LOC727180	5	0	0	Lasio	0	0	Origin of Sociality
+LOC727415	25	2	0	Lasio	0.08	0	Origin of Sociality
+LOC727447	6	0	0	Lasio	0	0	Origin of Sociality
+LOC727596	9	0	1	Lasio	0	0.111111111111111	Origin of Sociality
+nAChRa7	6	3	0	Lasio	0.5	0	Origin of Sociality
+Per	4	1	0	Lasio	0.25	0	Origin of Sociality
+Reck	4	0	0	Lasio	0	0	Origin of Sociality
+Syt20	10	0	0	Lasio	0	0	Origin of Sociality
+Tg	11	2	1	Lasio	0.181818181818182	0.0909090909090909	Origin of Sociality
+Tspan6	4	3	0	Lasio	0.75	0	Origin of Sociality
+Vg	11	0	0	Lasio	0	0	Origin of Sociality
+Antp	53	0	0	Mega	0	0	Solitary
+apd-3	6	0	1	Mega	0	0.166666666666667	Solitary
+LOC100576198	8	1	0	Mega	0.125	0	Solitary
+LOC100576610	8	0	0	Mega	0	0	Solitary
+LOC100576666	8	0	0	Mega	0	0	Solitary
+LOC100576703	4	0	0	Mega	0	0	Solitary
+LOC100576799	11	1	0	Mega	0.0909090909090909	0	Solitary
+LOC100577739	8	0	0	Mega	0	0	Solitary
+LOC100577905	5	0	0	Mega	0	0	Solitary
+LOC100578146	13	0	0	Mega	0	0	Solitary
+LOC100578237	3	0	0	Mega	0	0	Solitary
+LOC100578442	4	0	0	Mega	0	0	Solitary
+LOC100578546	30	0	0	Mega	0	0	Solitary
+LOC102654955	6	1	0	Mega	0.166666666666667	0	Solitary
+LOC102656501	43	0	5	Mega	0	0.116279069767442	Solitary
+LOC102656733	8	0	0	Mega	0	0	Solitary
+LOC113218580	7	0	0	Mega	0	0	Solitary
+LOC408316	12	0	0	Mega	0	0	Solitary
+LOC408552	8	4	0	Mega	0.5	0	Solitary
+LOC408752	8	0	0	Mega	0	0	Solitary
+LOC408884	16	0	1	Mega	0	0.0625	Solitary
+LOC409613	18	0	0	Mega	0	0	Solitary
+LOC410106	20	0	0	Mega	0	0	Solitary
+LOC410134	2	0	0	Mega	0	0	Solitary
+LOC410489	8	1	0	Mega	0.125	0	Solitary
+LOC411053	4	0	0	Mega	0	0	Solitary
+LOC412093	16	1	0	Mega	0.0625	0	Solitary
+LOC412114	150	0	0	Mega	0	0	Solitary
+LOC412305	5	0	0	Mega	0	0	Solitary
+LOC412398	10	0	0	Mega	0	0	Solitary
+LOC412505	0	0	0	Mega	NA	NA	Solitary
+LOC412795	16	0	1	Mega	0	0.0625	Solitary
+LOC413766	18	0	0	Mega	0	0	Solitary
+LOC551177	2	0	1	Mega	0	0.5	Solitary
+LOC551449	12	0	0	Mega	0	0	Solitary
+LOC551510	17	1	2	Mega	0.0588235294117647	0.117647058823529	Solitary
+LOC551668	10	0	1	Mega	0	0.1	Solitary
+LOC551982	4	0	4	Mega	0	1	Solitary
+LOC552238	20	0	0	Mega	0	0	Solitary
+LOC552370	6	0	0	Mega	0	0	Solitary
+LOC552414	22	0	0	Mega	0	0	Solitary
+LOC552498	5	0	0	Mega	0	0	Solitary
+LOC552510	10	0	0	Mega	0	0	Solitary
+LOC552674	5	0	0	Mega	0	0	Solitary
+LOC724247	3	0	0	Mega	0	0	Solitary
+LOC724290	10	0	0	Mega	0	0	Solitary
+LOC725204	14	1	0	Mega	0.0714285714285714	0	Solitary
+LOC725429	10	0	0	Mega	0	0	Solitary
+LOC725659	5	0	0	Mega	0	0	Solitary
+LOC725732	9	5	2	Mega	0.555555555555556	0.222222222222222	Solitary
+LOC725960	12	2	0	Mega	0.166666666666667	0	Solitary
+LOC726020	3	0	0	Mega	0	0	Solitary
+LOC726167	3	0	0	Mega	0	0	Solitary
+LOC726460	13	0	0	Mega	0	0	Solitary
+LOC726583	4	0	0	Mega	0	0	Solitary
+LOC726928	4	0	0	Mega	0	0	Solitary
+LOC726957	7	0	0	Mega	0	0	Solitary
+LOC727486	10	0	0	Mega	0	0	Solitary
+LOC727634	74	0	0	Mega	0	0	Solitary
+5-HT1	70	0	0	Meli	0	0	Elaboration of Sociality
+5-ht7	6	0	2	Meli	0	0.333333333333333	Elaboration of Sociality
+Amel_8916	16	0	0	Meli	0	0	Elaboration of Sociality
+Antp	45	0	0	Meli	0	0	Elaboration of Sociality
+apd-3	2	2	1	Meli	1	0.5	Elaboration of Sociality
+BBIP1	6	0	1	Meli	0	0.166666666666667	Elaboration of Sociality
+Blop	13	0	0	Meli	0	0	Elaboration of Sociality
+Cac	12	10	2	Meli	0.833333333333333	0.166666666666667	Elaboration of Sociality
+Calpb	9	0	1	Meli	0	0.111111111111111	Elaboration of Sociality
+Cdk5	23	0	4	Meli	0	0.173913043478261	Elaboration of Sociality
+Cpap3-c	4	1	0	Meli	0.25	0	Elaboration of Sociality
+CPR19	6	0	0	Meli	0	0	Elaboration of Sociality
+Dcr-1	18	5	3	Meli	0.277777777777778	0.166666666666667	Elaboration of Sociality
+Dop1	17	1	2	Meli	0.0588235294117647	0.117647058823529	Elaboration of Sociality
+DopR2	15	3	0	Meli	0.2	0	Elaboration of Sociality
+E74	6	3	1	Meli	0.5	0.166666666666667	Elaboration of Sociality
+Eif4g	14	0	0	Meli	0	0	Elaboration of Sociality
+Ets97D-like	10	0	1	Meli	0	0.1	Elaboration of Sociality
+Foxp	11	8	1	Meli	0.727272727272727	0.0909090909090909	Elaboration of Sociality
+Gat-1B	14	0	4	Meli	0	0.285714285714286	Elaboration of Sociality
+Glob1	13	0	0	Meli	0	0	Elaboration of Sociality
+KAT2A	18	0	0	Meli	0	0	Elaboration of Sociality
+LCCH3	34	14	8	Meli	0.411764705882353	0.235294117647059	Elaboration of Sociality
+LOC100576162	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576321	20	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576346	6	1	0	Meli	0.166666666666667	0	Elaboration of Sociality
+LOC100576359	6	5	4	Meli	0.833333333333333	0.666666666666667	Elaboration of Sociality
+LOC100576361	14	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576374	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576384	9	3	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC100576472	4	0	1	Meli	0	0.25	Elaboration of Sociality
+LOC100576497	19	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576543	15	1	0	Meli	0.0666666666666667	0	Elaboration of Sociality
+LOC100576608	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576615	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576666	8	4	0	Meli	0.5	0	Elaboration of Sociality
+LOC100576671	15	1	0	Meli	0.0666666666666667	0	Elaboration of Sociality
+LOC100576703	19	1	0	Meli	0.0526315789473684	0	Elaboration of Sociality
+LOC100576805	55	0	2	Meli	0	0.0363636363636364	Elaboration of Sociality
+LOC100576866	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576912	18	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576953	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC100576965	25	3	2	Meli	0.12	0.08	Elaboration of Sociality
+LOC100576974	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577030	87	1	0	Meli	0.0114942528735632	0	Elaboration of Sociality
+LOC100577069	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577092	22	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577098	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577120	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577136	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577140	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577149	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577268	17	1	0	Meli	0.0588235294117647	0	Elaboration of Sociality
+LOC100577296	14	0	2	Meli	0	0.142857142857143	Elaboration of Sociality
+LOC100577376	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577386	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577527	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577561	11	0	3	Meli	0	0.272727272727273	Elaboration of Sociality
+LOC100577600	25	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577606	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577638	11	5	1	Meli	0.454545454545455	0.0909090909090909	Elaboration of Sociality
+LOC100577656	7	1	0	Meli	0.142857142857143	0	Elaboration of Sociality
+LOC100577697	21	0	1	Meli	0	0.0476190476190476	Elaboration of Sociality
+LOC100577856	34	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577901	20	1	0	Meli	0.05	0	Elaboration of Sociality
+LOC100577905	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577936	51	5	0	Meli	0.0980392156862745	0	Elaboration of Sociality
+LOC100577943	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC100577955	4	2	0	Meli	0.5	0	Elaboration of Sociality
+LOC100577980	61	0	6	Meli	0	0.0983606557377049	Elaboration of Sociality
+LOC100577995	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578011	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578105	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578126	9	3	2	Meli	0.333333333333333	0.222222222222222	Elaboration of Sociality
+LOC100578144	12	1	1	Meli	0.0833333333333333	0.0833333333333333	Elaboration of Sociality
+LOC100578201	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578226	24	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578321	15	3	0	Meli	0.2	0	Elaboration of Sociality
+LOC100578332	16	0	2	Meli	0	0.125	Elaboration of Sociality
+LOC100578349	23	0	1	Meli	0	0.0434782608695652	Elaboration of Sociality
+LOC100578439	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578515	9	3	1	Meli	0.333333333333333	0.111111111111111	Elaboration of Sociality
+LOC100578580	10	1	0	Meli	0.1	0	Elaboration of Sociality
+LOC100578600	10	4	0	Meli	0.4	0	Elaboration of Sociality
+LOC100578602	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578721	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578725	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578801	5	0	3	Meli	0	0.6	Elaboration of Sociality
+LOC100578860	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC100578893	13	0	1	Meli	0	0.0769230769230769	Elaboration of Sociality
+LOC100578920	25	1	6	Meli	0.04	0.24	Elaboration of Sociality
+LOC100578939	83	2	0	Meli	0.0240963855421687	0	Elaboration of Sociality
+LOC100578984	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC100579026	37	0	0	Meli	0	0	Elaboration of Sociality
+LOC102653940	7	0	1	Meli	0	0.142857142857143	Elaboration of Sociality
+LOC102654029	15	0	0	Meli	0	0	Elaboration of Sociality
+LOC102654047	26	1	0	Meli	0.0384615384615385	0	Elaboration of Sociality
+LOC102655259	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC102655778	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC102655824	6	2	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC102655922	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC102656444	3	1	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC102656473	31	0	0	Meli	0	0	Elaboration of Sociality
+LOC102656490	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC102656594	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC102656656	41	7	3	Meli	0.170731707317073	0.0731707317073171	Elaboration of Sociality
+LOC107963960	15	1	6	Meli	0.0666666666666667	0.4	Elaboration of Sociality
+LOC107963983	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC107964839	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC107964884	15	0	0	Meli	0	0	Elaboration of Sociality
+LOC113218521	10	1	0	Meli	0.1	0	Elaboration of Sociality
+LOC113218569	18	1	0	Meli	0.0555555555555556	0	Elaboration of Sociality
+LOC113218647	13	3	1	Meli	0.230769230769231	0.0769230769230769	Elaboration of Sociality
+LOC113218781	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC113218809	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC113218959	8	1	0	Meli	0.125	0	Elaboration of Sociality
+LOC408298	11	1	4	Meli	0.0909090909090909	0.363636363636364	Elaboration of Sociality
+LOC408302	80	2	0	Meli	0.025	0	Elaboration of Sociality
+LOC408304	23	0	0	Meli	0	0	Elaboration of Sociality
+LOC408312	6	0	1	Meli	0	0.166666666666667	Elaboration of Sociality
+LOC408315	25	1	1	Meli	0.04	0.04	Elaboration of Sociality
+LOC408317	14	3	2	Meli	0.214285714285714	0.142857142857143	Elaboration of Sociality
+LOC408320	3	1	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC408335	2	0	0	Meli	0	0	Elaboration of Sociality
+LOC408337	8	1	0	Meli	0.125	0	Elaboration of Sociality
+LOC408343	57	2	3	Meli	0.0350877192982456	0.0526315789473684	Elaboration of Sociality
+LOC408354	53	7	1	Meli	0.132075471698113	0.0188679245283019	Elaboration of Sociality
+LOC408372	66	1	0	Meli	0.0151515151515152	0	Elaboration of Sociality
+LOC408373	4	1	0	Meli	0.25	0	Elaboration of Sociality
+LOC408382	29	0	0	Meli	0	0	Elaboration of Sociality
+LOC408443	24	5	0	Meli	0.208333333333333	0	Elaboration of Sociality
+LOC408457	24	1	1	Meli	0.0416666666666667	0.0416666666666667	Elaboration of Sociality
+LOC408511	14	0	1	Meli	0	0.0714285714285714	Elaboration of Sociality
+LOC408520	7	1	0	Meli	0.142857142857143	0	Elaboration of Sociality
+LOC408528	12	6	1	Meli	0.5	0.0833333333333333	Elaboration of Sociality
+LOC408543	7	0	1	Meli	0	0.142857142857143	Elaboration of Sociality
+LOC408546	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC408551	7	2	0	Meli	0.285714285714286	0	Elaboration of Sociality
+LOC408552	12	4	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC408557	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC408559	8	2	0	Meli	0.25	0	Elaboration of Sociality
+LOC408561	7	5	1	Meli	0.714285714285714	0.142857142857143	Elaboration of Sociality
+LOC408568	6	1	0	Meli	0.166666666666667	0	Elaboration of Sociality
+LOC408569	26	0	0	Meli	0	0	Elaboration of Sociality
+LOC408579	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC408587	3	1	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC408589	20	2	0	Meli	0.1	0	Elaboration of Sociality
+LOC408614	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC408625	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC408632	15	0	1	Meli	0	0.0666666666666667	Elaboration of Sociality
+LOC408660	20	5	0	Meli	0.25	0	Elaboration of Sociality
+LOC408661	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC408674	65	0	0	Meli	0	0	Elaboration of Sociality
+LOC408687	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC408697	11	1	0	Meli	0.0909090909090909	0	Elaboration of Sociality
+LOC408714	26	2	0	Meli	0.0769230769230769	0	Elaboration of Sociality
+LOC408819	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC408824	42	4	2	Meli	0.0952380952380952	0.0476190476190476	Elaboration of Sociality
+LOC408826	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC408827	29	0	0	Meli	0	0	Elaboration of Sociality
+LOC408835	12	7	2	Meli	0.583333333333333	0.166666666666667	Elaboration of Sociality
+LOC408836	9	3	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC408842	22	1	7	Meli	0.0454545454545455	0.318181818181818	Elaboration of Sociality
+LOC408860	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC408863	15	1	0	Meli	0.0666666666666667	0	Elaboration of Sociality
+LOC408866	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC408869	5	5	3	Meli	1	0.6	Elaboration of Sociality
+LOC408874	7	2	2	Meli	0.285714285714286	0.285714285714286	Elaboration of Sociality
+LOC408887	61	0	1	Meli	0	0.0163934426229508	Elaboration of Sociality
+LOC408901	6	0	1	Meli	0	0.166666666666667	Elaboration of Sociality
+LOC408915	15	0	0	Meli	0	0	Elaboration of Sociality
+LOC408923	21	1	4	Meli	0.0476190476190476	0.19047619047619	Elaboration of Sociality
+LOC408935	9	2	0	Meli	0.222222222222222	0	Elaboration of Sociality
+LOC408942	16	2	1	Meli	0.125	0.0625	Elaboration of Sociality
+LOC408958	31	1	3	Meli	0.032258064516129	0.0967741935483871	Elaboration of Sociality
+LOC408959	14	0	0	Meli	0	0	Elaboration of Sociality
+LOC409001	6	4	3	Meli	0.666666666666667	0.5	Elaboration of Sociality
+LOC409007	42	1	0	Meli	0.0238095238095238	0	Elaboration of Sociality
+LOC409025	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC409034	16	4	0	Meli	0.25	0	Elaboration of Sociality
+LOC409041	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC409070	32	0	0	Meli	0	0	Elaboration of Sociality
+LOC409078	35	0	0	Meli	0	0	Elaboration of Sociality
+LOC409091	6	1	0	Meli	0.166666666666667	0	Elaboration of Sociality
+LOC409106	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC409108	17	10	0	Meli	0.588235294117647	0	Elaboration of Sociality
+LOC409109	19	0	0	Meli	0	0	Elaboration of Sociality
+LOC409122	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC409153	7	0	1	Meli	0	0.142857142857143	Elaboration of Sociality
+LOC409157	8	0	1	Meli	0	0.125	Elaboration of Sociality
+LOC409159	20	1	1	Meli	0.05	0.05	Elaboration of Sociality
+LOC409164	14	1	7	Meli	0.0714285714285714	0.5	Elaboration of Sociality
+LOC409170	5	5	2	Meli	1	0.4	Elaboration of Sociality
+LOC409179	8	1	0	Meli	0.125	0	Elaboration of Sociality
+LOC409180	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC409186	8	2	1	Meli	0.25	0.125	Elaboration of Sociality
+LOC409201	3	1	2	Meli	0.333333333333333	0.666666666666667	Elaboration of Sociality
+LOC409225	4	2	1	Meli	0.5	0.25	Elaboration of Sociality
+LOC409247	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC409273	18	0	1	Meli	0	0.0555555555555556	Elaboration of Sociality
+LOC409279	3	3	2	Meli	1	0.666666666666667	Elaboration of Sociality
+LOC409283	19	0	4	Meli	0	0.210526315789474	Elaboration of Sociality
+LOC409286	12	4	4	Meli	0.333333333333333	0.333333333333333	Elaboration of Sociality
+LOC409293	45	0	0	Meli	0	0	Elaboration of Sociality
+LOC409299	12	0	1	Meli	0	0.0833333333333333	Elaboration of Sociality
+LOC409307	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC409336	6	0	1	Meli	0	0.166666666666667	Elaboration of Sociality
+LOC409357	5	0	4	Meli	0	0.8	Elaboration of Sociality
+LOC409358	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC409377	22	2	7	Meli	0.0909090909090909	0.318181818181818	Elaboration of Sociality
+LOC409379	4	1	0	Meli	0.25	0	Elaboration of Sociality
+LOC409390	6	3	0	Meli	0.5	0	Elaboration of Sociality
+LOC409441	7	2	0	Meli	0.285714285714286	0	Elaboration of Sociality
+LOC409452	21	1	0	Meli	0.0476190476190476	0	Elaboration of Sociality
+LOC409462	4	2	0	Meli	0.5	0	Elaboration of Sociality
+LOC409467	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC409486	5	2	2	Meli	0.4	0.4	Elaboration of Sociality
+LOC409488	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC409493	8	0	1	Meli	0	0.125	Elaboration of Sociality
+LOC409500	10	1	0	Meli	0.1	0	Elaboration of Sociality
+LOC409502	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC409513	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC409525	9	0	1	Meli	0	0.111111111111111	Elaboration of Sociality
+LOC409529	9	0	1	Meli	0	0.111111111111111	Elaboration of Sociality
+LOC409565	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC409607	4	3	2	Meli	0.75	0.5	Elaboration of Sociality
+LOC409609	6	4	1	Meli	0.666666666666667	0.166666666666667	Elaboration of Sociality
+LOC409628	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC409638	44	0	0	Meli	0	0	Elaboration of Sociality
+LOC409645	5	0	1	Meli	0	0.2	Elaboration of Sociality
+LOC409664	57	0	3	Meli	0	0.0526315789473684	Elaboration of Sociality
+LOC409706	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC409713	7	4	1	Meli	0.571428571428571	0.142857142857143	Elaboration of Sociality
+LOC409714	3	2	0	Meli	0.666666666666667	0	Elaboration of Sociality
+LOC409733	43	2	0	Meli	0.0465116279069767	0	Elaboration of Sociality
+LOC409752	10	1	1	Meli	0.1	0.1	Elaboration of Sociality
+LOC409769	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC409787	98	2	1	Meli	0.0204081632653061	0.0102040816326531	Elaboration of Sociality
+LOC409791	5	5	4	Meli	1	0.8	Elaboration of Sociality
+LOC409795	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC409799	17	0	2	Meli	0	0.117647058823529	Elaboration of Sociality
+LOC409804	7	0	4	Meli	0	0.571428571428571	Elaboration of Sociality
+LOC409829	19	1	0	Meli	0.0526315789473684	0	Elaboration of Sociality
+LOC409835	14	2	0	Meli	0.142857142857143	0	Elaboration of Sociality
+LOC409845	4	1	1	Meli	0.25	0.25	Elaboration of Sociality
+LOC409861	34	0	0	Meli	0	0	Elaboration of Sociality
+LOC409863	3	1	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC409894	22	1	13	Meli	0.0454545454545455	0.590909090909091	Elaboration of Sociality
+LOC409919	8	1	0	Meli	0.125	0	Elaboration of Sociality
+LOC409920	4	2	2	Meli	0.5	0.5	Elaboration of Sociality
+LOC409921	16	2	0	Meli	0.125	0	Elaboration of Sociality
+LOC409924	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC409931	30	2	3	Meli	0.0666666666666667	0.1	Elaboration of Sociality
+LOC409933	22	10	15	Meli	0.454545454545455	0.681818181818182	Elaboration of Sociality
+LOC409955	12	1	3	Meli	0.0833333333333333	0.25	Elaboration of Sociality
+LOC409976	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC409985	37	0	0	Meli	0	0	Elaboration of Sociality
+LOC409990	5	2	1	Meli	0.4	0.2	Elaboration of Sociality
+LOC410013	15	4	0	Meli	0.266666666666667	0	Elaboration of Sociality
+LOC410056	3	1	1	Meli	0.333333333333333	0.333333333333333	Elaboration of Sociality
+LOC410057	17	0	1	Meli	0	0.0588235294117647	Elaboration of Sociality
+LOC410058	4	2	1	Meli	0.5	0.25	Elaboration of Sociality
+LOC410101	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC410119	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC410120	27	0	0	Meli	0	0	Elaboration of Sociality
+LOC410144	11	1	0	Meli	0.0909090909090909	0	Elaboration of Sociality
+LOC410162	8	0	1	Meli	0	0.125	Elaboration of Sociality
+LOC410229	76	3	4	Meli	0.0394736842105263	0.0526315789473684	Elaboration of Sociality
+LOC410235	31	2	0	Meli	0.0645161290322581	0	Elaboration of Sociality
+LOC410286	27	0	0	Meli	0	0	Elaboration of Sociality
+LOC410301	13	1	0	Meli	0.0769230769230769	0	Elaboration of Sociality
+LOC410315	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC410332	8	1	0	Meli	0.125	0	Elaboration of Sociality
+LOC410336	59	1	0	Meli	0.0169491525423729	0	Elaboration of Sociality
+LOC410337	9	2	0	Meli	0.222222222222222	0	Elaboration of Sociality
+LOC410340	14	0	0	Meli	0	0	Elaboration of Sociality
+LOC410344	28	0	0	Meli	0	0	Elaboration of Sociality
+LOC410347	39	0	0	Meli	0	0	Elaboration of Sociality
+LOC410353	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC410354	14	0	4	Meli	0	0.285714285714286	Elaboration of Sociality
+LOC410371	20	2	0	Meli	0.1	0	Elaboration of Sociality
+LOC410429	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC410432	23	1	2	Meli	0.0434782608695652	0.0869565217391304	Elaboration of Sociality
+LOC410442	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC410449	4	1	1	Meli	0.25	0.25	Elaboration of Sociality
+LOC410456	34	4	3	Meli	0.117647058823529	0.0882352941176471	Elaboration of Sociality
+LOC410467	15	1	0	Meli	0.0666666666666667	0	Elaboration of Sociality
+LOC410480	11	1	1	Meli	0.0909090909090909	0.0909090909090909	Elaboration of Sociality
+LOC410497	7	3	1	Meli	0.428571428571429	0.142857142857143	Elaboration of Sociality
+LOC410527	12	1	0	Meli	0.0833333333333333	0	Elaboration of Sociality
+LOC410549	9	5	4	Meli	0.555555555555556	0.444444444444444	Elaboration of Sociality
+LOC410550	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC410600	22	5	1	Meli	0.227272727272727	0.0454545454545455	Elaboration of Sociality
+LOC410609	32	1	0	Meli	0.03125	0	Elaboration of Sociality
+LOC410643	17	5	0	Meli	0.294117647058824	0	Elaboration of Sociality
+LOC410648	24	11	1	Meli	0.458333333333333	0.0416666666666667	Elaboration of Sociality
+LOC410649	8	6	6	Meli	0.75	0.75	Elaboration of Sociality
+LOC410706	42	3	4	Meli	0.0714285714285714	0.0952380952380952	Elaboration of Sociality
+LOC410717	21	9	4	Meli	0.428571428571429	0.19047619047619	Elaboration of Sociality
+LOC410723	90	0	0	Meli	0	0	Elaboration of Sociality
+LOC410730	24	0	0	Meli	0	0	Elaboration of Sociality
+LOC410732	11	2	0	Meli	0.181818181818182	0	Elaboration of Sociality
+LOC410777	17	1	3	Meli	0.0588235294117647	0.176470588235294	Elaboration of Sociality
+LOC410784	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC410812	4	0	1	Meli	0	0.25	Elaboration of Sociality
+LOC410821	8	4	0	Meli	0.5	0	Elaboration of Sociality
+LOC410838	52	0	0	Meli	0	0	Elaboration of Sociality
+LOC410855	8	6	0	Meli	0.75	0	Elaboration of Sociality
+LOC410860	16	1	1	Meli	0.0625	0.0625	Elaboration of Sociality
+LOC410864	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC410872	17	0	0	Meli	0	0	Elaboration of Sociality
+LOC410876	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC410894	23	0	0	Meli	0	0	Elaboration of Sociality
+LOC410905	29	0	0	Meli	0	0	Elaboration of Sociality
+LOC410920	2	1	0	Meli	0.5	0	Elaboration of Sociality
+LOC410922	10	1	1	Meli	0.1	0.1	Elaboration of Sociality
+LOC410952	20	0	0	Meli	0	0	Elaboration of Sociality
+LOC410953	6	0	1	Meli	0	0.166666666666667	Elaboration of Sociality
+LOC410986	11	1	2	Meli	0.0909090909090909	0.181818181818182	Elaboration of Sociality
+LOC410989	16	1	1	Meli	0.0625	0.0625	Elaboration of Sociality
+LOC410997	15	7	1	Meli	0.466666666666667	0.0666666666666667	Elaboration of Sociality
+LOC411003	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC411009	18	1	6	Meli	0.0555555555555556	0.333333333333333	Elaboration of Sociality
+LOC411011	44	1	0	Meli	0.0227272727272727	0	Elaboration of Sociality
+LOC411044	49	0	0	Meli	0	0	Elaboration of Sociality
+LOC411048	16	0	1	Meli	0	0.0625	Elaboration of Sociality
+LOC411053	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC411054	32	7	7	Meli	0.21875	0.21875	Elaboration of Sociality
+LOC411076	33	2	0	Meli	0.0606060606060606	0	Elaboration of Sociality
+LOC411083	28	17	5	Meli	0.607142857142857	0.178571428571429	Elaboration of Sociality
+LOC411104	9	8	7	Meli	0.888888888888889	0.777777777777778	Elaboration of Sociality
+LOC411105	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC411121	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC411144	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC411145	14	0	0	Meli	0	0	Elaboration of Sociality
+LOC411154	14	0	0	Meli	0	0	Elaboration of Sociality
+LOC411176	10	1	0	Meli	0.1	0	Elaboration of Sociality
+LOC411195	14	0	1	Meli	0	0.0714285714285714	Elaboration of Sociality
+LOC411206	6	1	1	Meli	0.166666666666667	0.166666666666667	Elaboration of Sociality
+LOC411213	6	4	0	Meli	0.666666666666667	0	Elaboration of Sociality
+LOC411214	80	0	0	Meli	0	0	Elaboration of Sociality
+LOC411227	10	7	4	Meli	0.7	0.4	Elaboration of Sociality
+LOC411245	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC411345	4	2	0	Meli	0.5	0	Elaboration of Sociality
+LOC411347	9	2	0	Meli	0.222222222222222	0	Elaboration of Sociality
+LOC411348	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC411371	19	0	0	Meli	0	0	Elaboration of Sociality
+LOC411458	24	1	2	Meli	0.0416666666666667	0.0833333333333333	Elaboration of Sociality
+LOC411459	15	0	1	Meli	0	0.0666666666666667	Elaboration of Sociality
+LOC411474	40	0	4	Meli	0	0.1	Elaboration of Sociality
+LOC411476	5	0	2	Meli	0	0.4	Elaboration of Sociality
+LOC411477	27	0	1	Meli	0	0.037037037037037	Elaboration of Sociality
+LOC411494	67	2	3	Meli	0.0298507462686567	0.0447761194029851	Elaboration of Sociality
+LOC411539	9	4	2	Meli	0.444444444444444	0.222222222222222	Elaboration of Sociality
+LOC411546	9	0	1	Meli	0	0.111111111111111	Elaboration of Sociality
+LOC411586	48	1	1	Meli	0.0208333333333333	0.0208333333333333	Elaboration of Sociality
+LOC411618	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC411638	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC411639	12	1	0	Meli	0.0833333333333333	0	Elaboration of Sociality
+LOC411640	12	1	0	Meli	0.0833333333333333	0	Elaboration of Sociality
+LOC411665	27	0	0	Meli	0	0	Elaboration of Sociality
+LOC411670	50	1	0	Meli	0.02	0	Elaboration of Sociality
+LOC411685	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC411697	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC411746	40	1	0	Meli	0.025	0	Elaboration of Sociality
+LOC411772	5	5	1	Meli	1	0.2	Elaboration of Sociality
+LOC411781	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC411805	8	1	1	Meli	0.125	0.125	Elaboration of Sociality
+LOC411808	37	1	1	Meli	0.027027027027027	0.027027027027027	Elaboration of Sociality
+LOC411813	6	1	0	Meli	0.166666666666667	0	Elaboration of Sociality
+LOC411858	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC411864	11	0	1	Meli	0	0.0909090909090909	Elaboration of Sociality
+LOC411881	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC411942	12	2	0	Meli	0.166666666666667	0	Elaboration of Sociality
+LOC411947	10	0	2	Meli	0	0.2	Elaboration of Sociality
+LOC411955	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC411970	3	3	0	Meli	1	0	Elaboration of Sociality
+LOC411998	8	1	2	Meli	0.125	0.25	Elaboration of Sociality
+LOC412007	12	0	1	Meli	0	0.0833333333333333	Elaboration of Sociality
+LOC412020	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC412025	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC412053	6	0	1	Meli	0	0.166666666666667	Elaboration of Sociality
+LOC412069	9	4	2	Meli	0.444444444444444	0.222222222222222	Elaboration of Sociality
+LOC412108	30	0	2	Meli	0	0.0666666666666667	Elaboration of Sociality
+LOC412125	59	0	0	Meli	0	0	Elaboration of Sociality
+LOC412129	8	0	1	Meli	0	0.125	Elaboration of Sociality
+LOC412150	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC412167	11	2	0	Meli	0.181818181818182	0	Elaboration of Sociality
+LOC412249	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC412263	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC412287	10	4	1	Meli	0.4	0.1	Elaboration of Sociality
+LOC412319	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC412348	27	1	0	Meli	0.037037037037037	0	Elaboration of Sociality
+LOC412355	11	1	2	Meli	0.0909090909090909	0.181818181818182	Elaboration of Sociality
+LOC412401	27	1	7	Meli	0.037037037037037	0.259259259259259	Elaboration of Sociality
+LOC412470	26	1	1	Meli	0.0384615384615385	0.0384615384615385	Elaboration of Sociality
+LOC412487	11	0	1	Meli	0	0.0909090909090909	Elaboration of Sociality
+LOC412511	5	0	1	Meli	0	0.2	Elaboration of Sociality
+LOC412552	28	3	1	Meli	0.107142857142857	0.0357142857142857	Elaboration of Sociality
+LOC412591	18	0	2	Meli	0	0.111111111111111	Elaboration of Sociality
+LOC412642	24	0	0	Meli	0	0	Elaboration of Sociality
+LOC412661	8	0	1	Meli	0	0.125	Elaboration of Sociality
+LOC412694	5	1	0	Meli	0.2	0	Elaboration of Sociality
+LOC412714	23	1	9	Meli	0.0434782608695652	0.391304347826087	Elaboration of Sociality
+LOC412799	14	0	5	Meli	0	0.357142857142857	Elaboration of Sociality
+LOC412842	24	1	9	Meli	0.0416666666666667	0.375	Elaboration of Sociality
+LOC412850	22	0	0	Meli	0	0	Elaboration of Sociality
+LOC412855	19	18	4	Meli	0.947368421052632	0.210526315789474	Elaboration of Sociality
+LOC412858	9	1	0	Meli	0.111111111111111	0	Elaboration of Sociality
+LOC412859	4	3	0	Meli	0.75	0	Elaboration of Sociality
+LOC412897	22	0	0	Meli	0	0	Elaboration of Sociality
+LOC412929	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC412956	119	0	0	Meli	0	0	Elaboration of Sociality
+LOC412976	34	1	0	Meli	0.0294117647058824	0	Elaboration of Sociality
+LOC413001	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC413005	31	1	2	Meli	0.032258064516129	0.0645161290322581	Elaboration of Sociality
+LOC413046	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC413089	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC413110	6	0	5	Meli	0	0.833333333333333	Elaboration of Sociality
+LOC413113	19	1	0	Meli	0.0526315789473684	0	Elaboration of Sociality
+LOC413119	8	1	0	Meli	0.125	0	Elaboration of Sociality
+LOC413170	10	5	0	Meli	0.5	0	Elaboration of Sociality
+LOC413183	23	0	1	Meli	0	0.0434782608695652	Elaboration of Sociality
+LOC413197	3	1	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC413208	8	1	1	Meli	0.125	0.125	Elaboration of Sociality
+LOC413246	31	1	1	Meli	0.032258064516129	0.032258064516129	Elaboration of Sociality
+LOC413266	6	1	1	Meli	0.166666666666667	0.166666666666667	Elaboration of Sociality
+LOC413270	98	7	3	Meli	0.0714285714285714	0.0306122448979592	Elaboration of Sociality
+LOC413314	6	0	1	Meli	0	0.166666666666667	Elaboration of Sociality
+LOC413318	6	0	2	Meli	0	0.333333333333333	Elaboration of Sociality
+LOC413357	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC413383	13	8	2	Meli	0.615384615384615	0.153846153846154	Elaboration of Sociality
+LOC413410	26	1	2	Meli	0.0384615384615385	0.0769230769230769	Elaboration of Sociality
+LOC413411	166	0	0	Meli	0	0	Elaboration of Sociality
+LOC413427	34	4	2	Meli	0.117647058823529	0.0588235294117647	Elaboration of Sociality
+LOC413440	25	6	6	Meli	0.24	0.24	Elaboration of Sociality
+LOC413441	18	0	0	Meli	0	0	Elaboration of Sociality
+LOC413464	5	1	2	Meli	0.2	0.4	Elaboration of Sociality
+LOC413490	27	1	0	Meli	0.037037037037037	0	Elaboration of Sociality
+LOC413501	4	2	0	Meli	0.5	0	Elaboration of Sociality
+LOC413510	36	4	2	Meli	0.111111111111111	0.0555555555555556	Elaboration of Sociality
+LOC413551	45	0	0	Meli	0	0	Elaboration of Sociality
+LOC413575	9	4	0	Meli	0.444444444444444	0	Elaboration of Sociality
+LOC413576	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC413577	30	2	1	Meli	0.0666666666666667	0.0333333333333333	Elaboration of Sociality
+LOC413607	9	1	3	Meli	0.111111111111111	0.333333333333333	Elaboration of Sociality
+LOC413653	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC413666	18	1	0	Meli	0.0555555555555556	0	Elaboration of Sociality
+LOC413668	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC413676	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC413711	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC413732	15	0	0	Meli	0	0	Elaboration of Sociality
+LOC413735	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC413796	9	0	1	Meli	0	0.111111111111111	Elaboration of Sociality
+LOC413827	11	0	2	Meli	0	0.181818181818182	Elaboration of Sociality
+LOC413873	40	0	3	Meli	0	0.075	Elaboration of Sociality
+LOC413919	18	0	2	Meli	0	0.111111111111111	Elaboration of Sociality
+LOC413931	4	1	0	Meli	0.25	0	Elaboration of Sociality
+LOC413936	24	5	9	Meli	0.208333333333333	0.375	Elaboration of Sociality
+LOC413942	13	1	0	Meli	0.0769230769230769	0	Elaboration of Sociality
+LOC413977	6	3	2	Meli	0.5	0.333333333333333	Elaboration of Sociality
+LOC413998	15	2	0	Meli	0.133333333333333	0	Elaboration of Sociality
+LOC414004	15	0	3	Meli	0	0.2	Elaboration of Sociality
+LOC414022	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC414032	36	5	3	Meli	0.138888888888889	0.0833333333333333	Elaboration of Sociality
+LOC414035	4	1	0	Meli	0.25	0	Elaboration of Sociality
+LOC550663	23	2	0	Meli	0.0869565217391304	0	Elaboration of Sociality
+LOC550685	5	5	2	Meli	1	0.4	Elaboration of Sociality
+LOC550695	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC550794	22	0	8	Meli	0	0.363636363636364	Elaboration of Sociality
+LOC550801	7	1	1	Meli	0.142857142857143	0.142857142857143	Elaboration of Sociality
+LOC550828	9	1	0	Meli	0.111111111111111	0	Elaboration of Sociality
+LOC550865	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC550955	7	1	0	Meli	0.142857142857143	0	Elaboration of Sociality
+LOC550992	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC551005	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC551012	3	1	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC551033	13	1	0	Meli	0.0769230769230769	0	Elaboration of Sociality
+LOC551036	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC551042	35	0	0	Meli	0	0	Elaboration of Sociality
+LOC551046	5	2	0	Meli	0.4	0	Elaboration of Sociality
+LOC551055	15	0	1	Meli	0	0.0666666666666667	Elaboration of Sociality
+LOC551080	3	2	0	Meli	0.666666666666667	0	Elaboration of Sociality
+LOC551122	3	0	1	Meli	0	0.333333333333333	Elaboration of Sociality
+LOC551123	2	0	0	Meli	0	0	Elaboration of Sociality
+LOC551137	44	0	2	Meli	0	0.0454545454545455	Elaboration of Sociality
+LOC551150	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC551163	6	0	1	Meli	0	0.166666666666667	Elaboration of Sociality
+LOC551165	11	0	1	Meli	0	0.0909090909090909	Elaboration of Sociality
+LOC551167	11	3	0	Meli	0.272727272727273	0	Elaboration of Sociality
+LOC551168	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC551213	14	1	1	Meli	0.0714285714285714	0.0714285714285714	Elaboration of Sociality
+LOC551227	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC551231	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC551269	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC551272	13	3	0	Meli	0.230769230769231	0	Elaboration of Sociality
+LOC551283	13	0	4	Meli	0	0.307692307692308	Elaboration of Sociality
+LOC551284	9	2	5	Meli	0.222222222222222	0.555555555555556	Elaboration of Sociality
+LOC551337	5	0	1	Meli	0	0.2	Elaboration of Sociality
+LOC551383	9	2	1	Meli	0.222222222222222	0.111111111111111	Elaboration of Sociality
+LOC551396	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC551403	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC551414	27	0	0	Meli	0	0	Elaboration of Sociality
+LOC551433	13	0	1	Meli	0	0.0769230769230769	Elaboration of Sociality
+LOC551461	25	0	1	Meli	0	0.04	Elaboration of Sociality
+LOC551494	10	3	0	Meli	0.3	0	Elaboration of Sociality
+LOC551500	14	1	1	Meli	0.0714285714285714	0.0714285714285714	Elaboration of Sociality
+LOC551502	10	4	2	Meli	0.4	0.2	Elaboration of Sociality
+LOC551510	15	1	4	Meli	0.0666666666666667	0.266666666666667	Elaboration of Sociality
+LOC551517	9	2	1	Meli	0.222222222222222	0.111111111111111	Elaboration of Sociality
+LOC551545	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC551554	15	0	2	Meli	0	0.133333333333333	Elaboration of Sociality
+LOC551580	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC551596	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC551603	6	1	3	Meli	0.166666666666667	0.5	Elaboration of Sociality
+LOC551605	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC551608	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC551673	6	3	4	Meli	0.5	0.666666666666667	Elaboration of Sociality
+LOC551680	10	0	4	Meli	0	0.4	Elaboration of Sociality
+LOC551682	3	0	1	Meli	0	0.333333333333333	Elaboration of Sociality
+LOC551683	3	2	0	Meli	0.666666666666667	0	Elaboration of Sociality
+LOC551690	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC551694	5	0	1	Meli	0	0.2	Elaboration of Sociality
+LOC551724	11	0	3	Meli	0	0.272727272727273	Elaboration of Sociality
+LOC551754	19	0	7	Meli	0	0.368421052631579	Elaboration of Sociality
+LOC551772	24	0	3	Meli	0	0.125	Elaboration of Sociality
+LOC551775	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC551787	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC551856	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC551871	21	2	0	Meli	0.0952380952380952	0	Elaboration of Sociality
+LOC551892	1	0	0	Meli	0	0	Elaboration of Sociality
+LOC551898	22	0	0	Meli	0	0	Elaboration of Sociality
+LOC551920	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC551936	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC551957	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC551976	10	1	1	Meli	0.1	0.1	Elaboration of Sociality
+LOC551997	11	0	2	Meli	0	0.181818181818182	Elaboration of Sociality
+LOC552006	10	1	2	Meli	0.1	0.2	Elaboration of Sociality
+LOC552008	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC552009	14	0	0	Meli	0	0	Elaboration of Sociality
+LOC552020	53	2	0	Meli	0.0377358490566038	0	Elaboration of Sociality
+LOC552026	3	1	3	Meli	0.333333333333333	1	Elaboration of Sociality
+LOC552058	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC552081	4	2	1	Meli	0.5	0.25	Elaboration of Sociality
+LOC552103	14	0	0	Meli	0	0	Elaboration of Sociality
+LOC552114	14	5	0	Meli	0.357142857142857	0	Elaboration of Sociality
+LOC552117	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC552138	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC552139	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC552151	17	0	0	Meli	0	0	Elaboration of Sociality
+LOC552153	21	0	0	Meli	0	0	Elaboration of Sociality
+LOC552166	13	0	1	Meli	0	0.0769230769230769	Elaboration of Sociality
+LOC552178	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC552180	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC552194	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC552198	7	3	4	Meli	0.428571428571429	0.571428571428571	Elaboration of Sociality
+LOC552205	17	0	0	Meli	0	0	Elaboration of Sociality
+LOC552241	10	0	1	Meli	0	0.1	Elaboration of Sociality
+LOC552278	31	0	5	Meli	0	0.161290322580645	Elaboration of Sociality
+LOC552280	28	0	0	Meli	0	0	Elaboration of Sociality
+LOC552282	5	1	0	Meli	0.2	0	Elaboration of Sociality
+LOC552284	18	0	0	Meli	0	0	Elaboration of Sociality
+LOC552297	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC552312	17	0	0	Meli	0	0	Elaboration of Sociality
+LOC552315	15	2	1	Meli	0.133333333333333	0.0666666666666667	Elaboration of Sociality
+LOC552316	17	0	1	Meli	0	0.0588235294117647	Elaboration of Sociality
+LOC552318	14	1	1	Meli	0.0714285714285714	0.0714285714285714	Elaboration of Sociality
+LOC552354	17	1	0	Meli	0.0588235294117647	0	Elaboration of Sociality
+LOC552374	85	2	0	Meli	0.0235294117647059	0	Elaboration of Sociality
+LOC552377	69	2	0	Meli	0.0289855072463768	0	Elaboration of Sociality
+LOC552414	8	1	0	Meli	0.125	0	Elaboration of Sociality
+LOC552429	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC552455	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC552473	5	0	1	Meli	0	0.2	Elaboration of Sociality
+LOC552479	59	0	0	Meli	0	0	Elaboration of Sociality
+LOC552499	3	3	2	Meli	1	0.666666666666667	Elaboration of Sociality
+LOC552502	23	1	0	Meli	0.0434782608695652	0	Elaboration of Sociality
+LOC552505	7	5	1	Meli	0.714285714285714	0.142857142857143	Elaboration of Sociality
+LOC552539	11	0	7	Meli	0	0.636363636363636	Elaboration of Sociality
+LOC552545	23	1	0	Meli	0.0434782608695652	0	Elaboration of Sociality
+LOC552556	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC552566	35	0	0	Meli	0	0	Elaboration of Sociality
+LOC552636	15	0	0	Meli	0	0	Elaboration of Sociality
+LOC552641	26	2	0	Meli	0.0769230769230769	0	Elaboration of Sociality
+LOC552644	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC552647	5	4	3	Meli	0.8	0.6	Elaboration of Sociality
+LOC552651	7	6	4	Meli	0.857142857142857	0.571428571428571	Elaboration of Sociality
+LOC552664	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC552708	4	1	0	Meli	0.25	0	Elaboration of Sociality
+LOC552715	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC552721	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC552771	40	1	0	Meli	0.025	0	Elaboration of Sociality
+LOC552780	42	0	0	Meli	0	0	Elaboration of Sociality
+LOC552812	16	0	1	Meli	0	0.0625	Elaboration of Sociality
+LOC552841	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC552844	45	2	1	Meli	0.0444444444444444	0.0222222222222222	Elaboration of Sociality
+LOC724128	9	0	1	Meli	0	0.111111111111111	Elaboration of Sociality
+LOC724138	1	0	0	Meli	0	0	Elaboration of Sociality
+LOC724178	14	0	0	Meli	0	0	Elaboration of Sociality
+LOC724187	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC724196	15	0	0	Meli	0	0	Elaboration of Sociality
+LOC724220	15	7	6	Meli	0.466666666666667	0.4	Elaboration of Sociality
+LOC724225	25	0	0	Meli	0	0	Elaboration of Sociality
+LOC724244	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC724288	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC724292	18	4	7	Meli	0.222222222222222	0.388888888888889	Elaboration of Sociality
+LOC724295	17	2	0	Meli	0.117647058823529	0	Elaboration of Sociality
+LOC724321	5	5	1	Meli	1	0.2	Elaboration of Sociality
+LOC724335	4	0	0	Meli	0	0	Elaboration of Sociality
+LOC724344	13	6	0	Meli	0.461538461538462	0	Elaboration of Sociality
+LOC724355	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC724356	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC724412	28	4	0	Meli	0.142857142857143	0	Elaboration of Sociality
+LOC724423	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC724429	71	1	0	Meli	0.0140845070422535	0	Elaboration of Sociality
+LOC724442	6	1	3	Meli	0.166666666666667	0.5	Elaboration of Sociality
+LOC724450	29	1	2	Meli	0.0344827586206897	0.0689655172413793	Elaboration of Sociality
+LOC724487	28	0	2	Meli	0	0.0714285714285714	Elaboration of Sociality
+LOC724502	8	3	2	Meli	0.375	0.25	Elaboration of Sociality
+LOC724507	23	0	1	Meli	0	0.0434782608695652	Elaboration of Sociality
+LOC724517	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC724537	11	1	1	Meli	0.0909090909090909	0.0909090909090909	Elaboration of Sociality
+LOC724563	4	3	0	Meli	0.75	0	Elaboration of Sociality
+LOC724568	9	6	2	Meli	0.666666666666667	0.222222222222222	Elaboration of Sociality
+LOC724569	21	4	0	Meli	0.19047619047619	0	Elaboration of Sociality
+LOC724592	14	9	10	Meli	0.642857142857143	0.714285714285714	Elaboration of Sociality
+LOC724596	16	0	0	Meli	0	0	Elaboration of Sociality
+LOC724599	45	1	3	Meli	0.0222222222222222	0.0666666666666667	Elaboration of Sociality
+LOC724618	42	0	0	Meli	0	0	Elaboration of Sociality
+LOC724640	31	2	0	Meli	0.0645161290322581	0	Elaboration of Sociality
+LOC724676	10	0	2	Meli	0	0.2	Elaboration of Sociality
+LOC724681	3	0	0	Meli	0	0	Elaboration of Sociality
+LOC724704	32	0	0	Meli	0	0	Elaboration of Sociality
+LOC724708	7	1	0	Meli	0.142857142857143	0	Elaboration of Sociality
+LOC724734	8	0	1	Meli	0	0.125	Elaboration of Sociality
+LOC724750	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC724763	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC724769	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC724778	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC724787	28	0	3	Meli	0	0.107142857142857	Elaboration of Sociality
+LOC724789	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC724796	10	2	0	Meli	0.2	0	Elaboration of Sociality
+LOC724823	16	0	1	Meli	0	0.0625	Elaboration of Sociality
+LOC724835	18	2	0	Meli	0.111111111111111	0	Elaboration of Sociality
+LOC724852	61	0	0	Meli	0	0	Elaboration of Sociality
+LOC724853	47	0	0	Meli	0	0	Elaboration of Sociality
+LOC724867	23	0	0	Meli	0	0	Elaboration of Sociality
+LOC724875	18	1	1	Meli	0.0555555555555556	0.0555555555555556	Elaboration of Sociality
+LOC724885	10	1	0	Meli	0.1	0	Elaboration of Sociality
+LOC724892	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC724942	17	0	1	Meli	0	0.0588235294117647	Elaboration of Sociality
+LOC724973	9	4	2	Meli	0.444444444444444	0.222222222222222	Elaboration of Sociality
+LOC724983	15	1	1	Meli	0.0666666666666667	0.0666666666666667	Elaboration of Sociality
+LOC725036	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC725038	12	1	0	Meli	0.0833333333333333	0	Elaboration of Sociality
+LOC725044	3	1	1	Meli	0.333333333333333	0.333333333333333	Elaboration of Sociality
+LOC725046	6	1	0	Meli	0.166666666666667	0	Elaboration of Sociality
+LOC725091	43	1	0	Meli	0.0232558139534884	0	Elaboration of Sociality
+LOC725118	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC725130	15	3	4	Meli	0.2	0.266666666666667	Elaboration of Sociality
+LOC725134	25	1	0	Meli	0.04	0	Elaboration of Sociality
+LOC725150	18	0	1	Meli	0	0.0555555555555556	Elaboration of Sociality
+LOC725196	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC725204	16	1	0	Meli	0.0625	0	Elaboration of Sociality
+LOC725255	11	0	1	Meli	0	0.0909090909090909	Elaboration of Sociality
+LOC725260	31	1	0	Meli	0.032258064516129	0	Elaboration of Sociality
+LOC725274	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC725294	6	2	2	Meli	0.333333333333333	0.333333333333333	Elaboration of Sociality
+LOC725325	21	0	0	Meli	0	0	Elaboration of Sociality
+LOC725327	11	0	1	Meli	0	0.0909090909090909	Elaboration of Sociality
+LOC725408	5	2	0	Meli	0.4	0	Elaboration of Sociality
+LOC725435	40	0	1	Meli	0	0.025	Elaboration of Sociality
+LOC725467	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC725505	20	2	8	Meli	0.1	0.4	Elaboration of Sociality
+LOC725556	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC725566	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC725571	7	3	3	Meli	0.428571428571429	0.428571428571429	Elaboration of Sociality
+LOC725613	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC725641	7	0	1	Meli	0	0.142857142857143	Elaboration of Sociality
+LOC725654	31	2	0	Meli	0.0645161290322581	0	Elaboration of Sociality
+LOC725698	33	1	0	Meli	0.0303030303030303	0	Elaboration of Sociality
+LOC725701	4	2	0	Meli	0.5	0	Elaboration of Sociality
+LOC725749	17	1	0	Meli	0.0588235294117647	0	Elaboration of Sociality
+LOC725756	42	0	0	Meli	0	0	Elaboration of Sociality
+LOC725758	18	0	0	Meli	0	0	Elaboration of Sociality
+LOC725789	3	1	2	Meli	0.333333333333333	0.666666666666667	Elaboration of Sociality
+LOC725813	39	0	3	Meli	0	0.0769230769230769	Elaboration of Sociality
+LOC725828	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC725860	15	2	2	Meli	0.133333333333333	0.133333333333333	Elaboration of Sociality
+LOC725885	28	0	2	Meli	0	0.0714285714285714	Elaboration of Sociality
+LOC725983	42	0	0	Meli	0	0	Elaboration of Sociality
+LOC725987	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC726017	59	2	1	Meli	0.0338983050847458	0.0169491525423729	Elaboration of Sociality
+LOC726029	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC726060	13	1	0	Meli	0.0769230769230769	0	Elaboration of Sociality
+LOC726065	8	1	0	Meli	0.125	0	Elaboration of Sociality
+LOC726068	34	2	0	Meli	0.0588235294117647	0	Elaboration of Sociality
+LOC726072	19	0	0	Meli	0	0	Elaboration of Sociality
+LOC726092	31	0	0	Meli	0	0	Elaboration of Sociality
+LOC726099	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC726130	8	2	1	Meli	0.25	0.125	Elaboration of Sociality
+LOC726148	12	8	2	Meli	0.666666666666667	0.166666666666667	Elaboration of Sociality
+LOC726153	121	0	0	Meli	0	0	Elaboration of Sociality
+LOC726167	13	5	0	Meli	0.384615384615385	0	Elaboration of Sociality
+LOC726187	3	0	3	Meli	0	1	Elaboration of Sociality
+LOC726190	86	0	2	Meli	0	0.0232558139534884	Elaboration of Sociality
+LOC726199	11	0	1	Meli	0	0.0909090909090909	Elaboration of Sociality
+LOC726235	11	3	0	Meli	0.272727272727273	0	Elaboration of Sociality
+LOC726237	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC726243	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC726264	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC726284	56	3	0	Meli	0.0535714285714286	0	Elaboration of Sociality
+LOC726298	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC726312	21	1	0	Meli	0.0476190476190476	0	Elaboration of Sociality
+LOC726341	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC726350	19	1	1	Meli	0.0526315789473684	0.0526315789473684	Elaboration of Sociality
+LOC726367	9	2	0	Meli	0.222222222222222	0	Elaboration of Sociality
+LOC726368	7	2	0	Meli	0.285714285714286	0	Elaboration of Sociality
+LOC726385	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC726394	12	0	0	Meli	0	0	Elaboration of Sociality
+LOC726407	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC726412	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC726417	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC726432	9	0	2	Meli	0	0.222222222222222	Elaboration of Sociality
+LOC726476	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC726478	7	0	0	Meli	0	0	Elaboration of Sociality
+LOC726483	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC726496	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC726529	8	2	0	Meli	0.25	0	Elaboration of Sociality
+LOC726569	49	0	0	Meli	0	0	Elaboration of Sociality
+LOC726579	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC726583	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC726598	17	2	1	Meli	0.117647058823529	0.0588235294117647	Elaboration of Sociality
+LOC726600	17	0	0	Meli	0	0	Elaboration of Sociality
+LOC726601	3	1	0	Meli	0.333333333333333	0	Elaboration of Sociality
+LOC726647	5	0	0	Meli	0	0	Elaboration of Sociality
+LOC726650	8	0	0	Meli	0	0	Elaboration of Sociality
+LOC726667	6	0	3	Meli	0	0.5	Elaboration of Sociality
+LOC726668	18	0	3	Meli	0	0.166666666666667	Elaboration of Sociality
+LOC726695	6	0	0	Meli	0	0	Elaboration of Sociality
+LOC726699	38	1	2	Meli	0.0263157894736842	0.0526315789473684	Elaboration of Sociality
+LOC726733	9	0	0	Meli	0	0	Elaboration of Sociality
+LOC726756	6	3	0	Meli	0.5	0	Elaboration of Sociality
+LOC726790	15	0	0	Meli	0	0	Elaboration of Sociality
+LOC726806	47	0	0	Meli	0	0	Elaboration of Sociality
+LOC726816	6	1	1	Meli	0.166666666666667	0.166666666666667	Elaboration of Sociality
+LOC726824	10	0	0	Meli	0	0	Elaboration of Sociality
+LOC726826	9	0	1	Meli	0	0.111111111111111	Elaboration of Sociality
+LOC726853	17	1	0	Meli	0.0588235294117647	0	Elaboration of Sociality
+LOC726883	26	1	0	Meli	0.0384615384615385	0	Elaboration of Sociality
+LOC726925	24	0	0	Meli	0	0	Elaboration of Sociality
+LOC726947	82	5	5	Meli	0.0609756097560976	0.0609756097560976	Elaboration of Sociality
+LOC726962	27	1	0	Meli	0.037037037037037	0	Elaboration of Sociality
+LOC726990	13	0	0	Meli	0	0	Elaboration of Sociality
+LOC727035	23	1	2	Meli	0.0434782608695652	0.0869565217391304	Elaboration of Sociality
+LOC727078	70	0	0	Meli	0	0	Elaboration of Sociality
+LOC727210	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC727335	4	4	2	Meli	1	0.5	Elaboration of Sociality
+LOC727392	17	0	0	Meli	0	0	Elaboration of Sociality
+LOC727578	11	0	0	Meli	0	0	Elaboration of Sociality
+LOC727652	5	0	0	Meli	0	0	Elaboration of Sociality
+mGlutR1	9	2	0	Meli	0.222222222222222	0	Elaboration of Sociality
+Msx	10	3	0	Meli	0.3	0	Elaboration of Sociality
+nAChRa7	9	1	0	Meli	0.111111111111111	0	Elaboration of Sociality
+Nedd9	11	5	3	Meli	0.454545454545455	0.272727272727273	Elaboration of Sociality
+otd2	13	3	0	Meli	0.230769230769231	0	Elaboration of Sociality
+Reck	21	0	1	Meli	0	0.0476190476190476	Elaboration of Sociality
+Ripk5	13	0	0	Meli	0	0	Elaboration of Sociality
+Sergef	6	0	0	Meli	0	0	Elaboration of Sociality
+sGC-alpha1	31	0	0	Meli	0	0	Elaboration of Sociality
+SIFR	9	2	0	Meli	0.222222222222222	0	Elaboration of Sociality
+Syt20	9	0	0	Meli	0	0	Elaboration of Sociality
+Usp	39	1	0	Meli	0.0256410256410256	0	Elaboration of Sociality
+uzip	3	0	0	Meli	0	0	Elaboration of Sociality
+5-ht7	9	0	0	Dufourea	0	0	Solitary
+Dl	88	1	0	Dufourea	0.0113636363636364	0	Solitary
+Fstl5	14	1	2	Dufourea	0.0714285714285714	0.142857142857143	Solitary
+LOC100576346	5	0	0	Dufourea	0	0	Solitary
+LOC100576402	10	0	0	Dufourea	0	0	Solitary
+LOC100576640	2	0	0	Dufourea	0	0	Solitary
+LOC100577198	11	3	1	Dufourea	0.272727272727273	0.0909090909090909	Solitary
+LOC100577430	8	0	0	Dufourea	0	0	Solitary
+LOC100577575	8	0	0	Dufourea	0	0	Solitary
+LOC100578660	10	0	0	Dufourea	0	0	Solitary
+LOC102654206	15	0	0	Dufourea	0	0	Solitary
+LOC102655994	2	0	0	Dufourea	0	0	Solitary
+LOC102656258	0	0	0	Dufourea	NA	NA	Solitary
+LOC102656796	3	0	0	Dufourea	0	0	Solitary
+LOC406124	4	1	2	Dufourea	0.25	0.5	Solitary
+LOC408335	11	0	0	Dufourea	0	0	Solitary
+LOC408551	3	1	0	Dufourea	0.333333333333333	0	Solitary
+LOC408552	6	0	0	Dufourea	0	0	Solitary
+LOC408626	7	0	0	Dufourea	0	0	Solitary
+LOC408794	14	0	0	Dufourea	0	0	Solitary
+LOC408804	10	3	0	Dufourea	0.3	0	Solitary
+LOC408915	6	0	1	Dufourea	0	0.166666666666667	Solitary
+LOC408955	13	0	0	Dufourea	0	0	Solitary
+LOC409191	16	0	0	Dufourea	0	0	Solitary
+LOC409279	10	0	4	Dufourea	0	0.4	Solitary
+LOC409318	7	1	2	Dufourea	0.142857142857143	0.285714285714286	Solitary
+LOC409336	3	0	0	Dufourea	0	0	Solitary
+LOC409382	11	0	0	Dufourea	0	0	Solitary
+LOC409473	7	1	0	Dufourea	0.142857142857143	0	Solitary
+LOC409527	19	0	2	Dufourea	0	0.105263157894737	Solitary
+LOC409714	4	3	1	Dufourea	0.75	0.25	Solitary
+LOC409777	19	1	0	Dufourea	0.0526315789473684	0	Solitary
+LOC409856	4	0	0	Dufourea	0	0	Solitary
+LOC409928	6	2	1	Dufourea	0.333333333333333	0.166666666666667	Solitary
+LOC410041	9	1	0	Dufourea	0.111111111111111	0	Solitary
+LOC410099	9	0	1	Dufourea	0	0.111111111111111	Solitary
+LOC410119	13	0	2	Dufourea	0	0.153846153846154	Solitary
+LOC410217	7	1	0	Dufourea	0.142857142857143	0	Solitary
+LOC410290	9	0	1	Dufourea	0	0.111111111111111	Solitary
+LOC410345	9	0	2	Dufourea	0	0.222222222222222	Solitary
+LOC410350	11	0	0	Dufourea	0	0	Solitary
+LOC410464	7	1	0	Dufourea	0.142857142857143	0	Solitary
+LOC410489	17	0	0	Dufourea	0	0	Solitary
+LOC410565	8	0	1	Dufourea	0	0.125	Solitary
+LOC410609	6	2	1	Dufourea	0.333333333333333	0.166666666666667	Solitary
+LOC410706	8	2	1	Dufourea	0.25	0.125	Solitary
+LOC410948	6	0	0	Dufourea	0	0	Solitary
+LOC410952	8	0	0	Dufourea	0	0	Solitary
+LOC410960	15	2	1	Dufourea	0.133333333333333	0.0666666666666667	Solitary
+LOC411053	11	1	0	Dufourea	0.0909090909090909	0	Solitary
+LOC411564	4	1	0	Dufourea	0.25	0	Solitary
+LOC411731	8	0	0	Dufourea	0	0	Solitary
+LOC411806	14	0	0	Dufourea	0	0	Solitary
+LOC411837	17	0	1	Dufourea	0	0.0588235294117647	Solitary
+LOC411892	3	0	2	Dufourea	0	0.666666666666667	Solitary
+LOC412157	7	1	2	Dufourea	0.142857142857143	0.285714285714286	Solitary
+LOC412159	11	0	0	Dufourea	0	0	Solitary
+LOC412236	13	0	0	Dufourea	0	0	Solitary
+LOC412362	12	0	0	Dufourea	0	0	Solitary
+LOC412701	11	1	0	Dufourea	0.0909090909090909	0	Solitary
+LOC412721	8	0	0	Dufourea	0	0	Solitary
+LOC412739	9	0	0	Dufourea	0	0	Solitary
+LOC412804	8	0	1	Dufourea	0	0.125	Solitary
+LOC412929	13	0	0	Dufourea	0	0	Solitary
+LOC413032	5	0	2	Dufourea	0	0.4	Solitary
+LOC413126	5	0	2	Dufourea	0	0.4	Solitary
+LOC413181	14	0	1	Dufourea	0	0.0714285714285714	Solitary
+LOC413207	6	1	0	Dufourea	0.166666666666667	0	Solitary
+LOC413248	7	1	0	Dufourea	0.142857142857143	0	Solitary
+LOC413510	11	2	1	Dufourea	0.181818181818182	0.0909090909090909	Solitary
+LOC413631	7	0	0	Dufourea	0	0	Solitary
+LOC413907	6	0	0	Dufourea	0	0	Solitary
+LOC413995	4	1	0	Dufourea	0.25	0	Solitary
+LOC550651	15	0	0	Dufourea	0	0	Solitary
+LOC550829	7	0	0	Dufourea	0	0	Solitary
+LOC550857	3	2	1	Dufourea	0.666666666666667	0.333333333333333	Solitary
+LOC551205	5	0	0	Dufourea	0	0	Solitary
+LOC551361	3	0	0	Dufourea	0	0	Solitary
+LOC551454	13	2	0	Dufourea	0.153846153846154	0	Solitary
+LOC551494	11	6	0	Dufourea	0.545454545454545	0	Solitary
+LOC551578	18	0	3	Dufourea	0	0.166666666666667	Solitary
+LOC551756	6	0	0	Dufourea	0	0	Solitary
+LOC551931	4	1	1	Dufourea	0.25	0.25	Solitary
+LOC552003	48	0	0	Dufourea	0	0	Solitary
+LOC552093	3	0	0	Dufourea	0	0	Solitary
+LOC552194	5	1	0	Dufourea	0.2	0	Solitary
+LOC552249	3	1	0	Dufourea	0.333333333333333	0	Solitary
+LOC552468	4	0	0	Dufourea	0	0	Solitary
+LOC552527	4	0	0	Dufourea	0	0	Solitary
+LOC552571	15	2	1	Dufourea	0.133333333333333	0.0666666666666667	Solitary
+LOC552634	5	0	0	Dufourea	0	0	Solitary
+LOC552642	17	2	1	Dufourea	0.117647058823529	0.0588235294117647	Solitary
+LOC552677	10	1	0	Dufourea	0.1	0	Solitary
+LOC724290	11	0	0	Dufourea	0	0	Solitary
+LOC724294	9	0	0	Dufourea	0	0	Solitary
+LOC724301	10	1	0	Dufourea	0.1	0	Solitary
+LOC724502	13	0	0	Dufourea	0	0	Solitary
+LOC724593	10	1	0	Dufourea	0.1	0	Solitary
+LOC724620	5	0	0	Dufourea	0	0	Solitary
+LOC724794	8	0	0	Dufourea	0	0	Solitary
+LOC724933	17	1	0	Dufourea	0.0588235294117647	0	Solitary
+LOC725046	8	0	0	Dufourea	0	0	Solitary
+LOC725099	49	0	0	Dufourea	0	0	Solitary
+LOC725216	2	0	0	Dufourea	0	0	Solitary
+LOC725237	13	0	0	Dufourea	0	0	Solitary
+LOC725343	18	0	0	Dufourea	0	0	Solitary
+LOC725496	4	0	0	Dufourea	0	0	Solitary
+LOC725552	5	0	0	Dufourea	0	0	Solitary
+LOC725960	12	3	0	Dufourea	0.25	0	Solitary
+LOC726133	5	1	2	Dufourea	0.2	0.4	Solitary
+LOC726167	9	0	0	Dufourea	0	0	Solitary
+LOC726199	7	1	3	Dufourea	0.142857142857143	0.428571428571429	Solitary
+LOC726524	8	1	0	Dufourea	0.125	0	Solitary
+LOC726636	16	0	1	Dufourea	0	0.0625	Solitary
+LOC726904	0	0	0	Dufourea	NA	NA	Solitary
+LOC727027	9	0	1	Dufourea	0	0.111111111111111	Solitary
+LOC727486	14	2	0	Dufourea	0.142857142857143	0	Solitary
+TpnT	5	3	2	Dufourea	0.6	0.4	Solitary
+Vg	7	2	0	Dufourea	0.285714285714286	0	Solitary
+LOC100576162	4	0	0	Ceratina	0	0	Origin of Sociality
+LOC100576165	96	0	0	Ceratina	0	0	Origin of Sociality
+LOC100576640	7	0	0	Ceratina	0	0	Origin of Sociality
+LOC100576915	2	1	0	Ceratina	0.5	0	Origin of Sociality
+LOC100577958	8	0	0	Ceratina	0	0	Origin of Sociality
+LOC100577972	77	0	0	Ceratina	0	0	Origin of Sociality
+LOC100578363	4	0	0	Ceratina	0	0	Origin of Sociality
+LOC100578382	39	0	0	Ceratina	0	0	Origin of Sociality
+LOC100578587	8	0	0	Ceratina	0	0	Origin of Sociality
+LOC100578947	3	0	0	Ceratina	0	0	Origin of Sociality
+LOC408551	5	0	0	Ceratina	0	0	Origin of Sociality
+LOC408552	5	0	0	Ceratina	0	0	Origin of Sociality
+LOC408565	6	0	0	Ceratina	0	0	Origin of Sociality
+LOC408878	8	0	0	Ceratina	0	0	Origin of Sociality
+LOC408889	9	0	0	Ceratina	0	0	Origin of Sociality
+LOC408959	9	1	0	Ceratina	0.111111111111111	0	Origin of Sociality
+LOC409111	12	2	0	Ceratina	0.166666666666667	0	Origin of Sociality
+LOC409749	54	0	0	Ceratina	0	0	Origin of Sociality
+LOC409928	7	1	0	Ceratina	0.142857142857143	0	Origin of Sociality
+LOC410057	9	0	0	Ceratina	0	0	Origin of Sociality
+LOC410070	14	1	0	Ceratina	0.0714285714285714	0	Origin of Sociality
+LOC410289	6	0	0	Ceratina	0	0	Origin of Sociality
+LOC410485	8	0	0	Ceratina	0	0	Origin of Sociality
+LOC410571	6	0	0	Ceratina	0	0	Origin of Sociality
+LOC410755	7	0	0	Ceratina	0	0	Origin of Sociality
+LOC410925	31	4	5	Ceratina	0.129032258064516	0.161290322580645	Origin of Sociality
+LOC411053	2	0	0	Ceratina	0	0	Origin of Sociality
+LOC411104	6	0	0	Ceratina	0	0	Origin of Sociality
+LOC411526	29	0	0	Ceratina	0	0	Origin of Sociality
+LOC411809	20	0	0	Ceratina	0	0	Origin of Sociality
+LOC411882	14	0	0	Ceratina	0	0	Origin of Sociality
+LOC412000	29	0	0	Ceratina	0	0	Origin of Sociality
+LOC412018	6	2	0	Ceratina	0.333333333333333	0	Origin of Sociality
+LOC412296	50	0	0	Ceratina	0	0	Origin of Sociality
+LOC412508	50	0	0	Ceratina	0	0	Origin of Sociality
+LOC413467	10	0	1	Ceratina	0	0.1	Origin of Sociality
+LOC413782	32	0	0	Ceratina	0	0	Origin of Sociality
+LOC551012	6	0	0	Ceratina	0	0	Origin of Sociality
+LOC551308	10	0	0	Ceratina	0	0	Origin of Sociality
+LOC551779	18	0	0	Ceratina	0	0	Origin of Sociality
+LOC552245	53	0	0	Ceratina	0	0	Origin of Sociality
+LOC552414	46	1	0	Ceratina	0.0217391304347826	0	Origin of Sociality
+LOC724237	4	0	0	Ceratina	0	0	Origin of Sociality
+LOC724290	14	0	0	Ceratina	0	0	Origin of Sociality
+LOC724356	5	0	0	Ceratina	0	0	Origin of Sociality
+LOC724399	288	1	0	Ceratina	0.00347222222222222	0	Origin of Sociality
+LOC724483	4	0	0	Ceratina	0	0	Origin of Sociality
+LOC724569	19	0	0	Ceratina	0	0	Origin of Sociality
+LOC725105	5	1	0	Ceratina	0.2	0	Origin of Sociality
+LOC725618	6	0	0	Ceratina	0	0	Origin of Sociality
+LOC725732	29	1	0	Ceratina	0.0344827586206897	0	Origin of Sociality
+LOC726407	5	0	0	Ceratina	0	0	Origin of Sociality
+LOC726416	9	0	0	Ceratina	0	0	Origin of Sociality
+LOC727079	9	0	0	Ceratina	0	0	Origin of Sociality
+LOC727634	19	0	0	Ceratina	0	0	Origin of Sociality
+Rpn1	347	1	0	Ceratina	0.00288184438040346	0	Origin of Sociality
+Tg	53	1	0	Ceratina	0.0188679245283019	0	Origin of Sociality
+Vg	4	0	0	Ceratina	0	0	Origin of Sociality
