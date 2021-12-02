@@ -46,9 +46,10 @@ venn.diagram(x <- list(api.can.gene, meg.can.gene, hal.can.gene),
              filename = "Plots/Revisions/can_by_family_Venn.png", 
              output = T,
              imagetype = "png",
+             cat.pos = 0,
              lwd = 2, lty = "blank", fill = scheme,
              cex = 3, fontface = "bold", fontfamily = "sans",
-             cat.cex = 2, cat.fontface = "bold", cat.default.pos = "outer", cat.dist = 0.15)
+             cat.cex = 2, cat.fontface = "bold")
 
 #NONCANON
 
@@ -416,27 +417,58 @@ work4$Function <- factor(work4$Function, levels = c("Receptor",
                                                         "Effector", 
                                                         "Non-Canon Immune", 
                                                         "Background"))
-
+work4$Immune<-as.numeric(work4$Immune)
 
 ggplot(work4, aes(x = logOmega, y = logGC)) +
-  geom_point(aes(color = Function, alpha = Immune, shape = Class)) +
+  geom_point(aes(color = Function, alpha = 0.5, shape = Class)) +
   scale_alpha(guide = "none") +
   stat_ellipse(data = work4[work4$Function == "Non-Canon Immune",], colour = "violet") +
   scale_color_manual(values = c("#009E73",
                                 "#F0E442",
                                 "#56B4E9",
                                 "violet",
-                                "gray"), 
-                     name = "Gene Function") +
+                                "#6d8dbc"), 
+                    name = "Gene Function") +
   scale_shape(name = "Gene Class") +
-  geom_line(stat="smooth",method = "lm",
-            size = .5,
-            linetype ="dashed",
-            alpha = 0.5) + 
+  #geom_line(stat="smooth",method = "lm",
+          #  size = .5,
+          #  linetype ="dashed",
+          #  alpha = 0.5) + 
   xlab("log dN/dS ratio") +
   ylab("log GC content")
 
-#Plots/Revisions/GCvsOmega_Scatter2.png
+imm.pd <- work4[!work4$Function == "Background",]
+imm.pd[325,] <- head(work4[work4$Function == "Background",], n = 1)
+
+ggplot(work4, aes(x = logOmega, y = logGC)) +
+  geom_point(data = work4[work4$Class == "Background",], 
+                color = "#bbbbbb", alpha = 0.3, size = .6) +
+  geom_point(data = imm.pd,
+             aes(color = Function, shape = Class), size = 1.2) +
+  scale_alpha() +
+  stat_ellipse(data = work4[work4$Function == "Non-Canon Immune",], colour = "#ee82ee") +
+  scale_color_manual(values = c("#5fe95f",
+                                "#e9e95f",
+                                "#8282ee",
+                                "#ee82ee",
+                                "#bbbbbb"), 
+                     name = "Gene Function") +
+  scale_shape(name = "Gene Class") +
+  #geom_line(stat="smooth",method = "lm",
+  #  size = .5,
+  #  linetype ="dashed",
+  #  alpha = 0.5) + 
+  xlab("log dN/dS ratio") +
+  ylab("log GC content")
+
+scale_color_manual(values = c("gray",
+                              "#56B4E9",
+                              "violet",
+                              "#009E73",
+                              "#F0E442"), 
+                   name = "Gene Class") +
+
+#Plots/Revisions/GCvsOmega_Scatter3.png
 
 
 ######GCvsSelection#####
@@ -444,6 +476,8 @@ ggplot(work4, aes(x = logOmega, y = logGC)) +
 pd7 <- work5
 head(pd7)
 
+pd7$BranchTested <- factor(pd7$BranchTested, levels = c("Solitary", "Origin of Sociality", 
+                                                        "Elaboration of Sociality"))
 ggplot(data = pd7, aes(x = Selection, y = AvgBranch, fill = Selection))+
   geom_boxplot(alpha = .75) +
   facet_wrap(~ BranchTested) +
@@ -492,6 +526,61 @@ ggplot(data = pd8, aes(x = Species, y = GC, fill = Sociality)) +
   geom_violin(alpha = .8, scale = "width", trim = F) +
   geom_boxplot(width = 0.2) +
   coord_flip() +
+  theme(legend.position = "bottom",
+        legend.justification = "right") +
   ylab("GC Content (%)")
 
-#Plots/Revisions/GCbySpecies_ViolinPlot1.png
+#Plots/Revisions/GCbySpecies_ViolinPlot3.png
+
+ggplot(data = allhit, aes(x = Branch_Test, y = FailRate, group = Test)) +
+  geom_line(linetype= "dashed", aes(colour = Test)) +
+  geom_point(shape = 18, size = 2, aes(colour = Test)) +
+  ylab("% PSGs with all selected sites considered CMD") +
+  xlab("Branch Test")
+
+
+ggplot(chi.plot, aes(x = Branch, y = Prop, fill = BranchTest)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = c("#e67300", "#73e600", "#0073e6")) +
+  facet_wrap(~Class) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  coord_flip()
+
+chi.plot$Branch <- factor(chi.plot$Branch, levels = c("All Post Elaboration",
+                          "Apis", "Melipona",
+                          "All Post Origin", "Corbiculates", "Ceratina", "Lasioglossum",
+                          "All Solitary", "Habropoda", "Dufourea", "Megachile"))
+
+chi.plot$Class <- factor(chi.plot$Class, levels = c("Canon", "Non-Canon", "Background"))
+
+chi.plot$Branch <- str_replace(chi.plot$Branch, "Meli", "Melipona")
+chi.plot$Branch <- str_replace(chi.plot$Branch, "Mega", "Megachile")
+chi.plot$Branch <- str_replace(chi.plot$Branch, "Lasio", "Lasioglossum")
+chi.plot$Branch <- str_replace(chi.plot$Branch, "Habro", "Habropoda")
+chi.plot$Branch <- str_replace(chi.plot$Branch, "CorbSoc", "Corbiculates")
+chi.plot$Branch <- str_replace(chi.plot$Branch, "AllSol", "All Solitary")
+chi.plot$Branch <- str_replace(chi.plot$Branch, "AllOrigin", "All Post Origin")
+chi.plot$Branch <- str_replace(chi.plot$Branch, "AllComplex", "All Post Elaboration")
+
+chi.plot2 <- chi.plot[!chi.plot$Branch == "All Post Elaboration",]
+chi.plot2 <- chi.plot2[!chi.plot2$Branch == "All Post Origin",]
+chi.plot2 <- chi.plot2[!chi.plot2$Branch == "All Solitary",]
+
+chi.plot2$Prop <- as.numeric(chi.plot2$Prop)
+
+ggplot(chi.plot2, aes(x = Branch, y = Prop, fill = BranchTest)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = c("#e67300", "#73e600", "#0073e6")) +
+  facet_wrap(~Class) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  theme(legend.title = element_blank()) +
+ # scale_y_continuous(breaks=seq(.0,0.08,0.05)) +
+  coord_flip()
+
+
+
+
+
+
+
+
