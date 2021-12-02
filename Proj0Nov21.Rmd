@@ -455,6 +455,31 @@ head(chi.res)
 
 There's only the AllSol Canon versus Background hit that's significant, and not after correction for multiple testing.
 
+```{r}
+a <- chi.res[,1:2]
+a$Class <- paste("Canon")
+names(a)[1:2]<-c("Branch", "Prop")
+b <- chi.res[,c(1,3)]
+b$Class <- paste("Background")
+names(b)[1:2]<-c("Branch", "Prop")
+c <- chi.res[,c(1,7)]
+c$Class <- paste("Non-Canon")
+names(c)[1:2]<-c("Branch", "Prop")
+chi.plot <- rbind(a,b,c)
+
+chi.plot$BranchTest[chi.plot$Branch %in% elaboration] <- "Elaboration of Sociality"
+chi.plot$BranchTest[chi.plot$Branch %in% origin] <- "Origin of Sociality"
+chi.plot$BranchTest[chi.plot$Branch %in% solitary] <- "Solitary"
+
+
+
+ggplot(chi.plot, aes(x = Branch, y = Prop, fill = Branch)) +
+  geom_bar(stat = "identity") +
+  facet_wrap(~Class) +
+  coord_flip()
+```
+
+
 
 Write a table that requires editing manually 
 
@@ -740,7 +765,7 @@ I had previously produced a GOverse file to use with topGO using the script genG
 runtopGO.R produces many results files. For each lineage/class combination (and the canon and noncanon input lists) there will be one table written that has all three GO term classes included.
 
 ```{r echo=T, results='hide'}
-source("Scripts/runtopGO.R", local = knitr::knit_global())
+#source("Scripts/runtopGO.R", local = knitr::knit_global())
 ```
 
 
@@ -836,7 +861,16 @@ mnm.df <- bind_rows(mnm.list)
 mnm.df$BranchTest[mnm.df$BranchTest == "Halictid"] <- "Lasio"
 mnm.df$BranchTest[mnm.df$BranchTest == "Xylo"] <- "Ceratina"
 mnm.df$BranchTest[mnm.df$BranchTest == "Nova"] <- "Dufourea"
+
+head(mnm.df)
 ```
+
+```{r}
+write.table(mnm.df, "output/MNM_Entire.tsv",
+            col.names = T, row.names = F, quote = T, sep = "\t")
+```
+
+
 
 I need to go through the significant dataframe by SocOrigin and paste each test result per gene ....
 
@@ -845,6 +879,8 @@ There's a couple of failures in the background genes I'm going to remove
 ```{r}
 torem <- c("LOC408808", "Kr")
 data.sig <- data.sig[!data.sig$Gene %in% torem,]
+
+names(data.sig)
 ```
 
 
@@ -867,7 +903,271 @@ x <- nrow(data.sig[data.sig$TwoHitCheck == "Fail" | data.sig$ThreeHitCheck == "F
 (x / nrow(data.sig))*100
 ```
 
-30% seems more likely than the original 8.9%. As much as it would be nice to be the case.
+2.64% . . . 
+
+Where are these failures mostly ? 
+
+```{r}
+table(data.sig$Class, data.sig$TwoHitCheck)
+data.df[data.df$Gene == "LOC412505",]
+```
+
+
+```{r}
+chisq.test(table(data.sig$Class, data.sig$TwoHitCheck))
+```
+
+```{r}
+table(data.sig$Class, data.sig$ThreeHitCheck)
+```
+
+```{r}
+chisq.test(table(data.sig$Class, data.sig$TwoHitCheck))
+```
+
+What about by branch test ? 
+
+```{r}
+a <- unique(data.sig$BranchTested)
+b <- vector(length = length(a))
+for (i in 1:length(a)){
+  b[i] <- nrow(data.sig[data.sig$BranchTested == paste(a[i])
+                                                       & data.sig$TwoHitCheck == "Pass",])
+}
+c <- vector(length = length(a))
+for (i in 1:length(a)){
+  c[i] <- nrow(data.sig[data.sig$BranchTested == paste(a[i])
+                        & data.sig$TwoHitCheck == "Fail",])
+}
+twohit <- as.data.frame(cbind(a,b,c))
+twohit$b <- as.numeric(twohit$b)
+twohit$c <- as.numeric(twohit$c)
+
+names(twohit) <- c("Branch_Test", "Pass", "Fail")
+twohit$FailRate <- (twohit$Fail / (twohit$Pass + twohit$Fail))*100
+twohit$Test <- paste("2H")
+twohit
+```
+```{r}
+a <- unique(data.sig$BranchTested)
+b <- vector(length = length(a))
+for (i in 1:length(a)){
+  b[i] <- nrow(data.sig[data.sig$BranchTested == paste(a[i])
+                                                       & data.sig$ThreeHitCheck == "Pass",])
+}
+c <- vector(length = length(a))
+for (i in 1:length(a)){
+  c[i] <- nrow(data.sig[data.sig$BranchTested == paste(a[i])
+                        & data.sig$ThreeHitCheck == "Fail",])
+}
+threehit <- as.data.frame(cbind(a,b,c))
+threehit$b <- as.numeric(threehit$b)
+threehit$c <- as.numeric(threehit$c)
+
+names(threehit) <- c("Branch_Test", "Pass", "Fail")
+threehit$FailRate <- (threehit$Fail / (threehit$Pass + threehit$Fail))*100
+threehit$Test <- paste("3H")
+threehit
+```
+
+```{r}
+allhit <- rbind(twohit, threehit)
+allhit
+```
+
+```{r}
+allhit$Branch_Test <- factor(allhit$Branch_Test, levels = c("Solitary", "Origin of Sociality",
+                                                             "Elaboration of Sociality"))
+
+ggplot(data = allhit, aes(x = Branch_Test, y = FailRate, group = Test)) +
+  geom_line(linetype= "dashed", aes(colour = Test)) +
+  geom_point(shape = 18, size = 2, aes(colour = Test)) +
+  ylab("% PSGs with all selected sites considered CMD") +
+  xlab("Branch Test")
+```
+
+```{r}
+chisq.test(table(data.sig$TwoHitCheck, data.sig$BranchTested))
+```
+
+```{r}
+chisq.test(table(data.sig$ThreeHitCheck, data.sig$BranchTested))
+```
+
+By species ? 
+
+```{r}
+a <- unique(data.sig$SocOrigin)
+b <- vector(length = length(a))
+for (i in 1:length(a)){
+  b[i] <- nrow(data.sig[data.sig$SocOrigin == paste(a[i])
+                                                       & data.sig$TwoHitCheck == "Pass",])
+}
+c <- vector(length = length(a))
+for (i in 1:length(a)){
+  c[i] <- nrow(data.sig[data.sig$SocOrigin == paste(a[i])
+                        & data.sig$TwoHitCheck == "Fail",])
+}
+
+twohit.spec <- as.data.frame(cbind(as.character(a),b,c))
+twohit.spec$b <- as.numeric(twohit.spec$b)
+twohit.spec$c <- as.numeric(twohit.spec$c)
+
+names(twohit.spec) <- c("Branch_Test", "Pass", "Fail")
+twohit.spec$FailRate <- (twohit.spec$Fail / (twohit.spec$Pass + twohit.spec$Fail))*100
+twohit.spec$Test <- paste("2H")
+twohit.spec
+```
+
+```{r}
+a <- unique(data.sig$SocOrigin)
+b <- vector(length = length(a))
+for (i in 1:length(a)){
+  b[i] <- nrow(data.sig[data.sig$SocOrigin == paste(a[i])
+                                                       & data.sig$ThreeHitCheck == "Pass",])
+}
+c <- vector(length = length(a))
+for (i in 1:length(a)){
+  c[i] <- nrow(data.sig[data.sig$SocOrigin == paste(a[i])
+                        & data.sig$ThreeHitCheck == "Fail",])
+}
+
+threehit.spec <- as.data.frame(cbind(as.character(a),b,c))
+threehit.spec$b <- as.numeric(threehit.spec$b)
+threehit.spec$c <- as.numeric(threehit.spec$c)
+
+names(threehit.spec) <- c("Branch_Test", "Pass", "Fail")
+threehit.spec$FailRate <- (threehit.spec$Fail / (threehit.spec$Pass + threehit.spec$Fail))*100
+threehit.spec$Test <- paste("3H")
+threehit.spec
+```
+
+
+
+```{r}
+allhit.spec <- rbind(twohit.spec, threehit.spec)
+
+allhit.spec$Branch_Test <- factor(allhit.spec$Branch_Test, levels = c("Dufourea", 
+                                                                      "Habro", 
+                                                                      "Mega", 
+                                                                      "AllSol",
+                                                                      "Lasio", 
+                                                                      "Ceratina", 
+                                                                      "CorbSoc", 
+                                                                      "AllOrigin", 
+                                                                      "Meli",
+                                                                      "Apis",
+                                                                      "AllComplex"))
+
+ggplot(data = allhit.spec, aes(x = Branch_Test, y = FailRate, group = Test)) +
+  geom_line(linetype= "dashed", aes(colour = Test)) +
+  geom_point(shape = 18, size = 2, aes(colour = Test)) +
+  ylab("% PSGs with all selected sites considered CMD") +
+  xlab("Branch Test")
+```
+
+
+```{r}
+allhit.spec$BranchType <- rep(c("Elaboration", "Origin", "Solitary",
+                            "Elaboration", "Origin", "Origin", 
+                            "Solitary", "Solitary", "Origin", "Solitary", "Elaboration"),2)
+
+ggplot(data = allhit.spec[-c(1:3,12:14),], aes(x = Branch_Test, y = FailRate, group = Test)) +
+  geom_line(linetype= "dashed", aes(colour = Test)) +
+  geom_point(size = 2, aes(shape = BranchType, colour = Test)) +
+  ylab("% PSGs with all selected sites considered CMD") +
+  xlab("Branch Test")
+```
+
+####Codon By Codon
+
+Does it make more sense to break this down by codon ? 
+
+```{r}
+filelist <- list.files(pattern = "*tsv", path = "input/CMD_Codons/")
+cod.list <- lapply(filelist, function(x){
+  read.table(paste("input/CMD_Codons/", x, sep = ""), header = T, sep = "\t")
+})
+```
+
+```{r}
+for (i in 1:length(cod.list)){
+  cod.list[[i]]$BranchTest <- getname(filelist[i])
+}
+
+head(cod.list[[6]])
+```
+
+```{r}
+cod.df <- bind_rows(cod.list)
+head(cod.df)
+```
+```{r}
+cod.df$Prop2H <- cod.df$No_2hitCMD / cod.df$NoSelectedCodons
+cod.df$Prop3H <- cod.df$No_3hitCMD / cod.df$NoSelectedCodons
+cod.df
+```
+```{r}
+cod.df$BranchTest[cod.df$BranchTest == "Halictid"] <- "Lasio"
+cod.df$BranchTest[cod.df$BranchTest == "Xylo"] <- "Ceratina"
+cod.df$BranchTest[cod.df$BranchTest == "Nova"] <- "Dufourea"
+
+cod.df$BranchType[cod.df$BranchTest %in% elaboration] <- "Elaboration of Sociality"
+cod.df$BranchType[cod.df$BranchTest %in% origin] <- "Origin of Sociality"
+cod.df$BranchType[cod.df$BranchTest %in% solitary] <- "Solitary"
+
+head(cod.df)
+```
+
+```{r}
+write.table(cod.df, "output/CMD_ByCodon.tsv",
+            col.names = T, row.names = F, quote = F, sep = "\t")
+```
+
+
+
+```{r}
+branches <- unique(cod.df$BranchType)
+a <- matrix(nrow = length(branches), ncol = 5)
+
+for (i in 1:length(branches)){
+  a[i,1] <- sum(cod.df$NoSelectedCodons[cod.df$BranchType == paste(branches[i])])
+  a[i,2] <- sum(cod.df$No_2hitCMD[cod.df$BranchType == paste(branches[i])])
+  a[i,3] <- (as.numeric(a[i,2]) / as.numeric(a[i,1]))*100
+  a[i,4] <- "2H"
+  a[i,5] <- paste(branches[i])
+}
+b  <- matrix(nrow = length(branches), ncol = 5)
+for (i in 1:length(branches)){
+  b[i,1] <- sum(cod.df$NoSelectedCodons[cod.df$BranchType == paste(branches[i])])
+  b[i,2] <- sum(cod.df$No_3hitCMD[cod.df$BranchType == paste(branches[i])])
+  b[i,3] <- (as.numeric(b[i,2]) / as.numeric(b[i,1]))*100
+  b[i,4] <- "3H"
+  b[i,5] <- paste(branches[i])
+}
+
+codon <- as.data.frame(rbind(a,b))
+names(codon) <- c("NoSites", "NoCMD", "PerCMD", "Model", "BranchTest")
+codon$NoSites <- as.numeric(codon$NoSites)
+codon$NoCMD <- as.numeric(codon$NoCMD)
+codon$PerCMD <- as.numeric(codon$PerCMD)
+
+codon
+```
+
+```{r}
+ggplot(data = codon, aes(x = BranchTest, y = PerCMD, group = Model)) +
+  geom_line(linetype= "dashed", aes(colour = Model)) +
+  geom_point(size = 2, aes(shape = BranchTest, colour = Model)) +
+  ylab("% Positively Selected Codons considered CMD") +
+  xlab("Branch Test")
+```
+
+And overall?
+
+```{r}
+codon
+```
 
 
 ##GC Content
@@ -959,6 +1259,16 @@ gc3$Species <- factor(gc3$Species, levels=c("All Species", "Dnov", "Hlab", "Mrot
 
 ggplot(data = gc3, aes(x = Species, y = GC, fill = Sociality)) +
   geom_boxplot()
+```
+
+```{r}
+specs <- unique(gc3$Species)
+mu <- vector(length = length(specs))
+for (i in 1:length(specs)){
+  mu[i] <- mean(gc3$GC[gc3$Species == paste(specs[i])])
+}
+names(mu) <- specs
+mu
 ```
 
 
@@ -1254,5 +1564,14 @@ ggplot(data = work5, aes(x = Selection, y = AvgBranch))+
 ggplot(work5, aes(x=Selection, y=AvgBranch, fill=BranchTested)) +
   geom_boxplot() +
   coord_flip()
+```
+
+```{r}
+sesh <- sessionInfo()
+#writeLines(capture.output(sessionInfo()), "sessionInfo.txt")
+```
+
+```{r}
+sesh
 ```
 
