@@ -1,9 +1,0 @@
-TermID	Name	Frequency	PlotX	PlotY	LogSize	Value	Uniqueness	Dispensability	Representative	Eliminated
-GO:0055029	nuclear_DNA-directed_RNA_polymerase_complex	0.787	-3.324	4.518	1.968	-3.060	0.360	0.000	-1	False
-GO:0005736	RNA_polymerase_I_complex	0.103	null	null	1.114	-1.633	0.243	0.818	55029	True
-GO:0005665	RNA_polymerase_II_core_complex	0.111	null	null	1.146	-1.562	0.240	0.824	55029	True
-GO:0005666	RNA_polymerase_III_complex	0.145	null	null	1.255	-1.422	0.406	0.843	55029	True
-GO:0031974	membrane-enclosed_lumen	9.525	5.612	0.029	3.047	-1.910	0.989	0.005	-1	False
-GO:0005759	mitochondrial_matrix	1.575	-3.279	-4.549	2.267	-1.496	0.452	0.110	-1	False
-GO:0070013	intracellular_organelle_lumen	9.516	null	null	3.046	-1.910	0.380	0.654	5759	True
-GO:0043233	organelle_lumen	9.525	null	null	3.047	-1.910	0.384	0.905	5759	True

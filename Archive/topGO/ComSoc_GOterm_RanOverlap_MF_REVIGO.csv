@@ -1,5 +1,0 @@
-term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
-GO:0008865,"fructokinase activity",0.072%, 2.073, 5.388,0.954,0.331,0.000,8865,0
-GO:0009975,"cyclase activity",0.243%,-5.703,-0.899,1.447,0.325,0.092,9975,0
-GO:0004383,"guanylate cyclase activity",0.216%, 3.630,-4.490,1.398,0.133,0.100,4383,0
-GO:0016849,"phosphorus-oxygen lyase activity",0.243%,null,null,1.447,0.133,0.717,4383,1

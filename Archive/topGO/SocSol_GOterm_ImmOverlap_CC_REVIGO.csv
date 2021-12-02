@@ -1,5 +1,0 @@
-term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
-GO:0055029,"nuclear DNA-directed RNA polymerase complex",1.032%, 0.990, 0.725,2.061,0.050,0.000,55029,0
-GO:0030880,"RNA polymerase complex",1.041%,null,null,2.064,0.031,0.909,55029,1
-GO:0000428,"DNA-directed RNA polymerase complex",1.041%,null,null,2.064,0.050,0.989,55029,1
-GO:0070847,"core mediator complex",0.091%,null,null,1.041,0.009,0.780,55029,1

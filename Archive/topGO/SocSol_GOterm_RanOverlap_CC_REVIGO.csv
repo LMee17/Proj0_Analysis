@@ -1,7 +1,0 @@
-term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
-GO:0005722,"beta-heterochromatin",0.009%,-0.916, 6.624,0.301,0.580,0.000,5722,0
-GO:0044298,"cell body membrane",0.547%,-0.450,-5.970,1.785,0.361,0.021,44298,0
-GO:0097447,"dendritic tree",0.460%, 6.075, 1.187,1.708,0.308,0.029,97447,0
-GO:0031901,"early endosome membrane",0.018%,-5.022, 0.572,0.477,0.532,0.108,31901,0
-GO:0030425,"dendrite",1.041%, 6.083, 0.056,2.064,0.252,0.602,30425,0
-GO:0032809,"neuronal cell body membrane",0.460%,null,null,1.708,0.114,0.820,30425,1

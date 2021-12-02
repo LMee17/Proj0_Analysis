@@ -1,8 +1,0 @@
-term_ID,description,frequency,plot_X,plot_Y,plot_size,uniqueness,dispensability,representative,eliminated
-GO:0008094,"DNA-dependent ATPase activity",0.405%,-2.875, 4.967,1.663,0.696,0.000,8094,0
-GO:0033134,"ubiquitin activating enzyme binding",0.027%,-4.997,-2.816,0.602,0.525,0.000,33134,0
-GO:0031490,"chromatin DNA binding",0.324%, 4.430,-4.623,1.568,0.441,0.052,31490,0
-GO:0005515,"protein binding",20.274%, 4.122, 4.228,3.353,0.609,0.099,5515,0
-GO:0003723,"RNA binding",5.453%, 4.937,-1.532,2.783,0.442,0.364,3723,0
-GO:0044388,"small protein activating enzyme binding",0.027%,-4.508,-4.294,0.602,0.525,0.407,44388,0
-GO:0000977,"RNA polymerase II regulatory region sequence-specific DNA binding",0.855%, 4.954,-3.327,1.982,0.427,0.451,977,0

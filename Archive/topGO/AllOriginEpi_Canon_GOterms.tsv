@@ -1,7 +1,0 @@
-GO.ID	Term	Annotated	Significant	Expected	Rank.in.Fisher.classic	Fisher.elim	Fisher.classic	Ontology
-GO:0042307	positive regulation of protein import in...	4	1	0	2	0.00076	0.00076	Biological Process
-GO:0006964	positive regulation of biosynthetic proc...	6	1	0	3	0.00114	0.00114	Biological Process
-GO:0002230	positive regulation of defense response ...	11	1	0	9	0.00209	0.00209	Biological Process
-GO:0061057	peptidoglycan recognition protein signal...	13	1	0	14	0.00247	0.00247	Biological Process
-GO:0045433	male courtship behavior, veined wing gen...	15	1	0	18	0.00285	0.00285	Biological Process
-GO:0043902	positive regulation of multi-organism pr...	35	1	0.01	47	0.00664	0.00664	Biological Process
