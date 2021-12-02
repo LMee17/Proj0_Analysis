@@ -1,0 +1,64 @@
+R version 4.1.2 (2021-11-01)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Big Sur 11.6
+
+Matrix products: default
+LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
+
+attached base packages:
+[1] grid      stats4    stats     graphics  grDevices utils     datasets  methods  
+[9] base     
+
+other attached packages:
+ [1] ggrepel_0.9.1          RColorBrewer_1.1-2     VennDiagram_1.7.0     
+ [4] futile.logger_1.4.3    UpSetR_1.4.0           topGO_2.46.0          
+ [7] SparseM_1.81           GO.db_3.14.0           AnnotationDbi_1.56.1  
+[10] IRanges_2.28.0         S4Vectors_0.32.0       Biobase_2.54.0        
+[13] graph_1.72.0           BiocGenerics_0.40.0    AICcmodavg_2.3-1      
+[16] dplyr_1.0.7            stringr_1.4.0          FSA_0.9.1             
+[19] ggpubr_0.4.0           ggplot2_3.3.5          InformationValue_1.2.3
+
+loaded via a namespace (and not attached):
+  [1] readxl_1.3.1           backports_1.3.0        VGAM_1.1-5            
+  [4] plyr_1.8.6             sp_1.4-5               splines_4.1.2         
+  [7] listenv_0.8.0          unmarked_1.1.1         GenomeInfoDb_1.30.0   
+ [10] digest_0.6.28          foreach_1.5.1          htmltools_0.5.2       
+ [13] fansi_0.5.0            magrittr_2.0.1         memoise_2.0.0         
+ [16] openxlsx_4.2.4         recipes_0.1.17         globals_0.14.0        
+ [19] Biostrings_2.62.0      gower_0.2.2            matrixStats_0.61.0    
+ [22] colorspace_2.0-2       blob_1.2.2             haven_2.4.3           
+ [25] xfun_0.27              jsonlite_1.7.2         crayon_1.4.2          
+ [28] RCurl_1.98-1.5         survival_3.2-13        iterators_1.0.13      
+ [31] glue_1.4.2             gtable_0.3.0           ipred_0.9-12          
+ [34] zlibbioc_1.40.0        XVector_0.34.0         car_3.0-11            
+ [37] dunn.test_1.3.5        future.apply_1.8.1     abind_1.4-5           
+ [40] scales_1.1.1           pscl_1.5.5             futile.options_1.0.1  
+ [43] DBI_1.1.1              rstatix_0.7.0          Rcpp_1.0.7            
+ [46] isoband_0.2.5          xtable_1.8-4           foreign_0.8-81        
+ [49] bit_4.0.4              lava_1.6.10            prodlim_2019.11.13    
+ [52] httr_1.4.2             ellipsis_0.3.2         pkgconfig_2.0.3       
+ [55] farver_2.1.0           nnet_7.3-16            utf8_1.2.2            
+ [58] caret_6.0-90           tidyselect_1.1.1       labeling_0.4.2        
+ [61] rlang_0.4.12           reshape2_1.4.4         munsell_0.5.0         
+ [64] cellranger_1.1.0       tools_4.1.2            cachem_1.0.6          
+ [67] cli_3.1.0              generics_0.1.1         RSQLite_2.2.8         
+ [70] broom_0.7.10           evaluate_0.14          fastmap_1.1.0         
+ [73] yaml_2.2.1             ModelMetrics_1.2.2.2   knitr_1.36            
+ [76] bit64_4.0.5            zip_2.2.0              purrr_0.3.4           
+ [79] KEGGREST_1.34.0        future_1.23.0          nlme_3.1-153          
+ [82] formatR_1.11           compiler_4.1.2         curl_4.3.2            
+ [85] png_0.1-7              ggsignif_0.6.3         tibble_3.1.5          
+ [88] stringi_1.7.5          forcats_0.5.1          lattice_0.20-45       
+ [91] Matrix_1.3-4           vctrs_0.3.8            pillar_1.6.4          
+ [94] lifecycle_1.0.1        data.table_1.14.2      bitops_1.0-7          
+ [97] raster_3.5-2           R6_2.5.1               gridExtra_2.3         
+[100] rio_0.5.27             parallelly_1.28.1      codetools_0.2-18      
+[103] lambda.r_1.2.4         MASS_7.3-54            withr_2.4.2           
+[106] GenomeInfoDbData_1.2.7 mgcv_1.8-38            parallel_4.1.2        
+[109] hms_1.1.1              terra_1.4-11           rpart_4.1-15          
+[112] timeDate_3043.102      tidyr_1.1.4            class_7.3-19          
+[115] rmarkdown_2.11         carData_3.0-4          pROC_1.18.0           
+[118] lubridate_1.8.0       
