@@ -18,6 +18,8 @@ trial$PSG <- ifelse(trial$adj_pvalue < 0.05, "Under Selection", "Not Under Selec
 a <- table(trial$Function, trial$PSG)
 chisq.test(a)
 
+work2
+
 chi.craft <- function(x){
   work2 <- x
   work2$Class <- as.factor(work2$Class)
@@ -30,7 +32,7 @@ chi.craft <- function(x){
   one.res <- chisq.test(cont.1, simulate.p.value = TRUE, B = 10000)
   run <- unique(work2$SocOrigin)
   prop.can <- sprintf(cont.1[[2,2]] / sum(cont.1[,2]), fmt = '%#.3f')
-  prop.back1 <- sprintf(cont.1[[1,2]] / sum(cont.1[,1]), fmt = '%#.3f')
+  prop.back1 <- sprintf(cont.1[[2,1]] / sum(cont.1[,1]), fmt = '%#.3f')
   chi1 <- sprintf(one.res$statistic[[1]], fmt = '%#.3f')
   p1 <- sprintf(one.res$p.value, fmt = '%#.3f')
   one.out <- cbind(run, prop.can, prop.back1, chi1, p1)
@@ -40,7 +42,7 @@ chi.craft <- function(x){
   cont.2 <- table(two$PSG, two$Class)
   two.res <- chisq.test(cont.2, simulate.p.value = T, B = 10000)
   prop.non <- sprintf(cont.2[[2,2]] / sum(cont.2[,2]), fmt = '%#.3f')
-  prop.back2 <- sprintf(cont.2[[1,2]] / sum(cont.2[,1]), fmt = '%#.3f')
+  prop.back2 <- sprintf(cont.2[[2,1]] / sum(cont.2[,1]), fmt = '%#.3f')
   chi2 <- sprintf(two.res$statistic[[1]], fmt = '%#.3f')
   p2 <- sprintf(two.res$p.value, fmt = '%#.3f')
   two.out <- cbind(prop.non, prop.back2, chi2, p2)
