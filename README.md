@@ -131,16 +131,35 @@ The script `Omega_codeml.sh` requires three inputs:
 
 The script takes the estimated kappa value and phylogeny per gene from the .readout file and adds them into `omega.ctl` file. `codeml` is ran (model = 0, NSsites = 0, ncatG = 1) and the estimated _dN/dS_ ratio is extracted from the results file.  All _dN/dS_ ratios for all genes included in the alignment directory are recorded in the output file `dNdSratio.tsv`. 
 
-### Step 3: Data Analysis
+### Step 3: FitMultiModel
+The branch-site test of positive selection (BST) has been found to be vulnerable to producing false positives when there are instances of multinucleotide mutation events (MNM, Venkat _et al_ 2018). Sites where more than one nucleotide has changed simultaneously (codons of multiple differences, CMDs) violate the model we have used which considers each change as an individual event. CMDs can possibly still have become fixated due to positive selection, else processes of neutral mutation, and the BST cannot distinguish between the two. We decided to highlight any sites identified as likely CMDs as less certain indications of positive selection. 
+
+In order to do this, we enlisted `FitMultiModel` (Lucaci _et al_ 2021) from `HyPhy` to assess our alignments and predicted gene trees and flag any codons likely (those with evidence ratios above 5) to be CMDs using the script `RunNParseFMMBatch.sh`.
+
+`RunNParseFMMBatch.sh` requires the following input
+- 1: A list of genes identified as under positive selection. We only ran this program on genes already assessed by paml to be under positive selection.
+- 2: A directory containing the same alignments fed into `PAML`. As such they are still assumed to be suffixed ".paml"
+- 3: A text file listing the species included in the alignment. Names need to match those used in the alignment.
+- 4: A directory containing all the trees predicted by `PAML` per PSG. 
+
+After the script is run there will be two results directories. The first, `ResultFiles/`, contains all the json files produced by `FMM`. The second, `ParsedResults/`, contains .tsv files parsed from the original json output. Per gene there are two tables: a 2Hit and 3Hit results.tsv with codon sites and estimated evidence ratios (ERs). These consider the likelihood of CMDs occurring due to two (2H) or up to three (3H) simultaenous nucleotide changes having occurred. Those with an ER above 5 are considered likely to be CMDs. 
+
+For the next step, the codons `PAML` has designated under selection are needed per PSG per branch test in which it was found under selection. We considered sites that had a Bayes Emperical Bayes posterior probability above 0.9 as likely to be under selection. An easy way of doing this is to cycle through results folders from `PAML` and extracting them thus: 
+```sh
+sed -n '/^Bayes Empirical Bayes/,/^\The grid/{p;/\n/q}' $p*out | \\
+sed '1,2d' | tac | sed '1,3d' | tac | sed 's/\*//g' | \\
+awk '$3>0.9 {print;}' > $p.PSCodons.txt
+```
+
+where `$p` here referred to a gene under selection from a PSG text list. 
+
+We then ran the script `CodonCheck.sh`. Input consists of two directories: the first containing all the PSG lists for each individual branch test run, the second being the `ParsedResults/` directory produced above. This script results in a results file per branch site test (ie Run1 from above) where each positively selected codon is checked against each gene's likely CMDs, `Run1.CodonCheck.tsv`. A directory, `Run1.CodonCheck/` is generated (per branch test), where all results files are kept per gene. 
+
+### Step 4: Data Analysis
 
 #### 3.1 The Analyses
 
-Each of these steps are explained in their own .rmd files.
-
-Order:
-- 1. `ProjNotes.Rmd` : assessing what genes of each gene class are considered as showing signficant signs of selection in the social lineage runs.
-- 2. `Solitary_Analysis.Rmd` : the same as above, in the solitary lineages.
-- 3.  `GO_Analysis.Rmd` : running GO analyses on genes of interest.
+Each of these steps are explained in the `Proj0.rmd` file.
 
 #### 3.2 Visualisation
 
@@ -167,11 +186,12 @@ Please contact Dr Seth Barribeau who underwent this portion of the analysis for 
 `CAFE5` 5.0.0 \
 `FastOrtho` PATRIC3/FastOrtho \
 `Linux` 16.04.5 LTS (Xenial Xerus) \
+`HyPhy` 2.5.33 \
 `MAFFT` 7.407 \
 `OrthoFinder` v2.5.4 \
 `Pal2Nal` v14 \
 `PAML` 4.9 \
-`R` 4.0.2 (2020-06-22) -- "Taking Off Again" \
+`R` 4.1.2 (2021-11-01) -- "Bird Hippie" 
 
 ## References
 Alaux, C., Dantec, C., Parrinello, H. & Le Conte, Y. Nutrigenomics in honey bees: Digital gene expression analysis of pollen’s nutritive effects on healthy and varroa-parasitized bees. _BMC Genomics_ 12, (2011). \
@@ -184,12 +204,15 @@ Geer, L. Y. _et al_. The NCBI BioSystems database. _Nucleic Acids Res_. 38, 492�
 Kapheim, K. M. _et al_. Genomic signatures of evolutionary transitions from solitary to group living. _Science_. 348, 1139–1143 (2015). \
 Katoh, K., Rozewicki, J. & Yamada, K. D. MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization. _Brief. Bioinform_. 1–7 (2017). doi:10.1093/bib/bbx108 \
 Kocher, S. D. _et al_. The draft genome of a socially polymorphic halictid. _Genome Biol_. 14, R142 (2013). \
+Lucaci, A. G., Wisotsky, S. R., Shank, S. D., Weaver, S., and Kosakovsky Pond,  S. L. Extra base hits: widespread empirical support for instantaneous multiple-nucleotide changes. _Plos one_, 16(*3*):e0248337, 2021. \
 Mendes FK, Vanderpool D, Fulton B, Hahn MW. CAFE 5 models variation in evolutionary rates among gene families. _Bioinformatics_. (2020) doi: 10.1093/bioinformatics/btaa1022. Epub ahead of print. PMID: 33325502. \
 Philippon, H., Souvane, A., Brochier-Armanet, C. & Perrière, G. IsoSel: Protein isoform selector for phylogenetic reconstructions. _PLoS One_. 12, 1–13 (2017). \
 Rehan, S. M., Glastad, K. M., Lawson, S. P. & Hunt, B. G. The Genome and Methylome of a Subsocial Small Carpenter Bee, _Ceratina calcarata_. _Genome Biol. Evol_. 8, 1401–1410 (2016). \
 Richard, F.-J., Holt, H. L. & Grozinger, C. M. Effects of immunostimulation on social behavior, chemical communication and genome-wide gene expression in honey bee workers (_Apis mellifera_). _BMC Genomics_ 13, 558 (2012). \
 Sadd, B. M. _et al_. The genomes of two key bumblebee species with primitive eusocial organization. _Genome Biol_. 16, 76 (2015). \
 Suyama, M., Torrents, D., Bork, P. & Delbru, M. PAL2NAL : robust conversion of protein sequence alignments into the corresponding codon alignments. _Nucleic Acids Res_. 34, 609–612 (2006). \
+Venkat, A., Hahn, M. W. and J. W. Thornton. Multinucleotide mutations cause false inferences of lineage-specific positive selection. _Nature ecology
+& evolution_, 2(8):1280–1288, 2018. \
 Wallberg, A. _et al_. A hybrid de novo genome assembly of the honeybee, _Apis mellifera_, with chromosome-length scaffolds. _BMC Genomics_. 20, 1–19 (2019). \
 Yang, Z. PAML: a program package for phylogenetic analysis by maximum likelihood. _Comput. Appl. Biosci_. 13, 555–6 (1997). \
 Yang, Z. PAML 4: Phylogenetic analysis by maximum likelihood. _Mol. Biol. Evol_. 24, 1586–1591 (2007). \
