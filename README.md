@@ -1,4 +1,4 @@
-# Project Zero: Assessing a changing immune system across 11 bee genomes.
+# Assessing a changing immune system across 11 bee genomes.
 
 ## 1: Selection Analyses
 
