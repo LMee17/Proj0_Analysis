@@ -8,13 +8,11 @@ output: html_document
 ##Libraries
 
 ```{r}
-library("InformationValue")
 library("ggplot2")
 library("ggpubr")
 library("FSA")
 library("stringr")
 library("dplyr")
-library("AICcmodavg")
 ```
 
 
@@ -161,211 +159,6 @@ write.table(data.df, "output/CodeML_Results_All_Nov21.tsv", quote = F, row.names
 ```
 
 ## PSGs: Immunity, Sociality ....
-
-###Logistic Regression
-I'm going to attempt to do some logistic regression to try and see what has more affect on whether or not a gene is under selection - whether or not it is or possibly is immune, what function is has or else whether the branch test was considered post an origin or elaboration of sociality.
-
-Source: https://www.statology.org/logistic-regression-in-r/
-
-Ok, let's figure out what's under selection and not (adj_pvalue < 0.05)
-
-```{r}
-data.df$PSG <- ifelse(data.df$adj_pvalue < 0.05, 1, 0)
-head(data.df, n = 40)
-```
-```{r}
-summary(as.factor(data.df$Class))
-```
-
-
-I also need a sociality variable for the branches tested
-
-```{r}
-summary(as.factor(data.df$SocOrigin))
-```
-
-
-```{r}
-elaboration <- c("AllComplex", "Meli", "Apis")
-origin <- c("AllOrigin", "Ceratina", "CorbSoc", "Lasio")
-solitary <- c("Habro", "Dufourea", "Mega", "AllSol")
-
-data.df$BranchTested[data.df$SocOrigin %in% elaboration] <- "Elaboration of Sociality"
-data.df$BranchTested[data.df$SocOrigin %in% origin] <- "Origin of Sociality"
-data.df$BranchTested[data.df$SocOrigin %in% solitary] <- "Solitary"
-
-summary(as.factor(data.df$BranchTested))
-```
-
-Let's make a working dataframe with my variables of interest (PSG 1/0, branch tested, socorigin, gene function, gene class)
-
-```{r}
-work <- data.df[,c("PSG", "BranchTested", "SocOrigin", "Function", "Immune", "Class")]
-
-head(work)
-```
-```{r}
-work$BranchTested <- as.factor(work$BranchTested)
-work$Function <- as.factor(work$Function)
-work$Class <- as.factor(work$Class)
-
-work[is.na(work$Function),]
-
-summary(work)
-```
-
-These are pretty much all categorical variables .... so not sure how well they will work ... 
-
-I'm going to make a training set regardless (70% to train, 30% to test)
-
-```{r}
-set.seed(17)
-
-sample <- sample(c(TRUE, FALSE), nrow(work), replace=TRUE, prob=c(0.7,0.3))
-train <- work[sample, ]
-test <- work[!sample, ]  
-```
-
-
-```{r}
-model <- glm(PSG~BranchTested+SocOrigin+Function+Class, family="binomial", data=train)
-
-summary(model)
-```
-
-Hmm. I may change the branch test to integers.
-
-```{r}
-work$BranchTested <- as.character(work$BranchTested)
-work$BranchTested[work$BranchTested == "Elaboration of Sociality"] <- "3"
-work$BranchTested[work$BranchTested == "Origin of Sociality"] <- "2"
-work$BranchTested[work$BranchTested == "Solitary"] <- "1"
-work$BranchTested <- as.integer(work$BranchTested)
-
-set.seed(17)
-sample <- sample(c(TRUE, FALSE), nrow(work), replace=TRUE, prob=c(0.7,0.3))
-train <- work[sample, ]
-test <- work[!sample, ] 
-
-model <- glm(PSG~BranchTested+SocOrigin+Function+Class, family="binomial", data=train)
-
-summary(model)
-```
-
-Ok, too many variables, too, too many variables. I'm going to remove SocOrigin and see if anything happens. Though looking at this so far it looks like the individual test has more influence on the outcome of a gene being positively selected or not
-
-```{r}
-work2 <- work[,c(-3)]
-summary(work2)
-```
-```{r}
-model2 <- glm(PSG~BranchTested+Function+Immune+Class, family="binomial", data=train)
-
-summary(model2)
-```
-
-
-Error: 3 not defined because of singularities. Which apparently means these are too correlated ...
-
-```{r}
-model3 <- glm(PSG~BranchTested+Immune, family="binomial", data=train)
-
-summary(model3)
-```
-
-So when its straight up sociality of the branch test versus immunity, sociality wins outright.
-
-```{r}
-model4 <- glm(PSG~BranchTested+Function, family="binomial", data=train)
-
-summary(model4)
-```
-
-And lastly, is this surely a case of whether the branch test is solitary, post origin, post elaboration or else simply phylogenetic ? 
-
-```{r}
-model5 <- glm(PSG~BranchTested+SocOrigin, family="binomial", data=train)
-
-summary(model5)
-```
-
-Let's compare AIC
-
-```{r}
-mod.list <- list(model, model2, model3, model4, model5)
-
-mods.aic <- vector(length = 5)
-
-for (i in 1:length(mod.list)){
-  mods.aic[i] <- mod.list[[i]]$aic
-}
-
-mods.aic
-```
-
-For the McFadden r2 a good fit is between .2 to .4
-
-```{r}
-mods.McFadden <- vector(length = 5)
-
-for (i in 1:5){
-  mods.McFadden[i] <- pscl::pR2(mod.list[[i]])["McFadden"]
-}
-
-mods.McFadden
-```
-
-So none are particularly good, but model1 and 5 are considerably better than the others.
-
-I'm going to move forward with 5 as it has the lowest AIC (though the second highest McFadden R2). First I'm going to try and compute the variable importance of each of the factors
-
-```{r}
-caret::varImp(model5)
-```
-
-Here, branch tested ie the sociality of the test doesn't really affect whether the gene is under selection or not. Instead the strongest indicators of whether or not the gene will be under selection is whether the branch tested happened to be the branch leading to Lasioglossum or Melipona. This could be a sign that these genomes aren't the greatest build (that's what I'm willing to put money on). 
-
-I wish there was a way I could normalise the gene counts with these two. I'll come back to that.
-
-Let's get on with the test subset.
-
-```{r}
-predicted <- predict(model5, test, type="response")
-```
-
-  
-Using InformationValue to find the optimal probability to help improve model accuracy ...
-
-```{r}
-optimal <- optimalCutoff(test$PSG, predicted)[1]
-optimal
-```
-
-Any gene with a probability above 0.0678 is likely to be under selection ? Wow ha.
-
-Confusion matrix
-
-
-```{r}
-confusionMatrix(test$PSG, predicted)
-```
-This would assume that everything in the test dataframe isn't under selection.
-
-Calculate total misclassification error rate
-
-```{r}
-misClassError(test$PSG, predicted, threshold=optimal)
-```
-
-Hmm. This suggests the misclassification of the model is 9.25%. So 1 in 10 are wrong essentially.
-
-And finally, plot ROC (Receiver Operating Characteristic) Curve. (displays the percentage of true positives predicted by the model as the prediction probability cutoff is lowered from 1 to 0. The higher the AUC (area under the curve), the more accurately our model is able to predict outcomes)
-
-```{r}
-plotROC(test$PSG, predicted)
-```
-That's actually not *that* bad.
-
 
 ###Pearson's ChiSq with Simulated Pvalues
 
@@ -586,28 +379,23 @@ boxplot(dN.dS~Function, data = data.df)
 And just to look at the statistics.
 
 ```{r}
-mean(data.df$dN.dS[data.df$Class == "Canon Immune"])
+data.df %>%
+  group_by(Class) %>%
+  select(dN.dS, Class) %>%
+  mutate(Mean = mean(dN.dS)) %>%
+  select(Class, Mean) %>%
+  unique()
 ```
 
 ```{r}
-mean(data.df$dN.dS[data.df$Class == "Non-Canon"])
+data.df %>%
+  group_by(Function) %>%
+  select(dN.dS, Function) %>%
+  mutate(Mean = mean(dN.dS)) %>%
+  select(Function, Mean) %>%
+  unique()
 ```
 
-```{r}
-mean(data.df$dN.dS[data.df$Class == "Background"])
-```
-
-```{r}
-mean(data.df$dN.dS)
-```
-
-Ooh. That's interesting regarding the non-canonical subsection.
-
-```{r}
-mean(data.df$dN.dS[data.df$Function == "Receptor"])
-mean(data.df$dN.dS[data.df$Function == "Signalling"])
-mean(data.df$dN.dS[data.df$Function == "Effector"])
-```
 
 ###Tests of Significance
 
@@ -618,10 +406,6 @@ hist(data.df$dN.dS[data.df$Class == "Non-Canon"], main = "", xlab = "dN.dS")
 ```
 
 Anyway.
-
-```{r}
-require("dplyr")
-```
 
 ```{r}
 group_by(data.df, Function) %>%
@@ -637,11 +421,6 @@ group_by(data.df, Function) %>%
 
 
 ```{r}
-ggboxplot(data.df, x = "Function", y = "dN.dS",
-          ylab = "Omega", xlab = "Gene Class")
-```
-
-```{r}
 ggline(data.df, x = "Function", y = "dN.dS", 
        add = c("mean_se", "jitter"), 
        ylab = "Omega", xlab = "Gene Class")
@@ -650,15 +429,51 @@ ggline(data.df, x = "Function", y = "dN.dS",
 And the test ...
 
 ```{r}
-kruskal.test(dN.dS ~ Function, data = data.df)
+kruskal.test(dN.dS ~ as.factor(Function), data = data.df)
 ```
 
 Ooh. There are differences.
 
 ```{r}
-dunnTest(dN.dS ~ Function, data = data.df, method = "bonferroni")
+dunnTest(dN.dS ~ as.factor(Function), data = data.df, method = "bonferroni") 
 ```
 
+```{r}
+test <- dunnTest(dN.dS ~ Function, data = data.df, method = "bonferonni")
+dunndf <- test$res
+dunndf %>%
+  filter(P.adj > 0.05)
+```
+
+```{r}
+comps <- list(c("Background", "Non-Canon Immune"),
+              c("Effector", "Non-Canon Immune"),
+              c("Background", "Receptor"),
+              c("Effector", "Receptor"),
+              c("Background", "Signalling"),
+              c("Effector", "Signalling"),
+              c("Non-Canon Immune", "Signalling"),
+              c("Receptor", "Signalling"))
+
+ggplot(data = data.df, aes(x = Function, y = dN.dS)) +
+  geom_violin() +
+  stat_compare_means(comparisons = comps,
+                    label = "p.signif", 
+                    symnum.args = list(cutpoints = c(0, 0.0001, 0.001, 0.01, 0.05, 1),
+                    symbols = c("****", "***", "**", "*", "ns")),
+                    method = "wilcox",
+                    size = 5)
+```
+
+```{r}
+TukeyHSD(aov(data = data.df,
+      dN.dS ~ Function))
+```
+
+```{r}
+write.table(dunndf, "output/DunnTest_DnDsbyGeneFunc.tsv",
+            col.names = T, row.names = F, sep = "\t", quote = F)
+```
 
 
 ##GO Analysis
@@ -684,6 +499,7 @@ head(can.imm)
 
 can.imm[can.imm$Gene == "Pgrp-S2",]
 ```
+
 ```{r}
 id <- read.table("Genome_Misc/AmelHAv3.1_filtered.checked.faa.table", sep = "\t",
                  header = T)
@@ -769,53 +585,6 @@ runtopGO.R produces many results files. For each lineage/class combination (and 
 ```
 
 
-##GOI
-
-Are there interesting genes that are under selection in more than one lineage ? 
-
-```{r}
-data.sig <- data.df[data.df$adj_pvalue < 0.05,]
-
-data.goi <- data.sig[,c(1,5:7)]
-head(data.goi)
-```
-
-```{r}
-data.goi <- aggregate(data.goi[2], data.goi[-2], 
-                     FUN = function(X) paste(unique(X), collapse=", "))
-head(data.goi)
-```
-```{r}
-data.goi$count <- str_count(data.goi$SocOrigin, pattern = ",")+1
-
-head(data.goi)
-```
-
-Biggest immune candidates ? 
-
-```{r}
-data.goi[data.goi$Class == "Canon Immune" & data.goi$count > 1,]
-```
-
-And candidate immune....
-
-```{r}
-data.goi[data.goi$Class == "Non-Canon" & data.goi$count > 1,]
-```
-Eeek. Lot less to talk about in the discussion haha.
-
-What about what were the biggest hitters full stop ? 
-
-```{r}
-data.goi[data.goi$count == max(data.goi$count),]
-```
-Cubilin .... has something to do with protein absorption, expressed in gut tissue.
-
-```{r}
-data.goi[data.goi$count > 3,]
-```
-
-
 ##CMD Considerations
 
 So, whilst doing this project it became apparent that the branch-site test of selection has a setback - it counts all codons of multiple differences (CMDs) that may have occurred due to single multiple nucleotide mutations (MNM) as positive selection, when this may not be the case. As it assume that all nucleotide changes are individual events and does not consider MNM it overestimates the importance of these codons. They may still have become fixated thanks to positive selection, but these codons may also persist thanks to neutral fixation. And the test cannot discern between these two phenomena
@@ -871,7 +640,6 @@ write.table(mnm.df, "output/MNM_Entire.tsv",
 ```
 
 
-
 I need to go through the significant dataframe by SocOrigin and paste each test result per gene ....
 
 There's a couple of failures in the background genes I'm going to remove
@@ -904,271 +672,6 @@ x <- nrow(data.sig[data.sig$TwoHitCheck == "Fail" | data.sig$ThreeHitCheck == "F
 ```
 
 2.64% . . . 
-
-Where are these failures mostly ? 
-
-```{r}
-table(data.sig$Class, data.sig$TwoHitCheck)
-data.df[data.df$Gene == "LOC412505",]
-```
-
-
-```{r}
-chisq.test(table(data.sig$Class, data.sig$TwoHitCheck))
-```
-
-```{r}
-table(data.sig$Class, data.sig$ThreeHitCheck)
-```
-
-```{r}
-chisq.test(table(data.sig$Class, data.sig$TwoHitCheck))
-```
-
-What about by branch test ? 
-
-```{r}
-a <- unique(data.sig$BranchTested)
-b <- vector(length = length(a))
-for (i in 1:length(a)){
-  b[i] <- nrow(data.sig[data.sig$BranchTested == paste(a[i])
-                                                       & data.sig$TwoHitCheck == "Pass",])
-}
-c <- vector(length = length(a))
-for (i in 1:length(a)){
-  c[i] <- nrow(data.sig[data.sig$BranchTested == paste(a[i])
-                        & data.sig$TwoHitCheck == "Fail",])
-}
-twohit <- as.data.frame(cbind(a,b,c))
-twohit$b <- as.numeric(twohit$b)
-twohit$c <- as.numeric(twohit$c)
-
-names(twohit) <- c("Branch_Test", "Pass", "Fail")
-twohit$FailRate <- (twohit$Fail / (twohit$Pass + twohit$Fail))*100
-twohit$Test <- paste("2H")
-twohit
-```
-```{r}
-a <- unique(data.sig$BranchTested)
-b <- vector(length = length(a))
-for (i in 1:length(a)){
-  b[i] <- nrow(data.sig[data.sig$BranchTested == paste(a[i])
-                                                       & data.sig$ThreeHitCheck == "Pass",])
-}
-c <- vector(length = length(a))
-for (i in 1:length(a)){
-  c[i] <- nrow(data.sig[data.sig$BranchTested == paste(a[i])
-                        & data.sig$ThreeHitCheck == "Fail",])
-}
-threehit <- as.data.frame(cbind(a,b,c))
-threehit$b <- as.numeric(threehit$b)
-threehit$c <- as.numeric(threehit$c)
-
-names(threehit) <- c("Branch_Test", "Pass", "Fail")
-threehit$FailRate <- (threehit$Fail / (threehit$Pass + threehit$Fail))*100
-threehit$Test <- paste("3H")
-threehit
-```
-
-```{r}
-allhit <- rbind(twohit, threehit)
-allhit
-```
-
-```{r}
-allhit$Branch_Test <- factor(allhit$Branch_Test, levels = c("Solitary", "Origin of Sociality",
-                                                             "Elaboration of Sociality"))
-
-ggplot(data = allhit, aes(x = Branch_Test, y = FailRate, group = Test)) +
-  geom_line(linetype= "dashed", aes(colour = Test)) +
-  geom_point(shape = 18, size = 2, aes(colour = Test)) +
-  ylab("% PSGs with all selected sites considered CMD") +
-  xlab("Branch Test")
-```
-
-```{r}
-chisq.test(table(data.sig$TwoHitCheck, data.sig$BranchTested))
-```
-
-```{r}
-chisq.test(table(data.sig$ThreeHitCheck, data.sig$BranchTested))
-```
-
-By species ? 
-
-```{r}
-a <- unique(data.sig$SocOrigin)
-b <- vector(length = length(a))
-for (i in 1:length(a)){
-  b[i] <- nrow(data.sig[data.sig$SocOrigin == paste(a[i])
-                                                       & data.sig$TwoHitCheck == "Pass",])
-}
-c <- vector(length = length(a))
-for (i in 1:length(a)){
-  c[i] <- nrow(data.sig[data.sig$SocOrigin == paste(a[i])
-                        & data.sig$TwoHitCheck == "Fail",])
-}
-
-twohit.spec <- as.data.frame(cbind(as.character(a),b,c))
-twohit.spec$b <- as.numeric(twohit.spec$b)
-twohit.spec$c <- as.numeric(twohit.spec$c)
-
-names(twohit.spec) <- c("Branch_Test", "Pass", "Fail")
-twohit.spec$FailRate <- (twohit.spec$Fail / (twohit.spec$Pass + twohit.spec$Fail))*100
-twohit.spec$Test <- paste("2H")
-twohit.spec
-```
-
-```{r}
-a <- unique(data.sig$SocOrigin)
-b <- vector(length = length(a))
-for (i in 1:length(a)){
-  b[i] <- nrow(data.sig[data.sig$SocOrigin == paste(a[i])
-                                                       & data.sig$ThreeHitCheck == "Pass",])
-}
-c <- vector(length = length(a))
-for (i in 1:length(a)){
-  c[i] <- nrow(data.sig[data.sig$SocOrigin == paste(a[i])
-                        & data.sig$ThreeHitCheck == "Fail",])
-}
-
-threehit.spec <- as.data.frame(cbind(as.character(a),b,c))
-threehit.spec$b <- as.numeric(threehit.spec$b)
-threehit.spec$c <- as.numeric(threehit.spec$c)
-
-names(threehit.spec) <- c("Branch_Test", "Pass", "Fail")
-threehit.spec$FailRate <- (threehit.spec$Fail / (threehit.spec$Pass + threehit.spec$Fail))*100
-threehit.spec$Test <- paste("3H")
-threehit.spec
-```
-
-
-
-```{r}
-allhit.spec <- rbind(twohit.spec, threehit.spec)
-
-allhit.spec$Branch_Test <- factor(allhit.spec$Branch_Test, levels = c("Dufourea", 
-                                                                      "Habro", 
-                                                                      "Mega", 
-                                                                      "AllSol",
-                                                                      "Lasio", 
-                                                                      "Ceratina", 
-                                                                      "CorbSoc", 
-                                                                      "AllOrigin", 
-                                                                      "Meli",
-                                                                      "Apis",
-                                                                      "AllComplex"))
-
-ggplot(data = allhit.spec, aes(x = Branch_Test, y = FailRate, group = Test)) +
-  geom_line(linetype= "dashed", aes(colour = Test)) +
-  geom_point(shape = 18, size = 2, aes(colour = Test)) +
-  ylab("% PSGs with all selected sites considered CMD") +
-  xlab("Branch Test")
-```
-
-
-```{r}
-allhit.spec$BranchType <- rep(c("Elaboration", "Origin", "Solitary",
-                            "Elaboration", "Origin", "Origin", 
-                            "Solitary", "Solitary", "Origin", "Solitary", "Elaboration"),2)
-
-ggplot(data = allhit.spec[-c(1:3,12:14),], aes(x = Branch_Test, y = FailRate, group = Test)) +
-  geom_line(linetype= "dashed", aes(colour = Test)) +
-  geom_point(size = 2, aes(shape = BranchType, colour = Test)) +
-  ylab("% PSGs with all selected sites considered CMD") +
-  xlab("Branch Test")
-```
-
-####Codon By Codon
-
-Does it make more sense to break this down by codon ? 
-
-```{r}
-filelist <- list.files(pattern = "*tsv", path = "input/CMD_Codons/")
-cod.list <- lapply(filelist, function(x){
-  read.table(paste("input/CMD_Codons/", x, sep = ""), header = T, sep = "\t")
-})
-```
-
-```{r}
-for (i in 1:length(cod.list)){
-  cod.list[[i]]$BranchTest <- getname(filelist[i])
-}
-
-head(cod.list[[6]])
-```
-
-```{r}
-cod.df <- bind_rows(cod.list)
-head(cod.df)
-```
-```{r}
-cod.df$Prop2H <- cod.df$No_2hitCMD / cod.df$NoSelectedCodons
-cod.df$Prop3H <- cod.df$No_3hitCMD / cod.df$NoSelectedCodons
-cod.df
-```
-```{r}
-cod.df$BranchTest[cod.df$BranchTest == "Halictid"] <- "Lasio"
-cod.df$BranchTest[cod.df$BranchTest == "Xylo"] <- "Ceratina"
-cod.df$BranchTest[cod.df$BranchTest == "Nova"] <- "Dufourea"
-
-cod.df$BranchType[cod.df$BranchTest %in% elaboration] <- "Elaboration of Sociality"
-cod.df$BranchType[cod.df$BranchTest %in% origin] <- "Origin of Sociality"
-cod.df$BranchType[cod.df$BranchTest %in% solitary] <- "Solitary"
-
-head(cod.df)
-```
-
-```{r}
-write.table(cod.df, "output/CMD_ByCodon.tsv",
-            col.names = T, row.names = F, quote = F, sep = "\t")
-```
-
-
-
-```{r}
-branches <- unique(cod.df$BranchType)
-a <- matrix(nrow = length(branches), ncol = 5)
-
-for (i in 1:length(branches)){
-  a[i,1] <- sum(cod.df$NoSelectedCodons[cod.df$BranchType == paste(branches[i])])
-  a[i,2] <- sum(cod.df$No_2hitCMD[cod.df$BranchType == paste(branches[i])])
-  a[i,3] <- (as.numeric(a[i,2]) / as.numeric(a[i,1]))*100
-  a[i,4] <- "2H"
-  a[i,5] <- paste(branches[i])
-}
-b  <- matrix(nrow = length(branches), ncol = 5)
-for (i in 1:length(branches)){
-  b[i,1] <- sum(cod.df$NoSelectedCodons[cod.df$BranchType == paste(branches[i])])
-  b[i,2] <- sum(cod.df$No_3hitCMD[cod.df$BranchType == paste(branches[i])])
-  b[i,3] <- (as.numeric(b[i,2]) / as.numeric(b[i,1]))*100
-  b[i,4] <- "3H"
-  b[i,5] <- paste(branches[i])
-}
-
-codon <- as.data.frame(rbind(a,b))
-names(codon) <- c("NoSites", "NoCMD", "PerCMD", "Model", "BranchTest")
-codon$NoSites <- as.numeric(codon$NoSites)
-codon$NoCMD <- as.numeric(codon$NoCMD)
-codon$PerCMD <- as.numeric(codon$PerCMD)
-
-codon
-```
-
-```{r}
-ggplot(data = codon, aes(x = BranchTest, y = PerCMD, group = Model)) +
-  geom_line(linetype= "dashed", aes(colour = Model)) +
-  geom_point(size = 2, aes(shape = BranchTest, colour = Model)) +
-  ylab("% Positively Selected Codons considered CMD") +
-  xlab("Branch Test")
-```
-
-And overall?
-
-```{r}
-codon
-```
-
 
 ##GC Content
 
@@ -1220,138 +723,6 @@ head(gc2)
 ```{r}
 ggplot(data = gc2, aes(x = Species, y = GC, fill = BranchTest)) +
   geom_boxplot()
-```
-
-```{r}
-gc2$Sociality[gc2$Species == "Amel" | gc2$Species == "Aflo" | 
-                gc2$Species == "Mqua"] <- "Complex Eusocial"
-gc2$Sociality[gc2$Species == "Bter" | gc2$Species == "Bimp"] <- "Simple Eusocial"
-gc2$Sociality[gc2$Species == "Ccal" | gc2$Species == "Lalb" |
-                gc2$Species == "Emex"] <- "Simple (facultative)"
-gc2$Sociality[gc2$Species == "Dnov" | gc2$Species == "Hlab" |
-                gc2$Species == "Mrot"] <- "Solitary"
-```
-
-```{r}
-ggplot(data = gc2, aes(x = Species, y = GC, fill = Sociality)) +
-  geom_boxplot()
-
-```
-
-What's the average GC content saying ? 
-
-```{r}
-head(data.df)
-one <- data.df[,c(1,10)]
-one$Species <- "All Species"
-names(one)[2] <- "GC"
-one$Sociality <- "All"
-one$BranchTest <- "NA"
-
-gc3 <- rbind(gc2, one)
-tail(gc3)
-```
-```{r}
-gc3$Species <- factor(gc3$Species, levels=c("All Species", "Dnov", "Hlab", "Mrot",
-                                                "Ccal", "Emex", "Lalb", 
-                                                "Bimp", "Bter",
-                                                "Aflo", "Amel", "Mqua"))
-
-ggplot(data = gc3, aes(x = Species, y = GC, fill = Sociality)) +
-  geom_boxplot()
-```
-
-```{r}
-specs <- unique(gc3$Species)
-mu <- vector(length = length(specs))
-for (i in 1:length(specs)){
-  mu[i] <- mean(gc3$GC[gc3$Species == paste(specs[i])])
-}
-names(mu) <- specs
-mu
-```
-
-
-```{r}
-ggplot(gc2, aes(x=GC)) + 
-            geom_histogram(aes(y = ..density..), binwidth=.25, colour="black", fill="white") +
-            stat_function(fun = dnorm, lwd = 2, col = 'red', 
-                          args = list(mean = mean(gc2$GC), sd = sd(gc2$GC)))
-```
-Ooh. Yay
-
-```{r}
-ggplot(gc2, aes(sample = GC)) + stat_qq()
-```
-```{r}
-soc.aov <- aov(GC ~ Sociality, data = gc2)
-summary(soc.aov)
-```
-
-What about the origins and elaboration ?
-
-```{r}
-branch.aov <- aov(GC ~ BranchTest, data = gc2)
-summary(branch.aov)
-```
-
-Hmm. But what's more informative ? 
-
-```{r}
-plot(soc.aov)
-```
-
-Are they linked ?
-
-```{r}
-socbranch.aov <- aov(GC ~ Sociality + BranchTest, data = gc2)
-```
-
-
-
-```{r}
-model.set <- list(soc.aov, branch.aov, socbranch.aov)
-model.names <- c("Social", "Branch Tested", "Sociality and Branch")
-
-aictab(model.set, modnames = model.names)
-```
-
-Ok so its sociality.
-
-```{r}
-plot(soc.aov)
-```
-
-Post-hoc time
-
-```{r}
-TukeyHSD(soc.aov)
-```
-
-So everything's different to everything else. 
-
-If I was to code sociality, what would the relationship look like ?
-
-```{r}
-gc2$Sociality2[gc2$Sociality == "Simple (facultative)"] <- 1
-gc2$Sociality2[gc2$Sociality == "Simple Eusocial"] <- 2
-gc2$Sociality2[gc2$Sociality == "Complex Eusocial"] <- 3
-gc2$Sociality2[gc2$Sociality == "Solitary"] <- 0
-gc2$Sociality2 <- as.numeric(gc2$Sociality2)
-
-head(gc2)
-```
-
-```{r}
-GC_means <- gc2 %>% 
-  group_by(BranchTest) %>% 
-  summarize(mean_GC=mean(GC)) 
-GC_means
-```
-
-```{r}
-ggplot(GC_means, aes(x=BranchTest, y=mean_GC)) +
-  geom_bar(stat="identity") 
 ```
 
 ##GC vs dNdS / Selection
@@ -1484,88 +855,7 @@ As evolutionary rate increases, GC content tends to slightly decrease.
 
 Though it's interesting to note that non-canon genes and receptor genes are in the uppermost of both higher GC content and higher omega value. 
 
-###Selection
-
-Right. So how am I going to attack this one. 
-
-Start off with all genes, all branch tests, average GC content per gene and the adj pvalue.
-
-Can approach this two ways - add selection as boolean variable and remove all other information then just assess differences between under selection or not, else add a gene as under selection if it is *ever* under selection across the tests.
-
-
-```{r}
-work5 <- data.df
-work5$Selection <- ifelse(work5$adj_pvalue < 0.05, "Under Selection", "Not Under Selection")
-work5$Selection <- as.factor(work5$Selection)
-
-ggplot(data = work5, aes(x = Selection, y = GeneAverage))+
-  geom_boxplot()
-```
-
-Oh, interesting.
-
-```{r}
-ggplot(data = work5, aes(x = Selection, y = GeneAverage))+
-  geom_boxplot() +
-  facet_wrap(~ BranchTested) +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) 
-```
-
-But ...... these are the gene averages, not the real averages of the real data ....
-
-Oh god this is going to be so tricky.
-
-Right so, first, let's get the averages per branch tests from the original gc table.
-
-```{r}
-head(gc)
-
-gc4 <- gc
-gc4 <- gc4[!duplicated(gc4),]
-gc4$AvgElaboration <- rowMeans(gc4[, c(3:4,12)])
-gc4$AvgOrigin <- rowMeans(gc4[, c(3:7,9,11:12)])
-gc4$AvgSolitary <- rowMeans(gc4[, c(8,10,13)])
-head(gc4)
-```
-
-```{r}
-one <- c("AvgElaboration", "AvgOrigin", "AvgSolitary")
-two <- c("Elaboration of Sociality", "Origin of Sociality", "Solitary")
-key <- data.frame(one,two)
-key$one <- as.factor(key$one)
-key$two <- as.factor(key$two)
-
-work5$AvgBranch <- paste(" ")
-
-for (i in 1:nrow(work5)){
-  b <- work5[i,17]
-  t <- key$one[key$two == paste(b)]
-  g <- work5[i,1]
-  y <- gc4[gc4$Gene == paste(g),]
-  avg <- y[[paste(t)]]
-  work5[i,19] <- paste(avg)
-}
-
-work5$AvgBranch <- as.numeric(work5$AvgBranch)
-
-head(work5)
-```
-
-Try this again
-
-```{r}
-ggplot(data = work5, aes(x = Selection, y = AvgBranch))+
-  geom_boxplot() +
-  facet_wrap(~ BranchTested) +
-  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) 
-```
-
-```{r}
-ggplot(work5, aes(x=Selection, y=AvgBranch, fill=BranchTested)) +
-  geom_boxplot() +
-  coord_flip()
-```
-
+##SessionInfo
 ```{r}
 sesh <- sessionInfo()
 #writeLines(capture.output(sessionInfo()), "sessionInfo.txt")
@@ -1574,4 +864,3 @@ sesh <- sessionInfo()
 ```{r}
 sesh
 ```
-
